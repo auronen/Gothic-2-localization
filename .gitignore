@@ -1,0 +1,8 @@
+Music/
+Sound/
+Video/
+PRESETS/
+*.[dD][aA][tT]
+.dls
+.vscode/
+.DS_Store
