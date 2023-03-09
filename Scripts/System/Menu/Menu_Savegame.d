@@ -246,8 +246,8 @@ instance MENUITEM_LOADSAVE_PLAYTIME_VALUE(C_MENU_ITEM_DEF)
 
 instance MENUITEM_SAVE_BACK(C_MENU_ITEM_DEF)
 {
-	text[0]		=	"Zurück";
-	text[1]		=	"Back";
+	text[0]		=	MENU_BACK;
+	text[1]		=	MENU_BACK;
 	posx		=	SAVEGAME_X1;
 	posy		=	SAVEGAME_Y + 21*SAVEGAME_DY;
 };
@@ -262,7 +262,7 @@ instance MENUITEM_SAVE_BACK(C_MENU_ITEM_DEF)
 
 INSTANCE MENUITEM_LOAD_BACK(C_MENU_ITEM_DEF)
 {
-	text[0]		=	"Zurück";
+	text[0]		=	MENU_BACK;
 	posx		=	SAVEGAME_X1;
 	posy		=	SAVEGAME_Y + 21*SAVEGAME_DY;
 };
@@ -289,7 +289,7 @@ INSTANCE MENUITEM_SAVE_SLOT1(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 1 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -306,7 +306,7 @@ INSTANCE MENUITEM_SAVE_SLOT2(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 2 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -323,7 +323,7 @@ INSTANCE MENUITEM_SAVE_SLOT3(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 3 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -341,7 +341,7 @@ INSTANCE MENUITEM_SAVE_SLOT4(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 4 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -359,7 +359,7 @@ INSTANCE MENUITEM_SAVE_SLOT5(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 5 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -376,7 +376,7 @@ INSTANCE MENUITEM_SAVE_SLOT6(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 6 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -393,7 +393,7 @@ INSTANCE MENUITEM_SAVE_SLOT7(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 7 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -410,7 +410,7 @@ INSTANCE MENUITEM_SAVE_SLOT8(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 8 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -426,7 +426,7 @@ INSTANCE MENUITEM_SAVE_SLOT8(C_MENU_ITEM_DEF)
 INSTANCE MENUITEM_SAVE_SLOT9(C_MENU_ITEM_DEF)
 {
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 9 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -443,7 +443,7 @@ INSTANCE MENUITEM_SAVE_SLOT10(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 10 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -461,7 +461,7 @@ INSTANCE MENUITEM_SAVE_SLOT11(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 11 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -478,7 +478,7 @@ INSTANCE MENUITEM_SAVE_SLOT12(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 12 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -495,7 +495,7 @@ INSTANCE MENUITEM_SAVE_SLOT13(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 13 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -512,7 +512,7 @@ INSTANCE MENUITEM_SAVE_SLOT14(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 14 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -529,7 +529,7 @@ INSTANCE MENUITEM_SAVE_SLOT15(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 15 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -547,7 +547,7 @@ INSTANCE MENUITEM_SAVE_SLOT16(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 16 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -564,7 +564,7 @@ INSTANCE MENUITEM_SAVE_SLOT17(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 17 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -581,7 +581,7 @@ INSTANCE MENUITEM_SAVE_SLOT18(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 18 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -598,7 +598,7 @@ INSTANCE MENUITEM_SAVE_SLOT19(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 19 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -615,7 +615,7 @@ INSTANCE MENUITEM_SAVE_SLOT20(C_MENU_ITEM_DEF)
 {
 	backPic		=   MENU_INPUT_BACK_PIC;
 	type		=	MENU_ITEM_INPUT;
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 20 - RETURN zum Speichern in diesem Slot."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -637,7 +637,7 @@ INSTANCE MENUITEM_SAVE_SLOT20(C_MENU_ITEM_DEF)
 
 INSTANCE MENUITEM_LOAD_SLOT1(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 1 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -650,7 +650,7 @@ INSTANCE MENUITEM_LOAD_SLOT1(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT2(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 2 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -663,7 +663,7 @@ INSTANCE MENUITEM_LOAD_SLOT2(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT3(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 3 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -676,7 +676,7 @@ INSTANCE MENUITEM_LOAD_SLOT3(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT4(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 4 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -689,7 +689,7 @@ INSTANCE MENUITEM_LOAD_SLOT4(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT5(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 5 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -702,7 +702,7 @@ INSTANCE MENUITEM_LOAD_SLOT5(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT6(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 6 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -715,7 +715,7 @@ INSTANCE MENUITEM_LOAD_SLOT6(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT7(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "unknown";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 7 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -728,7 +728,7 @@ INSTANCE MENUITEM_LOAD_SLOT7(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT8(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 8 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -741,7 +741,7 @@ INSTANCE MENUITEM_LOAD_SLOT8(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT9(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 9 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -754,7 +754,7 @@ INSTANCE MENUITEM_LOAD_SLOT9(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT10(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 10 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -770,7 +770,7 @@ INSTANCE MENUITEM_LOAD_SLOT10(C_MENU_ITEM_DEF)
 
 INSTANCE MENUITEM_LOAD_SLOT11(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 11 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -783,7 +783,7 @@ INSTANCE MENUITEM_LOAD_SLOT11(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT12(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 12 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -796,7 +796,7 @@ INSTANCE MENUITEM_LOAD_SLOT12(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT13(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 13 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -809,7 +809,7 @@ INSTANCE MENUITEM_LOAD_SLOT13(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT14(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 14 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -822,7 +822,7 @@ INSTANCE MENUITEM_LOAD_SLOT14(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT15(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 15 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -836,7 +836,7 @@ INSTANCE MENUITEM_LOAD_SLOT15(C_MENU_ITEM_DEF)
 
 INSTANCE MENUITEM_LOAD_SLOT16(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 16 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -849,7 +849,7 @@ INSTANCE MENUITEM_LOAD_SLOT16(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT17(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 17 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -862,7 +862,7 @@ INSTANCE MENUITEM_LOAD_SLOT17(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT18(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 18 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -875,7 +875,7 @@ INSTANCE MENUITEM_LOAD_SLOT18(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT19(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 19 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;
@@ -888,7 +888,7 @@ INSTANCE MENUITEM_LOAD_SLOT19(C_MENU_ITEM_DEF)
 };
 INSTANCE MENUITEM_LOAD_SLOT20(C_MENU_ITEM_DEF)
 {
-	text[0]		=   "---";
+	text[0]		=   MENU_UNKNOWN;
 	text[1]		=   "Slot 20 - RETURN zum Laden des Spielstandes."; // Kommentar
 
 	posx		=	SAVEGAME_X1;

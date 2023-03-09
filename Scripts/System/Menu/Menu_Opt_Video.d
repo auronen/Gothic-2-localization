@@ -227,7 +227,7 @@ INSTANCE MENUITEM_VID_GAMMA_SLIDER(C_MENU_ITEM_DEF)
 INSTANCE MENUITEM_VID_BACK(C_MENU_ITEM_DEF)
 {
 	backpic		=	MENU_ITEM_BACK_PIC;
-	text[0]		=	"Zurück";
+	text[0]		=	MENU_BACK;
 	// Position und Dimension	
 	posx		=	1000;		posy		=	MENU_BACK_Y;
 	dimx		=	6192;		dimy		=	MENU_DY;

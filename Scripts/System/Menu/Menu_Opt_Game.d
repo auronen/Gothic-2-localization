@@ -76,7 +76,7 @@ instance MENUITEM_GAME_SUB_TITLES_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;		
-	text[0]		= 	"nein|ja";
+	text[0]		= 	MENU_NO_YES;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		=	MENU_START_Y + MENU_SOUND_DY*0 + MENU_CHOICE_YPLUS;
@@ -112,7 +112,7 @@ instance MENUITEM_GAME_ANIMATE_WINDOWS_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;	
-	text[0]		= 	"nein|ja";
+	text[0]		= 	MENU_NO_YES;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		= MENU_START_Y + MENU_SOUND_DY*1 + MENU_CHOICE_YPLUS;
@@ -176,7 +176,7 @@ instance MENUITEM_GAME_INTERACTFOCUS_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;	
-	text[0]		= 	"nein|ja";
+	text[0]		= 	MENU_NO_YES;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		= MENU_START_Y + MENU_SOUND_DY*2 + MENU_CHOICE_YPLUS;
@@ -215,7 +215,7 @@ instance MENUITEM_GAME_LOOKAROUND_INVERSE_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;		
-	text[0]		= 	"nein|ja";
+	text[0]		= 	MENU_NO_YES;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		=	MENU_START_Y + MENU_SOUND_DY*3 + MENU_CHOICE_YPLUS;
@@ -251,7 +251,7 @@ instance MENUITEM_M_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;	
-	text[0]		= 	"aus|an";
+	text[0]		= 	MENU_OFF_ON;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		= MENU_START_Y + MENU_SOUND_DY*4 + MENU_CHOICE_YPLUS;
@@ -361,7 +361,7 @@ INSTANCE MENUITEM_GAME_OLDCONTROLS_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;	
-	text[0]		= 	"aus|an";
+	text[0]		= 	MENU_OFF_ON;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		= MENU_START_Y + MENU_SOUND_DY*6 + MENU_CHOICE_YPLUS;
@@ -380,7 +380,7 @@ INSTANCE MENUITEM_GAME_OLDCONTROLS_CHOICE(C_MENU_ITEM_DEF)
 INSTANCE MENUITEM_GAME_BACK(C_MENU_ITEM_DEF)
 {
 	backpic		=	MENU_ITEM_BACK_PIC;
-	text[0]		=	"Zurück";
+	text[0]		=	MENU_BACK;
 	// Position und Dimension	
 	posx		=	1000;		posy		=	MENU_BACK_Y;
 	dimx		=	6192;		dimy		=	MENU_SOUND_DY;

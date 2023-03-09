@@ -150,7 +150,7 @@ INSTANCE MENUITEM_AUDIO_MUSIC_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;
-	text[0]		=   "aus|an";
+	text[0]		=   MENU_OFF_ON;
 	fontName	= 	MENU_FONT_SMALL;
 	// Position und Dimension
 	posx		= 4300;		posy		=	MENU_START_SOUND_Y + MENU_SOUND_DY*2 + MENU_CHOICE_YPLUS;
@@ -258,7 +258,7 @@ instance MENUITEM_AUDIO_REVERB_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;
-	text[0]		=   "aus|an";
+	text[0]		=   MENU_OFF_ON;
 	fontName	= 	MENU_FONT_SMALL;
 	// Position und Dimension
 	posx		= 4300;		posy		=	MENU_START_SOUND_Y + MENU_SOUND_DY*5 + MENU_CHOICE_YPLUS;
@@ -342,7 +342,7 @@ instance MENUITEM_AUDIO_SAMPLERATE_CHOICE(C_MENU_ITEM_DEF)
 INSTANCE MENUITEM_AUDIO_BACK(C_MENU_ITEM_DEF)
 {
 	backpic		=	MENU_ITEM_BACK_PIC;
-	text[0]		=	"Zurück";
+	text[0]		=	MENU_BACK;
 	// Position und Dimension
 	posx		=	1000;		posy		=	MENU_BACK_Y;
 	dimx		=	6192;		dimy		=	MENU_SOUND_DY;

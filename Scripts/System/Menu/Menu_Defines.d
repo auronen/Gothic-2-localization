@@ -57,3 +57,13 @@
 	const int MENU_INFO_Y				= 7780;
 	
 
+//
+// Text consts
+//
+
+	const string CTRL_KEYDEF	  = "Taste ENTF zum Löschen und RETURN zum definieren";
+	const string CTRL_KEYDEF_INFO = "Gewünschte Taste betätigen.";
+	const string MENU_NO_YES	  = "nein|ja";
+	const string MENU_OFF_ON	  = "aus|an";
+	const string MENU_BACK		  = "Zurück";
+    const string MENU_UNKNOWN	  = "---";

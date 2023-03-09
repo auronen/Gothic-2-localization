@@ -205,7 +205,7 @@ instance MENUITEM_GRA_SKY_EFFECTS_CHOICE(C_MENU_ITEM_DEF)
 {
 	backPic		=	MENU_CHOICE_BACK_PIC;
 	type		=	MENU_ITEM_CHOICEBOX;		
-	text[0]		= 	"nein|ja";
+	text[0]		= 	MENU_NO_YES;
 	fontName	=   MENU_FONT_SMALL;
 	// Position und Dimension	
 	posx		= 5000;		posy		=	MENU_START_Y + MENU_DY*4 + MENU_CHOICE_YPLUS;
@@ -223,7 +223,7 @@ instance MENUITEM_GRA_SKY_EFFECTS_CHOICE(C_MENU_ITEM_DEF)
 INSTANCE MENUITEM_GRA_BACK(C_MENU_ITEM_DEF)
 {
 	backpic		=	MENU_ITEM_BACK_PIC;
-	text[0]		=	"Zurück";
+	text[0]		=	MENU_BACK;
 	// Position und Dimension	
 	posx		=	1000;		posy		=	MENU_BACK_Y + 300;
 	dimx		=	6192;		dimy		=	MENU_DY;
