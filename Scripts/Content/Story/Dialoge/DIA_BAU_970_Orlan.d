@@ -262,7 +262,7 @@ func void DIA_Addon_Orlan_Teleportstein_sehen ()
 	
 	Log_CreateTopic (TOPIC_Addon_TeleportsNW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_TeleportsNW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_TeleportsNW,"Orlan hat einen Teleportstein in einer Höhle südwestlich seiner Taverne eingeschlossen."); 
+	B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_7); 
 };
 
 func void DIA_Addon_Orlan_Teleportstein_wo ()

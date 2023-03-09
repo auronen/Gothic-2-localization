@@ -78,15 +78,15 @@ FUNC VOID DIA_Neoras_Arbeit_Info()
 	
 	Log_CreateTopic (Topic_NeorasPflanzen,LOG_MISSION);
 	Log_SetTopicStatus (Topic_NeorasPflanzen,LOG_RUNNING);
-	B_LogEntry (Topic_NeorasPflanzen,"Ich soll Meister Neoars dem Alchemisten sieben Feuernesseln bringen.");
+	B_LogEntry (Topic_NeorasPflanzen,Topic_NeorasPflanzen_1);
 	
 	Log_CreateTopic (Topic_Neorasrezept,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Neorasrezept,LOG_RUNNING);
-	B_LogEntry (Topic_Neorasrezept,"Meister Neoras vermisst ein Rezept zur Herstellung von Manatränken.");
+	B_LogEntry (Topic_Neorasrezept,Topic_Neorasrezept_1);
 
 	if Npc_KnowsInfo (other, DIA_Opolos_beibringen)
 	{
-		B_LogEntry (Topic_Neorasrezept,"Das ist bestimmt das Rezept, das Opolos kurz mal sehen will.");
+		B_LogEntry (Topic_Neorasrezept,Topic_Neorasrezept_2);
 	};
 };
 ///////////////////////////////////////////////////////////////////////
@@ -659,7 +659,7 @@ func void DIA_Neoras_DRACHENEIER_ei_jep ()
 	
 	Log_CreateTopic (TOPIC_DRACHENEIERNeoras, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_DRACHENEIERNeoras, LOG_RUNNING);
-	B_LogEntry (TOPIC_DRACHENEIERNeoras,"Neoras braucht ein Drachenei für seine Experimente. Er meint, ich würde vielleicht in irgendeiner Grabhöhle fündig werden."); 
+	B_LogEntry (TOPIC_DRACHENEIERNeoras,TOPIC_DRACHENEIERNeoras_1); 
 
 	MIS_Neoras_DragonEgg = LOG_RUNNING;
 };

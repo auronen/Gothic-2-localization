@@ -82,7 +82,7 @@ FUNC VOID B_Senyan_Erpressung()
 	AI_StopProcessInfos (self);
 	Log_CreateTopic (Topic_Addon_Senyan,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Senyan,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Senyan,"Senyan hat mich erkannt. Er weiß wer ich bin. Das will er für seine eigenen Pläne nutzen. Er hat irgendwas vor und will das ich zunächst mal mit Esteban spreche.");
+	B_LogEntry (Topic_Addon_Senyan,Topic_Addon_Senyan_1);
 };
 //----------------------------------------------------------------------
 //	Info Hi
@@ -254,7 +254,7 @@ FUNC VOID DIA_Addon_Senyan_Attentat_JA()
 	Senyan_Erpressung = LOG_RUNNING;
 	Info_ClearChoices (DIA_Addon_Senyan_Attentat);
 	
-	B_LogEntry (Topic_Addon_Senyan,"Senyan will, das ich den Auftraggeber finde und umbringe. Er will dann die Belohnung kassieren.");
+	B_LogEntry (Topic_Addon_Senyan,Topic_Addon_Senyan_2);
 };
 
 //----------------------------------------------------------------------

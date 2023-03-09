@@ -251,7 +251,7 @@ FUNC VOID DIA_Talbin_AskTeacher_Info()
 	AI_Output(other,self,"DIA_Talbin_AskTeacher_15_04"); //Mal sehen.
 		
 	Log_CreateTopic	(TOPIC_Teacher, LOG_NOTE);
-	B_LogEntry		(TOPIC_Teacher, "Bei Talbin kann ich lernen wie man Tiere ausnimmt");
+	B_LogEntry		(TOPIC_Teacher, TOPIC_Teacher_3);
 };
 
 
@@ -539,7 +539,7 @@ func void DIA_Talbin_KAP4_WASWOLLTENDJG_Info ()
 
 	if (Kapitel == 4)
 	{
-		B_LogEntry (TOPIC_Dragonhunter,"Einige Drachenjäger sind bei Talbin dem Jäger vorbei gekommen."); 
+		B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_5); 
 	};
 };
 
@@ -643,7 +643,7 @@ func void DIA_Talbin_FOUNDENGROM_Info ()
 
 	Log_CreateTopic (TOPIC_Talbin_Runs, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Talbin_Runs, LOG_RUNNING);
-	B_LogEntry (TOPIC_Talbin_Runs,"Talbin, der Jäger aus dem Minental, rannte, wie von der Blutfliege gestochen zum Pass. Ich glaube, er will nach Khorinis."); 
+	B_LogEntry (TOPIC_Talbin_Runs,TOPIC_Talbin_Runs_1); 
 
 	B_GivePlayerXP (XP_Ambient);
 	Npc_ExchangeRoutine	(self,"FleePass");

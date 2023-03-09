@@ -46,7 +46,7 @@ func void DIA_DragonTalk_Main_1_verbannen ()
 		
 		Log_CreateTopic (TOPIC_DRACHENEIER, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_DRACHENEIER, LOG_RUNNING);
-		B_LogEntry (TOPIC_DRACHENEIER,"Einer der Drachen faselte irgendwas von Nachkommenschaft und Bestand seiner Ahnenreihe. Ich fürchte sie haben ihre Brut über die ganze zivilisierte Welt verteilt. "); 
+		B_LogEntry (TOPIC_DRACHENEIER,TOPIC_DRACHENEIER_1); 
 	}
 	else
 	{
@@ -93,7 +93,7 @@ FUNC VOID DIA_DragonTalk_Main_2_Info()
 	AI_Output			(self, other, "DIA_DragonTalk_Main_2_20_04"); //In seinem Schatten sind wir nicht mehr als Beiwerk seiner schöpferischen Kraft.
 	AI_Output			(self, other, "DIA_DragonTalk_Main_2_20_05"); //Der Meister wird kommen, eure geplagten Leiber wieder aus der Asche zu erheben, um mit ihnen das Geschick der Erde neu zu richten.
 
-	B_LogEntry (TOPIC_DRACHENJAGD,"Die Drachen sind nicht ihr eigener Herr. Sie dienen einem Meister, über den sie sich nur sehr wage äussern. Der Meister wird kommen die Welt zu vernichten und so weiter. Das übliche eben."); 
+	B_LogEntry (TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_1); 
 	
 	DragonTalk_Exit_Free = TRUE;
 };
@@ -183,7 +183,7 @@ FUNC VOID DIA_DragonTalk_Main_4_Info()
 	 
 	Log_CreateTopic (TOPIC_BuchHallenVonIrdorath, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BuchHallenVonIrdorath, LOG_RUNNING);
-	B_LogEntry (TOPIC_BuchHallenVonIrdorath,"Der Meister der Drachen soll seinen Hort im festem Fels der heiligen Hallen von Irdorath errichtet haben. Mmh. Das kommt mir bekannt vor. Wo habe ich das schon einmal gelesen?"); 
+	B_LogEntry (TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_1); 
 
 	B_NPC_IsAliveCheck (OLDWORLD_ZEN);  //Joly: bringt Angar und Gorn in die NW.
 	DragonTalk_Exit_Free = TRUE;

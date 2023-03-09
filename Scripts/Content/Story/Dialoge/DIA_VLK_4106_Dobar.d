@@ -122,7 +122,7 @@ func void DIA_Dobar_beibringen_Info ()
 	
 	Dobar_Learnsmith = TRUE;
 	Log_CreateTopic	(TOPIC_Teacher_OC, LOG_NOTE);
-	B_LogEntry		(TOPIC_Teacher_OC, "Dobar kann mir das Schmieden bessere Waffen beibringen.");
+	B_LogEntry		(TOPIC_Teacher_OC, TOPIC_Teacher_OC_2);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Teach
@@ -177,7 +177,7 @@ func void DIA_Dobar_Waffe_Info ()
 	AI_Output (self, other, "DIA_Dobar_Waffe_08_01"); //Dafür habe ich keine Zeit. Tandor gibt die Waffen aus - ich stelle sie nur her und Parlaf schleift sie.
 	
 	Log_CreateTopic (TOPIC_Trader_OC,LOG_NOTE);
-	B_LogEntry (TOPIC_Trader_OC,"Tandor handelt mit Waffen in der Burg.");
+	B_LogEntry (TOPIC_Trader_OC,TOPIC_Trader_OC_2);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Perm

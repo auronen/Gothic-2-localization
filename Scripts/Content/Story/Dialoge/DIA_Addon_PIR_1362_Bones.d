@@ -240,7 +240,7 @@ FUNC VOID DIA_Addon_Bones_WantArmor_Info()
 		AI_Output (self ,other,"DIA_Addon_Bones_WantArmor_01_03"); //Ich kann sie dir nicht geben. Vor allem nicht jetzt, wo er wieder da ist.
 	};
 	
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Ohne Erlaubnis von Greg, wird Bones mir die Rüstung nicht geben."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_6); 
 };
 
 //*********************************************************
@@ -275,7 +275,7 @@ func VOID DIA_Addon_Bones_GiveArmor_Info()
 	self.flags = 0;
 	PIR_1320_Addon_Greg.flags = 0;
 	
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Der Befehl von Greg scheint Wunder zu wirken. Ich habe die BanditenRüstung!"); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_7); 
 	
 	B_GivePlayerXP (XP_Bones_GetBDTArmor);
 };

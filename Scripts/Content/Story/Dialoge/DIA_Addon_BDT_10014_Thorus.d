@@ -79,7 +79,7 @@ FUNC VOID DIA_Addon_Thorus_Raven_Info()
 
 	Log_CreateTopic (TOPIC_Addon_RavenKDW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RavenKDW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RavenKDW,"Raven ist der Anführer der Banditen. Ich werde einige von ihnen aus dem Weg räumen müssen, um zu ihm zu gelangen."); 
+	B_LogEntry (TOPIC_Addon_RavenKDW,TOPIC_Addon_RavenKDW_6); 
 };
 //----------------------------------------------------------------------
 //	Info Zeit
@@ -231,7 +231,7 @@ FUNC VOID DIA_Addon_Thorus_Rein_Info()
 	MIS_Send_Buddler = LOG_RUNNING;
 	Log_CreateTopic (Topic_Addon_Buddler,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Buddler, LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Buddler,"Da ich nun Estebans Aufgabe übernommen habe, soll ich drei Buddler in die Mine schicken.");
+	B_LogEntry (Topic_Addon_Buddler,Topic_Addon_Buddler_1);
 };
 //----------------------------------------------------------------------
 //	Info drei typen losgeschickt
@@ -388,15 +388,15 @@ FUNC VOID DIA_Addon_Thorus_Answer_Info()
 	AI_Output (other, self, "DIA_Addon_BDT_10014_Thorus_Answer_15_03");//Ach ja, und sorg dafür, dass die Gefangenen das Lager unbehelligt verlassen können.
 	AI_Output (self, other, "DIA_Addon_BDT_10014_Thorus_Answer_12_04");//Geht klar. Ich werde mich um alle Wachen hier draußen kümmern.
 	
-	B_LogEntry (Topic_Addon_Sklaven,"Bloodwyn ist tot und Thorus wird dafür sorgen das die Sklaven das Lager verlassen können."); 
+	B_LogEntry (Topic_Addon_Sklaven,Topic_Addon_Sklaven_5); 
 	
 	if !Npc_IsDead (PrisonGuard)
 	{
-		B_LogEntry (Topic_Addon_Sklaven,"Jetzt rede ich noch einmal mit der 'Sklaven Wache', dann kann Patrick mit seinen Jungs abhauen. "); 
+		B_LogEntry (Topic_Addon_Sklaven,Topic_Addon_Sklaven_6); 
 	}
 	else
 	{
-		B_LogEntry (Topic_Addon_Sklaven,"Da die 'Sklaven Wache' auch erledigt ist, kann Patrick jetzt mit seinen Jungs abhauen."); 
+		B_LogEntry (Topic_Addon_Sklaven,Topic_Addon_Sklaven_7); 
 	};
 };
 //----------------------------------------------------------------------

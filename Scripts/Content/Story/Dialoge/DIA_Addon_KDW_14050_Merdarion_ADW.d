@@ -189,7 +189,7 @@ func void DIA_Addon_Merdarion_FokusGeben_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_TeleportsADW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_TeleportsADW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_TeleportsADW,"Der Wassermagier Merdarion gab mir einen der alten Fokucstein, mit denen damals die Barriere im Minental errichtet worden war. Ich soll versuchen einen der Teleportsteine aktivieren."); 
+	B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_6); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -227,7 +227,7 @@ func void DIA_Addon_Merdarion_FirstFocus_Info ()
 	AI_Output	(self, other, "DIA_Addon_Merdarion_FirstFocus_06_06"); //Aktiviere sie alle, wenn du kannst.
 	AI_Output	(other, self, "DIA_Addon_Merdarion_FirstFocus_15_07"); //Ich werd's versuchen.
 	B_GivePlayerXP (XP_Addon_ActivatedTeleportStone);
-	B_LogEntry (TOPIC_Addon_TeleportsADW,"Merdarion gab mir einen weiteren Fokusstein. Ich soll alle Teleporsteine zum Laufen bringen. Er wird mir einen weiteren Fokusstein geben, sobald der nächste Teleportstein funktioniert."); 
+	B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_7); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -325,7 +325,7 @@ func void DIA_Addon_Merdarion_ADW_PreTeachMana_Info ()
 	Merdarion_Addon_TeachMana = TRUE;
 
 	Log_CreateTopic	(TOPIC_Addon_KDWTeacher, LOG_NOTE);
-	B_LogEntry (TOPIC_Addon_KDWTeacher,"Merdarion kann mein Mana steigern."); 
+	B_LogEntry (TOPIC_Addon_KDWTeacher,TOPIC_Addon_KDWTeacher_1); 
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TEACH_MANA

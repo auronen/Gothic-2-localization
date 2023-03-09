@@ -136,7 +136,7 @@ func void DIA_Addon_Brandon_WannaLearn_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_BrandonBooze,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_BrandonBooze,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BrandonBooze,"Ich soll Brandon einen Drink spendieren. Dann ist er bereit mich zu unterrichten.");
+	B_LogEntry (TOPIC_Addon_BrandonBooze,TOPIC_Addon_BrandonBooze_1);
 };
 
 // ------------------------------------------------------------
@@ -177,7 +177,7 @@ func void DIA_Addon_Brandon_HoleGrog_Info()
 	};
 	AI_Output (self ,other,"DIA_Addon_Brandon_HoleGrog_04_08"); //Ich LIEBE das Teufelszeug!
 	
-	B_LogEntry (TOPIC_Addon_BrandonBooze,"Grog ist Brandon nicht gut genug. Er will einen 'Schneller Hering'. Das Zeug gibts nur bei Samuel.");
+	B_LogEntry (TOPIC_Addon_BrandonBooze,TOPIC_Addon_BrandonBooze_2);
 };
 // ------------------------------------------------------------
 // 					Schnellen Hering geben
@@ -206,7 +206,7 @@ func void DIA_Addon_Brandon_SchnellerHering_Info()
 	B_UseItem (self, ItFo_Addon_Schnellerhering);
 	AI_Output (self ,other,"DIA_Addon_Brandon_GiveGrog_04_01"); //Ahh! Geht runter wie flüssiges Feuer!
 	
-	B_LogEntry (TOPIC_Addon_BrandonBooze,"Ich habe Brnadon das Teufelszeug gegeben. Jetzt ist er beriet mich zu trainieren.");
+	B_LogEntry (TOPIC_Addon_BrandonBooze,TOPIC_Addon_BrandonBooze_3);
 	
 	MIS_Brandon_BringHering = LOG_SUCCESS;
 	B_GivePlayerXP (XP_AMBIENT);

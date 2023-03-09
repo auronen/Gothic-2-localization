@@ -76,7 +76,7 @@ func void DIA_Parlaf_ENGOR_Info ()
 	AI_Output (self, other, "DIA_Parlaf_ENGOR_03_04"); //Für den geringen Sold, den wir kassieren, kriege ich höchstens ein paar Rüben!
 	
 	Log_CreateTopic (TOPIC_Trader_OC, LOG_NOTE);
-	B_LogEntry(TOPIC_Trader_OC, "Engor verwaltet die Vorräte der Burg und macht nebenher Geschäfte.");     
+	B_LogEntry(TOPIC_Trader_OC, TOPIC_Trader_OC_4);     
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Wo Engor

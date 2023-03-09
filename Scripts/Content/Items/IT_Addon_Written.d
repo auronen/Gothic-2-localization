@@ -74,7 +74,7 @@ func void Use_Heilrezept_04 ()
 			{
 				PLAYER_TALENT_ALCHEMY[POTION_Health_04] = TRUE;
 				Snd_Play ("LevelUP");
-				B_LogEntry (TOPIC_TalentAlchemy,"Um einen Heiltrunk herzustellen, benötige ich 1 Feldknöterich und 3 Essenzen der Heilung.");
+				B_LogEntry (TOPIC_TalentAlchemy,TOPIC_TalentAlchemy_1);
 			};
 		};
 		nDocID = 	Doc_Create		()			  ;							// DocManager
@@ -132,7 +132,7 @@ func void Use_Manarezept_04 ()
 			{
 				PLAYER_TALENT_ALCHEMY[POTION_Mana_04] = TRUE;
 				Snd_Play ("LevelUP");
-				B_LogEntry (TOPIC_TalentAlchemy,"Um einen Manatrunk herzustellen, benötige ich 1 Feldknöterich und 3 Mana - Essenzen.");
+				B_LogEntry (TOPIC_TalentAlchemy,TOPIC_TalentAlchemy_2);
 			};
 		};
 		nDocID = 	Doc_Create		()			  ;							// DocManager

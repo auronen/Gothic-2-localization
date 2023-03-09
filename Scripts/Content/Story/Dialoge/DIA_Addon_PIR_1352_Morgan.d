@@ -191,7 +191,7 @@ func VOID DIA_Addon_Morgan_Meat_Info()
 		AI_Output (self ,other,"DIA_Addon_Morgan_Meat_07_05"); //Was, das ist alles? Hast den Rest Rest selber gefreesen was? Naja, egal...
 	};
 	
-	B_LogEntry (TOPIC_Addon_BringMeat,"Ich habe Morgan sein Fleisch gebracht.");
+	B_LogEntry (TOPIC_Addon_BringMeat,TOPIC_Addon_BringMeat_2);
 	
 	MIS_AlligatorJack_BringMeat = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_ALLIGatORJACK_BringMeat);
@@ -296,7 +296,7 @@ func VOID DIA_Addon_Morgan_JoinMorgan_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_MorganBeach,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_MorganBeach,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MorganBeach,"Jetzt da ich in Morgans Entertrupp bin, will er, dass ich den nördlichen Strand von Viechern säubere.");
+	B_LogEntry (TOPIC_Addon_MorganBeach,TOPIC_Addon_MorganBeach_3);
 	
 	MIS_Addon_MorganLurker = LOG_RUNNING;
 	AI_StopProcessInfos (self);
@@ -339,7 +339,7 @@ func void DIA_Addon_Morgan_LurkerPlatt_Info ()
 		CreateInvItems (self, ItMi_Gold, 150);									
 		B_GiveInvItems (self, other, ItMi_Gold, 150);
 		
-		B_LogEntry (TOPIC_Addon_MorganBeach,"Der Strand ist sauber. Ich habe alle Biester erledigt.");
+		B_LogEntry (TOPIC_Addon_MorganBeach,TOPIC_Addon_MorganBeach_4);
 		
 		MIS_Addon_MorganLurker = LOG_SUCCESS;
 				
@@ -350,7 +350,7 @@ func void DIA_Addon_Morgan_LurkerPlatt_Info ()
 		AI_Output	(other, self, "DIA_Addon_Morgan_LurkerPlatt_15_05"); //Äh ...
 		AI_Output	(self, other, "DIA_Addon_Morgan_LurkerPlatt_07_06"); //Die gehört natürlich auch dazu. Komm wieder, wenn du das erledigt hast.
 		
-		B_LogEntry (TOPIC_Addon_MorganBeach,"Morgan will, dass ich mich auch noch um die Höhle kümmere.");
+		B_LogEntry (TOPIC_Addon_MorganBeach,TOPIC_Addon_MorganBeach_5);
 		
 		AI_StopProcessInfos (self);
 	};

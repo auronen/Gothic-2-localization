@@ -286,7 +286,7 @@ func void DIA_Mika_HILFE_Akil ()
 	AI_StopProcessInfos (self);
 	self.aivar[AIV_PARTYMEMBER] = TRUE;
 	B_GivePlayerXP (Xp_Ambient);
-	B_LogEntry (TOPIC_AkilsSLDStillthere,"Mika will mir helfen, das kleine Söldnerproblem auf Akils Hof zu lösen."); 
+	B_LogEntry (TOPIC_AkilsSLDStillthere,TOPIC_AkilsSLDStillthere_2); 
 
 	Npc_ExchangeRoutine	(self,"Akil"); 
 };

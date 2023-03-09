@@ -172,8 +172,8 @@ FUNC VOID DIA_Ignaz_teilnehmen_Info()
 	
 	Log_CreateTopic (TOPIC_Ignaz,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Ignaz,LOG_RUNNING);
-	B_LogEntry (TOPIC_Ignaz,"Ich soll für Ignaz einen neuen Zauber testen. Einen Zauber des Vergessens. Sobald jemand aufgrund eines Diebstahls oder einer Schlägerei oder aus einem anderen Grund verärgert ist, wird er nicht mehr mit mir sprechen wollen. ");
-	B_LogEntry (TOPIC_Ignaz,"Das ist der richtige Moment, um den Zauber einzusetzen. Dann wird er auch vergessen das er die Tat gemeldet hat. Aber im Hafenviertel wird wohl kaum jemand verärgert sein, wenn ich ihn niederschlage... ");
+	B_LogEntry (TOPIC_Ignaz,TOPIC_Ignaz_1);
+	B_LogEntry (TOPIC_Ignaz,TOPIC_Ignaz_2);
 	
 	AI_StopProcessInfos (self);
 };
@@ -236,7 +236,7 @@ FUNC VOID DIA_Ignaz_Danach_Info()
 	
 	Ignaz_TeachAlchemy = TRUE;
 	Log_CreateTopic (Topic_CityTeacher,LOG_NOTE);
-	B_LogEntry (Topic_CityTeacher,"Ignaz kann mir einige Rezepte zur Herstellung von Tränken zeigen. Er wohnt im Hafenviertel.");
+	B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_6);
 	MIS_Ignaz_Charm = LOG_SUCCESS;
 	B_GivePlayerXP (XP_MIS_Ignaz_Charm);
 	

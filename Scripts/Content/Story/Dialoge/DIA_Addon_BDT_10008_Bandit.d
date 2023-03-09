@@ -109,7 +109,7 @@ FUNC VOID DIA_Addon_10008_Bandit_soup_Info()
 	AI_Output (self, other, "DIA_Addon_10008_Bandit_soup_01_04");//Wenn du willst, kann ich dir helfen, stärker zu werden.
 	
 	Log_CreateTopic (Topic_Addon_BDT_Teacher,LOG_NOTE);
-	B_LogEntry 	(Topic_Addon_BDT_Teacher,"Der Bandit am Kochtopf kann mir dabei helfen, meine Stärke zu trainieren.");	
+	B_LogEntry 	(Topic_Addon_BDT_Teacher,Topic_Addon_BDT_Teacher_2);	
 };
 //*******************************************
 //	TechPlayer

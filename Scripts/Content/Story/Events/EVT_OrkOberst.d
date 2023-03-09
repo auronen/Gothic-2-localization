@@ -47,7 +47,7 @@ func void EVT_ORKOBERST ()
 		
 		ORkSturmDI  = TRUE;
 		
-		B_LogEntry (TOPIC_HallenVonIrdorath,"Dieser Orkische Oberst ist eine verdammt harte Nuss. Irgendwo in seinem Thronsaal muss es doch weiter gehen."); 
+		B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_6); 
 
 		EVT_ORKOBERST_OneTime = TRUE;
 	};

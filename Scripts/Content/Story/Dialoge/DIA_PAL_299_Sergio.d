@@ -127,7 +127,7 @@ func void DIA_Sergio_Aufgabe_Info ()
 	
 	Log_CreateTopic (Topic_IsgarothWolf,LOG_MISSION);
 	Log_SetTopicStatus	 (Topic_IsgarothWolf,LOG_RUNNING);
-	B_LogEntry (Topic_IsgarothWolf,"Meister Isgaroth am Schrein braucht Hilfe. Ich sollte ihn mal aufsuchen.");
+	B_LogEntry (Topic_IsgarothWolf,Topic_IsgarothWolf_1);
 };	
 
 ///////////////////////////////////////////////////////////////////////
@@ -187,7 +187,7 @@ func void DIA_Sergio_Babo_Info ()
 	Npc_ExchangeRoutine (self, "TRAIN");
 	B_StartOtherRoutine (Babo,"TRAIN");
 
-	B_LogEntry (Topic_BaboTrain, "Sergio hat zugesagt, von nun an jeden Morgen mit Babo zwei Stunden zu trainieren. "); 
+	B_LogEntry (Topic_BaboTrain, Topic_BaboTrain_1); 
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info WHY

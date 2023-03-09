@@ -15,7 +15,7 @@ func void EVT_ORNAMENT_SWITCH_BIGFARM_01_FUNC ()
 			Wld_PlayEffect("spellFX_LIGHTSTAR_RingRitual",  ItMi_OrnamentEffekt_BIGFARM_Addon, ItMi_OrnamentEffekt_BIGFARM_Addon, 0, 0, 0, FALSE );
 			Log_CreateTopic 	(TOPIC_Addon_Ornament, LOG_MISSION);
 			Log_SetTopicStatus	(TOPIC_Addon_Ornament, LOG_RUNNING);
-			B_LogEntry 			(TOPIC_Addon_Ornament,"Ich habe den Mechanismus des Steinkreises in der Nähe von Sekobs Hof aktiviert. Es gab einen grossen Knall und ein Steinwächter trachtete mir nach dem Leben."); 
+			B_LogEntry 			(TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_9); 
 			ORNAMENT_SWITCHED_BIGFARM = TRUE;
 		};
 };
@@ -30,7 +30,7 @@ func void EVT_ORNAMENT_SWITCH_FARM_01_FUNC ()
 			Wld_PlayEffect("FX_EarthQuake",  hero, hero, 0, 0, 0, FALSE );
 			Log_CreateTopic 	(TOPIC_Addon_Ornament, LOG_MISSION);
 			Log_SetTopicStatus	(TOPIC_Addon_Ornament, LOG_RUNNING);
-			B_LogEntry 			(TOPIC_Addon_Ornament,"Ich habe den Mechanismus des Steinkreises bei Lobarts Hof aktiviert. Mehr als ein Beben hat es dabei allerdings nicht gegeben."); 
+			B_LogEntry 			(TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_10); 
 			ORNAMENT_SWITCHED_FARM = TRUE;
 		};
 };
@@ -52,7 +52,7 @@ func void EVT_ORNAMENT_SWITCH_FOREST_01_FUNC ()
 			Wld_PlayEffect("spellFX_LIGHTSTAR_RingRitual",  ItMi_OrnamentEffekt_FOREST_Addon, ItMi_OrnamentEffekt_FOREST_Addon, 0, 0, 0, FALSE );
 			Log_CreateTopic 	(TOPIC_Addon_Ornament, LOG_MISSION);
 			Log_SetTopicStatus	(TOPIC_Addon_Ornament, LOG_RUNNING);
-			B_LogEntry 			(TOPIC_Addon_Ornament,"Ich habe den Mechanismus des Steinkreises im nördlichen Wald aktiviert. Ein grosser Steinwächter erschien. Er hatte eine echt miese Laune."); 
+			B_LogEntry 			(TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_11); 
 			ORNAMENT_SWITCHED_FOREST = TRUE;
 		};
 };

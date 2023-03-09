@@ -246,7 +246,7 @@ FUNC VOID DIA_Bartok_WannaLearn_Info()
 	Bartok_TeachPlayer = TRUE;
 	
 	Log_CreateTopic (Topic_CityTeacher, LOG_NOTE);
-	B_LogEntry (Topic_CityTeacher, "Bartok  kann mir den Umgang mit dem Bogen und das Schleichen beibringen.");
+	B_LogEntry (Topic_CityTeacher, Topic_CityTeacher_18);
 };
 
 // *****************************************************

@@ -191,7 +191,7 @@ func void DIA_Xardas_TODO_Info ()
 	AI_Output (self, other, "DIA_Addon_Xardas_Add_14_08"); //Es ist das Gegenstück zum Auge Innos. Es darf nicht in die Hände des Bösen fallen.
 	Log_CreateTopic (TOPIC_INNOSEYE, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_INNOSEYE, LOG_RUNNING);
-	B_LogEntry (TOPIC_INNOSEYE,"In der Stadt Khorinis lagert eine Gruppe von Paladinen. Sie verfügen über ein mächtiges Artefakt: 'Das Auge Innos'. Seine Macht soll uns gegen die Bedrohung durch die Drachen helfen. Ich werde die Paladine überzeugen müssen, uns in dieser Sache zu unterstützen."); 
+	B_LogEntry (TOPIC_INNOSEYE,TOPIC_INNOSEYE_5); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -748,7 +748,7 @@ func void DIA_Xardas_DMTSINDDA_Info ()
 	AI_Output			(self, other, "DIA_Xardas_DMTSINDDA_14_03"); //Er hat die Bedrohung erkannt. Er sah sich gezwungen, aus seiner Deckung hervor zu treten und offen anzugreifen.
 	AI_Output			(self, other, "DIA_Xardas_DMTSINDDA_14_04"); //Das Versteckspiel hat ein Ende. Während gestern noch nicht klar war, wie der Angriff des Gegners aussehen würde, kann man es jetzt kaum noch übersehen.
 
-	B_LogEntry (TOPIC_INNOSEYE, "Der Feind hat erfahren, dass ich auf der Suche nach dem Auge Innos bin. Es wird Zeit, dass ich es endlich finde, bevor es zu spät ist.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_6);
 	
 	Info_ClearChoices	(DIA_Xardas_DMTSINDDA);
 	Info_AddChoice	(DIA_Xardas_DMTSINDDA, "Ich bin von Magiern in schwarzer Robe angegriffen worden.", DIA_Xardas_DMTSINDDA_DMT );
@@ -767,7 +767,7 @@ func void DIA_Xardas_DMTSINDDA_DMT ()
 	{
 	Log_CreateTopic (TOPIC_DEMENTOREN, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_DEMENTOREN, LOG_RUNNING);
-	B_LogEntry (TOPIC_DEMENTOREN,"Xardas kannte die Männer in ihren schwarzen Roben. Die Suchenden seien die eigentlichen Fädenzieher des Feindes und sehr gefährlich."); 
+	B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_1); 
 	};
 };
 
@@ -789,7 +789,7 @@ func void DIA_Xardas_DMTSINDDA_DMT_WhatToDo ()
 	AI_Output			(self, other, "DIA_Xardas_DMTSINDDA_DMT_WhatToDo_14_02"); //Dann begib dich ins Kloster und sprich mit Pyrokar. Er muss dir das Auge aushändigen.
 	AI_Output			(self, other, "DIA_Xardas_DMTSINDDA_DMT_WhatToDo_14_03"); //Es gibt nichts Wichtigeres, als das Artefakt in Sicherheit zu bringen.
 	AI_Output			(self, other, "DIA_Xardas_DMTSINDDA_DMT_WhatToDo_14_04"); //Geh jetzt, bevor es zu spät ist. Der Feind wird ebenfalls versuchen, sich dessen zu bemächtigen.
-	B_LogEntry (TOPIC_INNOSEYE, "Das Auge befindet sich im Kloster der Feuermagier. Lord Hagen wird mir hoffentlich Zugang dazu gewähren, wenn ich ihm das Schreiben von Lord Garond überreiche. Nur mit Hagens Zustimmung wird mich der oberste Feuermagier Pyrokar an das Amulett heran lassen.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_7);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -836,7 +836,7 @@ func void DIA_Xardas_INNOSEYEBROKEN_wasnun ()
 	AI_Output			(self, other, "DIA_Xardas_INNOSEYEBROKEN_wasnun_14_01"); //Das ist ein harter Schlag. Wir müssen uns neu orientieren. Ich werde mich zurückziehen und darüber nachdenken.
 	AI_Output			(self, other, "DIA_Xardas_INNOSEYEBROKEN_wasnun_14_02"); //Du solltest inzwischen in die Stadt gehen und dort mit dem Wassermagier Vatras sprechen. Ich könnte mir vorstellen, dass er weiß, was zu tun ist.
 
-	B_LogEntry (TOPIC_INNOSEYE, "Xardas war nicht gerade glücklich darüber, dass das Auge Innos zerstört ist. Der Wassermagier Vatras in der Stadt Khorinis scheint nun die einizige Hoffnung zu sein.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_8);
 
 	MIS_Xardas_GoToVatrasInnoseye = LOG_RUNNING;
 };
@@ -879,7 +879,7 @@ func void DIA_Xardas_RITUALREQUEST_Info ()
 	{
 		AI_Output			(self, other, "DIA_Xardas_RITUALREQUEST_14_05"); //Ich werde Vatras nicht warten lassen und mache mich sofort auf den Weg. Erledige deine Aufgaben und komm dann später nach.
 		AI_StopProcessInfos (self);
-		B_LogEntry (TOPIC_INNOSEYE, "Xardas hat zugestimmt, bei dem Ritual am Sonnenkreis zu erscheinen.");
+		B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_9);
 		B_GivePlayerXP (XP_Ambient);
 		Npc_ExchangeRoutine	(self,"RitualInnosEyeRepair");
 		Xardas_GoesToRitualInnosEye = TRUE; 
@@ -972,7 +972,7 @@ func void DIA_Xardas_BEREIT_Info ()
 	AI_Output			(other, self, "DIA_Xardas_BEREIT_15_00"); //Ich bin bereit für den Kampf gegen die Drachen.
 	AI_Output			(self, other, "DIA_Xardas_BEREIT_14_01"); //Dann lass uns keine Zeit verlieren. Ich werde umgehend zum Sonnenkreis aufbrechen. Erledige deine Aufgaben. Wir treffen uns dann dort.
 	AI_StopProcessInfos (self);
-	B_LogEntry (TOPIC_INNOSEYE, "Xardas hat zugestimmt, bei dem Ritual am Sonnenkreis zu erscheinen.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_9);
 	B_GivePlayerXP (XP_Ambient);
 	Npc_ExchangeRoutine	(self,"RitualInnosEyeRepair"); 
 	Xardas_GoesToRitualInnosEye = TRUE; 
@@ -1053,7 +1053,7 @@ func void DIA_Xardas_PYROWILLNICHT_Info ()
 
 	AI_Output			(self, other, "DIA_Xardas_PYROWILLNICHT_14_12"); //Es ist ein sehr altes Buch dabei. Wenn Pyrokar dieses Buch bekommt, wird er wissen, dass es von mir kommt.
 	AI_Output			(self, other, "DIA_Xardas_PYROWILLNICHT_14_13"); //Ich habe keine Verwendung mehr dafür. Vielleicht erfüllt es ja somit noch einen Zweck.
-	B_LogEntry (TOPIC_INNOSEYE, "Xardas gab mir einen Schlüssel für eine Truhe auf Sekobs Bauernhof. Ich soll das Buch darin zu Pyrokar bringen.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_11);
 };
 
 

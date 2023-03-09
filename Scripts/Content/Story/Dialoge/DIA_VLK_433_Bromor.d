@@ -87,7 +87,7 @@ func void DIA_Addon_Bromor_MissingPeople_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Ein Freudenmädchen namens Lucia ist aus dem Bordell am Hafen verschwunden."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_8); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -124,7 +124,7 @@ func void DIA_Addon_Bromor_Lucia_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_BromorsGold, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BromorsGold, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BromorsGold,"Das Freudenmädchen Lucia hat ihrem Boss Bromor eine goldene Schale gestohlen. Bromor will sie wieder haben."); 
+	B_LogEntry (TOPIC_Addon_BromorsGold,TOPIC_Addon_BromorsGold_2); 
 
 	MIS_Bromor_LuciaStoleGold = LOG_RUNNING;
 };

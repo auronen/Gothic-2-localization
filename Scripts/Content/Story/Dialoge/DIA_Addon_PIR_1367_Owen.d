@@ -188,7 +188,7 @@ func void DIA_Addon_Owen_Henry_Info ()
 		AI_Output	(self, other, "DIA_Addon_Owen_Henry_13_02"); //Ja, ja. Ich werd' ihm das dämliche Holz schon noch bringen.
 		AI_Output	(self, other, "DIA_Addon_Owen_Henry_13_03"); //Geh hin und sag ihm das.
 		
-		B_LogEntry (TOPIC_Addon_HolOwen,"Ich soll Henry ausrichten, dass Owen das Holz liefern wird.");
+		B_LogEntry (TOPIC_Addon_HolOwen,TOPIC_Addon_HolOwen_4);
 		
 		AI_StopProcessInfos (self);
 		Owen_ComesToHenry = TRUE;
@@ -235,8 +235,8 @@ func void DIA_Addon_Owen_MalcomStunt_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_MalcomsStunt,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_MalcomsStunt,LOG_RUNNING);
-	B_LogEntry	(TOPIC_Addon_MalcomsStunt,"Owen will wissen, ob sein Freund Malcom noch lebt. Er ist zusammen mit einem Lurker in das Tiefe Loch nah an der Lagerstelle gefallen.");
-	B_LogEntry	(TOPIC_Addon_MalcomsStunt,"Owen hat gesagt, dass dort unten Wasser ist und Malcom zunächst noch gelebt hat. Aber nach einer Weile war alles still.");
+	B_LogEntry	(TOPIC_Addon_MalcomsStunt,TOPIC_Addon_MalcomsStunt_1);
+	B_LogEntry	(TOPIC_Addon_MalcomsStunt,TOPIC_Addon_MalcomsStunt_2);
 	
 	MIS_Owen_FindMalcom = LOG_RUNNING;
 };
@@ -299,7 +299,7 @@ func void DIA_Addon_Owen_MalcomDead_Info ()
 		AI_Output	(self, other, "DIA_Addon_Owen_MalcomDead_13_03"); //Ich hätte das mit dem Felsspalte nicht fertig gebracht.
 	};
 	
-	B_LogEntry	(TOPIC_Addon_MalcomsStunt,"Ich habe Owen die Nachricht von dem Tod Malcoms gebracht. er nahm sie sehr gefasst auf.");
+	B_LogEntry	(TOPIC_Addon_MalcomsStunt,TOPIC_Addon_MalcomsStunt_3);
 	
 	MIS_Owen_FindMalcom = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_Owen_MalcomDead);

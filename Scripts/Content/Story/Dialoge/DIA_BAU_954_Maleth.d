@@ -181,7 +181,7 @@ func void DIA_Maleth_BanditsALIVE_Info ()
 	
 	Log_CreateTopic (TOPIC_Maleth,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Maleth,LOG_RUNNING);
-	B_LogEntry (TOPIC_Maleth,"Wenn ich die Banditen auf dem Weg von Xardas Turm zu Lobart's Hof besiege, werden mir alle auf dem Hof dankbar sein.");
+	B_LogEntry (TOPIC_Maleth,TOPIC_Maleth_1);
 	
 };
 
@@ -228,13 +228,13 @@ func void DIA_Maleth_ToTheCity_Info ()
 	
 	Log_CreateTopic (TOPIC_City,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_City,LOG_RUNNING);
-	B_LogEntry (TOPIC_City,"Um in die Stadt zu gelangen, kann ich den Torwachen erzählen, das ich von Lobart's Hof komme und zum Schmied will.");
+	B_LogEntry (TOPIC_City,TOPIC_City_1);
 	
 	
 	if (Npc_HasEquippedArmor(other) == FALSE) 
 	{
 		AI_Output (self, other, "DIA_Maleth_ToTheCity_08_06"); //Aber das wird dir nichts nützen. Du siehst nicht aus wie ein Bauer.
-		B_LogEntry (TOPIC_City,"Natürlich muss ich dafür aussehen, wie ein Bauer... ");
+		B_LogEntry (TOPIC_City,TOPIC_City_2);
 		
 	};
 	
@@ -431,7 +431,7 @@ func void DIA_Maleth_PROBLEME_schafe_probleme_geldher_auftrag ()
 	
 	Log_CreateTopic (TOPIC_MalethsGehstock, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_MalethsGehstock, LOG_RUNNING);
-	B_LogEntry (TOPIC_MalethsGehstock,"Maleth hat seinen Gehstock im verloren. Er war völlig betrunken. So wie ich ihn einschätze ist er nicht weit weg von Lobarts Hof gewesen. Ich sollte das Ding dort irgendwo finden."); 
+	B_LogEntry (TOPIC_MalethsGehstock,TOPIC_MalethsGehstock_1); 
 
 	Info_ClearChoices	(DIA_Maleth_PROBLEME);
 };
@@ -492,7 +492,7 @@ func void DIA_Maleth_GEHSTOCK_ok ()
 	AI_Output			(self, other, "DIA_Maleth_GEHSTOCK_ok_08_01"); //Ok. Du gehst einfach dort drüben in das Waldstück im Westen. Dort findest du eine Schlucht im Fels.
 	AI_Output			(self, other, "DIA_Maleth_GEHSTOCK_ok_08_02"); //In der Höhle dort solltest du eigentlich etwas finden.
 
-	B_LogEntry (TOPIC_MalethsGehstock,"Maleth veriet mir, dass es ein gösseres Banditenlager im Waldstück im Westen von Lobarts Hof geben soll. "); 
+	B_LogEntry (TOPIC_MalethsGehstock,TOPIC_MalethsGehstock_2); 
 	CreateInvItems 		(BDT_1024_MalethsBandit, ItMi_MalethsBanditGold,1);
 	Info_ClearChoices	(DIA_Maleth_GEHSTOCK);
 	AI_StopProcessInfos (self);

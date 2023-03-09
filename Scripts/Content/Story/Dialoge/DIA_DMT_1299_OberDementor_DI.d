@@ -23,7 +23,7 @@ func void DIA_Schwarzmagier_HELLO_Info ()
 	AI_Output			(self, other, "DIA_Schwarzmagier_HELLO_09_03"); //Nur ein Wort von mir und du wirst auf ewig dem Wahnsinn verfallen.
 	AI_Output			(other, self, "DIA_Schwarzmagier_HELLO_15_04"); //Verstehe. Noch so ein Unterhändler, den ich aus dem Weg räumen muss.
 	
-	B_LogEntry (TOPIC_HallenVonIrdorath,"Ich stehe vor dem letzten Tor. Dieser Schwarzmagier scheint der Schlüssel dazu zu sein."); 
+	B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_9); 
 
 	Info_ClearChoices	(DIA_Schwarzmagier_HELLO);
 	

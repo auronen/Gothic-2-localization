@@ -349,7 +349,7 @@ func void DIA_Lord_Hagen_Frieden_Info ()
 	{
 		AI_Output (self, other, "DIA_Lord_Hagen_Frieden_04_06"); //War das alles?
 	};
-	B_LogEntry (Topic_Frieden,"Lord Hagen ist breit, Lee Aboslution zu erteilen. Aber keinem anderen der Söldner."); 
+	B_LogEntry (Topic_Frieden,Topic_Frieden_2); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -502,7 +502,7 @@ func void DIA_Lord_Hagen_Pass_Info ()
 	
 	Log_CreateTopic (Topic_MISOLDWORLD,LOG_MISSION);
 	Log_SetTopicStatus (Topic_MISOLDWORLD,LOG_RUNNING);
-	B_LogEntry (Topic_MISOLDWORLD,"Lord Hagen will, dass ich ihm Beweise für die Armee des Bösen bringe. Ich werde in's Minental aufbrechen und dort mit Komandant Garond sprechen.");
+	B_LogEntry (Topic_MISOLDWORLD,Topic_MISOLDWORLD_1);
 	
 	if (Fernando_ImKnast == FALSE)
 	{
@@ -653,7 +653,7 @@ func void DIA_Hagen_CanTeach_Info ()
 	AI_Output (self, other, "DIA_Hagen_CanTeach_04_01"); //So? Du hast einen gefunden.
 	
 	LordHagen_Teach2H = TRUE;
-	B_LogEntry (TOPIC_CityTeacher,"Lord Hagen kann mich im Kampf mit Zweihändern unterweisen.");
+	B_LogEntry (TOPIC_CityTeacher,TOPIC_CityTeacher_8);
 };
 //**************************************
 //			Ich will trainieren
@@ -1015,7 +1015,7 @@ func void DIA_Lord_Hagen_BACKINTOWN_Info ()
 	MIS_InnosEyeStolen = TRUE;
 	MIS_OLDWORLD = LOG_SUCCESS;
 	
-	B_LogEntry (TOPIC_INNOSEYE,"Lord Hagen hat mir ein Schreiben mitgegeben. Damit wird mir Meister Pyrokar im Kloster das Auge Innos überreichen.");
+	B_LogEntry (TOPIC_INNOSEYE,TOPIC_INNOSEYE_2);
 
 			Wld_InsertNpc 		(VLK_4250_Jorgen,"NW_MONASTERY_BRIDGE_01");
 			Wld_InsertNpc		(BDT_1050_Landstreicher, "NW_TROLLAREA_NOVCHASE_01");
@@ -1133,7 +1133,7 @@ FUNC VOID DIA_Lord_Hagen_RescueBennet_WhySure()
 	AI_Output			(self, other, "DIA_Lord_Hagen_RescueBennet_Witness_04_02"); //Seine Beschreibung trifft zweifelsfrei auf Bennet zu. Damit ist die Sache für mich erledigt.
 	AI_Output			(self, other, "DIA_Lord_Hagen_RescueBennet_Witness_04_03"); //Der Söldner wird wegen Landesverrats hängen.
 
-	B_LogEntry (TOPIC_RESCUEBENNET,"Cornelius, der Sekretär des Stadthalters, ist also der Zeuge. Er behauptet, den Mord beobachtet zu haben."); 
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_5); 
 
 	RecueBennet_KnowsCornelius = TRUE;
 	//RescueBennet_KnowsWitness = TRUE; 
@@ -1335,7 +1335,7 @@ func void DIA_Lord_Hagen_ANTIPALADINE_Info ()
 
 	Log_CreateTopic (TOPIC_OrcElite, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_OrcElite, LOG_RUNNING);
-	B_LogEntry (TOPIC_OrcElite,"Ich habe Lord Hagen von den heranrückenden Horden der orkischen Kriegsherren berichtet."); 
+	B_LogEntry (TOPIC_OrcElite,TOPIC_OrcElite_1); 
 
 	if (TalkedTo_AntiPaladin == TRUE)
 	&& (MIS_KillOrkOberst == 0)
@@ -1361,14 +1361,14 @@ func void DIA_Lord_Hagen_ANTIPALADINE_Info ()
 			AI_Output			(self, other, "DIA_Lord_Hagen_ANTIPALADINE_04_13"); //Du hast einen neuen Auftrag, Ritter. Geh und töte die Anführer, die du hier in der Gegend finden kannst.
 			AI_Output			(self, other, "DIA_Lord_Hagen_ANTIPALADINE_04_14"); //Bringe mir ihre Ringe. Das wird die Orks auf eine harte Probe stellen.
 			
-			B_LogEntry (TOPIC_OrcElite,"Ich konnte Hagen einen Ring der orkischen Kriegsherren als Beweis ihrer Anwesenheit bringen. Ich soll ihm alle bringen, die ich auftreiben kann."); 
+			B_LogEntry (TOPIC_OrcElite,TOPIC_OrcElite_2); 
 	
 			if (Npc_IsDead(Ingmar)==FALSE)
 			&& (MIS_KillOrkOberst == 0)
 			{
 			AI_Output			(self, other, "DIA_Lord_Hagen_ANTIPALADINE_04_15"); //Frag Ingmar danach. Er kann dir einige taktische Tipps geben, was die Anführer der Orks angeht.
 			AI_Output			(self, other, "DIA_Lord_Hagen_ANTIPALADINE_04_16"); //Die Elitekrieger der Orks sind sein Spezialgebiet. Er hatte schon öfter mit ihnen zu tun.
-			B_LogEntry (TOPIC_OrcElite,"Die Elitekrieger der Orks ist Ingmars Spezialgebiet"); 
+			B_LogEntry (TOPIC_OrcElite,TOPIC_OrcElite_3); 
 			};
 			
 
@@ -1383,7 +1383,7 @@ func void DIA_Lord_Hagen_ANTIPALADINE_Info ()
 			};
 			AI_Output			(self, other, "DIA_Lord_Hagen_ANTIPALADINE_04_18"); //Ich brauche schon ein paar handfestere Indizien, wenn ich darauf reagieren soll.
 		
-			B_LogEntry (TOPIC_OrcElite,"Hagen will mir aber nicht so recht Glauben schenken. Er verlangt einen Beweis dafür, dass die Eltekrieger die zivilisierten Landschaften angreifen. Hätte mich auch gewundert, wenn nicht."); 
+			B_LogEntry (TOPIC_OrcElite,TOPIC_OrcElite_4); 
 		};
 };
 

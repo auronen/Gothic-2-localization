@@ -215,7 +215,7 @@ func VOID DIA_Addon_Bill_AngusnHank_Info()
 	AI_Output (self ,other,"DIA_Addon_Bill_AngusnHank_03_05"); //Wo genau, weiß ich nicht. Ich bin selbst nie da gewesen.
 	AI_Output (self ,other,"DIA_Addon_Bill_AngusnHank_03_06"); //Am besten du fragst Alligator Jack mal danach. Der treibt sich doch ständig vorm Lager herum.
 
-	B_LogEntry	(TOPIC_Addon_SkipsGrog,"Angus und Hank hatten östlich des Lagers eine Höhle. Alligator Jack könnte mehr darüber wissen.");
+	B_LogEntry	(TOPIC_Addon_SkipsGrog,TOPIC_Addon_SkipsGrog_6);
 };
 
 // ------------------------------------------------------------
@@ -254,7 +254,7 @@ FUNC VOID DIA_Addon_Bill_FoundFriends_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_KillJuan,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_KillJuan,LOG_RUNNING);
-	B_LogEntry	(TOPIC_Addon_KillJuan,"Bill war völlig fertig, als ich ihm von Angus und Hanks Tod unterrichtet haben. Er will den Namen des Mörders.");
+	B_LogEntry	(TOPIC_Addon_KillJuan,TOPIC_Addon_KillJuan_3);
 };	
 
 // ------------------------------------------------------------
@@ -285,7 +285,7 @@ func void DIA_Addon_Bill_JuanMurder_Info ()
 	AI_Output (self, other, "DIA_Addon_Bill_JuanMurder_03_03"); //Du musst das Schwein erledigen, hörst du?
 	AI_Output (self, other, "DIA_Addon_Bill_JuanMurder_03_04"); //Er darf nicht mit der Sache ungeschoren davonkommen!
 	
-	B_LogEntry	(TOPIC_Addon_KillJuan,"Ich soll Juan töten. Als Rache für Angus und Hank");
+	B_LogEntry	(TOPIC_Addon_KillJuan,TOPIC_Addon_KillJuan_4);
 };
 
 // ------------------------------------------------------------
@@ -315,7 +315,7 @@ FUNC VOID DIA_Addon_Bill_KilledEsteban_Info()
 	AI_Output (other,self ,"DIA_Addon_Bill_KilledEsteban_15_02"); //Mach mal halblang.
 	AI_Output (self ,other,"DIA_Addon_Bill_KilledEsteban_03_03"); //(seufzt) Schon gut. Hauptsache du hast das Schwein fertiggemacht.
 	
-	B_LogEntry	(TOPIC_Addon_KillJuan,"Juan ist erledigt. Bill war zeimlich zufrieden.");
+	B_LogEntry	(TOPIC_Addon_KillJuan,TOPIC_Addon_KillJuan_5);
 	MIS_Addon_Bill_SearchAngusMurder = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_Bill_KillAngusMurder);
 	

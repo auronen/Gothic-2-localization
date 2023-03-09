@@ -83,7 +83,7 @@ func void DIA_Kardif_Hi_Info ()
 	AI_Output (self, other, "DIA_Kardif_Hi_14_01"); //Wenn du was trinken willst, dann bestell dir was.
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Bei Kardif in der Hafenkneipe gibt's was zu trinken.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_4);
 };	
 	
 ///////////////////////////////////////////////////////////////////////
@@ -115,7 +115,7 @@ func void DIA_Kardif_Hallo_Info ()
 	AI_Output (self, other, "DIA_Kardif_Hallo_14_04"); //Jede Information, die ich dir gebe, kostet dich 10 Goldstücke.
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Kardif, der Wirt der Hafenkneipe handelt mit Informationen.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_5);
 	
 	Info_ClearChoices (DIA_Kardif_Hallo);
 	Info_AddChoice 	  (DIA_Kardif_Hallo,"Ich gebe dir höchstens 5 für deine Infos. ",DIA_Kardif_Hallo_Angebot);
@@ -402,7 +402,7 @@ func void DIA_Addon_Kardif_MissingPeople_Info ()
 		
 	 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_WhoStolePeople,"Kardif meint, ich soll mich bei Coragon dem Wirt aus der Unterstadt und Halvor dem Fischhändler am Hafen nach den vermissten Bürgern erkundigen."); 
+		B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_4); 
 
 		DIA_Addon_Kardif_MissingPeople_permanent = TRUE;
 	}
@@ -453,13 +453,13 @@ func void DIA_Kardif_Lernen_Info ()
 		Log_CreateTopic (Topic_CityTeacher,LOG_NOTE);
 		
 		
-		B_LogEntry (Topic_CityTeacher,"Carl der Schmied im Hafenviertel, kann mir dabei helfen, stärker zu werden.");
-		B_LogEntry (Topic_CityTeacher,"Lares kann mir dabei helfen, geschickter zu werden.");
-		B_LogEntry (Topic_CityTeacher,"Alrik kann mich im Kampf mit einhändigen Waffen trainieren. Er hält sich hinter dem Lagerhaus im Hafenviertel auf.");
-		B_LogEntry (Topic_CityTeacher,"Ignaz kann mir einige Rezepte zur Herstellung von Tränken zeigen. Er wohnt im Hafenviertel.");
+		B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_3);
+		B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_4);
+		B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_5);
+		B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_6);
 	
 		Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-		B_LogEntry (Topic_CityTrader,"Brahim zeichnet und verkauft Karten am Hafen.");
+		B_LogEntry (Topic_CityTrader,Topic_CityTrader_6);
 		
 		
 	DIA_Kardif_Lernen_permanent = TRUE;
@@ -660,7 +660,7 @@ func void DIA_Kardif_Paket_Info ()
 		
 		DIA_Kardif_Paket_perm = TRUE;
 		
-		B_LogEntry (TOPIC_WAREHOUSE,"Kardif hat sich mit einem Söldner unterhalten. Dieser hatte ein Sumpfkaut - Paket, das er verkaufen wollte.");
+		B_LogEntry (TOPIC_WAREHOUSE,TOPIC_WAREHOUSE_2);
 	}
 	else
 	{
@@ -849,7 +849,7 @@ FUNC VOID DIA_Kardif_Crew_Info()
 		{
 			Log_CreateTopic (TOPIC_Captain, LOG_MISSION);                                                                                                                           
 			Log_SetTopicStatus(TOPIC_Captain, LOG_RUNNING);                                                                                                                         
-			B_LogEntry (TOPIC_Captain,"Kardif hat mich an den alten Jack verwiesen. Er soll mir weiterhelfen können.");
+			B_LogEntry (TOPIC_Captain,TOPIC_Captain_3);
 	    };
 		AI_Output (self, other, "DIA_Kardif_Crew_14_05");//Rede mal mit dem Alten Jack. Er ist hier im Hafen, schon so lange ich denken kann. Er weiß Bescheid, wenn es um die Seefahrt geht.
 	};

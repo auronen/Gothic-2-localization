@@ -82,10 +82,10 @@ FUNC VOID DIA_Keroloth_WantTeach_Info()
 		
 	Keroloth_TeachPlayer = TRUE;
 	Log_CreateTopic (TOPIC_Teacher_OC,LOG_NOTE);
-	B_LogEntry (TOPIC_Teacher_OC,"Keroloth trainiert Schwertkampf in der Burg.");
+	B_LogEntry (TOPIC_Teacher_OC,TOPIC_Teacher_OC_4);
 	
 	Log_CreateTopic (TOPIC_Trader_OC,LOG_NOTE);
-	B_LogEntry (TOPIC_Trader_OC,"Tandor handelt mit Waffen in der Burg.");
+	B_LogEntry (TOPIC_Trader_OC,TOPIC_Trader_OC_5);
 };
 //***********************************************
 //	Kampflehrer EINHAND
@@ -264,7 +264,7 @@ FUNC VOID DIA_Keroloth_Udar_Info()
 	
 	
 	Log_CreateTopic	(TOPIC_Teacher_OC, LOG_NOTE);
-	B_LogEntry		(TOPIC_Teacher_OC, "Udar aus der Burg des Minentals kennt sich mit Armbrüsten aus.");
+	B_LogEntry		(TOPIC_Teacher_OC, TOPIC_Teacher_OC_5);
 };
 //#####################################################################
 //##
@@ -390,7 +390,7 @@ func void DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt ()
 
 	Log_CreateTopic (TOPIC_KerolothsGeldbeutel, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_KerolothsGeldbeutel, LOG_RUNNING);
-	B_LogEntry (TOPIC_KerolothsGeldbeutel,"Der Paladin Keroloth vermisst seinen Geldbeutel. Er behauptet, er sei ihm von den Drachenjägern gestohlen worden."); 
+	B_LogEntry (TOPIC_KerolothsGeldbeutel,TOPIC_KerolothsGeldbeutel_1); 
 
 
 	Info_ClearChoices	(DIA_Keroloth_KAP4_HELLO);

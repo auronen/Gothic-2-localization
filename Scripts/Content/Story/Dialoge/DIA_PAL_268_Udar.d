@@ -141,7 +141,7 @@ FUNC VOID DIA_Udar_ImGood_Info()
 	AI_Output	(self ,other,"DIA_Udar_ImGood_09_02");	//Also, wenn du was lernen willst, dann helfe ich dir.
 	
 	Udar_TeachPlayer = TRUE;
-	B_LogEntry		(TOPIC_Teacher_OC, "Udar ist kann mich im Umgang mit der Armbrust unterweisen"); 
+	B_LogEntry		(TOPIC_Teacher_OC, TOPIC_Teacher_OC_3); 
 };
 
 //***********************************
@@ -384,7 +384,7 @@ func void DIA_Udar_Sengrath_Info ()
 
 	Log_CreateTopic (TOPIC_Sengrath_Missing, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Sengrath_Missing, LOG_RUNNING);
-	B_LogEntry (TOPIC_Sengrath_Missing,"Udar, der Wachposten in der Burg vermisst seinen Freund Sengrath. Das letzte, was er von sah, ist, dass er in die Nacht verschwand in Richtung Orkzaun um seine verlorene Armbrust wieder zu holen."); 
+	B_LogEntry (TOPIC_Sengrath_Missing,TOPIC_Sengrath_Missing_1); 
 };
 
 

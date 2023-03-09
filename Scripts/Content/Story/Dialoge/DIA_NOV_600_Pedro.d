@@ -171,7 +171,7 @@ func void DIA_Pedro_TEMPEL_Info ()
  		SC_KnowsKlosterTribut = TRUE;
   		Log_CreateTopic (Topic_Kloster,LOG_MISSION);
 		Log_SetTopicStatus (Topic_Kloster,LOG_RUNNING);
-		B_LogEntry (Topic_Kloster,"Um im Innos - Kloster als Novize aufgenommen zu werden, brauche ich ein Schaf und eine gewaltige Summe Gold.");
+		B_LogEntry (Topic_Kloster,Topic_Kloster_2);
  	};
 };
 
@@ -207,7 +207,7 @@ func void DIA_Addon_Pedro_Statuette_Info ()
 
 		Log_CreateTopic (TOPIC_Addon_RangerHelpKDF, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_RangerHelpKDF, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_RangerHelpKDF,"Pedro, der Novize, lies mich ein ins Kloster, weil ich die vermisste Statuette bei mir trug. Ich sollte sie jemandem im Kloster übergeben."); 
+		B_LogEntry (TOPIC_Addon_RangerHelpKDF,TOPIC_Addon_RangerHelpKDF_2); 
 	}
 	else
 	{

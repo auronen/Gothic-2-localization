@@ -138,7 +138,7 @@ FUNC VOID DIA_Thorben_Arbeit_Info()
 	
 	Log_CreateTopic (TOPIC_Lehrling,LOG_MISSION); 
 	Log_SetTopicStatus (TOPIC_Lehrling,LOG_RUNNING);
-	B_LogEntry (TOPIC_Lehrling, "Thorben wird mich nicht als Lehrling aufnehmen.");
+	B_LogEntry (TOPIC_Lehrling, TOPIC_Lehrling_13);
 };
 
 // ************************************************************
@@ -193,7 +193,7 @@ func void B_Thorben_GetBlessings()
 	
 	Log_CreateTopic(TOPIC_Thorben,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Thorben,LOG_RUNNING);
-	B_LogEntry (TOPIC_Thorben,"Thorben gibt mir seine Zustimmung, wenn ich mich von einem Priester Adanos und einem Priester Innos segnen lasse.");
+	B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_3);
 };
 
 func void DIA_Thorben_OtherMasters_Devoutly()
@@ -257,7 +257,7 @@ FUNC VOID DIA_Thorben_ZUSTIMMUNG_Info()
 			
 			Log_CreateTopic (TOPIC_Lehrling,LOG_MISSION);
 			Log_SetTopicStatus (TOPIC_Lehrling,LOG_RUNNING);
-			B_LogEntry (TOPIC_Lehrling,"Thorben gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.");
+			B_LogEntry (TOPIC_Lehrling,TOPIC_Lehrling_14);
 		}
 		else
 		{
@@ -504,7 +504,7 @@ FUNC VOID DIA_Thorben_TRADE_Info()
 		Dietrichgeben = Dietrichgeben +1;
 	};
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Der Tischler Thorben verkauft Dietriche."); 
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_16); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -542,7 +542,7 @@ func void DIA_Addon_Thorben_MissingPeople_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Elvrich der Tischlerlehrling von Thorben ist verschwunden."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_6); 
 	
 	Info_ClearChoices	(DIA_Addon_Thorben_MissingPeople);
 	Info_AddChoice	(DIA_Addon_Thorben_MissingPeople, DIALOG_BACK, DIA_Addon_Thorben_MissingPeople_Back );

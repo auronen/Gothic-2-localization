@@ -98,7 +98,7 @@ FUNC VOID DIA_Jergan_Burg_Info()
 	
 	Log_CreateTopic (Topic_OricBruder, LOG_MISSION);
 	Log_SetTopicStatus (Topic_OricBruder,LOG_RUNNING);
-	B_LogEntry (Topic_OricBruder,"Wenn ich in der Burg bin, soll ich Oric davon berichten, das sein Bruder oben am Pass gefallen ist.");
+	B_LogEntry (Topic_OricBruder,Topic_OricBruder_1);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Gegend

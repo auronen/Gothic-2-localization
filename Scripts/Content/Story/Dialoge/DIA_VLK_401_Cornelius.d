@@ -82,7 +82,7 @@ FUNC VOID DIA_Cornelius_WhatYouSee_Info()
 	AI_Output (self ,other,"DIA_Cornelius_WhatYouSee_13_01"); //(hektisch) Ich hab jetzt wirklich keine Zeit.
 	AI_Output (self ,other,"DIA_Cornelius_WhatYouSee_13_02"); //(hektisch) Du musst jetzt gehen, das Büro schließt jetzt.
 	
-	B_LogEntry (TOPIC_RESCUEBENNET,"Cornelius weigert sich mir mir zu reden."); 
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_6); 
 	
 	AI_StopProcessInfos (self);
 };
@@ -173,7 +173,7 @@ FUNC VOID DIA_Cornelius_DontBelieveYou_WhatYouWant ()
 	AI_Output (other,self ,"DIA_Cornelius_DontBelieveYou_WhatYouWant_15_02"); //Wie viel?
 	AI_Output (self ,other,"DIA_Cornelius_DontBelieveYou_WhatYouWant_13_03"); //2000 Goldstücke. Dann könnte ich mir die Sache noch mal überlegen.
 	
-	B_LogEntry (TOPIC_RESCUEBENNET,"Für 2000 Goldstücke, wäre Cornelius bereit mit mir zu reden.");
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_7);
 	
 	Cornelius_PayForProof = TRUE;
 	Info_ClearChoices (DIA_Cornelius_DontBelieveYou);
@@ -299,7 +299,7 @@ FUNC VOID DIA_Cornelius_RealStory_Info()
 		B_GiveInvItems (self,other,ItWr_CorneliusTagebuch_Mis,1);
 	};
 	
-	B_LogEntry (TOPIC_RESCUEBENNET,"Cornelius hat gelogen, man hat ihn bezahlt um Bennet in den Kanst zu bringen. Er will mir allerdings nicht verraten, wer ihn Bezahlt hat, er schlottert vor Angst.");
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_8);
 	
 	CorneliusFlee = TRUE;
 	

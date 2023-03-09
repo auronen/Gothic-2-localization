@@ -163,11 +163,11 @@ func void DIA_Bilgot_KNOWSLEADSNAPPER_Info ()
 
 	Wld_InsertNpc (NewMine_LeadSnapper,"OW_ORC_LOOKOUT_2_01"); //Der Rudelführer
 	
-	B_LogEntry (TOPIC_FajethKillSnapper,"Bilgot hat mir von einem Rudelführer der Snapper berichtet. Er hält sich am Aufgang zum alten Wachturm auf."); 
+	B_LogEntry (TOPIC_FajethKillSnapper,TOPIC_FajethKillSnapper_2); 
 	
 	Log_CreateTopic (TOPIC_BilgotEscort,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_BilgotEscort,LOG_RUNNING);
-	B_LogEntry (TOPIC_BilgotEscort,"Bilgot will, das ich ihn aus dem Tal bringe.");
+	B_LogEntry (TOPIC_BilgotEscort,TOPIC_BilgotEscort_1);
 		
 };
 ///////////////////////////////////////////////////////////////////////

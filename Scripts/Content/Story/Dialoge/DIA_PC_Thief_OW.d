@@ -110,7 +110,7 @@ FUNC VOID DIA_DiegoOw_Beweise_Info()
 	
 	Silvestro_Ore = TRUE;
 	
-	B_LogEntry (TOPIC_ScoutMine,"Diego hat VIER Kisten Erz von Silvestro's Schürfern in Sicherheit gebracht.");
+	B_LogEntry (TOPIC_ScoutMine,TOPIC_ScoutMine_5);
 };
 //******************************************************************
 //			Mine
@@ -218,7 +218,7 @@ FUNC VOID DIA_DiegoOw_Gorn_Info()
 	
 	B_GiveInvItems (self, other, ItmI_Gold, 300);
 	
-	B_LogEntry (TOPIC_RescueGorn,"Diego hat 300 Goldstücke zur Befreiung von Gorn beigetragen.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_7);
 };
 
 //******************************************************************

@@ -51,7 +51,7 @@ func void DIA_Randolph_SchwereLuft_Info ()
 	Akils_SLDStillthere = TRUE;
 	Log_CreateTopic (TOPIC_AkilsSLDStillthere, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AkilsSLDStillthere, LOG_RUNNING);
-	B_LogEntry (TOPIC_AkilsSLDStillthere,"Akils Hof wird von Söldnern bedroht."); 
+	B_LogEntry (TOPIC_AkilsSLDStillthere,TOPIC_AkilsSLDStillthere_1); 
 	B_NpcClearObsessionByDMT (self);
 };
 ///////////////////////////////////////////////////////////////////////
@@ -232,7 +232,7 @@ func void DIA_Randolph_WASISTINTAVERNE_Info ()
 	AI_Output			(self, other, "DIA_Randolph_WASISTINTAVERNE_06_03"); //Am Ende habe ich nur noch verloren und nun muss ich erst wieder zu Geld kommen.
 	Log_CreateTopic (TOPIC_Wettsaufen, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Wettsaufen, LOG_RUNNING);
-	B_LogEntry (TOPIC_Wettsaufen,"In der Taverne wird gewettet."); 
+	B_LogEntry (TOPIC_Wettsaufen,TOPIC_Wettsaufen_1); 
 
 };
 
@@ -267,8 +267,8 @@ func void DIA_Randolph_GEGENWEN_Info ()
 	AI_Output			(self, other, "DIA_Randolph_GEGENWEN_06_04"); //Jemand müsste ihm einfaches Wasser in die Truhe schmuggeln. Dann kann er von mir aus panschen, so viel er will.
 	AI_Output			(self, other, "DIA_Randolph_GEGENWEN_06_05"); //Wenn ich doch nur genug Geld hätte, um noch mal gegen ihn anzutreten.
 
-	B_LogEntry (TOPIC_Wettsaufen,"Randolph erzählte mir von Rukhar und seinem Wettsaufen. Randolph hat nicht genug Geld um nochmal gegen Rukhar anzutreten."); 
-	B_LogEntry (TOPIC_Wettsaufen,"Randolph hat den Verdacht, dass Rukhar beim Wettsaufen betrügt. Randolph würde die Flasche Wacholder in Rukhars Truhe am liebsten mit einer Flasche Wasser vertauschen."); 
+	B_LogEntry (TOPIC_Wettsaufen,TOPIC_Wettsaufen_2); 
+	B_LogEntry (TOPIC_Wettsaufen,TOPIC_Wettsaufen_3); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -335,7 +335,7 @@ func void DIA_Randolph_ICHGEBEDIRGELD_Info ()
 			AI_Output			(self, other, "DIA_Randolph_ICHGEBEDIRGELD_06_01"); //(begeistert) Wirklich? Besten Dank. Ich werde es dir bald zurückzahlen.
 			AI_Output			(self, other, "DIA_Randolph_ICHGEBEDIRGELD_06_02"); //Wenn ich gewinne, lege ich sogar noch was drauf. Wir sehen uns.
 		
-			B_LogEntry (TOPIC_Wettsaufen,"Die Wette läuft. Das sollte ich weiter beobachten."); 
+			B_LogEntry (TOPIC_Wettsaufen,TOPIC_Wettsaufen_4); 
 			B_GivePlayerXP (XP_Randolph_WettkampfStart);
 		
 			DIA_Randolph_ICHGEBEDIRGELD_noPerm = TRUE;
@@ -463,7 +463,7 @@ func void DIA_Randolph_PERM_Info ()
 					};
 					Log_CreateTopic (TOPIC_HealRandolph, LOG_MISSION);
 					Log_SetTopicStatus(TOPIC_HealRandolph, LOG_RUNNING);
-					B_LogEntry (TOPIC_HealRandolph,"Randolph hat angeblich mit dem Saufen aufgehört und schickt mich nun zu Sagitta der Kräuterhexe um ihm ein Mittel zu besorgen gegen seine Entzugserscheinungen."); 
+					B_LogEntry (TOPIC_HealRandolph,TOPIC_HealRandolph_1); 
 
 					MIS_HealRandolph = LOG_RUNNING;
 				}

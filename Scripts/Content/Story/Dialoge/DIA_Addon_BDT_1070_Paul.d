@@ -245,7 +245,7 @@ FUNC VOID DIA_Addon_Paul_MaulPaul_Info()
 	Npc_ExchangeRoutine(self, "START");
 	
 	Paul_TellAll = TRUE;
-	B_LogEntry (Topic_Addon_Esteban, "Paul erzählt, das Huno Esteban hasst, weil der ihm die Geschäfte runiert.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_8);
 };
 
 //----------------------------------------------------------------------

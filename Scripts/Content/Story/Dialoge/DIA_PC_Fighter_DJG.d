@@ -127,7 +127,7 @@ func void DIA_GornDJG_WHATSUP_Info ()
 	Info_AddChoice		(DIA_GornDJG_WHATSUP, "Vielleicht Lester?", DIA_GornDJG_WHATSUP_Lester );
 	Info_AddChoice		(DIA_GornDJG_WHATSUP, "Ein Drache?", DIA_GornDJG_WHATSUP_A_Dragon );
 	
-	B_LogEntry (TOPIC_Dragonhunter,"Gorn sitzt am Fuße der Hochebene zur alten Felsenfestung. Von dort aus hat er sowohl die Hochebene als auch die Orkbarriere im Blickfeld."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_8); 
 };
 func void DIA_GornDJG_WHATSUP_Lester ()
 {
@@ -143,7 +143,7 @@ func void DIA_GornDJG_WHATSUP_A_Dragon ()
 
 	GornDJG_WhatMonsters = TRUE;
 
-	B_LogEntry (TOPIC_Dragonhunter,"Laut Gorn haust ein Drache in der alten Felsenfestung."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_9); 
 	
 	Info_ClearChoices	(DIA_GornDJG_WHATSUP);
 };
@@ -241,7 +241,7 @@ func void DIA_GornDJG_HELPKILLDRACONIANS_Info ()
 	AI_Output			(self, other, "DIA_GornDJG_HELPKILLDRACONIANS_12_05"); //Ein bisschen Bewegung kann nicht schaden. Außerdem will ich mir die Biester da oben mal aus der Nähe ansehen.
 	AI_Output			(self, other, "DIA_GornDJG_HELPKILLDRACONIANS_12_06"); //Sag Bescheid, wenn's los geht!
 
-	B_LogEntry (TOPIC_Dragonhunter,"Gorn will mir helfen zur Felsenfestung über die Hochebene zu kommen."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_10); 
 
 };
 
@@ -303,7 +303,7 @@ func void DIA_GornDJG_BISHIERHIN_Info ()
 	AI_Output			(other, self, "DIA_GornDJG_BISHIERHIN_15_01"); //Kein Problem. Ich seh dich!
 	AI_Output			(self, other, "DIA_GornDJG_BISHIERHIN_12_02"); //Hoffentlich!
 
-	B_LogEntry (TOPIC_Dragonhunter,"Gorn ging wieder zu seinem Ausichtsplatz zurück. Er will die Orks weiter beobachten."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_11); 
 
 	B_GivePlayerXP (XP_GornDJGPlateauClear);
  	

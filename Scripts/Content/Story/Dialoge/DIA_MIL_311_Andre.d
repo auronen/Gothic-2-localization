@@ -640,7 +640,7 @@ func void DIA_Andre_AskToJoin_Info ()
 	
 	Log_CreateTopic (TOPIC_BecomeMIL,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_BecomeMIL,LOG_RUNNING);
-	B_LogEntry (TOPIC_BecomeMIL,"Um bei der Stadtwache aufgenommen zu werden, muss ich erst Bürger der Stadt werden.");
+	B_LogEntry (TOPIC_BecomeMIL,TOPIC_BecomeMIL_1);
 };
 
 // *********************************************************
@@ -768,7 +768,7 @@ func void DIA_Andre_GuildOfThieves_Info ()
 	};
 	
 	MIS_Andre_GuildOfThieves = LOG_RUNNING;
-	B_LogEntry (TOPIC_BecomeMIL,"Es gibt noch eine andere Möglichkeit, um bei der Stadtwache aufgenommen zu werden. Ich muss die Diebesgilde in Khorinis finden und zur Strecke bringen.");
+	B_LogEntry (TOPIC_BecomeMIL,TOPIC_BecomeMIL_2);
 	
 };
 
@@ -801,7 +801,7 @@ func void DIA_Andre_WhereThieves_Info ()
 	AI_Output (self, other, "DIA_Andre_WhereThieves_08_04"); //Aber du bist von außerhalb, dir werden sie nicht so schnell misstrauen.
 	AI_Output (self, other, "DIA_Andre_WhereThieves_08_05"); //Du könntest dich zuerst am Hafen umhören. Aber sei vorsichtig. Wenn die Leute dort mitbekommen, dass du für die Paladine arbeitest, erfährst du NICHTS!
 	
-	B_LogEntry (TOPIC_BecomeMIL,"Wenn ich die Diebesgilde ausfindig machen will, sollte ich mich vielleicht im Hafenviertel umhören.");
+	B_LogEntry (TOPIC_BecomeMIL,TOPIC_BecomeMIL_3);
 };
 
 // *********************************************************
@@ -833,7 +833,7 @@ func void DIA_Andre_WhatToDo_Info ()
 	AI_Output (self, other, "DIA_Andre_WhatToDo_08_04"); //Außerdem gibt es für jeden schrägen Vogel, den du hinter Gitter bringst, ein Kopfgeld.
 	AI_Output (self, other, "DIA_Andre_WhatToDo_08_05"); //Wenn du allerdings das Versteck der Drahtzieher findest - nun - dann wirst du vermutlich nicht um einen Kampf herumkommen.
 	
-	B_LogEntry (TOPIC_BecomeMIL,"Wenn ich einen Handlanger der Diebesgilde erwische, liefere ich am Besten an Lord Andre aus. Um die Diebesgilde zur Strecke zu bringen, muss ich ihr Versteck finden.");
+	B_LogEntry (TOPIC_BecomeMIL,TOPIC_BecomeMIL_4);
 };
 
 // *********************************************************
@@ -1299,7 +1299,7 @@ func void DIA_Andre_Waffe_Info ()
 	
 	Log_CreateTopic (TOPIC_Peck,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Peck,LOG_RUNNING);
-	B_LogEntry (TOPIC_Peck,"Peck ist irgendwo in der Stadt. Wenn ich ihn zurück zur Kaserne bringe, kann ich mir eine Waffe von ihm holen.");
+	B_LogEntry (TOPIC_Peck,TOPIC_Peck_1);
 	
 	AI_StopProcessInfos (self);
 };
@@ -1408,7 +1408,7 @@ func void DIA_Andre_FIRSTMISSION_Info ()
 	
 	Log_CreateTopic (TOPIC_WAREHOUSE,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_WAREHOUSE,LOG_RUNNING);
-	B_LogEntry (TOPIC_WAREHOUSE,"Im Hafen ist ein Paket mit Sumpfkraut angekommen. Das hat Mortis dort in der Kneipe ausgeschnappt. Ich soll das Paket finden und zu Lord Andre bringen.");
+	B_LogEntry (TOPIC_WAREHOUSE,TOPIC_WAREHOUSE_1);
 	
 	
 };
@@ -1519,7 +1519,7 @@ func void DIA_Andre_FIND_DEALER_Info ()
 	
 	Log_CreateTopic (TOPIC_REDLIGHT,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_REDLIGHT,LOG_RUNNING);
-	B_LogEntry (TOPIC_REDLIGHT,"Ich soll den Kerl finden, der das Sumpfkraut im Hafenviertel verkauft. Ich muss ihn dazu kriegen, das er mir Kraut verkauft. Mortis kann mir in dieser Sache weiterhelfen.");
+	B_LogEntry (TOPIC_REDLIGHT,TOPIC_REDLIGHT_1);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info REDLIGHT_SUCCESS
@@ -1613,7 +1613,7 @@ func void DIA_Andre_HILFBAUERLOBART_Info ()
 	
 	Log_CreateTopic (TOPIC_Feldraeuber, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Feldraeuber, LOG_RUNNING);
-	B_LogEntry (TOPIC_Feldraeuber,"Andre hat mich zu Lobarts Bauernhof geschickt. Ich soll Lobart helfen, seinen Hof wieder in den Griff zu kriegen."); 
+	B_LogEntry (TOPIC_Feldraeuber,TOPIC_Feldraeuber_1); 
 	
 	
 	MIS_AndreHelpLobart = LOG_RUNNING;

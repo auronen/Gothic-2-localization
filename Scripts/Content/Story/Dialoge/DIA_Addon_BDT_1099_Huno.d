@@ -121,7 +121,7 @@ FUNC VOID DIA_Addon_Huno_Hi_Info()
 	Info_AddChoice (DIA_Addon_Huno_Hi,"Ich wüßte nicht woher.",DIA_Addon_Huno_Hi_NO);
 	
 	Log_CreateTopic (Topic_Addon_BDT_Trader,LOG_NOTE);
-	B_LogEntry (Topic_Addon_BDT_Trader,"Huno handelt mit Schmiedezubehör.");
+	B_LogEntry (Topic_Addon_BDT_Trader,Topic_Addon_BDT_Trader_1);
 };
 FUNC VOID DIA_Addon_Huno_Hi_JA()
 {
@@ -354,7 +354,7 @@ FUNC VOID DIA_Addon_Huno_SomeThings_Info()
 			Info_AddChoice (DIA_Addon_Huno_SomeThings, "Ich will mit dem Attentäter gemeinsame Sache machen!", DIA_Addon_Huno_SomeThings_Contra);
 			Info_AddChoice (DIA_Addon_Huno_SomeThings, "Wenn du hinter dem Attentat steckst, wirst du dafür bezahlen!", DIA_Addon_Huno_SomeThings_Pro);
 			
-			B_LogEntry (Topic_Addon_Esteban, "Sieht so aus, als hätte ich Huno an seinen Eiern gepackt.");
+			B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_1);
 		}
 		else
 		{
@@ -399,7 +399,7 @@ func void DIA_Addon_Huno_SomeThings_Contra()
 	
 	Log_CreateTopic (Topic_Addon_Huno,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Huno,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Huno,"Huno wartete auf eine Lieferung Stahl von den Piraten. Er glaubt das ein Kerl namens Juan sie im Auftrag von Esteban abgefangen hat. Er versteckt sich irgendwo im Sumpf.");
+	B_LogEntry (Topic_Addon_Huno,Topic_Addon_Huno_1);
 	
 	Info_ClearChoices (DIA_Addon_Huno_SomeThings);
 	Info_AddChoice (DIA_Addon_Huno_SomeThings, "Du verrätst mir erst, wer der Auftraggeger ist!", DIA_Addon_Huno_SomeThings_TellMeNow);
@@ -425,7 +425,7 @@ func void DIA_Addon_Huno_SomeThings_TellMeNow()
 	Info_ClearChoices (DIA_Addon_Huno_SomeThings);
 	AI_StopProcessInfos (self);
 	
-	B_LogEntry (Topic_Addon_Esteban, "Huno sagte mir, ich sollte mal mit Snaf sprechen.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_2);
 };
 
 //----------------------------------------------------------------------
@@ -469,7 +469,7 @@ FUNC VOID DIA_Addon_Huno_Paket_Info()
 		Huno_zuSnaf = TRUE;
 	};
 	
-	B_LogEntry (Topic_Addon_Esteban, "Huno sagte mir,ich sollte mal mit Snaf sprechen.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_2);
 	MIS_Huno_Stahl = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_HunoStahl);
 };

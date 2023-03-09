@@ -93,7 +93,7 @@ func void DIA_Addon_Greg_NW_Hallo_ja ()
 	
 	Log_CreateTopic (TOPIC_Addon_Greg_NW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Greg_NW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Greg_NW,"Der seltsame Kerl mit der Augenklappe will in die Hafenstadt. Ich soll für ihn einen Weg finden, an den Stadtwachen vorbei zu kommen."); 
+	B_LogEntry (TOPIC_Addon_Greg_NW,TOPIC_Addon_Greg_NW_1); 
 	
 	MIS_Addon_Greg_BringMeToTheCity = LOG_RUNNING;
 };
@@ -220,7 +220,7 @@ func void DIA_Addon_Greg_NW_Stadtwachen_klamotten ()
 
 	Npc_ExchangeRoutine	(self,"Markt");
 
-	B_LogEntry (TOPIC_Addon_Greg_NW,"Ich habe ihm Bauernkleidung gegeben. Damit kam er an den Stadtwachen vorbei."); 
+	B_LogEntry (TOPIC_Addon_Greg_NW,TOPIC_Addon_Greg_NW_2); 
 
 	MIS_Addon_Greg_BringMeToTheCity = LOG_SUCCESS;
 };
@@ -388,7 +388,7 @@ func VOID B_Greg_Search_Dexter ()
 
 	Log_CreateTopic (TOPIC_Addon_Greg_NW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Greg_NW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Greg_NW,"Der Mann mit der Augenklappe sucht jemanden, dessen Name mit einem 'D' anfängt."); 
+	B_LogEntry (TOPIC_Addon_Greg_NW,TOPIC_Addon_Greg_NW_3); 
 
 	SC_KnowsGregsSearchsDexter = TRUE;
 };
@@ -485,7 +485,7 @@ func void DIA_Addon_Greg_NW_was_HierGold ()
 
 	Log_CreateTopic (TOPIC_Addon_Greg_NW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Greg_NW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Greg_NW,"Ich habe dem Mann mit der Augenklappe Gold angeboten, doch er wollte es nicht. Ich soll ihm zu seiner Höhle folgen."); 
+	B_LogEntry (TOPIC_Addon_Greg_NW,TOPIC_Addon_Greg_NW_4); 
 
 	MIS_Addon_Greg_RakeCave = LOG_RUNNING;
 	Info_ClearChoices	(DIA_Addon_Greg_NW_was);
@@ -599,7 +599,7 @@ func void DIA_Addon_Greg_NW_RakeCaveThere_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_Greg_NW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Greg_NW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Greg_NW,"Der Kerl will, dass ich in der Höhle nach seinem Kram suche. Er hat es vergraben und die Stelle mit einem Kreuz markiert. Dazu gab er mir eine Hacke."); 
+	B_LogEntry (TOPIC_Addon_Greg_NW,TOPIC_Addon_Greg_NW_5); 
 
 	MIS_Addon_Greg_RakeCave_Day = Wld_GetDay(); 
 };
@@ -664,7 +664,7 @@ func void B_Greg_RakePlaceBriefing ()
 
 	if (B_Greg_RakePlaceBriefing_OneTime == FALSE)
 	{
-		B_LogEntry (TOPIC_Addon_Greg_NW,"Es gibt noch mehr Stellen an denen er etwas vergraben hat. 1) Auf der kleinen Insel im See mit den zwei Wasserfällen. 2) Oben auf dem Weidenplateau hinterm Bauernhof. 3) Neben dem Eingang zum Pass bei den Wasserfällen. 4) In dem Talkessel unterhalb der Treppe von den Feldern des Bauern vom Weidenplateau zu denen des Großbauern. Ich soll ihm den vergrabenen Kram wieder beschaffen. Er wartet auf mich an der Kreuzung zwischen den Feldern.");
+		B_LogEntry (TOPIC_Addon_Greg_NW,TOPIC_Addon_Greg_NW_6);
 		B_Greg_RakePlaceBriefing_OneTime = TRUE;
 	};
 };                                                                                             

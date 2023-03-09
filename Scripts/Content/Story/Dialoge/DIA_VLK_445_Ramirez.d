@@ -334,7 +334,7 @@ FUNC VOID DIA_Ramirez_Sextant_Info()
 	
 	Log_CreateTopic (Topic_RamirezSextant,LOG_MISSION);
 	Log_SetTopicStatus (Topic_RamirezSextant, LOG_RUNNING);
-	B_LogEntry (Topic_RamirezSextant, "Ramirez will, das ich ihm ein Sextant bringe.");
+	B_LogEntry (Topic_RamirezSextant, Topic_RamirezSextant_1);
 	
 	MIS_RamirezSextant = LOG_RUNNING;
 };

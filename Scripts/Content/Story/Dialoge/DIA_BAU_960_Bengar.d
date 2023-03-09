@@ -145,7 +145,7 @@ func void DIA_Addon_Bengar_MissingPeople_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Der Bauer Bengar vermisst seinen Feldarbeiter Pardos."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_3); 
 
 	MIS_Bengar_BringMissPeopleBack = LOG_RUNNING;
 	B_GivePlayerXP (XP_Ambient);
@@ -563,7 +563,7 @@ func void DIA_Bengar_BALTHASAR_Info ()
 	AI_Output			(other, self, "DIA_Bengar_BALTHASAR_15_00"); //Balthasar der Schafhirte darf nicht auf deine Weide?
 	AI_Output			(self, other, "DIA_Bengar_BALTHASAR_10_01"); //Ach so. Die Geschichte. Ich habe ihm erzählt, Sekob soll mir Geld bezahlen, wenn er die Schafe auf meine Weide führt.
 	AI_Output			(self, other, "DIA_Bengar_BALTHASAR_10_02"); //Wenn ich ehrlich bin, ist das nur Schikane. Ich kann Balthasar einfach nicht leiden.
-	B_LogEntry (TOPIC_BalthasarsSchafe,"Wenn ich Bengar überzeugen will, dass er Balthasar wieder auf seine Weide läßt, werde ich etwas für ihn tun müssen. Die Gelegenheit wird sich sicherlich noch ergeben."); 
+	B_LogEntry (TOPIC_BalthasarsSchafe,TOPIC_BalthasarsSchafe_1); 
 	B_GivePlayerXP (XP_Ambient);
 };
 
@@ -714,8 +714,8 @@ func void DIA_Bengar_ALLEIN_Info ()
 	
 	Log_CreateTopic (TOPIC_BengarALLEIN, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BengarALLEIN, LOG_RUNNING);
-	B_LogEntry (TOPIC_BengarALLEIN,"Bengar steht alleine auf seinem Hof. Malak sein Freund ist weg und aht alle anderen mitgenommen. Bengar denkt, dass er in die Berge geflohen ist."); 
-	B_LogEntry (TOPIC_BengarALLEIN,"Sein Hof ist nun völlig schutzlos. Er braucht eine Hilfe. Er sprach von einm Söldner mit dem Namen Wolf. Den kenn ich doch!?"); 
+	B_LogEntry (TOPIC_BengarALLEIN,TOPIC_BengarALLEIN_1); 
+	B_LogEntry (TOPIC_BengarALLEIN,TOPIC_BengarALLEIN_2); 
 };
 
 ///////////////////////////////////////////////////////////////////////

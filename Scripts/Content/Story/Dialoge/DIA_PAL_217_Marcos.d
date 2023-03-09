@@ -124,11 +124,11 @@ FUNC VOID DIA_Marcos_Garond_Info()
 	AI_Output (self, other, "DIA_Marcos_Garond_04_05");//Er soll mir Unterstützung schicken.
 	AI_Output (other, self, "DIA_Marcos_Garond_15_06");//Ich werd's ihm ausrichten.
 	
-	B_LogEntry (TOPIC_ScoutMine,"Der Paladin Marcos bewacht in einem kleinen Tal VIER Kisten mit Erz.");
+	B_LogEntry (TOPIC_ScoutMine,TOPIC_ScoutMine_6);
 	
 	Log_CreateTopic (Topic_MarcosJungs,LOG_MISSION);
 	Log_SetTopicStatus (Topic_MarcosJungs,LOG_RUNNING);
-	B_LogEntry (Topic_MarcosJungs,"Marcos will, das Garond ihm Unterstützung schickt.");
+	B_LogEntry (Topic_MarcosJungs,Topic_MarcosJungs_1);
 	
 	MIS_Marcos_Jungs = LOG_RUNNING;
 	Marcos_Ore = TRUE;

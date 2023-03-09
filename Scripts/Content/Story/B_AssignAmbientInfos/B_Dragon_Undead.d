@@ -93,7 +93,7 @@ FUNC VOID DIA_Dragon_Undead_Hello_Info()
 	Info_AddChoice	(DIA_Dragon_Undead_Hello, "Warum bist du hier?", DIA_Dragon_Undead_Hello_warum );
 	Info_AddChoice	(DIA_Dragon_Undead_Hello, "Wer bist du?", DIA_Dragon_Undead_Hello_wer );
 
-	B_LogEntry (TOPIC_HallenVonIrdorath,"Der Feind ist ein untoter Drache. Ich muß ihn töten, damit ich diese verfluchte Insel wieder verlassen kann."); 
+	B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_7); 
 };
 func void DIA_Dragon_Undead_Hello_wer ()
 {

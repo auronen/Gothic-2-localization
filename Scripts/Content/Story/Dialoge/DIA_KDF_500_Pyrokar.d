@@ -110,7 +110,7 @@ func void DIA_Pyrokar_Auge_Info ()
 	AI_Output (other, self, "DIA_Pyrokar_Auge_15_03"); //Ich würd's auf einen Versuch ankommen lassen.
 	AI_Output (self, other, "DIA_Pyrokar_Auge_11_04"); //Demut ist die Pflicht des Novizen - nicht das Verlangen.
 	
- 	B_LogEntry (TOPIC_INNOSEYE, "Das hatte ich mir eigentlich ein bisschen einfacher vorgestellt, aber freiwillig und ohne Unterstützung der Paladine wird Pyrokar das Auge nicht rausrücken.");
+ 	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_12);
 	
 	if Npc_KnowsInfo (other,DIA_Pyrokar_Hagen)
 	{
@@ -150,7 +150,7 @@ func void DIA_Addon_Pyrokar_MissingPeople_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Die Feuermagier bedauern den Verlust der Bürger. Jedoch sagen sie, das sei die Aufgabe der Wassermagier. Im Kloster habe hierbei keine Hilfe zu erwarten."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_8); 
 
 	if (other.guild  == GIL_NOV)
 	&& (KNOWS_FIRE_CONTEST == FALSE)
@@ -229,7 +229,7 @@ func void DIA_Pyrokar_FIRE_Info ()
 	AI_Output (self, other, "DIA_Pyrokar_FIRE_11_07"); //Dann - soll es sein. Wenn du bereit bist, wird dir jeder Magier aus dem hohen Rat eine Prüfung stellen, die du erfüllen musst.
 	AI_Output (self, other, "DIA_Pyrokar_FIRE_11_08"); //Möge Innos sich deiner Seele erbarmen.
 	
-	B_LogEntry (TOPIC_FireContest,"Ich habe bei Pyrokar die Prüfung des Feuers gefordert. Jetzt muss ich die drei Aufgaben erfüllen, die mir der hohe Rat stellt.");
+	B_LogEntry (TOPIC_FireContest,TOPIC_FireContest_2);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TEST
@@ -265,9 +265,9 @@ func void DIA_Pyrokar_TEST_Info ()
 	
 	Log_CreateTopic (TOPIC_Schnitzeljagd,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Schnitzeljagd,LOG_RUNNING);
-	B_LogEntry (TOPIC_Schnitzeljagd,"Pyrokar stellt mich vor die Prüfung der Magie. Die gleiche Prüfung, die auch den erwählten Noivzen, Ulf, Igaraz und Agon auferlegt wurde. ");
+	B_LogEntry (TOPIC_Schnitzeljagd,TOPIC_Schnitzeljagd_1);
 	
-	B_LogEntry (TOPIC_Schnitzeljagd," Ich soll den Zeichen Innos folgen und ihm das bringen 'was der Gläubige hinter dem Pfad findet'. Dazu hat er mir einen Schlüssel gegeben.");
+	B_LogEntry (TOPIC_Schnitzeljagd,TOPIC_Schnitzeljagd_2);
 	
 	CreateInvItems (self,ItKe_MagicChest,1);
 	B_GiveInvItems (self,other,ItKe_MagicChest,1);
@@ -532,12 +532,12 @@ func void DIA_Pyrokar_Lernen_Info ()
 	
 	Log_CreateTopic (Topic_KlosterTeacher,LOG_NOTE);
 	
-	B_LogEntry (Topic_KlosterTeacher,"Bruder Parlan wird mich in die ersten Kreise der Magie einweihen.");
+	B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_4);
 	
-	B_LogEntry (Topic_KlosterTeacher,"Bruder Karras unterrichtet die Formeln der Beschwörungen und Anrufungen.");
-	B_LogEntry (Topic_KlosterTeacher,"Bruder Hyglas kann mich in die Geheimnisse des Feuers einweihen.");
-	B_LogEntry (Topic_KlosterTeacher,"Bruder Marduk kann mir die Mächte von Eis und Donner beibringen.");
-	B_LogEntry (Topic_KlosterTeacher,"Bruder Parlan unterrichtet verschiedene, andere Formeln.");
+	B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_5);
+	B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_6);
+	B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_7);
+	B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_8);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -1044,7 +1044,7 @@ func void DIA_Pyrokar_BACKFROMOW_Info ()
 	{
 	Log_CreateTopic (TOPIC_DEMENTOREN, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_DEMENTOREN, LOG_RUNNING);
-	B_LogEntry (TOPIC_DEMENTOREN,"Pyrokar erzählte mir von den Suchenden. Männer in schwarzen Roben. Die Schergen Beliars. Er warnte mich vor ihrer Fähigkeit, mich besessen zu machen. Ich soll sofort ins Kloster zurückkehren, sollte mir das einmal passieren."); 
+	B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_3); 
 	};
 
 	if ((Npc_IsDead(Karras))==FALSE)
@@ -1052,7 +1052,7 @@ func void DIA_Pyrokar_BACKFROMOW_Info ()
 	{
 		AI_Output			(self, other, "DIA_Pyrokar_BACKFROMOW_11_09"); //Ich habe Karras darauf angesetzt, sich mit der Materie zu befassen. In Kürze wird er sicherlich mehr Erkenntnisse gewonnen haben, die uns weiter bringen.
 		PyrokarToldKarrasToResearchDMT = TRUE;
-		B_LogEntry (TOPIC_DEMENTOREN,"Pyrokar hat Karras damit beauftragt, sich mit der Bedrohung durch die Suchenden zu beschäftigen."); 
+		B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_4); 
 	};
 
 	AI_Output (self ,other, "DIA_Pyrokar_Add_11_00"); //Hier - diese Rune wird dich direkt zum Kloster zurückbringen, wenn du unserer Hilfe bedarfst.
@@ -1125,8 +1125,8 @@ func void DIA_Pyrokar_GIVEINNOSEYE_wer ()
 	Pedro.flags = 0;	//Joly: Pedro ist nun mortal und zum Abschuß freigegeben.
 	Pedro_Traitor = TRUE;	//Joly: Pedro ist für den SC nun als Traitor bekannt. Muß hier stehen bleiben und darf nur einmal auf True gesetzt werden
 
- 	B_LogEntry (TOPIC_INNOSEYE, "Klasse. Hätte ich mir ja denken können. Ich bin zu spät gekommen, die Hohlköpfe im Kloster haben sich das Auge von einem Novizen klauen lassen und ich kann dem Verräter Pedro jetzt hinterher rennen und hoffen, dass er es noch nicht an irgendwen verkauft hat.");
- 	B_LogEntry (TOPIC_TraitorPedro, "Pedro, der Verräter, hat das Auge Innos aus dem Kloster gestohlen. Ich schätze, dass die Feuermagier ihn nur all zu gerne in die Finger kriegen wollen.");
+ 	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_13);
+ 	B_LogEntry (TOPIC_TraitorPedro, TOPIC_TraitorPedro_2);
 };
 
 
@@ -1221,7 +1221,7 @@ func void DIA_Pyrokar_FOUNDINNOSEYE_was ()
 	Info_AddChoice	(DIA_Pyrokar_FOUNDINNOSEYE, "Was ist der Sonnenkreis?", DIA_Pyrokar_FOUNDINNOSEYE_sonnenkreis );
 	
 	
-	B_LogEntry (TOPIC_INNOSEYE, "Pyrokar will, dass ich den Wassermagier Vatras in der Satdt um Rat frage, was mit dem zerstörten Auge nun zu tun ist.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_14);
 
 	MIS_Pyrokar_GoToVatrasInnoseye = LOG_RUNNING;
 
@@ -1322,7 +1322,7 @@ func void DIA_Pyrokar_XARDASVERTRAUEN_Info ()
 	AI_Output			(self, other, "DIA_Pyrokar_XARDASVERTRAUEN_11_04"); //Ich fürchte, das ist unmöglich. Es müsste mich schon sehr beeindrucken.
 	AI_Output			(self, other, "DIA_Pyrokar_XARDASVERTRAUEN_11_05"); //Was Xardas angeht, habe ich meine Zweifel, ob es ihm überhaupt noch gelingen wird, mich zu beeindrucken.
 
-	B_LogEntry (TOPIC_INNOSEYE, "Pyrokar bekommt bei dem Gedanken an Xardas kalte Füsse. Ich werde mit Xardas darüber reden müssen, wie ich ihn zum Ritual am Sonnenkreis bewegen kann.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_15);
 	
 	Pyrokar_DeniesInnosEyeRitual = TRUE;
 
@@ -1369,7 +1369,7 @@ func void DIA_Pyrokar_BUCHZURUECK_Info ()
 	AI_StopProcessInfos (self);
 	AI_UseMob			(self,"THRONE",-1);
 	Npc_ExchangeRoutine	(self,"RitualInnosEyeRepair");
-	B_LogEntry (TOPIC_INNOSEYE, "Endlich hat Pyrokar eingewilligt zum Sonnenkreis zu gehen.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_16);
 	Pyrokar_GoesToRitualInnosEye = TRUE;
 };
 
@@ -1493,7 +1493,7 @@ func void DIA_Pyrokar_KAP3_READY_Info ()
 	
 	Log_CreateTopic (TOPIC_DRACHENJAGD, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_DRACHENJAGD, LOG_RUNNING);
-	B_LogEntry (TOPIC_DRACHENJAGD,"Ich bin nun bereit, den Drachen gegenüber zu treten. Das Auge Innos wird mir helfen sie zu bezwingen. Ich darf nur nicht vergessen, es zu tragen, wenn ich in den Kampf gegen die Biester ziehe. Erst muß ich mit den Drachen gesprochen haben, bevor ich auch nur den Hauch einer Chance gegen sie habe. Das Dumme ist nur, dass das Auge bei jedem Gespräch mit einem von ihnen seine Kraft verliert. Ich benötige das Herz eines Drachen und eine leere Laborflasche um das Extrakt des Drachenherzes mit dem geschwächten Stein des Amuletts an einem Alchemietisch zu vereinen, bevor ich mich dem nächsten Drachen stellen kann."); 
+	B_LogEntry (TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_10); 
 
 	MIS_ReadyforChapter4 = TRUE; //Joly: Mit dieser Varible in den Levelchange zur OW -> Kapitel 4
 	B_NPC_IsAliveCheck (NEWWORLD_ZEN);
@@ -1550,7 +1550,7 @@ func void DIA_Pyrokar_BUCHDERBESSENEN_Info ()
 	
 		AI_Output			(self, other, "DIA_Pyrokar_BUCHDERBESSENEN_11_11"); //Begehe nicht den Fehler, sie selbst vernichten zu wollen. Du bist ihrer Macht noch nicht gewachsen.
 
-		B_LogEntry (TOPIC_DEMENTOREN,"Pyrokar will die Almanachs der Besessenen unschädlich machen. Dazu gab er mir eine Liste derer, die die Suchenden zu übernehmen planen. Auf Pyrokars Liste sollen später vielleicht noch mehr Namen zu lesen sein."); 
+		B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_5); 
 	};
 	
 	AI_Output			(self, other, "DIA_Pyrokar_BUCHDERBESSENEN_11_12"); //Komm den Suchenden nicht zu nah, sonst werden sie von dir Besitz ergreifen.
@@ -1563,7 +1563,7 @@ func void DIA_Pyrokar_BUCHDERBESSENEN_Info ()
 			AI_Output			(other, self, "DIA_Pyrokar_BUCHDERBESSENEN_15_15"); //Gibt es keinen Schutz gegen ihre mentalen Angriffe?
 			AI_Output			(self, other, "DIA_Pyrokar_BUCHDERBESSENEN_11_16"); //Möglich. Karras könnte etwas darüber wissen.
 			Pyrokar_AskKarrasAboutDMTAmulett = TRUE;
-			B_LogEntry (TOPIC_DEMENTOREN,"Karras soll mir helfen, einen Schutz gegen die mentalen Angriffe der Suchenden zu finden."); 
+			B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_6); 
 		};
 };
 
@@ -1902,7 +1902,7 @@ func void DIA_Pyrokar_WASISTIRDORATH_Info ()
 	AI_Output			(self, other, "DIA_Pyrokar_WASISTIRDORATH_11_09"); //Dazu müsstest du ihn erst einmal finden, und ich denke, das wird deine nächste und schwierigste Aufgabe sein.
 	AI_Output			(other, self, "DIA_Pyrokar_WASISTIRDORATH_15_10"); //Wir werden sehen.
 
-	B_LogEntry (TOPIC_BuchHallenVonIrdorath,"Die Hallen von Irdorath seine laut Pyrokar ein verschollener Beschwörungstempel des Gottes Beliar. Ich muß diesen Tempel finden."); 
+	B_LogEntry (TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_5); 
 
 };
 
@@ -1940,7 +1940,7 @@ func void DIA_Pyrokar_BUCHIRDORATH_Info ()
 	AI_Output			(self, other, "DIA_Pyrokar_BUCHIRDORATH_11_05"); //Von mir aus. Ich kann mir nicht vorstellen, dass du da Erfolg hast, wo die größten Meister unseres Klosters gescheitert sind.
 	AI_Output			(self, other, "DIA_Pyrokar_BUCHIRDORATH_11_06"); //Aber versuch es ruhig, Talamon wird dich nicht aufhalten.
 
-	B_LogEntry (TOPIC_BuchHallenVonIrdorath,"Xardas Buch DIE HALLEN VON IRDORATH liegt in den unteren Gewölben des Klosters. Talamon bewacht es. Die Magier haben es nicht geschafft es zu öffnen. Es ist magisch veriegelt und Xardas sei dafür verantwortlich."); 
+	B_LogEntry (TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_6); 
 	
 	Pyrokar_LetYouPassTalamon = TRUE;
 };
@@ -2034,7 +2034,7 @@ func void DIA_Pyrokar_GEHEIMEBIBLIOTHEK_Info ()
 	AI_Output			(self, other, "DIA_Pyrokar_GEHEIMEBIBLIOTHEK_11_03"); //Nein. Wo soll diese Bibliothek sein, sagst du?
 	AI_Output			(other, self, "DIA_Pyrokar_GEHEIMEBIBLIOTHEK_15_04"); //So, so. Du hast also keine Ahnung. Mmh.
 	
-	B_LogEntry (TOPIC_BuchHallenVonIrdorath,"Pyrokar hat von der geheimen Bibliothek keine Ahnung. Offensichtlich hatte nur Xardas jemals Zugang dazu."); 
+	B_LogEntry (TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_7); 
 
 };
 
@@ -2145,7 +2145,7 @@ func void DIA_Pyrokar_MACHDTFREI_Info ()
 	
 	Log_CreateTopic (TOPIC_PyrokarClearDemonTower,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_PyrokarClearDemonTower,LOG_RUNNING);
-	B_LogEntry (TOPIC_PyrokarClearDemonTower,"In Xardas Turm geschehen seltsame Dinge. Wenn ich mich darum kümmere, kann ich Jorgen mitnehmen.");
+	B_LogEntry (TOPIC_PyrokarClearDemonTower,TOPIC_PyrokarClearDemonTower_1);
 };
 
 ///////////////////////////////////////////////////////////////////////

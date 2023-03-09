@@ -97,7 +97,7 @@ FUNC VOID DIA_Grom_AskTeacher_Info()
 	AI_Output(self,other,"DIA_Grom_AskTeacher_08_02"); //Ich will eine Flasche Milch, ein Brot und einen fetten Schinken, dann bring ich dir bei, was du willst.
 	Log_CreateTopic (TOPIC_GromAskTeacher, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_GromAskTeacher, LOG_RUNNING);
-	B_LogEntry (TOPIC_GromAskTeacher,"Grom der Jäger wird mir sein Geschick beibringen, wenn ich ihm eine Flasche Milch, ein Brot und einen Schinken bringe."); 
+	B_LogEntry (TOPIC_GromAskTeacher,TOPIC_GromAskTeacher_1); 
 };
 
 

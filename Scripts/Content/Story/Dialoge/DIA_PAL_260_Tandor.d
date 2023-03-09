@@ -49,7 +49,7 @@ func void DIA_Tandor_Hallo_Info ()
 	AI_Output (self, other, "DIA_Tandor_Hallo_08_02"); //Hast du eine Waffe? Wenn du eine gute Waffe brauchst, bist du bei mir richtig.
 	
 	Log_CreateTopic (TOPIC_Trader_OC,LOG_NOTE);
-	B_LogEntry (TOPIC_Trader_OC,"Tandor handelt mit Waffen in der Burg.");
+	B_LogEntry (TOPIC_Trader_OC,TOPIC_Trader_OC_3);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Spähtrupp

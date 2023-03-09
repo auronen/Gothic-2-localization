@@ -137,7 +137,7 @@ FUNC VOID DIA_Addon_Snaf_Cook_YES()
 	
 	Log_CreateTopic (Topic_Addon_Hammer,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Hammer,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Hammer,"Snaf braucht Schnaps für seine Sauce. Er hat mir das Rezept für einen Hammer- Schnaps gegeben, den ich am Labor Tisch brauen kann.");
+	B_LogEntry (Topic_Addon_Hammer,Topic_Addon_Hammer_1);
 };
 //---------------------------------------------------------------------
 //	Info Booze
@@ -264,7 +264,7 @@ FUNC VOID DIA_Addon_Snaf_Abrechnung_Info()
 		
 		if (Snaf_Tip_Senyan == FALSE)
 		{
-			B_LogEntry (Topic_Addon_Senyan,"Ich sollte meine Beziehung zu Senyan beenden. Allerdings wäre es unklug ihn direkt anzugreifen. Vorher sollte ich noch einmal mit sprechen.");
+			B_LogEntry (Topic_Addon_Senyan,Topic_Addon_Senyan_3);
 			Snaf_Tip_Senyan = TRUE;
 		};
 	}

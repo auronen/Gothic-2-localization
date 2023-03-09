@@ -197,7 +197,7 @@ FUNC VOID DIA_Daron_Spenden_Info()
 		
 		if (MIS_Thorben_GetBlessings == LOG_RUNNING)
 		{
-			B_LogEntry (TOPIC_Thorben,"Daron, der Feuermagier hat mich nicht gesegnet. Jetzt muss ich wohl Gold auftreiben und bei ihm spenden, damit er mich doch noch segnet.");
+			B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_4);
 		};
 	}
 	else //Gold >= 10
@@ -227,7 +227,7 @@ FUNC VOID DIA_Daron_Spenden_Info()
 		
 		if (MIS_Thorben_GetBlessings == LOG_RUNNING)
 		{
-			B_LogEntry (TOPIC_Thorben,"Daron, der Feuermagier, hat mir seinen Segen gegeben.");
+			B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_2);
 		};
 	};
 };
@@ -427,7 +427,7 @@ func void DIA_Addon_Daron_GuildHelp_auftrag ()
 	
 	Log_CreateTopic (TOPIC_Addon_RangerHelpKDF, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RangerHelpKDF, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RangerHelpKDF,"Daron wurde von einigen frechen Goblins bestohlen. Ihm fehlt seitdem eine wertvolle Statuette, die er ins Kloster bringen sollte. Die Goblins sollen sich in einem Erdloch in der Nähe der Taverne 'Zur Toten Harpie' versteckt halten."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpKDF,TOPIC_Addon_RangerHelpKDF_4); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -600,7 +600,7 @@ FUNC VOID DIA_Daron_Spende_50()
 		Daron_Segen = TRUE;
 		if (MIS_Thorben_GetBlessings == LOG_RUNNING)
 		{
-			B_LogEntry (TOPIC_Thorben,"Daron, der Feuermagier, hat mir seinen Segen gegeben.");
+			B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_2);
 		};
 	}
 	else
@@ -620,7 +620,7 @@ FUNC VOID DIA_Daron_Spende_100()
 		Daron_Segen = TRUE;
 		if (MIS_Thorben_GetBlessings == LOG_RUNNING)
 		{
-			B_LogEntry (TOPIC_Thorben,"Daron, der Feuermagier, hat mir seinen Segen gegeben.");
+			B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_2);
 		};
 	}
 	else
@@ -640,7 +640,7 @@ FUNC VOID DIA_Daron_Spende_200()
 		Daron_Segen = TRUE;
 		if (MIS_Thorben_GetBlessings == LOG_RUNNING)
 		{
-			B_LogEntry (TOPIC_Thorben,"Daron, der Feuermagier, hat mir seinen Segen gegeben.");
+			B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_2);
 		};
 	}
 	else

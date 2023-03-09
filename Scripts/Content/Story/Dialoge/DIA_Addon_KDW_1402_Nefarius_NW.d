@@ -197,8 +197,8 @@ func void DIA_Addon_Nefarius_SCbringOrnaments_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_Ornament, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Ornament, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Ornament,"Die Wassermagier haben ein Portal gefunden, das in einen unerforschten Teil von Khorinis führen soll."); 
-	B_LogEntry (TOPIC_Addon_Ornament,"Nefarius will mit Hilfe eines Ornamentringes den Mechanismus des Portals aktivieren. Dazu fehlen ihm noch 3 Fragmente des Ornamentringes. Ich soll sie ihm beschaffen. Er gab mir eine Karte in der die Stellen markiert sind, wo ich nach den Ornamentfragmenten suchen soll."); 
+	B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_1); 
+	B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_2); 
 	
 	
 	B_StartotherRoutine	(BAU_4300_Addon_Cavalorn,"OrnamentSteinring");
@@ -372,7 +372,7 @@ func void DIA_Addon_Nefarius_Ringritual_Info ()
 	AI_Output	(self, other, "DIA_Addon_Nefarius_Ringritual_05_00"); //So. Und nun geh zur Seite.
 	Npc_SetRefuseTalk (self,60); 
 	RitualRingRuns = LOG_RUNNING;
-	B_LogEntry (TOPIC_Addon_Ornament,"Ich habe Nefarius alle Fragmente des Ornamentringes gebracht. Die Wassermagier wollen nun, den Ring wieder zusammenschweißen."); 
+	B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_3); 
 
 	AI_StopProcessInfos (self);
 	Npc_ExchangeRoutine	(self,"Ringritual");
@@ -419,7 +419,7 @@ func void DIA_Addon_Nefarius_RingRitualEnds_Info ()
 	B_StartotherRoutine	(KDW_1404_Addon_Riordian_NW,"Start");
 	B_StartotherRoutine	(KDW_1405_Addon_Merdarion_NW,"Start");
 	RitualRingRuns = LOG_SUCCESS;
-	B_LogEntry (TOPIC_Addon_Ornament,"Der Ornamentring ist wieder zusammengesetzt. Ich soll ihn bei Saturas abholen."); 
+	B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_4); 
 
 };
 

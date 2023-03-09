@@ -210,7 +210,7 @@ func void DIA_Addon_Nadja_LuciaInfo_wo ()
 
 	Log_CreateTopic (TOPIC_Addon_Lucia, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Lucia, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Lucia,"Das Freudenmädchen Lucia ist über Nacht aus Bromors Bordell verschwunden. Es wird vermutet, dass sie mit Thorbens Tischlerlehrling Elvrich durchgebrannt ist."); 
+	B_LogEntry (TOPIC_Addon_Lucia,TOPIC_Addon_Lucia_4); 
 
 	Info_AddChoice	(DIA_Addon_Nadja_LuciaInfo, "Wo können die beiden hin gegangen sein?", DIA_Addon_Nadja_LuciaInfo_Elvrich );
 };

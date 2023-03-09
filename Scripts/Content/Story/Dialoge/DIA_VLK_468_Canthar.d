@@ -266,7 +266,7 @@ FUNC VOID DIA_Canthar_WhatOffer_Info()
 		AI_Output (self, other,"DIA_Canthar_WhatOffer_09_07"); //Ich bin fahrender Händler. Ich verkaufe von allem etwas.
 	};
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Canthar handelt mit aller Art von Waren."); 
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_14); 
 };
 
 func void DIA_Canthar_WhatOffer_Strings()
@@ -307,7 +307,7 @@ func void DIA_Canthar_WhatOffer_Ok()
 	
 	Log_CreateTopic (TOPIC_City,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_City,LOG_RUNNING);
-	B_LogEntry (TOPIC_City,"Ich habe einen Passierschein vom Händler Canthar, der mir Zugang zur Stadt ermöglicht. Dafür schulde ich ihm einen Gefallen, wenn ich ihn in der Stadt treffe.");
+	B_LogEntry (TOPIC_City,TOPIC_City_4);
 
 };
 
@@ -460,13 +460,13 @@ func void DIA_Canthar_PAYPRICEINCITY_Ok ()
 	
 	if (Canthar_Gefallen == TRUE)
 	{
-		B_LogEntry (TOPIC_Canthar,"Canthar will, das ich den Gefallen einlöse, den ich ihm noch schulde.");
+		B_LogEntry (TOPIC_Canthar,TOPIC_Canthar_1);
 	}
 	else
 	{
-		B_LogEntry (TOPIC_Canthar,"Canthar hat mir eine Waffe versprochen, dafür das ich ihm einen Gefallen erweise.");
+		B_LogEntry (TOPIC_Canthar,TOPIC_Canthar_2);
 	};
-	B_LogEntry (TOPIC_Canthar,"Ich soll der Händlerin Sarah einen Brief unterschieben, der sie belastet, an Onar Waffen zu liefern. Dann soll ich sie bei Lord Andre verpfeifen.");
+	B_LogEntry (TOPIC_Canthar,TOPIC_Canthar_3);
 	
 	Info_ClearChoices (DIA_Canthar_PAYPRICEINCITY);
 	

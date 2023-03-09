@@ -193,7 +193,7 @@ FUNC VOID DIA_Pablo_HakonBandits_Info()
 	AI_Output (self, other, "DIA_Pablo_Banditen_12_02"); //Einmal konnten wir sie aufspüren und verfolgen. Aber im Wald vor der Stadt haben wir die Verfolgung abgebrochen.
 	AI_Output (self, other, "DIA_Pablo_Banditen_12_03"); //Da treiben sich zuviele Viecher rum, das ist viel zu gefährlich.
 	
-	B_LogEntry(TOPIC_HakonBanditen,"Die Banditen, die Hakon bestohlen haben, verstecken sich in einem der Wälder, nahe bei der Stadt." );
+	B_LogEntry(TOPIC_HakonBanditen,TOPIC_HakonBanditen_1 );
 	
 	if (Pablo_AndreMelden == FALSE)
 	{
@@ -203,7 +203,7 @@ FUNC VOID DIA_Pablo_HakonBandits_Info()
 		AI_Output (self, other, "DIA_Pablo_Banditen_12_06"); //Ja, wir vermuten, dass sie einen Hehler in der Stadt sitzen haben. Aber bisher ist es uns nicht gelungen, den Kerl zu erwischen.
 		AI_Output (self, other, "DIA_Pablo_Banditen_12_07"); //Falls du in der Sache was rauskriegen solltest, bei Lord Andre gibt's ein schönes Kopfgeld für den Hehler.
 	
-		B_LogEntry(TOPIC_HakonBanditen,"Wahrscheinlich haben die Banditen  Kontakt zu einem Hehler in der Stadt. Bei Lord Andre ist ein Kopfgeld auf den Hehler ausgesetzt." );
+		B_LogEntry(TOPIC_HakonBanditen,TOPIC_HakonBanditen_2 );
 	};
 }; 
 

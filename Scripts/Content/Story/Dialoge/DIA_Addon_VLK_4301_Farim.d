@@ -156,7 +156,7 @@ func void DIA_Addon_Farim_MilizProbs_helfen ()
 	
 	Log_CreateTopic (TOPIC_Addon_FarimsFish, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_FarimsFish, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_FarimsFish,"Farim der Fischer hat ein Problem mit der Miliz. Sie nehmen ihm mehr Fische ab, als er zum Leben braucht. Ich soll jemanden bei der Miliz finden, der Einfluss auf die Paladine hat, der ihm helfen kann."); 
+	B_LogEntry (TOPIC_Addon_FarimsFish,TOPIC_Addon_FarimsFish_1); 
 		
 	MIS_Addon_Farim_PaladinFisch = LOG_RUNNING;
 };
@@ -302,7 +302,7 @@ func void DIA_Addon_Farim_William_Wo ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Der Fischer Farim beklagt den Verlust seines Kumpels William. Farim sagt, dass sich William öfter mit irgendwelchen Halsabschneidern in einer Bucht nördlich des Hafens getroffen hat."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_6); 
 
 	Info_AddChoice	(DIA_Addon_Farim_William, "Ich denke, ich habe genug gehört.", DIA_Addon_Farim_William_Tschau );
 };

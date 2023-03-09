@@ -191,7 +191,7 @@ FUNC VOID DIA_DiegoNW_NeedHelp_Problem_WillHelpYou()
 	
 	Log_CreateTopic (TOPIC_HelpDiegoNW,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_HelpDiegoNW,LOG_RUNNING);
-	B_LogEntry (TOPIC_HelpDiegoNW,"Diego's Gold liegt im Minental. Er braucht es, um ins obere Viertel zu kommen und er schickt mich, es zu holen.");
+	B_LogEntry (TOPIC_HelpDiegoNW,TOPIC_HelpDiegoNW_1);
 	
 	Info_ClearChoices (DIA_DiegoNW_NeedHelp);
 	Info_AddChoice (DIA_DiegoNW_NeedHelp,"Was hast du mit dem Gold vor?",DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_YourPlan);
@@ -229,7 +229,7 @@ FUNC VOID DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_WhereGold()
 					
 	Info_AddChoice (DIA_DiegoNW_NeedHelp,"Ich werde versuchen dein Gold zu finden.",DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_WhereGold_End_TryIt);		
 	
-	B_LogEntry (TOPIC_HelpDiegoNW,"Diegos Gold liegt irgendwo am alten Austauschplatz, wo früher die Waren per Seilbahn in die Kolonie gebracht wurden, oberhalb der verlassenen Mine.");
+	B_LogEntry (TOPIC_HelpDiegoNW,TOPIC_HelpDiegoNW_2);
 };
 
 FUNC VOID DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_WhereGold_End_TryIt ()
@@ -275,7 +275,7 @@ FUNC VOID DIA_DiegoNW_HelpYou_Info()
 	MIS_HelpDiegoNW = LOG_RUNNING;
 	Log_CreateTopic (TOPIC_HelpDiegoNW,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_HelpDiegoNW,LOG_RUNNING);
-	B_LogEntry (TOPIC_HelpDiegoNW,"Diego's Gold liegt im Minental. Er braucht es, um ins obere Viertel zu kommen und er schickt mich, es zu holen.");
+	B_LogEntry (TOPIC_HelpDiegoNW,TOPIC_HelpDiegoNW_1);
 };
 
 //***********************************************
@@ -352,7 +352,7 @@ FUNC VOID DIA_DiegoNW_HaveYourGold_Info()
 
 		Log_CreateTopic (TOPIC_DiegosResidence,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_DiegosResidence,LOG_RUNNING);
-		B_LogEntry (TOPIC_DiegosResidence,"Diego hat mir einen Brief für den Händler Gerbrandt gegeben.");
+		B_LogEntry (TOPIC_DiegosResidence,TOPIC_DiegosResidence_1);
 		
 		AI_StopProcessInfos (self);
 	};		
@@ -603,7 +603,7 @@ func void DIA_DiegoNW_KnowWhereEnemy_Info ()
 	
 	Log_CreateTopic (TOPIC_Crew, LOG_MISSION);   	
 	Log_SetTopicStatus(TOPIC_Crew, LOG_RUNNING);
-	B_LogEntry (TOPIC_Crew,"Diego will natürlich auch mit. Er will Khorinis lieber gestern als heute verlassen. Er Könnte mir zeigen wie ich geschickter werde und mich zu einem guten Bogenschützen ausbilden. Schlösser knacken kann er mir ebenfalls beibringen.");	
+	B_LogEntry (TOPIC_Crew,TOPIC_Crew_3);	
 		
 	if (crewmember_count >= Max_Crew)
 	{

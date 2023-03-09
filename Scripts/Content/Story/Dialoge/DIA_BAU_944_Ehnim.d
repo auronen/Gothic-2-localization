@@ -348,7 +348,7 @@ func void DIA_Ehnim_MoleRatFett_was ()
 
 	Log_CreateTopic (TOPIC_FoundVinosKellerei, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_FoundVinosKellerei, LOG_RUNNING);
-	B_LogEntry (TOPIC_FoundVinosKellerei,"Ehnim verriet mir, dass Vino im nahegelegenen Wald bei Akils Hof eine geheime Schnapsbrennerei hat. Der Tormechanismus, um hinein zu kommen, sei jedoch verklemmt und nur noch mit Moleratfett zu bewegen."); 
+	B_LogEntry (TOPIC_FoundVinosKellerei,TOPIC_FoundVinosKellerei_1); 
 	
 	Info_AddChoice	(DIA_Ehnim_MoleRatFett, "Und? Hast du das Schmiermittel?", DIA_Ehnim_MoleRatFett_was_Fett );
 };

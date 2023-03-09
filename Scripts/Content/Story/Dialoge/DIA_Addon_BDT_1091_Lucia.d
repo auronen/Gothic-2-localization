@@ -101,7 +101,7 @@ FUNC VOID DIA_Addon_Lucia_was_Info()
 	AI_Output (self, other, "DIA_Addon_Lucia_was_16_04");//(köstlich) hmmm ... DEN solltest du probieren - das Rezept habe ich von Samuel. Der Alte versteht wirklich sein Handwerk.
 	
 	Log_CreateTopic (Topic_Addon_BDT_Trader,LOG_NOTE);
-	B_LogEntry (Topic_Addon_BDT_Trader,"Bei Lucia bekomme ich Schnaps.");
+	B_LogEntry (Topic_Addon_BDT_Trader,Topic_Addon_BDT_Trader_4);
 };
 //---------------------------------------------------------------------
 //	Info Khorinis
@@ -314,7 +314,7 @@ FUNC VOID DIA_Addon_Lucia_lernen_Info()
 	AI_Output (self, other, "DIA_Addon_Lucia_lernen_16_01");//(lacht) Nur zu gerne. Bei mir kannst du deine GESCHICKLICHKEIT trainieren.
 	
 	Log_CreateTopic (Topic_Addon_BDT_Teacher,LOG_NOTE);
-	B_LogEntry 	(Topic_Addon_BDT_Teacher,"Lucia kann mir helfen, meine Geschicklichkeit zu trainieren.");	
+	B_LogEntry 	(Topic_Addon_BDT_Teacher,Topic_Addon_BDT_Teacher_1);	
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TEACH

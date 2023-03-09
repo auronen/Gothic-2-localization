@@ -285,7 +285,7 @@ func VOID DIA_Addon_Skip_ArmorPrice_Info()
 	AI_Output (self ,other, "DIA_Addon_Skip_ArmorPrice_08_04"); //Greg hat sie sicher noch irgendwo oben in seiner Hütte.
 	AI_Output (self ,other, "DIA_Addon_Skip_ArmorPrice_08_05"); //Wenn er wieder da ist, kannst du sie ihm vielleicht abkaufen...
 	
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Skip vermutet die Rüstung in Gregs Hütte."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_1); 
 };
 
 // ------------------------------------------------------------
@@ -316,7 +316,7 @@ FUNC VOID DIA_Addon_Skip_GregsHut_Info()
 	AI_Output (self ,other,"DIA_Addon_Skip_GregsHut_08_02"); //Du willst dich doch nicht einfach so an Gregs Krempel vergreifen?
 	AI_Output (self ,other,"DIA_Addon_Skip_GregsHut_08_03"); //Als er abfuhr, hat er Francis den Schlüssel gegeben, und ihm befohlen, NIEMANDEN in seine Hütte zu lassen.
 	
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Francis hat den Schlüssel zu Gregs Hütte. Er hat den Befehl niemanden hereinzulassen."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_2); 
 	
 	Knows_GregsHut = TRUE;
 };
@@ -351,7 +351,7 @@ FUNC VOID DIA_Addon_Skip_Francis_Info()
 	AI_Output (self ,other,"DIA_Addon_Skip_Francis_08_05"); //Er hat in der kleinen Höhle nördlich von hier seine Schnapsbrennerei.
 	AI_Output (self ,other,"DIA_Addon_Skip_Francis_08_06"); //Es gibt niemanden hier im Lager, über den Samuel NICHT 'ne Menge weiß...
 	
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Ich sollte mich mal mit Samuel unterhalten. Vielleicht kann er mir weiterhelfen."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_3); 
 };
 	
 	
@@ -430,9 +430,9 @@ func VOID DIA_Addon_Skip_AngusHank_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_SkipsGrog,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_SkipsGrog,LOG_RUNNING);
-	B_LogEntry	(TOPIC_Addon_SkipsGrog,"Skip hat anscheinen 20 Flaschen Grog an die Banditen verloren. Er will sie zurück.");
-	B_LogEntry	(TOPIC_Addon_SkipsGrog,"Angus und Hank sollten sich mit eine paar Banditen treffen um zu handeln. Sie wurden nie wieder gesehen.");
-	B_LogEntry	(TOPIC_Addon_SkipsGrog,"Die Suche von Morgan und Bill blieb erfolglos.");
+	B_LogEntry	(TOPIC_Addon_SkipsGrog,TOPIC_Addon_SkipsGrog_1);
+	B_LogEntry	(TOPIC_Addon_SkipsGrog,TOPIC_Addon_SkipsGrog_2);
+	B_LogEntry	(TOPIC_Addon_SkipsGrog,TOPIC_Addon_SkipsGrog_3);
 };
 
 // ------------------------------------------------------------
@@ -547,7 +547,7 @@ func void DIA_Addon_Skip_Grog_geben ()
 	AI_Output			(other, self, "DIA_Addon_Skip_Grog_geben_15_00"); //Hier hast du deine 20 Flaschen.
 	B_GiveInvItems (other, self, Itfo_Addon_Grog, 20);
 	
-	B_LogEntry	(TOPIC_Addon_SkipsGrog,"Skip hat seine 20 Flaschen Grog wieder und ist glücklich.");
+	B_LogEntry	(TOPIC_Addon_SkipsGrog,TOPIC_Addon_SkipsGrog_4);
 	
 	MIS_ADDON_SkipsGrog = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_SkipsGrog);

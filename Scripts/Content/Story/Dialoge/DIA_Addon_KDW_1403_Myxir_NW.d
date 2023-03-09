@@ -156,7 +156,7 @@ func void DIA_Addon_Myxir_Steintafeln_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_Stoneplates, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Stoneplates, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Stoneplates,"Die Steintafeln enthalten das Wissen des alten Volkes der Erbauer. Manche von ihnen erhöhen auf magische Weise das Wissen über Kampf und Magie. Doch dafür muss man sie lesen können."); 
+	B_LogEntry (TOPIC_Addon_Stoneplates,TOPIC_Addon_Stoneplates_1); 
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info WillYouTeachMe

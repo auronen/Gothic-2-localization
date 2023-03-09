@@ -77,7 +77,7 @@ FUNC VOID DIA_Addon_Fisk_Hi_Info()
 	AI_Output (self, other, "DIA_Addon_Fisk_Hi_12_01");//Meine Hütte steht direkt hinter Esteban. Also, wenn du was brauchst, komm vorbei.
 	
 	Log_CreateTopic (Topic_Addon_BDT_Trader,LOG_NOTE);
-	B_LogEntry (Topic_Addon_BDT_Trader,"Fisk handelt mit Waren aller Art.");
+	B_LogEntry (Topic_Addon_BDT_Trader,Topic_Addon_BDT_Trader_2);
 	
 	AI_StopProcessInfos  (self);
 	Npc_ExchangeRoutine  (self,"START");
@@ -179,8 +179,8 @@ FUNC VOID DIA_Addon_Fisk_Lieferung_Info()
 	
 	Log_CreateTopic (Topic_Addon_Fisk,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Fisk,LOG_RUNNING);
-	B_LogEntry	(TOPIC_Addon_KillJuan,"Ein Typ namens Juan war an  dem Handel mit den Banditen beteiligt. Er soll sich irgendwo im Sumpf verstecken.");
-	B_LogEntry (Topic_Addon_Fisk,"Ein Kerl Namens Juan hat Fisk die Lieferung (ein Paket Dietriche) weggeschnappt. Er vertseckt sich irgendwo im Sumpf. ");
+	B_LogEntry	(TOPIC_Addon_KillJuan,TOPIC_Addon_KillJuan_1);
+	B_LogEntry (Topic_Addon_Fisk,Topic_Addon_Fisk_1);
 };
 	
 //---------------------------------------------------------------------
@@ -468,7 +468,7 @@ FUNC VOID DIA_Addon_Fisk_Meeting_now()
 	MIS_Judas = LOG_SUCCESS;
 	AI_StopProcessInfos (self);
 	Npc_ExchangeRoutine (self,"AMBUSH");
-	B_LogEntry (Topic_Addon_Esteban, "Fisk hat das Attentat gegen Esteban beauftragt.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_7);
 };
 //--------------------------------------------------------------------
 //	Info Sieg

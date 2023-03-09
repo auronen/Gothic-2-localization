@@ -193,7 +193,7 @@ func void DIA_Addon_Cavalorn_HALLO_Bauern ()
 	MIS_Addon_Cavalorn_TheHut = LOG_RUNNING;	
 	Log_CreateTopic (TOPIC_Addon_CavalornTheHut, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_CavalornTheHut, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_CavalornTheHut,"Cavalorn will, dass ich nachsehe, ob seine alte Hütte im Minental immer noch steht. Soweit ich mich erinnern kann, befindet sich seine Hütte im hügeligen Land westlich vom damaligen alten Lager. Ich vermute, er hat dort noch irgendetwas liegen lassen.");
+	B_LogEntry (TOPIC_Addon_CavalornTheHut,TOPIC_Addon_CavalornTheHut_1);
 	
 	Info_ClearChoices	(DIA_Addon_Cavalorn_HALLO);
 };
@@ -476,7 +476,7 @@ func void DIA_Addon_Cavalorn_HELFEN_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_KillBrago, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_KillBrago, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_KillBrago,"Cavalorn ist etwas wertvolles von den Banditen in seiner Nähe gestohlen worden. Er will, dass wir zusammen die Banditen aufmischen."); 
+	B_LogEntry (TOPIC_Addon_KillBrago,TOPIC_Addon_KillBrago_1); 
 
 	self.aivar[AIV_PARTYMEMBER] = TRUE;
 };
@@ -588,7 +588,7 @@ func void B_Addon_Cavalorn_VatrasBrief ()
 		AI_Output	(self, other, "DIA_Addon_Cavalorn_VatrasBrief_08_08"); //Bring ihn zu Vatras, dem Wassermagier der Stadt. Du wirst ihn im Adanos-Tempel treffen. Er predigt dort den ganzen Tag.
 		AI_Output	(self, other, "DIA_Addon_Cavalorn_VatrasBrief_08_09"); //Sag ihm, dass ich es nicht mehr geschafft habe.
 		AI_Output	(self, other, "DIA_Addon_Cavalorn_VatrasBrief_08_10"); //Und wenn er dich fragt, wo ich bin, sag ihm einfach, ich bin schon zum Treffpunkt aufgebrochen, ok?
-		B_LogEntry (TOPIC_Addon_KDW,"Der Wassermagier Vatras befindet in der Hafenstadt Khorinis. Er predigt dort im Adanos-Tempel."); 
+		B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_7); 
 	};
 	
 	if (Npc_HasEquippedArmor(other) == FALSE)
@@ -712,7 +712,7 @@ func void DIA_Addon_Cavalorn_JUNGS_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_RingOfWater, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Cavalorn erzählte mir, dass er einer Gemeinschaft angehört, die sich der 'Ring des Wassers' nennt."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_8); 
 
 	Cavalorn_RangerHint = TRUE;
 };
@@ -743,7 +743,7 @@ func void DIA_Addon_Cavalorn_Ring_Info ()
 	AI_Output (self, other, "DIA_Addon_Cavalorn_Ring_08_02"); //Alles was ich tun kann, ist, dich zu Vatras zu schicken. Er ist der Vertreter der Wassermagier in Khorinis.
 	AI_Output (self, other, "DIA_Addon_Cavalorn_Ring_08_03"); //Am besten du redest mit ihm. Sag ihm, du kommst von mir.
 	AI_Output (self, other, "DIA_Addon_Cavalorn_Ring_08_04"); //Vielleicht nimmt er dich ja bei uns auf. Wir brauchen dringend mehr gute Leute ...
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Der Wassermagier Vatras kann mir mehr über den 'Ring des Wassers' erzählen."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_9); 
 };
 ///////////////////////////////////////////////////////////////////////
 //	Gegner
@@ -920,7 +920,7 @@ func void B_Cavalorn_Triggered_Wohin ()
 	
 	Log_CreateTopic (TOPIC_Addon_Ornament, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Ornament, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Ornament,"Eins der fehlenden Ornamentfragmente befindet sich bei den Paladinen im oberen Viertel."); 
+	B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_5); 
 
 	MIS_Addon_Cavalorn_GetOrnamentFromPAL = LOG_RUNNING;
 	self.flags = 0;

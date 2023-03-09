@@ -133,8 +133,8 @@ FUNC VOID DIA_Rupert_HelpMeIntoOV_Info()
 	
 	Log_CreateTopic (TOPIC_OV,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_OV,LOG_RUNNING);
-	B_LogEntry (TOPIC_OV,"Wenn ich in's obere Viertel will, brauche ich die Hilfe der einflußreichen Bürger in der Unterstadt.");
-	B_LogEntry (TOPIC_OV,"Der Händler Matteo ist einer der einflußreichen Bürger in der Unterstadt.");
+	B_LogEntry (TOPIC_OV,TOPIC_OV_1);
+	B_LogEntry (TOPIC_OV,TOPIC_OV_2);
 };	
 
 // ***************************************************************
@@ -165,7 +165,7 @@ FUNC VOID DIA_Rupert_WoMatteo_Info()
 	if (Knows_Matteo == FALSE)
 	{
 		Log_CreateTopic (TOPIC_CityTrader, LOG_NOTE);
-		B_LogEntry (TOPIC_CityTrader,"Matteo hat seinen Laden am Südtor der Stadt. Er handelt mit Ausrüstung, Waffen und Proviant.");
+		B_LogEntry (TOPIC_CityTrader,TOPIC_CityTrader_8);
 		Knows_Matteo = TRUE;
 	};
 };
@@ -197,7 +197,7 @@ FUNC VOID DIA_Rupert_WerEinfluss_Info()
 	AI_Output (self ,other,"DIA_Rupert_WerEinfluss_03_02"); //Du solltest versuchen, bei einem von ihnen als Lehrling angenommen zu werden - so wie ich.
 	AI_Output (self ,other,"DIA_Rupert_WerEinfluss_03_03"); //Seit ich bei Matteo arbeite, behandeln mich die Leute in der Stadt mit Respekt!
 	
-	B_LogEntry (TOPIC_OV,"Ich sollte versuchen, bei einem der Handwerksmeister als Lehrling anzufangen. ");
+	B_LogEntry (TOPIC_OV,TOPIC_OV_3);
 };
 
 // ***************************************************************

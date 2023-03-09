@@ -146,7 +146,7 @@ FUNC VOID DIA_Addon_Edgor_MIS2_Info()
 	AI_Output (self, other, "DIA_Addon_Edgor_MIS2_06_02"); //Und meine innere Stimme sagt mir - Edgor, halte dich fern von alten Gebäuden, die tief im Sumpf liegen.
 	AI_Output (self, other, "DIA_Addon_Edgor_MIS2_06_03"); //Ich werde meinen Arsch bestimmt nicht für diesen Penner Franco riskieren!
 	
-	B_LogEntry (Topic_Addon_Stoneplate,"Edgor wird niemals losziehen, um die Steintafel zu suchen. Er sagt, sie liegt irgendwo in einem alten Gebäude im Sumpf.");
+	B_LogEntry (Topic_Addon_Stoneplate,Topic_Addon_Stoneplate_2);
 };
 //---------------------------------------------------------------------
 //	Info Wegbeschreibung
@@ -231,7 +231,7 @@ FUNC VOID DIA_Addon_Edgor_Teach_Info()
 	AI_Output (self, other, "DIA_Addon_Edgor_Teach_06_05");//Umsonst ist hier draußen allerdings nichts ...
 	
 	Log_CreateTopic (Topic_Addon_BDT_Teacher,LOG_NOTE);
-	B_LogEntry 	(Topic_Addon_BDT_Teacher,"Edgor weiß 'ne Menge über Blutfliegen und ihre Trophäen.");	
+	B_LogEntry 	(Topic_Addon_BDT_Teacher,Topic_Addon_BDT_Teacher_4);	
 	Edgor_Teach = TRUE;
 };
 FUNC VOID B_Edgor_NotEnoughGold()

@@ -80,7 +80,7 @@ func void DIA_Addon_BDT_10018_Torwache_FirstWarn_Info()
 		
 		Log_CreateTopic (Topic_Addon_Tempel,LOG_MISSION);
 		Log_SetTopicStatus (Topic_Addon_Tempel,LOG_RUNNING);
-		B_LogEntry (Topic_Addon_Tempel,"Die Torwache vor dem Tempel wird mich nicht reinlassen. Ich muss einen Weg finden, wie ich hineinkomme.");
+		B_LogEntry (Topic_Addon_Tempel,Topic_Addon_Tempel_3);
 	}
 	else
 	{	
@@ -181,7 +181,7 @@ FUNC VOID DIA_Addon_10018_Torwache_Hi_Info()
 	AI_Output (other, self, "DIA_Addon_BDT_10018_Torwache_Hi_15_00");//Es ist verdammt wichtig, dass ich ihn erreiche.
 	AI_Output (self, other, "DIA_Addon_BDT_10018_Torwache_Hi_04_01");//Nein. Ist es nicht. Nur Bloodwyn hat die Erlaubnis, sich drin aufzuhalten.
 	
-	B_LogEntry (Topic_Addon_Tempel,"Nur Bloodwyn ist es erlaubt, sich im Tempel aufzuhalten. Vielleicht komme ich über ihn in den Tempel.");
+	B_LogEntry (Topic_Addon_Tempel,Topic_Addon_Tempel_4);
 };
 //----------------------------------------------------------------------
 //	Info Bloodwyn
@@ -262,7 +262,7 @@ FUNC VOID DIA_Addon_10018_Torwache_Drin_Info()
 	
 	MIS_BloodwynRaus = LOG_RUNNING;
 
-	B_LogEntry (Topic_Addon_Tempel,"Bloodwyn sitzt im Tempel. Aber ich komme hier nicht weiter. Vielleicht sollte ich mich mal in der Mine umsehen.");
+	B_LogEntry (Topic_Addon_Tempel,Topic_Addon_Tempel_5);
 };
 //----------------------------------------------------------------------
 //	Info kopf

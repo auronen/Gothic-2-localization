@@ -102,7 +102,7 @@ func void DIA_Mortis_Paket_Info ()
 	AI_Output (other, self, "DIA_Mortis_Paket_15_02"); //Wer war der andere?
 	AI_Output (self, other, "DIA_Mortis_Paket_13_03"); //Keine Ahnung. Aber er meinte, er hätte den besten Lagerplatz für sein Kraut gefunden - dann haben die beiden gelacht wie zwei besoffene Orks.
 	
-	B_LogEntry (TOPIC_WAREHOUSE,"Mortis hat in der Hafenkneipe mitbekommen, das sich Kardif, der Wirt und ein anderer Typ über das Paket unterhalten haben. Es  ging um einen Lagerplatz für das Kraut.");
+	B_LogEntry (TOPIC_WAREHOUSE,TOPIC_WAREHOUSE_3);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Redlight
@@ -132,7 +132,7 @@ func void DIA_Mortis_Redlight_Info ()
 	AI_Output (other, self, "DIA_Mortis_Redlight_15_03"); //Okay und dann?
 	AI_Output (self, other, "DIA_Mortis_Redlight_13_04"); //Die Kneipe und das Bordell sind wohl die besten Anlaufstellen für dich. Wenn du was erfährst, dann erfährst du es da.
 	
-	B_LogEntry (TOPIC_REDLIGHT,"Mortis meint, wenn ich im Hafenviertel Kraut kaufen will, sollte ich besser keine Rüstung tragen. Die Kneipe und das Bordell sind gute Anlaufstellen.");
+	B_LogEntry (TOPIC_REDLIGHT,TOPIC_REDLIGHT_2);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info CanTeach
@@ -169,7 +169,7 @@ func void DIA_Mortis_CanTeach_Info ()
 		AI_Output (self, other, "DIA_Mortis_CanTeach_13_02"); //Natürlich willst du das. Aber solange du nicht zu uns oder den Paladinen gehörst, werde ich dir nicht helfen.
 	};
 	Log_CreateTopic (Topic_CityTeacher, LOG_NOTE);
-	B_LogEntry (Topic_CityTeacher, "Mortis, von der Stadtwache, kann mir helfen, meine Stärke zu trainieren.");
+	B_LogEntry (Topic_CityTeacher, Topic_CityTeacher_16);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TEACH

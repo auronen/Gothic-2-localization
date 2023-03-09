@@ -119,7 +119,7 @@ func void DIA_Addon_Baltram_LaresAbloese_Info ()
 	AI_Output	(other, self, "DIA_Addon_Baltram_LaresAbloese_15_06"); //Verstehe.
 	B_GivePlayerXP (XP_Ambient);
 
-	B_LogEntry (TOPIC_Addon_BringRangerToLares,"Baltram der Händler am Marktplatz wird sich um eine Ablösung für Lares kümmern. Vielleicht kann Lares JETZT vom Hafen weg."); 
+	B_LogEntry (TOPIC_Addon_BringRangerToLares,TOPIC_Addon_BringRangerToLares_2); 
 
 	SC_KnowsBaltramAsRanger = TRUE;
 	Baltram_Exchange4Lares = TRUE;
@@ -182,11 +182,11 @@ func void DIA_Baltram_Trick_Info ()
 	AI_Output (self, other, "DIA_Baltram_Trick_01_06"); //Okay, sag Akil einfach, dass du von mir kommst, er wird dir dann ein Paket geben. Das bringst du zu mir.
 	
 	MIS_Baltram_ScoutAkil = LOG_RUNNING;
-	B_LogEntry (TOPIC_Nagur,"Baltram hat mich als Bote eingestellt. Jetzt muss ich die Lieferung von Akils Hof abholen.");
+	B_LogEntry (TOPIC_Nagur,TOPIC_Nagur_4);
 	
 	Log_CreateTopic (TOPIC_Baltram,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Baltram,LOG_RUNNING);
-	B_LogEntry (TOPIC_Baltram, "Wenn ich Baltram seine Lieferung bringe, zahlt er mir 50 Goldstücke.");
+	B_LogEntry (TOPIC_Baltram, TOPIC_Baltram_2);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info WAREZ
@@ -216,7 +216,7 @@ func void DIA_Baltram_WAREZ_Info ()
 	if (Baltram_TradeLOG == FALSE)
 	{
 		Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-		B_LogEntry (Topic_CityTrader,"Baltram handelt mit Nahrungsmitteln am Marktplatz.");
+		B_LogEntry (Topic_CityTrader,TOPIC_CityTrader_11);
 		Baltram_TradeLOG = TRUE;
 	};
 	
@@ -319,7 +319,7 @@ func void DIA_Addon_Baltram_Skip_Ich ()
 	AI_Output			(self, other, "DIA_Addon_Baltram_Skip_Ich_01_02"); //Hier, nimm dieses Päckchen und sag Skip, dass er mit dem Rum diesmal nicht so knausern soll.
 	AI_Output			(self, other, "DIA_Addon_Baltram_Skip_Ich_01_03"); //3 Flaschen sollten es schon sein.
 	
-	B_LogEntry (TOPIC_Addon_BaltramSkipTrade,"Baltram gab mir ein Paket. Ich soll es Skip überbringen."); 
+	B_LogEntry (TOPIC_Addon_BaltramSkipTrade,TOPIC_Addon_BaltramSkipTrade_2); 
 	
 	MIS_Addon_Baltram_Paket4Skip = LOG_RUNNING;
 };

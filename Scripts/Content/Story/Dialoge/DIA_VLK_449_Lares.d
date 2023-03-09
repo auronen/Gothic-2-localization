@@ -272,7 +272,7 @@ func void DIA_Addon_Lares_WhatAreYouGuys_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_RingOfWater, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Lares gehört zum 'Ring des Wassers'." ); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_3 ); 
 };
 // ------------------------------------------------------------
 // Ranger
@@ -303,7 +303,7 @@ func void DIA_Addon_Lares_Ranger_Info ()
 	AI_Output	(self, other, "DIA_Addon_Lares_Ranger_09_04"); //Aber das kann nur funktionieren, wenn wir geheim halten, wer alles zum 'Ring des Wassers' gehört.
 	AI_Output	(self, other, "DIA_Addon_Lares_Ranger_09_05"); //Deshalb behalt die Sache für dich!
 	AI_Output	(other, self, "DIA_Addon_Lares_Ranger_15_06"); //Klar.
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Der 'Ring' ist für die Wassermagier das, was die Paladine für die Feuermagier sind. Nur arbeitet der 'Ring' im Hintergrund. Niemand soll wissen, WER dazu gehört, damit ihre Anzahl und Stärke verborgen bleibt." ); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_4 ); 
 };
 // ------------------------------------------------------------
 // Info WannaBeRanger
@@ -411,7 +411,7 @@ func void DIA_Addon_Lares_RingBack_Info ()
 	AI_Output	(self, other, "DIA_Addon_Lares_RingBack_09_06"); //Jetzt willst du sicher deine Ausrüstung haben. Gut, pass auf.
 	B_Lares_Geheimtreffen();
 	
-	B_LogEntry (TOPIC_Addon_RingOfWater, "Lares lud mich ein, zum geheimen Treffen des 'Rings' in Orlans Taverne zu kommen."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater, TOPIC_Addon_RingOfWater_5); 
 	
 	MIS_Addon_Lares_ComeToRangerMeeting = LOG_RUNNING;
 };
@@ -544,7 +544,7 @@ func void DIA_Addon_Lares_GetRangerArmor_weiter ()
 {
 	AI_StopProcessInfos (self);
 	B_RangerMeetingParking ();
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Bei dem geheimen Treffen in Orlans Taverne wurde mir meine Rüstung verliehen. Ich soll nun zu Vatras gehen und mir meinen ersten Auftrag als Mitglied des 'Rings' geben lassen." ); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_6 ); 
 };
 
 func void DIA_Addon_Lares_GetRangerArmor_Learn ()
@@ -608,7 +608,7 @@ func void DIA_Addon_Lares_Teleportstation_Info ()
 	AI_Output	(self, other, "DIA_Addon_Lares_Teleportstation_09_05"); //So viel ich weiß, hat er einen dieser Teleportersteine für die Wassermagier in der Nähe seiner Taverne versteckt.
 	AI_Output	(self, other, "DIA_Addon_Lares_Teleportstation_09_06"); //Du gehst aus dem Osttor der Stadt und folgst einfach dem Weg. Dann kannst du sie gar nicht verfehlen.
 	
-	B_LogEntry (TOPIC_Addon_TeleportsNW,"Lares sagte mir, dass Orlan in der Nähe seiner Taverne einen Teleportstein versteckt hält."); 
+	B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_3); 
 	Orlan_Hint_Lares = TRUE;
 };
 
@@ -670,7 +670,7 @@ func void DIA_Addon_Lares_OrnamentBringJob_Info ()
 	AI_Output	(self, other, "DIA_Addon_Lares_OrnamentBringJob_09_01"); //(nachdenklich) Mmh. Ich glaube, es ist besser, wenn ich es selbst überbringe. Aber du könntest mich begleiten.
 	AI_Output	(self, other, "DIA_Addon_Lares_OrnamentBringJob_09_02"); //Doch ich komme hier im Moment nicht weg. Ich muss den Hafen im Auge behalten.
 	
-	B_LogEntry (TOPIC_Addon_KDW,"Ich habe Lares das Ornament von Vatras überbracht. Er will es selbst den Wassermagiern überbringen. Ich sollte ihn dabei begleiten."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_4); 
 	
 	MIS_Addon_Lares_Ornament2Saturas = LOG_RUNNING;
 };
@@ -720,11 +720,11 @@ func void DIA_Addon_Lares_YourMission_Info ()
 		AI_Output (self, other, "DIA_Addon_Lares_YourMission_09_11"); //Sprich am Besten mit allen, die dort rumstehen. Wenn der richtige Mann meinen Aquamarinring an deinem Finger sieht, wird er sich dir zu erkennen geben.
 		AI_Output (self, other, "DIA_Addon_Lares_YourMission_09_12"); //Sag ihm, dass er für einen Ersatz hier am Hafen sorgen soll.
 
-		B_LogEntry (TOPIC_Addon_RingOfWater,"Lares gab mir seinen Aquamarinring. Das Erkennungszeichen des 'Rings'. Wenn ich den Aquamarinring trage, werden mich die anderen Mitglieder des 'Rings' sich mir zu erkennen geben."); 
+		B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_7); 
 
 		Log_CreateTopic (TOPIC_Addon_BringRangerToLares, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_BringRangerToLares, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_BringRangerToLares,"Lares kann den Hafen nicht verlassen. Ich soll mich mit seinem Aquamarinring am Finger auf dem Marktplatz zeigen und jemanden ausfindig machen, der Lares ablösen kann."); 
+		B_LogEntry (TOPIC_Addon_BringRangerToLares,TOPIC_Addon_BringRangerToLares_1); 
 
 		MIS_Lares_BringRangerToMe = LOG_RUNNING;
 	};
@@ -1119,7 +1119,7 @@ func void DIA_Addon_Lares_Gilde_SLD ()
 	
 	Log_CreateTopic (TOPIC_Addon_RangerHelpSLD, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RangerHelpSLD, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RangerHelpSLD,"Lares meinte, dass mir der Söldner Cord das Leben auf dem Hof des Grossbauern erleichtern kann."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpSLD,TOPIC_Addon_RangerHelpSLD_3); 
 	
 	SC_KnowsCordAsRangerFromLares = TRUE;
 	Info_ClearChoices	(DIA_Addon_Lares_Gilde);
@@ -1133,7 +1133,7 @@ func void DIA_Addon_Lares_Gilde_MIL ()
 
 	Log_CreateTopic (TOPIC_Addon_RangerHelpMIL, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RangerHelpMIL, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RangerHelpMIL,"Lares meinte, dass mir der Proviantmeister Martin helfen wird, schneller bei der Miliz aufgenommen zu werden. Er ist meistens am Hafen, dort wo die Paladine ihr Proviantlager haben."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpMIL,TOPIC_Addon_RangerHelpMIL_1); 
 	
 	RangerHelp_gildeMIL = TRUE;
 	Info_ClearChoices	(DIA_Addon_Lares_Gilde);
@@ -1148,7 +1148,7 @@ func void DIA_Addon_Lares_Gilde_KDF ()
 
 	Log_CreateTopic (TOPIC_Addon_RangerHelpKDF, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RangerHelpKDF, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RangerHelpKDF,"Lares meinte, dass Vatras einen günstigen Weg kennt, ins Kloster zu kommen."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpKDF,TOPIC_Addon_RangerHelpKDF_1); 
 
 	RangerHelp_gildeKDF = TRUE;
 	Info_ClearChoices	(DIA_Addon_Lares_Gilde);
@@ -1755,7 +1755,7 @@ func void DIA_Addon_Lares_ArrivedPortalInter2_Info ()
 	AI_Output 	(self, other, "DIA_Addon_Lares_ArrivedPortalInter2_09_04"); //Aber das wirst du ja bald selbst sehen.
 
 	LaresGuide_ZumPortal = 5;
-	B_LogEntry (TOPIC_Addon_KDW,"Lares erzählte mir von der Ausgrabungsstelle der Wassermagier. Sie untersuchen dort seltsame Ereignisse. Es gibt dort rätselhafte Erdbeben und seltsame Steinwesen sollen der Erde entstiegen sein."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_5); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -1848,7 +1848,7 @@ func void DIA_Addon_Lares_ArrivedPortal_Info ()
 	AI_Output 	(self, other, "DIA_Addon_Lares_ArrivedPortal_09_04"); //Und eins noch: Lass dir nicht einfallen, mit dem Ornament hier in der Gegend rumzuwandern. Geh DIREKT zu Saturas.
 	AI_Output 	(self, other, "DIA_Addon_Lares_ArrivedPortal_09_05"); //Wir sehen uns.
 	
-	B_LogEntry (TOPIC_Addon_KDW,"Ich habe das Ornament von Lares in die Hand gedrückt bekommen. Ich soll es dem Wassermagier Saturas übergeben."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_6); 
 	AI_StopProcessInfos (self);
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 	Npc_ExchangeRoutine (self,"START");
@@ -2088,7 +2088,7 @@ func void DIA_Lares_DEX_Info ()
 	Lares_TeachDEX = TRUE;
 	
 	Log_CreateTopic (Topic_CityTeacher,LOG_NOTE);
-	B_LogEntry (Topic_CityTeacher,"Lares kann mir dabei helfen, geschickter und stärker zu werden.");
+	B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_10);
 };
 // ------------------------------------------------------------
 // 			  				   TEACH 

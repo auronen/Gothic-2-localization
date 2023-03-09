@@ -92,7 +92,7 @@ func void DIA_Rosi_WASMACHSTDU_Info ()
 
 	AI_Output			(self, other, "DIA_Rosi_WASMACHSTDU_17_06"); //Willst du etwas zu essen kaufen oder vielleicht etwas für die Jagd in den Wäldern?
 	Log_CreateTopic (Topic_OutTrader,LOG_NOTE);
-	B_LogEntry (Topic_OutTrader,"Rosi handelt mit verschiedenen Waren, auf dem Hof von Sekob.");
+	B_LogEntry (Topic_OutTrader,Topic_OutTrader_1);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -528,7 +528,7 @@ func void DIA_Rosi_HILFE_Info ()
 		};	
 		Log_CreateTopic (TOPIC_RosisFlucht, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_RosisFlucht, LOG_RUNNING);
-		B_LogEntry (TOPIC_RosisFlucht,"Rosi hat es auf Sekobs Hof nicht mehr ausgehalten und weiß nun nicht, wo sie bleiben soll. Ich werde sie aus der Wildnis führen."); 
+		B_LogEntry (TOPIC_RosisFlucht,TOPIC_RosisFlucht_2); 
 		MIS_RosisFlucht = LOG_RUNNING;
 };
 

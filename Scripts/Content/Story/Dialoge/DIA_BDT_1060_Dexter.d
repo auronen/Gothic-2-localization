@@ -134,7 +134,7 @@ func void DIA_Addon_Dexter_Patrick_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Dexter behauptet den Söldner Patrick nicht zu kennen."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_5); 
 
 	Dexter_KnowsPatrick = TRUE;
 	B_GivePlayerXP (XP_Addon_Dexter_KnowsPatrick);
@@ -227,7 +227,7 @@ func void DIA_Addon_Dexter_missingPeople_Raven ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Dexter hat einen Auftraggeber. Sein Name ist Raven. Raven ist ein ehemaliger Erzbaron. Letztendlich scheint dieser Raven hinter der ganzen Entführungssache zu stecken. Ich brauche jetzt nur noch einen Beweis dafür."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_9); 
 
 	Info_ClearChoices	(DIA_Addon_Dexter_missingPeople);
 };

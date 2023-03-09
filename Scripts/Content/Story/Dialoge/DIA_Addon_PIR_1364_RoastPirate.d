@@ -50,7 +50,7 @@ FUNC VOID DIA_Addon_RoastPirate_GimmeGrog_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_RoastGrog,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_RoastGrog,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RoastGrog,"Der Pirat am Feuer braucht ganz dringend einen Grog.");
+	B_LogEntry (TOPIC_Addon_RoastGrog,TOPIC_Addon_RoastGrog_1);
 	
 	Info_ClearChoices (DIA_Addon_RoastPirate_GimmeGrog);
 	Info_AddChoice (DIA_Addon_RoastPirate_GimmeGrog,"Nein, ich habe nichts.",DIA_Addon_RoastPirate_GimmeGrog_DontHaveAny);
@@ -76,7 +76,7 @@ FUNC VOID DIA_Addon_RoastPirate_GimmeGrog_HereIsGrog()
 	B_UseItem (self,ItFo_Addon_Grog);
 	PIR_1364_Grog = TRUE;
 	Info_ClearChoices (DIA_Addon_RoastPirate_GimmeGrog);
-	B_LogEntry (TOPIC_Addon_RoastGrog,"Der Grog hat ihn anscheined vor dem Verdursten gerettet.");
+	B_LogEntry (TOPIC_Addon_RoastGrog,TOPIC_Addon_RoastGrog_2);
 	
 	Npc_ExchangeRoutine (self, "START");
 	

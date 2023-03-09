@@ -231,7 +231,7 @@ FUNC VOID DIA_Raoul_Stimme_Info()
 	
 	Log_CreateTopic (TOPIC_SLDRespekt,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_SLDRespekt,LOG_RUNNING);
-	B_LogEntry (TOPIC_SLDRespekt,"Raoul hat nichts dagegen, dass ich mich den Söldnern anschließe.");
+	B_LogEntry (TOPIC_SLDRespekt,TOPIC_SLDRespekt_7);
 };
 
 // ************************************************************
@@ -408,7 +408,7 @@ func void B_Raoul_Blame ()
 	
 	Log_CreateTopic (TOPIC_KillTrollBlack, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_KillTrollBlack, LOG_RUNNING);
-	B_LogEntry (TOPIC_KillTrollBlack,"Raoul will, dass ich ihm das Fell eines schwarzen Trolls bringe."); 
+	B_LogEntry (TOPIC_KillTrollBlack,TOPIC_KillTrollBlack_1); 
 	
 	MIS_Raoul_KillTrollBlack = LOG_RUNNING;
 

@@ -203,7 +203,7 @@ FUNC VOID DIA_Constantino_Trade_Info()
 	if ( Constantino_Logpatch1 == FALSE)
 	{
 		Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-		B_LogEntry (Topic_CityTrader,"Constantino verkauft alchemistisches Zubehör."); 
+		B_LogEntry (Topic_CityTrader,Topic_CityTrader_3); 
 		
 		Constantino_Logpatch1 = TRUE;
 	};
@@ -279,7 +279,7 @@ FUNC VOID DIA_Constantino_ZUSTIMMUNG_Info()
 	 
 	 Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	 Log_SetTopicStatus (TOPIC_Lehrling,LOG_RUNNING);
-	 B_LogEntry (TOPIC_Lehrling,"Constantino gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will, solange ich nicht in der Stadt eines Verbrechens angeklagt bin.");	
+	 B_LogEntry (TOPIC_Lehrling,TOPIC_Lehrling_1);	
 	
 	 Constantino_Logpatch2 = TRUE;
 	  	
@@ -319,7 +319,7 @@ FUNC VOID DIA_Constantino_BringHerbs_Info()
 	MIS_Constantino_BringHerbs = LOG_RUNNING;
 	Log_CreateTopic (TOPIC_ConstantinoPlants,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_ConstantinoPlants,LOG_RUNNING);
-	B_LogEntry (TOPIC_ConstantinoPlants,"Constantino will eine Pflanze jeder Art, damit er mich als Lehrling aufnimmt.");
+	B_LogEntry (TOPIC_ConstantinoPlants,TOPIC_ConstantinoPlants_1);
 	
 };
 
@@ -406,7 +406,7 @@ func void DIA_Constantino_HerbsRunning_Success()
 	
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Lehrling,LOG_RUNNING);
-	B_LogEntry (Topic_Lehrling,"Constantino wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.");
+	B_LogEntry (Topic_Lehrling,Topic_Lehrling_2);
 	
 	Info_ClearChoices (DIA_Constantino_HerbsRunning);
 };
@@ -583,7 +583,7 @@ func void DIA_Constantino_LEHRLING_Yes()
 	
 	MIS_Apprentice = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Lehrling);
-	B_LogEntry (Topic_Bonus,"Constantino hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.");
+	B_LogEntry (Topic_Bonus,Topic_Bonus_1);
 
 	Info_ClearChoices (DIA_Constantino_LEHRLING);
 };
@@ -726,7 +726,7 @@ FUNC VOID DIA_Constantino_Mushrooms_Info()
 	MIS_Constantino_Mushrooms = LOG_RUNNING;
 	
 	Log_CreateTopic (Topic_Bonus,LOG_NOTE);
-	B_LogEntry (Topic_Bonus,"Bei Constantino kann ich Pilze zu einem besonderen guten Preis verkaufen.");
+	B_LogEntry (Topic_Bonus,Topic_Bonus_2);
 };
 
 // *******************************************************
@@ -867,7 +867,7 @@ FUNC VOID DIA_Constantino_Alchemy_Info()
 	Constantino_TeachAlchemy = TRUE;
 	
 	Log_CreateTopic (TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry (TOPIC_CityTeacher,"Constantino kann mich in der Kunst der Alchemie unterweisen.");
+	B_LogEntry (TOPIC_CityTeacher,TOPIC_CityTeacher_1);
 };
 
 // *******************************************************
@@ -901,7 +901,7 @@ FUNC VOID DIA_Constantino_NewRecipes_Info()
 	
 	Constantino_TeachAlchemy = TRUE;
 	Log_CreateTopic (TOPIC_CityTeacher,LOG_NOTE);
-	B_LogEntry (TOPIC_CityTeacher,"Constantino kann mich in der Kunst der Alchemie unterweisen.");
+	B_LogEntry (TOPIC_CityTeacher,TOPIC_CityTeacher_2);
 };
 	
 // *******************************************************

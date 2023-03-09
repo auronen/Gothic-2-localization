@@ -116,7 +116,7 @@ FUNC VOID DIA_Addon_Sancho_Lager_Info()
 	
 	Log_CreateTopic (Topic_Addon_Franco,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Franco,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Franco,"Alle Neuen müßen erst im Sumpf arbeiten, bevor sie Zugang zur Mine bekommen.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_1);
 };
 
 //---------------------------------------------------------------------
@@ -146,7 +146,7 @@ FUNC VOID DIA_Addon_Sancho_Mine_Info()
 	AI_Output (self,other,"DIA_Addon_Sancho_Mine_06_03"); //Aber er wird dich nur reinlassen, wenn du hier draußen nicht die Eier schaukelst.
 	AI_Output (self,other,"DIA_Addon_Sancho_Mine_06_04"); //Also geh zu ihm, und lass dir 'ne Aufgabe geben!
 	
-	B_LogEntry (Topic_Addon_Franco,"FRANCO entscheidet wer in's Lager kommt. Er verteilt auch die Aufgaben.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_2);
 };
 
 //---------------------------------------------------------------------
@@ -175,7 +175,7 @@ FUNC VOID DIA_Addon_Sancho_Franco_Info()
 	AI_Output (self,other,"DIA_Addon_Sancho_Franco_06_01"); //Er hängt meistens auf dem Vorplatz zum Lager rum.
 	AI_Output (self,other,"DIA_Addon_Sancho_Franco_06_02"); //Stell dich bloß gut mit ihm, sonst bekommst du am Ende noch so'n Scheißjob wie ich!
 	
-	B_LogEntry (Topic_Addon_Franco,"Franco hält sich am Vorplatz zum Lager auf.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_3);
 };
 
 //---------------------------------------------------------------------

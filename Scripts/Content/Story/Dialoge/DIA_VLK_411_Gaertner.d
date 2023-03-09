@@ -111,7 +111,7 @@ FUNC VOID DIA_Gaertner_Plants_Info()
 	AI_Output (self ,other,"DIA_Gaertner_Plants_09_02"); //Na ja, ich hab gerade geerntet. Also, wenn du was kaufen willst ...
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Der Gärtner des Statthalters kann mir Pflanzen verkaufen.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_18);
 };
 //*************************************************************
 //		Trade

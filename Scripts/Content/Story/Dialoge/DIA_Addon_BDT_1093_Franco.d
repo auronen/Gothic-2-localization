@@ -100,7 +100,7 @@ FUNC VOID DIA_Addon_Franco_HI_Info()
 {	
 	Log_CreateTopic (Topic_Addon_Franco,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Franco,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Franco,"Wenn ich bei Franco einen guten Job mache, wird er mich in's Lager bringen.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_5);
 	
 	AI_Output (self,other,"DIA_Addon_Franco_HI_08_00");//Hey, was willst du hier? Willst du ins Lager?
 	AI_Output (other,self,"DIA_Addon_Franco_HI_15_01");//Ja, ich bin ...
@@ -110,7 +110,7 @@ FUNC VOID DIA_Addon_Franco_HI_Info()
 	if (Ramon_News == FALSE)
 	{
 		AI_Output (self,other,"DIA_Addon_Franco_HI_08_04");//Ramon, der Torwächter, wird dir sagen, ob sie im Lager neue Leute brauchen. Sprich mit ihm.
-		B_LogEntry (Topic_Addon_Franco,"Ich soll Ramon, den Torwächter fragen ob sie im Lager neue Leute brauchen.");
+		B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_6);
 	};
 };
 //---------------------------------------------------------------------
@@ -143,7 +143,7 @@ FUNC VOID DIA_Addon_Franco_Hai_Info()
 	AI_Output (self,other,"DIA_Addon_Franco_Hai_08_05");//Okay, du willst eine Chance? Du kriegst deine Chance. Schwing deinen Hintern zu Logan. Die Sumpfhaie rücken ihm zu sehr auf die Pelle.
 	AI_Output (self,other,"DIA_Addon_Franco_Hai_08_06");//Hilf ihm, mit den Viechern fertig zu werden, dann bist du schon so gut wie im Lager.
 	
-	B_LogEntry (Topic_Addon_Franco,"Franco will, das ich Logan helfe, bevor er mich in's Lager schickt.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_7);
 };
 //---------------------------------------------------------------------
 //	Info Logan Wo?
@@ -236,7 +236,7 @@ FUNC VOID DIA_Addon_Franco_HaiSuccess_Info()
 	AI_Output (self,other,"DIA_Addon_Franco_HaiSuccess_08_02");//Okay, du hast gegen die Sumpfhaie gekämpft - du bist zu gebrauchen - zumindest mehr, als die meisten Typen hier.
 	B_GivePlayerXP (XP_Addon_HlpLogan);
 	
-	B_LogEntry (Topic_Addon_Franco,"Das ich Logan geholfen habe, reicht nicht, damit Franco mich in's Lager schickt. ");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_8);
 };
 
 //---------------------------------------------------------------------
@@ -271,9 +271,9 @@ FUNC VOID DIA_Addon_Franco_Mis2_Info()
 	
 	Log_CreateTopic (Topic_Addon_Stoneplate,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Stoneplate,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Stoneplate,"Franco will eine Steintafel haben, die Edgor ihm bringen sollte. Jetzt soll ich mich darum kümmern.");
+	B_LogEntry (Topic_Addon_Stoneplate,Topic_Addon_Stoneplate_1);
 	
-	B_LogEntry (Topic_Addon_Franco,"Franco will, das ich jetzt Edgor helfe, bevor er mich in's Lager schickt.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_9);
 };
 
 //---------------------------------------------------------------------
@@ -389,7 +389,7 @@ FUNC VOID DIA_Addon_Franco_tafel_Info()
 	MIS_HlpEdgor = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_HlpEdgor);
 	
-	B_LogEntry (Topic_Addon_Franco,"Ich habe Franco die Steintafel gebracht, die er wollte.");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_10);
 };
 
 //---------------------------------------------------------------------
@@ -431,7 +431,7 @@ FUNC VOID DIA_Addon_Franco_JemandAnderen_Info()
 	AI_Output (self,other,"DIA_Addon_Franco_JemandAnderen_08_03");//Und für einen weiteren Mann ist zurzeit kein Bedarf im Lager.
 	AI_Output (self,other,"DIA_Addon_Franco_JemandAnderen_08_04");//Außerdem kann ich dich hier gut gebrauchen, (grinst) jetzt, wo Logan nicht mehr da ist.
 		
-	B_LogEntry (Topic_Addon_Franco,"Franco schickt mich nicht ins Lager. Ich glaube ich muss das Franco - Problem aus dem Weg räumen...");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_11);
 };
 
 //---------------------------------------------------------------------

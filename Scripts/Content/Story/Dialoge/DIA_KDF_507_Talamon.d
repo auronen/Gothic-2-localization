@@ -265,7 +265,7 @@ FUNC VOID DIA_Talamon_KAP5_Stop_Info()
 	AI_Output (other,self ,"DIA_Talamon_KAP5_Stop_15_01"); //Pyrokar sagt, dass ich das Buch von Xardas untersuchen darf.
 	AI_Output (self, other,"DIA_Talamon_KAP5_Stop_04_02"); //So, sagt er das. In Ordnung, du darfst eintreten. Das Buch, das du suchst, liegt dort drüben auf dem Alchemietisch.
 
-	B_LogEntry (TOPIC_BuchHallenVonIrdorath,"Talamon bewarte Xardas Buch auf einem Alchemietisch im Keller auf."); 
+	B_LogEntry (TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_8); 
 };
 
 ///////////////////////////////////////////////////////////////////////

@@ -609,7 +609,7 @@ func VOID DIA_Addon_Henry_Palisade_WhatFor_Info()
 
 	Log_CreateTopic (TOPIC_Addon_BanditsTower,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_BanditsTower,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BanditsTower,"Ein paar Banditen haben den Turm südlich des Piratenlagers besetzt und sich dort verschanzt.");
+	B_LogEntry (TOPIC_Addon_BanditsTower,TOPIC_Addon_BanditsTower_1);
 
 };
 
@@ -665,7 +665,7 @@ func VOID DIA_Addon_Henry_Turmbanditen_WhatFor_Info()
 		//-----------------------------------------	
 		MIS_Henry_FreeBDTTower = LOG_SUCCESS;
 		
-		B_LogEntry (TOPIC_Addon_BanditsTower,"Die Banditen aus dem Turm sind tot.");
+		B_LogEntry (TOPIC_Addon_BanditsTower,TOPIC_Addon_BanditsTower_2);
 		
 		B_GivePlayerXP (XP_Addon_Henry_FreeBDTTower);
 	}
@@ -774,14 +774,14 @@ FUNC VOID DIA_Addon_Henry_Entercrew_Info()
 				AI_Output (self ,other, "DIA_Addon_Henry_Entercrew_Add_04_04"); //Tja, meine beiden Jungs sind tot. Dann mußt du's wohl doch alleine machen.
 				AI_Output (self ,other, "DIA_Addon_Henry_Entercrew_Add_04_05"); //Schaff uns die Banditen im Turm vom Hals!
 				
-				B_LogEntry (TOPIC_Addon_BanditsTower,"Henry will, dass ich die Banditen aus dem Turm vertreibe. Er kann mir keine Unterstüzung geben.");
+				B_LogEntry (TOPIC_Addon_BanditsTower,TOPIC_Addon_BanditsTower_3);
 			}
 			else
 			{
 				AI_Output (self ,other, "DIA_Addon_Henry_Entercrew_Add_04_06"); //Schnapp dir einen der Jungs und schaff uns die Banditen im Turm vom Hals.
 				Henry_GetPartyMember = TRUE;
 			
-				B_LogEntry (TOPIC_Addon_BanditsTower,"Henry will, dass ich die Banditen aus dem Turm vertreibe. Ich soll mir einen seiner Jungs mitnehmen.");
+				B_LogEntry (TOPIC_Addon_BanditsTower,TOPIC_Addon_BanditsTower_4);
 			};
 
 			B_Henry_WhereIsTower();
@@ -839,7 +839,7 @@ func void DIA_Addon_Henry_Owen_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_HolOwen,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_HolOwen,LOG_RUNNING);
-	B_LogEntry	(TOPIC_Addon_HolOwen,"Henry wartet auf das Holz für die Palisade. Ich soll Owen benachrichtigen. Er ist mit Malcom zusammen beim Talkessel.");  
+	B_LogEntry	(TOPIC_Addon_HolOwen,TOPIC_Addon_HolOwen_1);  
 };
 
 // ------------------------------------------------------------
@@ -882,7 +882,7 @@ func void DIA_Addon_Henry_Owen2_Info ()
 		//AI_Output (self, other, "DIA_Addon_Henry_Owen2_Add_04_01"); //Was? Er auch? Verdammte Mistviecher!
 		MIS_Henry_HolOwen = LOG_OBSOLETE;
 	
-		B_LogEntry	(TOPIC_Addon_HolOwen,"Owen und Malcom sind beide tot.");	
+		B_LogEntry	(TOPIC_Addon_HolOwen,TOPIC_Addon_HolOwen_2);	
 		Log_SetTopicStatus (TOPIC_Addon_HolOwen,LOG_OBSOLETE);
 	  
 	}
@@ -896,7 +896,7 @@ func void DIA_Addon_Henry_Owen2_Info ()
 		B_StartOtherRoutine	(PIR_1367_Addon_Owen,"PostStart");
 		
 		
-		B_LogEntry	(TOPIC_Addon_HolOwen,"Owen wird Henry das Holz bringen.");
+		B_LogEntry	(TOPIC_Addon_HolOwen,TOPIC_Addon_HolOwen_3);
 		
 		MIS_Henry_HolOwen = LOG_SUCCESS;
 		

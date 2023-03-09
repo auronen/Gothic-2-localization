@@ -118,7 +118,7 @@ FUNC VOID DIA_Opolos_HowLong_Info()
 	MIS_HelpOpolos = LOG_RUNNING;
 	Log_CreateTopic (Topic_OpolosStudy,LOG_MISSION);
 	Log_SetTopicStatus (Topic_OpolosStudy,LOG_RUNNING);
-	B_LogEntry (Topic_OpolosStudy,"Opolos hütet die Schafe. Er würde gerne die Shcriften in der Bibliothek studieren. ");
+	B_LogEntry (Topic_OpolosStudy,Topic_OpolosStudy_1);
 };
 //*********************************************************************
 //		Auf was muss ich hier im Kloster achten?
@@ -179,7 +179,7 @@ FUNC VOID DIA_Opolos_beibringen_Info()
 	
 	Log_CreateTopic (Topic_OpolosRezept,LOG_MISSION);
 	Log_SetTopicStatus(Topic_OpolosRezept,LOG_RUNNING);
-	B_LogEntry (Topic_OpolosRezept,"Opolos will einen kurzen Blick auf ein Rezept zur Herstellung von Manatränken werfen. Wenn ich für Neoars arbeite, kann ich mir das vielleicht ausleihen.");
+	B_LogEntry (Topic_OpolosRezept,Topic_OpolosRezept_1);
 };
 //*********************************************************************
 // rezept
@@ -223,7 +223,7 @@ FUNC VOID DIA_Opolos_rezept_Info()
 		B_GivePlayerXP (XP_Ambient);
 		
 		Log_CreateTopic (Topic_KlosterTeacher,LOG_NOTE);
-		B_LogEntry (Topic_KlosterTeacher,"Opolos kann mir dabei helfen, stärker zu werden.");
+		B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_1);
 
 	}
 	else if (MIS_NEORASRezept == LOG_SUCCESS)
@@ -237,7 +237,7 @@ FUNC VOID DIA_Opolos_rezept_Info()
 		Opolos_TeachSTR = TRUE;
 		
 		Log_CreateTopic (Topic_KlosterTeacher,LOG_NOTE);
-		B_LogEntry (Topic_KlosterTeacher,"Opolos kann mir dabei helfen, stärker zu werden.");
+		B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_1);
 	}
 	else 
 	{

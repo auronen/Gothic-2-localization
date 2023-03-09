@@ -57,7 +57,7 @@ FUNC VOID B_Say_Patrick_Plan()
 	AI_Output (other, self, "DIA_Addon_Patrick_Plan_15_02");//Okay, ich werde mich um darum kümmern. Sag den anderen, sie sollen sich bereit halten.
 	
 	
-	B_LogEntry (Topic_Addon_Sklaven,"Die Sklaven werden keinen Fluchtversuch wagen. Ich muss einen Weg finden, damit sie das Lager unbehelligt verlassen können.");
+	B_LogEntry (Topic_Addon_Sklaven,Topic_Addon_Sklaven_1);
 };
 FUNC VOID DIA_Addon_Patrick_Hi_Raven()
 {

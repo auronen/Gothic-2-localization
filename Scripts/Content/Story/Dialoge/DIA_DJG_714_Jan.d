@@ -106,7 +106,7 @@ FUNC VOID DIA_JAN_Dragons_HelpYou ()
 	
 	Log_CreateTopic (TOPIC_JanBecomesSmith, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_JanBecomesSmith, LOG_RUNNING);
-	B_LogEntry (TOPIC_JanBecomesSmith,"Jan der Drachenjäger in der Burg im Minental will an der Schmiede arbeiten. Parcival hat es ihm allerdings verboten."); 
+	B_LogEntry (TOPIC_JanBecomesSmith,TOPIC_JanBecomesSmith_1); 
 
 
 	MIS_JanBecomesSmith = LOG_RUNNING;

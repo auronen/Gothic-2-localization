@@ -46,7 +46,7 @@ func void DIA_AngarDJG_HALLO_Info ()
 	AI_Output			(self, other, "DIA_AngarDJG_HALLO_04_02"); //Seltsam, aber du kommst mir auch irgendwie bekannt vor. Ich kann mich aber kaum an dich erinnern.
 	AI_Output			(other, self, "DIA_AngarDJG_HALLO_15_03"); //Was ist los mit dir?
 	AI_Output			(self, other, "DIA_AngarDJG_HALLO_04_04"); //(winkt ab) Ach. Ich habe schon lange nicht mehr richtig schlafen können. Ständig diese Alpträume.
-	B_LogEntry (TOPIC_Dragonhunter,"Ich habe Angar im Minental gefunden.");
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_13);
 };
 
 
@@ -105,7 +105,7 @@ func void DIA_Angar_WIEKOMMSTDUHIERHER_Info ()
 
 	Log_CreateTopic (TOPIC_AngarsAmulett, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AngarsAmulett, LOG_RUNNING);
-	B_LogEntry (TOPIC_AngarsAmulett,"Angar hat sein Amulett verloren und versucht es nun verzweifelt wieder zu finden."); 
+	B_LogEntry (TOPIC_AngarsAmulett,TOPIC_AngarsAmulett_1); 
 
 
 	Info_AddChoice	(DIA_Angar_WIEKOMMSTDUHIERHER, DIALOG_BACK, DIA_Angar_WIEKOMMSTDUHIERHER_gehen );
@@ -132,12 +132,12 @@ func void DIA_Angar_WIEKOMMSTDUHIERHER_amulett ()
 	if (DJG_Angar_SentToStones ==FALSE)
 	{
 		AI_Output			(self, other, "DIA_Angar_WIEKOMMSTDUHIERHER_amulett_04_01"); //Irgendwo im Süden, kurz bevor ich hier in der Burg wach wurde.
-		B_LogEntry (TOPIC_AngarsAmulett,"Das Amulett soll sich irgendwo im Süden befinden. Angar wird losziehen um es zu suchen."); 
+		B_LogEntry (TOPIC_AngarsAmulett,TOPIC_AngarsAmulett_2); 
 	}
 	else
 	{
 		AI_Output			(self, other, "DIA_Angar_WIEKOMMSTDUHIERHER_amulett_04_02"); //Es muss hier irgendwo sein.
-		B_LogEntry (TOPIC_AngarsAmulett,"Das Amulett befindet sich in der Umgebeung eines Felsengrabes im Süden des Minentals."); 
+		B_LogEntry (TOPIC_AngarsAmulett,TOPIC_AngarsAmulett_3); 
 	};
 	AI_Output			(self, other, "DIA_Angar_WIEKOMMSTDUHIERHER_amulett_04_03"); //Ich schätze, es ist mir gestohlen worden. Ich muss es unbedingt wieder haben.
 };
@@ -421,7 +421,7 @@ func void DIA_AngarDJG_WHATSINTHERE_Info ()
 	AI_Output			(self, other, "DIA_AngarDJG_WHATSINTHERE_04_03"); //Es schwebt zwischen den Bäumen hin und her und man hat den Eindruck, dass es alles Leben in seiner Umgebung aufsaugt wie einen Schwamm.
 
 	//B_LogEntry (TOPIC_Dragonhunter,"Ich habe Angar im Minental gefunden. Er vermutet, daß sich in der Felsengruft, wo er sich aufhält, ein Drache befindet, der hier seine untoten Helfer an die Oberfläche entsendet.");
-	B_LogEntry (TOPIC_Dragonhunter,"Ich habe Angar im Minental gefunden.");
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_13);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -578,7 +578,7 @@ func void DIA_Angar_WASISTLOS_Info ()
 
 	AI_StopProcessInfos (self);
 
-	B_LogEntry (TOPIC_Dragonhunter,"Angar ist einfach gegangen. Bei diesen Untoten hat er das Gefühl gegen seine eigenen Leute zu kämpfen.");
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_15);
 			
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 	Npc_ExchangeRoutine	(self,"LeavingOW");
@@ -611,7 +611,7 @@ func void DIA_Angar_WHYAREYOUHERE_Info ()
 	AI_Output			(self, other, "DIA_Angar_WHYAREYOUHERE_04_01"); //Ich war auf dem Weg zum Pass, da sind mir die Orks in die Quere gekommen. Ich konnte die gottverdammten Kerle nicht abschütteln.
 	AI_Output			(self, other, "DIA_Angar_WHYAREYOUHERE_04_02"); //Ich warte noch eine Weile ab und verzieh' mich dann über den Pass. Wir sehen uns drüben!
 
-	B_LogEntry (TOPIC_Dragonhunter,"Ich habe Angar noch einmal getroffen, er sitzt immer noch im Minental fest.");
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_14);
 	B_GivePlayerXP (XP_AngarDJGAgain); 
 	AI_StopProcessInfos (self);
 };

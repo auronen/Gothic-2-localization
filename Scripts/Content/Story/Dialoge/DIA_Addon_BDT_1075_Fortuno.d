@@ -85,7 +85,7 @@ FUNC VOID DIA_Addon_Fortuno_Hi_Info()
 		Log_CreateTopic (Topic_Addon_Fortuno,LOG_MISSION);
 		Log_SetTopicStatus (Topic_Addon_Fortuno,LOG_RUNNING);
 		
-		B_LogEntry (Topic_Addon_Fortuno,"Fortuno ist nicht bei Sinnen. Er sucht nach einem 'Grünen Novizen'");
+		B_LogEntry (Topic_Addon_Fortuno,Topic_Addon_Fortuno_1);
 		
 	};
 	AI_Output (self, other, "DIA_Addon_Fortuno_Hi_13_03");//Grün ... grüner Novize ... ich kann ihn nicht finden ...
@@ -141,7 +141,7 @@ FUNC VOID DIA_Addon_Fortuno_Hi_GREEN()
 	
 	B_GivePlayerXP (XP_Addon_Fortuno_01);
 	
-	B_LogEntry (Topic_Addon_Fortuno,"Der 'grüne Novize' hat Fortuno wieder einen klaren Kopf verschafft.");
+	B_LogEntry (Topic_Addon_Fortuno,Topic_Addon_Fortuno_2);
 };
 
 
@@ -210,7 +210,7 @@ FUNC VOID DIA_Addon_Fortuno_FREE_Info()
 	Wld_InsertNpc (Bloodfly,"ADW_PATH_TO_LOCH_01");
 	Wld_InsertNpc (Bloodfly,"ADW_PATH_TO_LOCH_01");
 	
-	B_LogEntry (Topic_Addon_Fortuno,"Fortuno ist wieder bei Sinnen, aber er kann sich an Nichts erinnern.");
+	B_LogEntry (Topic_Addon_Fortuno,Topic_Addon_Fortuno_3);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Herb
@@ -390,9 +390,9 @@ FUNC VOID DIA_Addon_Fortuno_more_Info()
 	
 	SC_KnowsFortunoInfos = TRUE;
 	
-	B_LogEntry (TOPIC_Addon_RavenKDW,"Raven will ein mächtiges Artefakt aus dem Tempel Adanos' bergen."); 
-	B_LogEntry (TOPIC_Addon_RavenKDW,"Aus irgendeinem Grund hat Raven das Grab eines Priesters der alten Kultur in der Goldmine freilegen lassen."); 
-	B_LogEntry (TOPIC_Addon_RavenKDW,"Raven glaubt, dass einige Steintafeln ihm bei seinen Plänen helfen werden."); 
+	B_LogEntry (TOPIC_Addon_RavenKDW,TOPIC_Addon_RavenKDW_3); 
+	B_LogEntry (TOPIC_Addon_RavenKDW,TOPIC_Addon_RavenKDW_4); 
+	B_LogEntry (TOPIC_Addon_RavenKDW,TOPIC_Addon_RavenKDW_5); 
 	
 	Npc_ExchangeRoutine (self, "START");
 	B_GivePlayerXP (XP_Addon_Fortuno_03);

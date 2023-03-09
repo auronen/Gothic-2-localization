@@ -107,7 +107,7 @@ FUNC VOID DIA_Addon_Lennar_Attentat_Info()
 	AI_Output (self, other, "DIA_Addon_Lennar_ATTENTAT_01_06"); //(erkennt) Ist ja klar! Um in die Mine zu kommen, muss er sich von Esteban 'nen roten Stein abholen.
 	AI_Output (self, other, "DIA_Addon_Lennar_ATTENTAT_01_07"); //(verschwörerisch) Ich wette, er traut sich nicht mehr, ihm in die Augen zu sehen.
 
-	B_LogEntry (Topic_Addon_Esteban, "Lennar verdächtigt Emilio, weil der nicht mehr zu Esteban geht.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_3);
 };
 
 //---------------------------------------------------------------------

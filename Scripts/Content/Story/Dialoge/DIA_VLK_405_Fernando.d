@@ -199,7 +199,7 @@ FUNC VOID DIA_Fernando_Minental_Info()
 	
 	Log_CreateTopic (TOPIC_Fernando,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Fernando,LOG_RUNNING);
-	B_LogEntry (TOPIC_Fernando,"Der Händler Fernando will wissen, wie es um das Erz im Minental steht.");
+	B_LogEntry (TOPIC_Fernando,TOPIC_Fernando_1);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -234,7 +234,7 @@ func void DIA_Addon_Fernando_BanditTrader_Info ()
 	AI_Output	(other, self, "DIA_Addon_Fernando_BanditTrader_15_00"); //Du hast Waffen an die Banditen verkauft.
 	AI_Output	(self, other, "DIA_Addon_Fernando_BanditTrader_14_01"); //(verdutzt) Aber. Wie kommst du denn auf SOWAS?
 
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Fernando, der Überseehändler, hat selbst zugegeben, Waffen an die Banditen geliefert zu haben."); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_6); 
 
 	B_GivePlayerXP (XP_Addon_Fernando_HatsZugegeben);
 	Fernando_HatsZugegeben = TRUE;
@@ -386,7 +386,7 @@ FUNC VOID DIA_Fernando_Success_Info()
 	{
 		B_Say (self, other, "$NOTNOW");
 		Log_SetTopicStatus (TOPIC_Fernando, LOG_OBSOLETE);
-		B_LogEntry (TOPIC_Fernando,"Fernando will die Infos nicht mehr. Und ich werde auch den Lohn nicht mehr kriegen.");
+		B_LogEntry (TOPIC_Fernando,TOPIC_Fernando_2);
 	};
 };
 

@@ -365,7 +365,7 @@ func void B_Addon_Finn_TellAll()
 	AI_Output (self, other, "DIA_Addon_Finn_TellAll_07_03"); //Er ist sonst IMMER da. SEHR verdächtig, wenn du mich fragst.
 	
 	Finn_TellAll = TRUE;
-	B_LogEntry (Topic_Addon_Esteban, "Finn erzählt, das Huno während des Attentats nicht anwesend war.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_6);
 };
 	
 func void DIA_Addon_Finn_Attentat_ForTheBoss()

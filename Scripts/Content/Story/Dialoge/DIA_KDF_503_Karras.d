@@ -121,7 +121,7 @@ func void DIA_Karras_Aufgabe_Info ()
 	
 	Log_CreateTopic (Topic_KarrasCharm,LOG_MISSION);
 	Log_SetTopicStatus  (Topic_KarrasCharm,LOG_RUNNING);
-	B_LogEntry (Topic_KarrasCharm,"Meister Karras schickt mich in die Stadt. Ich soll ihm drei der Spruchrollen besorgen, die Ignaz herstellt und verkauft.");
+	B_LogEntry (Topic_KarrasCharm,Topic_KarrasCharm_1);
 
 	B_GiveInvItems (self, other, ItMi_Gold,150);
 };
@@ -212,7 +212,7 @@ func void DIA_Karras_JOB_Info ()
 		AI_Output (self, other, "DIA_Karras_JOB_10_06"); //Aber die stelle ich nur Angehörigen des Ordens zur Verfügung.
 	};
 	Log_CreateTopic (Topic_KlosterTrader,LOG_NOTE);
-	B_LogEntry (Topic_KlosterTrader,"Meister Karras kann mich im Kloster mit Spruchrollen versorgen. Allerdings muss ich Magier des Feuers sein.");
+	B_LogEntry (Topic_KlosterTrader,Topic_KlosterTrader_3);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TEACH
@@ -383,7 +383,7 @@ func void DIA_Karras_CIRCLE5_Info ()
 			AI_Output (self, other, "DIA_Karras_CIRCLE5_10_02"); //Nutze ihre Macht weise, Bruder - denn die Dunkelheit ist noch immer stark und so sind deine Feinde.
 			AI_Output (self, other, "DIA_Karras_CIRCLE5_10_03"); //In den sechsten und höchsten Kreis der Magie kann ich dich nicht mehr begleiten. Pyrokar selbst wird dich weihen, wenn die Zeit gekommen ist.
 			
-			B_LogEntry (Topic_KlosterTeacher,"In den sechsten Kreis der Magie wird Meister Pyrokar mich einweihen.");
+			B_LogEntry (Topic_KlosterTeacher,Topic_KlosterTeacher_2);
 		};
 	}
 	else
@@ -621,7 +621,7 @@ FUNC VOID DIA_Karras_KAP3_Perm_Info()
 		AI_Output (self ,other,"DIA_Karras_KAP3_Perm_10_07"); //Aber wenn es dir gelingen würde, mir etwas von ihnen zu bringen, das ich untersuchen könnte ...
 		
 		MIS_KarrasResearchDMT = LOG_RUNNING;
-		B_LogEntry (TOPIC_DEMENTOREN,"Karras braucht etwas, das in direkten Kontakt mit den Suchenden stand, damit er seine Nachforschungen über sie weiter führen kann."); 
+		B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_7); 
 
 		Info_ClearChoices (DIA_Karras_KAP3_Perm);
 		Info_AddChoice (DIA_Karras_KAP3_Perm,DIALOG_BACK,DIA_Karras_KAP3_Perm_Back);
@@ -714,7 +714,7 @@ FUNC VOID DIA_Karras_HaveBook_Info()
 	AI_Output (self ,other,"DIA_Karras_HaveBook_10_06"); //Doch ob es sich um eine Art der geistigen Besessenheit oder gar eine rein körperliche Mutation handelt, bin ich mir noch nicht sicher.
 	AI_Output (self ,other,"DIA_Karras_HaveBook_10_07"); //Komm später noch mal wieder. Dann weiß ich sicherlich mehr.
 	MIS_KarrasResearchDMT = LOG_SUCCESS;
-	B_LogEntry (TOPIC_DEMENTOREN,"Karras konnte mit einem Almanach der Besessenen weiter forschen. Ich soll später nochmal zu ihm kommen."); 
+	B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_8); 
 	KarrasGotResearchDMTBook_Day = Wld_GetDay(); 
 	B_GivePlayerXP (XP_KarrasResearchDMT);
 };
@@ -766,7 +766,7 @@ FUNC VOID DIA_Karras_ResearchDMTEnd_Info()
 		AI_PrintScreen	(PRINT_ItemErhalten, -1, YPOS_ItemTaken, FONT_ScreenSmall, 2);	// "1 Gegenstand erhalten"
 
 		SC_KnowsMadPsi = TRUE;
-		B_LogEntry (TOPIC_DEMENTOREN,"Karras Studium war sehr aufschlussreich. Zwischen den Suchenden und der Bruderschaft des Schläfers scheint es einen Zusammenhang zu geben."); 
+		B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_9); 
 		B_GivePlayerXP (XP_SC_KnowsMadPsi);
 	}
 	else
@@ -810,7 +810,7 @@ FUNC VOID DIA_Karras_Prot_BlackEye_Info()
 		AI_Output (self ,other,"DIA_Karras_Prot_BlackEye_10_03"); //Einige unserer Gebetsschreine, die wir errichtet haben, sind daraus gefertigt worden.
 		AI_Output (other,self ,"DIA_Karras_Prot_BlackEye_15_04"); //Alles klar. Ich werde etwas davon auftreiben.
 		AI_Output (self ,other,"DIA_Karras_Prot_BlackEye_10_05"); //Ja, tu das. Aber lass dir bloß nicht einfallen, die Schreine zu beschädigen, hörst du?
-		B_LogEntry (TOPIC_DEMENTOREN,"Karras kann mir einen Schutz gegen die mentalen Angriffe der Suchenden beschaffen. Dazu benötigt er Gestein aus gesegneter Erde. Einige Schreine sind aus diesem Gestein gefertigt."); 
+		B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_10); 
 		MIS_Karras_FindBlessedStone = LOG_RUNNING;
 	}
 	else
@@ -851,7 +851,7 @@ FUNC VOID DIA_Karras_KarrasBlessedStone_Info()
 	AI_Output (self ,other,"DIA_Karras_KarrasBlessedStone_10_03"); //Gib mir etwas Zeit. Ich mach mich auch gleich an die Arbeit.
 	KarrasMakesBlessedStone_Day = Wld_GetDay(); 
 	MIS_Karras_FindBlessedStone	= LOG_SUCCESS;
-	B_LogEntry (TOPIC_DEMENTOREN,"Karras will mir ein Schutzamulett gegen die Mentalen Angriffe der Suchenden geben. Das wird die Sache erleichtern."); 
+	B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_11); 
 	B_GivePlayerXP (XP_Karras_FoundBlessedStone);
 	AI_StopProcessInfos (self);
 };
@@ -892,7 +892,7 @@ FUNC VOID DIA_Karras_ItAm_Prot_BlackEye_Mis_Info()
 		B_GiveInvItems (self, other, ItAm_Prot_BlackEye_Mis, 1);					
 		AI_Output (self ,other,"DIA_Karras_ItAm_Prot_BlackEye_Mis_10_02"); //Trage es immer bei dir und die Suchenden werden dich nicht in ihre mentalen Abgründe ziehen können.
 		AI_Output (other,self ,"DIA_Karras_ItAm_Prot_BlackEye_Mis_15_03"); //Ich danke dir.
-		B_LogEntry (TOPIC_DEMENTOREN,"Ich erhielt von Karras ein Schutzamulett gegen den schwarzen Blick der Suchenden."); 
+		B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_12); 
 		DIA_Karras_ItAm_Prot_BlackEye_Mis_NoPerm = TRUE;
 		B_GivePlayerXP (XP_Ambient);
 	}

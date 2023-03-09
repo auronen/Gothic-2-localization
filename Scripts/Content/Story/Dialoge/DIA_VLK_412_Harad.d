@@ -76,7 +76,7 @@ func void DIA_Harad_Arbeit_Info ()
 	
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Lehrling,LOG_RUNNING);
-	B_LogEntry (TOPIC_Lehrling,"Wenn ich Harad überzeuge, das ich kein Taugenichts bin, wird er mich als Lehrling aufnehmen.");
+	B_LogEntry (TOPIC_Lehrling,TOPIC_Lehrling_3);
 };
 
 // *****************************************************
@@ -111,7 +111,7 @@ func void DIA_Harad_Taugenichts_Info ()
 	MIS_Harad_Orc = LOG_RUNNING;
 	Log_CreateTopic(TOPIC_HaradOrk,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_HaradOrk,LOG_RUNNING);
-	B_LogEntry (TOPIC_HaradOrk,"Vor der Stadt wurde ein Ork gesehen. Der Schmied Harad will das ich ihn töte. Eine Orkwaffe sollte als Beweis reichen.");
+	B_LogEntry (TOPIC_HaradOrk,TOPIC_HaradOrk_1);
 };
 
 // *****************************************************
@@ -163,11 +163,11 @@ func void DIA_Harad_OrcRunning_TooHard()
 	
 	if (MIS_HakonBandits != LOG_RUNNING)
 	{
-		B_LogEntry (TOPIC_Lehrling, "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt. Ich sollte mal mit Hakon sprechen. Vielleicht weiß er mehr über den Aufenthaltsort dieser Banditen. ");
+		B_LogEntry (TOPIC_Lehrling, TOPIC_Lehrling_4);
 	}
 	else
 	{
-		B_LogEntry (TOPIC_Lehrling, "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt.");
+		B_LogEntry (TOPIC_Lehrling, TOPIC_Lehrling_4);
 	};
 	
 	Info_ClearChoices (DIA_Harad_OrcRunning);
@@ -257,7 +257,7 @@ func void DIA_Harad_OrcSuccess_Info ()
 	
 	MIS_Harad_Orc = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Harad_Orc);
-	B_LogEntry (Topic_Lehrling,"Harad wird mich als Lehrling aufnehmen, wenn ich die Zustimmung der anderen Meister bekomme.");
+	B_LogEntry (Topic_Lehrling,Topic_Lehrling_6);
 };
 
 // *****************************************************
@@ -448,12 +448,12 @@ func void DIA_Harad_LEHRLING_OK()
 	Harad_Lehrling_Day = Wld_GetDay();
 	Wld_AssignRoomToGuild ("schmied", GIL_NONE);
 	MIS_Apprentice = LOG_SUCCESS;
-	B_LogEntry (Topic_Bonus,"Harad hat mich als Lehrling eingestellt. Ich habe nun Zugang zum oberen Viertel.");
-	B_LogEntry (Topic_Bonus,"Harad kauft mir meine geschmiedeten Waffen zu einem guten Preis ab.");
+	B_LogEntry (Topic_Bonus,Topic_Bonus_3);
+	B_LogEntry (Topic_Bonus,Topic_Bonus_4);
 	
 	Log_CreateTopic (Topic_CityTeacher, LOG_NOTE);
 	B_GivePlayerXP (XP_Lehrling);
-	B_LogEntry (Topic_CityTeacher, "Bei Harad kann ich das Schmieden lernen und er kann mir dabei helfen, stärker zu werden.");
+	B_LogEntry (Topic_CityTeacher, Topic_CityTeacher_12);
 	Info_ClearChoices (DIA_Harad_LEHRLING);
 };
 
@@ -512,7 +512,7 @@ func void DIA_Harad_Zustimmung_Info ()
 			B_GivePlayerXP (XP_Zustimmung);
 			DIA_Harad_Zustimmung_Permanent = TRUE;
 		};
-		B_LogEntry (Topic_Lehrling,"Harad gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.");
+		B_LogEntry (Topic_Lehrling,Topic_Lehrling_7);
 		
 		if (!Npc_IsDead(Brian))
 		{

@@ -299,7 +299,7 @@ FUNC VOID DIA_Hanna_AnyNews_Yes ()
 
 	Log_CreateTopic (TOPIC_HannaRetrieveLetter, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_HannaRetrieveLetter, LOG_RUNNING);
-	B_LogEntry (TOPIC_HannaRetrieveLetter,"Hanna vermisst ein Schriftstück. Es soll am Hafen beim Kartenzeichner Brahim abhanden gekommen sein."); 
+	B_LogEntry (TOPIC_HannaRetrieveLetter,TOPIC_HannaRetrieveLetter_1); 
 
 
 	Info_ClearChoices (DIA_Hanna_AnyNews);

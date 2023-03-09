@@ -176,7 +176,7 @@ func void DIA_Elena_AUFGABE_Info ()
 	AI_Output (self, other, "DIA_Elena_AUFGABE_16_02"); //Aber ich warne dich. Bei mir wird nicht gefeilscht und nicht gestohlen, klar?
 	
 	Log_CreateTopic (Topic_SoldierTrader,LOG_NOTE);
-	B_LogEntry (Topic_SoldierTrader,"Elena verkauft Waren auf Onar's Hof.");
+	B_LogEntry (Topic_SoldierTrader,Topic_SoldierTrader_2);
 };
 
 // ************************************************************

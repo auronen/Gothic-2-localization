@@ -70,7 +70,7 @@ func void DIA_Marduk_Arbeit_Info ()
 	
 	Log_CreateTopic (Topic_MardukBeten,LOG_MISSION);
 	Log_SetTopicStatus (Topic_MardukBeten,LOG_RUNNING);
-	B_LogEntry (Topic_MardukBeten,"Meister Marduk hat keine Aufgabe für mich. Er sagte mir, ich sollte lieber ein Gebet für die Paladine sprechen.");
+	B_LogEntry (Topic_MardukBeten,Topic_MardukBeten_1);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Gebetet

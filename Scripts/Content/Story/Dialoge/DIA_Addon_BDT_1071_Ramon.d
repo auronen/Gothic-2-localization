@@ -98,7 +98,7 @@ func void DIA_Addon_Ramon_FirstWarn_Info()
 		
 		Log_CreateTopic (Topic_Addon_Franco,LOG_MISSION);
 		Log_SetTopicStatus (Topic_Addon_Franco,LOG_RUNNING);
-		B_LogEntry (Topic_Addon_Franco,"Thorus fordert einen neuen Mann für's Lager an. Das wird Franco interessieren.");
+		B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_4);
 		
 		Info_ClearChoices (DIA_Addon_Ramon_FirstWarn);
 		Info_AddChoice    (DIA_Addon_Ramon_FirstWarn,"Thorus? DER Thorus?",DIA_Addon_Ramon_FirstWarn_YES);

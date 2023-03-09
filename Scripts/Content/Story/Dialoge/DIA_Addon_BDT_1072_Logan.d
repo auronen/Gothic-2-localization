@@ -188,7 +188,7 @@ FUNC VOID DIA_Addon_Logan_HI_Info()
 	
 	Log_CreateTopic (Topic_Addon_Logan,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Logan,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Logan,"Logan will, das ich mit ihm Sumpfhaie jage.");
+	B_LogEntry (Topic_Addon_Logan,Topic_Addon_Logan_1);
 };
 //---------------------------------------------------------------------
 //	Info Why
@@ -221,7 +221,7 @@ FUNC VOID DIA_Addon_Logan_Why_Info()
 	AI_Output (self, other, "DIA_Addon_Logan_Why_10_06"); //Und der Nächste, der reinkommt, bin ich ... (knurrt) ... und wehe nicht ...
 	
 	Log_CreateTopic (Topic_Addon_BDT_Teacher,LOG_NOTE);
-	B_LogEntry 	(Topic_Addon_BDT_Teacher,"Logan kann mir beibringen, wie ich Felle, Krallen und Zähne ziehen kann.");	
+	B_LogEntry 	(Topic_Addon_BDT_Teacher,Topic_Addon_BDT_Teacher_3);	
 };
 //---------------------------------------------------------------------
 //	Info Lager
@@ -320,7 +320,7 @@ FUNC VOID DIA_Addon_Logan_tot_Info()
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 	MIS_HlpLogan = LOG_SUCCESS;
 	B_CheckLog ();
-	B_LogEntry (Topic_Addon_Franco,"Logan habe ich geholfen. Mal gucken, was Franco dazu sagt. ");
+	B_LogEntry (Topic_Addon_Franco,Topic_Addon_Franco_12);
 	
 	AI_StopProcessInfos (self);
 	Npc_ExchangeRoutine (self,"START");

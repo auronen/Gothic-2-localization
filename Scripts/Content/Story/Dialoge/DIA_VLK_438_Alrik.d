@@ -291,7 +291,7 @@ FUNC VOID DIA_Alrik_WannaFight_Info()
 			
 			Log_CreateTopic (TOPIC_AlrikSchwert,LOG_MISSION);
 			Log_SetTopicStatus (TOPIC_AlrikSchwert,LOG_RUNNING);
-			B_LogEntry (TOPIC_AlrikSchwert,"Alrik hat sein Schwert an den Händler Jora verkauft. Er kämpft nur gegen mich, wenn ich es ihm zurückbringe.");
+			B_LogEntry (TOPIC_AlrikSchwert,TOPIC_AlrikSchwert_1);
 		};
 	}
 	
@@ -724,7 +724,7 @@ FUNC VOID DIA_Alrik_Ausbilden_Info()
 		
 		Alrik_Teach1H = TRUE;
 		Log_CreateTopic (Topic_CityTeacher,LOG_NOTE);
-		B_LogEntry (Topic_CityTeacher,"Alrik kann mich im Kampf mit einhändigen Waffen trainieren. Er hält sich hinter dem Lagerhaus im Hafenviertel auf.");
+		B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_5);
 	};
 };
 

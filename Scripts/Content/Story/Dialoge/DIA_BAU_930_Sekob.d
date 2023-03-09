@@ -411,7 +411,7 @@ func void DIA_Sekob_DMT_Info ()
 
 	Log_CreateTopic (TOPIC_SekobDMT, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_SekobDMT, LOG_RUNNING);
-	B_LogEntry (TOPIC_SekobDMT,"Die schwarzen Magier haben Sekob aus seinem Haus vertieben. Sekob Will, dass ich sie aus seinem Haus vertreibe."); 
+	B_LogEntry (TOPIC_SekobDMT,TOPIC_SekobDMT_1); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -592,7 +592,7 @@ func void DIA_Sekob_PERM_Info ()
 				MIS_bringRosiBackToSekob = LOG_RUNNING;
 				Log_CreateTopic (TOPIC_bringRosiBackToSekob, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_bringRosiBackToSekob, LOG_RUNNING);
-				B_LogEntry (TOPIC_bringRosiBackToSekob,"Sekobs Frau Rosi ist verschwunden. Sekob will sie wieder haben."); 
+				B_LogEntry (TOPIC_bringRosiBackToSekob,TOPIC_bringRosiBackToSekob_1); 
 			}
 			else
 			{

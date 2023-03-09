@@ -286,7 +286,7 @@ func void DIA_Brian_WASKAUFEN_Info ()
 	if (Brian_Trade_Einmal == FALSE)
 	{
 		Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-		B_LogEntry (Topic_CityTrader,"Brian, der Gehilfe von Harad, verkauft Schmiederohlinge"); 
+		B_LogEntry (Topic_CityTrader,Topic_CityTrader_13); 
 		Brian_Trade_Einmal = TRUE;
 	};
 	Npc_RemoveInvItems (self,ItMiSwordblade,Npc_HasItems (self,ItMiSwordblade));

@@ -118,7 +118,7 @@ func void DIA_Addon_Quarhodron_Hello_frech ()
 	
 	Log_CreateTopic (TOPIC_Addon_Quarhodron, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Quarhodron, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Quarhodron,"Der Quarhodron will mir erst helfen, wenn ich Zeugnis über mich selbst ablege. Er hat mir einige schwierige Fragen gestellt. Die muss ich ihm erst noch beantworten, bevor er mir hilft."); 
+	B_LogEntry (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_3); 
 
 	Info_ClearChoices	(DIA_Addon_Quarhodron_Hello);
 };
@@ -160,7 +160,7 @@ func void B_Quarhodron_TestFailed ()
 
 func void B_Quarhodron_Fragen_Choices ()
 {
-	B_LogEntry  (TOPIC_Addon_Quarhodron," --- QUARHODRONS FRAGEN --- "); 
+	B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_4); 
 
 	if (Quarhodrons_NextQuestion == Quarhodron_AlleFragenGestellt)
 	{
@@ -193,37 +193,37 @@ func void B_Quarhodron_Fragen_Choices ()
 			if (Quarhodrons_NextQuestion == 7)
 			{
 				AI_Output	(self, other, "DIA_Addon_Quarhodron_Fragen_Choices_11_04"); //Wer hat das Portal verschlossen, um die Welt vor dem Bösen zu schützen?
-				B_LogEntry  (TOPIC_Addon_Quarhodron," --- Wer hat das Portal verschlossen um die Welt vor dem Bösen zu schützen? --- "); 
+				B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_5); 
 				Quarhodrons_NextQuestion = Quarhodron_AlleFragenGestellt;
 			}
 			else if (Quarhodrons_NextQuestion == 6)
 			{
 				AI_Output	(self, other, "DIA_Addon_Quarhodron_Fragen_Choices_11_05"); //Wer lindert das Leid und versorgt die Kranken?
-				B_LogEntry  (TOPIC_Addon_Quarhodron," --- Wer lindert das Leid und versorgt die Kranken in Jharkendar? --- "); 
+				B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_6); 
 				Quarhodrons_NextQuestion = 7;
 			}
 			else if (Quarhodrons_NextQuestion == 5)
 			{
 				AI_Output	(self, other, "DIA_Addon_Quarhodron_Fragen_Choices_11_06"); //Wer hat das letzte Wort im Rat der Fünf?
-				B_LogEntry  (TOPIC_Addon_Quarhodron," --- Wer hat das letzte Wort im Rat der Fünf? --- "); 
+				B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_7); 
 				Quarhodrons_NextQuestion = 6;
 			}	
 			else if (Quarhodrons_NextQuestion == 4)
 			{
 				AI_Output	(self, other, "DIA_Addon_Quarhodron_Fragen_Choices_11_07"); //Wer ist Schuld am dem Übel, das über uns gekommen ist?
-				B_LogEntry  (TOPIC_Addon_Quarhodron," --- Wer ist Schuld am dem Übel, dass über das Volk von Jharkendar gekommen ist? --- "); 
+				B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_8); 
 				Quarhodrons_NextQuestion = 5;
 			}
 			else if (Quarhodrons_NextQuestion == 3)
 			{
 				AI_Output	(self, other, "DIA_Addon_Quarhodron_Fragen_Choices_11_08"); //Wer kann mir einen direkten Befehl erteilen?
-				B_LogEntry  (TOPIC_Addon_Quarhodron," --- Wer kann Quarhodron einen direkten Befehl erteilen? --- "); 
+				B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_9); 
 				Quarhodrons_NextQuestion = 4;
 			}	
 			else if (Quarhodrons_NextQuestion == 2)
 			{
 				AI_Output	(self, other, "DIA_Addon_Quarhodron_Fragen_Choices_11_09"); //Wer schützte einst das Volk von Jharkendar vor feindlichen Angriffen?
-				B_LogEntry  (TOPIC_Addon_Quarhodron," --- Wer schützte einst das Volk von Jharkendar vor feindlichen Angriffen? --- "); 
+				B_LogEntry  (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_10); 
 				Quarhodrons_NextQuestion = 3;
 			};
 			
@@ -362,11 +362,11 @@ func void DIA_Addon_Quarhodron_GibMirKey_Info ()
 	AI_Output	(self, other, "DIA_Addon_Quarhodron_GibMirKey_11_11"); //(schon halb tot) Meine Kräfte schwinden. Leb wohl. Wir sehen uns wieder im Reich der Toten ...
 	AI_StopProcessInfos (self);
 	
-	B_LogEntry (TOPIC_Addon_Quarhodron,"Quarhodron gab mir eine Steintafel, mit der ich das Eingangtor zum Tempel Adanos' öffnen kann."); 
+	B_LogEntry (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_11); 
 	
 	Log_CreateTopic (TOPIC_Addon_Kammern, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Kammern, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Kammern,"Quarhodron erwähnte die 'Kammern Adanos' und dass ich mich vor ihnen hüten soll. Ich muss unbedingt heraus finden, was es damit auf sich hat, wenn ich im Tempel Adanos' nicht ins offne Messer laufen will."); 
+	B_LogEntry (TOPIC_Addon_Kammern,TOPIC_Addon_Kammern_1); 
 
 	Ghost_SCKnowsHow2GetInAdanosTempel = TRUE;
 };

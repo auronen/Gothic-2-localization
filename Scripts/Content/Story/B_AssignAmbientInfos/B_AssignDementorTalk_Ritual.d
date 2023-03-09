@@ -16,8 +16,8 @@ func void B_AssignDementorTalk_Ritual ()
 		AI_Output			(self ,other, "DIA_RitualDementor_19_02"); //Wir werden dir jetzt zeigen, was für sinnloses Unterfangen es doch war, den Meister herauszufordern.
 
 		MIS_SCKnowsInnosEyeIsBroken  = TRUE;
-		B_LogEntry (TOPIC_INNOSEYE, "Diese schwarzen Kerle gehen mir langsam auf die Nerven. Sie haben das Auge Innos zerstört. Kein Ahnung, wie ich das nun wieder regeln soll.");
- 		B_LogEntry (TOPIC_TraitorPedro, "Das Auge Innos habe ich gefunden. Aber von Pedro war bisher noch keine Spur zu sehen. Diese schwarzen Magier stecken mit ihm unter einer Decke.");
+		B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_1);
+ 		B_LogEntry (TOPIC_TraitorPedro, TOPIC_TraitorPedro_1);
 		B_GivePlayerXP (XP_SCKnowsInnosEyeIsBroken);
 	}
 	else

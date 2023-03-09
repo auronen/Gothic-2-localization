@@ -75,7 +75,7 @@ func void DIA_Meldor_Interessantes_Info ()
 	AI_Output (self, other, "DIA_Meldor_Interessantes_07_02"); //Brauchst du eigentlich Geld?
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Kardif, der Wirt der Hafenkneipe handelt mit Informationen.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_5);
 };
 
 // ***********************************************************

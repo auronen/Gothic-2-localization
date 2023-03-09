@@ -79,7 +79,7 @@ func void DIA_GornNW_nach_DJG_KnowWhereEnemy_Info ()
 	
 	Log_CreateTopic (TOPIC_Crew, LOG_MISSION);   
 	Log_SetTopicStatus(TOPIC_Crew, LOG_RUNNING); 
-	B_LogEntry (TOPIC_Crew,"Gorn war sofort Feuer und Flamme als ich ihm von der Insel erzählt habe. Wenn ich eine Axt brauche, sollte ich ihn mitnehmen.");
+	B_LogEntry (TOPIC_Crew,TOPIC_Crew_13);
 		
 	if (crewmember_count >= Max_Crew)
 	{

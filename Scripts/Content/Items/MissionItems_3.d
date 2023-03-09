@@ -236,7 +236,7 @@ INSTANCE ItWr_CorneliusTagebuch_Mis (C_ITEM)
 	FUNC VOID UseCorneliusTagebuch()
 	{   
 		Cornelius_IsLiar = TRUE;
-		B_LogEntry (TOPIC_RESCUEBENNET,"Das Tagebuch ist der Beweis, den ich brauche um Bennet zu entlasten.");	
+		B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_4);	
 		
 		var int nDocID;
 		
@@ -985,11 +985,11 @@ func void Use_MinenAnteil_Mis ()
 
 	if (ItWr_MinenAnteil_Mis_OneTime == FALSE)
 	{
-		B_LogEntry (TOPIC_MinenAnteile,"Der Kerl, der die Minenanteile den Händlern verkauft hat, heißt Salandril. Ich werde ihn sicherlich im oberen Viertel von Khorinis finden, wenn er nicht schon auf der Flucht vor dem Gesetz ist."); 
+		B_LogEntry (TOPIC_MinenAnteile,TOPIC_MinenAnteile_1); 
 	
 		if (Npc_IsDead(Salandril))
 		{
-			B_LogEntry (TOPIC_MinenAnteile,"Salandril ist tot. Ich werde Serpentes davon unterrichten müssen."); 
+			B_LogEntry (TOPIC_MinenAnteile,TOPIC_MinenAnteile_2); 
 		};
 		ItWr_MinenAnteil_Mis_OneTime = TRUE;
 	};

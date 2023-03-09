@@ -76,7 +76,7 @@ FUNC VOID DIA_Dragon_Fire_Island_Hello_Info()
 	CreateInvItems 	   (other,ItMi_InnosEye_Discharged_MIS,1);	 
 	AI_StopProcessInfos	(self);
 	
-	B_LogEntry (TOPIC_HallenVonIrdorath,"Noch ein Feuerdrache. So langsam habe ich die Biester satt. Das einzige, was ich will, ist, über den Abgrund zu kommen, der sich hinter dem Feuerdrachen auftut."); 
+	B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_8); 
 
 	DragonTalk_Exit_Free  = FALSE;
 	self.flags =  0;

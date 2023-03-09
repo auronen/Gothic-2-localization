@@ -150,7 +150,7 @@ FUNC VOID DIA_Richter_RichtersLakai_Info()
 	Info_AddChoice	(DIA_Richter_RichtersLakai, "Ich soll die Magier beklauen?  Du hast sie doch nicht alle.", DIA_Richter_RichtersLakai_nein );
 	Info_AddChoice	(DIA_Richter_RichtersLakai, "Alles klar.", DIA_Richter_RichtersLakai_ja );
 	
-	B_LogEntry (TOPIC_RichterLakai,"Der Richter traut mir nicht. Ich muß erst meine Loyalität ihm gegenüber unter Beweis stellen. Ich soll den heiligen Hammer aus dem Keller des Feuermagierklosters stehlen und ihn zum Richter bringen."); 
+	B_LogEntry (TOPIC_RichterLakai,TOPIC_RichterLakai_4); 
 
 	MIS_Richter_BringHolyHammer = LOG_RUNNING;
 };
@@ -216,7 +216,7 @@ FUNC VOID DIA_Richter_KillMorgahard_Info()
 
 	B_GivePlayerXP (XP_BringHolyHammer);
 	MIS_Richter_BringHolyHammer = LOG_SUCCESS;
-	B_LogEntry (TOPIC_RichterLakai,"Dem Richter sind einige Gefangene weg gelaufen. Ich soll sie für ihn wieder einfangen und ihren Anführer MORGAHARD töten. Sie sollen sich in die Berge verdrückt haben. Irgendwo in Richtung Xardas neuen Turm."); 
+	B_LogEntry (TOPIC_RichterLakai,TOPIC_RichterLakai_5); 
 	MIS_Richter_KillMorgahard = LOG_RUNNING;
 	AI_StopProcessInfos (self);
 };	
@@ -251,7 +251,7 @@ FUNC VOID DIA_Richter_KilledMorgahard_Info()
 	CreateInvItems (self, ItMi_Gold, 400);									
 	B_GiveInvItems (self, other, ItMi_Gold, 400);					
 	B_GivePlayerXP (XP_KillMorgahard);
-	B_LogEntry (TOPIC_RichterLakai,"Die Nachricht über Morgahards Tod hat den Richter sichtlich amüsiert. Soll er ruhig. Ich darf Lees Auftrag nicht aus dem Auge verlieren."); 
+	B_LogEntry (TOPIC_RichterLakai,TOPIC_RichterLakai_6); 
 	MIS_Richter_KillMorgahard = LOG_SUCCESS;
 };
 
@@ -319,7 +319,7 @@ FUNC VOID DIA_Richter_PermissionForShip_Info ()
 	AI_Output (self ,other,"DIA_Richter_PermissionForShip_10_07"); //Hier hast du die Ermächtigung. Nun geh. Ich werde später mit dir abrechnen.
 	CreateInvItems (self,ItWr_ForgedShipLetter_Mis,1);
 	B_GiveInvItems (self,other,ItWr_ForgedShipLetter_Mis,1);
-	B_LogEntry (TOPIC_Ship,"Mit dem Ermächtigungsschreiben des Richters sollte es für mich kein Problem mehr sein, das Schiff in meinen Besitz zu bringen. Was Lee wohl dazu sagen wird?"); 
+	B_LogEntry (TOPIC_Ship,TOPIC_Ship_4); 
 	MIS_RichtersPermissionForShip = LOG_SUCCESS;
 	B_GivePlayerXP (XP_RichtersPermissionForShip);
 };

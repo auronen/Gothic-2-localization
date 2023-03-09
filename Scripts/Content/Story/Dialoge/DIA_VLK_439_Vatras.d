@@ -414,9 +414,9 @@ func void DIA_Addon_Vatras_TellMe_Konkret()
 	Vatras_ToMartin = TRUE;
 	Log_CreateTopic (TOPIC_Addon_BanditTrader, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BanditTrader, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Es gibt einen Waffenhändler in Khorinis, der die Banditen unterstützt. Vatras will, dass ich der Sache nachgehe."); 
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Martin der Proviantmeister der Paladine kümmert sich um die Sache mit dem Waffenhändler. Ich finde ihn am Hafen, wo die Paladine ihren Proviant lagern."); 
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Der 'Ring des Wassers' kümmernt sich um das Banditenproblem in Khorinis."); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_2); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_3); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_12); 
 };
 func void DIA_Addon_Vatras_TellMe_OtherKdW()
 {
@@ -426,7 +426,7 @@ func void DIA_Addon_Vatras_TellMe_OtherKdW()
 	
 	Log_CreateTopic (TOPIC_Addon_KDW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_KDW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_KDW,"Die anderen Wassermagier erforschen die Ruinen einer alten Kultur nordöstlich von Khorinis. Es ist möglicherweise der Zugang zu einem bisher unerforschten Teil von Khorinis."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_9); 
 
 	Info_AddChoice (DIA_Addon_Vatras_TellMe, "Erzähl mir mehr über den unerforschten Teil.", DIA_Addon_Vatras_TellMe_Unexplored);
 };
@@ -436,7 +436,7 @@ func void DIA_Addon_Vatras_TellMe_Unexplored()
 	AI_Output (self, other, "DIA_Addon_Vatras_TellMe_Unexplored_05_01"); //Wenn du daran interessiert bist, dich der Expedition anzuschließen, kann ich dich mit einem Schreiben zu Saturas schicken.
 	AI_Output (self, other, "DIA_Addon_Vatras_TellMe_Unexplored_05_02"); //Du kannst natürlich nur dann teilnehmen, wenn du einer von uns bist.
 	AI_Output (other, self, "DIA_Addon_Vatras_TellMe_Unexplored_15_03"); //Natürlich.
-	B_LogEntry (TOPIC_Addon_KDW,"Bevor ich mich der Expedition der Wassermagier anschließen kann, will Vatras erst, dass ich dem 'Ring des Wassers' beitrete."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_10); 
 };
 func void DIA_Addon_Vatras_TellMe_WerNoch()
 {
@@ -701,7 +701,7 @@ func void DIA_Addon_Vatras_HowToJoin_WhatsGreat()
 	Log_CreateTopic (TOPIC_Addon_RingOfWater, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
 	B_LogEntry (TOPIC_Addon_RingOfWater, LogText_Addon_KDWRight); 
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Vatras wird mich erst in den 'Ring des Wassers' aufnehmen, wenn ich heraus finde, wo die vermissten Leute sind."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_13); 
 
 	if (SC_HearedAboutMissingPeople == FALSE)
 	{
@@ -719,7 +719,7 @@ func void DIA_Addon_Vatras_HowToJoin_WhatsGreat()
 	AI_Output (self, other, "DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_07"); //Ich glaube, die Sache ist von äußerster Wichtigkeit!
 	AI_Output (self, other, "DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_08"); //Rede mit Lord Hagen.
 	
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Vatras hat eine wichtige Nachricht für Lord Hagen. Ich soll sie ihm überbringen."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_14); 
 
 	Info_ClearChoices	(DIA_Addon_Vatras_HowToJoin);	
 };
@@ -751,7 +751,7 @@ func void DIA_Addon_Vatras_GuildBypass_Info ()
 	AI_Output (self, other, "DIA_Addon_Vatras_GuildBypass_05_03"); //Wir werden dir helfen, deine Nachricht so schnell wie möglich zu überbringen.
 	AI_Output (self, other, "DIA_Addon_Vatras_GuildBypass_05_04"); //Du solltest darüber mit meinem Vertrauten Lares sprechen. Er wird dir helfen.
 
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Um zu Lord Hagen vorgelassen zu werden muss ich mich einer mächtigen Gemeinschaft in Khorinis anschließen."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_15); 
 	
 
 	Info_ClearChoices (DIA_Addon_Vatras_GuildBypass);
@@ -773,7 +773,7 @@ func void DIA_Addon_Vatras_GuildBypass_WhichGuild()
 	AI_Output (self, other, "DIA_Addon_Vatras_GuildBypass_WhichGuild_05_03"); //Die Wahl liegt bei dir, mein Sohn.
 	AI_Output (self, other, "DIA_Addon_Vatras_GuildBypass_WhichGuild_05_04"); //Sicher kann dir Lares bei dieser schwierigen Entscheidung zur Seite stehen. Rede mit ihm darüber.
 
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Zu den mächtigen Gemeinschaften gehören die FEUERMAGIER, die MILIZ und die SÖLDNER auf dem Hof des Großbauern."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_16); 
 	
 	Info_ClearChoices (DIA_Addon_Vatras_GuildBypass);
 	Info_AddChoice (DIA_Addon_Vatras_GuildBypass, "Das werde ich tun.", DIA_Addon_Vatras_GuildBypass_BACK );
@@ -833,7 +833,7 @@ func void DIA_Addon_Vatras_NowRanger_Info ()
 		AI_Output (self, other, "DIA_Addon_Vatras_NowRanger_05_13"); //Die Taverne wirst du kennen. Sie liegt auf dem Weg zu Onars Hof.
 		AI_Output (self, other, "DIA_Addon_Vatras_NowRanger_05_14"); //Vergiss nicht, deinen Ring zu tragen, damit deine Brüder dich als einen der ihren erkennen.
 		
-		B_LogEntry (TOPIC_Addon_RingOfWater,"Ich gehöre jetzt zum 'Ring des Wassers' und soll mich mit meinen Brüdern in der Taverne 'Zur Toten Harpie' treffen."); 
+		B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_17); 
 
 		SC_IsRanger = TRUE;
 		Lares_CanBringScToPlaces = TRUE;
@@ -880,11 +880,11 @@ func void DIA_Addon_Vatras_CloseMeeting_Info ()
 	B_GiveInvItems (self, other, ItWr_Vatras2Saturas_FindRaven, 1);	
 	AI_Output (self, other, "DIA_Addon_Vatras_CloseMeeting_05_06"); //Möge Adanos dich leiten.
 		
-	B_LogEntry (TOPIC_Addon_KDW,"Vatras schickt mich mit einem Schreiben zu Saturas. Ich soll nun mit den anderen Wassermagiern durch das Portal gehen und der Spur des ehemaligen Erzbarons Raven folgen."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_11); 
 
 	Log_CreateTopic (TOPIC_Addon_Sklaven, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Sklaven, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Sklaven,"Ich soll herausfinden, wozu Raven die Bürger von Khorinis gefangen genommen hat."); 
+	B_LogEntry (TOPIC_Addon_Sklaven,TOPIC_Addon_Sklaven_2); 
 
 
 	RangerMeetingRunning = LOG_SUCCESS; //Joly:Muss hier stehen!Sonst Chaos mit Rangern! -> Meeting
@@ -950,7 +950,7 @@ func void DIA_Addon_Vatras_MissingPeople_Wo()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Am Hafen von Khorinis ist die Zahl der Vermissten am grössten. Ich soll dort meine Suche beginnen."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_7); 
 	
 	DIA_Addon_Vatras_MissingPeople_Wo_NoPerm = TRUE;
 };
@@ -1211,7 +1211,7 @@ func void DIA_Addon_Vatras_WISP_Info ()
 	AI_Output (self, other, "DIA_Addon_Vatras_Waffen_WISP_05_06"); //Um es zu rufen, musst du das Amulett nur anlegen.
 	AI_Output (self, other, "DIA_Addon_Vatras_Waffen_WISP_05_07"); //Wenn es seine Kraft verliert oder du es nicht finden kannst, lege das Amulett einfach nochmal an, und es wird wieder erscheinen.
 	
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Vatras gab mir ein 'Ammulett des suchenden Irrlichts'. Es soll mir bei der Suche nach dem Waffenhändler helfen."); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_4); 
 	Log_CreateTopic (TOPIC_WispDetector,LOG_NOTE);
 	B_LogEntry (TOPIC_WispDetector,LogText_Addon_WispLearned); 
 	B_LogEntry (TOPIC_WispDetector,LogText_Addon_WispLearned_NF); 
@@ -1245,7 +1245,7 @@ func void DIA_Addon_Vatras_WISP_MoreWISP()
 
 	if (MIS_Vatras_FindTheBanditTrader == LOG_RUNNING)
 	{
-		B_LogEntry (TOPIC_Addon_BanditTrader,"Das suchende Irrlicht kann noch mehr als nur nach Nahkmpfwaffen suchen. Riordian, der Wassermagier, kann meinem Irrlicht beibringen, nach mehr Dingen zu suchen."); 
+		B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_5); 
 	};
 };
 func void DIA_Addon_Vatras_WISP_Amulett()
@@ -1407,7 +1407,7 @@ func void DIA_Addon_Vatras_GuildHelp_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_RangerHelpKDF, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RangerHelpKDF, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RangerHelpKDF,"Daron der Feuermagier am Marktplatz wird mir helfen ins Kloster zu kommen, wenn ich ihm seine gestohlene Statuette wieder beschaffe. "); 
+	B_LogEntry (TOPIC_Addon_RangerHelpKDF,TOPIC_Addon_RangerHelpKDF_3); 
 };
 
 
@@ -1472,7 +1472,7 @@ func void DIA_Vatras_INFLUENCE_Info ()
 	Snd_Play ("LevelUp");
 	B_GivePlayerXP (XP_VatrasTruth);
 	Vatras_Segen = TRUE;
-	B_LogEntry (TOPIC_Thorben,"Vatras, der Wassermagier, hat mich gesegnet.");
+	B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_1);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -1570,7 +1570,7 @@ func void DIA_Vatras_Spende_100()
 	Info_ClearChoices   (DIA_Vatras_Spende);
 	if (MIS_Thorben_GetBlessings == LOG_RUNNING)
 	{
-		B_LogEntry (TOPIC_Thorben,"Vatras, der Wassermagier, hat mich gesegnet.");
+		B_LogEntry (TOPIC_Thorben,TOPIC_Thorben_1);
 	};
 };
 
@@ -1604,7 +1604,7 @@ func void DIA_Vatras_CanTeach_Info ()
 	
 	Vatras_TeachMANA = TRUE;
 	Log_CreateTopic (Topic_CityTeacher,LOG_NOTE);
-	B_LogEntry (Topic_CityTeacher,"Vatras der Wassermagier, kann mir dabei helfen, meine magische Energie zu steigern.");
+	B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_19);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TEACH
@@ -1833,7 +1833,7 @@ func VOID DIA_Vatras_MISSION_YES()
 	
 	Log_CreateTopic (TOPIC_Botschaft,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Botschaft,LOG_RUNNING);
-	B_LogEntry (TOPIC_Botschaft,"Vatras hat mir eine Botschaft für Meister Isgaroth gegeben. Er wacht am Schrein vor dem Kloster.");
+	B_LogEntry (TOPIC_Botschaft,TOPIC_Botschaft_1);
 	
 	Info_ClearChoices 	(DIA_Vatras_MISSION);
 	Info_AddChoice 		(DIA_Vatras_MISSION,"Ich nehme den Lichtzauber",DIA_Vatras_MISSION_LIGHT);
@@ -2009,7 +2009,7 @@ func void DIA_Addon_Vatras_AbloesePre_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_VatrasAbloesung, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_VatrasAbloesung, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_VatrasAbloesung,"Vatras wird mir bei meinem Problem mit dem 'Auge Innos' nicht helfen können, solange kein anderer Wassermagier ihn in der Stadt vertritt."); 
+	B_LogEntry (TOPIC_Addon_VatrasAbloesung,TOPIC_Addon_VatrasAbloesung_1); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -2183,7 +2183,7 @@ func void DIA_Vatras_INNOSEYEKAPUTT_Auge_Stein_Wer_Xardas_weiter ()
 	AI_Output			(self, other, "DIA_Vatras_INNOSEYEKAPUTT_weiter_05_01"); //Ich werde ebenfalls aufbrechen und am Sonnenkreis die Zeremonie vorbereiten.
 	AI_Output			(self, other, "DIA_Vatras_INNOSEYEKAPUTT_weiter_05_02"); //Schicke Xardas und Pyrokar dorthin. Und vergiss nicht, das Sumpfkraut mitzubringen. Ich verlass mich auf dich.
 	
-	B_LogEntry (TOPIC_INNOSEYE, "Vatras will ein Ritual am Sonnenkreis abhalten um das Auge wieder zu heilen. Ich muss Xardas und Pyrokar überzeugen, daran teilzunehmen. Ausserdem muss ich einen Schmied finden, der mir die zerbrochene Fassung des Amuletts repariert.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_3);
 
 	MIS_RitualInnosEyeRepair = LOG_RUNNING;
 	Info_ClearChoices	(DIA_Vatras_INNOSEYEKAPUTT);
@@ -2348,7 +2348,7 @@ func void DIA_Vatras_AUGEGEHEILT_Info ()
 	AI_Output			(self, other, "DIA_Vatras_AUGEGEHEILT_05_01"); //Lass dir den Umgang mit seiner Macht von Pyrokar erklären.
 	AI_Output			(self, other, "DIA_Vatras_AUGEGEHEILT_05_02"); //Ich hoffe, ich werde dich wiedersehen, wenn du deine Aufgabe erledigt hast. Leb wohl.
  	
- 	B_LogEntry (TOPIC_INNOSEYE, "Das Auge ist geheilt. Pyrokar wird es mir überreichen und dann auf zur Drachenjagd.");
+ 	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_4);
 	AI_StopProcessInfos (self); Vatras_MORE = FALSE;
  
  	RitualInnosEyeRuns = LOG_SUCCESS;
@@ -2529,7 +2529,7 @@ func void DIA_Vatras_KnowWhereEnemy_Info ()
 		
 	Log_CreateTopic (TOPIC_Crew, LOG_MISSION);                                                                                        	                    	
 	Log_SetTopicStatus(TOPIC_Crew, LOG_RUNNING); 	                                                                                  	                    	
-	B_LogEntry (TOPIC_Crew,"Vatras hat überraschend angeboten mich auf meiner Reise zu begleiten. Ein Mann mit seiner Erfahrung und seinen Fähigkeiten könnte sehr wertvoll für mein Unternehmen sein.");	
+	B_LogEntry (TOPIC_Crew,TOPIC_Crew_8);	
 		
 	if (crewmember_count >= Max_Crew)
 	{

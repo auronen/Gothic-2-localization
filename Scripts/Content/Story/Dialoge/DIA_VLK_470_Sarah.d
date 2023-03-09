@@ -109,7 +109,7 @@ func void DIA_Sarah_HALLO_Info ()
 	AI_Output (self, other, "DIA_Sarah_Add_16_00"); //Da ist es nur ein kleiner Trost, daß die Paladine meine Hotelrechnung bezahlen.
 
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Sarah handelt mit Waffen am Marktplatz.");	
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_2);	
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Bauern

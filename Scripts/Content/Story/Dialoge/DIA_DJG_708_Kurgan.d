@@ -46,7 +46,7 @@ func void DIA_Kurgan_HELLO_Info ()
 	AI_Output			(other,self , "DIA_Kurgan_HELLO_15_01"); //Was willst du mir damit sagen?
 	AI_Output			(self ,other, "DIA_Kurgan_HELLO_01_02"); //Ich will sagen, dass die Luft hier draußen verdammt dünn ist. Hier wimmelt es nur so von Orks und Monstern.
 	AI_Output			(self ,other, "DIA_Kurgan_HELLO_01_03"); //Von den Drachen ganz zu schweigen. Ist nur 'ne gut gemeinte Warnung.
-	B_LogEntry (TOPIC_Dragonhunter,"Eine Gruppe von Drachenjägern empfing mich am Eingang des Minentals. Die Jungs sind schwer bewaffnet, aber ich fürchte, dass sie keinen grossen Eindruck auf die Drachen machen werden.");
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_7);
 };
 
 //**************************************************************************

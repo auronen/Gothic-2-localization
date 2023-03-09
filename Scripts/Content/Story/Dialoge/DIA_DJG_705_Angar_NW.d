@@ -75,7 +75,7 @@ func void DIA_Angar_NW_KnowWhereEnemy_Info ()
 		
 	Log_CreateTopic (TOPIC_Crew, LOG_MISSION);                                                                                        	
 	Log_SetTopicStatus(TOPIC_Crew, LOG_RUNNING); 	                                                                                  	
-	B_LogEntry (TOPIC_Crew,"Angar ist über jede Meile dankbar, die zwischen ihm und dem Minental liegt. Er hat angeboten, mich auf der Reise zu begleiten");  
+	B_LogEntry (TOPIC_Crew,TOPIC_Crew_5);  
 	
 	if (crewmember_count >= Max_Crew)
 	{

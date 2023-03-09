@@ -106,7 +106,7 @@ FUNC VOID DIA_Addon_Tom_Juan_Info()
 	AI_Output (self,other,"DIA_Addon_Tom_Juan_11_03"); //Mann, der Typ ist schnell! Aber nicht schnell genug. Ich konnte ihm entwischen.
 	SC_Knows_JuanMurderedAngus = TRUE;
 	
-	B_LogEntry	(TOPIC_Addon_KillJuan,"Also Juan ist für den Mord an Hank und Angus verantwortlich. Er hat den beiden aufgelauert und sie dann getötet.");
+	B_LogEntry	(TOPIC_Addon_KillJuan,TOPIC_Addon_KillJuan_2);
 };
 
 //---------------------------------------------------------------------

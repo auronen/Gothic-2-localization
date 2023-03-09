@@ -239,7 +239,7 @@ FUNC VOID DIA_Dyrian_Scroll_Yes ()
 	MIS_HelpDyrian = LOG_RUNNING;
 	Log_CreateTopic (Topic_DyrianDrin,LOG_MISSION);
 	Log_SetTopicStatus (Topic_DyrianDrin,LOG_RUNNING);
-	B_LogEntry (Topic_DyrianDrin,"Dyrian hat mir eine Schlaf - Spruchrolle gegeben. Dafür will er, das ich mich dafür einsetze, das er im Kloster bleiben darf, falls ich Magier werde. ");
+	B_LogEntry (Topic_DyrianDrin,Topic_DyrianDrin_1);
 	Info_ClearChoices (DIA_Dyrian_Scroll);
 	
 };

@@ -320,7 +320,7 @@ FUNC VOID STARTUP_DRAGONISLAND ()
 	
 	Log_CreateTopic (TOPIC_HallenVonIrdorath, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_HallenVonIrdorath, LOG_RUNNING);
-	B_LogEntry (TOPIC_HallenVonIrdorath,"Wir haben die Insel des Feindes erreicht. Innos weiß, welche Kreaturen im Innern dieses Berges auf mich warten werden."); 
+	B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_5); 
 
 	B_Kapitelwechsel (6, DRAGONISLAND_ZEN);
 };

@@ -103,7 +103,7 @@ FUNC VOID DIA_Matteo_SellWhat_Info()
 	if (Knows_Matteo == FALSE)
 	{
 		Log_CreateTopic (TOPIC_CityTrader, LOG_NOTE);
-		B_LogEntry (TOPIC_CityTrader,"Matteo hat seinen Laden am Südtor der Stadt. Er handelt mit Ausrüstung, Waffen und Proviant.");
+		B_LogEntry (TOPIC_CityTrader,TOPIC_CityTrader_8);
 		Knows_Matteo = TRUE;
 	};
 };
@@ -406,7 +406,7 @@ func void B_Matteo_RegDichAb()
 	MIS_Matteo_Gold = LOG_RUNNING;
 	Log_CreateTopic (Topic_Matteo,LOG_MISSION);
 	Log_SetTopicStatus	(Topic_Matteo,LOG_RUNNING);
-	B_LogEntry (Topic_Matteo,"Gritta, die Nichte des Tischlers Thorben, hat schuldet Matteo 100 Goldstücke. Wenn ich sie ihm wiederbeschaffe, hilft er mir, in's obere Veirtel zu kommen.");
+	B_LogEntry (Topic_Matteo,Topic_Matteo_1);
 };
 
 func void DIA_Matteo_PriceOfHelp_Cutthroat()
@@ -545,7 +545,7 @@ FUNC VOID DIA_Matteo_Zustimmung_Info()
 		AI_Output (self, other, "DIA_Matteo_Zustimmung_09_02"); //Die anderen Meister werden von mir nur das Beste über dich zu hören bekommen.
 		
 		B_GivePlayerXP (XP_Zustimmung);
-		B_LogEntry (Topic_Lehrling,"Matteo gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.");
+		B_LogEntry (Topic_Lehrling,Topic_Lehrling_8);
 		DIA_Matteo_Zustimmung_perm = TRUE;
 	}
 	else //LOG_RUNNING
@@ -586,7 +586,7 @@ FUNC VOID DIA_Matteo_HowCanYouHelp_Info()
 	
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Lehrling,LOG_RUNNING);
-	B_LogEntry (TOPIC_Lehrling,"Matteo kann sich dafür einsetzen, das ich bei einem Handwerksmeister als Lehrling aufgenommen werde.");
+	B_LogEntry (TOPIC_Lehrling,TOPIC_Lehrling_9);
 };	
 
 // ************************************************************
@@ -619,8 +619,8 @@ FUNC VOID DIA_Matteo_WoAlsLehrling_Info()
 	
 	Log_CreateTopic (Topic_Lehrling,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Lehrling,LOG_RUNNING);
-	B_LogEntry (Topic_Lehrling,"ALs Lehrling könnte ich anfangen, bei: Bosper dem Bogner, Harad dem Schmied, Thorben dem Tischler oder Constantino dem Alchemisten.");
-	B_LogEntry (Topic_Lehrling,"Um als Lehrling aufgenommen zu werden, brauche ich auch die Zustimmung der anderen Meister.");
+	B_LogEntry (Topic_Lehrling,Topic_Lehrling_10);
+	B_LogEntry (Topic_Lehrling,Topic_Lehrling_11);
 };
 // ************************************************************
 // 			  				WieZustimmung 			E6
@@ -648,7 +648,7 @@ FUNC VOID DIA_Matteo_WieZustimmung_Info()
 	AI_Output (self, other, "DIA_Matteo_WieZustimmung_09_01"); //Du musst sie einfach von dir überzeugen. Geh hin und rede mit ihnen.
 	AI_Output (self, other, "DIA_Matteo_WieZustimmung_09_02"); //Aber wenn mehr als einer von ihnen gegen dich ist, hast du keine Chance! Also benimm dich!
 	
-	B_LogEntry (Topic_Lehrling,"Um die Zustimmung der anderen Meister zu bekommen, muss ich sie von mir überzeugen.");
+	B_LogEntry (Topic_Lehrling,Topic_Lehrling_12);
 };	
 
 // ************************************************************

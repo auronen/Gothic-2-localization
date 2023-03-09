@@ -283,7 +283,7 @@ FUNC VOID DIA_Onar_LeeSentMe_Info()
 	AI_Output (self, other, "DIA_Onar_LeeSentMe_14_07"); //WIR müssen uns nur noch über deinen Sold unterhalten ...
 
 	Onar_Approved = TRUE;
-	B_LogEntry (TOPIC_BecomeSLD,"Onar hat mir sein Einverständnis gegeben. Jetzt steht meiner Aufnahme bei den Söldnern nichts mehr im Weg.");
+	B_LogEntry (TOPIC_BecomeSLD,TOPIC_BecomeSLD_4);
 };
 
 
@@ -373,7 +373,7 @@ func void DIA_Onar_HowMuch_More()
 	AI_Output (self, other, "DIA_Onar_HowMuch_More_14_02"); //Mehr bekommst du jedenfalls nicht!
 	
 	Log_CreateTopic (Topic_Bonus, LOG_NOTE);
-	B_LogEntry (Topic_Bonus,"Bei Onar kann ich mir täglich meinen Sold abholen.");
+	B_LogEntry (Topic_Bonus,Topic_Bonus_7);
 	
 	Info_ClearChoices (DIA_Onar_HowMuch);
 };
@@ -384,7 +384,7 @@ func void DIA_Onar_HowMuch_Ok()
 	AI_Output (self, other, "DIA_Onar_HowMuch_Ok_14_01"); //Das denke ich auch! Jetzt geh zu Lee!
 	
 	Log_CreateTopic (Topic_Bonus, LOG_NOTE);
-	B_LogEntry (Topic_Bonus,"Bei Onar kann ich mir täglich meinen Sold abholen.");
+	B_LogEntry (Topic_Bonus,Topic_Bonus_7);
 	
 	Info_ClearChoices (DIA_Onar_HowMuch);
 };

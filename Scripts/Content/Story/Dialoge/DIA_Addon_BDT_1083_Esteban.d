@@ -185,7 +185,7 @@ FUNC VOID DIA_Addon_Esteban_MIS_Info()
 	MIS_Judas = LOG_RUNNING;
 	Log_CreateTopic (Topic_Addon_Esteban,LOG_MISSION);
 	Log_SetTopicStatus (Topic_Addon_Esteban,LOG_RUNNING);
-	B_LogEntry (Topic_Addon_Esteban, "Auf Esteban wurde ein Attentat verübt. Ich soll herausfinden, wer dahinter steckt.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_4);
 
 };
 //--------------------------------------------------------------------
@@ -214,7 +214,7 @@ FUNC VOID DIA_Addon_Esteban_Kerl_Info()
 	AI_Output (self, other, "DIA_Addon_Esteban_Kerl_07_02");//Versuche rauszufinden, wer auf meiner Seite steht und wer nicht und lass dich nicht von den Kerlen verarschen!
 	AI_Output (self, other, "DIA_Addon_Esteban_Kerl_07_03");//Sprich mit Snaf. Der dicke Koch kriegt 'ne Menge mit.
 	
-	B_LogEntry (Topic_Addon_Esteban, "Um den Auftraggeber ausfindig zu machen, sollte ich mit allen Leuten im Lager sprechen und herausfinden auf wessen Seite sie stehen. Snaf ist 'ne gute Anlaufstelle, weil er 'ne Menge mitkriegt.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_5);
 };
 //--------------------------------------------------------------------
 //	Info Armor 

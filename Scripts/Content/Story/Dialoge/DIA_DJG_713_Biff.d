@@ -221,7 +221,7 @@ func void DIA_Biff_ARBEITEN_Info ()
 {
 	AI_Output			(other, self, "DIA_Biff_ARBEITEN_15_00"); //Wie wär's, wenn du ab jetzt für mich arbeitest?
 	
-	B_LogEntry (TOPIC_Dragonhunter,"Der Drachenjäger Biff ist ein Söldner wie er im Buche steht. Wenn ich ihn bezahle, wird er auch für mich kämpfen."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_4); 
 
 	if (DJG_BiffParty_nomore >= 6) //Joly: Biff hat bei 3 die Schnauze voll vom SC
 	{
@@ -816,7 +816,7 @@ FUNC VOID DIA_Biff_KnowWhereEnemy_Yes ()
 
 	Log_CreateTopic (TOPIC_Crew, LOG_MISSION);                                                                                        	                       
     Log_SetTopicStatus(TOPIC_Crew, LOG_RUNNING); 	                                                                                  	                       
-    B_LogEntry (TOPIC_Crew,"Die Aussicht auf reiche Beute hat Biff überzeugen können mich auf meiner Reise zu begleiten. So lange er genug Gold bekommt, kann ich auf ihn zählen."); 
+    B_LogEntry (TOPIC_Crew,TOPIC_Crew_4); 
     
     B_GivePlayerXP (XP_Crewmember_Success);   
 

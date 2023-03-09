@@ -155,7 +155,7 @@ func void DIA_Wulfgar_CanYouTrain_Info ()
 		AI_Output (other, self, "DIA_Wulfgar_CanYouTrain_15_05"); //Ich denke schon...
 		AI_Output (self, other, "DIA_Wulfgar_CanYouTrain_04_06"); //(seufzt) Na gut - du kannt anfangen, wenn du bereit bist.
 		Log_CreateTopic (Topic_CityTeacher, LOG_NOTE);
-		B_LogEntry (Topic_CityTeacher, "Wulfgar, von der Stadtwache, kann mich im Einhand - und Zweihandkampf unterweisen.");
+		B_LogEntry (Topic_CityTeacher, Topic_CityTeacher_21);
 		Wulfgar_Teach1H = TRUE;	
 	};
 };

@@ -82,7 +82,7 @@ func void DIA_Halvor_Hallo_Info ()
 	AI_Output (self, other, "DIA_Halvor_Hallo_06_00"); //Hey, brauchst du Fisch? Bei mir bekommst du Fisch, ganz frisch aus den Tiefen des Meeres!
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Halvor handelt am Hafen mit Fischen.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_12);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info TRADE
@@ -187,7 +187,7 @@ func void DIA_Addon_Halvor_MissingPeople_wer ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Der Fischhändler Halvor hatte keinen besseren Rat für mich, als mich zu den Bootbauern am Hafen zu schicken."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_5); 
 };
 func void DIA_Addon_Halvor_MissingPeople_schiff ()
 {
@@ -313,7 +313,7 @@ FUNC VOID DIA_Halvor_Zeichen_Info()
 	CreateInvItems (self, ItKe_Lockpick, 20);
 	
 	Log_CreateTopic (Topic_Diebesgilde,LOG_NOTE);
-	B_LogEntry (Topic_Diebesgilde,"Halvor kauft mir silberne Teller und Kelche zu einem besseren Preis als jeder andere Händler ab.");
+	B_LogEntry (Topic_Diebesgilde,Topic_Diebesgilde_3);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Diebeszeichen

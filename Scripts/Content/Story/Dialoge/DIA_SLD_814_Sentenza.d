@@ -260,7 +260,7 @@ FUNC VOID DIA_Sentenza_Vote_Info()
 		AI_Output (self, other, "DIA_Sentenza_Vote_09_02"); //Aber warum denn nicht? 50 Goldstücke sind doch ein fairer Preis für eine Stimme, denkst du nicht?
 		
 		Sentenza_Stimme = TRUE;
-		B_LogEntry (TOPIC_SLDRespekt,"Sentenza hat nichts dagegen, daß ich mich den Söldnern anschließe.");
+		B_LogEntry (TOPIC_SLDRespekt,TOPIC_SLDRespekt_10);
 	}
 	else if (Sentenza_Stimme == TRUE)
 	&& 		(Npc_HasItems (self, itmi_gold) < 50)

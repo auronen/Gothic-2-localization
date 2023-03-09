@@ -137,7 +137,7 @@ FUNC VOID DIA_Alwin_FellanRunning_Info()
 	
 	Log_CreateTopic (TOPIC_Alwin,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Alwin,LOG_RUNNING);
-	B_LogEntry (TOPIC_Alwin,"Alwin will das ich Fellan dazu bringe, das er mit dem Hämemrn aufhört. Es wäre bestimmt nicht angebracht, ihn zu töten.");
+	B_LogEntry (TOPIC_Alwin,TOPIC_Alwin_1);
 		
 	
 	Info_ClearChoices (DIA_Alwin_FellanRunning);

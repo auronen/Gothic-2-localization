@@ -130,7 +130,7 @@ FUNC VOID DIA_Tengron_News_Yes()
 	
 	Log_CreateTopic (Topic_TengronRing,LOG_MISSION);
 	Log_SetTopicStatus (Topic_TengronRing,LOG_RUNNING);
-	B_LogEntry (Topic_TengronRing,"Tengron hat mir einen Ring gegeben, den ich Udar in der Burg übergeben soll. ");
+	B_LogEntry (Topic_TengronRing,Topic_TengronRing_1);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Situation

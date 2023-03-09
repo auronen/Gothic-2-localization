@@ -137,7 +137,7 @@ func void DIA_Ulthar_TEST_Info ()
 	MIS_RUNE = LOG_RUNNING;
 	Log_CreateTopic (TOPIC_Rune,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Rune,LOG_RUNNING);
-	B_LogEntry (TOPIC_Rune,"Ulthar hat mir seine Prüfung auferlegt. Ich soll eine Feuerpfeil Rune erschaffen.");
+	B_LogEntry (TOPIC_Rune,TOPIC_Rune_3);
 	
 	AI_StopProcessInfos (self);
 };
@@ -325,7 +325,7 @@ func void DIA_Ulthar_SCHREINEVERGIFTET_Info ()
 			
 			Log_CreateTopic (TOPIC_Ulthar_HeileSchreine_PAL, LOG_MISSION);
 			Log_SetTopicStatus(TOPIC_Ulthar_HeileSchreine_PAL, LOG_RUNNING);
-			B_LogEntry (TOPIC_Ulthar_HeileSchreine_PAL,"Ulthar gab mir den Auftrag, alle vom Feind geschändeten Schreine mit seinem geweihten Wasser zu reinigen."); 
+			B_LogEntry (TOPIC_Ulthar_HeileSchreine_PAL,TOPIC_Ulthar_HeileSchreine_PAL_1); 
 			
 			AI_StopProcessInfos (self);
 		}

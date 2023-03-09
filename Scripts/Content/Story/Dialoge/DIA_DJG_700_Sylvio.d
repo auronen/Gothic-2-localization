@@ -170,7 +170,7 @@ func void DIA_Sylvio_WASISTPASSIERT_Info ()
 
 	Log_CreateTopic (TOPIC_SylvioKillIceGolem, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_SylvioKillIceGolem, LOG_RUNNING);
-	B_LogEntry (TOPIC_SylvioKillIceGolem,"Sylvio macht sich Bange vor den beiden Eisgolems, die vor dem Eingang in die Eisregion im Minental stehen."); 
+	B_LogEntry (TOPIC_SylvioKillIceGolem,TOPIC_SylvioKillIceGolem_1); 
 
 	MIS_DJG_Sylvio_KillIceGolem = LOG_RUNNING;
 };
@@ -445,7 +445,7 @@ func void DIA_SylvioDJG_WHATNEXT_ATTACK ()
 	Npc_ExchangeRoutine (self,	"Start");
 	B_StartOtherRoutine (DJG_Bullco,"Start");
 
-	B_LogEntry (TOPIC_Dragonhunter,"Das dreckige Schwein Sylvio wollte mir den Sieg über den Eisdrachen steitig machen. Es gab eine kleine Auseinandersetzung."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_12); 
 
 	B_Attack (self, other, AR_NONE, 1);	
 	B_Attack (DJG_Bullco, other, AR_NONE, 1);	

@@ -80,7 +80,7 @@ func void DIA_Coragon_HALLO_Info ()
 	AI_Output (self ,other, "DIA_ADDON_NEW_Coragon_Add_09_00"); //Wenn du Gold hast, kannst du hier sogar was essen, wenn du willst.
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Bei dem Wirt Coragon kann ich Nahrung und Getränke kaufen.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_17);
 };
 
 // *********************************************************
@@ -176,7 +176,7 @@ func void DIA_Addon_Coragon_MissingPeople_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Sowohl Hakon, ein Händler vom Marktplatz, als auch Thorben der Tischler sollen etwas über die vermissten Leute wissen."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_12); 
 };
 
 // *********************************************************

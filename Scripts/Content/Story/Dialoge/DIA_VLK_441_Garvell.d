@@ -184,7 +184,7 @@ func void DIA_Addon_Garvell_MissingPeople_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Garvell beschwert sich über seinen Arbeiter Monty. Monty ist eines Tages nicht mehr zur Arbeit erschienen und macht sich seitdem angeblich ein schönes Leben bei den Bauern."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_1); 
 
 	Info_ClearChoices	(DIA_Addon_Garvell_MissingPeople);
 	Info_AddChoice	(DIA_Addon_Garvell_MissingPeople, "Es sind noch mehr Leute verschwunden, hab ich mir sagen lassen.", DIA_Addon_Garvell_MissingPeople_more );
@@ -203,7 +203,7 @@ func void DIA_Addon_Garvell_MissingPeople_more ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Der Fischer Farim scheint etwas über den Verbleib seines Freundes William zu wissen."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_1); 
 	
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
@@ -225,7 +225,7 @@ func void DIA_Addon_Garvell_MissingPeople_Farim ()
 	AI_Output			(other, self, "DIA_Addon_Garvell_MissingPeople_Farim_15_00"); //Wo finde ich diesen Farim?
 	AI_Output			(self, other, "DIA_Addon_Garvell_MissingPeople_Farim_04_01"); //Er ist Fischer. Ich glaube, er hat seine Hütte in der Nähe des Proviantlagers der Paladine. Aber genau weiß ich das nicht.
 
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Farim hat seine Hütte in der Nähe des Proviantlagers der Paladine."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_2); 
 };
 func void DIA_Addon_Garvell_MissingPeople_wo ()
 {
@@ -293,7 +293,7 @@ func void DIA_Garvell_MISSION_Info ()
 	
 	Log_CreateTopic (TOPIC_Garvell,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Garvell,LOG_RUNNING);
-	B_LogEntry (TOPIC_Garvell,"Garvell will Informationen über die Orks und er will wissen, warum die Paladine in der Stadt sind.");
+	B_LogEntry (TOPIC_Garvell,TOPIC_Garvell_1);
 };
 FUNC VOID B_GarvellWeiter()
 {

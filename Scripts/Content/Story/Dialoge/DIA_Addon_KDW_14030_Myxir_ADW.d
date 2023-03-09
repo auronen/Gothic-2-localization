@@ -227,7 +227,7 @@ func void DIA_Addon_Myxir_GeistTafel_wie ()
 	AI_Output	(self, other, "DIA_Addon_Myxir_GeistTafel_wie_12_03"); //Das wäre auch schon alles. Jetzt müsstest du nur noch das Grab finden.
 	AI_Output	(self, other, "DIA_Addon_Myxir_GeistTafel_wie_12_04"); //Viel Erfolg, mein Sohn!
 
-	B_LogEntry (TOPIC_Addon_Quarhodron,"Myxir will, dass ich den Geist des alten Kriegerfürsten Quarohodron erwecke und ihn um Rat bitte. Dazu gab er mir ein Schriftstück mit einer Zauberformel, die ich an Quarhodrons Grab im Westen laut vorlesen soll."); 
+	B_LogEntry (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_1); 
 
 	Info_ClearChoices	(DIA_Addon_Myxir_GeistTafel);
 };
@@ -297,7 +297,7 @@ func void DIA_Addon_Myxir_TalkedToGhost_Info ()
 		AI_Output	(other, self, "DIA_Addon_Myxir_TalkedToGhost_15_05"); //Er gab mir etwas, mit dem ich in den Tempel Adanos' hinein komme.
 		AI_Output	(self, other, "DIA_Addon_Myxir_TalkedToGhost_12_06"); //Dann geh gleich zu Saturas. Ihn wird sicher interessieren, was du zu sagen hast.
 
-		B_LogEntry (TOPIC_Addon_Quarhodron,"Ich sollte Saturas davon berichten, dass ich Quarhodron erweckt habe."); 
+		B_LogEntry (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_2); 
 	};
 };
 

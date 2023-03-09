@@ -73,7 +73,7 @@ func void DIA_Girion_CanTeach_Info ()
 		AI_Output (self, other, "DIA_Girion_CanTeach_08_02"); //Ich werde dich ausbilden. Erstatte mir Bericht, wenn du bereit bist.
 		
 		Girion_Teach2H = TRUE;	
-		B_LogEntry (TOPIC_CityTeacher,"Paladin Girion kann mich im Kampf mit Zweihändern unterweisen.");
+		B_LogEntry (TOPIC_CityTeacher,TOPIC_CityTeacher_9);
 	}
 	else
 	{

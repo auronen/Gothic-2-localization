@@ -96,7 +96,7 @@ FUNC VOID DIA_Fenia_Hallo_Info()
 	AI_Output			(self, other, "DIA_Fenia_Hallo_17_02"); //Komm ruhig näher. Bei mir wirst du finden, was du suchst!
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Fenia handelt mit Nahrung auf dem Weg zum Hafen.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_1);
 };
 
 

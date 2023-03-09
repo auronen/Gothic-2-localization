@@ -46,7 +46,7 @@ func void DIA_Alvares_HAUAB_Info ()
 	AI_Output (self, other, "DIA_Alvares_HAUAB_11_00"); //Was dich auch immer hergeführt hat - ist besser, du vergisst es und verschwindest.
 	Log_CreateTopic (TOPIC_AkilsSLDStillthere, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AkilsSLDStillthere, LOG_RUNNING);
-	B_LogEntry (TOPIC_AkilsSLDStillthere,"Akils Hof wird von Söldnern bedroht."); 
+	B_LogEntry (TOPIC_AkilsSLDStillthere,TOPIC_AkilsSLDStillthere_1); 
 	AI_StopProcessInfos (self);
 };
 ///////////////////////////////////////////////////////////////////////

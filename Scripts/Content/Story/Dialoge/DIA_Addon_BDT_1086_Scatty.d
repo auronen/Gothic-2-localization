@@ -83,7 +83,7 @@ FUNC VOID DIA_Addon_Scatty_Hi_Info()
 	AI_Output (self, other, "DIA_Addon_Scatty_Hi_01_03");//Und die Buddler ruhen sich aus. (murmelt) Buddler, die sich ausruhen, sind nicht gut für's Geschäft.
 	
 	Log_CreateTopic (Topic_Addon_BDT_Trader,LOG_NOTE);
-	B_LogEntry (Topic_Addon_BDT_Trader,"Scatty handelt mit verschiedenen Waren.");
+	B_LogEntry (Topic_Addon_BDT_Trader,Topic_Addon_BDT_Trader_5);
 };
 /*
 	Ich bin hier auch sowas wie der Proviantmeister. Wenn du was brauchst, kannst du mit mir handeln. 

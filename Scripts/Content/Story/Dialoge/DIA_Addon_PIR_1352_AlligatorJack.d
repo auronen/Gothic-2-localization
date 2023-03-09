@@ -157,7 +157,7 @@ func void DIA_Addon_AlligatorJack_Vorschlag_Info ()
 	AI_Output	(self, other, "DIA_Addon_AlligatorJack_Vorschlag_12_01"); //Na klar. Er ist der Anführer der Banditen im Osten.
 	AI_Output	(self, other, "DIA_Addon_AlligatorJack_Vorschlag_12_02"); //Was willst du denn von DEM?
 	
-	B_LogEntry (TOPIC_Addon_RavenKDW,"Raven sitzt zusammen mit seinen Banditen im Osten des Tals.");
+	B_LogEntry (TOPIC_Addon_RavenKDW,TOPIC_Addon_RavenKDW_2);
 	
 	Info_ClearChoices	(DIA_Addon_AlligatorJack_Vorschlag);
 	Info_AddChoice	(DIA_Addon_AlligatorJack_Vorschlag, "Ich will mich ihm anschließen.", DIA_Addon_AlligatorJack_Vorschlag_join );
@@ -239,7 +239,7 @@ func void DIA_Addon_AlligatorJack_BDTRuestung_wo ()
 	//AI_Output	(self, other, "DIA_Addon_AlligatorJack_BDTRuestung_wo_12_02"); //Mmh ... Ich denke, die hatte genau deine Größe.
 	AI_Output	(self, other, "DIA_Addon_AlligatorJack_BDTRuestung_wo_12_03"); //Aber, ob sie noch da ist, weiß ich nicht.
 	
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Bei den Piraten hat es wohl mal eine Banditenrüstung gegeben. Ob sie aber noch existiert, konnte Alligator Jack mir nicht sagen."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_5); 
 	
 	Info_ClearChoices	(DIA_Addon_AlligatorJack_BDTRuestung);
 };
@@ -314,7 +314,7 @@ func void DIA_Addon_AlligatorJack_PIRLager_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_RatHunt,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_RatHunt,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RatHunt,"Alligator Jack kann Hilfe bei der Jagd gebrauchen.");
+	B_LogEntry (TOPIC_Addon_RatHunt,TOPIC_Addon_RatHunt_1);
 
 };
 
@@ -349,7 +349,7 @@ func void DIA_Addon_AlligatorJack_WasJagen_Info ()
 	AI_Output	(self, other, "DIA_Addon_AlligatorJack_WasJagen_12_05"); //Die meisten Viecher, die es hier gibt, schmecken wie eingeschlafene Füße oder sind zäh wie Alligatorfleisch.
 	AI_Output	(self, other, "DIA_Addon_AlligatorJack_WasJagen_12_06"); //Die fetten Sumpfratten sind das einzige, was einigermaßen geniesbar ist.
 
-	B_LogEntry (TOPIC_Addon_RatHunt,"Das einzige, was hier in der Gegend genießbar sein soll, sind Sumpfratten.");
+	B_LogEntry (TOPIC_Addon_RatHunt,TOPIC_Addon_RatHunt_2);
 };
 
 // ************************************************************
@@ -637,9 +637,9 @@ func void DIA_Addon_AlligatorJack_HuntEnd_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_BringMeat,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_BringMeat,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BringMeat,"Alligator Jack hat mir 10 Stücke Fleisch gegeben. Ich soll sie zu Morgan bringen.");
+	B_LogEntry (TOPIC_Addon_BringMeat,TOPIC_Addon_BringMeat_1);
 
-	B_LogEntry (TOPIC_Addon_RatHunt,"Die Jagd war erfolgreich. Wir haben mehrere Sumpfratten erlegt.");
+	B_LogEntry (TOPIC_Addon_RatHunt,TOPIC_Addon_RatHunt_3);
 	
 	B_GiveInvItems (self ,other,ItFoMuttonRaw,10);
 	MIS_KrokoJagd = LOG_SUCCESS;
@@ -718,7 +718,7 @@ func void DIA_Addon_AlligatorJack_Lake_Info ()
 		AI_Output 	(self ,other, "DIA_Addon_AlligatorJack_Lake_12_07"); //Aber pass auf, wenn du nur noch trockenen Sand unter den Füßen hast, bist du falsch abgebogen und in den Canyon gelaufen.
 	};
 	
-	B_LogEntry	(TOPIC_Addon_SkipsGrog,"Die Höhle ist wohl in dem Talkessel östlich des Lagers. Direkt bei dem See.");
+	B_LogEntry	(TOPIC_Addon_SkipsGrog,TOPIC_Addon_SkipsGrog_5);
 };
 	
 ///////////////////////////////////////////////////////////////////////
@@ -757,7 +757,7 @@ func void DIA_Addon_AlligatorJack_CanLearn_Info ()
 		AI_Output (self ,other,"DIA_Addon_AlligatorJack_CanLearn_12_02"); //Wenn du willst, bring ich es dir bei.
 		
 		Log_CreateTopic (Topic_Addon_PIR_Teacher,LOG_NOTE);
-		B_LogEntry		(Topic_Addon_PIR_Teacher,"Alligator Jack kann mir zeigen, wie ich Tieren das Fell abziehe oder ihre Zähne herausbreche. Außerdem kann er mich im Bogenschießen unterrichten.");
+		B_LogEntry		(Topic_Addon_PIR_Teacher,Topic_Addon_PIR_Teacher_1);
 		
 		AlligatorJack_Addon_TeachPlayer = TRUE;
 	}

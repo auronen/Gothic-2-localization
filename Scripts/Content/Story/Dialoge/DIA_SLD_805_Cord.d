@@ -165,9 +165,9 @@ FUNC VOID DIA_Cord_WannaJoin_Info()
 		AI_Output (self ,other, "DIA_Cord_WannaJoin_14_11"); //Was dir noch an Wissen fehlt, kannst du von mir lernen.
 		Cord_Approved = TRUE;
 		B_GivePlayerXP (XP_Cord_Approved);
-		B_LogEntry (TOPIC_SLDRespekt,"Cord's Stimme habe ich im Sack.");
+		B_LogEntry (TOPIC_SLDRespekt,TOPIC_SLDRespekt_1);
 		Log_CreateTopic (Topic_SoldierTeacher,LOG_NOTE);
-		B_LogEntry (Topic_SoldierTeacher,"Cord kann mich im Umgang mit Ein - und Zweihändern unterrichten.");
+		B_LogEntry (Topic_SoldierTeacher,Topic_SoldierTeacher_3);
 	}
 	else
 	{
@@ -177,7 +177,7 @@ FUNC VOID DIA_Cord_WannaJoin_Info()
 		
 		Log_CreateTopic (TOPIC_CordProve,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_CordProve,LOG_RUNNING); 
-		B_LogEntry (TOPIC_CordProve,"Cord wird mir seine Stimme geben, wenn ich ein besserer Kämpfer bin."); 
+		B_LogEntry (TOPIC_CordProve,TOPIC_CordProve_1); 
 	};
 };
 
@@ -411,7 +411,7 @@ func void B_Cord_IDoItForYou ()
 	AI_Output	(self, other, "DIA_Addon_Cord_IDoItForYou_14_07"); //Ich nehme an, dass sie aus ihm Kleinholz gemacht haben. Sicher weiß ich das allerdings nicht.
 	AI_Output	(self, other, "DIA_Addon_Cord_IDoItForYou_14_08"); //Du wirst es für mich heraus finden.
 
-	B_LogEntry (TOPIC_Addon_RangerHelpSLD,"Cord wird sich um Torlofs Probe kümmern. Cords Kumpel Patrick ist verschwunden. Ich soll zum kleinen Berglager der Banditen im Südosten gehen und nachsehen, ob Patrick dort ist."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpSLD,TOPIC_Addon_RangerHelpSLD_1); 
 
 	
 	Info_ClearChoices	(DIA_Addon_Cord_RangerHelp2GetSLD);	
@@ -435,11 +435,11 @@ func void B_Cord_IDoItForYou_Dexter ()
 	AI_Output			(self, other, "Dia_Addon_Cord_IDoItForYou_Dexter_14_04"); //Aber du machst das schon.
 	Info_ClearChoices	(DIA_Addon_Cord_RangerHelp2GetSLD);	
 	
-	B_LogEntry (TOPIC_Addon_RangerHelpSLD,"Der Anführer der Banditen heißt Dexter."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpSLD,TOPIC_Addon_RangerHelpSLD_2); 
 
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Der Söldner Cord sucht nach seinem Kumpel Patrick."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_2); 
 		
 	MIS_Addon_Cord_Look4Patrick = LOG_RUNNING;
 	Ranger_SCKnowsDexter = TRUE; 

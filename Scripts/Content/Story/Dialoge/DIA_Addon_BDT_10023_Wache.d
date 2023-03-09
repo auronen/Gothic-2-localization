@@ -49,7 +49,7 @@ FUNC VOID DIA_Addon_10023_Wache_Hi_Info()
 	AI_Output (self, other, "DIA_Addon_10023_Wache_Hi_11_07");//Richtig - aber er hat die Sklaven Bloodwyn geschenkt. Er hat wohl keine Verwendung mehr für sie.
 	
 	Pardos.attribute[ATR_HITPOINTS] 		= 70;
-	B_LogEntry (Topic_Addon_Sklaven,"Raven hat keine Verwendung mehr für die Sklaven. Sie unterstehen jetzt Bloodwyn."); 
+	B_LogEntry (Topic_Addon_Sklaven,Topic_Addon_Sklaven_3); 
 };
 //---------------------------------------------------------------------
 //	Info go
@@ -78,7 +78,7 @@ FUNC VOID DIA_Addon_10023_Wache_go_Info()
 		AI_Output (self, other, "DIA_Addon_10023_Wache_go_11_01");//Pass mal auf. Bloodwyn hat hier das Kommando. Ihm gehören die Sklaven, also hat er das Recht, sie freizulassen.
 		AI_Output (self, other, "DIA_Addon_10023_Wache_go_11_02");//Außerdem hat Thorus da auch noch ein Wort mitzureden. Und was ist mit dir?
 		PrisonGuard_Rules = TRUE;
-		B_LogEntry (Topic_Addon_Sklaven,"Bloodwyn und Thorus haben das alleinige Recht die Sklaven freizulassen.");
+		B_LogEntry (Topic_Addon_Sklaven,Topic_Addon_Sklaven_4);
 	};
 	AI_Output (self, other, "DIA_Addon_10023_Wache_go_11_03");//Hast DU hier irgendwas zu sagen?
 	

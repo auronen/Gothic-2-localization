@@ -53,7 +53,7 @@ func void DIA_Khaled_Hallo_Info ()
 		AI_Output (self, other, "DIA_Khaled_Hallo_11_01"); //So - du willst also bei uns mitmachen? Hast du überhaupt schon eine vernünftige Waffe?
 		Khaled_weiter = TRUE;
 		Log_CreateTopic (Topic_SoldierTrader,LOG_NOTE);
-		B_LogEntry (Topic_SoldierTrader,"Khaled handelt mit Waffen.");
+		B_LogEntry (Topic_SoldierTrader,Topic_SoldierTrader_3);
 	}
 	else
 	{

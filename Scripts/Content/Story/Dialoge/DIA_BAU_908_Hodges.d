@@ -259,7 +259,7 @@ func void DIA_Hodges_DontWork_Info ()
 	
 	Log_CreateTopic (TOPIC_RESCUEBENNET, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_RESCUEBENNET, LOG_RUNNING);
-	B_LogEntry (TOPIC_RESCUEBENNET,"Der Schmied Bennet ist in der Stadt von den Paaldinen verhaftet worden."); 
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_2); 
 
 };
 
@@ -325,7 +325,7 @@ func void DIA_Hodges_BennetsCrime_Info ()
 	AI_Output (other,self ,"DIA_Hodges_BennetsCrime_15_04"); //Situation?
 	AI_Output (self ,other,"DIA_Hodges_BennetsCrime_03_05"); //Du weißt schon, Onar und die Stadt, das musste ja ein böses Ende nehmen.
 
-	B_LogEntry (TOPIC_RESCUEBENNET,"Bennet soll einen der Paladine ermordet haben. Hodges, sein Gehilfe, bezeugt seine Unschuld, traut sich aber nicht in die Stadt."); 
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_3); 
 };
 
 

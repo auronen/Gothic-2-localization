@@ -116,7 +116,7 @@ func VOID DIA_Addon_Samuel_Versteck_Info()
 	AI_Output (self ,other, "DIA_Addon_Samuel_Francis_14_11"); //Ich hab keine Ahnung, was es da verbuddelt hat, aber vielleicht ist es ihm so wichtig, daß er dich dafür in die Hütte läßt...
 	AI_Output (self ,other, "DIA_Addon_Samuel_Francis_14_12"); //(freut sich) Wenn der Käpt'n wiederkommt, und ein paar von seinen Sachen fehlen, zieht er Francis das Fell über die Ohren.
 
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Samuel, der Schnapsbrenner, erwähnt ein geheimes Versteck von Francis in einer der Minen im Canyon. Vielleicht finde ich dort etwas, was mir hilft in die Hütte zu kommen."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_4); 
 };
 
 // ************************************************************

@@ -149,7 +149,7 @@ func void DIA_Addon_Skip_NW_Baltram_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_BaltramSkipTrade, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BaltramSkipTrade, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BaltramSkipTrade,"Der Pirat Skip erzählte mir, dass der Stadthändler Baltram mit den Piraten Geschäfte macht."); 
+	B_LogEntry (TOPIC_Addon_BaltramSkipTrade,TOPIC_Addon_BaltramSkipTrade_1); 
 	
 	SCKnowsBaltramAsPirateTrader = TRUE;
 };
@@ -335,7 +335,7 @@ func void B_Skip_SaysDextersName ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Der Banditenhauptmann Dexter hat die Leute aus Khorinis verschleppen lassen. Dexter soll sich irgendwo südlich von Onars Hof befinden."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_13); 
 
 	SC_KnowsDexterAsKidnapper = TRUE;			
 	Ranger_SCKnowsDexter = TRUE;

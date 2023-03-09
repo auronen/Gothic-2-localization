@@ -229,7 +229,7 @@ func void DIA_Balthasar_TALKTOBENGAR_Info ()
 
 	Log_CreateTopic (TOPIC_BalthasarsSchafe, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BalthasarsSchafe, LOG_RUNNING);
-	B_LogEntry (TOPIC_BalthasarsSchafe,"Der Bauer Bengar hat dem Schafhirten Balthasar verboten seine Schafe auf´s Weidenplateau zu führen."); 
+	B_LogEntry (TOPIC_BalthasarsSchafe,TOPIC_BalthasarsSchafe_2); 
 	MIS_Balthasar_BengarsWeide = LOG_RUNNING;
 };
 

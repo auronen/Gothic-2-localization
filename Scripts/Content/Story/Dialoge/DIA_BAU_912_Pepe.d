@@ -140,7 +140,7 @@ func void DIA_Pepe_KillWolves_Info ()
 	
 	Log_CreateTopic (TOPIC_PepeWolves,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_PepeWolves,LOG_RUNNING);
-	B_LogEntry (TOPIC_PepeWolves,"Pepe's Schafe werden von vier Wölfen bedroht. Die sollte ich vertreiben.");
+	B_LogEntry (TOPIC_PepeWolves,TOPIC_PepeWolves_1);
 };
 
 // ************************************************************
@@ -217,7 +217,7 @@ func void DIA_Pepe_Bullco_Info ()
 	
 	Log_CreateTopic (TOPIC_KickBullco,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_KickBullco,LOG_RUNNING);
-	B_LogEntry (TOPIC_KickBullco,"Bullco hätte auf die Schafe von Pepe aufpassen sollen. Pepe wünscht sich, das ihm mal jemand ordentlich auf's Maul haut.");
+	B_LogEntry (TOPIC_KickBullco,TOPIC_KickBullco_1);
 };
 
 // ************************************************************

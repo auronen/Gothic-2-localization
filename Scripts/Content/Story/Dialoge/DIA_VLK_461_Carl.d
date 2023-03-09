@@ -158,7 +158,7 @@ FUNC VOID DIA_Carl_Lernen_Info()
 	AI_Output (self, other, "DIA_Carl_Lernen_05_04");//Aber wenn du ein bisschen deine Muskeln trainieren willst - dabei kann ich dir helfen.
 	
 	Log_CreateTopic (Topic_CityTeacher,LOG_NOTE);
-	B_LogEntry (Topic_CityTeacher,"Carl der Schmied im Hafenviertel, kann mir dabei helfen, stärker zu werden.");
+	B_LogEntry (Topic_CityTeacher,Topic_CityTeacher_3);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Für's lernen bezahlen 

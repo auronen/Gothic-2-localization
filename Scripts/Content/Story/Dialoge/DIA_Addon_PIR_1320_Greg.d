@@ -211,7 +211,7 @@ FUNC VOID DIA_Addon_Greg_JoinPirates_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_ClearCanyon,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_ClearCanyon,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_ClearCanyon,"Greg möchte, dass ich Morgans Job übernehme und den Canyon von Viechern säubere.");
+	B_LogEntry (TOPIC_Addon_ClearCanyon,TOPIC_Addon_ClearCanyon_1);
 
 	Info_ClearChoices (DIA_Addon_Greg_JoinPirates);
 	Info_AddChoice (DIA_Addon_Greg_JoinPirates,"Dann werde ich mal aufbrechen.",DIA_Addon_Greg_JoinPirates_Leave);
@@ -246,7 +246,7 @@ FUNC VOID DIA_Addon_Greg_JoinPirates_Compadres()
 	AI_Output (self ,other,"DIA_Addon_Greg_JoinPirates_Compadres_01_01"); //Am besten schanppst du dir ein paar von den Jungs.
 	AI_Output (self ,other,"DIA_Addon_Greg_JoinPirates_Compadres_01_02"); //Die sollen ihre Heuer verdienen, anstatt den ganzen Tag nur zu tratschen.
 
-	B_LogEntry (TOPIC_Addon_ClearCanyon,"Greg meint, ich kann mir ein paar von den Jungs mitnehmen.");
+	B_LogEntry (TOPIC_Addon_ClearCanyon,TOPIC_Addon_ClearCanyon_2);
 };
 
 FUNC VOID DIA_Addon_Greg_JoinPirates_ClearCanyon()
@@ -255,7 +255,7 @@ FUNC VOID DIA_Addon_Greg_JoinPirates_ClearCanyon()
 	AI_Output (self ,other,"DIA_Addon_Greg_JoinPirates_ClearCanyon_01_01"); //Die Razor im Canyon kommen immer näher an's Lager.
 	AI_Output (self ,other,"DIA_Addon_Greg_JoinPirates_ClearCanyon_01_02"); //Ich habe keine Lust, dass einer meiner Männer im Suff von den Biester gefressen wird.
 
-	B_LogEntry (TOPIC_Addon_ClearCanyon,"Es geht wohl aussschließlich um Razor.");
+	B_LogEntry (TOPIC_Addon_ClearCanyon,TOPIC_Addon_ClearCanyon_3);
 };
 
 // ************************************************************
@@ -325,7 +325,7 @@ FUNC VOID DIA_Addon_Greg_AboutCanyon_RazorsDead()
 	AI_Output (other,self ,"DIA_Addon_Greg_AboutCanyon_RazorsDead_15_00"); //Ich habe alle Razor getötet.
 	AI_Output (self ,other,"DIA_Addon_Greg_AboutCanyon_RazorsDead_01_01"); //Sehr gut. Du scheinst ja ganz brauchbar zu sein.
 	
-	B_LogEntry (TOPIC_Addon_ClearCanyon,"Greg schien sogar ein bisschen beeindruckt zu sein, dass ich alle Razor im Canyon getötet habe.");
+	B_LogEntry (TOPIC_Addon_ClearCanyon,TOPIC_Addon_ClearCanyon_4);
 	
 	MIS_Addon_Greg_ClearCanyon = LOG_SUCCESS;
 	B_Addon_PiratesGoHome();
@@ -365,7 +365,7 @@ FUNC VOID DIA_Addon_Greg_BanditArmor_Info()
 			AI_Output (self,other,"DIA_Addon_Greg_BanditArmor_01_02"); //Töte erst mal alle Razor im Canyon!
 		};
 		
-		B_LogEntry (TOPIC_Addon_BDTRuestung,"Greg will, dass ich ihm helfe wieder Schwung ins Lager zu bringen. Danach kann ich mich mit ihm über die Rüstung unterhalten."); 
+		B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_8); 
 	}
 	else
 	{
@@ -377,11 +377,11 @@ FUNC VOID DIA_Addon_Greg_BanditArmor_Info()
 		AI_Output (self,other,"DIA_Addon_Greg_BanditArmor_01_08"); //Ich muss wissen, warum die Drecksäcke überhaupt in unser Tal gekommen sind.
 		AI_Output (other,self,"DIA_Addon_Greg_BanditArmor_15_09"); //Aye, Aye, Käpt'n!
 	
-		B_LogEntry (TOPIC_Addon_BDTRuestung,"Nachdem ich für Greg die Razor im Canyon erledigt habe, kann ich mir die Rüstung bei Bones abholen."); 
+		B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_9); 
 	
 		Log_CreateTopic (TOPIC_Addon_ScoutBandits,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_Addon_ScoutBandits,LOG_RUNNING);
-		B_LogEntry	(TOPIC_Addon_ScoutBandits,"Ich soll für Greg rausfinden, warum die Banditen überhaupt in dieses Tal gekommen sind.");
+		B_LogEntry	(TOPIC_Addon_ScoutBandits,TOPIC_Addon_ScoutBandits_1);
 	
 		MIS_Greg_ScoutBandits = LOG_RUNNING;
 	};
@@ -435,7 +435,7 @@ func void DIA_Addon_Greg_Auftraege2_Info ()
 		
 		Log_CreateTopic (TOPIC_Addon_MorganBeach,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_Addon_MorganBeach,LOG_RUNNING);
-		B_LogEntry	(TOPIC_Addon_MorganBeach,"Greg will, dass ich mich um den Strand im kümmere. Er ist voller Viecher und muss gesäubert werden.");
+		B_LogEntry	(TOPIC_Addon_MorganBeach,TOPIC_Addon_MorganBeach_1);
 		
 		MIS_Addon_MorganLurker = LOG_RUNNING;
 	};
@@ -447,7 +447,7 @@ func void DIA_Addon_Greg_Auftraege2_Info ()
 	
 		Log_CreateTopic (TOPIC_Addon_BanditsTower,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_Addon_BanditsTower,LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_BanditsTower,"Greg will, dass ich die Banditen aus dem Turm südlich des Lagers vertreibe.");
+		B_LogEntry (TOPIC_Addon_BanditsTower,TOPIC_Addon_BanditsTower_5);
 		
 		MIS_Henry_FreeBDTTower = LOG_RUNNING; 
 	
@@ -490,7 +490,7 @@ func void DIA_Addon_Greg_Sauber2_Info ()
 	CreateInvItems (self, ItMi_Gold, 200);									
 	B_GiveInvItems (self, other, ItMi_Gold, 200);
 	
-	B_LogEntry	(TOPIC_Addon_MorganBeach,"Ich habe Greg unterrichtet, dass der Strand im Norden sauber ist.");
+	B_LogEntry	(TOPIC_Addon_MorganBeach,TOPIC_Addon_MorganBeach_2);
 	
 	MIS_Addon_MorganLurker = LOG_SUCCESS;	
 	B_GivePlayerXP (XP_Addon_Morgan_LurkerPlatt);	
@@ -525,7 +525,7 @@ func void DIA_Addon_Greg_BanditPlatt2_Info ()
 	CreateInvItems (self, ItMi_Gold, 200);									
 	B_GiveInvItems (self, other, ItMi_Gold, 200);	
 	
-	B_LogEntry (TOPIC_Addon_BanditsTower,"Die Banditen aus dem Turm sind tot. Greg war sehr zufrieden mit mir.");
+	B_LogEntry (TOPIC_Addon_BanditsTower,TOPIC_Addon_BanditsTower_6);
 	
 	MIS_Henry_FreeBDTTower = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Addon_Henry_FreeBDTTower);	
@@ -563,7 +563,7 @@ FUNC VOID DIA_Addon_Greg_BanditGoldmine_Info()
 	
 	B_GiveInvItems (self,other,ItRi_Addon_STR_01,1);
 	
-	B_LogEntry (TOPIC_Addon_ScoutBandits,"Ich Greg über die Goldmine informiert.");	
+	B_LogEntry (TOPIC_Addon_ScoutBandits,TOPIC_Addon_ScoutBandits_2);	
 	
 	MIS_Greg_ScoutBandits = LOG_SUCCESS;
 	B_GivePlayerXP (XP_Greg_ScoutBandits);

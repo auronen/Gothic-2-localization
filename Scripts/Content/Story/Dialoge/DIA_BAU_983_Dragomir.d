@@ -127,7 +127,7 @@ FUNC VOID DIA_Dragomir_Dangerous_Info()
 
 	Log_CreateTopic (TOPIC_DragomirsArmbrust, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_DragomirsArmbrust, LOG_RUNNING);
-	B_LogEntry (TOPIC_DragomirsArmbrust,"Dragomir hat seine Armbrust bei einem seltsamen Steinkreis in den hohen nordlichen Bergen verloren."); 
+	B_LogEntry (TOPIC_DragomirsArmbrust,TOPIC_DragomirsArmbrust_1); 
 
 	MIS_DragomirsArmbrust = LOG_RUNNING;
 };

@@ -387,7 +387,7 @@ func void DIA_Malak_FLEEFROMPASS_Info ()
 	AI_Output			(self, other, "DIA_Malak_FLEEFROMPASS_08_01"); //Ich bin von Bengars Hof hierher geflüchtet. Ich hatte keine Lust, mich von dem ganz Viehzeugs, das aus dem Pass kam, niedermachen zu lassen.
 	AI_Output			(self, other, "DIA_Malak_FLEEFROMPASS_08_02"); //Du kannst dir gar nicht vorstellen, was da für Kreaturen in den letzten Tagen aus dem Pass herausgekommen sind.
 	AI_Output			(other, self, "DIA_Malak_FLEEFROMPASS_15_03"); //Ich kann.
-	B_LogEntry (TOPIC_BengarALLEIN,"Malak hat sich im Süden verschanzt, weil er Angst vor den Kreaturen hatte, die aus dem Pass aufs Weidenplateau kamen."); 
+	B_LogEntry (TOPIC_BengarALLEIN,TOPIC_BengarALLEIN_3); 
 	B_GivePlayerXP (XP_FoundMalakFLEEFROMPASS);
 	};
 };
@@ -508,7 +508,7 @@ func void DIA_Malak_BACKTOBENGAR_Info ()
 	AI_Output			(other, self, "DIA_Malak_BACKTOBENGAR_15_00"); //Bengar braucht dich. Er will, dass du zu seinem Hof zurück kommst.
 	AI_Output			(self, other, "DIA_Malak_BACKTOBENGAR_08_01"); //Ich bin doch nicht wahnsinnig. Solange wir auf dem Hof schutzlos leben müssen, bewege ich mich hier keinen Meter weg!
 	
-	B_LogEntry (TOPIC_BengarALLEIN,"Malak wird nicht zu Bengar zurückkehren, solange Bengars Hof schutzlos ist."); 
+	B_LogEntry (TOPIC_BengarALLEIN,TOPIC_BengarALLEIN_4); 
 
 	if (MIS_BengarsHelpingSLD == LOG_SUCCESS)
 	{

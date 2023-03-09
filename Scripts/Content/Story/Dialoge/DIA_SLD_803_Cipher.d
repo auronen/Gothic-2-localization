@@ -81,13 +81,13 @@ FUNC VOID DIA_Cipher_TradeWhat_Info()
 	
 	Log_CreateTopic (Topic_CipherPaket,LOG_MISSION);
 	Log_SetTopicStatus (Topic_CipherPaket,LOG_RUNNING);
-	B_LogEntry (Topic_CipherPaket, "Dem Söldner Cipher ist ein Paket mit Sumpfkraut abhanden gekommen.");
+	B_LogEntry (Topic_CipherPaket, Topic_CipherPaket_2);
 	
 	
 	if (!Npc_IsDead (Bodo))
 	{
 		AI_Output (self, other, "DIA_Cipher_TradeWhat_07_05"); //Bin mir ziemlich sicher, dass es dieser Bodo war, er hat sein Bett im selben Raum wie ich und er grinst mich immer so dämlich an ...
-		B_LogEntry (Topic_CipherPaket, "Er vermutet, das Bodo es gestohlen hat.");
+		B_LogEntry (Topic_CipherPaket, Topic_CipherPaket_3);
 	};
 	
 	MIS_Cipher_Paket = LOG_RUNNING;
@@ -197,7 +197,7 @@ FUNC VOID DIA_Cipher_YesJoin_Info()
 	
 	Log_CreateTopic (Topic_CipherHerb,LOG_MISSION);
 	Log_SetTopicStatus(Topic_CipherHerb,LOG_RUNNING);
-	B_LogEntry (Topic_CipherHerb,"Cipher gibt mir seine Stimme, wenn ich ihm ein paar Stengel Sumpfkraut bringe.");
+	B_LogEntry (Topic_CipherHerb,Topic_CipherHerb_1);
 };
 
 // ************************************************************
@@ -233,7 +233,7 @@ FUNC VOID DIA_Cipher_Joints_Info()
 		{
 			AI_Output (self, other, "DIA_Cipher_Joints_07_02"); //Dass ich für dich stimme ist ja wohl klar ...
 			
-			B_LogEntry (TOPIC_SLDRespekt,"Cipher stimmt für mich, wenn ich mich den Söldnern anschließe.");
+			B_LogEntry (TOPIC_SLDRespekt,TOPIC_SLDRespekt_4);
 		};
 		
 		MIS_Cipher_BringWeed = LOG_OBSOLETE; //Cipher ist glücklich
@@ -267,7 +267,7 @@ func void DIA_Cipher_Joints_Success()
 			AI_Output (self, other, "DIA_Cipher_Joints_Success_07_02"); //Meine Stimme gehört dir.
 		};
 		MIS_Cipher_BringWeed = LOG_SUCCESS;
-		B_LogEntry (TOPIC_SLDRespekt,"Cipher stimmt für mich, wenn ich mich den Söldnern anschließe.");
+		B_LogEntry (TOPIC_SLDRespekt,TOPIC_SLDRespekt_4);
 		B_GivePlayerXP (XP_CipherWeed);
 		
 	}

@@ -235,7 +235,7 @@ FUNC VOID DIA_Kjorn_BuyInfos_Dragon2 ()
 	AI_Output (self ,other,"DIA_Kjorn_BuyInfos_Dragon2_06_02"); //Es gibt einige, die das gesamte Land mit einer meterdicken Eisschicht bedecken können.
 	AI_Output (self ,other,"DIA_Kjorn_BuyInfos_Dragon2_06_03"); //Andere leben lieber in sumpfiger Umgebung oder in Vulkanen.
 	
-	B_LogEntry (TOPIC_DRACHENJAGD,"Kjorn der Drachenjäger ist der Meinung, dass es verschiedene Arten von Drachen gibt. Einige halten sich angeblich lieber in kalten oder feuchten Gebieten auf, während andere das Feuer bevorzugen."); 
+	B_LogEntry (TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_9); 
 
 	KjornToldDragon = 2;
 	Info_ClearChoices (DIA_Kjorn_BuyInfos);

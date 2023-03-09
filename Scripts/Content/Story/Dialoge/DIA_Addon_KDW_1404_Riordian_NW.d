@@ -151,7 +151,7 @@ func void DIA_Addon_Riordian_Atlantis_Info ()
 	AI_Output	(self, other, "DIA_Addon_Riordian_Atlantis_10_04"); //Hinter diesen Bergen liegt ein Tal. Dort befand sich die Stadt des alten Volkes.
 	AI_Output	(self, other, "DIA_Addon_Riordian_Atlantis_10_05"); //(seufzt) Nur zu gerne würde ich die Bauwerke der Stadt sehen, aber wahrscheinlich sind längst zu Staub zerfallen ...
 	
-	B_LogEntry (TOPIC_Addon_KDW,"Die Wassermagier vermuten eine alte verlorene Stadt hinter dem Portal."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_1); 
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info SaturasWantYou

@@ -47,7 +47,7 @@ func void Use_SaturasFirstMessage ()
 		{
 			Log_CreateTopic (TOPIC_Addon_KDW, LOG_MISSION);
 			Log_SetTopicStatus(TOPIC_Addon_KDW, LOG_RUNNING);
-			B_LogEntry (TOPIC_Addon_KDW,"Einem Banditen nahm ich eine Nachricht ab, die Cavalorn dem Wassermagier Vatras übergeben sollte. Jetzt ist es meine Aufgabe."); 
+			B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_2); 
 			Use_SaturasFirstMessage_OneTime = TRUE;
 		};
 
@@ -55,14 +55,14 @@ func void Use_SaturasFirstMessage ()
 		{
 			Log_CreateTopic (TOPIC_Addon_RingOfWater, LOG_MISSION);
 			Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
-			B_LogEntry (TOPIC_Addon_RingOfWater,"Es gibt eine Gemeinschaft, die sich der 'Ring des Wassers' nennt. Die Wassermagier scheinen die Befehlshaber dieser Gemeinschaft zu sein."); 
+			B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_1); 
 		};
 
 		if (SC_IsRanger == FALSE)
 		{
 			Log_CreateTopic (TOPIC_Addon_RingOfWater, LOG_MISSION);
 			Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
-			B_LogEntry (TOPIC_Addon_RingOfWater,"Cavalorn gehört zum 'Ring des Wassers'."); 
+			B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_2); 
 		};
 	
 		SC_KnowsRanger = TRUE;
@@ -415,7 +415,7 @@ func void Use_RavensKidnapperMission_Addon ()
  	{
 	 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_WhoStolePeople,"Jetzt habe ich es schriftlich. Raven, der ehemalige Erzbaron steckt hinter den Entführungen der Bürger von Khorinis. Raven hat sein Versteck irgendwo hinter den Bergen im Berge im Nordosten von Khorinis. Vatras sollte sich dieses Schrftstück mal ansehen."); 
+		B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_3); 
 		Use_RavensKidnapperMission_Addon_OneTime = TRUE;
 	};
 
@@ -535,7 +535,7 @@ func void Use_LuciasLoveLetter_Addon ()
  
 	Log_CreateTopic (TOPIC_Addon_Lucia, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Lucia, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Lucia,"Lucia schrieb einen Abschiedsbrief an Elvrich. Das wird ihn sicher interessieren."); 
+	B_LogEntry (TOPIC_Addon_Lucia,TOPIC_Addon_Lucia_1); 
 	MIS_LuciasLetter = LOG_RUNNING;
 	var int nDocID;
 		
@@ -704,7 +704,7 @@ func void Use_ItWr_Addon_BanditTrader ()
 	if (MIS_Vatras_FindTheBanditTrader != 0)
 	&& (Use_ItWr_Addon_BanditTrader_OneTime == FALSE)
 	{
-		B_LogEntry (TOPIC_Addon_BanditTrader,"Ich habe ein Schriftstück gefunden, das beweisen kann, dass Fernando der Waffenhändler ist, den ich suche."); 
+		B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_1); 
 		Use_ItWr_Addon_BanditTrader_OneTime = TRUE;
 	};
 };

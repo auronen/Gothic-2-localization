@@ -96,7 +96,7 @@ func void DIA_CipherDJG_HELLOAGAIN_Info ()
 
 	AI_Output			(self, other, "DIA_CipherDJG_HELLOAGAIN_07_07"); //Was ist mit dir? Du bist sicher nicht nur zum Vergnügen hier, oder? Lass uns zusammen rein gehen.
 
-	B_LogEntry (TOPIC_Dragonhunter,"Von Cipher habe ich erfahren, daß sich im Sumpfgebiet des Minentals ein Drache aufhalten soll."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_2); 
 
 	Info_AddChoice	(DIA_CipherDJG_HELLOAGAIN, "Ich bleibe lieber allein.", 	DIA_CipherDJG_HELLOAGAIN_GoAlone);
 	Info_AddChoice	(DIA_CipherDJG_HELLOAGAIN, "Warum nicht, Hilfe könnte ich brauchen.", DIA_CipherDJG_HELLOAGAIN_GoTogether);
@@ -354,7 +354,7 @@ func void DIA_CipherDJG_WHATNEXT_Info ()
 	AI_Output	(self, other, "DIA_CipherDJG_WHATNEXT_07_01"); //Keine Ahnung. Darüber habe ich mir noch keine Gedanken gemacht. Immerhin könntest du jetzt als Held nach Khorinis zurück kehren.
 	AI_Output	(self, other, "DIA_CipherDJG_WHATNEXT_07_02"); //Ich vermute, daraus lässt sich Kapital schlagen! Denk mal darüber nach!
 
-	B_LogEntry (TOPIC_Dragonhunter,"Cipher meinte, nachdem der Sumpfdrache tot war, daß er nun als ´Held´ das große Geld machen würde. Naja. Wir werden sehen."); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_3); 
 
 	AI_StopProcessInfos	(self);
 };

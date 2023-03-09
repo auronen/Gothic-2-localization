@@ -225,7 +225,7 @@ FUNC VOID DIA_MiltenOW_Gorn_Info()
 	
 	Log_CreateTopic (TOPIC_RescueGorn,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_RescueGorn,LOG_RUNNING);
-	B_LogEntry (TOPIC_RescueGorn,"Kommandant Garond hat Gorn einsperren lassen. Vielleicht läßt er sich auf ein Geschäft ein und wir können ihn freikaufen.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_8);
 };
 // ************************************************************
 // 		Garond will tausend Goldstücke			  
@@ -254,7 +254,7 @@ FUNC VOID DIA_MiltenOW_Preis_Info()
 	AI_Output (self ,other,"DIA_MiltenOW_Preis_03_01");//Eine hübsche Summe. Ich kann 250 Goldstücke beisteuern.
 	
 	B_GiveInvItems (self, other, Itmi_gold, 250);
-	B_LogEntry (TOPIC_RescueGorn,"Milten hat mir 250 Goldstücke für die Befreiung von Gorn gegeben.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_9);
 
 };
 // ************************************************************
@@ -288,7 +288,7 @@ FUNC VOID DIA_MiltenOW_Mehr_Info()
 	AI_Output (self ,other,"DIA_MiltenOW_Mehr_03_03");//Ich werde ihm eine Notiz schreiben - hier, versuch, sie in den Kerker zu schmuggeln.
 	
 	B_GiveInvItems(self,other,ItWr_LetterForGorn_MIS,1);	 
-	B_LogEntry (TOPIC_RescueGorn,"Milten hat mir eine Nachricht für Gorn mitgegeben. Wenn ich sie in den Knast schmuggeln kann, kann er uns vielleicht mitteilen, ob er noch irgendwo Gold versteckt hat.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_10);
 };
 // ************************************************************
 // 		Ausrüstung				  
@@ -355,7 +355,7 @@ FUNC VOID DIA_MiltenOW_Versteck_Info()
 	AI_Output	(self ,other,"DIA_MiltenOW_Versteck_03_03"); //Das ist nahe der Orkramme. Rechts davon war das Südtor.
 	AI_Output	(self ,other,"DIA_MiltenOW_Versteck_03_04"); //Es wird nicht leicht werden - also halt den Kopf unten und beeil dich.
 	
-	B_LogEntry (TOPIC_RescueGorn,"Rechts neben der Orkramme ist das ehemalige Südtor. Dort liegt irgendwo Gorn's Gold.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_11);
 };
 // ************************************************************
 // 		Gorn ist frei		  

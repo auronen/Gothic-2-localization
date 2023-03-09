@@ -268,7 +268,7 @@ FUNC VOID DIA_Addon_Garett_Tips_Info()
 	
 	Log_CreateTopic (TOPIC_Addon_Kompass,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_Addon_Kompass,LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Kompass,"Greg hat Garret einen wertvollen Kompass abgenommen. Garett vermutet, dass er ihn irgendwo am südlichen Strand verbuddelt hat.");
+	B_LogEntry (TOPIC_Addon_Kompass,TOPIC_Addon_Kompass_1);
 };
 
 // ------------------------------------------------------------
@@ -316,7 +316,7 @@ FUNC VOID DIA_Addon_Garett_GiveKompass_Info()
 		B_GiveInvItems (self, other, itmi_gold, Value_ItBE_Addon_Prot_EdgPoi);
 	};
 	
-	B_LogEntry (TOPIC_Addon_Kompass,"Garret war sehr zufrieden, dass ich ihm seinen Kompass zurück gebracht habe.");
+	B_LogEntry (TOPIC_Addon_Kompass,TOPIC_Addon_Kompass_2);
 	MIS_Addon_Garett_BringKompass = LOG_SUCCESS;
 	B_GivePlayerXP (XP_ADDON_Garett_Bring_Kompass);
 };

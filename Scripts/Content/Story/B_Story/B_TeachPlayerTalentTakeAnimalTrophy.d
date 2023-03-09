@@ -27,34 +27,34 @@ func int B_TeachPlayerTalentTakeAnimalTrophy (var C_NPC slf, var C_NPC oth, var 
 	oth.lp = oth.lp - kosten;
 	
 	Log_CreateTopic (TOPIC_TalentAnimalTrophy,LOG_NOTE);
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"Ich kann jetzt:");
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_1);
 	
 	// ------ Körperteil nehmen lernen ------
 	
 	if (trophy == TROPHY_Teeth) 			{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Teeth] 			= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Tieren die Zähne entfernen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_2);};
 	if (trophy == TROPHY_Claws) 			{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Claws] 			= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Tieren die Krallen abnehmen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_3);};
 	if (trophy == TROPHY_Fur) 				{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Fur] 				= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Tieren das Fell abziehen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_4);};
 	if (trophy == TROPHY_ReptileSkin) 		{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_ReptileSkin] 		= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Reptilien häuten.");}; //ADDON
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_5);}; //ADDON
 	if (trophy == TROPHY_Heart) 			{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Heart] 			= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Golems und Dämonen ihr Herz entnehmen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_6);};
 	if (trophy == TROPHY_ShadowHorn) 		{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_ShadowHorn] 		= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Schattenläufern das Horn entfernen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_7);};
 	if (trophy == TROPHY_FireTongue) 		{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_FireTongue] 		= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Feuerwaranen die Zunge enfernen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_8);};
 	if (trophy == TROPHY_BFWing) 			{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_BFWing] 			= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...die Flügel von Blutfliegen vom Körper lösen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_9);};
 	if (trophy == TROPHY_BFSting) 			{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_BFSting] 			= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Blutfliegen den Stachen entfernen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_10);};
 	if (trophy == TROPHY_Mandibles) 		{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Mandibles] 		= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Tieren ihre Greifzangen entfernen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_11);};
 	if (trophy == TROPHY_CrawlerPlate) 		{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_CrawlerPlate] 	= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Minecrawlern die Panzerplatten vom Körper lösen");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_12);};
 	if (trophy == TROPHY_DrgSnapperHorn)	{	PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DrgSnapperHorn] 	= TRUE;	
-	B_LogEntry (TOPIC_TalentAnimalTrophy,"...Drachensnappern ihre Hörner entfernen.");};
+	B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_13);};
 	if (trophy == TROPHY_DragonScale) 		{	
 												PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonScale] 		= TRUE;	
 												CreateInvItems (Swampdragon, ItAt_DragonScale, 12);	
@@ -62,7 +62,7 @@ func int B_TeachPlayerTalentTakeAnimalTrophy (var C_NPC slf, var C_NPC oth, var 
 												CreateInvItems (Firedragon, ItAt_DragonScale, 12);	
 												CreateInvItems (Icedragon, 	ItAt_DragonScale, 12);
 												
-												B_LogEntry (TOPIC_TalentAnimalTrophy,"...Drachenschuppen vom Körper eines toten Drachen lösen.");	
+												B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_14);	
 											};
 	if (trophy == TROPHY_DragonBlood)		{	
 												PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonBlood] 		= TRUE;	
@@ -71,7 +71,7 @@ func int B_TeachPlayerTalentTakeAnimalTrophy (var C_NPC slf, var C_NPC oth, var 
 												CreateInvItems (Firedragon, ItAt_DragonBlood, 2);	
 												CreateInvItems (Icedragon, ItAt_DragonBlood, 2);	
 											
-												B_LogEntry (TOPIC_TalentAnimalTrophy,"...toten Drachen ihr Blut abzapfen.");
+												B_LogEntry (TOPIC_TalentAnimalTrophy,TOPIC_TalentAnimalTrophy_15);
 											};
 
 	PrintScreen			(PRINT_LearnTakeAnimalTrophy, -1, -1, FONT_Screen, 2);

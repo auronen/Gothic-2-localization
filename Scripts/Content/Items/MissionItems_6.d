@@ -261,7 +261,7 @@ func void Use_ItWr_LastDoorToUndeadDrgDI_MIS ()
 				
 					Doc_Show		( nDocID );
 	
-	B_LogEntry (TOPIC_HallenVonIrdorath,"In der Schriftrolle des Schwarzmagiers waren die Worte KHADOSH EMEM KADAR zu lesen. Das hört sich an wie eine Beschwörungsformel, aber worauf läßt sich das anwenden und was ist das Auge der Macht?"); 
+	B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_2); 
 };
 //**********************************************************************************
 //	Schlüssel zur Truhe in der Kammer des OberDementors.
@@ -384,7 +384,7 @@ INSTANCE ItWr_Diary_BlackNovice_MIS (C_ITEM)
 					Doc_PrintLines	( nDocID,  1, "Habe gestern mein Glück versucht. Bin aber schon an den zwei Hebelkammern gescheitert, bevor ich die drei Schalter des Westflügels in der richtigen Reihenfolge drücken konnte. Der Hund hat die Kammern abgeschlossen. Morgen werde ich versuchen, ihm den Schlüssel abzunehmen...");
 					Doc_Show		( nDocID );
 
-	B_LogEntry (TOPIC_HallenVonIrdorath,"In dem Tagebuch des Schwarzmagiernovizen ist von Hebelkammern, Schlüsselmeister, Schalterkombinationen und anderem Krempel die Rede. Sollte ich im Hinterkopf behalten, vielleicht nützt es mir später noch."); 
+	B_LogEntry (TOPIC_HallenVonIrdorath,TOPIC_HallenVonIrdorath_3); 
 };
 
 //**********************************************************************************

@@ -108,7 +108,7 @@ func void DIA_Addon_Erol_what_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_Erol, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Erol, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Erol,"Der Händler Erol ist von mehreren Banditen überfallen worden. Ihm sind sämtliche Waren gestohlen worden. Die Banditen auf der Brücke in der Nähe der Taverne 'Zur Toten Harpie' haben noch seine wertvollen Steintafeln. Die will Erol zurück haben."); 
+	B_LogEntry (TOPIC_Addon_Erol,TOPIC_Addon_Erol_1); 
 
 	MIS_Addon_Erol_BanditStuff = LOG_RUNNING;
 

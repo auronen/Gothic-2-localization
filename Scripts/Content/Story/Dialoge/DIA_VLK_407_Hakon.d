@@ -72,7 +72,7 @@ func void DIA_Hakon_Hallo_Info ()
 	AI_Output (self ,other,"DIA_Hakon_Add_12_01"); //In diesen Tagen sollte jeder Mann eine Waffe tragen. Vor allem wenn er außerhalb der Stadtmauern unterwegs ist.
 	
 	Log_CreateTopic (Topic_CityTrader,LOG_NOTE);
-	B_LogEntry (Topic_CityTrader,"Hakon verkauft Waffen am Marktplatz.");
+	B_LogEntry (Topic_CityTrader,Topic_CityTrader_15);
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info WAREZ
@@ -138,7 +138,7 @@ func void DIA_Addon_Hakon_MissingPeople_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_Joe, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Joe, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Joe,"Hakon, ein Händler in Khorinis, behauptet, dass ein Mann namens Joe einfach spurlos verschwunden ist. Dieser Joe wüsste angeblich, wie man in einen der Stadttürme, in denen die Miliz ihre Waffen aufbewahren, hinein käme."); 
+	B_LogEntry (TOPIC_Addon_Joe,TOPIC_Addon_Joe_1); 
 
 	B_GivePlayerXP (XP_Ambient);
 };
@@ -286,7 +286,7 @@ func void DIA_Hakon_Banditen_Info ()
 	
 	Log_CreateTopic(TOPIC_HakonBanditen,LOG_MISSION);
 	Log_SetTopicStatus (TOPIC_HakonBanditen,LOG_RUNNING);
-	B_LogEntry(TOPIC_HakonBanditen,"Hakon, der Waffenhändler wurde vor der Stadt von Banditen ausgeraubt." );
+	B_LogEntry(TOPIC_HakonBanditen,TOPIC_HakonBanditen_3 );
 };
 
 
@@ -358,7 +358,7 @@ func void DIA_Hakon_Miliz_Info ()
 	AI_Output (other, self, "DIA_Hakon_Miliz_15_02"); //Weißt du, wo ich Pablo finden kann?
 	AI_Output (self, other, "DIA_Hakon_Miliz_12_03"); //Er patrouilliert durch die Stadt. Du findest ihn entweder am Tempelplatz oder in der Unterstadt.
 	
-	B_LogEntry(TOPIC_HakonBanditen,"Pablo von der Stadtwache, war an der erfolglosen Suche nach den Banditen beteiligt." );
+	B_LogEntry(TOPIC_HakonBanditen,TOPIC_HakonBanditen_4 );
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Wo

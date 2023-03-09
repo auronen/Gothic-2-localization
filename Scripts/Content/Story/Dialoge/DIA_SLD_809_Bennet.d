@@ -51,7 +51,7 @@ func void DIA_Bennet_HALLO_Info ()
 	AI_Output (self, other, "DIA_Bennet_HALLO_06_00"); //Ich verkaufe keine Waffen. Das macht Khaled. Er ist bei Onar im Haus.
 	
 	Log_CreateTopic (Topic_SoldierTrader,LOG_NOTE);
-	B_LogEntry (Topic_SoldierTrader,"Khaled handelt mit Waffen.");
+	B_LogEntry (Topic_SoldierTrader,Topic_SoldierTrader_3);
 };
 
 // ************************************************************
@@ -99,7 +99,7 @@ func void DIA_Bennet_TRADE_Info ()
 	if (BennetLOG == FALSE)
 	{
 		Log_CreateTopic (Topic_SoldierTrader,LOG_NOTE);
-		B_LogEntry (Topic_SoldierTrader,"Bennet verkauft Schmiedezubehör.");
+		B_LogEntry (Topic_SoldierTrader,Topic_SoldierTrader_4);
 		BennetLOG = TRUE;
 	};
 };
@@ -243,7 +243,7 @@ func void DIA_Bennet_WannaSmith_Pay()
 		
 		Bennet_TeachCommon = TRUE;
 		Log_CreateTopic (Topic_SoldierTeacher,LOG_NOTE);
-		B_LogEntry (Topic_SoldierTeacher,"Bennet kann mich im Schmieden unterrichten.");
+		B_LogEntry (Topic_SoldierTeacher,Topic_SoldierTeacher_2);
 	}
 	else
 	{
@@ -659,7 +659,7 @@ func void DIA_Bennet_WhyPrison_Info ()
 	MIS_RescueBennet = LOG_RUNNING; 
 	Log_CreateTopic (TOPIC_RESCUEBENNET, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_RESCUEBENNET, LOG_RUNNING);
-	B_LogEntry (TOPIC_RESCUEBENNET,"Bennet geht es gar nicht gut. Er würde alles dafür tun aus dem Knast zu entkommen."); 
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_9); 
 };
 
 //*********************************************************************
@@ -725,7 +725,7 @@ func void DIA_Bennet_Victim_Info ()
 	AI_Output 	(self ,other ,"DIA_Bennet_Victim_06_03"); //Lothar, oder so. Keine Ahnung, ich bin mir aber auch nicht sicher.
 	AI_Output 	(self ,other ,"DIA_Bennet_Victim_06_04"); //Frag am besten Lord Hagen, der kennt alle Einzelheiten.
 
-	B_LogEntry (TOPIC_RESCUEBENNET,"Einer der Paladine, Lothar, ist ermordet worden. Lord Hagen kann mir anscheinend mehr erzählen, er leitet die Untersuchung.");
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_10);
 };
 
 //*********************************************************************
@@ -757,7 +757,7 @@ func void DIA_Bennet_Evidence_Info ()
 	AI_Output	(other, self ,"DIA_Bennet_Evidence_15_02"); //Weißt du, wer der Zeuge ist?
 	AI_Output 	(self ,other ,"DIA_Bennet_Evidence_06_03"); //Nein. Ich weiß nur, dass er lügt.
 	
-	B_LogEntry (TOPIC_RESCUEBENNET,"Es gibt einen einen Zeugen, der Bennet gesehen haben will. Ich werde ihn wohl finden müssen, um die Wahrheit ans Licht zu bringen.");
+	B_LogEntry (TOPIC_RESCUEBENNET,TOPIC_RESCUEBENNET_11);
 	
 	RescueBennet_KnowsWitness = TRUE; 
 };
@@ -1160,7 +1160,7 @@ func void DIA_Bennet_ShowInnosEye_Info ()
 	AI_Output			(self, other, "DIA_Bennet_ShowInnosEye_06_07"); //Ich werde dir noch nicht mal was dafür abknöpfen. Schließlich hast du mich aus dem Bau geholt.
 	};
 	
-	B_LogEntry (TOPIC_INNOSEYE, "Bennet ist der Schmied, den ich suche um das Amulett zu reparieren.");
+	B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_17);
 
 	MIS_SCKnowsInnosEyeIsBroken  = TRUE;
 };
@@ -1240,7 +1240,7 @@ func void DIA_Bennet_GetInnosEye_Info ()
 		AI_Output			(self, other, "DIA_Bennet_GetInnosEye_06_02"); //Ich musste eine neue Fassung für den Stein fertigen.
 		AI_Output			(self, other, "DIA_Bennet_GetInnosEye_06_03"); //Ich hab die ganze Nacht daran gearbeitet und es ist wie neu.
 		
-		B_LogEntry (TOPIC_INNOSEYE, "Die Fassung des Amuletts ist wieder intakt. Bennet hat ganze Arbeit geleistet.");
+		B_LogEntry (TOPIC_INNOSEYE, TOPIC_INNOSEYE_10);
 		
 		MIS_Bennet_InnosEyeRepairedSetting   = LOG_SUCCESS;
 		
@@ -1349,7 +1349,7 @@ func void DIA_Bennet_DRACHENEIER_Info ()
 
 	IF (DRACHENEIER_angebotenXP_OneTime == FALSE)
 	{
-	B_LogEntry (TOPIC_DRACHENEIER,"Bennet will mir alle Dracheneier, die ich finden kann, für einen guten Preis abkaufen."); 
+	B_LogEntry (TOPIC_DRACHENEIER,TOPIC_DRACHENEIER_3); 
 	B_GivePlayerXP (XP_DJG_BringDragonEgg);
 	DRACHENEIER_angebotenXP_OneTime = TRUE;
 	};
@@ -1372,17 +1372,17 @@ func void DIA_Bennet_DRACHENEIER_ok ()
 	AI_Output			(other, self, "DIA_Bennet_DRACHENEIER_ok_15_04"); //Genau.
 	AI_Output			(self, other, "DIA_Bennet_DRACHENEIER_ok_06_05"); //Echsenmenschen hausen vornehmlich in Höhlen, soviel ich weiß.
 	AI_Output			(self, other, "DIA_Bennet_DRACHENEIER_ok_06_06"); //Würde mich nicht wundern, wenn du in den Höhlen der Umgebung hier noch mehr von den Dingern findest.
-	B_LogEntry (TOPIC_DRACHENEIER,"Bennet ist der Meinung, dass ich nach den Eiern in den Höhlen von Khorinis suchen sollte. Echsenmenschen seien häufig in Höhlen anzutreffen."); 
+	B_LogEntry (TOPIC_DRACHENEIER,TOPIC_DRACHENEIER_4); 
 	
 	AI_Output (self, other, "DIA_Bennet_DRACHENEIER_ok_06_07"); //Hier. Ich gebe dir noch 'ne Karte mit. Damit du die Höhlen besser finden kannst.
 	CreateInvItems (self, ItWr_Map_Caves_MIS, 1);									
 	B_GiveInvItems (self, other, ItWr_Map_Caves_MIS,1);
-	B_LogEntry (TOPIC_DRACHENEIER,"Er gab mir zu diesem Zweck eine Höhlenkarte."); 
+	B_LogEntry (TOPIC_DRACHENEIER,TOPIC_DRACHENEIER_5); 
 	
 	if (1 == 2) //MH: Besser Karte direkt (war sowieso so - wegen Bug)
 	{
 		AI_Output			(self, other, "DIA_Bennet_DRACHENEIER_ok_06_08"); //Besorg dir aber vorher noch eine Höhlenkarte von einem Kartenzeichner in der Stadt. Wäre doch schade, wenn du eine übersiehst.
-		B_LogEntry (TOPIC_DRACHENEIER,"Ich sollte mir eine Höhlenkarte bei Kartenzeichner in der Stadt besorgen, damit ich kein Ei übersehe."); 
+		B_LogEntry (TOPIC_DRACHENEIER,TOPIC_DRACHENEIER_6); 
 	};
 	
 	Info_ClearChoices	(DIA_Bennet_DRACHENEIER);
@@ -1554,7 +1554,7 @@ func void DIA_Bennet_KnowWhereEnemy_Info ()
 	
 	Log_CreateTopic (TOPIC_Crew, LOG_MISSION);   
 	Log_SetTopicStatus(TOPIC_Crew, LOG_RUNNING); 
-	B_LogEntry (TOPIC_Crew,"Bennet könnte sofort aufbrechen. Sein Talent als Schmied ist unbestritten. Ich kann bestimmt bei ihm noch was lernen.");
+	B_LogEntry (TOPIC_Crew,TOPIC_Crew_15);
 		
 	if (crewmember_count >= Max_Crew)
 	{

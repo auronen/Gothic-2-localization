@@ -114,7 +114,7 @@ func void DIA_Mil_310_Stadtwache_FirstWarn_Info()
 			
 			Log_CreateTopic (TOPIC_City,LOG_MISSION);
 			Log_SetTopicStatus (TOPIC_City,LOG_RUNNING);
-			B_LogEntry (TOPIC_City,"Damit die Torwachen mich in die Stadt lassen, muss ich so aussehen, als wenn ich Geld hätte, oder ich finde einen anderen Weg.");
+			B_LogEntry (TOPIC_City,TOPIC_City_3);
 		}
  	 	 
  		// ------ als Bauer ------		

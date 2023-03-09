@@ -27,7 +27,7 @@ FUNC VOID DIA_Addon_Saturas_EXIT_Info()
 	
 		Log_CreateTopic (TOPIC_Addon_HolRiordian, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_HolRiordian, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_HolRiordian,"Saturas will, dass ich den Wassermagier Riordian zu ihm schicke. Er soll sich im hinteren Bereich des Gewölbes der Ausgrabungsstelle aufhalten."); 
+		B_LogEntry (TOPIC_Addon_HolRiordian,TOPIC_Addon_HolRiordian_1); 
 	};
 	
 	AI_StopProcessInfos (self);
@@ -73,7 +73,7 @@ func void DIA_Addon_Saturas_Nefarius_Info ()
 
 		Log_CreateTopic (TOPIC_Addon_Ornament, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_Ornament, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_Ornament,"Saturas meinte, ich soll nicht alleine gehen, wenn ich im großen Wald nach einem der Ornamentfragmente suche. Ich soll nach Khorinis gehen und mir jemanden suchen, der mich begleitet."); 
+		B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_6); 
 	};
 };
  
@@ -187,7 +187,7 @@ func void DIA_Addon_Saturas_keineAhnung_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_KDW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_KDW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_KDW,"Ich habe die Wassermagier an ihrer Ausgrabungsstelle gefunden. Ich muss erst noch heraus finden, was die Jungs hier eigentlich machen. Saturas war nicht bereit, es mir zu sagen. Er ist immer noch sehr unentspannt, wegen der alten Geschichten aus der Strafkolonie."); 
+	B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_8); 
 
 	AI_StopProcessInfos (self);
 };
@@ -356,7 +356,7 @@ func void DIA_Addon_Saturas_geheimbund_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_RingOfWater, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RingOfWater,"Saturas ist nicht bereit mich in den 'Ring des Wassers' aufzunehmen. Er überlässt Vatras die Entscheidung darüber."); 
+	B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_10); 
 
 };
 
@@ -498,7 +498,7 @@ func void DIA_Addon_Saturas_ScRanger_Info ()
 			AI_Output	(self, other, "DIA_Addon_Saturas_ScRanger_14_05"); //Aber bedenke, dass es auch mit einer großen Verantwortung verbunden ist.
 			AI_Output	(self, other, "DIA_Addon_Saturas_ScRanger_14_06"); //Und ich will für dich hoffen, dass du ihr auch gerecht wirst.
 			SaturasKnows_SC_IsRanger = TRUE;
-			B_LogEntry (TOPIC_Addon_RingOfWater,"Saturas akzeptiert meine Aufnahme in den 'Ring des Wassers'."); 
+			B_LogEntry (TOPIC_Addon_RingOfWater,TOPIC_Addon_RingOfWater_11); 
 		}
 		else
 		{
@@ -576,7 +576,7 @@ func void DIA_Addon_Saturas_OpenPortal_Info ()
 			AI_Output	(self, other, "DIA_Addon_Saturas_OpenPortal_14_09"); //Wenn Nefarius Recht hat, wird sich das Portal öffnen, sobald du Ring dort einsetzt.
 			
 			DIA_Addon_Saturas_OpenPortal_NoPerm = TRUE;
-			B_LogEntry (TOPIC_Addon_Ornament,"Saturas gab mir den Ornamentring. Ich soll ihn nun in den Mechanismus des Portals einsetzen und durch das Portal gehen."); 
+			B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_7); 
 
 			AI_StopProcessInfos (self);		
 			Npc_ExchangeRoutine	(self,"OpenPortal");
@@ -595,7 +595,7 @@ func void DIA_Addon_Saturas_OpenPortal_Info ()
 	{
 		AI_Output	(self, other, "DIA_Addon_Saturas_OpenPortal_14_10"); //Solange Vatras mir kein eindeutiges Zeichen übermittelt, dass dir zu trauen ist, werde ich den Ring bei mir behalten.
 		Saturas_WillVertrauensBeweis = TRUE;
-		B_LogEntry (TOPIC_Addon_Ornament,"Saturas will mir den Ornamentring nicht geben, solange er kein Zeichen von Vatras erhalten hat, dass mir zu trauen ist."); 
+		B_LogEntry (TOPIC_Addon_Ornament,TOPIC_Addon_Ornament_8); 
 		AI_StopProcessInfos (self);		
 	};
 };

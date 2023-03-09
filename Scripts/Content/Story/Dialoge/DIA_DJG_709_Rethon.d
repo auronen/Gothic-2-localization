@@ -243,8 +243,8 @@ func void DIA_Rethon_ANGST_woSylvio ()
 	AI_Output			(self, other, "DIA_Rethon_ANGST_woSylvio_12_01"); //Die Paladine hier erzählten etwas von einem Drachen aus Eis im Westen. Er soll der gefährlichste und mächtigste von allen sein.
 	AI_Output			(self, other, "DIA_Rethon_ANGST_woSylvio_12_02"); //Da hättest du mal Sylvios glänzenden Augen sehen sollen, als er das hörte. Jetzt darfst du raten, wo er hingegangen ist.
 
-	B_LogEntry (TOPIC_DRACHENJAGD,"Rethon der Drachenjäger faselte irgendwas von einem Drachen aus Eis."); 
-	B_LogEntry (TOPIC_Dragonhunter,"Sylvio ist in der Burg gewesen und hat sich später wieder aufgemacht einen Eisdrachen zu finden.");
+	B_LogEntry (TOPIC_DRACHENJAGD,TOPIC_DRACHENJAGD_2); 
+	B_LogEntry (TOPIC_Dragonhunter,TOPIC_Dragonhunter_1);
 
 };
 

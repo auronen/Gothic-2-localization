@@ -136,8 +136,8 @@ FUNC VOID DIA_Addon_Garaz_Bloodwyn_Info()
 	AI_Output (self, other, "DIA_Addon_Garaz_Bloodwyn_08_04");//Er hält sich für den Größten und kann's nicht leiden, wenn jemand besser da steht als er. Okay - ich würde trotzdem nicht gegen ihn antreten wollen.
 	AI_Output (self, other, "DIA_Addon_Garaz_Bloodwyn_08_05");//Geh ihm am Besten aus dem Weg und reize ihn nicht - es sei denn, du willst, dass er wütend wird und seine Beherrschung verliert ...
 	
-	B_LogEntry (Topic_Addon_Tempel,"Bloodwyn wird bestimmt den Tempel verlassen, wenn er mitkriegt, das in der Mine eien neue Goldader gefunden wurde.");
-	B_LogEntry (Topic_Addon_Tempel,"Wenn Bloodwyn gereizt wird, verliert er die Kontrolle. Das wird mir bestimmt nützlich sein."); 
+	B_LogEntry (Topic_Addon_Tempel,Topic_Addon_Tempel_1);
+	B_LogEntry (Topic_Addon_Tempel,Topic_Addon_Tempel_2); 
 };
 //---------------------------------------------------------------------
 //	Info Sieg

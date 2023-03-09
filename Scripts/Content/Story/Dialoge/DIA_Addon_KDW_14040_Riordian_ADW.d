@@ -257,10 +257,10 @@ func void B_WhreAreHousesOfRulers ()
 
 	Log_CreateTopic (TOPIC_Addon_HousesOfRulers, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_HousesOfRulers, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_HousesOfRulers,"Das Haus der Gelehrten ist eine grosse Bibliothek. Sie muss irgendwo weit im Norden sein."); 
-	B_LogEntry (TOPIC_Addon_HousesOfRulers,"Das Haus der Krieger war damals eine von Felsen umringte Festung im Osten. "); 
-	B_LogEntry (TOPIC_Addon_HousesOfRulers,"Die Priester und die Tötenwächter hatten ihre Behausungen nahe bei einander. Ich sollte sie im Südwesten finden. "); 
-	B_LogEntry (TOPIC_Addon_HousesOfRulers,"Die Heiler hatten ihr Haus der Genesung im Südosten."); 
+	B_LogEntry (TOPIC_Addon_HousesOfRulers,TOPIC_Addon_HousesOfRulers_1); 
+	B_LogEntry (TOPIC_Addon_HousesOfRulers,TOPIC_Addon_HousesOfRulers_2); 
+	B_LogEntry (TOPIC_Addon_HousesOfRulers,TOPIC_Addon_HousesOfRulers_3); 
+	B_LogEntry (TOPIC_Addon_HousesOfRulers,TOPIC_Addon_HousesOfRulers_4); 
 };
 
 func void DIA_Addon_Riordian_WhereAreHouses_Info ()
@@ -319,7 +319,7 @@ func void DIA_Addon_Riordian_FoundHouse_Info ()
 		
 		Log_CreateTopic (TOPIC_Addon_CanyonOrcs, LOG_MISSION);
 		Log_SetTopicStatus(TOPIC_Addon_CanyonOrcs, LOG_RUNNING);
-		B_LogEntry (TOPIC_Addon_CanyonOrcs,"Dem Wassermagier Riordian wäre es lieber, wenn die Orks aus dem Canyon verschwinden."); 
+		B_LogEntry (TOPIC_Addon_CanyonOrcs,TOPIC_Addon_CanyonOrcs_1); 
 	};
 	
 	if ((Npc_IsDead(StoneGuardian_Heiler)) || (Npc_HasItems (other,ItMi_Addon_Stone_04)) || (Saturas_SCFound_ItMi_Addon_Stone_04 == TRUE) )

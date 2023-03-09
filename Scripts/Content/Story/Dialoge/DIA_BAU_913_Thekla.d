@@ -402,7 +402,7 @@ func void DIA_Thekla_PERM_Info()
 		
 		Log_CreateTopic (TOPIC_TheklaEintopf,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_TheklaEintopf,LOG_RUNNING);
-		B_LogEntry (TOPIC_TheklaEintopf,"Wenn ich Thekla die Kräuter von der Heilerin Sagitta bringe, kocht sie mir noch einen Eintopf. Sagitta lebt hinter Sekob's Hof.");
+		B_LogEntry (TOPIC_TheklaEintopf,TOPIC_TheklaEintopf_1);
 		
 	}
 	else if (MIS_Thekla_Paket == LOG_SUCCESS)

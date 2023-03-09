@@ -55,7 +55,7 @@ func void DIA_Morgahard_HALLO_Info ()
 	Info_AddChoice	(DIA_Morgahard_HALLO, "Hör auf zu jammern und zieh deine Waffe.", DIA_Morgahard_HALLO_attack );
 	Info_AddChoice	(DIA_Morgahard_HALLO, "Was können wir gegen den Richter unternehmen?", DIA_Morgahard_HALLO_richter );
 	Info_AddChoice	(DIA_Morgahard_HALLO, "Der Richter gab mir den Auftrag, dich zu töten.", DIA_Morgahard_HALLO_tot );
-	B_LogEntry (TOPIC_RichterLakai,"Ich habe den Anführer der Flüchtlinge Morgahard gefunden."); 
+	B_LogEntry (TOPIC_RichterLakai,TOPIC_RichterLakai_2); 
 	SCFoundMorgahard = TRUE;
 	B_GivePlayerXP (XP_FoundMorgahard);
 };
@@ -76,7 +76,7 @@ func void DIA_Morgahard_HALLO_richter ()
 	AI_Output			(self, other, "DIA_Morgahard_HALLO_richter_07_05"); //Bist du sicher? Na gut. Hier nimm diesen Brief. Er trägt die Unterschrift des Richters.
 	B_GiveInvItems 		(self, other, ItWr_RichterKomproBrief_MIS, 1);					
 	AI_Output			(self, other, "DIA_Morgahard_HALLO_richter_07_06"); //Auch wenn es an meiner Schuld nichts ändert, wird er doch ausreichen, seine Mittäterschaft bei der Sache zu bestätigen.
-	B_LogEntry (TOPIC_RichterLakai,"Morgahard gab mir den Auftrag des Richters. Dieses Papier beweist eindeutig, dass der Richter den Statthalter Larius hat ausrauben lassen. Ich denke, das ist genau das, was ich für Lee suchen sollte."); 
+	B_LogEntry (TOPIC_RichterLakai,TOPIC_RichterLakai_3); 
 	AI_StopProcessInfos (self);
 };
 var int MorgahardSucked;

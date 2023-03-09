@@ -165,7 +165,7 @@ FUNC VOID DIA_Niclas_CanTeachMe_Info()
 	AI_Output (self ,other,"DIA_Niclas_CanTeachMe_03_01"); //Warum nicht. Ich könnte dir zeigen, wie man mit dem Bogen schießt.
 	
 	Log_CreateTopic	(TOPIC_Teacher, LOG_NOTE);
-	B_LogEntry		(TOPIC_Teacher, "Niclas kann mir zeigen wie ich besser mir dem Bogen werde.");
+	B_LogEntry		(TOPIC_Teacher, TOPIC_Teacher_2);
 };
 		
 // ***********************************************************

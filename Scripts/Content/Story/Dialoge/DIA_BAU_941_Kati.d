@@ -60,7 +60,7 @@ func void DIA_Kati_SLDNOCHDA_Info ()
 	Akils_SLDStillthere = TRUE;
 	Log_CreateTopic (TOPIC_AkilsSLDStillthere, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AkilsSLDStillthere, LOG_RUNNING);
-	B_LogEntry (TOPIC_AkilsSLDStillthere,"Akils Hof wird von Söldnern bedroht."); 
+	B_LogEntry (TOPIC_AkilsSLDStillthere,TOPIC_AkilsSLDStillthere_1); 
 
 	AI_StopProcessInfos (self);
 };

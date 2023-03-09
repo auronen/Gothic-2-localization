@@ -330,7 +330,7 @@ FUNC VOID DIA_Buster_WannaJoin_Info()
 		Buster_Duell = TRUE;
 		Log_CreateTopic (TOPIC_SLDRespekt,LOG_MISSION);
 		Log_SetTopicStatus (TOPIC_SLDRespekt,LOG_RUNNING);
-		B_LogEntry (TOPIC_SLDRespekt,"Nachdem ich Buster besiegt habe, hat er nichts dagegen einzuwenden, das ich mich den Söldnern anschließe.");
+		B_LogEntry (TOPIC_SLDRespekt,TOPIC_SLDRespekt_5);
 	}
 	else //FIGHT_NONE oder FIGHT_CANCEL
 	{
@@ -545,7 +545,7 @@ FUNC VOID DIA_Buster_Teach_Info()
 	if (BusterLOG == FALSE)
 	{
 		Log_CreateTopic (Topic_SoldierTeacher,LOG_NOTE);
-		B_LogEntry (Topic_SoldierTeacher,"Buster kann mich im einhändigen Kampf trainieren.");
+		B_LogEntry (Topic_SoldierTeacher,Topic_SoldierTeacher_6);
 		BusterLOG = TRUE;
 	};
 	Info_ClearChoices 	(DIA_Buster_Teach);
@@ -683,7 +683,7 @@ func void DIA_Buster_SHADOWBEASTS_was_wieviel ()
 
 	Log_CreateTopic (TOPIC_Buster_KillShadowbeasts, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Buster_KillShadowbeasts, LOG_RUNNING);
-	B_LogEntry (TOPIC_Buster_KillShadowbeasts,"Buster macht mir einen guten Preis für jedes Schattenläuferhorn, das ich ihm bringe."); 
+	B_LogEntry (TOPIC_Buster_KillShadowbeasts,TOPIC_Buster_KillShadowbeasts_1); 
 
 	Info_ClearChoices	(DIA_Buster_SHADOWBEASTS);
 };

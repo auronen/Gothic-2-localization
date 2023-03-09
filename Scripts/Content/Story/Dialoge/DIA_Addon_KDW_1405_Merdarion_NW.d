@@ -134,7 +134,7 @@ func void DIA_Addon_Merdarion_Aufgabe_Info ()
 	
 	if (Nefarius_NW.aivar [AIV_TalkedToPlayer] == FALSE)
 	{
-		B_LogEntry (TOPIC_Addon_KDW,"Nefarius sucht nach einem fehlenden Ornament."); 
+		B_LogEntry (TOPIC_Addon_KDW,TOPIC_Addon_KDW_3); 
 	};	
 };
 ///////////////////////////////////////////////////////////////////////
@@ -313,7 +313,7 @@ func void DIA_Addon_Merdarion_Teleportstein_key ()
 
 	Log_CreateTopic (TOPIC_Addon_TeleportsNW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_TeleportsNW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_TeleportsNW,"Merdarion gab mir den Schlüssel zur verschlossenen Tür in den Gewölben des Portals. Dahinter befinde sich ein Teleportstein, der mich zurück zur Hafenstadt bringen soll."); 
+	B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_1); 
 
 	Info_ClearChoices	(DIA_Addon_Merdarion_Teleportstein);
 };
@@ -344,7 +344,7 @@ func void DIA_Addon_Merdarion_WHereOtherTeleports_Info ()
 	AI_Output	(other, self, "DIA_Addon_Merdarion_WHereOtherTeleports_15_00"); //Wo sind die anderen Teleportersteine?
 	AI_Output	(self, other, "DIA_Addon_Merdarion_WHereOtherTeleports_06_01"); //Wir haben bisher nur einen Weiteren etwa im Zentrum von Khorinis gefunden.
 	AI_Output	(self, other, "DIA_Addon_Merdarion_WHereOtherTeleports_06_02"); //In der Nähe der Taverne Zur Toten Harpie.
-	B_LogEntry (TOPIC_Addon_TeleportsNW,"In der Nähe der Taverne 'Zur Toten Harpie' soll sich ein weiterer Teleportstein befinden."); 
+	B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_2); 
 };
 
 ///////////////////////////////////////////////////////////////////////

@@ -208,7 +208,7 @@ func void DIA_Addon_Elvrich_WhatExactly_Pirates ()
 	
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Elvrich der Lehrling des Tischler Thorben aus Khorinis wurde von Banditen entführt. Die Piraten scheinen mit den Banditen unter einer Decke zu stecken."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_10); 
 	
 	Info_AddChoice	(DIA_Addon_Elvrich_WhatExactly, "Piraten in Khorinis?", DIA_Addon_Elvrich_WhatExactly_Here );
 	Info_AddChoice	(DIA_Addon_Elvrich_WhatExactly, "Wo ist diese Anlegestelle der Piraten?", DIA_Addon_Elvrich_WhatExactly_pirat );
@@ -234,7 +234,7 @@ func void DIA_Addon_Elvrich_WhatExactly_pirat ()
 
 	Log_CreateTopic (TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_WhoStolePeople,"Um zur Anlegestelle der Piraten zu kommen, muss man zum Hafen von Khorinis. Wenn man auf der Kaimauer steht und auf's Meer hinaus schaut, muss man rechts die Küste entlang schwimmen."); 
+	B_LogEntry (TOPIC_Addon_WhoStolePeople,TOPIC_Addon_WhoStolePeople_11); 
 
 	Info_AddChoice	(DIA_Addon_Elvrich_WhatExactly, DIALOG_BACK, DIA_Addon_Elvrich_WhatExactly_Back );
 };
@@ -272,7 +272,7 @@ func void DIA_Addon_Elvrich_Bromor_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_BromorsGold, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BromorsGold, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BromorsGold,"Bromors goldene Schale befindet sich jetzt wahrscheinlich in dem Besitz der Banditen im nördlichen Wald hinter Sekobs Hof."); 
+	B_LogEntry (TOPIC_Addon_BromorsGold,TOPIC_Addon_BromorsGold_1); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -306,7 +306,7 @@ func void DIA_Addon_Elvrich_WhereIsLucia_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_Lucia, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Lucia, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Lucia,"Lucia wurde von den Banditen in den Wald hinter Sekobs Bauernhof irgendwo im Norden verschleppt."); 
+	B_LogEntry (TOPIC_Addon_Lucia,TOPIC_Addon_Lucia_2); 
 
 	SC_KnowsLuciaCaughtByBandits = TRUE;
 };
@@ -342,7 +342,7 @@ func void DIA_Addon_Elvrich_FernandosWaffen_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_BanditTrader, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BanditTrader, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Die Spur führt mich in den Wald hinter Sekobs Bauernhof irgendwo im Norden. Dort soll es Banditen geben, die eine Menge Waffen geliefert bekommen haben."); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_10); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -378,7 +378,7 @@ func void DIA_Addon_Elvrich_LuciaLetter_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_Lucia, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Lucia, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Lucia,"Elvrich will nicht glauben, dass Lucia mit den Banditen freiwillig mitgegangen sein soll. Er hofft trotz ihrem eindeutigen Abschiedsbrief immer noch auf ihre Rückkehr."); 
+	B_LogEntry (TOPIC_Addon_Lucia,TOPIC_Addon_Lucia_3); 
 
 	B_GivePlayerXP (XP_Addon_LuciasLetter);
 	MIS_LuciasLetter = LOG_SUCCESS;
@@ -417,7 +417,7 @@ func void DIA_Addon_Elvrich_WasNun_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Elvrich ist zum Tischlermeister Thorben zurück gegangen."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_7); 
 
 	Elvrich_GoesBack2Thorben = TRUE;
 	Npc_ExchangeRoutine	(self,"BACKINTHECITY");

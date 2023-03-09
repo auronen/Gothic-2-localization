@@ -20,7 +20,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsNW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsNW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsNW,"Der Teleportstein in der Höhle östlich der Hafenstadt führt zur Taverne 'Zur Toten Harpie'."); 
+				B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_4); 
 			};
 			
 			SCUsed_NW_TELEPORTSTATION_CITY = TRUE; 
@@ -33,7 +33,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsNW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsNW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsNW,"Der Teleportstein in der Nähe der Taverne 'Zur Toten Harpie' führt zum Portal der mysteriösen Erbauer."); 
+				B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_5); 
 			};
 
 			SCUsed_NW_TELEPORTSTATION_TAVERNE = TRUE; 
@@ -46,7 +46,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsNW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsNW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsNW,"Der Teleportstein beim Portal der mysteriösen Erbauer führt zur Höhle östlich der Hafenstadt."); 
+				B_LogEntry (TOPIC_Addon_TeleportsNW,TOPIC_Addon_TeleportsNW_6); 
 			};
 
 			SCUsed_NW_TELEPORTSTATION_MAYA = TRUE;
@@ -76,7 +76,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsADW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsADW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsADW,"In der Nähe des Portals, das nach Khorinis führt, habe ich einen Teleportstein aktiviert."); 
+				B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_1); 
 				B_GivePlayerXP (XP_Ambient);
 			};	
 
@@ -90,7 +90,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsADW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsADW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsADW,"Im oberen Teil des Banditenlager konnte ich einen Teleportstein aktivieren."); 
+				B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_2); 
 				B_GivePlayerXP (XP_Ambient);
 			};	
 	
@@ -104,7 +104,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsADW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsADW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsADW,"Im Sumpf südlich vom Banditenlager habe ich einen Teleportstein aktiviert."); 
+				B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_3); 
 				B_GivePlayerXP (XP_Ambient);
 			};	
 	
@@ -118,7 +118,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsADW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsADW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsADW,"Im Südwesten habe ich einen Teleportstein gefunden."); 
+				B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_4); 
 				B_GivePlayerXP (XP_Ambient);
 			};	
 	
@@ -132,7 +132,7 @@ func void EVT_TELEPORTSTATION_FUNC ()
 			{
 				Log_CreateTopic (TOPIC_Addon_TeleportsADW, LOG_MISSION);
 				Log_SetTopicStatus(TOPIC_Addon_TeleportsADW, LOG_RUNNING);
-				B_LogEntry (TOPIC_Addon_TeleportsADW,"In einer Höhle im Cayon gibt es einen Teleportstein. Ich habe ihn aktiviert."); 
+				B_LogEntry (TOPIC_Addon_TeleportsADW,TOPIC_Addon_TeleportsADW_5); 
 				B_GivePlayerXP (XP_Ambient);
 			};	
 

@@ -258,7 +258,7 @@ func void DIA_Addon_Lester_Vorschlag_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_PickForConstantino, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_PickForConstantino, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_PickForConstantino,"Lester sagt, dass ich mit 10 Planzen der gleichen Art an den Stadtwachen vorbei komme, wenn ich sage, dass sie für den alten Alchemisten namens Constantino sind."); 
+	B_LogEntry (TOPIC_Addon_PickForConstantino,TOPIC_Addon_PickForConstantino_1); 
 	
 	MIS_Addon_Lester_PickForConstantino = LOG_RUNNING;
 };
@@ -459,7 +459,7 @@ func void DIA_Lester_PERM3_Info ()
 					AI_Output			(self, other, "DIA_Lester_PERM3_13_09"); //Ich habe es geahnt, aber ich wollte es nicht wahr haben. Meinst du, er ist zurückgekehrt? Ist der Schläfer wieder da?
 					AI_Output			(other, self, "DIA_Lester_PERM3_15_10"); //Gute Frage. Sicher ist nur, dass ich die Suchenden aufhalten muss, bevor sie zu mächtig werden.
 					AI_Output			(self, other, "DIA_Lester_PERM3_13_11"); //Es gefällt mir nicht, aber ich vermute, du hast Recht. Tut mir Leid, aber dieser ganze Mist steigt mir zu Kopf.
-					B_LogEntry (TOPIC_DEMENTOREN,"Mein Verdacht hat sich bestätigt. Selbst Lester zweifelt nicht daran, dass es sich bei den Suchenden um die Anhänger des Schläfers aus dem ehemaligen Sumpflager handelt."); 
+					B_LogEntry (TOPIC_DEMENTOREN,TOPIC_DEMENTOREN_13); 
 					B_GivePlayerXP (XP_Lester_KnowsMadPsi);
 					DIA_Lester_PERM3_OneTime = TRUE;
 				};
@@ -590,7 +590,7 @@ func void DIA_Lester_XARDASWEG_Info ()
 	AI_Output			(other, self, "DIA_Lester_XARDASWEG_15_06"); //Und?
 	AI_Output			(self, other, "DIA_Lester_XARDASWEG_13_07"); //Keine Ahnung, ich habe kein Wort verstanden, Mann. Aber eines steht für mich fest: So bald werden wir ihn nicht wieder sehen.
 	AI_Output			(self, other, "DIA_Lester_XARDASWEG_13_08"); //Ich glaube, es ist ihm hier einfach zu brenzlig geworden, und da hat er sich einfach aus dem Staub gemacht.
-	B_LogEntry (TOPIC_BuchHallenVonIrdorath,"Xardas ist verschwunden. Lester gab mir einen Brief den Xardas mir hinterlassen hat."); 
+	B_LogEntry (TOPIC_BuchHallenVonIrdorath,TOPIC_BuchHallenVonIrdorath_9); 
 };
 
 

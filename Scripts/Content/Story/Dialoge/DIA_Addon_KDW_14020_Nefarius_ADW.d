@@ -147,7 +147,7 @@ func void DIA_Addon_Nefarius_Neues_find ()
 	
 	Log_CreateTopic (TOPIC_Addon_Flut, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Flut, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Flut,"Nefarius meint, ich sollte mit Saturas über die untergegangene Stadt sprechen."); 
+	B_LogEntry (TOPIC_Addon_Flut,TOPIC_Addon_Flut_1); 
 
 	
 	NefariusADW_Talk2Saturas = TRUE;

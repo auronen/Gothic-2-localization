@@ -168,7 +168,7 @@ FUNC VOID DIA_Gerold_Deal_Info()
 	AI_Output	(self ,other,"DIA_Gerold_Deal_12_06");	//Besorg mir eine leckere Wurst und einen frischen Laib Brot - und süßen Honig.
 	AI_Output	(self ,other,"DIA_Gerold_Deal_12_07");	//Dazu eine Flasche Wein ... Ja, das sollte reichen. Das wirst du ja wohl hinkriegen. Also komm wieder, wenn du das Zeug hast.
 	
-	B_LogEntry (TOPIC_RescueGorn,"Wenn ich Gerold eine Wurst, Brot, Wein und Honig bringe, wird er die Nachricht an Gorn weiterleiten.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_1);
 };	
 // ************************************************************
 // 	Deal Stuff
@@ -233,7 +233,7 @@ FUNC VOID DIA_Gerold_Stuff_Info()
 		DayContactGorn = Wld_GetDay();
 		DIA_Gerold_Stuff_permanent = TRUE;
 		
-		B_LogEntry (TOPIC_RescueGorn,"Gerold hat bekommen was er wollte und wird sich um die Nachricht kümmern.");
+		B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_2);
 	}
 	else 
 	{
@@ -281,7 +281,7 @@ FUNC VOID DIA_Gerold_Antwort_Info()
 		
 		GornsTreasure = TRUE;	
 		DIA_Gerold_Antwort_permanent = TRUE;
-		B_LogEntry (TOPIC_RescueGorn,"Gorn läßt uns ausrichten, das sein Gold am Südtor liegt.");
+		B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_3);
 	}
 	else
 	{
@@ -320,7 +320,7 @@ FUNC VOID DIA_Gerold_SetGornFree_Info()
 
 	CreateInvItems (self, ItKe_PrisonKey_MIS,1);
 	B_GiveInvItems	(self,other,ItKe_PrisonKey_MIS,1);
-	B_LogEntry (TOPIC_RescueGorn,"Gerold hat mir den Schlüssel für den Knast gegeben.");
+	B_LogEntry (TOPIC_RescueGorn,TOPIC_RescueGorn_4);
 };
 // ************************************************************
 // 	Perm
@@ -436,7 +436,7 @@ func void DIA_Gerold_KAP4_ALLESRUHIG_geben ()
 
  	Log_CreateTopic (TOPIC_GeroldGiveFood, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_GeroldGiveFood, LOG_RUNNING);
-	B_LogEntry (TOPIC_GeroldGiveFood,"Garond hat schon wieder die Nahrungsrationen gekürzt. Bevor Gerold vor Hunger etwas dummes anstellt, werde ich ihm besser was zu essen geben. Ich soll ihn im Magierhaus der Burg treffen, wenn alle anderen schlafen."); 
+	B_LogEntry (TOPIC_GeroldGiveFood,TOPIC_GeroldGiveFood_1); 
 
 	MIS_GeroldGiveFood = LOG_RUNNING;
 };

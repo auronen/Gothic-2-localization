@@ -123,7 +123,7 @@ func void DIA_Jack_Job_Info ()
 	
 	Log_CreateTopic (TOPIC_KillLighthouseBandits, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_KillLighthouseBandits, LOG_RUNNING);
-	B_LogEntry (TOPIC_KillLighthouseBandits,"Der alte Seemann Jack kann nicht in seinen alten Leuchtturm zurück, solange dort die Bandíten hausen."); 
+	B_LogEntry (TOPIC_KillLighthouseBandits,TOPIC_KillLighthouseBandits_1); 
 	
 	MIS_Jack_KillLighthouseBandits = LOG_RUNNING;
 	
@@ -438,7 +438,7 @@ func void DIA_Jack_BEMYCAPTAIN_seaman ()
 	
 	Log_CreateTopic (TOPIC_Captain, LOG_MISSION);                                                                                                                        
 	Log_SetTopicStatus(TOPIC_Captain, LOG_RUNNING);                                                                                                                      
-	B_LogEntry (TOPIC_Captain,"Jack, der alte Seemann aus dem Hafen wäre ein guter Kapitän. Allerdings müsste ich ihm vorher eine Vertretung für seinen Leuchturm suchen."); 
+	B_LogEntry (TOPIC_Captain,TOPIC_Captain_5); 
 	
 	Info_ClearChoices	(DIA_Jack_BEMYCAPTAIN);
 	Info_AddChoice	(DIA_Jack_BEMYCAPTAIN, "Schon gut. War nur so eine Idee.", DIA_Jack_BEMYCAPTAIN_no );

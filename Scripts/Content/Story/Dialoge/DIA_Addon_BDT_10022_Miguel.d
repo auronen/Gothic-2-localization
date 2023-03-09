@@ -226,7 +226,7 @@ FUNC VOID DIA_Addon_Miguel_Fortuno_Info()
 	AI_Output (self, other, "DIA_Addon_Miguel_Fortuno_11_06");//Wenn irgendwas beim Brauen schiefgeht, oder eine Zutat nicht stimmt, wirkt der Trank tödlich.
 	AI_Output (other, self, "DIA_Addon_Miguel_Fortuno_15_07");//Ich werde vorsichtig sein.
 	
-	B_LogEntry (Topic_Addon_Fortuno,"Miguel hat mir ein Rezept für einen Trank gegeben. Damit kann ich Fortuno helfen, sich wieder zu erinnern. Ich sollte den Trank nur brauen, wenn ich mich mit allen Zutaten auskenne. Sonst wirkt er tödlich. ");
+	B_LogEntry (Topic_Addon_Fortuno,Topic_Addon_Fortuno_4);
 };
 
 //---------------------------------------------------------------------
@@ -255,7 +255,7 @@ FUNC VOID DIA_Addon_Miguel_BRAU_Info()
 	AI_Output (self, other, "DIA_Addon_Miguel_BRAU_11_02");//Aber wenn du ein paar Tränke brauchst, ich hab noch welche dabei.
 	
 	Log_CreateTopic (Topic_Addon_BDT_Trader,LOG_NOTE);
-	B_LogEntry (Topic_Addon_BDT_Trader,"Bei Miguel kann ich Tränke und Pflanzen kaufen.");
+	B_LogEntry (Topic_Addon_BDT_Trader,Topic_Addon_BDT_Trader_3);
 };
 
 //---------------------------------------------------------------------

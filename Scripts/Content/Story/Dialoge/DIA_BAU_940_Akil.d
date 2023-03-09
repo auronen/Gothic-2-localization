@@ -64,7 +64,7 @@ func void DIA_Akil_Hallo_Info ()
 	
 	Log_CreateTopic (TOPIC_AkilsSLDStillthere, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AkilsSLDStillthere, LOG_RUNNING);
-	B_LogEntry (TOPIC_AkilsSLDStillthere,"Akils Hof wird von Söldnern bedroht."); 
+	B_LogEntry (TOPIC_AkilsSLDStillthere,TOPIC_AkilsSLDStillthere_1); 
 
 	Akils_SLDStillthere = TRUE;
 	AI_StopProcessInfos (self);
@@ -248,7 +248,7 @@ func void DIA_Addon_Akil_MissingPeople_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_MissingPeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MissingPeople, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_MissingPeople,"Der Bauer Akil vermisst seine beiden Feldarbeiter Tonak und Telbor."); 
+	B_LogEntry (TOPIC_Addon_MissingPeople,TOPIC_Addon_MissingPeople_4); 
 
 	MIS_Akil_BringMissPeopleBack = LOG_RUNNING;
 };
@@ -323,8 +323,8 @@ func void DIA_Akil_Lieferung_Info ()
 	B_GiveInvItems (self, other, ItMi_BaltramPaket,1);
 	Lieferung_Geholt = TRUE;
 	
-	B_LogEntry (TOPIC_Baltram, "Die Lieferung habe ich. Ich könnte sie jetzt zu Baltram bringen...");
-	B_LogEntry (TOPIC_Nagur,   "Die Lieferung habe ich. Ich könnte sie jetzt zu Nagur bringen...");
+	B_LogEntry (TOPIC_Baltram, TOPIC_Baltram_1);
+	B_LogEntry (TOPIC_Nagur,   TOPIC_Nagur_3);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -586,7 +586,7 @@ func void DIA_Akil_SCHAFDIEB_Info ()
 	MIS_Akil_SchafDiebe	= LOG_RUNNING;
 	Log_CreateTopic (TOPIC_AkilSchafDiebe, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AkilSchafDiebe, LOG_RUNNING);
-	B_LogEntry (TOPIC_AkilSchafDiebe,"Akil werde ständig Schafe gestohlen. Er hat die Banditen in der nahegelgenen Waldhöhle in verdacht."); 
+	B_LogEntry (TOPIC_AkilSchafDiebe,TOPIC_AkilSchafDiebe_1); 
 };
 
 func void DIA_Akil_SCHAFDIEB_wer ()

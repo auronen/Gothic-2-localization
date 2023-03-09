@@ -419,7 +419,7 @@ func void DIA_Jorgen_BEMYCAPTAIN_Info ()
 	
 	Log_CreateTopic (TOPIC_Captain, LOG_MISSION);                                                                                                                                                                                                                                            
 	Log_SetTopicStatus(TOPIC_Captain, LOG_RUNNING);                                                                                                                                                                                                                                          
-    B_LogEntry (TOPIC_Captain,"Jorgen wäre bereit als Kapitän für die Überfahrst zu fungieren, allerdings muss ich ihn erst freikaufen. Er hat Schulden beim Kloster.");
+    B_LogEntry (TOPIC_Captain,TOPIC_Captain_2);
 
 };
 

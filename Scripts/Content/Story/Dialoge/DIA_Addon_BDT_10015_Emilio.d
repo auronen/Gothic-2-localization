@@ -216,7 +216,7 @@ FUNC VOID DIA_Addon_Emilio_Senyan_Info()
 	AI_Output (self, other, "DIA_Addon_BDT_10015_Emilio_Senyan_10_05");//Ganz im Gegenteil. (abfällig) Der Mistkerl hat für Esteban gearbeitet.
 	
 	Senyan_CONTRA = LOG_SUCCESS;
-	B_LogEntry (Topic_Addon_Esteban, "Emilio steht nicht auf Estebans Seite.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_9);
 };
 
 //----------------------------------------------------------------------
@@ -280,7 +280,7 @@ FUNC VOID DIA_Addon_Emilio_VonEmilio_Info()
 		AI_Output (self, other, "DIA_Addon_Emilio_VonEmilio_10_07"); //Lass mich in Ruhe!
 		AI_StopProcessInfos(self);
 	};
-	B_LogEntry (Topic_Addon_Esteban, "Emilio meint das Lennar ein Idiot ist.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_10);
 };
 //----------------------------------------------------------------------
 //	Info Hilf Mir
@@ -312,7 +312,7 @@ FUNC VOID DIA_Addon_Emilio_HilfMir_Info()
 	AI_Output (self, other, "DIA_Addon_Emilio_HilfMir_10_05"); //Huno ... geh zu Huno. Er muss was über die Sache wissen.
 	Emilio_TellAll = TRUE;
 	
-	B_LogEntry (Topic_Addon_Esteban, "Emilio hat endlich einen Namen ausgespuckt: Huno.");
+	B_LogEntry (Topic_Addon_Esteban, Topic_Addon_Esteban_11);
 };
 
 //----------------------------------------------------------------------

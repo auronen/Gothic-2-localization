@@ -220,7 +220,7 @@ func void DIA_Addon_Martin_Farim_Info ()
 	AI_Output	(self, other, "DIA_Addon_Martin_Farim_07_06"); //Sag deinem Kumpel, er soll zu mir kommen und erzählen, wie das genau war mit der Miliz.
 	AI_Output	(self, other, "DIA_Addon_Martin_Farim_07_07"); //Ich werde mich darum kümmern.
 	
-	B_LogEntry (TOPIC_Addon_FarimsFish,	"Martin der Proviantmeister wird sich der Sache annehmen."); 
+	B_LogEntry (TOPIC_Addon_FarimsFish,	TOPIC_Addon_FarimsFish_2); 
 
 	Martin_KnowsFarim = TRUE;
 	B_GivePlayerXP (XP_Addon_FarimSchutz);
@@ -305,7 +305,7 @@ func void DIA_Addon_Martin_Rangerhelp_Info ()
 	AI_Output	(other, self, "DIA_Addon_Martin_Rangerhelp_15_12"); //Schon klar. Ich soll nachts hier Wache schieben, während du in der Kneipe rumhängst.
 	AI_Output	(self, other, "DIA_Addon_Martin_Rangerhelp_07_13"); //Tu es oder lass es.
 
-	B_LogEntry (TOPIC_Addon_RangerHelpMIL,"Ich soll nachts auf die Kisten des Proviantmeisters Martin aufpassen. Wenn ich den Kerl erwische, der sich an seinen Kisten zu schaffen macht, wird mir Martin helfen bei der Miliz unter zu kommen."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpMIL,TOPIC_Addon_RangerHelpMIL_2); 
 
 }; 
 
@@ -423,7 +423,7 @@ func void DIA_Addon_Martin_TellAll_Info ()
 	AI_Output (self, other, "DIA_Addon_Martin_TellAll_07_02"); //Und einige der Waffen sollen sogar aus den Beständen der Miliz gekommen sein.
 	AI_Output (self, other, "DIA_Addon_Martin_TellAll_07_03"); //Aber wer genau dahinter steckt, wissen wir noch nicht.
 	AI_Output (self, other, "DIA_Addon_Martin_TellAll_07_04"); //Wenn du genug Mumm in den Knochen hast, eine Gruppe von mindestens fünf Banditen aus dem Weg zu räumen, kannst du's vielleicht rausfinden ...
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Laut Martin ist der Waffenhändler ein einflußreicher Bürger des oberen Viertels."); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_7); 
 };	
 ///////////////////////////////////////////////////////////////////////
 //	About Bandits
@@ -453,7 +453,7 @@ func void DIA_Addon_Martin_AboutBandits_Info ()
 	//AI_Output (self, other, "DIA_Addon_Martin_AboutBandits_07_04"); //Ich werd sehen, was ich tun kann
 	
 	MIS_Martin_FindTheBanditTrader = LOG_RUNNING;
-	B_LogEntry (TOPIC_Addon_BanditTrader,"Die Banditen belagern die Verbindungsstrassen zwischen der Hafenstadt und den Bauernhöfen. Bei ihnen könnten Hinweise zu finden sein, die den Waffenhändler entlarven."); 
+	B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_8); 
 };	
 
 ///////////////////////////////////////////////////////////////////////
@@ -538,7 +538,7 @@ func void DIA_Addon_Martin_Fernando_Info ()
 			B_StartOtherRoutine	(Fernando,"Prison");
 			Fernando_ImKnast = TRUE;
 			MIs_Martin_FindTheBanditTrader = LOG_SUCCESS;
-			B_LogEntry (TOPIC_Addon_BanditTrader,"Martin wird dafür sorgen, dass Fernando seine Strafe absitzt. Ich soll Vatras davon unterrichten."); 
+			B_LogEntry (TOPIC_Addon_BanditTrader,TOPIC_Addon_BanditTrader_9); 
 
 			B_GivePlayerXP (XP_Addon_FernandoMartin);
 		}
@@ -692,7 +692,7 @@ func void DIA_Addon_Martin_GetMiliz_Info ()
 	B_GiveInvItems (self, other, ItWr_Martin_MilizEmpfehlung_Addon, 1);		
 	AI_Output	(self, other, "DIA_Addon_Martin_GetMiliz_07_05"); //Du findest ihn in der Kaserne. Ich bin mir sicher, dass er dich gebrauchen kann.
 
-	B_LogEntry (TOPIC_Addon_RangerHelpMIL,"Martin gab mir ein Empfehlungsschreiben für den kommandierenden Paladin Andre mit. Damit wird mich Andre in die Miliz aufnehmen. Andre finde ich in der Kaserne."); 
+	B_LogEntry (TOPIC_Addon_RangerHelpMIL,TOPIC_Addon_RangerHelpMIL_3); 
 };
 
 

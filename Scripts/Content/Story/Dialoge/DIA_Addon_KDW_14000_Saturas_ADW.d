@@ -181,15 +181,15 @@ func void DIA_Addon_Saturas_ADWStart_wastun2 ()
 	
 	Log_CreateTopic (TOPIC_Addon_RavenKDW, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RavenKDW, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_RavenKDW,"Raven entweiht den heiligen Tempel Adanos'. Ich soll ihn aufhalten. Auch wenn es bedeutet, dass ich ihn töten muss."); 
+	B_LogEntry (TOPIC_Addon_RavenKDW,TOPIC_Addon_RavenKDW_7); 
 
 	Log_CreateTopic (TOPIC_Addon_Sklaven, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Sklaven, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Sklaven,"Saturas will, dass ich die Sklaven befreie."); 
+	B_LogEntry (TOPIC_Addon_Sklaven,TOPIC_Addon_Sklaven_8); 
 
 	Log_CreateTopic (TOPIC_Addon_Relicts, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Relicts, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Relicts,"Saturas will, dass ich ihm alles bringe, dass Aufschluss über das alte Volk der Erbauer bringen kann."); 
+	B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_1); 
 	
 	Info_AddChoice	(DIA_Addon_Saturas_ADWStart, "Ich werd' mich dann mal auf den Weg machen.", DIA_Addon_Saturas_ADWStart_back );
 };
@@ -205,7 +205,7 @@ func void DIA_Addon_Saturas_ADWStart_back ()
 
 	Log_CreateTopic (TOPIC_Addon_BDTRuestung, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BDTRuestung, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Die Banditen schießen auf alles, was nicht wie sie selbst aussieht. Ich brauche eine Banditenrüstung, wenn ich mich den Banditen nähern will."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_10); 
 
 	AI_StopProcessInfos (self);
 	Npc_ExchangeRoutine	(self,"Start");
@@ -237,7 +237,7 @@ func void DIA_Addon_Saturas_PoorRanger_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_Lance, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Lance, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Lance,"Saturas schickte jemand namens Lance in den Sumpf der Banditen. Saturas fürchtet, dass Lance nicht sehr weit gekommen ist."); 
+	B_LogEntry (TOPIC_Addon_Lance,TOPIC_Addon_Lance_1); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -270,7 +270,7 @@ func void DIA_Addon_Saturas_Piraten_Info ()
 	AI_Output	(self, other, "DIA_Addon_Saturas_Piraten_14_03"); //Ich denke nicht, dass sie dich angreifen werden, wenn du zu ihnen gehst.
 	AI_Output	(self, other, "DIA_Addon_Saturas_Piraten_14_04"); //Vielleicht kannst du bei ihnen Hilfe finden ...
 
-	B_LogEntry (TOPIC_Addon_BDTRuestung,"Saturas meint, die Piraten könnten mir bei der Suche nach der Rüstung helfen."); 
+	B_LogEntry (TOPIC_Addon_BDTRuestung,TOPIC_Addon_BDTRuestung_11); 
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -393,7 +393,7 @@ func void DIA_Addon_Saturas_Tokens_Info ()
 		AI_Output	(other, self, "DIA_Addon_Saturas_Tokens_15_04"); //Was ist HIERMIT?
 		AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_05"); //Das sieht gut aus. Wo hast du das gefunden?
               
- 		B_LogEntry (TOPIC_Addon_Relicts,"Saturas hat von mir folgende Reliquien erhalten:"); 
+ 		B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_2); 
                                
 		if ((Npc_HasItems (other,ItMi_Addon_Stone_01)) && (Saturas_SCFound_ItMi_Addon_Stone_01 == FALSE))
 			{
@@ -404,7 +404,7 @@ func void DIA_Addon_Saturas_Tokens_Info ()
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_07"); //Die Tafeln tragen das Zeichen Quahodrons, eines großen Kriegers.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_08"); //Er ist der Feldherr, dessen Sohn Rhademes die ganze Stadt in den Untergang getrieben hat.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_09"); //(verächtlich) Ts. Ich wette, die Banditen wissen nicht einmal, mit was sie da handeln.
-				B_LogEntry (TOPIC_Addon_Relicts,"- Eine rote Steintafel, die die Banditen als Zahlungsmittel benutzen. Sie trägt das Zeichen des grossen Kriegers Quarhodron."); 
+				B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_3); 
 			};		
 		if ((Npc_HasItems (other,ItMi_Addon_Stone_02)) && (Saturas_SCFound_ItMi_Addon_Stone_02 == FALSE))
 			{
@@ -414,7 +414,7 @@ func void DIA_Addon_Saturas_Tokens_Info ()
 				AI_Output	(other, self, "DIA_Addon_Saturas_Tokens_15_10"); //Diese Tafel fand ich in einem Gebäude im Süden.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_11"); //Ah! Eine Tafel der Totenwächter. Sie waren es, die die Geister ihrer Verstorbenen beschworen.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_12"); //Die Verbindung zu ihren Ahnen war bei den Erbauern sehr stark.
-				B_LogEntry (TOPIC_Addon_Relicts,"- Eine violette Steintafel aus dem Herrenhaus der Totenwächter im Süden."); 
+				B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_4); 
 			};	
 
 		if ((Npc_HasItems (other,ItMi_Addon_Stone_03)) && (Saturas_SCFound_ItMi_Addon_Stone_03 == FALSE))
@@ -425,7 +425,7 @@ func void DIA_Addon_Saturas_Tokens_Info ()
 				AI_Output	(other, self, "DIA_Addon_Saturas_Tokens_15_13"); //Ich fand diese Tafel in einem Bauwerk im Südwesten.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_14"); //Der Tafel nach zu urteilen, handelt es sich dabei um die Behausung der Priester dieser Stadt.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_15"); //Der Name des obersten Priesters war KHARDIMON. Wir wissen noch nicht viel über ihn.
-				B_LogEntry (TOPIC_Addon_Relicts,"- Eine blaue Steintafel aus der Behausung der Priester im Südwesten."); 
+				B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_5); 
 			};		 
 		if ((Npc_HasItems (other,ItMi_Addon_Stone_04)) && (Saturas_SCFound_ItMi_Addon_Stone_04 == FALSE))
 			{
@@ -435,7 +435,7 @@ func void DIA_Addon_Saturas_Tokens_Info ()
 				AI_Output (other, self, "DIA_Addon_Saturas_Tokens_15_15"); //Dieses Ding hier lag in einem Gebäude nahe des großen Sumpfes.
 				AI_Output (self, other, "DIA_Addon_Saturas_Tokens_14_16"); //Das wird das Haus der Heiler gewesen sein.
 				AI_Output (self, other, "DIA_Addon_Saturas_Tokens_14_17"); //Wir wissen sehr wenig über sie. Sie scheinen die ersten gewesen zu sein, die verschwanden.
-				B_LogEntry (TOPIC_Addon_Relicts,"- Eine grüne Steintafel aus dem Haus der Heiler im südlichen Teil des Sumpfes."); 
+				B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_6); 
 			};		 
 		if ((Npc_HasItems (other,ItMi_Addon_Stone_05)) && (Saturas_SCFound_ItMi_Addon_Stone_05 == FALSE))
 			{
@@ -447,7 +447,7 @@ func void DIA_Addon_Saturas_Tokens_Info ()
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_20"); //Scheinbar eine Tafel der Gelehrten.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_80"); //Viele der Schriften, die wir gefunden haben, stammen vom Anführer der 'Kaste der Gelehrten'.
 				AI_Output	(self, other, "DIA_Addon_Saturas_Tokens_14_81"); //Merkwürdigerweise hat er seinen eigenen Namen nirgendwo hinterlassen ...
-				B_LogEntry (TOPIC_Addon_Relicts,"- Eine gelbe Steintafel aus der Bibliothek der Gelehrten im Norden."); 
+				B_LogEntry (TOPIC_Addon_Relicts,TOPIC_Addon_Relicts_7); 
 		};		 
 			
 			if (SC_Knows_WeaponInAdanosTempel == TRUE)
@@ -546,7 +546,7 @@ func void DIA_Addon_Saturas_StonePlateHint_wo ()
 
 	Log_CreateTopic (TOPIC_Addon_HousesOfRulers, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_HousesOfRulers, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_HousesOfRulers,"Saturas will, dass ich die Herrenhäuser der Erbauer nach etwas brauchbaren durchsuche. Riordian soll mir sagen, wo ich diese Häuser finden kann."); 
+	B_LogEntry (TOPIC_Addon_HousesOfRulers,TOPIC_Addon_HousesOfRulers_5); 
 };
 func void DIA_Addon_Saturas_StonePlateHint_unter ()
 {
@@ -803,7 +803,7 @@ func void DIA_Addon_Saturas_TuerZu_Info ()
 	
 	Log_CreateTopic (TOPIC_Addon_Quarhodron, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Quarhodron, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Quarhodron,"Raven hat sich die Macht der Totenwächter zu eigen gemacht. Er hat seine Kenntnis über den Tempel Adanos' von einem Geist erlangt. Ich soll zu Myxir gehen und ihm davon berichten.");  
+	B_LogEntry (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_12);  
 	
 	Saturas_RiesenPlan = TRUE;	
 };
@@ -840,7 +840,7 @@ func void DIA_Addon_Saturas_GhostQuestions_Info ()
 	AI_Output	(self, other, "DIA_Addon_Saturas_GhostQuestions_14_06"); //Sie waren sehr gründlich bei ihren Bemühungen, die Geschehnisse der Vergangenheit festzuhalten.
 	AI_Output	(self, other, "DIA_Addon_Saturas_GhostQuestions_14_07"); //Vielleicht findest du dort die Antworten, die Quarhodron von dir verlangt.
 
-	B_LogEntry (TOPIC_Addon_Quarhodron,"Saturas vermutet, dass ich die Antworten auf Quarhodrons Fragen in der Bibliothek der Gelehrten finde. Die Bibliothek liegt weit im Norden."); 
+	B_LogEntry (TOPIC_Addon_Quarhodron,TOPIC_Addon_Quarhodron_13); 
 
 };
 
@@ -903,7 +903,7 @@ func void DIA_Addon_Saturas_TalkedToGhost_wasistdas ()
 
 	Log_CreateTopic (TOPIC_Addon_Klaue, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Klaue, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Klaue,"Im Tempel Adanos befindet sich eine mächtige Waffe. Sie wird 'Die Klaue Beliars' genannt. Raven darf diese Waffe nicht in die Finger bekommen."); 
+	B_LogEntry (TOPIC_Addon_Klaue,TOPIC_Addon_Klaue_1); 
 
 };
 func void DIA_Addon_Saturas_TalkedToGhost_kammern ()
@@ -963,7 +963,7 @@ func void DIA_Addon_Saturas_RelictsBack_Info ()
 	CreateInvItems (hero, ItMi_Addon_Stone_05, 1);
 	AI_PrintScreen	(PRINT_ItemsErhalten, -1, YPOS_ItemTaken, FONT_ScreenSmall, 2);
 
-	B_LogEntry (TOPIC_Addon_Kammern,"Saturas schickt mich mit den fünf Reliqien der Erbauer in den Tempel Adanos' um die Kammern zu überwinden und Raven aufzuhalten."); 
+	B_LogEntry (TOPIC_Addon_Kammern,TOPIC_Addon_Kammern_2); 
 
 	AI_Output	(self, other, "DIA_Addon_Saturas_RelictsBack_14_07"); //Adanos möge dir gnädig sein und uns alle beschützen.
 	AI_Output	(self, other, "DIA_Addon_Saturas_RelictsBack_14_08"); //Vielleicht ist es ja noch nicht zu spät.
@@ -1006,7 +1006,7 @@ func void DIA_Addon_Saturas_RavensDead_Info ()
 
 	Log_CreateTopic (TOPIC_Addon_VatrasAbloesung, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_VatrasAbloesung, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_VatrasAbloesung,"Myxir wurde los geschickt um Vatras in der Hafenstadt zu unterstützen."); 
+	B_LogEntry (TOPIC_Addon_VatrasAbloesung,TOPIC_Addon_VatrasAbloesung_2); 
 
 	B_GivePlayerXP (XP_Addon_Saturas_RavensDead);
 };
@@ -1103,7 +1103,7 @@ func void DIA_Addon_Saturas_BeliarsWeapon_geben ()
 
 	Log_CreateTopic (TOPIC_Addon_Klaue, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Klaue, LOG_RUNNING);
-	B_LogEntry (TOPIC_Addon_Klaue,"Ich kann die Klaue Beliars bei Saturas abgeben oder sie für mich behalten."); 
+	B_LogEntry (TOPIC_Addon_Klaue,TOPIC_Addon_Klaue_2); 
 };
 
 func void DIA_Addon_Saturas_BeliarsWeapon_besser ()
@@ -1115,7 +1115,7 @@ func void DIA_Addon_Saturas_BeliarsWeapon_besser ()
 	
 	Log_CreateTopic (TOPIC_Addon_Klaue, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Klaue, LOG_RUNNING);
-	B_LogEntry  (TOPIC_Addon_Klaue,"Um die Klaue meinem Willen zu unterwerfen muss ich zu Beliar beten.");
+	B_LogEntry  (TOPIC_Addon_Klaue,TOPIC_Addon_Klaue_3);
 
 	B_Say 	  	(other,self,"$VERSTEHE");
 };
