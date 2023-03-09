@@ -17,6 +17,11 @@ INSTANCE ITWr_Addon_Hinweis_02		(C_Item)
 	description			= 	name;
 	TEXT[0]				=  "Aus der Kneipe im Banditenlager";
 };
+const string Hinweis_02_1 = "Hey Leute,";
+const string Hinweis_02_2 = "Lou ist im Sumpf verschwunden, wahrscheinlich wurde er von den Haien gefressen.";
+const string Hinweis_02_3 = "Viel schlimmer ist - mit ihm ist auch der Tür Schlüssel verschwunden.";
+const string Hinweis_02_4 = "Also wer ihn findet, kann Lou's Kram behalten.";
+const string Hinweis_02_5 = "Snaf";
 func void Use_Hinweis_02 ()
 {
 		var int nDocID;
@@ -29,14 +34,14 @@ func void Use_Hinweis_02 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Hey Leute,");
+					Doc_PrintLine	( nDocID,  0, Hinweis_02_1);
 					Doc_PrintLines	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Lou ist im Sumpf verschwunden, wahrscheinlich wurde er von den Haien gefressen.");	
-					Doc_PrintLines	( nDocID,  0, "Viel schlimmer ist - mit ihm ist auch der Tür Schlüssel verschwunden."					);
+					Doc_PrintLines	( nDocID,  0, Hinweis_02_2);	
+					Doc_PrintLines	( nDocID,  0, Hinweis_02_3					);
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Also wer ihn findet, kann Lou's Kram behalten.");	
+					Doc_PrintLines	( nDocID,  0, Hinweis_02_4);	
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Snaf");
+					Doc_PrintLine	( nDocID,  0, Hinweis_02_5);
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };
@@ -64,6 +69,10 @@ INSTANCE ITWr_Addon_Health_04		(C_Item)
 	TEXT[5]			= NAME_Value;
 	COUNT[5]		= value;
 };
+const string Heilrezept_04_1 = "Herstellung eines Heiltrunkes:";
+const string Heilrezept_04_2 = "Benötigt wird ein Feldknöterich, sowie drei Essenzen der Heilung.";
+const string Heilrezept_04_3 = "Zusammenkippen und aufbrühen nach dem Rezept der Heilungs - Elixiere. ";
+const string Heilrezept_04_4 = "Dieser Trank kann nur von einem Alchemisten erstellt werden, der das Rezept der Heilungs - Elixiere kennt.";
 func void Use_Heilrezept_04 ()
 {
 		var int nDocID;
@@ -85,13 +94,13 @@ func void Use_Heilrezept_04 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Herstellung eines Heiltrunkes:");
+					Doc_PrintLines	( nDocID,  0, Heilrezept_04_1);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Benötigt wird ein Feldknöterich, sowie drei Essenzen der Heilung.");	
-					Doc_PrintLines	( nDocID,  0, "Zusammenkippen und aufbrühen nach dem Rezept der Heilungs - Elixiere. ");	
+					Doc_PrintLines	( nDocID,  0, Heilrezept_04_2);	
+					Doc_PrintLines	( nDocID,  0, Heilrezept_04_3);	
 					Doc_PrintLines	( nDocID,  0, ""					);
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Dieser Trank kann nur von einem Alchemisten erstellt werden, der das Rezept der Heilungs - Elixiere kennt.");	
+					Doc_PrintLines	( nDocID,  0, Heilrezept_04_4);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, "");	
@@ -122,6 +131,10 @@ INSTANCE ITWr_Addon_Mana_04		(C_Item)
 	TEXT[5]			= NAME_Value;
 	COUNT[5]		= value;
 };
+const string Manarezept_04_1 = "Herstellung eines Manatrunkes:";
+const string Manarezept_04_2 = "Benötigt wird ein Feldknöterich, sowie drei Essenzen magischer Kraft.";
+const string Manarezept_04_3 = "Zusammenkippen und aufbrühen nach dem Rezept der Mana - Elixiere. ";
+const string Manarezept_04_4 = "Dieser Trank kann nur von einem Alchemisten erstellt werden, der das Rezept der Mana -Elixiere kennt.";
 func void Use_Manarezept_04 ()
 {
 		var int nDocID;
@@ -143,13 +156,13 @@ func void Use_Manarezept_04 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Herstellung eines Manatrunkes:");
+					Doc_PrintLines	( nDocID,  0, Manarezept_04_1);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Benötigt wird ein Feldknöterich, sowie drei Essenzen magischer Kraft.");	
-					Doc_PrintLines	( nDocID,  0, "Zusammenkippen und aufbrühen nach dem Rezept der Mana - Elixiere. ");	
+					Doc_PrintLines	( nDocID,  0, Manarezept_04_2);	
+					Doc_PrintLines	( nDocID,  0, Manarezept_04_3);	
 					Doc_PrintLines	( nDocID,  0, ""					);
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Dieser Trank kann nur von einem Alchemisten erstellt werden, der das Rezept der Mana -Elixiere kennt.");	
+					Doc_PrintLines	( nDocID,  0, Manarezept_04_4);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, "");	
@@ -174,6 +187,12 @@ INSTANCE ITWr_Addon_Hinweis_01		(C_Item)
 	description			= 	name;
 	TEXT[0]				=  "Hing an einer Hütte im Sumpf";
 };
+const string Hinweis_01_1 = "Hey Leute,";
+const string Hinweis_01_2 = "Das Zeug in den Truhen ist für Notfälle gedacht. ";
+const string Hinweis_01_3 = "Und es ist für ALLE da. Also nehmt euch nur was, falls ihr was davon braucht.";
+const string Hinweis_01_4 = "Und nehmt nur soviel ihr braucht.";
+const string Hinweis_01_5 = "Wenn sich alle daran halten, dann klappt es auch.";
+const string Hinweis_01_6 = "Fletcher";
 func void Use_Hinweis_01 ()
 {
 		var int nDocID;
@@ -186,14 +205,14 @@ func void Use_Hinweis_01 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Hey Leute,");
-					Doc_PrintLines	( nDocID,  0, "Das Zeug in den Truhen ist für Notfälle gedacht. ");	
-					Doc_PrintLines	( nDocID,  0, "Und es ist für ALLE da. Also nehmt euch nur was, falls ihr was davon braucht.");	
-					Doc_PrintLines	( nDocID,  0, "Und nehmt nur soviel ihr braucht."					);
-					Doc_PrintLines	( nDocID,  0, "Wenn sich alle daran halten, dann klappt es auch."					);
+					Doc_PrintLine	( nDocID,  0, Hinweis_01_1);
+					Doc_PrintLines	( nDocID,  0, Hinweis_01_2);	
+					Doc_PrintLines	( nDocID,  0, Hinweis_01_3);	
+					Doc_PrintLines	( nDocID,  0, Hinweis_01_4					);
+					Doc_PrintLines	( nDocID,  0, Hinweis_01_5					);
 					Doc_PrintLines	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Fletcher");
+					Doc_PrintLine	( nDocID,  0, Hinweis_01_6);
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };
@@ -216,6 +235,13 @@ INSTANCE ITWr_Addon_William_01		(C_Item)
 	description			= 	name;
 	Text[0]				=	"Diese Notiz hatte der Fischer William bei sich.";
 };
+const string William_01_1 = "William,";
+const string William_01_2 = "Wenn der Mond im vollen Licht steht, wird die Wache abgelenkt sein.";
+const string William_01_3 = "Schleich dich raus - aber sei vorsichtig!";
+const string William_01_4 = "Wenn du dem Knüppeldamm folgst, kannst du den Sumpf verlassen.";
+const string William_01_5 = "Das Piratenlager liegt auf der anderen Seite des Tals weit im Westen. ";
+const string William_01_6 = "Von dort sollte es dir ein leichtes sein mit dem Boot zu entkommen. ";
+const string William_01_7 = "Jemand der es gut mit dir meint";
 func void Use_William_01 ()
 {
 		var int nDocID;
@@ -228,15 +254,15 @@ func void Use_William_01 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "William,");
-					Doc_PrintLines	( nDocID,  0, "Wenn der Mond im vollen Licht steht, wird die Wache abgelenkt sein.");	
-					Doc_PrintLines	( nDocID,  0, "Schleich dich raus - aber sei vorsichtig!");	
-					Doc_PrintLines	( nDocID,  0, "Wenn du dem Knüppeldamm folgst, kannst du den Sumpf verlassen."					);
-					Doc_PrintLines	( nDocID,  0, "Das Piratenlager liegt auf der anderen Seite des Tals weit im Westen. "					);
-					Doc_PrintLines	( nDocID,  0, "Von dort sollte es dir ein leichtes sein mit dem Boot zu entkommen. ");	
+					Doc_PrintLine	( nDocID,  0, William_01_1);
+					Doc_PrintLines	( nDocID,  0, William_01_2);	
+					Doc_PrintLines	( nDocID,  0, William_01_3);	
+					Doc_PrintLines	( nDocID,  0, William_01_4					);
+					Doc_PrintLines	( nDocID,  0, William_01_5					);
+					Doc_PrintLines	( nDocID,  0, William_01_6);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "Jemand der es gut mit dir meint");	
+					Doc_PrintLine	( nDocID,  0, William_01_7);	
 					Doc_Show		( nDocID );
 };
 //**********************************************************************************
@@ -259,6 +285,11 @@ INSTANCE ITWr_Addon_MCELIXIER_01		(C_Item)
 	Text[0]				= 	"Rezept für den Elixier der Geistveränderung.";
 	Text[1]				= 	"Dieser Trank hilft verlorenen Erinnerung zurück zu bringen.";
 };
+const string MCELIXIER_01_1 = "Elixier der Geistveränderung";
+const string MCELIXIER_01_2 = "Zur Herstellung des Trankes erforderlich, ist das Sekret aus zwei Blutfliegenstacheln.";
+const string MCELIXIER_01_3 = "Dazu gibt man ein Mana Extrakt, sowie eine Essenz der Heilung.";
+const string MCELIXIER_01_4 = "Abschließend wird in den köchelnden Sud ein Beutel roter Tränen - Pfeffer gerührt.";
+const string MCELIXIER_01_5 = "Nur ein kundigen Alchemist, der weiß wie das Sekret aus den Stacheln zu entnehmen ist, sollte sich an dem Trank versuchen. ";
 func void Use_MCELIXIER_01 ()
 {
 		Knows_MCELIXIER = TRUE;
@@ -271,13 +302,13 @@ func void Use_MCELIXIER_01 ()
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "Elixier der Geistveränderung");	
+					Doc_PrintLine	( nDocID,  0, MCELIXIER_01_1);	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Zur Herstellung des Trankes erforderlich, ist das Sekret aus zwei Blutfliegenstacheln.");	
-					Doc_PrintLines	( nDocID,  0, "Dazu gibt man ein Mana Extrakt, sowie eine Essenz der Heilung.");	
-					Doc_PrintLines	( nDocID,  0, "Abschließend wird in den köchelnden Sud ein Beutel roter Tränen - Pfeffer gerührt."					);
+					Doc_PrintLines	( nDocID,  0, MCELIXIER_01_2);	
+					Doc_PrintLines	( nDocID,  0, MCELIXIER_01_3);	
+					Doc_PrintLines	( nDocID,  0, MCELIXIER_01_4					);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Nur ein kundigen Alchemist, der weiß wie das Sekret aus den Stacheln zu entnehmen ist, sollte sich an dem Trank versuchen. ");	
+					Doc_PrintLines	( nDocID,  0, MCELIXIER_01_5);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
@@ -301,6 +332,12 @@ INSTANCE ITWr_Addon_Pirates_01		(C_Item)
 	description			= 	name;
 	TEXT[0]				=	"Diesen Zettel hatte Angus in der Tasche.";
 };
+const string Pirates_01_1 = "Ihr Piraten,";
+const string Pirates_01_2 = "Besorgt die letzte Lieferung, die für uns bestimmt ist.";
+const string Pirates_01_3 = "Bringt sie dann zu eurer Höhle. Dort treffen wir uns.";
+const string Pirates_01_4 = "Ich bezahle euch den doppelten Wert in Gold.";
+const string Pirates_01_5 = "So wird's gemacht";
+const string Pirates_01_6 = "Tom";
 func void Use_Pirates_01 ()
 {
 	Read_JuansText = TRUE;
@@ -312,16 +349,16 @@ func void Use_Pirates_01 ()
 					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, "Ihr Piraten,"					);
+					Doc_PrintLine	( nDocID,  0, Pirates_01_1					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Besorgt die letzte Lieferung, die für uns bestimmt ist.");	
-					Doc_PrintLine	( nDocID,  0, "Bringt sie dann zu eurer Höhle. Dort treffen wir uns.");	
-					Doc_PrintLines	( nDocID,  0, "Ich bezahle euch den doppelten Wert in Gold."					);
+					Doc_PrintLines	( nDocID,  0, Pirates_01_2);	
+					Doc_PrintLine	( nDocID,  0, Pirates_01_3);	
+					Doc_PrintLines	( nDocID,  0, Pirates_01_4					);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "So wird's gemacht");	
-					Doc_PrintLine	( nDocID,  0, "Tom");	
+					Doc_PrintLines	( nDocID,  0, Pirates_01_5);	
+					Doc_PrintLine	( nDocID,  0, Pirates_01_6);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };
@@ -344,6 +381,10 @@ INSTANCE ITWr_Addon_Joint_01		(C_Item)
 	description			= 	name;
 	TEXT[0]				= 	"Lag in der Truhe von Fortuno";
 };
+const string Joint_Rezept_01_1 = "Der grüne Novize";
+const string Joint_Rezept_01_2 = "(...) Die Stengel lassen sich zwar prima drehen, aber was wir im Sumpflager hatten, war von anderem Kaliber.";
+const string Joint_Rezept_01_3 = "Wenn ich die Essenz aus zwei Sumpfkrautpflanzen verwende, und dazu einen Feldknöterich, dann habe ich einen Stengel mit der Wirkung des grünen Novizen.";
+const string Joint_Rezept_01_4 = "Der grüne Novize hilft gegen Schmerzen jeder Art und macht einen klaren Kopf.";
 func void Use_Joint_Rezept_01 ()
 {
 		var int nDocID;
@@ -356,14 +397,14 @@ func void Use_Joint_Rezept_01 ()
 					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, "Der grüne Novize"					);
+					Doc_PrintLine	( nDocID,  0, Joint_Rezept_01_1					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "(...) Die Stengel lassen sich zwar prima drehen, aber was wir im Sumpflager hatten, war von anderem Kaliber.");	
+					Doc_PrintLines	( nDocID,  0, Joint_Rezept_01_2);	
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Wenn ich die Essenz aus zwei Sumpfkrautpflanzen verwende, und dazu einen Feldknöterich, dann habe ich einen Stengel mit der Wirkung des grünen Novizen."					);
+					Doc_PrintLines	( nDocID,  0, Joint_Rezept_01_3					);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Der grüne Novize hilft gegen Schmerzen jeder Art und macht einen klaren Kopf.");	
+					Doc_PrintLines	( nDocID,  0, Joint_Rezept_01_4);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
@@ -388,6 +429,13 @@ INSTANCE ITWr_Addon_Lou_Rezept		(C_Item)
 	description			= 	name;
 	Text[0]				= 	"Rezept zur Herstellung von Lou's Hammer.";
 };
+const string LouRezept_1 = "Lou's Hammer Rezept";
+const string LouRezept_2 = "Zutaten für ein Hammergebräu:";
+const string LouRezept_3 = "Man nehme eine Wasserflasche, sowie 2 Rüben und 'ne ordentliche Portion Sumpfkraut.";
+const string LouRezept_4 = "Dazu gemahlene Zähne von einem Sumpfhai.";
+const string LouRezept_5 = "Alles zusammen in die Flasche kippen und mit einem Schuß Rum abkochen.";
+const string LouRezept_6 = "Prost.";
+const string LouRezept_7 = "Laut dem blinden alten Mann ist es gesünder, die Dämpfe nicht einzuatmen!";
 func void UseLouRezept ()
 {
 		Knows_LousHammer = TRUE;
@@ -401,18 +449,18 @@ func void UseLouRezept ()
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "Lou's Hammer Rezept"					);
+					Doc_PrintLine	( nDocID,  0, LouRezept_1					);
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Zutaten für ein Hammergebräu:");	
+					Doc_PrintLine	( nDocID,  0, LouRezept_2);	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Man nehme eine Wasserflasche, sowie 2 Rüben und 'ne ordentliche Portion Sumpfkraut.");	
-					Doc_PrintLines	( nDocID,  0, "Dazu gemahlene Zähne von einem Sumpfhai."					);
-					Doc_PrintLines	( nDocID,  0, "Alles zusammen in die Flasche kippen und mit einem Schuß Rum abkochen."					);
+					Doc_PrintLines	( nDocID,  0, LouRezept_3);	
+					Doc_PrintLines	( nDocID,  0, LouRezept_4					);
+					Doc_PrintLines	( nDocID,  0, LouRezept_5					);
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Prost.");	
+					Doc_PrintLine	( nDocID,  0, LouRezept_6);	
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Laut dem blinden alten Mann ist es gesünder, die Dämpfe nicht einzuatmen!");	
+					Doc_PrintLines	( nDocID,  0, LouRezept_7);	
 					Doc_Show		( nDocID );
 
 };
@@ -435,6 +483,10 @@ INSTANCE ITWr_Addon_Lou_Rezept2		(C_Item)
 	description			= 	name;
 	Text[0]				= 	"Rezept zur Herstellung von Lou's Doppelhammer.";
 };
+const string LouRezept2_1 = "Lou's Doppelhammer";
+const string LouRezept2_2 = "Man nimmt den guten alten Lou's Hammer und destilliert ihn nochmal.";
+const string LouRezept2_3 = "Dieses Mischung sollte nur von erfahrenen Schnapsbrennern hergestellt werden.";
+const string LouRezept2_4 = "Wenn sich ein Laie daran versucht, wird er nicht nur blind, sondern auch tot sein.";
 func void UseLouRezept2 ()
 {
 		Knows_SchlafHammer = TRUE;
@@ -447,13 +499,13 @@ func void UseLouRezept2 ()
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "Lou's Doppelhammer"					);
+					Doc_PrintLine	( nDocID,  0, LouRezept2_1					);
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Man nimmt den guten alten Lou's Hammer und destilliert ihn nochmal.");
+					Doc_PrintLines	( nDocID,  0, LouRezept2_2);
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Dieses Mischung sollte nur von erfahrenen Schnapsbrennern hergestellt werden.");	
+					Doc_PrintLines	( nDocID,  0, LouRezept2_3);	
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Wenn sich ein Laie daran versucht, wird er nicht nur blind, sondern auch tot sein.");	
+					Doc_PrintLines	( nDocID,  0, LouRezept2_4);	
 					
 					Doc_Show		( nDocID );
 
@@ -478,6 +530,12 @@ INSTANCE ITWr_Addon_Piratentod		(C_Item)
 	description			= 	name;
 	Text[0]				=	"Rezept zur Herstellung des Schnellen Herings.";
 };
+const string RezeptPiratentod_1 = "Schneller Hering (von mir)";
+const string RezeptPiratentod_2 = "Kleiner Muntermacher für echte Kerle";
+const string RezeptPiratentod_3 = "Man braucht wie üblich eine Wasserflasche. Diese füllst du mit einer Einheit Rum, dazu gibst du einen frischen Fisch.";
+const string RezeptPiratentod_4 = "Sobald die Flüssigkeit beginnt sich gelb zu färben, nimmst du den Fisch heraus und rundest das ganze mit einem Bund";
+const string RezeptPiratentod_5 = "frisch gepflückten Snapperkraut ab.";
+const string RezeptPiratentod_6 = "Vorsicht. Das Zeug hat 'nen starken Abgang.";
 func void UseRezeptPiratentod ()
 {
 		Knows_SchnellerHering = TRUE;
@@ -490,16 +548,16 @@ func void UseRezeptPiratentod ()
 					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, "Schneller Hering (von mir)"					);
+					Doc_PrintLine	( nDocID,  0, RezeptPiratentod_1					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Kleiner Muntermacher für echte Kerle");	
+					Doc_PrintLine	( nDocID,  0, RezeptPiratentod_2);	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Man braucht wie üblich eine Wasserflasche. Diese füllst du mit einer Einheit Rum, dazu gibst du einen frischen Fisch.");	
-					Doc_PrintLines	( nDocID,  0, "Sobald die Flüssigkeit beginnt sich gelb zu färben, nimmst du den Fisch heraus und rundest das ganze mit einem Bund"					);
-					Doc_PrintLines	( nDocID,  0, "frisch gepflückten Snapperkraut ab."					);
+					Doc_PrintLines	( nDocID,  0, RezeptPiratentod_3);	
+					Doc_PrintLines	( nDocID,  0, RezeptPiratentod_4					);
+					Doc_PrintLines	( nDocID,  0, RezeptPiratentod_5					);
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Vorsicht. Das Zeug hat 'nen starken Abgang.");	
+					Doc_PrintLines	( nDocID,  0, RezeptPiratentod_6);	
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_Show		( nDocID );
 
@@ -543,6 +601,13 @@ INSTANCE ItWr_Addon_AxtAnleitung (C_ITEM)
 	description			= 	name;
 	Text[0]				= 	"Anleitung zum Bau einer leichten, scharfen Axt";
 };
+const string AxtAnleitung_1 = "Die Banditenaxt";
+const string AxtAnleitung_2 = "Eine einhändige Axt";
+const string AxtAnleitung_3 = "Ein Mann der die Grundsätze des Schmiedens beherrscht, kann eine besondere Axt herstellen. ";
+const string AxtAnleitung_4 = "Dazu braucht man zwei Stücke heißes Roheisen.";
+const string AxtAnleitung_5 = "Einen Brocken Erz und dreimal Zähne von Wölfen, Snappern oder ähnlichem Getier.";
+const string AxtAnleitung_6 = "Erz und Zähne zusammen mit dem Eisen am Amboß zusammenhauen.";
+const string AxtAnleitung_7 = "Eine solche Axt läßt sich sehr leicht führen und macht ordentlich Schaden.";
 func void UseAxtAnleitung ()
 {
 		if (Npc_GetTalentSkill 	(hero, NPC_TALENT_SMITH) >= 1)
@@ -556,18 +621,18 @@ func void UseAxtAnleitung ()
 					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, "Die Banditenaxt"					);
+					Doc_PrintLine	( nDocID,  0, AxtAnleitung_1					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "Eine einhändige Axt");	
+					Doc_PrintLine	( nDocID,  0, AxtAnleitung_2);	
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Ein Mann der die Grundsätze des Schmiedens beherrscht, kann eine besondere Axt herstellen. ");	
-					Doc_PrintLines	( nDocID,  0, "Dazu braucht man zwei Stücke heißes Roheisen."					);
-					Doc_PrintLines	( nDocID,  0, "Einen Brocken Erz und dreimal Zähne von Wölfen, Snappern oder ähnlichem Getier."					);
+					Doc_PrintLines	( nDocID,  0, AxtAnleitung_3);	
+					Doc_PrintLines	( nDocID,  0, AxtAnleitung_4					);
+					Doc_PrintLines	( nDocID,  0, AxtAnleitung_5					);
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Erz und Zähne zusammen mit dem Eisen am Amboß zusammenhauen.");	
+					Doc_PrintLine	( nDocID,  0, AxtAnleitung_6);	
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "Eine solche Axt läßt sich sehr leicht führen und macht ordentlich Schaden.");
+					Doc_PrintLine	( nDocID,  0, AxtAnleitung_7);
 					Doc_PrintLines	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };

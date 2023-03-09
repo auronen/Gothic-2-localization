@@ -17,6 +17,19 @@ INSTANCE ItWr_XardasLetterToOpenBook_MIS		(C_Item)
 	scemeName			=	"MAP";
 	description			= 	name;
 };
+const string XardasLetterToOpenBook_1 = "Ich hatte vermutet, einer der Drachen im Minental sei die Quelle der bösen Macht.";
+const string XardasLetterToOpenBook_2 = "Ich habe mich geirrt.";
+const string XardasLetterToOpenBook_3 = "Wenn alles so gekommen ist, wie ich es vermute, ";
+const string XardasLetterToOpenBook_4 = "wirst du jetzt nach den Hallen von Irdorath suchen. ";
+const string XardasLetterToOpenBook_5 = "Das Buch, das du Pyrokar gegeben hast, enthält alle Hinweise, die du brauchst.";
+const string XardasLetterToOpenBook_6 = "Mir hätte klar sein sollen, warum die Suchenden";
+const string XardasLetterToOpenBook_7 = " es in ihren Besitz bringen wollten.";
+const string XardasLetterToOpenBook_8 = "Du mußt es dir wiederbeschaffen!";
+const string XardasLetterToOpenBook_9 = "Die Worte 'XARAK BENDARDO' werden es öffnen. Verrate sie niemandem!";
+const string XardasLetterToOpenBook_10 = "Ich werde mich nun wichtigeren Dingen widmen.";
+const string XardasLetterToOpenBook_11 = "Ich kann dir bei deiner letzten Aufgabe nicht beistehen - nur du kannst es schaffen, die Quelle des Bösen zu bezwingen.";
+const string XardasLetterToOpenBook_12 = "Wir werden uns wiedersehen! ";
+const string XardasLetterToOpenBook_13 = "                             Xardas.";
 func void Use_XardasLetterToOpenBook ()
 {   
  
@@ -29,22 +42,22 @@ func void Use_XardasLetterToOpenBook ()
 					Doc_SetFont 	( nDocID, -1, FONT_Book    			); 	// -1 -> all pages 
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Ich hatte vermutet, einer der Drachen im Minental sei die Quelle der bösen Macht."					);
-					Doc_PrintLines	( nDocID,  0, "Ich habe mich geirrt."					);
-					Doc_PrintLines	( nDocID,  0, "Wenn alles so gekommen ist, wie ich es vermute, "					);
-					Doc_PrintLines	( nDocID,  0, "wirst du jetzt nach den Hallen von Irdorath suchen. "					);
-					Doc_PrintLines	( nDocID,  0, "Das Buch, das du Pyrokar gegeben hast, enthält alle Hinweise, die du brauchst."					);
-					Doc_PrintLines	( nDocID,  0, "Mir hätte klar sein sollen, warum die Suchenden"					);
-					Doc_PrintLines	( nDocID,  0, " es in ihren Besitz bringen wollten."					);
-					Doc_PrintLines	( nDocID,  0, "Du mußt es dir wiederbeschaffen!"					);
-					Doc_PrintLines	( nDocID,  0, "Die Worte 'XARAK BENDARDO' werden es öffnen. Verrate sie niemandem!"					);
-					Doc_PrintLines	( nDocID,  0, "Ich werde mich nun wichtigeren Dingen widmen."					);
-					Doc_PrintLines	( nDocID,  0, "Ich kann dir bei deiner letzten Aufgabe nicht beistehen - nur du kannst es schaffen, die Quelle des Bösen zu bezwingen."					);
-					Doc_PrintLines	( nDocID,  0, "Wir werden uns wiedersehen! "					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_1					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_2					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_3					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_4					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_5					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_6					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_7					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_8					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_9					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_10					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_11					);
+					Doc_PrintLines	( nDocID,  0, XardasLetterToOpenBook_12					);
 					Doc_PrintLines	( nDocID,  0, ""					);
 					Doc_PrintLines	( nDocID,  0, ""					);
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "                             Xardas."					);
+					Doc_PrintLine	( nDocID,  0, XardasLetterToOpenBook_13					);
 					Doc_Show		( nDocID );
 
 	if(MIS_Xardas_SCCanOpenIrdorathBook == FALSE)
@@ -153,6 +166,11 @@ INSTANCE ItWr_HallsofIrdorath_Open_Mis (C_ITEM)
 	on_state[0]				=	Use_HallsofIrdorath_Open;
 };
 
+const string HallsofIrdorath_Open_1 = "...und so habe ich den Zugang zur Bibliothek hinter einer Geheimtür versteckt, um meine Aufzeichnungen über die Tempel Beliars zu schützen. ";
+const string HallsofIrdorath_Open_2 = "Hätten meine Glaubensbrüder von der Existenz dieser Aufzeichnungen gewußt, hätten diese verblendeten Narren sicherlich alles vernichtet.";
+const string HallsofIrdorath_Open_3 = "Jetzt wissen sie nicht mehr, als dass es diese Tempel einmal gegeben hat.";
+const string HallsofIrdorath_Open_4 = "Zur Sicherheit habe ich einige Diener zum Schutz der Bibliothek beschworen.";
+const string HallsofIrdorath_Open_5 = "Der Schlüssel öffnet die letzte Tür.";
 FUNC VOID Use_HallsofIrdorath_Open ()
 {   	 
 	if (ItWr_SCReadsHallsofIrdorath == FALSE)
@@ -177,8 +195,8 @@ FUNC VOID Use_HallsofIrdorath_Open ()
  					Doc_PrintLine	( nDocID,  0, ""					);										
 					Doc_SetFont 	( nDocID,  0, FONT_Book	   			); 	// -1 -> all pages 
 					Doc_PrintLine	( nDocID,  0, ""					);										
-					Doc_PrintLines	( nDocID,  0, "...und so habe ich den Zugang zur Bibliothek hinter einer Geheimtür versteckt, um meine Aufzeichnungen über die Tempel Beliars zu schützen. ");
-					Doc_PrintLines	( nDocID,  0, "Hätten meine Glaubensbrüder von der Existenz dieser Aufzeichnungen gewußt, hätten diese verblendeten Narren sicherlich alles vernichtet.");		
+					Doc_PrintLines	( nDocID,  0, HallsofIrdorath_Open_1);
+					Doc_PrintLines	( nDocID,  0, HallsofIrdorath_Open_2);		
 					
 					//2.Seite
 					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);  //  0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
@@ -186,15 +204,15 @@ FUNC VOID Use_HallsofIrdorath_Open ()
 					Doc_PrintLine	( nDocID,  1, ""					);										
 					Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages 
 					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLines	( nDocID,  1, "Jetzt wissen sie nicht mehr, als dass es diese Tempel einmal gegeben hat."	);
+					Doc_PrintLines	( nDocID,  1, HallsofIrdorath_Open_3	);
 					Doc_PrintLine	( nDocID,  1, ""					);
 					//Absatz
-					Doc_PrintLines	( nDocID,  1, "Zur Sicherheit habe ich einige Diener zum Schutz der Bibliothek beschworen.");
+					Doc_PrintLines	( nDocID,  1, HallsofIrdorath_Open_4);
 					Doc_PrintLine	( nDocID,  1, ""					);
 					//Absatz
 					Doc_PrintLine	( nDocID,  1, ""					);
 					//Absatz
-					Doc_PrintLines	( nDocID,  1, "Der Schlüssel öffnet die letzte Tür.");
+					Doc_PrintLines	( nDocID,  1, HallsofIrdorath_Open_5);
 					
 					Doc_Show		( nDocID );
 
@@ -223,6 +241,15 @@ INSTANCE ItWr_XardasSeamapBook_Mis (C_ITEM)
 	on_state[0]				=	Use_XardasSeamapBook_Mis;
 };
 
+const string XardasSeamapBook_Mis_1 = "...ich bin mir jetzt sicher, dass es sich bei diesem Bauwerk um die Hallen von Irdorath handelt. Sie befinden sich augenblicklich auf einer Insel nicht weit vor Khorinis Hafen. Beliars Interesse an den Erzminen wird immer offenkundiger...";
+const string XardasSeamapBook_Mis_2 = "...je stärker sie sind desto eher scheinen sie es wert zu sein, ihm als Untote zu dienen. Ein solch bekehrter Paladin ist für einen Kämpfer nur schwer zu besiegen. Einer von ihnen ist mir in die Hände gefallen. Ich hoffe die anderen werden seine Anwesendheit hier unten nicht bemerken...";
+const string XardasSeamapBook_Mis_3 = "...der bekehrte Paladin, scheint auf keinerlei Reize mehr zu reagieren. Ich habe seine Rüstung und seine restlichen Habseeligkeiten im hinteren Raum verstaut. Die Tür kann nur von innen geöffnet werden. Ich habe eine Teleportrune gebaut, um in den Raum zu gelangen. Die Anleitung dazu  habe ich im Almanach hinterlegt, so dass er Eine sie finden kann...";
+const string XardasSeamapBook_Mis_4 = "...die Zeichen sind eindeutig! Wenn der Eine kommt, wird er jede Hilfe brauchen, die wir ihm geben können, Beliar ist schon zu stark. Mir ist es gelungen einige sehr wertvolle Artefakte zu erwerben und werde sie für den Fall der Fälle hier unten aufbewahren. Ich gehe davon aus, das der erwählte aus unseren Reihe stammt und ";
+const string XardasSeamapBook_Mis_5 = "habe ihm ein paar Anweisungen in den Almanach geschreiben.";
+const string XardasSeamapBook_Mis_6 = "...Ich bin mir nun sicher. Wir können das Schicksal nicht aufhalten. Sobalt Beliar sich stark genug fühlt, wird er sich erheben und nach der Herrschaft über die Welt greifen. Ich muss den Einen finden, sonst sind wir verloren.";
+const string XardasSeamapBook_Mis_7 = "...es wird einen Krieg geben, einen Krieg um das Schicksal der Welt. Ich scheine der Einzige zu zu sein, der die Vorzeichen deuten kann. Um mich herum scheint sie jeder zu ignorieren. Es wird der Eine kommen und mit seinem Erscheinen hat der Krieg begonnen. Dieser Krieg ist so alt wie die Zeit, aber es scheint sich eine Entscheidung abzuzeichenen  ";
+const string XardasSeamapBook_Mis_8 = "und ich werde nicht tatenlos zusehen, wie Andere das Geschick der Welt in ihre Hände nehmen.";
+const string XardasSeamapBook_Mis_9 = "...Ich habe die alten Schriften studiert und Anleitung gefunden wie man die sagenumwobenen Waffen der alten Drachenherren herstellen kann. Allerdings kann ich mir nicht vorstellen, wo man die Zutaten herbekommen soll. Zur Sicherheit habe ich das Rezept im Almanach niedergelegt, wer von uns kann schon sagen, was die Zukunft uns bringen mag, vielleicht ja sogar Drachen.";
 FUNC VOID Use_XardasSeamapBook_Mis ()
 {   	 
 
@@ -240,45 +267,45 @@ FUNC VOID Use_XardasSeamapBook_Mis ()
 					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline	   			); 	// -1 -> all pages 
  					Doc_SetFont 	( nDocID,  0, FONT_Book	   			); 	// -1 -> all pages 
 					Doc_PrintLine	( nDocID,  0, ""					);										
-					Doc_PrintLines	( nDocID,  0, "...ich bin mir jetzt sicher, dass es sich bei diesem Bauwerk um die Hallen von Irdorath handelt. Sie befinden sich augenblicklich auf einer Insel nicht weit vor Khorinis Hafen. Beliars Interesse an den Erzminen wird immer offenkundiger...");
+					Doc_PrintLines	( nDocID,  0, XardasSeamapBook_Mis_1);
 					Doc_PrintLines	( nDocID,  0, "");		
 	
 					if (hero.guild == GIL_PAL)
 					{
-						Doc_PrintLines	( nDocID,  0, "...je stärker sie sind desto eher scheinen sie es wert zu sein, ihm als Untote zu dienen. Ein solch bekehrter Paladin ist für einen Kämpfer nur schwer zu besiegen. Einer von ihnen ist mir in die Hände gefallen. Ich hoffe die anderen werden seine Anwesendheit hier unten nicht bemerken...");		
+						Doc_PrintLines	( nDocID,  0, XardasSeamapBook_Mis_2);		
 						
 						//2.Seite
 						Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);  //  0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 						Doc_SetFont 	( nDocID,  1, FONT_BookHeadline	   			); 	// -1 -> all pages 
 						Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages 
 						Doc_PrintLine	( nDocID,  1, ""					);
-						Doc_PrintLines	( nDocID,  1, "...der bekehrte Paladin, scheint auf keinerlei Reize mehr zu reagieren. Ich habe seine Rüstung und seine restlichen Habseeligkeiten im hinteren Raum verstaut. Die Tür kann nur von innen geöffnet werden. Ich habe eine Teleportrune gebaut, um in den Raum zu gelangen. Die Anleitung dazu  habe ich im Almanach hinterlegt, so dass er Eine sie finden kann..."	);
+						Doc_PrintLines	( nDocID,  1, XardasSeamapBook_Mis_3	);
 					};
 					
 					if (hero.guild == GIL_KDF)
 					{
-						Doc_PrintLines	( nDocID,  0, "...die Zeichen sind eindeutig! Wenn der Eine kommt, wird er jede Hilfe brauchen, die wir ihm geben können, Beliar ist schon zu stark. Mir ist es gelungen einige sehr wertvolle Artefakte zu erwerben und werde sie für den Fall der Fälle hier unten aufbewahren. Ich gehe davon aus, das der erwählte aus unseren Reihe stammt und ");
+						Doc_PrintLines	( nDocID,  0, XardasSeamapBook_Mis_4);
 						
 						//2.Seite
 						Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);  //  0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 						Doc_SetFont 	( nDocID,  1, FONT_BookHeadline	   			); 	// -1 -> all pages 
 						Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages 
-						Doc_PrintLines	( nDocID,  1, "habe ihm ein paar Anweisungen in den Almanach geschreiben."					);
+						Doc_PrintLines	( nDocID,  1, XardasSeamapBook_Mis_5					);
 						Doc_PrintLine	( nDocID,  1, ""					);
-						Doc_PrintLines	( nDocID,  1, "...Ich bin mir nun sicher. Wir können das Schicksal nicht aufhalten. Sobalt Beliar sich stark genug fühlt, wird er sich erheben und nach der Herrschaft über die Welt greifen. Ich muss den Einen finden, sonst sind wir verloren."); 
+						Doc_PrintLines	( nDocID,  1, XardasSeamapBook_Mis_6); 
 					};
 					
 					if (hero.guild == GIL_DJG)
 					{
-						Doc_PrintLines	( nDocID,  0, "...es wird einen Krieg geben, einen Krieg um das Schicksal der Welt. Ich scheine der Einzige zu zu sein, der die Vorzeichen deuten kann. Um mich herum scheint sie jeder zu ignorieren. Es wird der Eine kommen und mit seinem Erscheinen hat der Krieg begonnen. Dieser Krieg ist so alt wie die Zeit, aber es scheint sich eine Entscheidung abzuzeichenen  ");
+						Doc_PrintLines	( nDocID,  0, XardasSeamapBook_Mis_7);
 						
 						//2.Seite
 						Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);  //  0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 						Doc_SetFont 	( nDocID,  1, FONT_BookHeadline	   			); 	// -1 -> all pages 
 						Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages 
-						Doc_PrintLines	( nDocID,  1, "und ich werde nicht tatenlos zusehen, wie Andere das Geschick der Welt in ihre Hände nehmen."					);
+						Doc_PrintLines	( nDocID,  1, XardasSeamapBook_Mis_8					);
 						Doc_PrintLine	( nDocID,  1, ""					);
-						Doc_PrintLines	( nDocID,  1, "...Ich habe die alten Schriften studiert und Anleitung gefunden wie man die sagenumwobenen Waffen der alten Drachenherren herstellen kann. Allerdings kann ich mir nicht vorstellen, wo man die Zutaten herbekommen soll. Zur Sicherheit habe ich das Rezept im Almanach niedergelegt, wer von uns kann schon sagen, was die Zukunft uns bringen mag, vielleicht ja sogar Drachen."); 
+						Doc_PrintLines	( nDocID,  1, XardasSeamapBook_Mis_9); 
 					};					
 					
 					Doc_Show		( nDocID );
@@ -306,6 +333,8 @@ INSTANCE ItWr_UseLampIdiot_Mis	(C_Item)
 	description			= 	name;
 	TEXT[0]				=	"aus dem Buch ´Die Hallen von Irdorath´";
 };
+const string ItWr_UseLampIdiot_Mis_1 = "     Die Lampe bringt Licht ";
+const string ItWr_UseLampIdiot_Mis_2 = "     in die unteren Gefilde";
 func void UseItWr_UseLampIdiot_Mis ()
 {   
 		var int nDocID;
@@ -321,8 +350,8 @@ func void UseItWr_UseLampIdiot_Mis ()
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_SetFont		(nDocID,  0, FONT_Book);
-					Doc_PrintLine	(nDocID,  0, "     Die Lampe bringt Licht "						);
-					Doc_PrintLine	(nDocID,  0, "     in die unteren Gefilde"						);
+					Doc_PrintLine	(nDocID,  0, ItWr_UseLampIdiot_Mis_1						);
+					Doc_PrintLine	(nDocID,  0, ItWr_UseLampIdiot_Mis_2						);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
@@ -415,6 +444,12 @@ INSTANCE ITWr_ForgedShipLetter_MIS	(C_Item)
 	TEXT[3]				=	"Ermächtigungsschreiben";
 	TEXT[4]				=   "für das Schiff der Paladine";
 };
+const string ITWr_ForgedShipLetter_MIS_1 = " Ermächtigungsschreiben";
+const string ITWr_ForgedShipLetter_MIS_2 = " Diese Urkunde berechtigt seinen";
+const string ITWr_ForgedShipLetter_MIS_3 = " Besitzer, sich auf unbestimmte Zeit auf der";
+const string ITWr_ForgedShipLetter_MIS_4 = " königlichen Kriegsgaleree von Lord Hagen";
+const string ITWr_ForgedShipLetter_MIS_5 = " aufzuhalten oder das Schiff zu führen.";
+const string ITWr_ForgedShipLetter_MIS_6 = "     königliches Siegel";
 func void UseITWr_ForgedShipLetter_MIS ()
 {   
 		var int nDocID;
@@ -427,20 +462,20 @@ func void UseITWr_ForgedShipLetter_MIS ()
 					Doc_SetFont		(nDocID, -1, FONT_BookHeadline);
 					Doc_SetMargins	(nDocID, -1, 50, 50, 50, 50, 1);
 					Doc_PrintLine	(nDocID,  0, ""													);
-					Doc_PrintLine	(nDocID,  0, " Ermächtigungsschreiben"							);
+					Doc_PrintLine	(nDocID,  0, ITWr_ForgedShipLetter_MIS_1							);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_SetFont		(nDocID,  0, FONT_Book);
-					Doc_PrintLine	(nDocID,  0, " Diese Urkunde berechtigt seinen"					);
-					Doc_PrintLine	(nDocID,  0, " Besitzer, sich auf unbestimmte Zeit auf der"		);
-					Doc_PrintLine	(nDocID,  0, " königlichen Kriegsgaleree von Lord Hagen"		);
-					Doc_PrintLine	(nDocID,  0, " aufzuhalten oder das Schiff zu führen."			);
+					Doc_PrintLine	(nDocID,  0, ITWr_ForgedShipLetter_MIS_2					);
+					Doc_PrintLine	(nDocID,  0, ITWr_ForgedShipLetter_MIS_3		);
+					Doc_PrintLine	(nDocID,  0, ITWr_ForgedShipLetter_MIS_4		);
+					Doc_PrintLine	(nDocID,  0, ITWr_ForgedShipLetter_MIS_5			);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
-					Doc_PrintLine	(nDocID,  0, "     königliches Siegel"							);
+					Doc_PrintLine	(nDocID,  0, ITWr_ForgedShipLetter_MIS_6							);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);

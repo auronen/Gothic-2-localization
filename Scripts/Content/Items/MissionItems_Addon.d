@@ -20,6 +20,17 @@ INSTANCE ItWr_SaturasFirstMessage_Addon_Sealed	(C_Item)
 
 };
 var int Use_SaturasFirstMessage_OneTime;
+const string SaturasFirstMessage_1 = "Werter Vatras,";
+const string SaturasFirstMessage_2 = "Wir sind bis zum Portal vorgedrungen. Du hattest recht.";
+const string SaturasFirstMessage_3 = "Es scheint tatsächlich so, als seien sie Adanos-gläubige gewesen. Ich bitte dich, das anhand meiner Aufzeichnungen nochmal zu prüfen.";
+const string SaturasFirstMessage_4 = "Wir haben schon seit Tagen keines dieser seltsamen Wesen aus Stein ausmachen können.";
+const string SaturasFirstMessage_5 = "Trotzdem bebt die Erde immer noch aus nicht erkennbaren Gründen.";
+const string SaturasFirstMessage_6 = "Ich vermute, dass uns das Studium bald mehr Aufklärung darüber bescheren wird.";
+const string SaturasFirstMessage_7 = "Das Ornament, das wir gefunden haben, hat eine weitaus wichtigere Bedeutung, als wir zuerst angenommen haben. Es scheint ein wichtiges Schlüsselartefakt zu sein. Ist aber leider nicht vollständig. Wir müssen es noch weiter studieren.";
+const string SaturasFirstMessage_8 = "Entsende eines unserer Kinder vom 'Ring des Wassers', um es uns zurück zu bringen. Wenn es geht, schicke nicht Cavalorn.";
+const string SaturasFirstMessage_9 = "Ich habe ihn damit beauftragt, dir diesen Brief zu überbringen. Ich denke, damit hat er erst einmal genug getan.";
+const string SaturasFirstMessage_10 = "Ich hoffe, dass wir das Richtige tun.";
+const string SaturasFirstMessage_11 = "Saturas";
 func void Use_SaturasFirstMessage ()
 {   
 		var int nDocID;
@@ -28,18 +39,18 @@ func void Use_SaturasFirstMessage ()
 					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 	); 
 					Doc_SetFont 	( nDocID, -1, FONT_Book		   		); 	
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   	);  
-					Doc_PrintLine	( nDocID,  0, "Werter Vatras,"					);
-					Doc_PrintLines	( nDocID,  0, "Wir sind bis zum Portal vorgedrungen. Du hattest recht."					);
-					Doc_PrintLines	( nDocID,  0, "Es scheint tatsächlich so, als seien sie Adanos-gläubige gewesen. Ich bitte dich, das anhand meiner Aufzeichnungen nochmal zu prüfen."					);
-					Doc_PrintLines	( nDocID,  0, "Wir haben schon seit Tagen keines dieser seltsamen Wesen aus Stein ausmachen können."					);
-					Doc_PrintLines	( nDocID,  0, "Trotzdem bebt die Erde immer noch aus nicht erkennbaren Gründen."					);
-					Doc_PrintLines	( nDocID,  0, "Ich vermute, dass uns das Studium bald mehr Aufklärung darüber bescheren wird."					);
-					Doc_PrintLines	( nDocID,  0, "Das Ornament, das wir gefunden haben, hat eine weitaus wichtigere Bedeutung, als wir zuerst angenommen haben. Es scheint ein wichtiges Schlüsselartefakt zu sein. Ist aber leider nicht vollständig. Wir müssen es noch weiter studieren."					);
-					Doc_PrintLines	( nDocID,  0, "Entsende eines unserer Kinder vom 'Ring des Wassers', um es uns zurück zu bringen. Wenn es geht, schicke nicht Cavalorn."					);
-					Doc_PrintLines	( nDocID,  0, "Ich habe ihn damit beauftragt, dir diesen Brief zu überbringen. Ich denke, damit hat er erst einmal genug getan."					);
-					Doc_PrintLines	( nDocID,  0, "Ich hoffe, dass wir das Richtige tun."					);
+					Doc_PrintLine	( nDocID,  0, SaturasFirstMessage_1					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_2					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_3					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_4					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_5					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_6					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_7					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_8					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_9					);
+					Doc_PrintLines	( nDocID,  0, SaturasFirstMessage_10					);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "Saturas"					);
+					Doc_PrintLine	( nDocID,  0, SaturasFirstMessage_11					);
 					Doc_Show		( nDocID );
 		
 		if (Use_SaturasFirstMessage_OneTime == FALSE)
@@ -357,6 +368,12 @@ INSTANCE ItWr_Martin_MilizEmpfehlung_Addon		(C_Item)
 
 	
 };
+const string MartinMilizEmpfehlung_Addon_1 = "Geehrter Lord Andre";
+const string MartinMilizEmpfehlung_Addon_2 = "Mit diesem Schreiben übermittle ich euch einen neuen Rekruten für unsere Miliz.";
+const string MartinMilizEmpfehlung_Addon_3 = "Er hat sich bei mir schon durch einige schwierige und standesgemässe Dienste verdient gemacht.";
+const string MartinMilizEmpfehlung_Addon_4 = "Ich bin mir sicher, dass er sich sehr gut eignet um den König und das Wohl der Bürger dieser Stadt zu schützen.";
+const string MartinMilizEmpfehlung_Addon_5 = "Innos schütze den König";
+const string MartinMilizEmpfehlung_Addon_6 = "     Proviantmeister Martin";
 func void Use_MartinMilizEmpfehlung_Addon ()
 {   
  
@@ -370,14 +387,14 @@ func void Use_MartinMilizEmpfehlung_Addon ()
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
 					Doc_PrintLine	(nDocID,  0, ""													);
-					Doc_PrintLines	(nDocID,  0, "Geehrter Lord Andre"								);
+					Doc_PrintLines	(nDocID,  0, MartinMilizEmpfehlung_Addon_1								);
 					Doc_PrintLines	(nDocID,  0, ""													);
-					Doc_PrintLines	(nDocID,  0, "Mit diesem Schreiben übermittle ich euch einen neuen Rekruten für unsere Miliz.");
-					Doc_PrintLines	(nDocID,  0, "Er hat sich bei mir schon durch einige schwierige und standesgemässe Dienste verdient gemacht.");
-					Doc_PrintLines	(nDocID,  0, "Ich bin mir sicher, dass er sich sehr gut eignet um den König und das Wohl der Bürger dieser Stadt zu schützen.");
-					Doc_PrintLine	(nDocID,  0, "Innos schütze den König"							);
+					Doc_PrintLines	(nDocID,  0, MartinMilizEmpfehlung_Addon_2);
+					Doc_PrintLines	(nDocID,  0, MartinMilizEmpfehlung_Addon_3);
+					Doc_PrintLines	(nDocID,  0, MartinMilizEmpfehlung_Addon_4);
+					Doc_PrintLine	(nDocID,  0, MartinMilizEmpfehlung_Addon_5							);
 					Doc_PrintLine	(nDocID,  0, ""													);
-					Doc_PrintLine	(nDocID,  0, "     Proviantmeister Martin"						);
+					Doc_PrintLine	(nDocID,  0, MartinMilizEmpfehlung_Addon_6						);
 					Doc_Show		(nDocID);
 		
 };
@@ -408,6 +425,14 @@ INSTANCE ItWr_RavensKidnapperMission_Addon		(C_Item)
 	
 };
 var int Use_RavensKidnapperMission_Addon_OneTime;
+const string RavensKidnapperMission_Addon_1 = "Dexter, du Mistkerl!";
+const string RavensKidnapperMission_Addon_2 = "Als ich noch Erzbaron war, warst du nicht so unzuverlässig.";
+const string RavensKidnapperMission_Addon_3 = "Wenn du es nicht schaffst, noch mehr Bürger aus der Stadt zu entführen und zu mir zu entsenden, dann werden wir bald ein handfestes Problem mit den Jungs in unserem Versteck haben. ";
+const string RavensKidnapperMission_Addon_4 = "Ich brauche hier mehr Sklaven, sonst starten die Jungs hier noch eine Revolte. Und was das heißt, muss ich dir nicht sagen, oder?";
+const string RavensKidnapperMission_Addon_5 = "Ich stehe kurz davor in den Tempel hinein zu gelangen. Da kann ich mir Störungen dieser Art nicht leisten.";
+const string RavensKidnapperMission_Addon_6 = "Und noch ein Problem:";
+const string RavensKidnapperMission_Addon_7 = "Auf kurz oder lang müssen wir einen Weg über die hohen Berge im Nordosten von Khorinis finden. Die Piraten machen die Überfahrten sicher nicht mehr lange mit, wenn wir sie nicht mehr dafür bezahlen.";
+const string RavensKidnapperMission_Addon_8 = "     Raven";
 func void Use_RavensKidnapperMission_Addon ()
 {   
  	if (Use_RavensKidnapperMission_Addon_OneTime == FALSE)
@@ -428,16 +453,16 @@ func void Use_RavensKidnapperMission_Addon ()
 				Doc_SetPage		(nDocID,  0, "letters.TGA", 0);
 				Doc_SetFont		(nDocID, -1, FONT_Book);
 				Doc_SetMargins	(nDocID, -1, 50, 50, 50, 50, 1);
-				Doc_PrintLines	(nDocID,  0, "Dexter, du Mistkerl!");
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_1);
 				Doc_PrintLine	(nDocID,  0, ""														);
-				Doc_PrintLines	(nDocID,  0, "Als ich noch Erzbaron war, warst du nicht so unzuverlässig.");
-				Doc_PrintLines	(nDocID,  0, "Wenn du es nicht schaffst, noch mehr Bürger aus der Stadt zu entführen und zu mir zu entsenden, dann werden wir bald ein handfestes Problem mit den Jungs in unserem Versteck haben. ");
-				Doc_PrintLines	(nDocID,  0, "Ich brauche hier mehr Sklaven, sonst starten die Jungs hier noch eine Revolte. Und was das heißt, muss ich dir nicht sagen, oder?");
-				Doc_PrintLines	(nDocID,  0, "Ich stehe kurz davor in den Tempel hinein zu gelangen. Da kann ich mir Störungen dieser Art nicht leisten.");
-				Doc_PrintLines	(nDocID,  0, "Und noch ein Problem:"								);
-				Doc_PrintLines	(nDocID,  0, "Auf kurz oder lang müssen wir einen Weg über die hohen Berge im Nordosten von Khorinis finden. Die Piraten machen die Überfahrten sicher nicht mehr lange mit, wenn wir sie nicht mehr dafür bezahlen.");
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_2);
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_3);
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_4);
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_5);
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_6								);
+				Doc_PrintLines	(nDocID,  0, RavensKidnapperMission_Addon_7);
 				Doc_PrintLine	(nDocID,  0, ""														);
-				Doc_PrintLine	(nDocID,  0, "     Raven"											);
+				Doc_PrintLine	(nDocID,  0, RavensKidnapperMission_Addon_8											);
 				Doc_Show		(nDocID);
 		
 };
@@ -467,6 +492,10 @@ INSTANCE ItWr_Vatras_KDFEmpfehlung_Addon		(C_Item)
 
 	
 };
+const string VatrasKDFEmpfehlung_Addon_1 = "Brüder des Feuers";
+const string VatrasKDFEmpfehlung_Addon_2 = "Mir wurde soeben zugetragen, dass es einen Tribut erfordert, in eure Gefilde eingelassen zu werden.";
+const string VatrasKDFEmpfehlung_Addon_3 = "Ich übermittle mit diesem Schreiben eine gläubigen Mann, der Novize in euren Reihen werden will.";
+const string VatrasKDFEmpfehlung_Addon_4 = "     Vatras";
 func void Use_VatrasKDFEmpfehlung_Addon ()
 {   
  
@@ -480,13 +509,13 @@ func void Use_VatrasKDFEmpfehlung_Addon ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Brüder des Feuers");
+					Doc_PrintLines	( nDocID,  0, VatrasKDFEmpfehlung_Addon_1);
 					Doc_PrintLines	( nDocID,  0, "");					
-					Doc_PrintLines	( nDocID,  0, "Mir wurde soeben zugetragen, dass es einen Tribut erfordert, in eure Gefilde eingelassen zu werden.");
-					Doc_PrintLines	( nDocID,  0, "Ich übermittle mit diesem Schreiben eine gläubigen Mann, der Novize in euren Reihen werden will."					);
+					Doc_PrintLines	( nDocID,  0, VatrasKDFEmpfehlung_Addon_2);
+					Doc_PrintLines	( nDocID,  0, VatrasKDFEmpfehlung_Addon_3					);
 					//Doc_PrintLine	( nDocID,  0, "Ich hoffe, dass ich nicht persönlich erscheinen muss ihm den Einlass ");
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "     Vatras");
+					Doc_PrintLine	( nDocID,  0, VatrasKDFEmpfehlung_Addon_4);
 					Doc_Show		( nDocID );				
 		
 };
@@ -530,6 +559,11 @@ INSTANCE ItWr_LuciasLoveLetter_Addon		(C_Item)
 	description			=  	name;
 	
 };
+const string LuciasLoveLetter_Addon_1 = "Liebster Elvrich";
+const string LuciasLoveLetter_Addon_2 = "Mir fehlen die Worte um zu beschreiben, wie leid es mir tut.";
+const string LuciasLoveLetter_Addon_3 = "Ich weiß, dass du es nicht verstehen wirst, aber ich bin zu dem Schluss gekommen, dass es besser für uns beide ist, wenn du dir ein anständigeres Mädchen als mich suchst.";
+const string LuciasLoveLetter_Addon_4 = "Von dort, wo ich jetzt hin gehe, werde ich nicht mehr zurück kehren. Vergiss mich. Eine Dirne wie ich ist nichts für so einen aufrechten Kerl, wie du einer bist. Leb' wohl.";
+const string LuciasLoveLetter_Addon_5 = "     Lucia";
 func void Use_LuciasLoveLetter_Addon ()
 {   
  
@@ -547,13 +581,13 @@ func void Use_LuciasLoveLetter_Addon ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Liebster Elvrich");
+					Doc_PrintLines	( nDocID,  0, LuciasLoveLetter_Addon_1);
 					Doc_PrintLines	( nDocID,  0, "");					
-					Doc_PrintLines	( nDocID,  0, "Mir fehlen die Worte um zu beschreiben, wie leid es mir tut.");
-					Doc_PrintLines	( nDocID,  0, "Ich weiß, dass du es nicht verstehen wirst, aber ich bin zu dem Schluss gekommen, dass es besser für uns beide ist, wenn du dir ein anständigeres Mädchen als mich suchst."					);
-					Doc_PrintLines	( nDocID,  0, "Von dort, wo ich jetzt hin gehe, werde ich nicht mehr zurück kehren. Vergiss mich. Eine Dirne wie ich ist nichts für so einen aufrechten Kerl, wie du einer bist. Leb' wohl.");
+					Doc_PrintLines	( nDocID,  0, LuciasLoveLetter_Addon_2);
+					Doc_PrintLines	( nDocID,  0, LuciasLoveLetter_Addon_3					);
+					Doc_PrintLines	( nDocID,  0, LuciasLoveLetter_Addon_4);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "     Lucia");
+					Doc_PrintLine	( nDocID,  0, LuciasLoveLetter_Addon_5);
 					Doc_Show		( nDocID );				
 };
 
@@ -678,6 +712,13 @@ INSTANCE ItWr_Addon_BanditTrader		(C_Item)
 	
 };
 var int Use_ItWr_Addon_BanditTrader_OneTime;
+const string ItWr_Addon_BanditTrader_1 = "15 Kurzschwerter";
+const string ItWr_Addon_BanditTrader_2 = "20 Degen";
+const string ItWr_Addon_BanditTrader_3 = "25 Laib Brot";
+const string ItWr_Addon_BanditTrader_4 = "15 Flaschen Wein";
+const string ItWr_Addon_BanditTrader_5 = "Das war das letzte Mal. ";
+const string ItWr_Addon_BanditTrader_6 = "Die Sache wird mir langsam zu heiß";
+const string ItWr_Addon_BanditTrader_7 = "     Fernando";
 func void Use_ItWr_Addon_BanditTrader ()
 {   
  	BanditTrader_Lieferung_Gelesen = TRUE;
@@ -690,15 +731,15 @@ func void Use_ItWr_Addon_BanditTrader ()
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
 					Doc_PrintLines	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "15 Kurzschwerter");
-					Doc_PrintLines	( nDocID,  0, "20 Degen"					);
-					Doc_PrintLines	( nDocID,  0, "25 Laib Brot");
-					Doc_PrintLines	( nDocID,  0, "15 Flaschen Wein"					);
+					Doc_PrintLines	( nDocID,  0, ItWr_Addon_BanditTrader_1);
+					Doc_PrintLines	( nDocID,  0, ItWr_Addon_BanditTrader_2					);
+					Doc_PrintLines	( nDocID,  0, ItWr_Addon_BanditTrader_3);
+					Doc_PrintLines	( nDocID,  0, ItWr_Addon_BanditTrader_4					);
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Das war das letzte Mal. "					);
-					Doc_PrintLines	( nDocID,  0, "Die Sache wird mir langsam zu heiß"					);
+					Doc_PrintLines	( nDocID,  0, ItWr_Addon_BanditTrader_5					);
+					Doc_PrintLines	( nDocID,  0, ItWr_Addon_BanditTrader_6					);
 					Doc_PrintLines	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "     Fernando");
+					Doc_PrintLine	( nDocID,  0, ItWr_Addon_BanditTrader_7);
 					Doc_Show		( nDocID );				
 	
 	if (MIS_Vatras_FindTheBanditTrader != 0)
@@ -730,6 +771,13 @@ INSTANCE ItWr_Vatras2Saturas_FindRaven	(C_Item)
 	TEXT[2]				=   "Vatras Schreiben für Saturas";
 
 };
+const string Vatras2Saturas_FindRaven_1 = "Werter Saturas";
+const string Vatras2Saturas_FindRaven_2 = "Ich hoffe, ihr seid schon bald am Ziel. Unsere Situation hier in der Stadt scheint sich zur Zeit etwas zu entspannen. Aber ich fürchte, die Ruhe trügt. Ihr solltet euch beeilen. Ich brauche euch hier.";
+const string Vatras2Saturas_FindRaven_3 = "Ich habe deine Aufzeichnungen studiert und kann deinen Verdacht bestätigen. Die Schriftzeichen deuten tatsächlich auf eine Adanosgläubige Kultur hin. Seid also vorsichtig und lasst euch nicht von falschen Propheten blenden.";
+const string Vatras2Saturas_FindRaven_4 = "Die vermissten Bürger von Khorinis wurden von dem ehemaligen Erzbaron Raven in die Region verschleppt, in die das Portal offensichtlich führen wird.";
+const string Vatras2Saturas_FindRaven_5 = "Noch eines: Ich habe euch Hilfe entsendet. Der Überbringer dieser Nachricht ist etwas ganz besonderes. Er hat so einen bemerkenswerten Glanz in seinen Augen. Ich bin mir nicht sicher, aber es könnte ER sein, auch wenn wir ihn uns anders vorgestellt haben.";
+const string Vatras2Saturas_FindRaven_6 = "Prüfe ihn. Ich denke, ich habe recht.";
+const string Vatras2Saturas_FindRaven_7 = "     Vatras";
 func void Use_Vatras2Saturas_FindRaven ()
 {   
 		var int nDocID;
@@ -738,15 +786,15 @@ func void Use_Vatras2Saturas_FindRaven ()
 					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 	); 
 					Doc_SetFont 	( nDocID, -1, FONT_Book		   		); 	
 					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   	);  
-					Doc_PrintLine	( nDocID,  0, "Werter Saturas"					);
+					Doc_PrintLine	( nDocID,  0, Vatras2Saturas_FindRaven_1					);
 					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Ich hoffe, ihr seid schon bald am Ziel. Unsere Situation hier in der Stadt scheint sich zur Zeit etwas zu entspannen. Aber ich fürchte, die Ruhe trügt. Ihr solltet euch beeilen. Ich brauche euch hier."					);
-					Doc_PrintLines	( nDocID,  0, "Ich habe deine Aufzeichnungen studiert und kann deinen Verdacht bestätigen. Die Schriftzeichen deuten tatsächlich auf eine Adanosgläubige Kultur hin. Seid also vorsichtig und lasst euch nicht von falschen Propheten blenden."					);
-					Doc_PrintLines	( nDocID,  0, "Die vermissten Bürger von Khorinis wurden von dem ehemaligen Erzbaron Raven in die Region verschleppt, in die das Portal offensichtlich führen wird."					);
-					Doc_PrintLines	( nDocID,  0, "Noch eines: Ich habe euch Hilfe entsendet. Der Überbringer dieser Nachricht ist etwas ganz besonderes. Er hat so einen bemerkenswerten Glanz in seinen Augen. Ich bin mir nicht sicher, aber es könnte ER sein, auch wenn wir ihn uns anders vorgestellt haben."					);
-					Doc_PrintLines	( nDocID,  0, "Prüfe ihn. Ich denke, ich habe recht."					);
+					Doc_PrintLines	( nDocID,  0, Vatras2Saturas_FindRaven_2					);
+					Doc_PrintLines	( nDocID,  0, Vatras2Saturas_FindRaven_3					);
+					Doc_PrintLines	( nDocID,  0, Vatras2Saturas_FindRaven_4					);
+					Doc_PrintLines	( nDocID,  0, Vatras2Saturas_FindRaven_5					);
+					Doc_PrintLines	( nDocID,  0, Vatras2Saturas_FindRaven_6					);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "     Vatras"					);
+					Doc_PrintLine	( nDocID,  0, Vatras2Saturas_FindRaven_7					);
 					Doc_Show		( nDocID );
 		
 }; 
@@ -981,6 +1029,10 @@ instance ItWr_StonePlateCommon_Addon (C_Item)
 	COUNT[5]			= 	value_StonePlateCommon;
 };
 //---------------------------------------------------------------------------
+const string StonePlateCommon_1 = "Die Kaste der Krieger hatte den Zorn unseres Gottes heraufbeschworen.";
+const string StonePlateCommon_2 = "RHADEMES, der Nachfolger QUAHODRONS, wurde gebannt. Aber seine böse Macht erreichte uns selbst vom Ort seiner Verbannung noch.";
+const string StonePlateCommon_3 = "Wir waren machtlos dagegen.";
+const string StonePlateCommon_4 = "ADANOS Zorn hat JHARKENDAR getroffen!";
 func void Use_StonePlateCommon ()
 {
 	var int nDocID;
@@ -994,13 +1046,13 @@ func void Use_StonePlateCommon ()
 		Doc_SetFont 	( nDocID, -1, FONT_Book    			); 	// -1 -> all pages 
 		Doc_SetMargins	( nDocID, -1, 70, 50, 90, 50, 1   	);  //  0 -> margins are in pixels
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "Die Kaste der Krieger hatte den Zorn unseres Gottes heraufbeschworen.");	
+		Doc_PrintLines	( nDocID,  0, StonePlateCommon_1);	
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "RHADEMES, der Nachfolger QUAHODRONS, wurde gebannt. Aber seine böse Macht erreichte uns selbst vom Ort seiner Verbannung noch.");
+		Doc_PrintLines	( nDocID,  0, StonePlateCommon_2);
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "Wir waren machtlos dagegen.");
+		Doc_PrintLines	( nDocID,  0, StonePlateCommon_3);
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "ADANOS Zorn hat JHARKENDAR getroffen!");	
+		Doc_PrintLines	( nDocID,  0, StonePlateCommon_4);	
 	}
 	else //Spieler beherrscht Sprache nicht
 	{
@@ -1057,6 +1109,8 @@ INSTANCE ItMi_Addon_Stone_01(C_Item) //Esteban und Thorus  //Joly:Die Banditen b
 	TEXT[3]				=	"";
 };
 //---------------------------------------------------------------------------
+const string Addon_Stone_01_1 = "Wir, die letzten drei Anführer des Rates der Fünf, haben die Kammern des Tempels mit Fallen versehen und den Eingang versteckt, auf das das Schwert nie wieder das Tageslicht erblicke.";
+const string Addon_Stone_01_2 = "Erfjkemvfj Hwoqmnyhan ckh. Fjewheege Egdgsmkd Ygc slje asdkjhnead Gkjsdhad Uhndter rygilliambwe ewzbfujbwe Iuhdfb. Revfnbrebuiwe ewohjfribwe wef. Sebnejbuwd Weinfiwjf Ihwqpjrnn.";
 FUNC VOID Use_Addon_Stone_01()
 {
 	var int nDocID;
@@ -1069,11 +1123,11 @@ FUNC VOID Use_Addon_Stone_01()
 	Doc_PrintLine	( nDocID,  0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
-		Doc_PrintLines	( nDocID,  0, "Wir, die letzten drei Anführer des Rates der Fünf, haben die Kammern des Tempels mit Fallen versehen und den Eingang versteckt, auf das das Schwert nie wieder das Tageslicht erblicke.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_01_1);
 	}
 	else
 	{
-		Doc_PrintLines	( nDocID,  0, "Erfjkemvfj Hwoqmnyhan ckh. Fjewheege Egdgsmkd Ygc slje asdkjhnead Gkjsdhad Uhndter rygilliambwe ewzbfujbwe Iuhdfb. Revfnbrebuiwe ewohjfribwe wef. Sebnejbuwd Weinfiwjf Ihwqpjrnn.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_01_2);
 		B_Say (self, self, "$CANTREADTHIS");
 	};
 	Doc_PrintLine	( nDocID,  0, "");
@@ -1109,6 +1163,8 @@ INSTANCE ItMi_Addon_Stone_05(C_Item) //Valley - Totenwächter
 	TEXT[3]				=	"";
 };
 //---------------------------------------------------------------------------
+const string Addon_Stone_05_1 = "Ich, der sich gegen den Entschluß der Drei gestellt hatte, erbaute die erste Falle. Und nur ich kenne die richtige Pforte.";
+const string Addon_Stone_05_2 = "Fjewheege Egdgsmkd Ygc slje asdkjhnead Gkjsdhad Uhnd Esfjwedbwe ewzbfujbwe Iuhdfb. Sebnejbuwd Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh.";
 FUNC VOID Use_Addon_Stone_05()
 {
 	var int nDocID;
@@ -1121,11 +1177,11 @@ FUNC VOID Use_Addon_Stone_05()
 	Doc_PrintLine	( nDocID,  0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
-		Doc_PrintLines	( nDocID,  0, "Ich, der sich gegen den Entschluß der Drei gestellt hatte, erbaute die erste Falle. Und nur ich kenne die richtige Pforte.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_05_1);
 	}
 	else
 	{
-		Doc_PrintLines	( nDocID,  0, "Fjewheege Egdgsmkd Ygc slje asdkjhnead Gkjsdhad Uhnd Esfjwedbwe ewzbfujbwe Iuhdfb. Sebnejbuwd Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_05_2);
 		B_Say (self, self, "$CANTREADTHIS");
 	};
 	Doc_PrintLine	( nDocID,  0, "");
@@ -1161,6 +1217,8 @@ INSTANCE ItMi_Addon_Stone_03(C_Item) //Valley - Priester
 	TEXT[3]				=	"";
 };
 //---------------------------------------------------------------------------
+const string Addon_Stone_03_1 = "KHARDIMON ersann die zweite Falle. Und nur der, der den Weg des Lichts bis zum Ende geht, wird die dritte Kammer erreichen.";
+const string Addon_Stone_03_2 = "KHARDIMON Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh. Gkjsdhad Uhnd Esfjwedbwe ewzbfujbwe.";
 FUNC VOID Use_Addon_Stone_03()
 {
 	var int nDocID;
@@ -1173,11 +1231,11 @@ FUNC VOID Use_Addon_Stone_03()
 	Doc_PrintLine	( nDocID,  0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
-		Doc_PrintLines	( nDocID,  0, "KHARDIMON ersann die zweite Falle. Und nur der, der den Weg des Lichts bis zum Ende geht, wird die dritte Kammer erreichen.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_03_1);
 	}
 	else
 	{
-		Doc_PrintLines	( nDocID,  0, "KHARDIMON Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh. Gkjsdhad Uhnd Esfjwedbwe ewzbfujbwe.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_03_2);
 		B_Say (self, self, "$CANTREADTHIS");
 	};
 	Doc_PrintLine	( nDocID,  0, "");
@@ -1215,6 +1273,8 @@ INSTANCE ItMi_Addon_Stone_04(C_Item)  //DAS DING AUS DEM SENAT /SUMPF  //Joly: H
 	TEXT[3]				=	"";
 };
 //---------------------------------------------------------------------------
+const string Addon_Stone_04_1 = "Die dritte Falle wurde von QUARHODRON erbaut, und nur er weiß, wie man die Pforte öffnet.";
+const string Addon_Stone_04_2 = "Esfjwedbwe ewzbfujbwe. Fjewheege QUARHODRON Ygc slje asdkjhnead. Sebnejbuwd Weinfiwjf Ihwqpjrnn. Gkjsdhad Uhnd.";
 FUNC VOID Use_Addon_Stone_04()
 {
 	var int nDocID;
@@ -1227,11 +1287,11 @@ FUNC VOID Use_Addon_Stone_04()
 	Doc_PrintLine	( nDocID,  0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
-		Doc_PrintLines	( nDocID,  0, "Die dritte Falle wurde von QUARHODRON erbaut, und nur er weiß, wie man die Pforte öffnet.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_04_1);
 	}
 	else
 	{
-		Doc_PrintLines	( nDocID,  0, "Esfjwedbwe ewzbfujbwe. Fjewheege QUARHODRON Ygc slje asdkjhnead. Sebnejbuwd Weinfiwjf Ihwqpjrnn. Gkjsdhad Uhnd.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_04_2);
 		B_Say (self, self, "$CANTREADTHIS");
 	};
 	Doc_PrintLine	( nDocID,  0, "");
@@ -1267,6 +1327,12 @@ INSTANCE ItMi_Addon_Stone_02(C_Item) //Bibliothek der Erbauer.
 	TEXT[3]				=	"";
 };
 //---------------------------------------------------------------------------
+const string Addon_Stone_02_1 = "QUARHODRON war es auch, der mit der Hilfe von KHARDIMON das äußere Tor zum Tempel versiegelte. Keiner von beiden hat das Ritual überlebt.";
+const string Addon_Stone_02_2 = "Nur ich blieb zurück, um von den Ereignissen zu erzählen.";
+const string Addon_Stone_02_3 = "Ich hoffe, daß RHADEMES für alle Zeiten im Tempel verrottet!";
+const string Addon_Stone_02_4 = "QUARHODRON Ygc slje asdkjhnead. KHARDIMON Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh. Fjewheege Egdgsmkd Esfjwedbwe asdkjhnead. Gkjsdhad Uhnd.";
+const string Addon_Stone_02_5 = "Revfnbrebuiwe ewohjfribwe wef. Sebnejbuwd Weinfiwjf Ihwqpjrnn.";
+const string Addon_Stone_02_6 = "Erfjkemvfj RHADEMES Fjewheege Egdgsmkd!";
 FUNC VOID Use_Addon_Stone_02()
 {
 	var int nDocID;
@@ -1279,19 +1345,19 @@ FUNC VOID Use_Addon_Stone_02()
 	Doc_PrintLine	( nDocID,  0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
-		Doc_PrintLines	( nDocID,  0, "QUARHODRON war es auch, der mit der Hilfe von KHARDIMON das äußere Tor zum Tempel versiegelte. Keiner von beiden hat das Ritual überlebt.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_02_1);
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "Nur ich blieb zurück, um von den Ereignissen zu erzählen.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_02_2);
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "Ich hoffe, daß RHADEMES für alle Zeiten im Tempel verrottet!");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_02_3);
 	}
 	else
 	{
-		Doc_PrintLines	( nDocID,  0, "QUARHODRON Ygc slje asdkjhnead. KHARDIMON Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh. Fjewheege Egdgsmkd Esfjwedbwe asdkjhnead. Gkjsdhad Uhnd.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_02_4);
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "Revfnbrebuiwe ewohjfribwe wef. Sebnejbuwd Weinfiwjf Ihwqpjrnn.");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_02_5);
 		Doc_PrintLine	( nDocID,  0, "");
-		Doc_PrintLines	( nDocID,  0, "Erfjkemvfj RHADEMES Fjewheege Egdgsmkd!");
+		Doc_PrintLines	( nDocID,  0, Addon_Stone_02_6);
 		B_Say (self, self, "$CANTREADTHIS");
 	};
 	Doc_PrintLine	( nDocID,  0, "");
@@ -1382,6 +1448,38 @@ INSTANCE ITWR_Addon_FrancisAbrechnung_Mis (C_ITEM)
 	on_state[0]				=	UseFrancisAbrechnung_Mis;
 };
 
+const string FrancisAbrechnung_Mis_1 = "Kauffahrer 'Seejungfrau'";
+const string FrancisAbrechnung_Mis_2 = "Beute gesamt: 14560 Gold";
+const string FrancisAbrechnung_Mis_3 = "-----------------------";
+const string FrancisAbrechnung_Mis_4 = "Mannschaft : 9840 ";
+const string FrancisAbrechnung_Mis_5 = "Offiziere   : 2500 ";
+const string FrancisAbrechnung_Mis_6 = "Kapitän    : 1000 ";
+const string FrancisAbrechnung_Mis_7 = "-----------------------";
+const string FrancisAbrechnung_Mis_8 = "eigener Anteil: 2220";
+const string FrancisAbrechnung_Mis_9 = "Fernhändler 'Miriam'";
+const string FrancisAbrechnung_Mis_10 = "Beute gesamt: 4890 Gold";
+const string FrancisAbrechnung_Mis_11 = "-----------------------";
+const string FrancisAbrechnung_Mis_12 = "Mannschaft : 2390 ";
+const string FrancisAbrechnung_Mis_13 = "Offiziere   : 500 ";
+const string FrancisAbrechnung_Mis_14 = "Kapitän    : 500 ";
+const string FrancisAbrechnung_Mis_15 = "----------------------";
+const string FrancisAbrechnung_Mis_16 = "eigener Anteil: 1000 ";
+const string FrancisAbrechnung_Mis_17 = "Handelsschiff 'Nico'";
+const string FrancisAbrechnung_Mis_18 = "Beute gesamt: 9970 ";
+const string FrancisAbrechnung_Mis_19 = "----------------------";
+const string FrancisAbrechnung_Mis_20 = "Mannschaft : 5610 ";
+const string FrancisAbrechnung_Mis_21 = "Offiziere   : 1500";
+const string FrancisAbrechnung_Mis_22 = "Kapitän    : 1000";
+const string FrancisAbrechnung_Mis_23 = "----------------------";
+const string FrancisAbrechnung_Mis_24 = "eigener Anteil: 1860";
+const string FrancisAbrechnung_Mis_25 = "Kauffahrer 'Maria'";
+const string FrancisAbrechnung_Mis_26 = "Beute gesamt: 7851 Gold";
+const string FrancisAbrechnung_Mis_27 = "----------------------";
+const string FrancisAbrechnung_Mis_28 = "Mannschaft : 4400 ";
+const string FrancisAbrechnung_Mis_29 = "Offiziere   : 750 ";
+const string FrancisAbrechnung_Mis_30 = "Kapitän    : 1000 ";
+const string FrancisAbrechnung_Mis_31 = "----------------------";
+const string FrancisAbrechnung_Mis_32 = "eigener Anteil: 1701 ";
 	FUNC VOID UseFrancisAbrechnung_Mis()
 	{
 		var int nDocID;
@@ -1397,31 +1495,31 @@ INSTANCE ITWR_Addon_FrancisAbrechnung_Mis (C_ITEM)
  					Doc_SetMargins	( nDocID,  0,  275, 20, 30, 20, 1   		);  //  0 -> margins are in pixels
 					Doc_SetFont 	( nDocID,  0, FONT_Book	   			); 	// -1 -> all pages
  					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "Kauffahrer 'Seejungfrau'"	);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_1	);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "Beute gesamt: 14560 Gold");
-					Doc_PrintLine	( nDocID,  0, "-----------------------"	);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_2);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_3	);
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "Mannschaft : 9840 ");
-					Doc_PrintLine	( nDocID,  0, "Offiziere   : 2500 ");
-					Doc_PrintLine	( nDocID,  0, "Kapitän    : 1000 ");
-					Doc_PrintLine	( nDocID,  0, "-----------------------"	);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_4);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_5);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_6);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_7	);
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "eigener Anteil: 2220");
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_8);
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, "");
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "Fernhändler 'Miriam'"	);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_9	);
 					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, "Beute gesamt: 4890 Gold");
-					Doc_PrintLine	( nDocID,  0, "-----------------------"	);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_10);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_11	);
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "Mannschaft : 2390 ");
-					Doc_PrintLine	( nDocID,  0, "Offiziere   : 500 ");
-					Doc_PrintLine	( nDocID,  0, "Kapitän    : 500 ");
-					Doc_PrintLine	( nDocID,  0, "----------------------"	);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_12);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_13);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_14);
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_15	);
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "eigener Anteil: 1000 ");
+					Doc_PrintLine	( nDocID,  0, FrancisAbrechnung_Mis_16);
 					Doc_PrintLine	( nDocID,  0, "");
 	
 
@@ -1429,31 +1527,31 @@ INSTANCE ITWR_Addon_FrancisAbrechnung_Mis (C_ITEM)
 					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);  //  0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 					Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages
  					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLine	( nDocID,  1, "Handelsschiff 'Nico'"	);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_17	);
 					Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLine	( nDocID,  1, "Beute gesamt: 9970 ");
-					Doc_PrintLine	( nDocID,  1, "----------------------"	);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_18);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_19	);
 					Doc_PrintLine	( nDocID,  1, "");
-					Doc_PrintLine	( nDocID,  1, "Mannschaft : 5610 ");
-					Doc_PrintLine	( nDocID,  1, "Offiziere   : 1500");
-					Doc_PrintLine	( nDocID,  1, "Kapitän    : 1000");
-					Doc_PrintLine	( nDocID,  1, "----------------------"	);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_20);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_21);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_22);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_23	);
 					Doc_PrintLine	( nDocID,  1, "");
-					Doc_PrintLine	( nDocID,  1, "eigener Anteil: 1860");
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_24);
 					Doc_PrintLine	( nDocID,  1, "");
 					Doc_PrintLine	( nDocID,  1, "");
-					Doc_PrintLine	( nDocID,  1, "Kauffahrer 'Maria'"	);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_25	);
 					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLine	( nDocID,  1, "Beute gesamt: 7851 Gold");
-					Doc_PrintLine	( nDocID,  1, "----------------------"	);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_26);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_27	);
 					Doc_PrintLine	( nDocID,  1, "");
-					Doc_PrintLine	( nDocID,  1, "Mannschaft : 4400 ");
-					Doc_PrintLine	( nDocID,  1, "Offiziere   : 750 ");
-					Doc_PrintLine	( nDocID,  1, "Kapitän    : 1000 ");
-					Doc_PrintLine	( nDocID,  1, "----------------------"	);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_28);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_29);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_30);
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_31	);
 					Doc_PrintLine	( nDocID,  1, "");
-					Doc_PrintLine	( nDocID,  1, "eigener Anteil: 1701 ");
+					Doc_PrintLine	( nDocID,  1, FrancisAbrechnung_Mis_32);
 					Doc_PrintLine	( nDocID,  1, "");
 					
 					Francis_HasProof = TRUE;
@@ -1487,6 +1585,12 @@ INSTANCE ITWR_Addon_GregsLogbuch_Mis (C_ITEM)
 	on_state[0]				=	UseGregsLogbuch;
 };
 
+const string GregsLogbuch_1 = "Ich kann diesen Strand nicht mehr sehen. Überall Sand. Ich kann schon gar nicht mehr richtig schlafen, weil es überall juckt. Wird Zeit, dass Raven das Gold für die Gefangen rüberschiebt und wir wieder in See stechen können. Werde wohl mal ein ernstes Wort mit dem Aufgeblasen Fatzke sprechen müssen.";
+const string GregsLogbuch_2 = "Was erlaubt sich dieses Arsch? Hat mich von seinen stinkenden Schergen am Tor abwimmeln lassen. Der wird mich noch kennenlernen! Seinen Speichellecker Bloodwyn werde ich eigenhändig zu Fischfutter verarbeiten";
+const string GregsLogbuch_3 = "Wenn er nicht bald zahlt, werde ich andere Seiten aufziehen. ";
+const string GregsLogbuch_4 = "Die Banditen werden langsam aufsässig. Die letzte Lieferung haben sie immer noch nicht bezahlt. Wir haben einfach zu wenig Informationen. Ich muss rausfinden, was Raven hier will.";
+const string GregsLogbuch_5 = "Ich werde mit dem Großteil der Mannschaft zum Festland fahren und das Erz in Sicherheit bringen. Francis bleibt mit ein paar Leuten hier und befestigt das Lager. ";
+const string GregsLogbuch_6 = "Damit die Zeit nicht ungenutzt verstreicht, habe ich Bones die Rüstung gegeben. Er wird für mich ins Banditenlager schleichen und dort rausfinden, was Raven vorhat.";
 	FUNC VOID UseGregsLogbuch()
 	{
 		var int nDocID;
@@ -1501,19 +1605,19 @@ INSTANCE ITWR_Addon_GregsLogbuch_Mis (C_ITEM)
 
  					Doc_SetMargins	( nDocID,  0,  275, 20, 30, 20, 1   		);  //  0 -> margins are in pixels
 					Doc_SetFont 	( nDocID,  0, FONT_Book	   			); 	// -1 -> all pages
-					Doc_PrintLines	( nDocID,  0, "Ich kann diesen Strand nicht mehr sehen. Überall Sand. Ich kann schon gar nicht mehr richtig schlafen, weil es überall juckt. Wird Zeit, dass Raven das Gold für die Gefangen rüberschiebt und wir wieder in See stechen können. Werde wohl mal ein ernstes Wort mit dem Aufgeblasen Fatzke sprechen müssen.");
+					Doc_PrintLines	( nDocID,  0, GregsLogbuch_1);
 					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Was erlaubt sich dieses Arsch? Hat mich von seinen stinkenden Schergen am Tor abwimmeln lassen. Der wird mich noch kennenlernen! Seinen Speichellecker Bloodwyn werde ich eigenhändig zu Fischfutter verarbeiten"	);
-					Doc_PrintLines	( nDocID,  0, "Wenn er nicht bald zahlt, werde ich andere Seiten aufziehen. ");
+					Doc_PrintLines	( nDocID,  0, GregsLogbuch_2	);
+					Doc_PrintLines	( nDocID,  0, GregsLogbuch_3);
 					
 
 					//2.Seite
 					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);  //  0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 					Doc_SetFont 	( nDocID,  1, FONT_Book	   			); 	// -1 -> all pages
-					Doc_PrintLines	( nDocID,  1, "Die Banditen werden langsam aufsässig. Die letzte Lieferung haben sie immer noch nicht bezahlt. Wir haben einfach zu wenig Informationen. Ich muss rausfinden, was Raven hier will."	);
+					Doc_PrintLines	( nDocID,  1, GregsLogbuch_4	);
 					Doc_PrintLine	( nDocID,  1, "");
-					Doc_PrintLines	( nDocID,  1, "Ich werde mit dem Großteil der Mannschaft zum Festland fahren und das Erz in Sicherheit bringen. Francis bleibt mit ein paar Leuten hier und befestigt das Lager. "	);
-					Doc_PrintLines	( nDocID,  1, "Damit die Zeit nicht ungenutzt verstreicht, habe ich Bones die Rüstung gegeben. Er wird für mich ins Banditenlager schleichen und dort rausfinden, was Raven vorhat.");
+					Doc_PrintLines	( nDocID,  1, GregsLogbuch_5	);
+					Doc_PrintLines	( nDocID,  1, GregsLogbuch_6);
 					
 					Greg_GaveArmorToBones = TRUE;
 					
@@ -1583,6 +1687,7 @@ INSTANCE  ItMi_TempelTorKey (C_ITEM)
 	TEXT[2]		= "Der Schlüssel zum Tempel Adanos.";
 
 };
+const string TempelTorKey_1 = "  Jhehedra Akhantar";
 func void Use_TempelTorKey ()
 {	
 	var int nDocID;
@@ -1598,7 +1703,7 @@ func void Use_TempelTorKey ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					//Doc_PrintLines	( nDocID,  0, "  Eligam Shameris"					); 
 				
-					Doc_PrintLine	( nDocID,  0, "  Jhehedra Akhantar"					); 
+					Doc_PrintLine	( nDocID,  0, TempelTorKey_1					); 
  
  					Doc_Show		( nDocID ); 
 };

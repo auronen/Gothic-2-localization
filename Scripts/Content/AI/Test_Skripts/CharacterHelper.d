@@ -16,6 +16,10 @@
 	scemeName			=	"MAP";
 	description			= 	"MobsiBrief";
 };
+const string MobsiBrief_1 = "StandardBrief";
+const string MobsiBrief_2 = "Jetzt wird alles wieder gut";
+const string MobsiBrief_3 = "PLAYER_MOBSI_PRODUCTION = MOBSI_NONE;";
+const string MobsiBrief_4 = "self.aivar[AIV_INVINCIBLE] = FALSE;";
 func void UseMobsiBrief ()
 {
 		PLAYER_MOBSI_PRODUCTION	=	MOBSI_NONE;
@@ -28,12 +32,12 @@ func void UseMobsiBrief ()
 					Doc_SetPage		(nDocID,  0, "letters.TGA", 0);
 					Doc_SetFont		(nDocID,  0, FONT_BookHeadline);
 					Doc_SetMargins	(nDocID, -1, 50, 50, 50, 50, 1);
-					Doc_PrintLine	(nDocID,  0, "StandardBrief"									);
+					Doc_PrintLine	(nDocID,  0, MobsiBrief_1									);
 					Doc_SetFont		(nDocID,  0, FONT_Book);
 					Doc_PrintLine	(nDocID,  0, ""													);
-					Doc_PrintLines	(nDocID,  0, "Jetzt wird alles wieder gut"						);
-					Doc_PrintLines	(nDocID,  0, "PLAYER_MOBSI_PRODUCTION = MOBSI_NONE;"			);
-					Doc_PrintLines	(nDocID,  0, "self.aivar[AIV_INVINCIBLE] = FALSE;"				);
+					Doc_PrintLines	(nDocID,  0, MobsiBrief_2						);
+					Doc_PrintLines	(nDocID,  0, MobsiBrief_3			);
+					Doc_PrintLines	(nDocID,  0, MobsiBrief_4				);
 					Doc_Show		(nDocID);
 };
 //****************************************************************************

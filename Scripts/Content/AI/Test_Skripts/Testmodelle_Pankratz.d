@@ -1606,6 +1606,7 @@ instance JI13 (JOLY_ITEM)
 	TEXT[3]			=	"JI13";
 };   
 
+const string JOLY_ITEM1_1 = "Test Bla Glumpsch,";
 func void USEJOLY_ITEM1 ()
 {
 		var int nDocID;
@@ -1618,9 +1619,10 @@ func void USEJOLY_ITEM1 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Test Bla Glumpsch,");
+					Doc_PrintLine	( nDocID,  0, JOLY_ITEM1_1);
 					Doc_Show		( nDocID );
 };
+const string JOLY_ITEM2_1 = "Test Bla Glumpsch,";
 func void USEJOLY_ITEM2 ()
 {
 		var int nDocID;
@@ -1633,7 +1635,7 @@ func void USEJOLY_ITEM2 ()
 					Doc_PrintLine	( nDocID,  0, ""					);
 					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
 					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Test Bla Glumpsch,");
+					Doc_PrintLine	( nDocID,  0, JOLY_ITEM2_1);
 					Doc_Show		( nDocID );
 };
 
