@@ -431,6 +431,8 @@ FUNC int  CH_RESET_Condition()
 		return TRUE;
 	};	
 };
+
+const string _PRINT_HERO_RESET = "PC_Hero wieder hergestellt";
 FUNC VOID  CH_RESET_Info()
 {
 	
@@ -473,7 +475,7 @@ FUNC VOID  CH_RESET_Info()
 	
 	AI_UnequipArmor (hero); 
 	
-	PrintScreen ("PC_Hero wieder hergestellt", - 1, - 1, FONT_Screen, 2);   
+	PrintScreen (_PRINT_HERO_RESET, - 1, - 1, FONT_Screen, 2);   
 	
 };
 
