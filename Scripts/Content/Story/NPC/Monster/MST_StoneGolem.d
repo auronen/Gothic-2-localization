@@ -5,7 +5,7 @@
 PROTOTYPE Mst_Default_StoneGolem(C_Npc)			
 {
 	//----- Monster ----
-	name							=	"Steingolem";
+	name							=	NAME_STONE_GOLEM;
 	guild							=	GIL_STONEGOLEM;
 	aivar[AIV_MM_REAL_ID]			= 	ID_STONEGOLEM;
 	level							=	25;
@@ -133,7 +133,7 @@ func void B_GolemRise ()
 	{
 		AI_PlayAni (self,"T_RISE");
 		self.NoFocus	= FALSE;
-		self.name			=	Mst_Default_StoneGolem.name;
+		self.name			=	NAME_STONE_GOLEM;
 		self.flags				   			= 	0;
 		
 		AI_StartState 		(self, ZS_MM_Attack, 0, "");

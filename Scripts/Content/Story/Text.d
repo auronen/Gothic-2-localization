@@ -945,6 +945,10 @@ const string NAME_POTION_PERM_DEX2 = "Geschicklichkeitstrank";
 const string NAME_POTION_HEAL = "Heilung";
 const string NAME_POTION_HEAL_H = "Grosse Heilung";
 
+// Monster names
+
+const string NAME_STONE_GOLEM = "Steingolem";
+
 
 // ************************************
 // Konstanten aus Dialog_Mobsi Skripten
