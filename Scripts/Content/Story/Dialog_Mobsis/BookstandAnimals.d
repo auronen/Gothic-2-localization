@@ -1,18 +1,18 @@
-//##########################################################################
-//##
-//##	Bookstand Animals
-//##
-//##########################################################################
+// ##########################################################################
+// ##
+// ## Bookstand Animals
+// ##
+// ##########################################################################
 
-//----------------------
+// ----------------------
 var int Animals_1_permanent;
-//----------------------
-//----------------------
+// ----------------------
+// ----------------------
 var int Animals_2_permanent;
-//----------------------
-//----------------------
+// ----------------------
+// ----------------------
 var int Animals_3_permanent;
-//----------------------
+// ----------------------
 
 const string BookstandAnimals1_S1_1 = "Jagd und Beute";
 const string BookstandAnimals1_S1_2 = "Jedes Tier und Wesen besitzt eigene Trophäen, die den Ruhm und Reichtum eines erfahrenen Jäger mehren.";
@@ -24,52 +24,49 @@ const string BookstandAnimals1_S1_7 = "Ein Talent das der erfahrene Jäger oft z
 const string BookstandAnimals1_S1_8 = "Ein Jäger, der dieses Talent beherrscht, kann auch die Häute von Sumphaien und Lurkern abziehen.  ";
 const string BookstandAnimals1_S1_9 = "Krallen brechen";
 const string BookstandAnimals1_S1_10 = "Eine Kunst, die bei Waranen aller Art, Snappern, Lurkern und Schattenläufern eingesetzt werden kann.  ";
-FUNC VOID Use_BookstandAnimals1_S1()		//Tierbücher
+func void Use_BookstandAnimals1_S1() // Tierbücher
 {
-	var C_NPC her; 	her = Hlp_GetNpc(PC_Hero); 
-	
-	if  (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
-	{	
+	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
+
+	if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
+	{
 		var int nDocID;
-		
 
-		nDocID = 	Doc_Create		()			  ;							
-					Doc_SetPages	( nDocID,  2 );                         
-					Doc_SetPage 	( nDocID,  0, "Book_Brown_L.tga", 	0 	); 
-					Doc_SetPage 	( nDocID,  1, "Book_Brown_R.tga",	0	);
-					
-					Doc_SetFont 	( nDocID, -1, FONT_Book	   				); 	
-					Doc_SetMargins	( nDocID,  0,  275, 20, 30, 20, 1   	);  	
+		nDocID = Doc_Create();
+		Doc_SetPages(nDocID, 2);
+		Doc_SetPage(nDocID, 0, "Book_Brown_L.tga", 0);
+		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
-					Doc_PrintLine	( nDocID,  0, BookstandAnimals1_S1_1					);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals1_S1_2						);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals1_S1_3);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLine	( nDocID,  0, BookstandAnimals1_S1_4						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals1_S1_5						);
-				
-					
-					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, BookstandAnimals1_S1_6						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals1_S1_7						); 
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals1_S1_8						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, BookstandAnimals1_S1_9						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals1_S1_10						);
-					Doc_Show		( nDocID );
-					
-					if (Animals_1_permanent == FALSE)
-					{
-						B_GivePlayerXP (XP_Bookstand);
-						Animals_1_permanent = TRUE;
-					};	
+		Doc_SetFont(nDocID, -1, FONT_Book);
+		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
 
+		Doc_PrintLine(nDocID, 0, BookstandAnimals1_S1_1);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, BookstandAnimals1_S1_2);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, BookstandAnimals1_S1_3);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, BookstandAnimals1_S1_4);
+		Doc_PrintLines(nDocID, 0, BookstandAnimals1_S1_5);
+
+		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, BookstandAnimals1_S1_6);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals1_S1_7);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals1_S1_8);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, BookstandAnimals1_S1_9);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals1_S1_10);
+		Doc_Show(nDocID);
+
+		if (Animals_1_permanent == FALSE)
+		{
+			B_GivePlayerXP(XP_Bookstand);
+			Animals_1_permanent = TRUE;
+		};
 	};
 };
 
@@ -84,52 +81,49 @@ const string BookstandAnimals2_S1_8 = "gelten als besonders wertvoll, weil sie e
 const string BookstandAnimals2_S1_9 = "Allerdings sollte es mit Vorsicht genossen werden, da der menschliche Körper mit der Zeit nicht mehr darauf reagiert.";
 const string BookstandAnimals2_S1_10 = "Ebenfalls sehr begehrt sind die Platten der Minecrawler. Aus ihnen lassen sich Rüstungen herstellen. ";
 const string BookstandAnimals2_S1_11 = " ";
-FUNC VOID Use_BookstandAnimals2_S1()		//Tierbücher
+func void Use_BookstandAnimals2_S1() // Tierbücher
 {
-	var C_NPC her; 	her = Hlp_GetNpc(PC_Hero); 
-	
-	if  (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
-	{	
+	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
+
+	if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
+	{
 		var int nDocID;
-		
-		nDocID = 	Doc_Create		()			  ;							
-					Doc_SetPages	( nDocID,  2 );                         
-					Doc_SetPage 	( nDocID,  0, "Book_Brown_L.tga", 	0 	); 
-					Doc_SetPage 	( nDocID,  1, "Book_Brown_R.tga",	0	);
-					
-					Doc_SetFont 	( nDocID, -1, FONT_Book	   				); 	
-					Doc_SetMargins	( nDocID,  0,  275, 20, 30, 20, 1   	);  	
 
-					Doc_PrintLine	( nDocID,  0, BookstandAnimals2_S1_1					);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals2_S1_2						);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLine	( nDocID,  0, BookstandAnimals2_S1_3			);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals2_S1_4					); 
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals2_S1_5 );
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals2_S1_6	);
-			
-					
-					
-					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals2_S1_7						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals2_S1_8						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals2_S1_9						);   
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals2_S1_10						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals2_S1_11						);
-					Doc_Show		( nDocID );
-					
-					if (Animals_2_permanent == FALSE)
-					{
-						B_GivePlayerXP (XP_Bookstand);
-						Animals_2_permanent = TRUE;
-					};
+		nDocID = Doc_Create();
+		Doc_SetPages(nDocID, 2);
+		Doc_SetPage(nDocID, 0, "Book_Brown_L.tga", 0);
+		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
+		Doc_SetFont(nDocID, -1, FONT_Book);
+		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+
+		Doc_PrintLine(nDocID, 0, BookstandAnimals2_S1_1);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, BookstandAnimals2_S1_2);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, BookstandAnimals2_S1_3);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, BookstandAnimals2_S1_4);
+		Doc_PrintLines(nDocID, 0, BookstandAnimals2_S1_5);
+		Doc_PrintLines(nDocID, 0, BookstandAnimals2_S1_6);
+
+		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_7);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_8);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_9);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_10);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_11);
+		Doc_Show(nDocID);
+
+		if (Animals_2_permanent == FALSE)
+		{
+			B_GivePlayerXP(XP_Bookstand);
+			Animals_2_permanent = TRUE;
+		};
 	};
 };
 
@@ -143,53 +137,48 @@ const string BookstandAnimals3_S1_7 = "Der Schattenläufer ist ein uralter Einze
 const string BookstandAnimals3_S1_8 = "Es gibt nur noch wenige Exemplare, so das er für den Menschen keine Gefahr mehr darstellt, solange er nicht seine Jagdrevier kreuzt.";
 const string BookstandAnimals3_S1_9 = "Der Kopf des Schattenläufers wird von einem Horn gekrönt, das als wertvolle Trophäe gilt. Ein Jäger muss die Kunst lernen, das Horn richtig zu brechen,";
 const string BookstandAnimals3_S1_10 = "damit er diese Trophäe bekommt.";
-FUNC VOID Use_BookstandAnimals3_S1()		//Tierbücher
+func void Use_BookstandAnimals3_S1() // Tierbücher
 {
-	var C_NPC her; 	her = Hlp_GetNpc(PC_Hero); 
-	
-	if  (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
-	{	
+	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
+
+	if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
+	{
 		var int nDocID;
-		
 
-		nDocID = 	Doc_Create		()			  ;							
-					Doc_SetPages	( nDocID,  2 );                         
-					Doc_SetPage 	( nDocID,  0, "Book_Brown_L.tga", 	0 	); 
-					Doc_SetPage 	( nDocID,  1, "Book_Brown_R.tga",	0	);
-					
-					Doc_SetFont 	( nDocID, -1, FONT_Book	   				); 	
-					Doc_SetMargins	( nDocID,  0,  275, 20, 30, 20, 1   	);  	
+		nDocID = Doc_Create();
+		Doc_SetPages(nDocID, 2);
+		Doc_SetPage(nDocID, 0, "Book_Brown_L.tga", 0);
+		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
-					Doc_PrintLine	( nDocID,  0, BookstandAnimals3_S1_1					);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals3_S1_2						);
-					Doc_PrintLine	( nDocID,  0, ""						);
-					Doc_PrintLine	( nDocID,  0, BookstandAnimals3_S1_3						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals3_S1_4						);
-					Doc_PrintLines	( nDocID,  0, BookstandAnimals3_S1_5	);		
-			
-					
-					
-					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, BookstandAnimals3_S1_6		);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals3_S1_7						); 
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals3_S1_8						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals3_S1_9						);
-					Doc_PrintLines	( nDocID,  1, BookstandAnimals3_S1_10						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-					Doc_PrintLine	( nDocID,  1, ""						);
-							
-					Doc_Show		( nDocID );
-					
-					if (Animals_3_permanent == FALSE)
-					{
-						B_GivePlayerXP (XP_Bookstand);
-						Animals_3_permanent = TRUE;
-					};
+		Doc_SetFont(nDocID, -1, FONT_Book);
+		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
 
+		Doc_PrintLine(nDocID, 0, BookstandAnimals3_S1_1);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, BookstandAnimals3_S1_2);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, BookstandAnimals3_S1_3);
+		Doc_PrintLines(nDocID, 0, BookstandAnimals3_S1_4);
+		Doc_PrintLines(nDocID, 0, BookstandAnimals3_S1_5);
+
+		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, BookstandAnimals3_S1_6);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, BookstandAnimals3_S1_7);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals3_S1_8);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals3_S1_9);
+		Doc_PrintLines(nDocID, 1, BookstandAnimals3_S1_10);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLine(nDocID, 1, "");
+
+		Doc_Show(nDocID);
+
+		if (Animals_3_permanent == FALSE)
+		{
+			B_GivePlayerXP(XP_Bookstand);
+			Animals_3_permanent = TRUE;
+		};
 	};
 };
-

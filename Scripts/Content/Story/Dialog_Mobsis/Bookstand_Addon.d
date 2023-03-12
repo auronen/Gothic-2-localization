@@ -1,4 +1,3 @@
-
 //*************************************
 //	Buchständer im Banditenlager
 //*************************************
@@ -16,82 +15,76 @@ const string Bookstand_Addon_BL_S1_10 = "Emilio: 50 Goldstücke";
 const string Bookstand_Addon_BL_S1_11 = "Andere: 20 Goldstücke";
 const string Bookstand_Addon_BL_S1_12 = "Huno, Fisk, Snaf: je nach Waren";
 const string Bookstand_Addon_BL_S1_13 = "Jäger: Soll sich der Anführer drum kümmern! Franco 7 Goldbrocken erhalten";
-FUNC VOID Use_Bookstand_Addon_BL_S1()		
+func void Use_Bookstand_Addon_BL_S1()
 {
-	var C_NPC her; 	her = Hlp_GetNpc(PC_Hero); 
-	
-	if  (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
-	{	
+	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
 
+	if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
+	{
 		var int nDocID;
-		
 
-		nDocID = 	Doc_Create		()			  ;							
-					Doc_SetPages	( nDocID,  2 );                         
-					Doc_SetPage 	( nDocID,  0, "Book_Brown_L.tga", 	0 		); 
-					Doc_SetPage 	( nDocID,  1, "Book_Brown_R.tga",	0		);
-					
-					Doc_SetFont 	( nDocID, -1, FONT_Book	   			); 	
-					Doc_SetMargins	( nDocID,  0,  275, 20, 30, 20, 1   		);  	
+		nDocID = Doc_Create();
+		Doc_SetPages(nDocID, 2);
+		Doc_SetPage(nDocID, 0, "Book_Brown_L.tga", 0);
+		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
-					Doc_PrintLine	( nDocID,  0, Bookstand_Addon_BL_S1_1					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, Bookstand_Addon_BL_S1_2					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, Bookstand_Addon_BL_S1_3					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, Bookstand_Addon_BL_S1_4					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, Bookstand_Addon_BL_S1_5					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					
-					
-					Doc_PrintLines	( nDocID,  0, "");
-			
-					
-					
-					Doc_SetMargins	( nDocID, -1, 30, 20, 275, 20, 1   		);
-					Doc_PrintLine	( nDocID,  1, Bookstand_Addon_BL_S1_6					);
-					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_7					);
-					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_8					);
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_9); 
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_10					);
-					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_11					);
-					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_12					);
-					Doc_PrintLine	( nDocID,  1, ""					);
-					Doc_PrintLines	( nDocID,  1, Bookstand_Addon_BL_S1_13);
-					Doc_Show		( nDocID );
-	
+		Doc_SetFont(nDocID, -1, FONT_Book);
+		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+
+		Doc_PrintLine(nDocID, 0, Bookstand_Addon_BL_S1_1);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, Bookstand_Addon_BL_S1_2);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, Bookstand_Addon_BL_S1_3);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, Bookstand_Addon_BL_S1_4);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLines(nDocID, 0, Bookstand_Addon_BL_S1_5);
+		Doc_PrintLine(nDocID, 0, "");
+		Doc_PrintLine(nDocID, 0, "");
+
+		Doc_PrintLines(nDocID, 0, "");
+
+		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(nDocID, 1, Bookstand_Addon_BL_S1_6);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_7);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_8);
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_9);
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_10);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_11);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_12);
+		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, Bookstand_Addon_BL_S1_13);
+		Doc_Show(nDocID);
 	};
 };
 
-//##########################################################################
-//##
-//##	SteinPult 
-//##
-//##########################################################################
+// ##########################################################################
+// ##
+// ## SteinPult
+// ##
+// ##########################################################################
 
-//----------------------
+// ----------------------
 var int BookstandMayaHierchary_1_permanent;
 var int BookstandMayaHierchary_2_permanent;
 var int BookstandMayaHierchary_3_permanent;
 var int BookstandMayaHierchary_4_permanent;
 var int BookstandMayaHierchary_5_permanent;
 var int BookstandMayaArt;
-//----------------------
-func int C_CanReadBookStand ()
+// ----------------------
+func int C_CanReadBookStand()
 {
-	IF (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
+	if ((PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	|| (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_2] == TRUE)
-	|| (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_3] == TRUE)
-		{
-			return TRUE;
-		};
+	|| (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_3] == TRUE))
+	{
+		return TRUE;
+	};
 };
 
 const string BookstandMaya_1 = "...denn nur den TOTENWÄCHTERN war es möglich die Ahnen zu rufen. ";
@@ -126,272 +119,270 @@ const string BookstandMaya_29 = "QUARHODRON folgte der Entscheidung des Rates. E
 const string BookstandMaya_30 = "Der Hass seines Sohnes hatte schon solche Gestalt angenommen, daß RHADEMES in wilder Raserei in den Tempel stürmte, um seinen Vater zu richten.";
 const string BookstandMaya_31 = "Er erkannte unsere Pläne erst, als es für ihn zu spät war.";
 const string BookstandMaya_32 = "QUARHODRON verschloss die heiligen Kammern des Tempels hinter sich, und RHADEMES war für alle Zeiten im Tempel gefangen.";
-func void Use_BookstandMaya () 
+func void Use_BookstandMaya()
 {
-	if (BookstandMayaArt == 1)		//Joly:  überall objektieren!
+	if (BookstandMayaArt == 1) // Joly: überall objektieren!
 	{
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_1);                                             
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_2);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_3);         
-			                                                                                          
-			Doc_SetMargins	( StPl_nDocID, -1, 30, 20, 275, 20, 1   		);                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  1, "");                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_4		);  
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  1, "");                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_5);
-			Doc_PrintLine	( StPl_nDocID,  1, "");                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_6);
-			Doc_PrintLines	( StPl_nDocID,  1, "");        
-	}
-	else if (BookstandMayaArt == 2)     //Joly: objektieren egal wo, nur nicht Entrance.                     
-	{
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_7);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_8);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_9);
-			                                                                                          
-			Doc_SetMargins	( StPl_nDocID, -1, 30, 20, 275, 20, 1   		);                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_10);
-			Doc_PrintLine	( StPl_nDocID,  1, ""		);                                    
-			Doc_PrintLine	( StPl_nDocID,  1, ""		);                                    
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_11);
-			Doc_PrintLine	( StPl_nDocID,  1, ""		);                                    
-			Doc_PrintLine	( StPl_nDocID,  1, ""		);                                    
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_12);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_1);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_2);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_3);
 
-			if ( SC_Knows_WeaponInAdanosTempel == FALSE)
-			{				
-				B_GivePlayerXP (XP_Ambient);
-				SC_Knows_WeaponInAdanosTempel = TRUE;
-			};
+		Doc_SetMargins(StPl_nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_4);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_5);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_6);
+		Doc_PrintLines(StPl_nDocID, 1, "");
 	}
-	else if (BookstandMayaArt == 3)                  
+	else if (BookstandMayaArt == 2) // Joly: objektieren egal wo, nur nicht Entrance.
 	{
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_13);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_14);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_15);
-	                
-			                                                                                          
-			Doc_SetMargins	( StPl_nDocID, -1, 30, 20, 275, 20, 1   		);                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_16);
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_17);
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_18);
-	} 
-	else if (BookstandMayaArt == 4)  
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_7);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_8);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_9);
+
+		Doc_SetMargins(StPl_nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_10);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_11);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_12);
+
+		if (SC_Knows_WeaponInAdanosTempel == FALSE)
+		{
+			B_GivePlayerXP(XP_Ambient);
+			SC_Knows_WeaponInAdanosTempel = TRUE;
+		};
+	}
+	else if (BookstandMayaArt == 3)
 	{
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_19);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_20);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_21);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_22);
-			Doc_PrintLine	( StPl_nDocID,  0, ""						);                    
-			                                                                                          
-			Doc_SetMargins	( StPl_nDocID, -1, 30, 20, 275, 20, 1   		);                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_23);
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_24);
-			Doc_PrintLine	( StPl_nDocID,  1, ""						);                                
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_25);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_13);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_14);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_15);
+
+		Doc_SetMargins(StPl_nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_16);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_17);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_18);
+	}
+	else if (BookstandMayaArt == 4)
+	{
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_19);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_20);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_21);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_22);
+		Doc_PrintLine(StPl_nDocID, 0, "");
+
+		Doc_SetMargins(StPl_nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_23);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_24);
+		Doc_PrintLine(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_25);
 	}
 	else if (BookstandMayaArt == 5)
 	{
-			Doc_PrintLines	( StPl_nDocID,  0, "");  
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_26);
-			Doc_PrintLines	( StPl_nDocID,  0, "");  
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_27);
-			Doc_PrintLines	( StPl_nDocID,  0, "");	
-			Doc_PrintLines	( StPl_nDocID,  0, BookstandMaya_28);			
+		Doc_PrintLines(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_26);
+		Doc_PrintLines(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_27);
+		Doc_PrintLines(StPl_nDocID, 0, "");
+		Doc_PrintLines(StPl_nDocID, 0, BookstandMaya_28);
 
-			Doc_SetMargins	( StPl_nDocID, -1, 30, 20, 275, 20, 1   		);                                
-			Doc_PrintLines	( StPl_nDocID,  1, ""		);  
+		Doc_SetMargins(StPl_nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_PrintLines(StPl_nDocID, 1, "");
 
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_29);                   
-			Doc_PrintLines	( StPl_nDocID,  1, "");  
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_30);                
-			Doc_PrintLines	( StPl_nDocID,  1, "");  
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_31);
-			Doc_PrintLines	( StPl_nDocID,  1, ""); 
-			Doc_PrintLines	( StPl_nDocID,  1, BookstandMaya_32); 
-			
-			Doc_PrintLines	( StPl_nDocID,  1, "");  
-			Doc_PrintLines	( StPl_nDocID,  1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_29);
+		Doc_PrintLines(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_30);
+		Doc_PrintLines(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_31);
+		Doc_PrintLines(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, BookstandMaya_32);
+
+		Doc_PrintLines(StPl_nDocID, 1, "");
+		Doc_PrintLines(StPl_nDocID, 1, "");
 	};
 };
 
-func void InitUse_BookstandMaya ()
+func void InitUse_BookstandMaya()
 {
-	var C_NPC her; 	her = Hlp_GetNpc(PC_Hero); 
-	if  (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
+	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
+	if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her))
 	{
-		if  (C_CanReadBookStand () == FALSE)
+		if (C_CanReadBookStand() == FALSE)
 		{
-				StPl_nDocID = 	
-				Doc_Create		()			  ;							// DocManager
-				Doc_SetPages	( StPl_nDocID,  2 );                         
-				Doc_SetPage 	( StPl_nDocID,  0, "Book_MayaGlyph_L.tga", 	0 	);  
-				Doc_SetPage 	( StPl_nDocID,  1, "Book_MayaGlyph_R.tga",	0	);
-				Doc_SetFont 	( StPl_nDocID, -1, FONT_Book	   				); 	
-				Doc_SetMargins	( StPl_nDocID,  0,  275, 20, 30, 20, 1   	);  	
-	
-	/*
-				Doc_PrintLines	( StPl_nDocID,  0, "");
-				Doc_PrintLines	( StPl_nDocID,  0, "Oksefd nodnf Kwe");	
-				Doc_PrintLines	( StPl_nDocID,  0, "");	
-				Doc_PrintLines	( StPl_nDocID,  0, "");
-				Doc_PrintLines	( StPl_nDocID,  0, "Sebnejbuwd Weinafiwjf Ihweqpjrann");	
-				Doc_PrintLines	( StPl_nDocID,  0, "Erfjkemvefj Hwoqmnyhan ckh" );
-				Doc_PrintLines	( StPl_nDocID,  0, "");	
-				Doc_PrintLines	( StPl_nDocID,  0, "Revfnbrebuiwe ewohjfribwe wefa");
-				Doc_PrintLines	( StPl_nDocID,  0, "");	
-				Doc_PrintLines	( StPl_nDocID,  0, "Ejkhfshduhweb isdh Thjdkad");	
-				Doc_PrintLines	( StPl_nDocID,  0, "asdkejhnead Gakjesdhad Uhand");	
-				Doc_PrintLines	( StPl_nDocID,  0, "");	
-				Doc_PrintLines	( StPl_nDocID,  0, "Ihdah Zanshen");	
-				Doc_PrintLines	( StPl_nDocID,  0, "");	
-				Doc_PrintLines	( StPl_nDocID,  0, "");	
-				Doc_PrintLines	( StPl_nDocID,  0, "Fjewheege Egadegsmkd Ygec slaje ");	
-				Doc_PrintLines	( StPl_nDocID,  0, "");
-				Doc_PrintLines	( StPl_nDocID,  0, "Esfj ewzbfujbwe Iuhdfb");				                                                                                          
-					                                                                                          
-					                                                                                          
-				Doc_SetMargins	( StPl_nDocID, -1, 30, 20, 275, 20, 1   		);                                
-				Doc_PrintLines	( StPl_nDocID,  1, "");
-				Doc_PrintLines	( StPl_nDocID,  1, "Siehdkhnfv Ghlorka");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");
-				Doc_PrintLines	( StPl_nDocID,  1, "");
-				Doc_PrintLines	( StPl_nDocID,  1, "Jomaghe Ohramja");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");
-				Doc_PrintLines	( StPl_nDocID,  1, "Bam klod Heknaud");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Wokan fadudeksJuh" );
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Jhdy funikha ");
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Ehnep Fhika Oiritan");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Oiritan Gkoropjia Onham");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Filiothak Juhama Penn");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Vorsiehal Kiman Sik");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "Fjewheege Egdgsmkd Ygc slje ");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");	
-				Doc_PrintLines	( StPl_nDocID,  1, "");
-				Doc_PrintLines	( StPl_nDocID,  1, "Oznishdz gdo sek ie");
+			StPl_nDocID =
+			Doc_Create(); // DocManager
+			Doc_SetPages(StPl_nDocID, 2);
+			Doc_SetPage(StPl_nDocID, 0, "Book_MayaGlyph_L.tga", 0);
+			Doc_SetPage(StPl_nDocID, 1, "Book_MayaGlyph_R.tga", 0);
+			Doc_SetFont(StPl_nDocID, -1, FONT_Book);
+			Doc_SetMargins(StPl_nDocID, 0, 275, 20, 30, 20, 1);
+
+			/*
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Oksefd nodnf Kwe");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Sebnejbuwd Weinafiwjf Ihweqpjrann");
+			Doc_PrintLines(StPl_nDocID, 0, "Erfjkemvefj Hwoqmnyhan ckh");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Revfnbrebuiwe ewohjfribwe wefa");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Ejkhfshduhweb isdh Thjdkad");
+			Doc_PrintLines(StPl_nDocID, 0, "asdkejhnead Gakjesdhad Uhand");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Ihdah Zanshen");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Fjewheege Egadegsmkd Ygec slaje ");
+			Doc_PrintLines(StPl_nDocID, 0, "");
+			Doc_PrintLines(StPl_nDocID, 0, "Esfj ewzbfujbwe Iuhdfb");
+
+			Doc_SetMargins(StPl_nDocID, -1, 30, 20, 275, 20, 1);
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Siehdkhnfv Ghlorka");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Jomaghe Ohramja");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Bam klod Heknaud");
+			Doc_PrintLines(StPl_nDocID, 1, "Wokan fadudeksJuh");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Jhdy funikha ");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Ehnep Fhika Oiritan");
+			Doc_PrintLines(StPl_nDocID, 1, "Oiritan Gkoropjia Onham");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Filiothak Juhama Penn");
+			Doc_PrintLines(StPl_nDocID, 1, "Vorsiehal Kiman Sik");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Fjewheege Egdgsmkd Ygc slje ");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "");
+			Doc_PrintLines(StPl_nDocID, 1, "Oznishdz gdo sek ie");
 		*/
-				Doc_Show		( StPl_nDocID );
-				B_Say (self, self, "$CANTREADTHIS");	
+			Doc_Show(StPl_nDocID);
+			B_Say(self, self, "$CANTREADTHIS");
 		}
 		else
-		{			
-			if (C_CanReadBookStand ())
+		{
+			if (C_CanReadBookStand())
 			{
-					StPl_nDocID = 
-					Doc_Create		()			  ;							// DocManager
-					Doc_SetPages	( StPl_nDocID,  2 );                         
-					Doc_SetPage 	( StPl_nDocID,  0, "Book_MayaRead_L.tga", 	0 	); 
-					Doc_SetPage 	( StPl_nDocID,  1, "Book_MayaRead_R.tga",	0	);
-					Doc_SetFont 	( StPl_nDocID, -1, FONT_Book	   				); 	
-					Doc_SetMargins	( StPl_nDocID,  0,  275, 20, 30, 20, 1   	);  	
-					Use_BookstandMaya ();
-					Doc_Show		( StPl_nDocID );
+				StPl_nDocID =
+				Doc_Create(); // DocManager
+				Doc_SetPages(StPl_nDocID, 2);
+				Doc_SetPage(StPl_nDocID, 0, "Book_MayaRead_L.tga", 0);
+				Doc_SetPage(StPl_nDocID, 1, "Book_MayaRead_R.tga", 0);
+				Doc_SetFont(StPl_nDocID, -1, FONT_Book);
+				Doc_SetMargins(StPl_nDocID, 0, 275, 20, 30, 20, 1);
+				Use_BookstandMaya();
+				Doc_Show(StPl_nDocID);
 			};
 		};
 	};
-		BookstandMayaArt 	= 0;
+
+	BookstandMayaArt = 0;
 };
 
-
-FUNC VOID Use_BookstandMayaHierchary_01_S1()		
+func void Use_BookstandMayaHierchary_01_S1()
 {
-	BookstandMayaArt 	= 1;
-	InitUse_BookstandMaya ();
-	if (BookstandMayaHierchary_1_permanent == FALSE)
-	&& (C_CanReadBookStand ())
-		{
-			B_GivePlayerXP (XP_Ambient);
-			BookstandMayaHierchary_1_permanent = TRUE;
-		};	  
-};
-
-FUNC VOID Use_BookstandMayaHierchary_02_S1()		
-{
-	BookstandMayaArt 	= 2;
-	InitUse_BookstandMaya ();
-				
-	if (BookstandMayaHierchary_2_permanent == FALSE)
-	&& (C_CanReadBookStand ())
+	BookstandMayaArt = 1;
+	InitUse_BookstandMaya();
+	if ((BookstandMayaHierchary_1_permanent == FALSE)
+	&& (C_CanReadBookStand()))
 	{
-		B_GivePlayerXP (XP_Ambient);
+		B_GivePlayerXP(XP_Ambient);
+		BookstandMayaHierchary_1_permanent = TRUE;
+	};
+};
+
+func void Use_BookstandMayaHierchary_02_S1()
+{
+	BookstandMayaArt = 2;
+	InitUse_BookstandMaya();
+
+	if ((BookstandMayaHierchary_2_permanent == FALSE)
+	&& (C_CanReadBookStand()))
+	{
+		B_GivePlayerXP(XP_Ambient);
 		BookstandMayaHierchary_2_permanent = TRUE;
-	};	
+	};
 };
 
-FUNC VOID Use_BookstandMayaHierchary_03_S1()		
+func void Use_BookstandMayaHierchary_03_S1()
 {
-	BookstandMayaArt 	= 3;
-	InitUse_BookstandMaya ();
+	BookstandMayaArt = 3;
+	InitUse_BookstandMaya();
 
-	if (BookstandMayaHierchary_3_permanent == FALSE)
-	&& (C_CanReadBookStand ())
+	if ((BookstandMayaHierchary_3_permanent == FALSE)
+	&& (C_CanReadBookStand()))
 	{
-		B_GivePlayerXP (XP_Ambient);
+		B_GivePlayerXP(XP_Ambient);
 		BookstandMayaHierchary_3_permanent = TRUE;
-	};	
+	};
 };
 
-FUNC VOID Use_BookstandMayaHierchary_04_S1()		
+func void Use_BookstandMayaHierchary_04_S1()
 {
-	BookstandMayaArt 	= 4;
-	InitUse_BookstandMaya ();
-					
-	if (BookstandMayaHierchary_4_permanent== FALSE)
-	&& (C_CanReadBookStand ())
+	BookstandMayaArt = 4;
+	InitUse_BookstandMaya();
+
+	if ((BookstandMayaHierchary_4_permanent == FALSE)
+	&& (C_CanReadBookStand()))
 	{
-		B_GivePlayerXP (XP_Ambient);
+		B_GivePlayerXP(XP_Ambient);
 		BookstandMayaHierchary_4_permanent = TRUE;
 	};
 };
 
-FUNC VOID Use_BookstandMayaHierchary_05_S1()	
+func void Use_BookstandMayaHierchary_05_S1()
 {
-	BookstandMayaArt 	= 5;
-	InitUse_BookstandMaya ();
+	BookstandMayaArt = 5;
+	InitUse_BookstandMaya();
 
-	if (BookstandMayaHierchary_5_permanent == FALSE)
-	&& (C_CanReadBookStand ())
+	if ((BookstandMayaHierchary_5_permanent == FALSE)
+	&& (C_CanReadBookStand()))
 	{
-		B_GivePlayerXP (XP_Ambient);
+		B_GivePlayerXP(XP_Ambient);
 		BookstandMayaHierchary_5_permanent = TRUE;
 	};
 };

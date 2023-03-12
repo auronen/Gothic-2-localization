@@ -1,49 +1,47 @@
-
-instance BDT_1033_Fluechtling (Npc_Default)
+instance BDT_1033_Fluechtling(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_Fluechtling; 
-	guild 		= GIL_OUT;
-	id 			= 1033;
-	voice 		= 7;
-	flags       = 0;																
-	npctype		= NPCTYPE_MAIN;
-	
-	// ------ Aivars ------
-	//aivar[AIV_EnemyOverride] = TRUE;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 3);															
-		
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_STRONG ;	
-	
-	// ------ Equippte Waffen ------																
-	EquipItem	(self, ItMw_1h_SLD_Sword); 
-	CreateInvItems 	(self, ItWr_MorgahardTip, 1 );
+	// -------- NPC --------
+	name							= NAME_Fluechtling;
+	npctype							= NpcType_Main;
+	guild							= GIL_OUT;
+	flags							= 0;
 
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	voice							= 7;
+	id								= 1033;
 
-		
-	// ------ visuals ------																			
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Bald", Face_N_NormalBart_Graham, BodyTex_N,ITAR_Leather_L );	
-	Mdl_SetModelFatness	(self, 0);
-	Mdl_ApplyOverlayMds	(self, "Humans_Relaxed.mds"); 
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 3);
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																	
-	B_SetFightSkills (self, 60); 
-	
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_1033;
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Bald", Face_N_NormalBart_Graham, BodyTex_N, ITAR_Leather_L);
+	Mdl_SetModelFatness(self, 0);
+	Mdl_ApplyOverlayMDS(self, "Humans_Relaxed.mds");
+
+	// -------- aivars --------
+	// aivar[AIV_EnemyOverride]		= TRUE;
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_STRONG;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 60);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+	CreateInvItems(self, ItWr_MorgahardTip, 1);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_1h_SLD_Sword);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_1033;
 };
 
-FUNC VOID Rtn_Start_1033 ()
-{	
-	TA_Stand_ArmsCrossed	(08,00,23,00,"NW_TAVERNE_IN_06"); 
-    TA_Stand_ArmsCrossed	(23,00,08,00,"NW_TAVERNE_IN_06");
+func void Rtn_Start_1033()
+{
+	TA_Stand_ArmsCrossed(08, 00, 23, 00, "NW_TAVERNE_IN_06");
+	TA_Stand_ArmsCrossed(23, 00, 08, 00, "NW_TAVERNE_IN_06");
 };

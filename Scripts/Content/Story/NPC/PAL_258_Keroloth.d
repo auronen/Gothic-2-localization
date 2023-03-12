@@ -1,45 +1,44 @@
-
-instance PAL_258_Keroloth  (Npc_Default)
+instance PAL_258_Keroloth(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= "Keroloth";
-	guild 		= GIL_PAL;
-	id 			= 258;
-	voice 		= 7;
-	flags       = 0;																	//NPC_FLAG_IMMORTAL oder 0
-	npctype		= NPCTYPE_OCMAIN;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 4);																	//setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
-		
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_STRONG;	// MASTER / STRONG / COWARD
-	
-	// ------ Equippte Waffen ------																	//Munition wird automatisch generiert, darf aber angegeben werden
-	EquipItem			(self, ItMw_2h_Pal_Sword);
-	EquipItem			(self, ItRw_Mil_Crossbow);
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= "Keroloth";
+	npctype							= NPCTYPE_OCMAIN;
+	guild							= GIL_PAL;
+	flags							= 0; // NPC_FLAG_IMMORTAL oder 0
 
-		
-	// ------ visuals ------																			//Muss NACH Attributen kommen, weil in B_SetNpcVisual die Breite abh. v. STR skaliert wird
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Fighter", Face_N_Normal20, BodyTex_N, ITAR_PAL_M);	
-	Mdl_SetModelFatness	(self, 0);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
-	
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		//Der enthaltene B_AddFightSkill setzt Talent-Ani abhängig von TrefferChance% - alle Kampftalente werden gleichhoch gesetzt
-	B_SetFightSkills (self, 65); //Grenzen für Talent-Level liegen bei 30 und 60
+	voice							= 7;
+	id								= 258;
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_258;
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 4); // setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Fighter", Face_N_Normal20, BodyTex_N, ITAR_PAL_M);
+	Mdl_SetModelFatness(self, 0);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_STRONG; // MASTER / STRONG / COWARD
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 65); // Grenzen für Talent-Level liegen bei 30 und 60
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_2h_Pal_Sword);
+	EquipItem(self, ItRw_Mil_Crossbow);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_258;
 };
 
-FUNC VOID Rtn_Start_258 ()
-{	
-	  TA_Stand_Guarding			(08,00,19,00,"OC_CENTER_05_B");
-      TA_Roast_Scavenger		(19,00,08,00,"OC_CAMPFIRE_BARBQ");
+func void Rtn_Start_258()
+{
+	TA_Stand_Guarding(08, 00, 19, 00, "OC_CENTER_05_B");
+	TA_Roast_Scavenger(19, 00, 08, 00, "OC_CAMPFIRE_BARBQ");
 };

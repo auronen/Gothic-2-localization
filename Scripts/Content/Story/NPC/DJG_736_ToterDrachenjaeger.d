@@ -1,44 +1,43 @@
-
-instance DJG_736_ToterDrachenjaeger (Npc_Default)
+instance DJG_736_ToterDrachenjaeger(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_ToterDrachenjaeger; 
-	guild 		= GIL_DJG;
-	id 			= 736;
-	voice 		= 1;
-	flags       = 0;																	//NPC_FLAG_IMMORTAL oder 0
-	npctype		= NPCTYPE_AMBIENT;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 4);																	//setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
-	
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_STRONG;	// MASTER / STRONG / COWARD
-	
-	// ------ Equippte Waffen ------																	//Munition wird automatisch generiert, darf aber angegeben werden
-	EquipItem			(self, ItMw_2H_SLD_Axe);
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= NAME_ToterDrachenjaeger;
+	npctype							= NPCTYPE_AMBIENT;
+	guild							= GIL_DJG;
+	flags							= 0; // NPC_FLAG_IMMORTAL oder 0
 
-		
-	// ------ visuals ------																			//Muss NACH Attributen kommen, weil in B_SetNpcVisual die Breite abh. v. STR skaliert wird
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_FatBald", Face_B_Normal_Orik, BodyTex_B, ITAR_DJG_L);		
-	Mdl_SetModelFatness	(self, 1);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
-	
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		//Der enthaltene B_AddFightSkill setzt Talent-Ani abhängig von TrefferChance% - alle Kampftalente werden gleichhoch gesetzt
-	B_SetFightSkills (self, 70); //Grenzen für Talent-Level liegen bei 30 und 60
+	voice							= 1;
+	id								= 736;
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_736;
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 4); // setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_FatBald", Face_B_Normal_Orik, BodyTex_B, ITAR_DJG_L);
+	Mdl_SetModelFatness(self, 1);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_STRONG; // MASTER / STRONG / COWARD
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 70); // Grenzen für Talent-Level liegen bei 30 und 60
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_2H_SLD_Axe);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_736;
 };
 
-FUNC VOID Rtn_Start_736 ()
+func void Rtn_Start_736()
 {
-	TA_Sit_Bench						(08,00,23,00,"CASTLE_14");	//Joly: im Aufgang zum Feuerdragon
-    TA_Sit_Bench						(23,00,08,00,"CASTLE_14");	
+	TA_Sit_Bench(08, 00, 23, 00, "CASTLE_14"); // Joly: im Aufgang zum Feuerdragon
+	TA_Sit_Bench(23, 00, 08, 00, "CASTLE_14");
 };

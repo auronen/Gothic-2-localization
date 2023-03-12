@@ -1,46 +1,46 @@
-instance BDT_10029_Addon_Buddler (Npc_Default)
+instance BDT_10029_Addon_Buddler(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_Addon_Buddler;
-	guild 		= GIL_BDT;
-	id 			= 10029;
-	voice 		= 6;
-	flags      	= 0;
-	npctype		= NPCTYPE_BL_MAIN;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 4);
-	
-	// ------ Kampf-Taktik ------
-	fight_tactic = FAI_HUMAN_NORMAL;	
-	
-	// ------ Equippte Waffen ------																	
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv (self); 
-	
-	// ------ visuals ------																		
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Bald", Face_L_Jackal, BodyTex_L, ITAR_Prisoner);	
-	Mdl_SetModelFatness	(self, 1);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); 
+	// -------- NPC --------
+	name							= NAME_Addon_Buddler;
+	npctype							= NPCTYPE_BL_MAIN;
+	guild							= GIL_BDT;
+	flags							= 0;
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		
-	B_SetFightSkills (self, 30); 
+	voice							= 6;
+	id								= 10029;
 
-	// ------ TA anmelden ------
-	daily_routine 	= Rtn_Start_10029;
-};
-FUNC VOID Rtn_Start_10029()
-{
-	TA_Stand_Drinking	(06,00,12,00,"ADW_MINE_25");
-	TA_Stand_Drinking	(12,00,06,00,"ADW_MINE_25");
-};
-FUNC VOID Rtn_Work_10029()
-{
-	TA_Pick_Ore	 (08,00,23,00,"ADW_MINE_PICK_01");
-    TA_Pick_Ore	 (23,00,08,00,"ADW_MINE_PICK_01");
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 4);
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Bald", Face_L_Jackal, BodyTex_L, ITAR_Prisoner);
+	Mdl_SetModelFatness(self, 1);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds");
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_NORMAL;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 30);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_10029;
 };
 
+func void Rtn_Start_10029()
+{
+	TA_Stand_Drinking(06, 00, 12, 00, "ADW_MINE_25");
+	TA_Stand_Drinking(12, 00, 06, 00, "ADW_MINE_25");
+};
+
+func void Rtn_Work_10029()
+{
+	TA_Pick_Ore(08, 00, 23, 00, "ADW_MINE_PICK_01");
+	TA_Pick_Ore(23, 00, 08, 00, "ADW_MINE_PICK_01");
+};

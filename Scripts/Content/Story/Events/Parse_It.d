@@ -1,1 +1,1 @@
-func void parse_it_events() {};
+func void parse_it_events() { };

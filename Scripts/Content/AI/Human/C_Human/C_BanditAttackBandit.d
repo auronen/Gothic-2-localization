@@ -1,4 +1,4 @@
-func int C_BanditAttackBandit (var C_NPC slf, var C_NPC oth)
+func int C_BanditAttackBandit(var C_Npc slf, var C_Npc oth)
 {
 	return TRUE;
 };

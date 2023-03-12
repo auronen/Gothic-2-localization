@@ -1,43 +1,43 @@
-
-instance Pal_202_Albrecht (Npc_Default)
+instance Pal_202_Albrecht(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= "Albrecht";
-	guild 		= GIL_PAL;
-	id 			= 202;
-	voice 		= 3;
-	flags       = 0;																	
-	npctype		= NPCTYPE_MAIN;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 5);																	
+	// -------- NPC --------
+	name							= "Albrecht";
+	npctype							= NpcType_Main;
+	guild							= GIL_PAL;
+	flags							= 0;
 
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_MASTER;	
-	
-	// ------ Equippte Waffen ------																	
-	EquipItem			(self, ItMw_1H_Pal_Sword);
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
-		
-	// ------ visuals ------																			
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Fighter", Face_P_Tough_Rodriguez, BodyTex_P, ITAR_PAL_H);	
-	Mdl_SetModelFatness	(self, 1.5);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); 
-	
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		
-	B_SetFightSkills (self, 80); 
+	voice							= 3;
+	id								= 202;
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_202;
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 5);
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Fighter", Face_P_Tough_Rodriguez, BodyTex_P, ITAR_PAL_H);
+	Mdl_SetModelFatness(self, 1.5);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds");
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_MASTER;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 80);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_1H_Pal_Sword);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_202;
 };
 
-FUNC VOID Rtn_Start_202 ()
+func void Rtn_Start_202()
 {
-	TA_Read_Bookstand		(08,00,23,00,"NW_CITY_ALBRECHT");
-    TA_Read_Bookstand		(23,00,08,00,"NW_CITY_ALBRECHT");	
+	TA_Read_Bookstand(08, 00, 23, 00, "NW_CITY_ALBRECHT");
+	TA_Read_Bookstand(23, 00, 08, 00, "NW_CITY_ALBRECHT");
 };

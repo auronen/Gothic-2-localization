@@ -2,33 +2,31 @@
 // SPL_Daze
 // ***********
 
-const int SPL_Cost_Zap		= 15;
-const int SPL_Damage_Zap 	= 30;
+const int SPL_Cost_Zap = 15;
+const int SPL_Damage_Zap = 30;
 
-
-INSTANCE Spell_Zap (C_Spell_Proto)
+instance Spell_Zap(C_Spell_Proto)
 {
-	time_per_mana			= 0;
-	damage_per_level		= SPL_Damage_Zap;
-	damageType				= DAM_MAGIC;
+	time_per_mana = 0;
+	damage_per_level = SPL_Damage_Zap;
+	damageType = DAM_MAGIC;
 };
 
-func int Spell_Logic_Zap (var int manaInvested)
+func int Spell_Logic_Zap(var int manaInvested)
 {
 	if (Npc_GetActiveSpellIsScroll(self) && (self.attribute[ATR_MANA] >= SPL_Cost_Scroll))
 	{
 		return SPL_SENDCAST;
 	}
 	else if (self.attribute[ATR_MANA] >= SPL_Cost_Zap)
-	{	
+	{
 		return SPL_SENDCAST;
 	}
-	else //nicht genug Mana
+	else // nicht genug Mana
 	{
 		return SPL_SENDSTOP;
 	};
 };
-
 
 func void Spell_Cast_Zap(var int spellLevel)
 {
@@ -40,6 +38,6 @@ func void Spell_Cast_Zap(var int spellLevel)
 	{
 		self.attribute[ATR_MANA] = self.attribute[ATR_MANA] - SPL_Cost_Zap;
 	};
-	
+
 	self.aivar[AIV_SelectSpell] += 1;
 };

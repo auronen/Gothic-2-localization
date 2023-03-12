@@ -1,41 +1,43 @@
-instance BDT_10010_Addon_Bandit (Npc_Default)
+instance BDT_10010_Addon_Bandit(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_BANDIT;
-	guild 		= GIL_BDT;
-	id 			= 10010;
-	voice 		= 1;
-	flags      	= 0;
-	npctype		= NPCTYPE_BL_AMBIENT;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self,2);
-	
-	// ------ Kampf-Taktik ------
+	// -------- NPC --------
+	name							= NAME_BANDIT;
+	npctype							= NPCTYPE_BL_AMBIENT;
+	guild							= GIL_BDT;
+	flags							= 0;
+
+	voice							= 1;
+	id								= 10010;
+
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 2);
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Bald", Face_L_NormalBart_Rufus, BodyTex_L, ITAR_BDT_M);
+	Mdl_SetModelFatness(self, -1);
+	Mdl_ApplyOverlayMDS(self, "Humans_Relaxed.mds");
+
+	// -------- fight tactic --------
 	fight_tactic = FAI_HUMAN_STRONG;
-	
-	// ------ Equippte Waffen ------																	
-	EquipItem (self, ItMw_Nagelknueppel);
-		
-	// ------ Inventory ------
-	B_CreateAmbientInv (self); 
-	
-	// ------ visuals ------																		
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Bald", Face_L_NormalBart_Rufus, BodyTex_L, ITAR_BDT_M);	
-	Mdl_SetModelFatness	(self, -1);
-	Mdl_ApplyOverlayMds	(self, "Humans_Relaxed.mds"); 
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		
-	B_SetFightSkills (self, 30); 
+	// -------- talents --------
+	B_GiveNpcTalents(self);
 
-	// ------ TA anmelden ------
-	daily_routine 	= Rtn_Start_10010;
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 30);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_Nagelknueppel);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_10010;
 };
-FUNC VOID Rtn_Start_10010 ()
+
+func void Rtn_Start_10010()
 {
-	TA_Sit_Bench        (10,00,12,00,"BL_MID_09");
-	TA_Sit_Bench        (12,00,10,00,"BL_MID_09");
+	TA_Sit_Bench(10, 00, 12, 00, "BL_MID_09");
+	TA_Sit_Bench(12, 00, 10, 00, "BL_MID_09");
 };

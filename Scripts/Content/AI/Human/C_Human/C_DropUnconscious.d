@@ -8,33 +8,31 @@
 
 func int C_DropUnconscious()
 {
-	//if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Raven))
-	//|| (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(Raven))
-	//{
+	// if(Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Raven))
+	// || (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(Raven))
+	// {
 	//	return TRUE;
-	//};
-	
+	// };
+
 	// ------ Folgende NSCs töten immer ------
-	if (other.guild > GIL_SEPERATOR_HUM)
+	if ((other.guild > GIL_SEPERATOR_HUM)
 	|| (other.guild == GIL_DMT)
 	|| (other.guild == GIL_BDT)
-	|| (other.aivar[AIV_DropDeadAndKill] == TRUE)
+	|| (other.aivar[AIV_DropDeadAndKill] == TRUE))
 	{
 		return FALSE;
 	};
-		
+
 	// ------ nur echte Humans können Unconscious werden ------
 	if (self.guild < GIL_SEPERATOR_HUM)
 	{
-		if (self.guild != GIL_DMT)
+		if ((self.guild != GIL_DMT)
 		&& (self.guild != GIL_BDT)
-		&& (self.aivar[AIV_DropDeadAndKill] == FALSE)
+		&& (self.aivar[AIV_DropDeadAndKill] == FALSE))
 		{
 			return TRUE;
 		};
 	};
-			
+
 	return FALSE;
 };
-
-

@@ -1,150 +1,306 @@
 //************************
-//	Lurker Prototype
+//	Lurker prototype
 //************************
 
-PROTOTYPE Mst_Default_Lurker(C_Npc)			
+prototype Mst_Default_Lurker(C_Npc)
 {
-	//----- Monster ----
-	name							=	"Lurker";
-	guild							=	GIL_LURKER;
-	aivar[AIV_MM_REAL_ID]			= 	ID_LURKER;
-	level							=	12;
-	
-	//----- Attributes ----
-	attribute	[ATR_STRENGTH]		=	60;
-	attribute	[ATR_DEXTERITY]		=	60;
-	attribute	[ATR_HITPOINTS_MAX]	=	120;
-	attribute	[ATR_HITPOINTS]		=	120;
-	attribute	[ATR_MANA_MAX] 		=	0;
-	attribute	[ATR_MANA] 			=	0;
-	
-	//----- Protections ----
-	protection	[PROT_BLUNT]		=	60;
-	protection	[PROT_EDGE]			=	60;
-	protection	[PROT_POINT]		=	60;
-	protection	[PROT_FIRE]			=	60;
-	protection	[PROT_FLY]			=	60;
-	protection	[PROT_MAGIC]		=	0;
-	
-	//----- Damage Types----
-	damagetype 						=	DAM_EDGE;
-//	damage		[DAM_INDEX_BLUNT]	=	0;
-//	damage		[DAM_INDEX_EDGE]	=	0;
-//	damage		[DAM_INDEX_POINT]	=	0;
-//	damage		[DAM_INDEX_FIRE]	=	0;
-//	damage		[DAM_INDEX_FLY]		=	0;
-//	damage		[DAM_INDEX_MAGIC]	=	0;
+	// -------- NPC --------
+	name							= "Lurker";
+	guild							= GIL_LURKER;
+	level							= 12;
 
-	//----- Kampf-Taktik ----
-	fight_tactic	=	FAI_LURKER;
-	
-	//----- Senses & Ranges ----
-	senses			=	SENSE_HEAR | SENSE_SEE | SENSE_SMELL;
-	senses_range	=	PERC_DIST_MONSTER_ACTIVE_MAX;
-	
-	aivar[AIV_MM_ThreatenBeforeAttack] = TRUE;
-	aivar[AIV_MM_FollowTime]	= FOLLOWTIME_MEDIUM;
-	aivar[AIV_MM_FollowInWater] = TRUE;
-	
-	//----- Daily Routine ----
-	start_aistate				= ZS_MM_AllScheduler;
+	// -------- attributes --------
+	attribute[ATR_STRENGTH]			= 60;
+	attribute[ATR_DEXTERITY]		= 60;
+	attribute[ATR_HITPOINTS_MAX]	= 120;
+	attribute[ATR_HITPOINTS]		= 120;
+	attribute[ATR_MANA_MAX]			= 0;
+	attribute[ATR_MANA]				= 0;
 
-	aivar[AIV_MM_RoamStart] 	= OnlyRoutine;
+	// -------- protection --------
+	protection[PROT_BLUNT]			= 60;
+	protection[PROT_EDGE]			= 60;
+	protection[PROT_POINT]			= 60;
+	protection[PROT_FIRE]			= 60;
+	protection[PROT_FLY]			= 60;
+	protection[PROT_MAGIC]			= 0;
+
+	// -------- damage --------
+	damageType						= DAM_EDGE;
+	//	damage[DAM_INDEX_BLUNT]		= 0;
+	//	damage[DAM_INDEX_EDGE]		= 0;
+	//	damage[DAM_INDEX_POINT]		= 0;
+	//	damage[DAM_INDEX_FIRE]		= 0;
+	//	damage[DAM_INDEX_FLY]		= 0;
+	//	damage[DAM_INDEX_MAGIC]		= 0;
+
+	// -------- visuals --------
+
+	// -------- aivars --------
+	aivar[AIV_MM_REAL_ID]			= ID_LURKER;
+	aivar[AIV_MM_ThreatenBeforeAttack]= TRUE;
+	aivar[AIV_MM_FollowTime]		= FOLLOWTIME_MEDIUM;
+	aivar[AIV_MM_FollowInWater]		= TRUE;
+	aivar[AIV_MM_RoamStart]			= OnlyRoutine;
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_LURKER;
+	senses = SENSE_HEAR | SENSE_SEE | SENSE_SMELL;
+	senses_range = PERC_DIST_MONSTER_ACTIVE_MAX;
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
+	start_aistate = ZS_MM_AllScheduler;
 };
 
 //**************
 //	Visuals
 //**************
 
-//---------------------------------------------------
+// ---------------------------------------------------
 func void B_SetVisuals_Lurker()
 {
-	Mdl_SetVisual			(self,	"Lurker.mds");
-	//								Body-Mesh		Body-Tex	Skin-Color	Head-MMS	Head-Tex	Teeth-Tex	ARMOR
-	Mdl_SetVisualBody		(self,	"Lur_Body",		DEFAULT,	DEFAULT,	"",			DEFAULT,  	DEFAULT,	-1);
+	Mdl_SetVisual(self, "Lurker.mds");
+	//								Body-Mesh Body-Tex Skin-Color Head-MMS Head-Tex Teeth-Tex ARMOR
+	Mdl_SetVisualBody(self,	"Lur_Body",				DEFAULT,DEFAULT,	"",					DEFAULT,	DEFAULT,	-1);
 };
-
 
 //*************
 //	Lurker
 //*************
 
-INSTANCE Lurker	(Mst_Default_Lurker)
+instance Lurker(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
+
 	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
 //*************
 //	Kervos Lurker
 //*************
 
-INSTANCE Kervo_Lurker1	(Mst_Default_Lurker)
+instance Kervo_Lurker1(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
+
+	// -------- aivars --------
+	aivar[AIV_MaxDistToWp]			= 500; // Joly: damit sie nicht in Kervos Höhle rennen.
+	aivar[AIV_OriginalFightTactic]	= FAI_LURKER;
+
 	Npc_SetToFistMode(self);
-	aivar[AIV_MaxDistToWp]			= 500;	//Joly: damit sie nicht in Kervos Höhle rennen.
-	aivar[AIV_OriginalFightTactic] 	= FAI_LURKER;
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE Kervo_Lurker2	(Mst_Default_Lurker)
+instance Kervo_Lurker2(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
+
+	// -------- aivars --------
 	aivar[AIV_MaxDistToWp]			= 500;
-	aivar[AIV_OriginalFightTactic] 	= FAI_LURKER;
+	aivar[AIV_OriginalFightTactic]	= FAI_LURKER;
+
+	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE Kervo_Lurker3	(Mst_Default_Lurker)
+instance Kervo_Lurker3(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
+
+	// -------- aivars --------
 	aivar[AIV_MaxDistToWp]			= 500;
-	aivar[AIV_OriginalFightTactic] 	= FAI_LURKER;
+	aivar[AIV_OriginalFightTactic]	= FAI_LURKER;
+
+	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE Kervo_Lurker4	(Mst_Default_Lurker)
+instance Kervo_Lurker4(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
+
+	// -------- aivars --------
 	aivar[AIV_MaxDistToWp]			= 500;
-	aivar[AIV_OriginalFightTactic] 	= FAI_LURKER;
+	aivar[AIV_OriginalFightTactic]	= FAI_LURKER;
+
+	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE Kervo_Lurker5	(Mst_Default_Lurker)
+instance Kervo_Lurker5(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
+
+	// -------- aivars --------
 	aivar[AIV_MaxDistToWp]			= 500;
-	aivar[AIV_OriginalFightTactic] 	= FAI_LURKER;
+	aivar[AIV_OriginalFightTactic]	= FAI_LURKER;
+
+	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE Kervo_Lurker6	(Mst_Default_Lurker)
+instance Kervo_Lurker6(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
+
+	// -------- aivars --------
 	aivar[AIV_MaxDistToWp]			= 500;
-	aivar[AIV_OriginalFightTactic] 	= FAI_LURKER;
+	aivar[AIV_OriginalFightTactic]	= FAI_LURKER;
+
+	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
+// Addon
+// Beachlurker
 
-//Addon
-//Beachlurker
-
-INSTANCE BeachLurker1	(Mst_Default_Lurker)
+instance BeachLurker1(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
+
 	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE BeachLurker2	(Mst_Default_Lurker)
+instance BeachLurker2(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
+
 	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };
 
-INSTANCE BeachLurker3	(Mst_Default_Lurker)
+instance BeachLurker3(Mst_Default_Lurker)
 {
+	// -------- NPC --------
+
+	// -------- attributes --------
+
+	// -------- visuals --------
 	B_SetVisuals_Lurker();
+
 	Npc_SetToFistMode(self);
+
+	// -------- talents --------
+
+	// -------- fighting skills --------
+
+	// -------- inventory --------
+
+	// -------- daily routine --------
 };

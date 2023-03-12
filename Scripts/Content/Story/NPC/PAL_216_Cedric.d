@@ -1,44 +1,43 @@
-
-instance Pal_216_Cedric (Npc_Default)
+instance Pal_216_Cedric(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= "Cedric";
-	guild 		= GIL_PAL;
-	id 			= 216;
-	voice 		= 12;
-	flags       = 0;																	
-	npctype		= NPCTYPE_MAIN;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 5);																	
-	
-	// ------ Kampf-Taktik ------
-	fight_tactic = FAI_HUMAN_MASTER;	
-	
-	// ------ Equippte Waffen ------																	
-	EquipItem			(self, ItMw_1H_Pal_Sword);
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= "Cedric";
+	npctype							= NpcType_Main;
+	guild							= GIL_PAL;
+	flags							= 0;
 
-		
-	// ------ visuals ------																			
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Fighter", Face_N_NormalBart10, BodyTex_N, ITAR_PAL_M);	
-	Mdl_SetModelFatness	(self, 2);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); 
+	voice							= 12;
+	id								= 216;
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		
-	B_SetFightSkills (self, 55); 
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 5);
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_216;
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Fighter", Face_N_NormalBart10, BodyTex_N, ITAR_PAL_M);
+	Mdl_SetModelFatness(self, 2);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds");
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_MASTER;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 55);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_1H_Pal_Sword);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_216;
 };
 
-FUNC VOID Rtn_Start_216 ()
+func void Rtn_Start_216()
 {
-	TA_Practice_Sword	(07,00,19,00,"NW_CITY_TRAIN_01");
-	TA_Sleep			(19,00,07,00,"NW_CITY_LEOMAR_BED_03");	
+	TA_Practice_Sword(07, 00, 19, 00, "NW_CITY_TRAIN_01");
+	TA_Sleep(19, 00, 07, 00, "NW_CITY_LEOMAR_BED_03");
 };

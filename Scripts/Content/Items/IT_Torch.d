@@ -2,79 +2,94 @@
 // 	Wert der Fackel
 // ************************************************************************************************
 
-const int	Value_Fackel			=	2;
+const int Value_Fackel = 2;
 
 // ************************************************************************************************
 // 	Fackel muß ihre Instanznamen behalten
 // ************************************************************************************************
-INSTANCE ItLsTorch(C_Item)
+instance ItLsTorch(C_Item)
 {
-	name 				=	"Fackel";
+	name						= "Fackel";
 
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_TORCH|ITEM_MULTI;
+	mainflag					= ITEM_KAT_NONE;
+	flags						= ITEM_TORCH | ITEM_MULTI;
 
-	value 				=	Value_Fackel;
+	visual						= "ItLs_Torch_01.3ds";
+	material					= MAT_WOOD;
 
-	visual 				=	"ItLs_Torch_01.3ds";
-	material 			=	MAT_WOOD;
+	value						= Value_Fackel;
 
-	description			= 	name;
-	TEXT[3]				=   "Eine Fackel";
-	TEXT[5]				= 	NAME_Value;	COUNT[5]	= 	value;
-
+	description					= name;
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "";											count[2] = 0;
+	text[3]						= "Eine Fackel";								count[3] = 0;
+	text[4]						= "";											count[4] = 0;
+	text[5]						= NAME_Value;									count[5] = value;
 };
 
 /******************************************************************************************/
-INSTANCE ItLsTorchburning(C_Item)
+instance ItLsTorchburning(C_Item)
 {
-	name 				=	"Brennende Fackel";
+	name						= "Brennende Fackel";
 
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_TORCH;
+	mainflag					= ITEM_KAT_NONE;
+	flags						= ITEM_TORCH;
 
-	value 				=	0;
+	visual						= "ITLSTORCHBURNING.ZEN";
+	material					= MAT_WOOD;
 
-	visual 				=	"ITLSTORCHBURNING.ZEN";
-	material 			=	MAT_WOOD;
+	value						= 0;
 
-	description			= 	name;
-	TEXT[3]				=   "Eine Fackel";
+	description					= name;
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "";											count[2] = 0;
+	text[3]						= "Eine Fackel";								count[3] = 0;
 };
 
 /******************************************************************************************/
-INSTANCE ItLsTorchburned(C_Item)
+instance ItLsTorchburned(C_Item)
 {
-	name 				=	"Fackel";
+	name						= "Fackel";
 
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_TORCH|ITEM_MULTI;
+	mainflag					= ITEM_KAT_NONE;
+	flags						= ITEM_TORCH | ITEM_MULTI;
 
-	value 				=	0;
+	visual						= "ItLs_Torchburned_01.3ds";
+	material					= MAT_WOOD;
 
-	visual 				=	"ItLs_Torchburned_01.3ds";
-	material 			=	MAT_WOOD;
-	TEXT[3]				=   "Eine ausgebrannte Fackel";
-	description			= 	name;
+	value						= 0;
+
+	description					= name;
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "";											count[2] = 0;
+	text[3]						= "Eine ausgebrannte Fackel";					count[3] = 0;
 };
+
 // *****************
 // Feuerspucker-Item
 // *****************
 
-INSTANCE ItLsTorchFirespit(C_Item)
+instance ItLsTorchFirespit(C_Item)
 {
-	name 				=	"Fackel";
+	name						= "Fackel";
 
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_TORCH;
+	mainflag					= ITEM_KAT_NONE;
+	flags						= ITEM_TORCH;
 
-	value 				=	1;
+	visual						= "ITLSTORCHBURNING.ZEN";
+	material					= MAT_WOOD;
 
-	visual 				=	"ITLSTORCHBURNING.ZEN";
-	material 			=	MAT_WOOD;
+	scemeName					= "FIRESPIT";
 
-	scemeName			=	"FIRESPIT";
+	value						= 1;
 
-	description			= name;
-	TEXT[4]				= NAME_Value;					COUNT[4]	= value;
+	description					= name;
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "";											count[2] = 0;
+	text[3]						= "";											count[3] = 0;
+	text[4]						= NAME_Value;									count[4] = value;
 };

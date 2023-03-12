@@ -6,38 +6,38 @@
 // verschafft dem Spieler bei Freunden EINEN Freischlag
 // ************************************************************
 
-func void ZS_ReactToDamage ()
-{	
+func void ZS_ReactToDamage()
+{
 	Perception_Set_Normal();
-	
-	// FUNC 
-	
-	//kein AI_StandUp, nötig, da getroffener NSC auf jeden Fall steht
-	B_LookAtNpc 	(self, other); 
-	B_SelectWeapon	(self, other);		
-	B_TurnToNpc 	(self, other);
-				
-	B_Say (self, other, "$WHATAREYOUDOING");
-	
+
+	// FUNC
+
+	// kein AI_StandUp, nötig, da getroffener NSC auf jeden Fall steht
+	B_LookAtNpc(self, other);
+	B_SelectWeapon(self, other);
+	B_TurnToNpc(self, other);
+
+	B_Say(self, other, "$WHATAREYOUDOING");
+
 	// ------ aivars resetten ------
 	self.aivar[AIV_StateTime] = 0;
 };
 
-func int ZS_ReactToDamage_Loop ()
+func int ZS_ReactToDamage_Loop()
 {
 	// ------ Alle 2 Sekunden zu other ausrichten ------
-	if (Npc_GetStateTime (self) > self.aivar[AIV_StateTime])
+	if (Npc_GetStateTime(self) > self.aivar[AIV_StateTime])
 	{
-		if (!Npc_CanSeeNpc (self, other))
-		{	
-			AI_TurnToNpc (self, other);
+		if (!Npc_CanSeeNpc(self, other))
+		{
+			AI_TurnToNpc(self, other);
 		};
-		
+
 		self.aivar[AIV_StateTime] = self.aivar[AIV_StateTime] + 1;
 	};
 
 	// ------ 10 Sekunden warten -------
-	if (Npc_GetStateTime (self) > 10) 
+	if (Npc_GetStateTime(self) > 10)
 	{
 		return LOOP_END;
 	}
@@ -47,9 +47,8 @@ func int ZS_ReactToDamage_Loop ()
 	};
 };
 
-func void ZS_ReactToDamage_End ()
+func void ZS_ReactToDamage_End()
 {
-	AI_RemoveWeapon (self);
-	B_StopLookAt 	(self);
+	AI_RemoveWeapon(self);
+	B_StopLookAt(self);
 };
-

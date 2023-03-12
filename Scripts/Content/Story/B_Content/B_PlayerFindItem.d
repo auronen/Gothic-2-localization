@@ -1,45 +1,40 @@
 /*
-	Items in Items finden
+Items in Items finden
 */
-FUNC VOID B_PlayerFindItem (var int itm, var int amount)
+func void B_PlayerFindItem(var int itm, var int amount)
 {
-	if Npc_IsPlayer (self)
+	if (Npc_IsPlayer(self))
 	{
-		CreateInvItems (self, itm, amount);
-		
+		CreateInvItems(self, itm, amount);
+
 		var string ConcatText;
 		var string itemname;
-	
-		itemname = item.name;//kommt von createinvitems
-		
+
+		itemname = item.name; // kommt von CreateInvItems
+
 		if (itm == ItMi_Gold)
 		{
-			concatText = ConcatStrings(IntToString(amount), PRINT_GoldErhalten);			
-			Print (concatText);
-			
-			Snd_Play ("Geldbeutel");
+			concatText = ConcatStrings(IntToString(amount), PRINT_GoldErhalten);
+			Print(concatText);
+
+			Snd_Play("Geldbeutel");
 		}
 		else
 		{
-			 if (amount == 1)
-		   	 {
-				concatText	= ConcatStrings (itemname,PRINT_Addon_erhalten);
+			if (amount == 1)
+			{
+				concatText = ConcatStrings(itemname, PRINT_Addon_erhalten);
 				Print(concatText);
-				
-			}   
+			}
 			else
-		    {
-			    concatText = ConcatStrings(IntToString(amount), PRINT_ItemsErhalten);		
-			    concatText = ConcatStrings(concatText," (");
-			    concatText = ConcatStrings(concatText,itemname); 
-			    concatText = ConcatStrings(concatText,")");
-			    
-			    Print (concatText);
-			}; 
+			{
+				concatText = ConcatStrings(IntToString(amount), PRINT_ItemsErhalten);
+				concatText = ConcatStrings(concatText, " (");
+				concatText = ConcatStrings(concatText, itemname);
+				concatText = ConcatStrings(concatText, ")");
+
+				Print(concatText);
+			};
 		};
 	};
-}; 
-
-
-
-
+};

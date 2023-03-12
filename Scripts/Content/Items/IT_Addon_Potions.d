@@ -1,141 +1,142 @@
 /******************************************************************************************/
-//	Trank der Geistesveränderung (unwissend zusammengebraut)																		//
+//	Trank der Geistesveränderung (unwissend zusammengebraut) //
 /******************************************************************************************/
-INSTANCE ItPo_Addon_Geist_01(C_Item)
+instance ItPo_Addon_Geist_01(C_Item)
 {
-	name 			=	NAME_Trank;
+	name						= NAME_Trank;
 
-	mainflag 		=	ITEM_KAT_POTIONS;
-	flags 			=	ITEM_MULTI;
+	mainflag					= ITEM_KAT_POTIONS;
+	flags						= ITEM_MULTI;
 
-	value 			=	300;	
+	wear						= WEAR_EFFECT;
+	effect						= "SPELLFX_ITEMGLIMMER";
 
-	visual 			=	"ItPo_Perm_STR.3ds";
-	material 		=	MAT_GLAS;
-	on_state[0]		=	UseItPo_Geist_01;
-	scemeName		=	"POTIONFAST";
+	visual						= "ItPo_Perm_STR.3ds";
+	material					= MAT_GLAS;
 
-	wear			= 	WEAR_EFFECT;
-	effect			=	"SPELLFX_ITEMGLIMMER"; 
+	scemeName					= "POTIONFAST";
+	on_state[0]					= UseItPo_Geist_01;
 
-	description		= 	"Trank der Geistesveränderung";
-	
-	TEXT[2]			=   "Vor der Anwendung sollte man sich ABSICHERN!";
-	
-	TEXT[3]			= 	"Kann den Verstand derbe beeinflußen ";	
-	TEXT[4]			= 	"oder den Anwender töten";
-	
-	TEXT[5]			= 	NAME_Value;					
-	COUNT[5]		= 	Value_ManaEssenz;
+	value						= 300;
 
+	description					= "Trank der Geistesveränderung";
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "Vor der Anwendung sollte man sich ABSICHERN!";count[2] = 0;
+	text[3]						= "Kann den Verstand derbe beeinflußen ";		count[3] = 0;
+	text[4]						= "oder den Anwender töten";					count[4] = 0;
+	text[5]						= NAME_Value;									count[5] = Value_ManaEssenz;
 };
 
-	FUNC VOID UseItPo_Geist_01()
-	{
-		
-		self.attribute[ATR_HITPOINTS] = (self.attribute[ATR_HITPOINTS] -1000);
-	};
-/******************************************************************************************/
-//	Trank der Geistesveränderung (wissend zusammengebraut)																		//
-/******************************************************************************************/
-INSTANCE ItPo_Addon_Geist_02(C_Item)
+func void UseItPo_Geist_01()
 {
-	name 			=	NAME_Trank;
-
-	mainflag 		=	ITEM_KAT_POTIONS;
-	flags 			=	ITEM_MULTI;
-
-	value 			=	300;	
-
-	visual 			=	"ItPo_Perm_STR.3ds";
-	material 		=	MAT_GLAS;
-	on_state[0]		=	UseItPo_Geist_02;
-	scemeName		=	"POTIONFAST";
-
-	wear			= 	WEAR_EFFECT;
-	effect			=	"SPELLFX_ITEMGLIMMER"; 
-
-	description		= 	"Trank der Geistesveränderung";
-	
-	TEXT[2]			=   "Vor der Anwendung sollte man sich ABSICHERN!";
-	
-	TEXT[3]			= 	"Kann den Verstand derbe beeinflußen ";	
-	TEXT[4]			= 	"oder den Anwender töten";
-	
-	TEXT[5]			= 	NAME_Value;					
-	COUNT[5]		= 	Value_ManaEssenz;
-
+	self.attribute[ATR_HITPOINTS] = (self.attribute[ATR_HITPOINTS] - 1000);
 };
 
-	FUNC VOID UseItPo_Geist_02()
-	{
-		if Npc_IsPlayer (self)
-		{
-			B_GivePlayerXP (XP_Ambient * 5);
-		};
-	};
-/******************************************************************************************/	
-INSTANCE ItPo_Health_Addon_04(C_Item)
-{
-	name 			=	NAME_Trank;
-
-	mainflag 		=	ITEM_KAT_POTIONS;
-	flags 			=	ITEM_MULTI;
-
-	value 			=	Value_HpTrunk;	
-
-	visual 			=	"ItPo_Health_03.3ds";
-	material 		=	MAT_GLAS;
-	on_state[0]		=	UseItPo_Health_04;
-	scemeName		=	"POTIONFAST";
-
-	wear			= 	WEAR_EFFECT;
-	effect			=	"SPELLFX_HEALTHPOTION"; 
-
-
-	description		= 	"Reine Lebensenergie";
-	
-	//TEXT[1]			= 	NAME_Bonus_HP;				
-	TEXT[2]			= 	"Vollständige Regeneration";
-	
-	TEXT[5]			= 	NAME_Value;					
-	COUNT[5]		= 	Value_HpTrunk;
-};
-
-	FUNC VOID UseItPo_Health_04()
-	{
-		
-		self.attribute[ATR_HITPOINTS] =  self.attribute[ATR_HITPOINTS_MAX];
-	};
 /******************************************************************************************/
-INSTANCE ItPo_Mana_Addon_04(C_Item)
+//	Trank der Geistesveränderung (wissend zusammengebraut) //
+/******************************************************************************************/
+instance ItPo_Addon_Geist_02(C_Item)
 {
-	name 			=	NAME_Trank;
+	name						= NAME_Trank;
 
-	mainflag 		=	ITEM_KAT_POTIONS;
-	flags 			=	ITEM_MULTI;
+	mainflag					= ITEM_KAT_POTIONS;
+	flags						= ITEM_MULTI;
 
-	value 			=	Value_ManaTrunk;	
+	wear						= WEAR_EFFECT;
+	effect						= "SPELLFX_ITEMGLIMMER";
 
-	visual 			=	"ItPo_Mana_03.3ds";
-	material 		=	MAT_GLAS;
-	on_state[0]		=	UseItPo_Mana_04;
-	scemeName		=	"POTIONFAST";
+	visual						= "ItPo_Perm_STR.3ds";
+	material					= MAT_GLAS;
 
-	wear			= 	WEAR_EFFECT;
-	effect			=	"SPELLFX_MANAPOTION"; 
+	scemeName					= "POTIONFAST";
+	on_state[0]					= UseItPo_Geist_02;
 
+	value						= 300;
 
-	description		= 	"Reines Mana";
-	
-	//TEXT[1]			= 	NAME_Bonus_Mana;				
-	TEXT[2]			= 	"Vollständige Mana - Regeneration";
-	
-	TEXT[5]			= 	NAME_Value;					
-	COUNT[5]		= 	Value_ManaTrunk;
+	description					= "Trank der Geistesveränderung";
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "Vor der Anwendung sollte man sich ABSICHERN!";count[2] = 0;
+	text[3]						= "Kann den Verstand derbe beeinflußen ";		count[3] = 0;
+	text[4]						= "oder den Anwender töten";					count[4] = 0;
+	text[5]						= NAME_Value;									count[5] = Value_ManaEssenz;
 };
 
-	FUNC VOID UseItPo_Mana_04()
+func void UseItPo_Geist_02()
+{
+	if (Npc_IsPlayer(self))
 	{
-		self.attribute[ATR_MANA] = self.attribute[ATR_MANA_MAX];
+		B_GivePlayerXP(XP_Ambient * 5);
 	};
+};
+
+/******************************************************************************************/
+instance ItPo_Health_Addon_04(C_Item)
+{
+	name						= NAME_Trank;
+
+	mainflag					= ITEM_KAT_POTIONS;
+	flags						= ITEM_MULTI;
+
+	wear						= WEAR_EFFECT;
+	effect						= "SPELLFX_HEALTHPOTION";
+
+	visual						= "ItPo_Health_03.3ds";
+	material					= MAT_GLAS;
+
+	scemeName					= "POTIONFAST";
+	on_state[0]					= UseItPo_Health_04;
+
+	value						= Value_HpTrunk;
+
+	description					= "Reine Lebensenergie";
+	// text[1]					= NAME_Bonus_HP;
+
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "Vollständige Regeneration";					count[2] = 0;
+	text[3]						= "";											count[3] = 0;
+	text[4]						= "";											count[4] = 0;
+	text[5]						= NAME_Value;									count[5] = Value_HpTrunk;
+};
+
+func void UseItPo_Health_04()
+{
+	self.attribute[ATR_HITPOINTS] = self.attribute[ATR_HITPOINTS_MAX];
+};
+
+/******************************************************************************************/
+instance ItPo_Mana_Addon_04(C_Item)
+{
+	name						= NAME_Trank;
+
+	mainflag					= ITEM_KAT_POTIONS;
+	flags						= ITEM_MULTI;
+
+	wear						= WEAR_EFFECT;
+	effect						= "SPELLFX_MANAPOTION";
+
+	visual						= "ItPo_Mana_03.3ds";
+	material					= MAT_GLAS;
+
+	scemeName					= "POTIONFAST";
+	on_state[0]					= UseItPo_Mana_04;
+
+	value						= Value_ManaTrunk;
+
+	description					= "Reines Mana";
+	// text[1]					= NAME_Bonus_Mana;
+
+	text[0]						= "";											count[0] = 0;
+	text[1]						= "";											count[1] = 0;
+	text[2]						= "Vollständige Mana - Regeneration";			count[2] = 0;
+	text[3]						= "";											count[3] = 0;
+	text[4]						= "";											count[4] = 0;
+	text[5]						= NAME_Value;									count[5] = Value_ManaTrunk;
+};
+
+func void UseItPo_Mana_04()
+{
+	self.attribute[ATR_MANA] = self.attribute[ATR_MANA_MAX];
+};

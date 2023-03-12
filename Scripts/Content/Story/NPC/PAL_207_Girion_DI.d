@@ -1,45 +1,43 @@
-
-instance Pal_207_Girion_DI (Npc_Default)
+instance Pal_207_Girion_DI(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= "Girion";
-	guild 		= GIL_PAL;
-	id 			= 2070;
-	voice 		= 8;
-	flags       = 0;																	
-	npctype		= NPCTYPE_FRIEND;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 4);																	
-		
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_MASTER;	
-	
-	// ------ Equippte Waffen ------																
-	EquipItem			(self, ItMw_1H_Pal_Sword);
-	
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= "Girion";
+	npctype							= NpcType_Friend;
+	guild							= GIL_PAL;
+	flags							= 0;
 
-		
-	// ------ visuals ------																			
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Pony", Face_N_Lefty, BodyTex_N, ITAR_PAL_M);	
-	Mdl_SetModelFatness	(self, 1);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); 
-	
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		
-	B_SetFightSkills (self, 55); 
+	voice							= 8;
+	id								= 2070;
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_2070;
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 4);
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Pony", Face_N_Lefty, BodyTex_N, ITAR_PAL_M);
+	Mdl_SetModelFatness(self, 1);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds");
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_MASTER;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 55);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_1H_Pal_Sword);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_2070;
 };
 
-FUNC VOID Rtn_Start_2070 ()
+func void Rtn_Start_2070()
 {
-	TA_Sit_Bench			(08,00,23,00,"SHIP_DECK_18");
-	TA_Sit_Bench			(23,00,08,00,"SHIP_DECK_18");
+	TA_Sit_Bench(08, 00, 23, 00, "SHIP_DECK_18");
+	TA_Sit_Bench(23, 00, 08, 00, "SHIP_DECK_18");
 };

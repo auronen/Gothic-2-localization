@@ -1,48 +1,46 @@
-
-instance Mil_310_Stadtwache (Npc_Default)
+instance Mil_310_Stadtwache(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_Stadtwache;	
-	guild 		= GIL_MIL;
-	id 			= 310;
-	voice 		= 7;
-	flags       = NPC_FLAG_IMMORTAL;																
-	npctype		= NPCTYPE_MAIN;
-	
-	// ------ Aivars ------
-	aivar[AIV_NewsOverride] 	= TRUE;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 6);	
-		
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_MASTER;	
-	
-	// ------ Equippte Waffen ------																	
-	EquipItem			(self, ItMw_1h_Mil_Sword);
+	// -------- NPC --------
+	name							= NAME_Stadtwache;
+	npctype							= NpcType_Main;
+	guild							= GIL_MIL;
+	flags							= NPC_FLAG_IMMORTAL;
 
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	voice							= 7;
+	id								= 310;
 
-		
-	// ------ visuals ------																			
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Psionic", Face_N_Raven, BodyTex_N, ITAR_MIL_L);	
-	Mdl_SetModelFatness	(self, 1);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); 
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 6);
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																	
-	B_SetFightSkills (self, 50); 
-	
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_310;
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Psionic", Face_N_Raven, BodyTex_N, ITAR_MIL_L);
+	Mdl_SetModelFatness(self, 1);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds");
+
+	// -------- aivars --------
+	aivar[AIV_NewsOverride]			= TRUE;
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_MASTER;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 50);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_1h_Mil_Sword);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_310;
 };
 
-FUNC VOID Rtn_Start_310 ()
-{	
-	TA_Guard_Passage	(08,00,22,00,"NW_CITY_ENTRANCE_GUARD_02");
-    TA_Guard_Passage	(22,00,08,00,"NW_CITY_ENTRANCE_GUARD_02");
+func void Rtn_Start_310()
+{
+	TA_Guard_Passage(08, 00, 22, 00, "NW_CITY_ENTRANCE_GUARD_02");
+	TA_Guard_Passage(22, 00, 08, 00, "NW_CITY_ENTRANCE_GUARD_02");
 };

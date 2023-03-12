@@ -2,63 +2,63 @@
 // NSC benutzt Item Lute an Stand-FP
 // *********************************
 
-func void ZS_Play_Lute ()
-{	
+func void ZS_Play_Lute()
+{
 	Perception_Set_Normal();
-	
-	B_ResetAll (self);
-	
-	AI_SetWalkmode 	(self,NPC_WALK);
-		
-	if (Npc_GetDistToWP (self,self.wp) > TA_DIST_SELFWP_MAX) 
-    {
-		AI_GotoWP	(self, self.wp);
+
+	B_ResetAll(self);
+
+	AI_SetWalkMode(self, NPC_WALK);
+
+	if (Npc_GetDistToWP(self, self.wp) > TA_DIST_SELFWP_MAX)
+	{
+		AI_GotoWP(self, self.wp);
 	};
 
-	if (Npc_HasItems (self,ItMi_Lute) == 0)
+	if (Npc_HasItems(self, ItMi_Lute) == 0)
 	{
-		CreateInvItem (self,ItMi_Lute);
-	};	
+		CreateInvItem(self, ItMi_Lute);
+	};
+
 	self.aivar[AIV_TAPOSITION] = NOTINPOS;
 };
-	
-func int ZS_Play_Lute_Loop ()
+
+func int ZS_Play_Lute_Loop()
 {
-	if (Npc_IsOnFP (self, "STAND"))
-	{	
-		AI_AlignToFP (self);
-		if (self.aivar[AIV_TAPOSITION] == NOTINPOS_WALK)
-  		{
-  			self.aivar[AIV_TAPOSITION] = NOTINPOS;
-  		};	
-	}	
-	else if (Wld_IsFPAvailable(self,"STAND"))
+	if (Npc_IsOnFP(self, "STAND"))
 	{
-		AI_GotoFP 		(self, "STAND");
-		AI_StandUp 		(self);
-		AI_AlignToFP 	(self);
+		AI_AlignToFP(self);
+		if (self.aivar[AIV_TAPOSITION] == NOTINPOS_WALK)
+		{
+			self.aivar[AIV_TAPOSITION] = NOTINPOS;
+		};
+	}
+	else if (Wld_IsFPAvailable(self, "STAND"))
+	{
+		AI_GotoFP(self, "STAND");
+		AI_StandUp(self);
+		AI_AlignToFP(self);
 		self.aivar[AIV_TAPOSITION] = NOTINPOS_WALK;
 	}
 	else
 	{
-		AI_AlignToWP (self);
+		AI_AlignToWP(self);
 		if (self.aivar[AIV_TAPOSITION] == NOTINPOS_WALK)
-  		{
-  			self.aivar[AIV_TAPOSITION] = NOTINPOS;
-  		};
+		{
+			self.aivar[AIV_TAPOSITION] = NOTINPOS;
+		};
 	};
-	
+
 	if (self.aivar[AIV_TAPOSITION] == NOTINPOS)
 	{
-		AI_UseItemToState 	(self,ItMi_Lute,1);
+		AI_UseItemToState(self, ItMi_Lute, 1);
 		self.aivar[AIV_TAPOSITION] = ISINPOS;
 	};
 
 	return LOOP_CONTINUE;
 };
 
-func void ZS_Play_Lute_End ()
+func void ZS_Play_Lute_End()
 {
-	AI_UseItemToState (self, ItMi_Lute, -1);
+	AI_UseItemToState(self, ItMi_Lute, -1);
 };
-

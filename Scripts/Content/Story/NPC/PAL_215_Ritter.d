@@ -1,45 +1,44 @@
-
-instance Pal_215_Ritter (Npc_Default)
+instance Pal_215_Ritter(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_Ritter;
-	guild 		= GIL_PAL;
-	id 			= 215;
-	voice 		= 12;
-	flags       = 0;																	
-	npctype		= NPCTYPE_AMBIENT;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 4);																	
-	
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_MASTER;	
-	
-	// ------ Equippte Waffen ------																	
-	EquipItem			(self, ItMw_2H_Pal_Sword);
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= NAME_Ritter;
+	npctype							= NPCTYPE_AMBIENT;
+	guild							= GIL_PAL;
+	flags							= 0;
 
-		
-	// ------ visuals ------																			
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_FatBald", Face_L_Tough02, BodyTex_L, ITAR_PAL_M);	
-	Mdl_SetModelFatness	(self, 2);
-	Mdl_ApplyOverlayMds	(self, "Humans_Militia.mds"); 
+	voice							= 12;
+	id								= 215;
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		
-	B_SetFightSkills (self, 55); 
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 4);
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_215;
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_FatBald", Face_L_Tough02, BodyTex_L, ITAR_PAL_M);
+	Mdl_SetModelFatness(self, 2);
+	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds");
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_MASTER;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 55);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_2H_Pal_Sword);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_215;
 };
 
-FUNC VOID Rtn_Start_215 ()
+func void Rtn_Start_215()
 {
-	TA_Practice_Sword	(07,08,19,01,"NW_CITY_TRAIN_01");
-	TA_Smalltalk		(19,01,23,07,"NW_CITY_UPTOWN_HUT_03_01");
-    TA_Sleep			(23,07,07,08,"NW_CITY_LEOMAR_BED_03");	
+	TA_Practice_Sword(07, 08, 19, 01, "NW_CITY_TRAIN_01");
+	TA_Smalltalk(19, 01, 23, 07, "NW_CITY_UPTOWN_HUT_03_01");
+	TA_Sleep(23, 07, 07, 08, "NW_CITY_LEOMAR_BED_03");
 };

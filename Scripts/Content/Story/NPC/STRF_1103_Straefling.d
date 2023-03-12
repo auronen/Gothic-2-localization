@@ -1,45 +1,43 @@
-
-instance STRF_1103_Straefling (Npc_Default)
+instance STRF_1103_Straefling(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= NAME_STRAEFLING; 
-	guild 		= GIL_STRF;
-	id 			= 1103;
-	voice 		= 13;
-	flags       = 0;							//NPC_FLAG_IMMORTAL oder 0
-	npctype		= NPCTYPE_OCAMBIENT;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 1);																	//setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
-		
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_COWARD;	// MASTER / STRONG / COWARD
-	
-	// ------ Equippte Waffen ------																	//Munition wird automatisch generiert, darf aber angegeben werden
-	EquipItem (self, ItMw_2H_Axe_L_01);
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= NAME_STRAEFLING;
+	npctype							= NPCTYPE_OCAMBIENT;
+	guild							= GIL_STRF;
+	flags							= 0; // NPC_FLAG_IMMORTAL oder 0
 
-		
-	// ------ visuals ------																			//Muss NACH Attributen kommen, weil in B_SetNpcVisual die Breite abh. v. STR skaliert wird
-	
-	B_SetNpcVisual 		(self, MALE, "Hum_Head_Bald", Face_N_Weak_BaalNetbek, BodyTex_N, ITAR_Prisoner);	
-	Mdl_SetModelFatness	(self, 0);
-	Mdl_ApplyOverlayMds	(self, "Humans_Tired.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
-	
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																		//Der enthaltene B_AddFightSkill setzt Talent-Ani abhängig von TrefferChance% - alle Kampftalente werden gleichhoch gesetzt
-	B_SetFightSkills (self, 15); //Grenzen für Talent-Level liegen bei 30 und 60
+	voice							= 13;
+	id								= 1103;
 
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_1103;
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 1); // setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, MALE, "Hum_Head_Bald", Face_N_Weak_BaalNetbek, BodyTex_N, ITAR_Prisoner);
+	Mdl_SetModelFatness(self, 0);
+	Mdl_ApplyOverlayMDS(self, "Humans_Tired.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_COWARD; // MASTER / STRONG / COWARD
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 15); // Grenzen für Talent-Level liegen bei 30 und 60
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- equipped weapons --------
+	EquipItem(self, ItMw_2H_Axe_L_01);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_1103;
 };
 
-FUNC VOID Rtn_Start_1103 ()
-{	
-	TA_Sit_Campfire				(08,00,23,00,"OC_PRISON_CELL_01_SIT");
-    TA_Sit_Campfire				(23,00,08,00,"OC_PRISON_CELL_01_SIT");
+func void Rtn_Start_1103()
+{
+	TA_Sit_Campfire(08, 00, 23, 00, "OC_PRISON_CELL_01_SIT");
+	TA_Sit_Campfire(23, 00, 08, 00, "OC_PRISON_CELL_01_SIT");
 };

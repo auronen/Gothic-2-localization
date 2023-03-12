@@ -2,9 +2,9 @@
 // C_NpcIsGateGuard
 // ************************
 
-func int C_NpcIsGateGuard (var C_NPC slf)
+func int C_NpcIsGateGuard(var C_Npc slf)
 {
-	if (Npc_IsInState (slf, ZS_Guard_Passage))
+	if (Npc_IsInState(slf, ZS_Guard_Passage))
 	{
 		return TRUE;
 	}

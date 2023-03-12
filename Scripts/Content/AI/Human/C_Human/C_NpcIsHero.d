@@ -1,13 +1,12 @@
-FUNC INT C_NpcIsHero (var C_NPC slf)
+func int C_NpcIsHero(var C_Npc slf)
 {
-	var C_NPC her;
-	her = Hlp_GetNpc (PC_Hero);
-	
-	if  (Hlp_GetInstanceID(slf) == Hlp_GetInstanceID(her))
+	var C_Npc her;
+	her = Hlp_GetNpc(PC_Hero);
+
+	if (Hlp_GetInstanceID(slf) == Hlp_GetInstanceID(her))
 	{
 		return TRUE;
 	};
- 	
+
 	return FALSE;
 };
-

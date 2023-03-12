@@ -1,14 +1,13 @@
 // ******************
-// SPL_SummonGuardian	/k3
+// SPL_SummonGuardian /k3
 // ******************
 
-const int SPL_Cost_SummonGuardian			= 60;
+const int SPL_Cost_SummonGuardian = 60;
 
-
-INSTANCE Spell_SummonGuardian (C_Spell_Proto)	
+instance Spell_SummonGuardian(C_Spell_Proto)
 {
-	time_per_mana			= 0;
-	targetCollectAlgo		= TARGET_COLLECT_NONE;
+	time_per_mana = 0;
+	targetCollectAlgo = TARGET_COLLECT_NONE;
 };
 
 func int Spell_Logic_SummonGuardian(var int manaInvested)
@@ -21,7 +20,7 @@ func int Spell_Logic_SummonGuardian(var int manaInvested)
 	{
 		return SPL_SENDCAST;
 	}
-	else //nicht genug Mana
+	else // nicht genug Mana
 	{
 		return SPL_SENDSTOP;
 	};
@@ -37,17 +36,17 @@ func void Spell_Cast_SummonGuardian()
 	{
 		self.attribute[ATR_MANA] = self.attribute[ATR_MANA] - SPL_Cost_SummonGuardian;
 	};
-	
+
 	self.aivar[AIV_SelectSpell] = (self.aivar[AIV_SelectSpell] + 1);
-	
-	if (Npc_IsPlayer(self)) 
-	{		
-		Wld_SpawnNpcRange	(self,	Summoned_Guardian,			1,	500);
+
+	if (Npc_IsPlayer(self))
+	{
+		Wld_SpawnNpcRange(self, Summoned_Guardian, 1, 500);
 	}
 	else
 	{
-		Wld_SpawnNpcRange	(self,	Stoneguardian,			1,	500);
+		Wld_SpawnNpcRange(self, Stoneguardian, 1, 500);
 	};
-	
+
 	self.aivar[AIV_SelectSpell] += 1;
 };

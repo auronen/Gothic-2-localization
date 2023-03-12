@@ -1,42 +1,39 @@
-
-instance VLK_414_Hanna (Npc_Default)
+instance VLK_414_Hanna(Npc_Default)
 {
-	// ------ NSC ------
-	name 		= "Hanna";
-	guild 		= GIL_VLK;
-	id 			= 414;
-	voice 		= 17;
-	flags       = 0;																	
-	npctype		= NPCTYPE_MAIN;
-	
-	// ------ Attribute ------
-	B_SetAttributesToChapter (self, 1);																	
-		
-	// ------ Kampf-Taktik ------
-	fight_tactic		= FAI_HUMAN_COWARD;	
-	
-	// ------ Equippte Waffen ------																	
-	
-	// ------ Inventory ------
-	B_CreateAmbientInv 	(self);
+	// -------- NPC --------
+	name							= "Hanna";
+	npctype							= NpcType_Main;
+	guild							= GIL_VLK;
+	flags							= 0;
 
-		
-	// ------ visuals ------						FaceBabe_N_HairAndCloth																
-	B_SetNpcVisual 		(self, FEMALE, "Hum_Head_Babe1", FaceBabe_N_WhiteCloth, BodyTex_N, ITAR_VlkBabe_L);	
-	Mdl_ApplyOverlayMds	(self, "Humans_Babe.mds"); 
+	voice							= 17;
+	id								= 414;
 
-	// ------ NSC-relevante Talente vergeben ------
-	B_GiveNpcTalents (self);
-	
-	// ------ Kampf-Talente ------																	
-	B_SetFightSkills (self, 35); 
-	
-	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_414;
+	// -------- attributes --------
+	B_SetAttributesToChapter(self, 1);
+
+	// -------- visuals --------
+	B_SetNpcVisual(self, FEMALE, "Hum_Head_Babe1", FaceBabe_N_WhiteCloth, BodyTex_N, ITAR_VlkBabe_L);
+	Mdl_ApplyOverlayMDS(self, "Humans_Babe.mds");
+
+	// -------- fight tactic --------
+	fight_tactic = FAI_HUMAN_COWARD;
+
+	// -------- talents --------
+	B_GiveNpcTalents(self);
+
+	// -------- fighting skills --------
+	B_SetFightSkills(self, 35);
+
+	// -------- inventory --------
+	B_CreateAmbientInv(self);
+
+	// -------- daily routine --------
+	daily_routine = Rtn_Start_414;
 };
 
-FUNC VOID Rtn_Start_414 ()
-{	
-	TA_Stand_ArmsCrossed	(08,00,22,00,"NW_CITY_HANNA");
-    TA_Stand_ArmsCrossed	(22,00,08,00,"NW_CITY_HANNA");
+func void Rtn_Start_414()
+{
+	TA_Stand_ArmsCrossed(08, 00, 22, 00, "NW_CITY_HANNA");
+	TA_Stand_ArmsCrossed(22, 00, 08, 00, "NW_CITY_HANNA");
 };
