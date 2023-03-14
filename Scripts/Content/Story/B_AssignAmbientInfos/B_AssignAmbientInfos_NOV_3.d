@@ -133,7 +133,7 @@ func void DIA_NOV_3_Fegen_Ja()
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self, "FEGEN");
 
-	B_LogEntry(Topic_ParlanFegen, Topic_ParlanFegen_5);
+	B_LogEntry(Topic_ParlanFegen, Topic_ParlanFegen_8);
 };
 
 // *************************************************************************

@@ -115,12 +115,11 @@ const string BookstandHistory3_S1_2 = "Überall dort, wo Menschen zusammenkommen
 const string BookstandHistory3_S1_3 = "So wird jedes Verbrechen wider der Gemeinschaft bestraft.";
 const string BookstandHistory3_S1_4 = "Im Sinne der Gemeinschaft ist es nicht erlaubt Schlägereien anzuzetteln oder sich in solche verwickeln zu lassen. ";
 const string BookstandHistory3_S1_5 = "Ebenso ist Diebstahl ein Vergehen, das nicht ohne Folge bleibt. Und auch die Schafe stehen unter dem Schutz des Gesetzes.  ";
-const string BookstandHistory3_S1_6 = " ";
-const string BookstandHistory3_S1_7 = "Wer gar einen anderen Menschen niederschlägt und ermordet, muß damit rechnen auf der Stelle gerichtet zu werden.";
-const string BookstandHistory3_S1_8 = "Und wer dem entgehen kann, muß eine hohen Strafe zahlen. ";
-const string BookstandHistory3_S1_9 = "An allen großen Orten, führen Männer das Amt des Rechts aus. Ihnen wird zugetragen welche Taten geschehen und sie fordern die Strafe ein, auf das der Frieden wiederhergestellt wird. ";
-const string BookstandHistory3_S1_10 = "Denn wer Opfer eines Vergehens wird oder solche bezeugen kann, wird nicht gut auf den Täter zu sprechen sein.";
-const string BookstandHistory3_S1_11 = "Es gibt natürlich auch Volk das sich nicht um die Gesetze schert. Vor allem Banditen und Söldner. ";
+const string BookstandHistory3_S1_6 = "Wer gar einen anderen Menschen niederschlägt und ermordet, muß damit rechnen auf der Stelle gerichtet zu werden.";
+const string BookstandHistory3_S1_7 = "Und wer dem entgehen kann, muß eine hohen Strafe zahlen. ";
+const string BookstandHistory3_S1_8 = "An allen großen Orten, führen Männer das Amt des Rechts aus. Ihnen wird zugetragen welche Taten geschehen und sie fordern die Strafe ein, auf das der Frieden wiederhergestellt wird. ";
+const string BookstandHistory3_S1_9 = "Denn wer Opfer eines Vergehens wird oder solche bezeugen kann, wird nicht gut auf den Täter zu sprechen sein.";
+const string BookstandHistory3_S1_10 = "Es gibt natürlich auch Volk das sich nicht um die Gesetze schert. Vor allem Banditen und Söldner. ";
 func void Use_BookstandHistory3_S1() // Geschichtsbücher
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -144,16 +143,16 @@ func void Use_BookstandHistory3_S1() // Geschichtsbücher
 		Doc_PrintLines(nDocID, 0, BookstandHistory3_S1_3);
 		Doc_PrintLines(nDocID, 0, BookstandHistory3_S1_4);
 		Doc_PrintLines(nDocID, 0, BookstandHistory3_S1_5);
-		Doc_PrintLines(nDocID, 0, BookstandHistory3_S1_6);
+		Doc_PrintLines(nDocID, 0, "");
 
 		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
+		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_6);
 		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_7);
 		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_8);
 		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_9);
-		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_10);
 		Doc_PrintLine(nDocID, 1, "");
-		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_11);
+		Doc_PrintLines(nDocID, 1, BookstandHistory3_S1_10);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);

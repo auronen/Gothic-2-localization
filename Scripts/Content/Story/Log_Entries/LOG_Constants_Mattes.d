@@ -144,6 +144,7 @@ const string TOPIC_Lehrling_13					= "Thorben wird mich nicht als Lehrling aufne
 const string TOPIC_Lehrling_14					= "Thorben gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
 const string TOPIC_Lehrling_15					= "Bosper sucht einen neuen Lehrling. Bei ihm könnte ich anfangen.";
 const string Topic_Lehrling_16					= "Bosper gibt mir seine Zustimmung, wenn ich irgendwo als Lehrling anfangen will.";
+const string Topic_Lehrling_17					= "Harad hat mir von Banditen erzählt, die den Händler Hakon vor der Stadt überfallen haben. Wenn ich sie zur Strecke bringe, ist er von mir überzeugt.";
 
 const string TOPIC_OV							= "Der Weg in's obere Viertel.";
 const string TOPIC_OV_1							= "Wenn ich in's obere Viertel will, brauche ich die Hilfe der einflußreichen Bürger in der Unterstadt.";
@@ -274,6 +275,7 @@ const string Topic_ParlanFegen_4				= "Der Novize, der im Keller fegt, hilft mir
 const string Topic_ParlanFegen_5				= "Der Novize aus dem Keller hilft mir jetzt, die Kammern zu fegen.";
 const string Topic_ParlanFegen_6				= "Der Novize vor der Kirche hilft mir, wenn ich ihm 50 Goldstücke gebe.";
 const string Topic_ParlanFegen_7				= "Meister Parlan wünscht, das ich die vier Novizenkammern ausfege. Eine Aufgabe für die ich alleine bestimmt eine Ewigkeit brauche. ";
+const string Topic_ParlanFegen_8				= "Der Novize vor der Kirche hilft mir jetzt, die Kammern zu fegen.";
 
 const string Topic_GoraxEssen					= "Wurst verteilen.";
 const string Topic_GoraxEssen_1					= "Meister Gorax wünscht, das ich die Schafswürste aus der Vorratskammer gerecht unter allen Novizen aufteile. Außer mir sind noch dreizehn weitere Novizen im Kloster.";

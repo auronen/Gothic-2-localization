@@ -173,7 +173,7 @@ func void DIA_Harad_OrcRunning_TooHard()
 	}
 	else
 	{
-		B_LogEntry(TOPIC_Lehrling, TOPIC_Lehrling_4);
+		B_LogEntry(TOPIC_Lehrling, Topic_Lehrling_17);
 	};
 
 	Info_ClearChoices(DIA_Harad_OrcRunning);
