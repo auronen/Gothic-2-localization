@@ -1,0 +1,26 @@
+{
+    "fileMasks": [
+        "MusicInst.d",
+        "PfxInstMagic",
+        "SfxInst.d",
+        "_intern/"
+    ],
+    "functionBlackList": [
+        "PlayVideo"
+    ],
+    "memberVariables": [
+        "description",
+        "name",
+        "name[0]",
+        "text",
+        "text[0]",
+        "text[1]",
+        "text[2]",
+        "text[3]",
+        "text[4]",
+        "text[5]"
+    ],
+    "SymbolBlacklist": [
+    ]
+    
+}
