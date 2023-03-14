@@ -6,7 +6,7 @@
 const string Bookstand_Rune_01_S1_1 = "Seite 1";
 const string Bookstand_Rune_01_S1_2 = "Die Runensteine";
 const string Bookstand_Rune_01_S1_3 = "Seite 2";
-const string Bookstand_Rune_01_S1_4 = " ";
+
 func void Use_Bookstand_Rune_01_S1()
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -33,7 +33,7 @@ func void Use_Bookstand_Rune_01_S1()
 		Doc_PrintLine(nDocID, 1, Bookstand_Rune_01_S1_3);
 		Doc_PrintLine(nDocID, 1, "");
 
-		Doc_PrintLines(nDocID, 1, Bookstand_Rune_01_S1_4);
+		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);
 	};
 };
@@ -44,7 +44,7 @@ func void Use_Bookstand_Rune_01_S1()
 const string Bookstand_Rune_02_S1_1 = "Seite 1";
 const string Bookstand_Rune_02_S1_2 = "Die Runen und ihre Ingredenzien";
 const string Bookstand_Rune_02_S1_3 = "Seite 2";
-const string Bookstand_Rune_02_S1_4 = " ";
+
 func void Use_Bookstand_Rune_02_S1()
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -71,7 +71,7 @@ func void Use_Bookstand_Rune_02_S1()
 		Doc_PrintLine(nDocID, 1, Bookstand_Rune_02_S1_3);
 		Doc_PrintLine(nDocID, 1, "");
 
-		Doc_PrintLines(nDocID, 1, Bookstand_Rune_02_S1_4);
+		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);
 	};
 };
@@ -82,7 +82,7 @@ func void Use_Bookstand_Rune_02_S1()
 const string Bookstand_Innos_01_S1_1 = "Seite 1";
 const string Bookstand_Innos_01_S1_2 = "Die Lehren Innos";
 const string Bookstand_Innos_01_S1_3 = "Seite 2";
-const string Bookstand_Innos_01_S1_4 = " ";
+
 func void Use_Bookstand_Innos_01_S1()
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -109,7 +109,7 @@ func void Use_Bookstand_Innos_01_S1()
 		Doc_PrintLine(nDocID, 1, Bookstand_Innos_01_S1_3);
 		Doc_PrintLine(nDocID, 1, "");
 
-		Doc_PrintLines(nDocID, 1, Bookstand_Innos_01_S1_4);
+		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);
 	};
 };
@@ -120,7 +120,7 @@ func void Use_Bookstand_Innos_01_S1()
 const string Bookstand_Innos_02_S1_1 = "Seite 1";
 const string Bookstand_Innos_02_S1_2 = "Die Gebote Innos";
 const string Bookstand_Innos_02_S1_3 = "Seite 2";
-const string Bookstand_Innos_02_S1_4 = " ";
+
 func void Use_Bookstand_Innos_02_S1()
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -147,7 +147,7 @@ func void Use_Bookstand_Innos_02_S1()
 		Doc_PrintLine(nDocID, 1, Bookstand_Innos_02_S1_3);
 		Doc_PrintLine(nDocID, 1, "");
 
-		Doc_PrintLines(nDocID, 1, Bookstand_Innos_02_S1_4);
+		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);
 	};
 };
@@ -626,7 +626,6 @@ func void Use_Bookstand_Kreise_06_S1()
 const string Bookstand_Rules_01_S1_1 = "Seite 1";
 const string Bookstand_Rules_01_S1_2 = "Regeln";
 const string Bookstand_Rules_01_S1_3 = "Seite 2";
-const string Bookstand_Rules_01_S1_4 = " ";
 func void Use_Bookstand_Rules_01_S1()
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -653,7 +652,7 @@ func void Use_Bookstand_Rules_01_S1()
 		Doc_PrintLine(nDocID, 1, Bookstand_Rules_01_S1_3);
 		Doc_PrintLine(nDocID, 1, "");
 
-		Doc_PrintLines(nDocID, 1, Bookstand_Rules_01_S1_4);
+		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);
 	};
 };

@@ -107,17 +107,10 @@ instance ItWr_LetterForGorn_MIS(C_Item)
 	text[5]						= "";											count[5] = 0;
 };
 
-const string LetterForGorn_1 = " ";
-const string LetterForGorn_2 = " ";
-const string LetterForGorn_3 = " ";
-const string LetterForGorn_4 = " ";
-const string LetterForGorn_5 = "Gorn!";
-const string LetterForGorn_6 = " ";
-const string LetterForGorn_7 = "Garond hat zugestimmt dich freizulassen - für 1000 Goldstücke. ";
-const string LetterForGorn_8 = "Also, falls du noch irgendwo Gold versteckt hast - jetzt ist die Zeit, damit rauszurücken. ";
-const string LetterForGorn_9 = " ";
-const string LetterForGorn_10 = " ";
-const string LetterForGorn_11 = "Milten ";
+const string LetterForGorn_1 = "Gorn!";
+const string LetterForGorn_2 = "Garond hat zugestimmt dich freizulassen - für 1000 Goldstücke. ";
+const string LetterForGorn_3 = "Also, falls du noch irgendwo Gold versteckt hast - jetzt ist die Zeit, damit rauszurücken. ";
+const string LetterForGorn_4= "Milten ";
 func void UseLetterForGorn()
 {
 	var int nDocID;
@@ -127,17 +120,17 @@ func void UseLetterForGorn()
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
 				Doc_SetMargins(nDocID, -1, 50, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, LetterForGorn_1);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_2);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_3);
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLines	(nDocID, 0, LetterForGorn_2);
+				Doc_PrintLines	(nDocID, 0, LetterForGorn_3);
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, LetterForGorn_4);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_5);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_6);
-				Doc_PrintLines	(nDocID, 0, LetterForGorn_7);
-				Doc_PrintLines	(nDocID, 0, LetterForGorn_8);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_9);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_10);
-				Doc_PrintLine	(nDocID, 0, LetterForGorn_11);
 	Doc_Show(nDocID);
 };
 
@@ -571,17 +564,14 @@ instance ItWr_Pfandbrief_MIS(C_Item)
 	text[5]						= "";											count[5] = 0;
 };
 
-const string Pfandbrief_1 = " ";
-const string Pfandbrief_2 = "Zur Tilgung der ausstehenden Schulden  ";
-const string Pfandbrief_3 = "wird ein Pfand ausgesetzt, der mit seinem Reinwert";
-const string Pfandbrief_4 = "der Höhe der Schulden entspricht.";
-const string Pfandbrief_5 = "Pfand: Verzierter Kelch aus Gold ";
-const string Pfandbrief_6 = "aus der Sammlung der Blutkelche";
-const string Pfandbrief_7 = " ";
-const string Pfandbrief_8 = "gez.";
-const string Pfandbrief_9 = "Lutero, Händler  ";
-const string Pfandbrief_10 = " ";
-const string Pfandbrief_11 = "Lehmar, Pfandleiher";
+const string Pfandbrief_1 = "Zur Tilgung der ausstehenden Schulden  ";
+const string Pfandbrief_2 = "wird ein Pfand ausgesetzt, der mit seinem Reinwert";
+const string Pfandbrief_3 = "der Höhe der Schulden entspricht.";
+const string Pfandbrief_4 = "Pfand: Verzierter Kelch aus Gold ";
+const string Pfandbrief_5 = "aus der Sammlung der Blutkelche";
+const string Pfandbrief_6 = "gez.";
+const string Pfandbrief_7 = "Lutero, Händler  ";
+const string Pfandbrief_8 = "Lehmar, Pfandleiher";
 func void UsePfandbrief()
 {
 	var int nDocID;
@@ -591,18 +581,18 @@ func void UsePfandbrief()
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
 				Doc_SetMargins(nDocID, -1, 50, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, Pfandbrief_1);
 				Doc_PrintLine	(nDocID, 0, Pfandbrief_2);
 				Doc_PrintLine	(nDocID, 0, Pfandbrief_3);
-				Doc_PrintLine	(nDocID, 0, Pfandbrief_4);
 				Doc_PrintLine	(nDocID, 0, "");
-				Doc_PrintLine	(nDocID, 0, Pfandbrief_5);
-				Doc_PrintLines	(nDocID, 0, Pfandbrief_6);
+				Doc_PrintLine	(nDocID, 0, Pfandbrief_4);
+				Doc_PrintLines	(nDocID, 0, Pfandbrief_5);
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLine	(nDocID, 0, Pfandbrief_6);
 				Doc_PrintLine	(nDocID, 0, Pfandbrief_7);
+				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, Pfandbrief_8);
-				Doc_PrintLine	(nDocID, 0, Pfandbrief_9);
-				Doc_PrintLine	(nDocID, 0, Pfandbrief_10);
-				Doc_PrintLine	(nDocID, 0, Pfandbrief_11);
 	Doc_Show(nDocID);
 };
 

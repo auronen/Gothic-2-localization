@@ -80,7 +80,7 @@ const string BookstandAnimals2_S1_7 = "Feldräuber und Minecrawler greifen mit Z
 const string BookstandAnimals2_S1_8 = "gelten als besonders wertvoll, weil sie ein Sekret enthalten, das magische Kräfte steigert.";
 const string BookstandAnimals2_S1_9 = "Allerdings sollte es mit Vorsicht genossen werden, da der menschliche Körper mit der Zeit nicht mehr darauf reagiert.";
 const string BookstandAnimals2_S1_10 = "Ebenfalls sehr begehrt sind die Platten der Minecrawler. Aus ihnen lassen sich Rüstungen herstellen. ";
-const string BookstandAnimals2_S1_11 = " ";
+
 func void Use_BookstandAnimals2_S1() // Tierbücher
 {
 	var C_Npc her; her = Hlp_GetNpc(PC_Hero);
@@ -116,7 +116,7 @@ func void Use_BookstandAnimals2_S1() // Tierbücher
 		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_9);
 		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_10);
 		Doc_PrintLine(nDocID, 1, "");
-		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_11);
+		Doc_PrintLines(nDocID, 1, "");
 		Doc_Show(nDocID);
 
 		if (Animals_2_permanent == FALSE)

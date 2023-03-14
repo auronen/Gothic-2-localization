@@ -126,9 +126,8 @@ const string Krypta_Garon_3 = "Inubis ist wiederauferstanden von den Toten. Verb
 const string Krypta_Garon_4 = "Viele seiner Anhänger sind ihm gefolgt. Ich weiß nicht, wie es passieren konnte, dass ein Feldherr wie Inubis so dem Bösen verfällt. ";
 const string Krypta_Garon_5 = "In dieser Krypta habe ich sein Grab gefunden. Doch ob ich jemals einem Menschen davon berichten kann, ist nicht gewiss. Darum schreibe ich diese Zeilen in der Hoffnung, dass sie gefunden werden.";
 const string Krypta_Garon_6 = "Seid gewarnt. Ein mächtiger Feind streckt seine Klauen nach den Seelen der Rechtschaffenen. Inubis wird nicht der letzte sein.";
-const string Krypta_Garon_7 = " ";
-const string Krypta_Garon_8 = "Möge Innos eure Seelen beschützen.";
-const string Krypta_Garon_9 = "                                 Ivan";
+const string Krypta_Garon_7 = "Möge Innos eure Seelen beschützen.";
+const string Krypta_Garon_8 = "                                 Ivan";
 func void Use_Krypta_Garon()
 {
 	var int nDocID;
@@ -146,10 +145,10 @@ func void Use_Krypta_Garon()
 				Doc_PrintLines	(nDocID, 0, Krypta_Garon_4);
 				Doc_PrintLines	(nDocID, 0, Krypta_Garon_5);
 				Doc_PrintLines	(nDocID, 0, Krypta_Garon_6);
-				Doc_PrintLine	(nDocID, 0, Krypta_Garon_7);
-				Doc_PrintLine	(nDocID, 0, Krypta_Garon_8);
 				Doc_PrintLine	(nDocID, 0, "");
-				Doc_PrintLine	(nDocID, 0, Krypta_Garon_9);
+				Doc_PrintLine	(nDocID, 0, Krypta_Garon_7);
+				Doc_PrintLine	(nDocID, 0, "");
+				Doc_PrintLine	(nDocID, 0, Krypta_Garon_8);
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_SetMargins(nDocID, -1, 200, 50, 50, 50, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus

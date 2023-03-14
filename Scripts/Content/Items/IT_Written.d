@@ -77,8 +77,6 @@ const string StandardBuch_1 = "StandardBuch Seite 1";
 const string StandardBuch_2 = "Bla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla bla";
 const string StandardBuch_3 = "Bla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla bBla blaBla blaBla blaBlaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla bla";
 const string StandardBuch_4 = "StandardBuch Seite 2";
-const string StandardBuch_5 = "Bla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla bla";
-const string StandardBuch_6 = "Bla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla blaBla bla";
 func void UseStandardBuch()
 {
 	var int nDocID;
@@ -109,10 +107,10 @@ func void UseStandardBuch()
 				Doc_PrintLines	(nDocID, 1, StandardBuch_4);
 				Doc_SetFont(nDocID, 1, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 1, "");
-				Doc_PrintLines	(nDocID, 1, StandardBuch_5);
+				Doc_PrintLines	(nDocID, 1, StandardBuch_2);
 				Doc_PrintLine	(nDocID, 1, "");
 	// Absatz
-				Doc_PrintLines	(nDocID, 1, StandardBuch_6);
+				Doc_PrintLines	(nDocID, 1, StandardBuch_2);
 	Doc_Show(nDocID);
 };
 
