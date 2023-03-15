@@ -674,7 +674,7 @@
 "Scripts/Content/Story/Text.d:939","Elixier der Geschicklichkeit","Elixir de destreza","","","NAME_Dex_Permanent","",""
 "Scripts/Content/Story/Text.d:940","Elixier der Stärke","Elixir de fuerza","","","NAME_Str_Permanent","",""
 "Scripts/Content/Story/Text.d:941","Trank der Geschwindigkeit","Poción de velocidad","","","NAME_Speed_Potion","",""
-"Scripts/Content/Story/Text.d:945","Steingolem","","","","NAME_STONE_GOLEM","",""
+"Scripts/Content/Story/Text.d:945","Steingolem","Gólem de piedra","","","NAME_STONE_GOLEM","",""
 "Scripts/Content/Story/Text.d:947","Schleichen","Sigilo","","","NAME_TALENT_SNEAK","",""
 "Scripts/Content/Story/Text.d:948","Taschendiebstahl","Hurtar","","","NAME_TALENT_PICKPOCKET","",""
 "Scripts/Content/Story/Text.d:949","Schlösser knacken","Abrir cerraduras","","","NAME_TALENT_PICKLOCK","",""
