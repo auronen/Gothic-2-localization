@@ -358,3 +358,4 @@
 "Scripts/Content/Story/Dialog_Mobsis/SleepABit.d:168","Bis Mitternacht schlafen","Dormir jusqu'à minuit","","","PC_SleepTime_Midnight.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/SmithWeapon.d:49","Gewöhnliche Waffen schmieden","Forger des armes classiques","","","PC_Common.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/SmithWeapon.d:75","Erzwaffen schmieden","Forger des armes de minerai","","","PC_Ore.description","",""
+"Scripts/Content/Story/Dialog_Mobsis/BookstandHistory.d:120","Und wer dem entgehen kann, muß eine hohen Strafe zahlen. ","Pour éviter un jugement, il paie une amende.","","False","BookstandHistory3_S1_7","",""
