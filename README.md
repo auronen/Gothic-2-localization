@@ -15,7 +15,7 @@ German is the source language, made by Piranha Bytes. It is open to changes, in 
 
 ## :czech_republic: Czech  
 [![Stav překladu](http://weblate.cokoliv.eu/widgets/gothic-2-night-of-the-raven/cs/svg-badge.svg)](http://weblate.cokoliv.eu/engage/gothic-2-night-of-the-raven/de/)  
-Original translation and the fan made translation from [gothicz.net](﻿https://www.gothicz.net/gothic-2-noc-havrana/cestina/) serves as the basis for the new translation. 
+Original translation (Comgadu - 2008) and the fan made translation from [gothicz.net](https://www.gothicz.net/gothic-2-noc-havrana/cestina/) both serve as the basis for the new corrected translation. 
 
 ## :poland: Polish  
 Original translation done by CD Projekt.  
