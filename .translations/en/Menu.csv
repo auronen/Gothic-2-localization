@@ -13,7 +13,7 @@
 "Scripts/System/Menu/Menu_Log.d:149","Old Missions","Old Missions","","False","MENU_ITEM_LIST_MISSIONS_OLD.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:169","Log","Log","","False","MENU_ITEM_LIST_LOG.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:192","no content","no content","","False","MENU_ITEM_CONTENT_VIEWER.text[0]","",""
-"Scripts/System/Menu/Menu_Log.d:211","Tag","Day:","","","MENU_ITEM_DAY_TITLE.text[0]","",""
+"Scripts/System/Menu/Menu_Log.d:211","Tag","Day:","","False","MENU_ITEM_DAY_TITLE.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:220","Zeit:","Time:","","False","MENU_ITEM_TIME_TITLE.text[0]","",""
 "Scripts/System/Menu/Menu_Main.d:38","Gothic II starten","New Game","","False","MENUITEM_MAIN_NEWGAME.text[0]","",""
 "Scripts/System/Menu/Menu_Main.d:39","Ein neues Abenteuer beginnen.","Start a new adventure","","False","MENUITEM_MAIN_NEWGAME.text[1]","",""
