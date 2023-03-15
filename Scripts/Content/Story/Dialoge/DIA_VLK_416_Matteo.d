@@ -637,7 +637,7 @@ func void DIA_Matteo_WoAlsLehrling_Info()
 	Log_CreateTopic(Topic_Lehrling, LOG_MISSION);
 	Log_SetTopicStatus(Topic_Lehrling, LOG_RUNNING);
 	B_LogEntry(Topic_Lehrling, Topic_Lehrling_10);
-	B_LogEntry(Topic_Lehrling, Topic_Lehrling_11);
+	Log_AddEntry(Topic_Lehrling, Topic_Lehrling_11);
 };
 
 // ************************************************************

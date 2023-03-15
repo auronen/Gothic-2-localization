@@ -286,8 +286,8 @@ func void DIA_Cassia_Lernen_Info()
 
 	Log_CreateTopic(Topic_CityTeacher, LOG_NOTE);
 	B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_13);
-	B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_14);
-	B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_15);
+	Log_AddEntry(Topic_CityTeacher, Topic_CityTeacher_14);
+	Log_AddEntry(Topic_CityTeacher, Topic_CityTeacher_15);
 };
 
 //////////////////////////////////////////////////////////////////////
@@ -716,7 +716,7 @@ func void DIA_Cassia_Aufnahme_Info()
 	Knows_SecretSign = TRUE;
 	Log_CreateTopic(Topic_Diebesgilde, LOG_NOTE);
 	B_LogEntry(Topic_Diebesgilde, Topic_Diebesgilde_1);
-	B_LogEntry(Topic_Diebesgilde, Topic_Diebesgilde_2);
+	Log_AddEntry(Topic_Diebesgilde, Topic_Diebesgilde_2);
 };
 
 //////////////////////////////////////////////////////////////////////

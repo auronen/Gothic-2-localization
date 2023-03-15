@@ -117,7 +117,7 @@ func void Use_FINALDRAGONEQUIPMENT_S1() // Buchständer in der geheimen Biblioth
 
 			Log_CreateTopic(TOPIC_TalentRunes, LOG_NOTE);
 			B_LogEntry(TOPIC_TalentRunes, TOPIC_TalentRunes_2);
-			B_LogEntry(TOPIC_TalentRunes, TOPIC_TalentRunes_3);
+			Log_AddEntry(TOPIC_TalentRunes, TOPIC_TalentRunes_3);
 
 			Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
 			Doc_PrintLine(nDocID, 1, "");
@@ -136,7 +136,7 @@ func void Use_FINALDRAGONEQUIPMENT_S1() // Buchständer in der geheimen Biblioth
 			Npc_SetTalentSkill(self, NPC_TALENT_SMITH, 1);
 			Log_CreateTopic(TOPIC_TalentSmith, LOG_NOTE);
 			B_LogEntry(TOPIC_TalentSmith, TOPIC_TalentSmith_1);
-			B_LogEntry(TOPIC_TalentSmith, TOPIC_TalentSmith_2);
+			Log_AddEntry(TOPIC_TalentSmith, TOPIC_TalentSmith_2);
 			B_LogEntry(TOPIC_TalentSmith, TOPIC_TalentSmith_3);
 			PlayerGetsFinalDJGArmor = TRUE;
 

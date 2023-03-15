@@ -469,12 +469,12 @@ func void DIA_Kardif_Lernen_Info()
 		Log_CreateTopic(Topic_CityTeacher, LOG_NOTE);
 
 		B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_3);
-		B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_4);
-		B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_5);
-		B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_6);
+		Log_AddEntry(Topic_CityTeacher, Topic_CityTeacher_4);
+		Log_AddEntry(Topic_CityTeacher, Topic_CityTeacher_5);
+		Log_AddEntry(Topic_CityTeacher, Topic_CityTeacher_6);
 
 		Log_CreateTopic(Topic_CityTrader, LOG_NOTE);
-		B_LogEntry(Topic_CityTrader, Topic_CityTrader_6);
+		Log_AddEntry(Topic_CityTrader, Topic_CityTrader_6);
 
 		DIA_Kardif_Lernen_permanent = TRUE;
 	}

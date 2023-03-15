@@ -425,8 +425,8 @@ func void DIA_Addon_Vatras_TellMe_Konkret()
 	Log_CreateTopic(TOPIC_Addon_BanditTrader, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BanditTrader, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_BanditTrader, TOPIC_Addon_BanditTrader_2);
-	B_LogEntry(TOPIC_Addon_BanditTrader, TOPIC_Addon_BanditTrader_3);
-	B_LogEntry(TOPIC_Addon_RingOfWater, TOPIC_Addon_RingOfWater_12);
+	Log_AddEntry(TOPIC_Addon_BanditTrader, TOPIC_Addon_BanditTrader_3);
+	Log_AddEntry(TOPIC_Addon_RingOfWater, TOPIC_Addon_RingOfWater_12);
 };
 
 func void DIA_Addon_Vatras_TellMe_OtherKdW()
@@ -734,7 +734,7 @@ func void DIA_Addon_Vatras_HowToJoin_WhatsGreat()
 	Log_CreateTopic(TOPIC_Addon_RingOfWater, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_RingOfWater, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_RingOfWater, LogText_Addon_KDWRight);
-	B_LogEntry(TOPIC_Addon_RingOfWater, TOPIC_Addon_RingOfWater_13);
+	Log_AddEntry(TOPIC_Addon_RingOfWater, TOPIC_Addon_RingOfWater_13);
 
 	if (SC_HearedAboutMissingPeople == FALSE)
 	{
@@ -1269,8 +1269,8 @@ func void DIA_Addon_Vatras_WISP_Info()
 
 	B_LogEntry(TOPIC_Addon_BanditTrader, TOPIC_Addon_BanditTrader_4);
 	Log_CreateTopic(TOPIC_WispDetector, LOG_NOTE);
-	B_LogEntry(TOPIC_WispDetector, LogText_Addon_WispLearned);
-	B_LogEntry(TOPIC_WispDetector, LogText_Addon_WispLearned_NF);
+	Log_AddEntry(TOPIC_WispDetector, LogText_Addon_WispLearned);
+	Log_AddEntry(TOPIC_WispDetector, LogText_Addon_WispLearned_NF);
 
 	AI_Output(self, other, "DIA_Addon_Vatras_Waffen_WISP_05_08"); //Das Irrlicht kann Waffen aufspüren.
 

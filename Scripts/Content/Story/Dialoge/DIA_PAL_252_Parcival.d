@@ -54,8 +54,8 @@ func void DIA_Parcival_Schurfer_Info()
 	AI_Output(self, other, "DIA_Parcival_Schurfer_13_05"); //Jergan, einer unserer Späher hat berichtet, dass sie ihre Lager in der Nähe eines großen Turms aufgeschlagen haben.
 
 	B_LogEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_7);
-	B_LogEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_8);
-	B_LogEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_9);
+	Log_AddEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_8);
+	Log_AddEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_9);
 };
 
 ///////////////////////////////////////////////////////////////////////

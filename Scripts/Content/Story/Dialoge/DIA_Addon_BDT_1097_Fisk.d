@@ -192,7 +192,7 @@ func void DIA_Addon_Fisk_Lieferung_Info()
 	Log_CreateTopic(Topic_Addon_Fisk, LOG_MISSION);
 	Log_SetTopicStatus(Topic_Addon_Fisk, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_KillJuan, TOPIC_Addon_KillJuan_1);
-	B_LogEntry(Topic_Addon_Fisk, Topic_Addon_Fisk_1);
+	Log_AddEntry(Topic_Addon_Fisk, Topic_Addon_Fisk_1);
 };
 
 // ---------------------------------------------------------------------

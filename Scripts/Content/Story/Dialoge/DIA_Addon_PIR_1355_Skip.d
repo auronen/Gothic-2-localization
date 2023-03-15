@@ -437,8 +437,8 @@ func void DIA_Addon_Skip_AngusHank_Info()
 	Log_CreateTopic(TOPIC_Addon_SkipsGrog, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_SkipsGrog, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_SkipsGrog, TOPIC_Addon_SkipsGrog_1);
-	B_LogEntry(TOPIC_Addon_SkipsGrog, TOPIC_Addon_SkipsGrog_2);
-	B_LogEntry(TOPIC_Addon_SkipsGrog, TOPIC_Addon_SkipsGrog_3);
+	Log_AddEntry(TOPIC_Addon_SkipsGrog, TOPIC_Addon_SkipsGrog_2);
+	Log_AddEntry(TOPIC_Addon_SkipsGrog, TOPIC_Addon_SkipsGrog_3);
 };
 
 // ------------------------------------------------------------

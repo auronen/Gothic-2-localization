@@ -240,7 +240,7 @@ func void DIA_Engor_HELP_YES()
 	Log_CreateTopic(TOPIC_BringMeat, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BringMeat, LOG_RUNNING);
 	B_LogEntry(TOPIC_BringMeat, TOPIC_BringMeat_1);
-	B_LogEntry(TOPIC_BringMeat, TOPIC_BringMeat_2);
+	Log_AddEntry(TOPIC_BringMeat, TOPIC_BringMeat_2);
 
 	MIS_Engor_BringMeat = LOG_RUNNING;
 	AI_StopProcessInfos(self);

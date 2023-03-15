@@ -140,7 +140,7 @@ func void DIA_Rupert_HelpMeIntoOV_Info()
 	Log_CreateTopic(TOPIC_OV, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_OV, LOG_RUNNING);
 	B_LogEntry(TOPIC_OV, TOPIC_OV_1);
-	B_LogEntry(TOPIC_OV, TOPIC_OV_2);
+	Log_AddEntry(TOPIC_OV, TOPIC_OV_2);
 };
 
 // ***************************************************************

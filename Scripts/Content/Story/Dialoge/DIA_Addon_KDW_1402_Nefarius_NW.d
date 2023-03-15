@@ -194,7 +194,7 @@ func void DIA_Addon_Nefarius_SCbringOrnaments_Info()
 	Log_CreateTopic(TOPIC_Addon_Ornament, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_Ornament, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_Ornament, TOPIC_Addon_Ornament_1);
-	B_LogEntry(TOPIC_Addon_Ornament, TOPIC_Addon_Ornament_2);
+	Log_AddEntry(TOPIC_Addon_Ornament, TOPIC_Addon_Ornament_2);
 
 	B_StartotherRoutine(BAU_4300_Addon_Cavalorn, "OrnamentSteinring");
 	AI_Output(self, other, "DIA_Addon_Nefarius_SCbringOrnaments_05_08"); //Sieh dich dort um.

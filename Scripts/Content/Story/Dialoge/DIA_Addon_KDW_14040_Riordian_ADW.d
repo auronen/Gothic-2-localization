@@ -261,9 +261,9 @@ func void B_WhreAreHousesOfRulers()
 	Log_CreateTopic(TOPIC_Addon_HousesOfRulers, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_HousesOfRulers, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_1);
-	B_LogEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_2);
-	B_LogEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_3);
-	B_LogEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_4);
+	Log_AddEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_2);
+	Log_AddEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_3);
+	Log_AddEntry(TOPIC_Addon_HousesOfRulers, TOPIC_Addon_HousesOfRulers_4);
 };
 
 func void DIA_Addon_Riordian_WhereAreHouses_Info()

@@ -132,7 +132,7 @@ func void ENTER_DI_FIRSTTIME_TRIGGER()
 		if (Gorn_IsOnBoard == LOG_SUCCESS) // Gorn
 		{
 			B_LogEntry(TOPIC_MyCrew, TOPIC_MyCrew_14);
-			B_LogEntry(TOPIC_MyCrew, TOPIC_MyCrew_15);
+			Log_AddEntry(TOPIC_MyCrew, TOPIC_MyCrew_15);
 		};
 
 		if (Lares_IsOnBoard == LOG_SUCCESS) // Lares

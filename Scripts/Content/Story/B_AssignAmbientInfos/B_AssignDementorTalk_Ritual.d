@@ -16,7 +16,7 @@ func void B_AssignDementorTalk_Ritual()
 
 		MIS_SCKnowsInnosEyeIsBroken = TRUE;
 		B_LogEntry(TOPIC_INNOSEYE, TOPIC_INNOSEYE_1);
-		B_LogEntry(TOPIC_TraitorPedro, TOPIC_TraitorPedro_1);
+		Log_AddEntry(TOPIC_TraitorPedro, TOPIC_TraitorPedro_1);
 		B_GivePlayerXP(XP_SCKnowsInnosEyeIsBroken);
 	}
 	else

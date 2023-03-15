@@ -417,8 +417,8 @@ func void DIA_Addon_Fortuno_more_Info()
 	SC_KnowsFortunoInfos = TRUE;
 
 	B_LogEntry(TOPIC_Addon_RavenKDW, TOPIC_Addon_RavenKDW_3);
-	B_LogEntry(TOPIC_Addon_RavenKDW, TOPIC_Addon_RavenKDW_4);
-	B_LogEntry(TOPIC_Addon_RavenKDW, TOPIC_Addon_RavenKDW_5);
+	Log_AddEntry(TOPIC_Addon_RavenKDW, TOPIC_Addon_RavenKDW_4);
+	Log_AddEntry(TOPIC_Addon_RavenKDW, TOPIC_Addon_RavenKDW_5);
 
 	Npc_ExchangeRoutine(self, "START");
 	B_GivePlayerXP(XP_Addon_Fortuno_03);

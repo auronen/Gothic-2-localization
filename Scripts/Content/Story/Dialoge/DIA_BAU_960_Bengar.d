@@ -695,7 +695,7 @@ func void DIA_Bengar_ALLEIN_Info()
 	Log_CreateTopic(TOPIC_BengarALLEIN, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BengarALLEIN, LOG_RUNNING);
 	B_LogEntry(TOPIC_BengarALLEIN, TOPIC_BengarALLEIN_1);
-	B_LogEntry(TOPIC_BengarALLEIN, TOPIC_BengarALLEIN_2);
+	Log_AddEntry(TOPIC_BengarALLEIN, TOPIC_BengarALLEIN_2);
 };
 
 ///////////////////////////////////////////////////////////////////////

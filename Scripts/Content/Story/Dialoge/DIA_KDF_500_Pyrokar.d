@@ -561,9 +561,9 @@ func void DIA_Pyrokar_Lernen_Info()
 	B_LogEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_4);
 
 	B_LogEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_5);
-	B_LogEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_6);
-	B_LogEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_7);
-	B_LogEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_8);
+	Log_AddEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_6);
+	Log_AddEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_7);
+	Log_AddEntry(Topic_KlosterTeacher, Topic_KlosterTeacher_8);
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -1182,7 +1182,7 @@ func void DIA_Pyrokar_GIVEINNOSEYE_wer()
 	Pedro_Traitor = TRUE; // Joly: Pedro ist für den SC nun als Traitor bekannt. Muß hier stehen bleiben und darf nur einmal auf True gesetzt werden
 
 	B_LogEntry(TOPIC_INNOSEYE, TOPIC_INNOSEYE_13);
-	B_LogEntry(TOPIC_TraitorPedro, TOPIC_TraitorPedro_2);
+	Log_AddEntry(TOPIC_TraitorPedro, TOPIC_TraitorPedro_2);
 };
 
 ///////////////////////////////////////////////////////////////////////

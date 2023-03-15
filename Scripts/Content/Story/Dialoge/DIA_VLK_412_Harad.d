@@ -458,11 +458,11 @@ func void DIA_Harad_LEHRLING_OK()
 	Wld_AssignRoomToGuild("schmied", GIL_NONE);
 	MIS_Apprentice = LOG_SUCCESS;
 	B_LogEntry(Topic_Bonus, Topic_Bonus_3);
-	B_LogEntry(Topic_Bonus, Topic_Bonus_4);
+	Log_AddEntry(Topic_Bonus, Topic_Bonus_4);
 
 	Log_CreateTopic(Topic_CityTeacher, LOG_NOTE);
 	B_GivePlayerXP(XP_Lehrling);
-	B_LogEntry(Topic_CityTeacher, Topic_CityTeacher_12);
+	Log_AddEntry(Topic_CityTeacher, Topic_CityTeacher_12);
 	Info_ClearChoices(DIA_Harad_LEHRLING);
 };
 

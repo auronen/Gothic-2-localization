@@ -240,7 +240,7 @@ func void DIA_Addon_Owen_MalcomStunt_Info()
 	Log_CreateTopic(TOPIC_Addon_MalcomsStunt, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MalcomsStunt, LOG_RUNNING);
 	B_LogEntry(TOPIC_Addon_MalcomsStunt, TOPIC_Addon_MalcomsStunt_1);
-	B_LogEntry(TOPIC_Addon_MalcomsStunt, TOPIC_Addon_MalcomsStunt_2);
+	Log_AddEntry(TOPIC_Addon_MalcomsStunt, TOPIC_Addon_MalcomsStunt_2);
 
 	MIS_Owen_FindMalcom = LOG_RUNNING;
 };

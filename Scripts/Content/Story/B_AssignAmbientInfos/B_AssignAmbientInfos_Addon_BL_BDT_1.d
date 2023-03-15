@@ -88,8 +88,8 @@ func void DIA_Addon_BL_BDT_1_Lager_Info()
 	if (SC_KnowsRavensGoldmine == FALSE)
 	{
 		B_LogEntry(TOPIC_Addon_RavenKDW, LogText_Addon_RavensGoldmine);
-		B_LogEntry(TOPIC_Addon_Sklaven, LogText_Addon_RavensGoldmine);
-		B_LogEntry(TOPIC_Addon_ScoutBandits, Log_Text_Addon_ScoutBandits);
+		Log_AddEntry(TOPIC_Addon_Sklaven, LogText_Addon_RavensGoldmine);
+		Log_AddEntry(TOPIC_Addon_ScoutBandits, Log_Text_Addon_ScoutBandits);
 	};
 
 	SC_KnowsRavensGoldmine = TRUE;

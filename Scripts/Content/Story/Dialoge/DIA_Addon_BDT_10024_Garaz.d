@@ -145,7 +145,7 @@ func void DIA_Addon_Garaz_Bloodwyn_Info()
 	AI_Output(self, other, "DIA_Addon_Garaz_Bloodwyn_08_05"); //Geh ihm am Besten aus dem Weg und reize ihn nicht - es sei denn, du willst, dass er wütend wird und seine Beherrschung verliert ...
 
 	B_LogEntry(Topic_Addon_Tempel, Topic_Addon_Tempel_1);
-	B_LogEntry(Topic_Addon_Tempel, Topic_Addon_Tempel_2);
+	Log_AddEntry(Topic_Addon_Tempel, Topic_Addon_Tempel_2);
 };
 
 // ---------------------------------------------------------------------

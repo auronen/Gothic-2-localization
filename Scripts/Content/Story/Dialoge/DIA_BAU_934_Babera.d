@@ -167,7 +167,7 @@ func void DIA_Babera_Rosi_Info()
 	AI_Output(other, self, "DIA_Babera_Rosi_15_00"); //Wo ist Rosi?
 	AI_Output(self, other, "DIA_Babera_Rosi_16_01"); //Sie hat's hier nicht mehr ausgehalten und ist in den Wald Richtung Norden gegangen.
 	B_LogEntry(TOPIC_RosisFlucht, TOPIC_RosisFlucht_1);
-	B_LogEntry(TOPIC_bringRosiBackToSekob, TOPIC_bringRosiBackToSekob_2);
+	Log_AddEntry(TOPIC_bringRosiBackToSekob, TOPIC_bringRosiBackToSekob_2);
 };
 
 ///////////////////////////////////////////////////////////////////////

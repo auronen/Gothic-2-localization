@@ -265,7 +265,7 @@ func void DIA_Randolph_GEGENWEN_Info()
 	AI_Output(self, other, "DIA_Randolph_GEGENWEN_06_05"); //Wenn ich doch nur genug Geld hätte, um noch mal gegen ihn anzutreten.
 
 	B_LogEntry(TOPIC_Wettsaufen, TOPIC_Wettsaufen_2);
-	B_LogEntry(TOPIC_Wettsaufen, TOPIC_Wettsaufen_3);
+	Log_AddEntry(TOPIC_Wettsaufen, TOPIC_Wettsaufen_3);
 };
 
 ///////////////////////////////////////////////////////////////////////

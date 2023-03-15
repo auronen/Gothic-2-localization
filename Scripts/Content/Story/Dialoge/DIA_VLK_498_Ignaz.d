@@ -177,7 +177,7 @@ func void DIA_Ignaz_teilnehmen_Info()
 	Log_CreateTopic(TOPIC_Ignaz, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Ignaz, LOG_RUNNING);
 	B_LogEntry(TOPIC_Ignaz, TOPIC_Ignaz_1);
-	B_LogEntry(TOPIC_Ignaz, TOPIC_Ignaz_2);
+	Log_AddEntry(TOPIC_Ignaz, TOPIC_Ignaz_2);
 
 	AI_StopProcessInfos(self);
 };

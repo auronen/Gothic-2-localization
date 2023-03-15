@@ -334,7 +334,7 @@ func void DIA_Akil_Lieferung_Info()
 	Lieferung_Geholt = TRUE;
 
 	B_LogEntry(TOPIC_Baltram, TOPIC_Baltram_1);
-	B_LogEntry(TOPIC_Nagur, TOPIC_Nagur_3);
+	Log_AddEntry(TOPIC_Nagur, TOPIC_Nagur_3);
 };
 
 ///////////////////////////////////////////////////////////////////////

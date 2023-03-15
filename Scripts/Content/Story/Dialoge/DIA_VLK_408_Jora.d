@@ -249,8 +249,8 @@ func void DIA_Jora_HolDeinGold_DoIt()
 	Log_SetTopicStatus(TOPIC_Jora, LOG_RUNNING);
 
 	B_LogEntry(TOPIC_Jora, TOPIC_Jora_1);
-	B_LogEntry(TOPIC_Jora, TOPIC_Jora_2);
-	B_LogEntry(TOPIC_JoraDieb, TOPIC_JoraDieb_1);
+	Log_AddEntry(TOPIC_Jora, TOPIC_Jora_2);
+	Log_AddEntry(TOPIC_JoraDieb, TOPIC_JoraDieb_1);
 
 	Info_ClearChoices(DIA_Jora_HolDeinGold);
 };

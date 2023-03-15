@@ -370,7 +370,7 @@ func void DIA_Garond_NeedProof_Info()
 	Log_SetTopicStatus(TOPIC_ScoutMine, LOG_RUNNING);
 
 	B_LogEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_2);
-	B_LogEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_3);
+	Log_AddEntry(TOPIC_ScoutMine, TOPIC_ScoutMine_3);
 };
 
 // ************************************************************

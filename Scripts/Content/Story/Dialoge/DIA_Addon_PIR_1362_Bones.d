@@ -179,7 +179,7 @@ func void DIA_Addon_Bones_Teacher_Info()
 
 	Log_CreateTopic(Topic_Addon_PIR_Teacher, LOG_NOTE);
 	B_LogEntry(Topic_Addon_PIR_Teacher, Log_Text_Addon_HenryTeach);
-	B_LogEntry(Topic_Addon_PIR_Teacher, Log_Text_Addon_MorganTeach);
+	Log_AddEntry(Topic_Addon_PIR_Teacher, Log_Text_Addon_MorganTeach);
 };
 
 // ************************************************************
