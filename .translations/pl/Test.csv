@@ -24,7 +24,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:119","","","","","ItFo_TestTrigger.text[5]","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:130","Characterhelper","Characterhelper","","","CH.name","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:171","Level Up!  Lernpunkte:","Nowy poziom! Punkty nauki:","","False","_PRINT_LVL_UP","",""
-"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:172","  Hitpoints:","","","","_PRINT_HP","",""
+"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:172","  Hitpoints:","  Punkty trafień:","","False","_PRINT_HP","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:341","1 Erz geben","Daj 1 kawałek rudy","","","CH_kriegen.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:373","zeig mal dingens","Daj jedzenie","","","CH_Geben.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:441","Totaler Reset","Całkowity reset postaci","","","CH_RESET.description","",""
