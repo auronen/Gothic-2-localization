@@ -98,7 +98,7 @@ func int DIA_Addon_Saturas_Hallo_Condition()
 	};
 };
 
-func void DIA_Addon_Saturas_Hallo_weißtdu()
+func void DIA_Addon_Saturas_Hallo_weisstdu()
 {
 	AI_Output(self, other, "DIA_Addon_Saturas_Hallo_weißtdu_14_00"); //Hast du eigentlich die leiseste Ahnung, was du da getan hast?
 	AI_Output(self, other, "DIA_Addon_Saturas_Hallo_weißtdu_14_01"); //Du hast das Gefüge der Magie derart durcheinander gebracht, dass es bis nach Khorinis zu hören war.
@@ -136,7 +136,7 @@ func void DIA_Addon_Saturas_Hallo_notwendig()
 {
 	AI_Output(other, self, "DIA_Addon_Saturas_Hallo_notwendig_15_00"); //Es war notwendig. Ohne die Macht des Erzes hätte ich den Schläfer niemals besiegen können.
 	AI_Output(self, other, "DIA_Addon_Saturas_Hallo_notwendig_14_01"); //(sauer) Was ist das für ein Gefasel? Schläfer? Besiegt?
-	DIA_Addon_Saturas_Hallo_weißtdu();
+	DIA_Addon_Saturas_Hallo_weisstdu();
 };
 
 func void DIA_Addon_Saturas_Hallo_Spott()
@@ -145,14 +145,14 @@ func void DIA_Addon_Saturas_Hallo_Spott()
 	AI_Output(other, self, "DIA_Addon_Saturas_Hallo_Spott_15_01"); //Ihr hättet euch am Ende damit noch selbst in die Luft gejagt.
 	AI_Output(self, other, "DIA_Addon_Saturas_Hallo_Spott_14_02"); //(sauer) Das ist doch der Gipfel. Wer gibt dir das Recht, über uns und unsere Absichten zu richten?
 	AI_Output(self, other, "DIA_Addon_Saturas_Hallo_Spott_14_03"); //Wenn ich nicht so ein friedliebender Mensch wäre, würde ich den Zorn Adanos' auf dich heraufbeschwören, mein Junge.
-	DIA_Addon_Saturas_Hallo_weißtdu();
+	DIA_Addon_Saturas_Hallo_weisstdu();
 };
 
 func void DIA_Addon_Saturas_Hallo_sorry()
 {
 	AI_Output(other, self, "DIA_Addon_Saturas_Hallo_sorry_15_00"); //Tut mir Leid. Ich wusste nicht, was ich tat.
 	AI_Output(self, other, "DIA_Addon_Saturas_Hallo_sorry_14_01"); //Ach? Und du glaubst, damit wäre das erledigt?
-	DIA_Addon_Saturas_Hallo_weißtdu();
+	DIA_Addon_Saturas_Hallo_weisstdu();
 };
 
 ///////////////////////////////////////////////////////////////////////

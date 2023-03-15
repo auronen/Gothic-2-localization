@@ -632,7 +632,7 @@
 	const int Face_N_Important_Arto						= 58;
 	const int Face_N_ImportantGrey						= 59;
 	const int Face_N_ImportantOld						= 60;
-	const int Face_N_Tough_Lee_ähnlich					= 61;
+	const int Face_N_Tough_Lee_aehnlich					= 61;
 	const int Face_N_Tough_Skip							= 62;
 	const int Face_N_ToughBart01						= 63;
 	const int Face_N_Tough_Okyl							= 64;

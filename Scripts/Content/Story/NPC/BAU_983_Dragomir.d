@@ -13,7 +13,7 @@ instance BAU_983_Dragomir(Npc_Default)
 	B_SetAttributesToChapter(self, 4);
 
 	// -------- visuals --------
-	B_SetNpcVisual(self, MALE, "Hum_Head_Bald", Face_N_Tough_Lee_ähnlich, BodyTex_N, ITAR_Leather_L);
+	B_SetNpcVisual(self, MALE, "Hum_Head_Bald", Face_N_Tough_Lee_aehnlich, BodyTex_N, ITAR_Leather_L);
 	Mdl_SetModelFatness(self, 1);
 	Mdl_ApplyOverlayMDS(self, "Humans_Relaxed.mds");
 

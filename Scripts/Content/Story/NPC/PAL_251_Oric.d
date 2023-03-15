@@ -13,7 +13,7 @@ instance PAL_251_Oric(Npc_Default)
 	B_SetAttributesToChapter(self, 5); // setzt Attribute und LEVEL entsprechend dem angegebenen Kapitel (1-6)
 
 	// -------- visuals --------
-	B_SetNpcVisual(self, MALE, "Hum_Head_Fighter", Face_N_Tough_Lee_ähnlich, BodyTex_N, ITAR_PAL_H);
+	B_SetNpcVisual(self, MALE, "Hum_Head_Fighter", Face_N_Tough_Lee_aehnlich, BodyTex_N, ITAR_PAL_H);
 	Mdl_SetModelFatness(self, 1);
 	Mdl_ApplyOverlayMDS(self, "Humans_Militia.mds"); // Tired / Militia / Mage / Arrogance / Relaxed
 
