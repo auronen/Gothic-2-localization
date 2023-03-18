@@ -122,7 +122,7 @@
 "Scripts/System/Menu/Menu_Opt_Game.d:64","Untertitel","Podpisy","","","MENUITEM_GAME_SUB_TITLES.text[0]","",""
 "Scripts/System/Menu/Menu_Opt_Game.d:65","Visuelle Einblendung von Dialogen.","Włączenie/wyłączenie podpisów przy dialogach","","","MENUITEM_GAME_SUB_TITLES.text[1]","",""
 "Scripts/System/Menu/Menu_Opt_Game.d:132","Kampf Fokus","Oznaczanie celów","","","MENUITEM_GAME_FIGHTFOCUS.text[0]","",""
-"Scripts/System/Menu/Menu_Opt_Game.d:133","Grad der Darstellung des Kampffokus","Wł./wył. wyróżniania bierzącego celu w czasie walki","","","MENUITEM_GAME_FIGHTFOCUS.text[1]","",""
+"Scripts/System/Menu/Menu_Opt_Game.d:133","Grad der Darstellung des Kampffokus","Wł./wył. wyróżniania bieżącego celu w czasie walki","","False","MENUITEM_GAME_FIGHTFOCUS.text[1]","",""
 "Scripts/System/Menu/Menu_Opt_Game.d:147","kein|Quadrat|aufhellen|beides","Nie|Okienko|Podświetlenie|Oba","","","MENUITEM_GAME_FIGHTFOCUS_CHOICE.text[0]","",""
 "Scripts/System/Menu/Menu_Opt_Game.d:164","Interakt. Fokus","Podświetlanie obiektów","","","MENUITEM_GAME_INTERACTFOCUS.text[0]","",""
 "Scripts/System/Menu/Menu_Opt_Game.d:165","Grad der Darstellung des Interaktions-Fokus","Wł./wył. podświetlania przedmiotów w polu widzenia","","","MENUITEM_GAME_INTERACTFOCUS.text[1]","",""
