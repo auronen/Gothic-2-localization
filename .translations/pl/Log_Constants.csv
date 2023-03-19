@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:8","Rattenjagd","Polowanie na szczury","","","TOPIC_Addon_RatHunt","",""
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:9","Alligator Jack kann Hilfe bei der Jagd gebrauchen.","Jackowi Aligatorowi przydałaby się pomoc przy polowaniu.","","","TOPIC_Addon_RatHunt_1","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:8","Rattenjagd","Polowanie na szczury","","False","TOPIC_Addon_RatHunt","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:9","Alligator Jack kann Hilfe bei der Jagd gebrauchen.","Jackowi Aligatorowi przydałaby się pomoc przy polowaniu.","","False","TOPIC_Addon_RatHunt_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:10","Das einzige, was hier in der Gegend genießbar sein soll, sind Sumpfratten.","Jedyne pożywienie tutaj to bagienne szczury.","","","TOPIC_Addon_RatHunt_2","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:11","Die Jagd war erfolgreich. Wir haben mehrere Sumpfratten erlegt.","Polowanie było udane. Zabiliśmy kilka bagiennych szczurów.","","","TOPIC_Addon_RatHunt_3","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:13","Fleisch für Morgan","Mięso dla Morgana","","","TOPIC_Addon_BringMeat","",""
