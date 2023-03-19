@@ -13,7 +13,7 @@
 "Scripts/System/Menu/Menu_Log.d:149","Old Missions","Staré úkoly","","False","MENU_ITEM_LIST_MISSIONS_OLD.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:169","Log","Deník","","False","MENU_ITEM_LIST_LOG.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:192","no content","žádný obsah","","False","MENU_ITEM_CONTENT_VIEWER.text[0]","",""
-"Scripts/System/Menu/Menu_Log.d:211","Tag","Den:","","","MENU_ITEM_DAY_TITLE.text[0]","",""
+"Scripts/System/Menu/Menu_Log.d:211","Tag","Den:","","False","MENU_ITEM_DAY_TITLE.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:220","Zeit:","Čas:","","False","MENU_ITEM_TIME_TITLE.text[0]","",""
 "Scripts/System/Menu/Menu_Main.d:38","Gothic II starten","Nová hra","","False","MENUITEM_MAIN_NEWGAME.text[0]","",""
 "Scripts/System/Menu/Menu_Main.d:39","Ein neues Abenteuer beginnen.","Zahájit nové dobrodružství","","False","MENUITEM_MAIN_NEWGAME.text[1]","",""
