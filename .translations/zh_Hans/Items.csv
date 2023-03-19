@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Items/IT_Amulette.d:46","Amulett der Flammen","","","False","ItAm_Prot_Fire_01.description","",""
+"Scripts/Content/Items/IT_Amulette.d:46","Amulett der Flammen","火焰护身符","","False","ItAm_Prot_Fire_01.description","",""
 "Scripts/Content/Items/IT_Amulette.d:47","","","","","ItAm_Prot_Fire_01.text[0]","",""
 "Scripts/Content/Items/IT_Amulette.d:48","","","","","ItAm_Prot_Fire_01.text[1]","",""
 "Scripts/Content/Items/IT_Amulette.d:50","","","","","ItAm_Prot_Fire_01.text[3]","",""
