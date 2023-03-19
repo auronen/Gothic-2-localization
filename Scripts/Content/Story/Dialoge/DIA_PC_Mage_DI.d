@@ -323,7 +323,7 @@ func void DIA_Milten_DI_TeachMagic_Runen_Paladin()
 
 	if (PLAYER_TALENT_RUNES [SPL_PalLightHeal] == FALSE)
 	{
-		Info_AddChoice(DIA_Milten_DI_TeachMagic, B_BuildLearnString(NAME_POTION_HEAL, B_GetLearnCostTalent(other, NPC_TALENT_RUNES, SPL_PalLightHeal)), DIA_Milten_DI_TeachMagic_Runen_Paladin_SPL_PalLightHeal);
+		Info_AddChoice(DIA_Milten_DI_TeachMagic, B_BuildLearnString(NAME_SPL_PalLightHeal, B_GetLearnCostTalent(other, NPC_TALENT_RUNES, SPL_PalLightHeal)), DIA_Milten_DI_TeachMagic_Runen_Paladin_SPL_PalLightHeal);
 	};
 
 	if (PLAYER_TALENT_RUNES [SPL_PalHolyBolt] == FALSE)
@@ -333,7 +333,7 @@ func void DIA_Milten_DI_TeachMagic_Runen_Paladin()
 
 	if (PLAYER_TALENT_RUNES [SPL_PalMediumHeal] == FALSE)
 	{
-		Info_AddChoice(DIA_Milten_DI_TeachMagic, B_BuildLearnString(NAME_POTION_HEAL_H, B_GetLearnCostTalent(other, NPC_TALENT_RUNES, SPL_PalMediumHeal)), DIA_Milten_DI_TeachMagic_Runen_Paladin_SPL_PalMediumHeal);
+		Info_AddChoice(DIA_Milten_DI_TeachMagic, B_BuildLearnString(NAME_SPL_PalMediumHeal, B_GetLearnCostTalent(other, NPC_TALENT_RUNES, SPL_PalMediumHeal)), DIA_Milten_DI_TeachMagic_Runen_Paladin_SPL_PalMediumHeal);
 	};
 
 	if (PLAYER_TALENT_RUNES [SPL_PalRepelEvil] == FALSE)

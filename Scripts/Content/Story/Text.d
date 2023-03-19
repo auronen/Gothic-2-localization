@@ -923,8 +923,6 @@ const string TXT_INV_CAT [INV_CAT_MAX] = {
 	const string NAME_POTION_HP_P						= "Permanenter Heiltrank";
 	const string NAME_POTION_MANA_P						= "Permanenter Manatrank";
 	const string NAME_POTION_PERM_DEX2					= "Geschicklichkeitstrank";
-	const string NAME_POTION_HEAL						= "Heilung";
-	const string NAME_POTION_HEAL_H						= "Grosse Heilung";
 
 	const string	NAME_HealthPotion1					= "Essenz der Heilung";
 	const string	NAME_HealthPotion2					= "Extrakt der Heilung";
