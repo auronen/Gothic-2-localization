@@ -661,7 +661,6 @@
 "Scripts/Content/Story/Text.d:923","Permanenter Heiltrank","Permanentna mikstura lecznicza","","False","NAME_POTION_HP_P","",""
 "Scripts/Content/Story/Text.d:924","Permanenter Manatrank","Permanentna mikstura many","","False","NAME_POTION_MANA_P","",""
 "Scripts/Content/Story/Text.d:925","Geschicklichkeitstrank","Mikstura zręczności","","False","NAME_POTION_PERM_DEX2","",""
-"Scripts/Content/Story/Text.d:926","Heilung","Leczenie lekkich ran","","False","NAME_POTION_HEAL","",""
 "Scripts/Content/Story/Text.d:927","Grosse Heilung","Leczenie lekkich ran","","False","NAME_POTION_HEAL_H","",""
 "Scripts/Content/Story/Text.d:929","Essenz der Heilung","Esencja lecznicza","","False","NAME_HealthPotion1","",""
 "Scripts/Content/Story/Text.d:930","Extrakt der Heilung","Ekstrakt leczniczy","","False","NAME_HealthPotion2","",""
