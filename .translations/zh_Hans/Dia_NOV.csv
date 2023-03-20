@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_NOV_600_Pedro.d:43","Willkommen beim Kloster Innos', Fremder.","欢迎来到伊诺斯遗迹，陌生人","","False","DIA_Pedro_WELCOME_09_00","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_600_Pedro.d:43","Willkommen beim Kloster Innos', Fremder.","欢迎来到伊诺斯遗迹，陌生人。","","False","DIA_Pedro_WELCOME_09_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_600_Pedro.d:44","Ich bin Bruder Pedro, ein demütiger Diener Innos' und Wächter der Pforte des heiligen Klosters.","","","False","DIA_Pedro_WELCOME_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_600_Pedro.d:45","Was ist dein Begehr?","那你的要求是什么？","","False","DIA_Pedro_WELCOME_09_02","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_600_Pedro.d:57","Iß mal 'ne Wurst, Bruder!","这里兄弟，送你一块香肠！","","False","DIA_Pedro_Wurst.description","",""
