@@ -1300,7 +1300,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_262_Wache.d:46","Konnte ich ja nicht wissen. Klar kannst du rein.","Skąd miałem wiedzieć? Oczywiście, że cię wpuszczę, wchodź.","","","DIA_PAL_262_GREET_10_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_262_Wache.d:68","Wer hat hier das Sagen?","Kto tu dowodzi?","","","DIA_Wache_PERM.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_262_Wache.d:86","Wer hat hier das Sagen?","Kto tu dowodzi?","","","DIA_Addon_Wache_PERM_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_262_Wache.d:87","Unser Kommandant Garond und seine beiden Berater, die Paladine Oric und Parcival.","Kapitan Garond wraz ze swymi doradcami, paladynami Oricem i Parcivalem.","","","DIA_Addon_Wache_PERM_10_01","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_262_Wache.d:87","Unser Kommandant Garond und seine beiden Berater, die Paladine Oric und Parcival.","Kapitan Garond wraz ze swymi doradcami, paladynami Orikiem i Parcivalem.","","False","DIA_Addon_Wache_PERM_10_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_262_Wache.d:88","Geh einfach rein. Tagsüber halten sie sich im Thronsaal im Erdgeschoss auf.","Wchodź śmiało - za dnia kręcą się po Sali tronowej na parterze.","","","DIA_Addon_Wache_PERM_10_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_263_Wache.d:34","Bericht, Soldat!","Melduj, żołnierzu!","","","DIA_PAL_263_PERM.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_263_Wache.d:48","Bericht, Soldat!","Melduj, żołnierzu!","","","DIA_PAL_263_PERM_15_00","",""
