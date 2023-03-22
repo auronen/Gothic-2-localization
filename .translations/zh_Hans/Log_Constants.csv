@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:8","Rattenjagd","","","False","TOPIC_Addon_RatHunt","",""
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:9","Alligator Jack kann Hilfe bei der Jagd gebrauchen.","","","False","TOPIC_Addon_RatHunt_1","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:8","Rattenjagd","老鼠狩猎","","False","TOPIC_Addon_RatHunt","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:9","Alligator Jack kann Hilfe bei der Jagd gebrauchen.","鳄鱼杰克需要帮助狩猎。","","False","TOPIC_Addon_RatHunt_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:10","Das einzige, was hier in der Gegend genießbar sein soll, sind Sumpfratten.","","","False","TOPIC_Addon_RatHunt_2","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:11","Die Jagd war erfolgreich. Wir haben mehrere Sumpfratten erlegt.","","","False","TOPIC_Addon_RatHunt_3","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Hoshi.d:13","Fleisch für Morgan","","","False","TOPIC_Addon_BringMeat","",""
