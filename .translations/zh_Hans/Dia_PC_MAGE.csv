@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:33","Wie in alten Zeiten.","","","False","DIA_Milten_DI_Hello.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:46","Wie in alten Zeiten.","","","False","DIA_Milten_DI_Hello_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:33","Wie in alten Zeiten.","就像重回旧日时光。","","False","DIA_Milten_DI_Hello.description","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:46","Wie in alten Zeiten.","就像回到旧日时光。","","False","DIA_Milten_DI_Hello_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:47","Du sagst es. Ich bin ja mal gespannt, ob es diesmal klappt.","","","False","DIA_Milten_DI_Hello_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:48","Was?","","","False","DIA_Milten_DI_Hello_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:49","Dass du deinen Hintern retten kannst, bevor wieder die ganze Höhle über dich hereinbricht!","","","False","DIA_Milten_DI_Hello_03_03","",""
