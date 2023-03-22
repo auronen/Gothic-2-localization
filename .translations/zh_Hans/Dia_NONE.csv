@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:53","Warum störst du meine Ruhe, Wächter?","","","False","DIA_Addon_Quarhodron_Hello_11_00","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:54","(verärgert) Sag mir, was ist dein Begehren?","","","False","DIA_Addon_Quarhodron_Hello_11_01","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:53","Warum störst du meine Ruhe, Wächter?","你为什么要打扰我休息，守卫？","","False","DIA_Addon_Quarhodron_Hello_11_00","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:54","(verärgert) Sag mir, was ist dein Begehren?","（愤怒）告诉我，你究竟想要什么？","","False","DIA_Addon_Quarhodron_Hello_11_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:57","Was befindet sich im Tempel Adanos?","","","False","DIA_Addon_Quarhodron_Hello.DIA_Addon_Quarhodron_Hello_schwert","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:58","Jemand ist in den Tempel Adanos eingedrungen.","","","False","DIA_Addon_Quarhodron_Hello.DIA_Addon_Quarhodron_Hello_raven","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_NONE_111_Quarhodron.d:59","Gewähre mir Zugang zum Tempel Adanos.","","","False","DIA_Addon_Quarhodron_Hello.DIA_Addon_Quarhodron_Hello_tempel","Info_AddChoice",""
