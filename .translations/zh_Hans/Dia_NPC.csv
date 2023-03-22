@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/Content/Story/NPC/BAU_4300_Addon_Cavalorn.d:4","Cavalorn","卡瓦隆","","False","Bau_4300_Addon_Cavalorn.name","",""
 "Scripts/Content/Story/NPC/BAU_900_Onar.d:4","Onar","","","False","BAU_900_Onar.name","",""
-"Scripts/Content/Story/NPC/BAU_902_Gunnar.d:4","Gunnar","","","False","BAU_902_Gunnar.name","",""
+"Scripts/Content/Story/NPC/BAU_902_Gunnar.d:4","Gunnar","冈纳","","False","BAU_902_Gunnar.name","",""
 "Scripts/Content/Story/NPC/BAU_903_Bodo.d:4","Bodo","","","False","BAU_903_Bodo.name","",""
 "Scripts/Content/Story/NPC/BAU_907_Wasili.d:4","Wasili","","","False","BAU_907_Wasili.name","",""
 "Scripts/Content/Story/NPC/BAU_908_Hodges.d:4","Hodges","","","False","BAU_908_Hodges.name","",""
