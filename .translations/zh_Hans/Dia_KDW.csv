@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:22","Adanos möge dich schützen.","","","False","DIA_Addon_Saturas_ADW_EXIT_14_00","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:99","Adanos sei Dank. Da bist du ja endlich. Wir dachten schon, du tauchst gar nicht mehr auf.","","","False","DIA_Addon_Saturas_ADWStart_14_00","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:22","Adanos möge dich schützen.","愿阿多诺斯保佑你。","","False","DIA_Addon_Saturas_ADW_EXIT_14_00","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:99","Adanos sei Dank. Da bist du ja endlich. Wir dachten schon, du tauchst gar nicht mehr auf.","感谢阿多诺斯，你终于回来了，我们还以为你不会再出现了。","","False","DIA_Addon_Saturas_ADWStart_14_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:100","(irritiert) Was? Wieso seid ihr schon HIER?","","","False","DIA_Addon_Saturas_ADWStart_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:101","Du bist durch das Portal gegangen und wir folgten dir. Es dauerte nicht lang, da sind wir hier angekommen.","","","False","DIA_Addon_Saturas_ADWStart_14_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:102","Doch du warst nicht da. Wir sind schon einige Tage hier.","","","False","DIA_Addon_Saturas_ADWStart_14_03","",""
