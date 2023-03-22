@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/NPC/Monster/MST_Addon_Alligator.d:8","Alligator","","","False","Mst_Default_Addon_Alligator.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Addon_Blattcrawler.d:8","Fangheuschrecke","","","False","Mst_Default_Blattcrawler.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_Alligator.d:8","Alligator","鳄鱼","","False","Mst_Default_Addon_Alligator.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_Blattcrawler.d:8","Fangheuschrecke","螳螂","","False","Mst_Default_Blattcrawler.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Bloodhound.d:8","Bluthund","","","False","Mst_Default_Bloodhound.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Giant_DesertRat.d:8","Wüstenratte","","","False","Mst_Default_Giant_DesertRat.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Gobbo_Warrior.d:8","Goblin - Krieger","","","False","Mst_Default_Gobbo_Warrior.name","",""
