@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:34","Alles im Lot?","","","False","DIA_Gorn_DI_Hallo.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:47","Alles im Lot?","","","False","DIA_Gorn_DI_Hallo_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:34","Alles im Lot?","一切都井井有条吗？","","False","DIA_Gorn_DI_Hallo.description","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:47","Alles im Lot?","每件事都井井有条的吗？","","False","DIA_Gorn_DI_Hallo_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:51","Bis jetzt noch. Denk daran, ich will was zu tun kriegen.","","","False","DIA_Gorn_DI_Hallo_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:55","Gibt es da oben noch mehr Orks? Schick sie zu mir. Ich bin gerade warm geworden.","","","False","DIA_Gorn_DI_Hallo_12_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:69","Ich brauche Training.","","","False","DIA_Gorn_DI_Teach.description","",""
