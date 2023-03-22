@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:36","Ah. Gut, daß du kommst.","","","False","DIA_Lee_Add_04_05","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:37","Was gibt's?","","","False","DIA_Lee_Add_15_06","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:36","Ah. Gut, daß du kommst.","啊哈！谢天谢地你来了。","","False","DIA_Lee_Add_04_05","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:37","Was gibt's?","怎么了？","","False","DIA_Lee_Add_15_06","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:38","Das hier hab ich in der alten Kapelle gefunden.","","","False","DIA_Lee_Add_04_07","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:40","Es ist eine magische Rune. Ich glaube, sie teleportiert dich direkt hierhin zum Hof.","","","False","DIA_Lee_Add_04_08","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:41","Ich dachte, du könntest sie vielleicht gebrauchen.","","","False","DIA_Lee_Add_04_09","",""
