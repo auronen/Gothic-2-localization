@@ -543,7 +543,7 @@
 "Scripts/Content/Story/Text.d:764","Schwert","Miecz","","False","NAME_ItMw_1H_Common_01","",""
 "Scripts/Content/Story/Text.d:765","Erz-Langschwert","Długi miecz magiczny","","False","NAME_ItMw_1H_Special_01","",""
 "Scripts/Content/Story/Text.d:766","Erz-Zweihänder","Magiczny miecz dwuręczny","","False","NAME_ItMw_2H_Special_01","",""
-"Scripts/Content/Story/Text.d:767","Erz-Bastardschwert","Magiczny miecz półtoraręczny","","True","NAME_ItMw_1H_Special_02","",""
+"Scripts/Content/Story/Text.d:767","Erz-Bastardschwert","Magiczny miecz półtoraręczny","","False","NAME_ItMw_1H_Special_02","",""
 "Scripts/Content/Story/Text.d:768","Schwerer Erz-Zweihänder","Ciężki magiczny miecz dwuręczny","","False","NAME_ItMw_2H_Special_02","",""
 "Scripts/Content/Story/Text.d:769","Erz-Schlachtklinge","Magiczne ostrze bojowe","","False","NAME_ItMw_1H_Special_03","",""
 "Scripts/Content/Story/Text.d:770","Schwere Erz-Schlachtklinge","Ciężkie magiczne ostrze bojowe","","False","NAME_ItMw_2H_Special_03","",""
