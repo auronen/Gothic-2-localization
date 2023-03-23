@@ -81,7 +81,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Waran.d:8","Waran","Jaszczur","","False","Mst_Default_Waran.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Warg.d:8","Warg","Warg","","False","Mst_Default_Warg.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Warg.d:112","Schwarzer Wolf","Czarny wilk","","False","BlackWolf.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Wisp.d:8","Irrlicht","Ognik","","True","Mst_Default_Wisp.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Wisp.d:8","Irrlicht","Ognik","","False","Mst_Default_Wisp.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Wolf.d:8","Wolf","Wilk","","False","Mst_Default_Wolf.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Wolf.d:105","Beschworener Wolf","Przyzwany wilk","","False","Summoned_Wolf.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Wolf.d:150","Junger Wolf","Młody wilk","","False","YWolf.name","",""
