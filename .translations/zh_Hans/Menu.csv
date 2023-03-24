@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/System/Menu/Menu_Defines.d:64","Taste ENTF zum Löschen und RETURN zum definieren","按DEL键清空插槽，按RETURN键定义","","False","CTRL_KEYDEF","",""
-"Scripts/System/Menu/Menu_Defines.d:65","Gewünschte Taste betätigen.","请按此动作所需要的键","","True","CTRL_KEYDEF_INFO","",""
+"Scripts/System/Menu/Menu_Defines.d:65","Gewünschte Taste betätigen.","请按此动作所需要的键。","","False","CTRL_KEYDEF_INFO","",""
 "Scripts/System/Menu/Menu_Defines.d:66","nein|ja","不|好的","","False","MENU_NO_YES","",""
 "Scripts/System/Menu/Menu_Defines.d:67","aus|an","","","False","MENU_OFF_ON","",""
 "Scripts/System/Menu/Menu_Defines.d:68","Zurück","","","False","MENU_BACK","",""
