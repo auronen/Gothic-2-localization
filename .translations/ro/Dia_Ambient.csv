@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Addon_GivePotion.d:12","(Heiltrank geben)","","","False","DIA_Addon_GivePotion.description","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Addon_GivePotion.d:12","(Heiltrank geben)","(Dă poțiune de viață)","","False","DIA_Addon_GivePotion.description","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Addon_GivePotion.d:35","(Elixier der Heilung geben)","","","False","DIA_Addon_GivePotion.DIA_Addon_GivePotion_ItPo_Health_03","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Addon_GivePotion.d:40","(Extrakt der Heilung geben)","","","False","DIA_Addon_GivePotion.DIA_Addon_GivePotion_ItPo_Health_02","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Addon_GivePotion.d:45","(Essenz der Heilung geben)","","","False","DIA_Addon_GivePotion.DIA_Addon_GivePotion_ItPo_Health_01","Info_AddChoice",""
