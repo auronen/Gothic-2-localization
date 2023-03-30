@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/Content/Story/SVM.d:327"," Für den König!"," 为了国王！","","False","SVM_1_MILGreetings","",""
 "Scripts/Content/Story/SVM.d:328"," Für Innos!"," 为了伊诺斯！","","False","SVM_1_PALGreetings","",""
-"Scripts/Content/Story/SVM.d:329"," So ein Mistwetter!","","","False","SVM_1_Weather","",""
+"Scripts/Content/Story/SVM.d:329"," So ein Mistwetter!"," 多么糟糕的天气！","","False","SVM_1_Weather","",""
 "Scripts/Content/Story/SVM.d:331"," Krieg ich dich DOCH noch!","","","False","SVM_1_IGetYouStill","",""
 "Scripts/Content/Story/SVM.d:332"," Jetzt bist du dran!","","","False","SVM_1_DieEnemy","",""
 "Scripts/Content/Story/SVM.d:333"," Da ist wieder eins von diesen Drecksviechern!","","","False","SVM_1_DieMonster","",""
