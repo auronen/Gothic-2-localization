@@ -1079,5 +1079,5 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_WispDetector.d:136","Ich brauche Nahkampfwaffen.","Potrzebuję broni do walki wręcz.","","","DIA_Addon_WispDetector_DetectItems_NF_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_WispDetector.d:144","Ich brauche Fernkampfwaffen und Munition.","Potrzebuję broni strzeleckiej i amunicji.","","","DIA_Addon_WispDetector_DetectItems_FF_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_WispDetector.d:152","Ich brauche Gold, Schlüssel und Gebrauchsgegenstände","Potrzebuję złota, kluczy i innych przedmiotów.","","","DIA_Addon_WispDetector_DetectItems_NONE_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_WispDetector.d:160","Ich brauche Runen und Schriftrollen.","Potrzebuję run i zwojów magicznych.","","","DIA_Addon_WispDetector_DetectItems_RUNE_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_WispDetector.d:160","Ich brauche Runen und Schriftrollen.","Potrzebuję run i zwojów magicznych.","","False","DIA_Addon_WispDetector_DetectItems_RUNE_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_WispDetector.d:176","Folge mir einfach.","Chodź za mną!","","","DIA_Addon_WispDetector_Follow.description","",""
