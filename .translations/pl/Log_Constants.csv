@@ -192,7 +192,7 @@
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:100","Ich soll für Bauer Lobart das Rübenfeld ernten. Dafür bezahlt er mir Gold oder geht mit dem Preis für die Kleidung runter.","Farmer Lobart chce, abym zebrał z pola rzepę. W zamian oferuje mi złoto albo obniżenie ceny ubrań.","","","TOPIC_Rueben_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:102","Die Rüben zu Hilda bringen.","Zanieść rzepy Hildzie","","","TOPIC_Ruebenbringen","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:103","Ich soll die geernteten Rüben zu Lobart's Frau im Haus bringen. Sie soll sie kochen. ","Zebraną rzepę mam zanieść do żony Lobarta, która przyrządzi z niej posiłek.","","","TOPIC_Ruebenbringen_1","",""
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:105","Für eine Flasche Wein.","Za buletkę wina","","","TOPIC_Vino","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:105","Für eine Flasche Wein.","Za butelkę wina","","False","TOPIC_Vino","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:106","Wenn ich Vino eine Flasche Wein bringe, wird er Lobart erzählen, das ich ihm geholfen habe.","Jeśli Vino dostanie ode mnie butelkę wina, powie Lobartowi, że mu pomogłem.","","","TOPIC_Vino_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:108","Die Banditen bei Lobart's Hof. ","Bandyci na farmie Lobarta","","","TOPIC_Maleth","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:109","Wenn ich die Banditen auf dem Weg von Xardas Turm zu Lobart's Hof besiege, werden mir alle auf dem Hof dankbar sein.","Jeśli pokonam bandytów grasujących przy drodze z wieży Xardasa na farmę Lobarta, wszyscy na farmie będą mi bardzo wdzięczni.","","","TOPIC_Maleth_1","",""
