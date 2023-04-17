@@ -142,7 +142,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_1.d:134","Es geschehen seltsame Dinge hier. Vor einigen Nächten habe ich eine schwarze Gestalt beobachtet. Das war kein Mensch.","这里正在发生奇怪的事情。几天前的晚上，我观察到一个黑色的身影。它不是人类。","","False","DIA_BAU_1_STANDARD_01_03","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_1.d:139","Man sieht die Orks immer häufiger. Manchmal glaube ich, dass für jeden toten Ork zwei neue auftauchen.","你看到的兽人越来越多。有时我想，每死一个兽人，就会出现两个新的兽人。","","True","DIA_BAU_1_STANDARD_01_04","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_1.d:144","Die Paladine gehen ins Minental. Was soll das eigentlich? Dann wird sich die Miliz gar nicht mehr zurückhalten.","圣骑士前往矿山谷。那是什么意思？那么民兵根本不会手下留情。","","True","DIA_BAU_1_STANDARD_01_05","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_13.d:32","Ich will mehr über die Söldner wissen!","","","False","DIA_BAU_13_JOIN.description","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_13.d:32","Ich will mehr über die Söldner wissen!","我想了解更多关于雇佣兵的信息！","","False","DIA_BAU_13_JOIN.description","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_13.d:45","Ich will mehr über die Söldner wissen!","","","False","DIA_BAU_13_JOIN_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_13.d:46","Wenn du mal Ärger mit ihnen hast, geh zu Lee. Das machen wir Bauern auch so. Er ist sehr hart zu seinen Leuten.","","","False","DIA_BAU_13_JOIN_13_01","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_BAU_13.d:47","Wenn sich einer von ihnen nicht benimmt, nimmt er ihn sich zur Brust.","","","False","DIA_BAU_13_JOIN_13_02","",""
