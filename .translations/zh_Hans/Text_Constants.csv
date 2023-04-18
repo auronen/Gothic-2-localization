@@ -2,7 +2,7 @@
 "Scripts/Content/Story/Text.d:5","Kiste","木箱","","False","MOBNAME_CRATE","",""
 "Scripts/Content/Story/Text.d:6","Truhe","箱子","","False","MOBNAME_CHEST","",""
 "Scripts/Content/Story/Text.d:7","Bett","床","","False","MOBNAME_BED","",""
-"Scripts/Content/Story/Text.d:8","Tür","","","False","MOBNAME_DOOR","",""
+"Scripts/Content/Story/Text.d:8","Tür","门","","False","MOBNAME_DOOR","",""
 "Scripts/Content/Story/Text.d:15","Amboss","","","False","MOBNAME_ANVIL","",""
 "Scripts/Content/Story/Text.d:16","Wasser-Eimer","","","False","MOBNAME_BUCKET","",""
 "Scripts/Content/Story/Text.d:17","Schmiede-Feuer","","","False","MOBNAME_FORGE","",""
