@@ -13,7 +13,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:59","Der Sack ist voller neuer Waffen!","这个萨克是武装部队的新战士！","","False","ItSe_Addon_Sack.name","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:73","","","","","ItSe_Addon_Sack.text[0]","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:74","","","","","ItSe_Addon_Sack.text[1]","",""
-"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:75","Viele viele bunte Waffen","","","False","ItSe_Addon_Sack.text[2]","",""
+"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:75","Viele viele bunte Waffen","很多很多五颜六色的武器","","False","ItSe_Addon_Sack.text[2]","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:78","Einen Haufen neuer Waffen gefunden!","","","False","_PRINT_CH_WEAPONS","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:100","Trigger die Adw","","","False","ItFo_TestTrigger.name","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:114","","","","","ItFo_TestTrigger.text[0]","",""
