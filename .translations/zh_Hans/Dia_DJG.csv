@@ -703,7 +703,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:352","Du bist mir zu teuer.","","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:353","Heul mir jetzt nicht die Ohren voll. Die Hälfte war abgemacht.","","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:356","Ich fürchte, ich muß mich von dir trennen.","","","False","DIA_Biff_GELDEINTREIBEN.DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","ø÷≈¬Œ“≤ªµ√≤ª  ∫Õƒ„∑÷ø™°£","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:363","Wie du willst. Dann muss ich mir eben meinen Anteil holen.","","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:416","Ziemlich brenzlige Gegend hier. Geh du vor. Ich halte mich im Hintergrund.","","","False","DIA_Biff_ICHBLEIBHIER_07_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:460","(Biff wieder mitnehmen)","","","False","DIA_Biff_Stay_AwayFromOC.description","",""
