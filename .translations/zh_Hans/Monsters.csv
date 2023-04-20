@@ -63,7 +63,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:8","Skelett","骨架","","False","Mst_Default_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:120","Beschworenes Skelett","召唤骷髅","","False","Summoned_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:173","Niederes Skelett","下骨架","","False","Lesser_Skeleton.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:220","Krypta-Wächter","","","False","Crypt_Skeleton_Room_01.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:220","Krypta-Wächter","地 穴 守 卫","","False","Crypt_Skeleton_Room_01.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:246","Krypta-Wächter","地穴守卫","","False","Crypt_Skeleton_Room_02.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:272","Krypta-Wächter","地穴守卫","","False","Crypt_Skeleton_Room_03.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton_Lord.d:4","Schattenkrieger","影子武士","","False","Mst_Skeleton_Lord.name","",""
