@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:33","Wie in alten Zeiten.","就 像 过 去 一 样","","False","DIA_Milten_DI_Hello.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:46","Wie in alten Zeiten.","就 像 过 去 一 样","","False","DIA_Milten_DI_Hello_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:33","Wie in alten Zeiten.","就 像 过 去 一 样。","","False","DIA_Milten_DI_Hello.description","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:46","Wie in alten Zeiten.","就 像 过 去 一 样。","","False","DIA_Milten_DI_Hello_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:47","Du sagst es. Ich bin ja mal gespannt, ob es diesmal klappt.","你 说 中 了 。 我 很 好 奇 ， 想 看 看 这 次 你 会 不 会 成 功 。","","False","DIA_Milten_DI_Hello_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:48","Was?","什 么 ？","","False","DIA_Milten_DI_Hello_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:49","Dass du deinen Hintern retten kannst, bevor wieder die ganze Höhle über dich hereinbricht!","在 你 周 围 的 一 切 都 乱 套 之 前 自 保 吧 。","","False","DIA_Milten_DI_Hello_03_03","",""
