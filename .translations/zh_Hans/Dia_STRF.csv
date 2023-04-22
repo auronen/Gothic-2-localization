@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:33","Ich komme im Auftrag der Wassermagier.","我是水法师派来的，我是来解救你的。","","False","DIA_Addon_Patrick_Hi.description","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:43","Ich komme im Auftrag der Wassermagier. Ich bin hier, um euch zu befreien.","我是水法师派来的，我是来解救你的。","","False","DIA_Addon_Patrick_Hi_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:33","Ich komme im Auftrag der Wassermagier.","是 水 法 师 派 我 来 的 。 我 来 释 放 你 。","","False","DIA_Addon_Patrick_Hi.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:43","Ich komme im Auftrag der Wassermagier. Ich bin hier, um euch zu befreien.","是 水 法 师 派 我 来 的 。 我 来 释 放 你 。","","False","DIA_Addon_Patrick_Hi_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:44","(mißtrauisch) So? Und warum sollte ich dir das glauben?","（ 谨 慎 的 ） 真 的 ？ 我 为 什 么 要 相 信 你 ？","","False","DIA_Addon_Patrick_Hi_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:45","Willst du hier raus oder nicht?","你 想 离 开 这 里 ， 还 是 不 想 ？","","False","DIA_Addon_Patrick_Hi_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_STRF_1118_Patrick.d:46","Natürlich will ich hier raus - aber ...","我 当 然 想 离 开 - 但 是 … …","","False","DIA_Addon_Patrick_Hi_07_03","",""
