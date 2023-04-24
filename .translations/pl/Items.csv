@@ -1250,7 +1250,7 @@
 "Scripts/Content/Items/IT_Ranged_Weapons.d:156","","","","","ItRw_Bow_L_01.text[0]","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:157","","","","","ItRw_Bow_L_01.text[1]","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:160","","","","","ItRw_Bow_L_01.text[4]","",""
-"Scripts/Content/Items/IT_Ranged_Weapons.d:166","Weidenbogen","Łuk wierzbowy","","","ItRw_Bow_L_02.name","",""
+"Scripts/Content/Items/IT_Ranged_Weapons.d:166","Weidenbogen","Łuk wierzbowy","","False","ItRw_Bow_L_02.name","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:185","","","","","ItRw_Bow_L_02.text[0]","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:186","","","","","ItRw_Bow_L_02.text[1]","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:189","","","","","ItRw_Bow_L_02.text[4]","",""
