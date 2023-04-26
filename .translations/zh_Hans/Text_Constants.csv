@@ -851,7 +851,7 @@
 "Scripts/Content/Story/Text.d:1234","Ablehnen","拒 绝","","False","STR_INFO_TRADE_RESET","",""
 "Scripts/Content/Story/Text.d:1235","Zurück","返 回","","False","STR_INFO_TRADE_EXIT","",""
 "Scripts/Content/Story/Text.d:1238","Zum aktivieren RETURN drücken!","按ENTER键 激 活 ！","","False","MENU_TEXT_NEEDS_APPLY","",""
-"Scripts/Content/Story/Text.d:1239","Einige Einstellungen werden erst nach einem Neustart aktiv","在 你 重 新 启 动 之 前 ， 某 些 设 置 不 会 被 启 用 。","","False","MENU_TEXT_NEEDS_RESTART","",""
+"Scripts/Content/Story/Text.d:1239","Einige Einstellungen werden erst nach einem Neustart aktiv","在 你 重 新 启 动 之 前 ， 某 些 设 置 不 会 被 启 用","","False","MENU_TEXT_NEEDS_RESTART","",""
 "Scripts/Content/Story/Text.d:1245","Kapitel 1","第 一 章","","False","KapWechsel_1","",""
 "Scripts/Content/Story/Text.d:1246","Die Bedrohung","威 胁","","False","KapWechsel_1_Text","",""
 "Scripts/Content/Story/Text.d:1247","Kapitel 2","第 二 章","","False","KapWechsel_2","",""
