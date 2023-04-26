@@ -517,7 +517,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:883","Ja, dass sie einen wie dich hier reingelassen haben, ist schon ewig nicht mehr vorgekommen","是 的 ， 他 们 让 你 这 样 的 人 进 来 。 这 种 事 情 多 少 年 来 都 没 发 生 过 。","","False","DIA_Lothar_PERM_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:887","Das solltest du am besten wissen. Als Angehöriger der Stadtwache ist es deine Aufgabe, hier für Ruhe und Ordnung zu sorgen!","你 应 该 好 好 弄 明 白 这 个 。 作 为 这 个 城 市 的 一 名 守 卫 ， 你 的 职 责 是 遵 守 法 律 和 命 令 ！","","False","DIA_Lothar_PERM_01_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:891","Nein.","不 .","","False","DIA_Lothar_PERM_01_03","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:29","NW_CITY_CITYHALL_IN","","","False","PAL_205_Checkpoint","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:29","NW_CITY_CITYHALL_IN","NW_CITY_CITYHALL_IN","","False","PAL_205_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:75","HALT!","停 下 ！","","False","DIA_PAL_205_Torwache_FirstWarn_12_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:82","Ich würde meine höchste Pflicht verletzen, wenn ich einem Mörder Zutritt gewähre.","如 果 我 对 一 个 杀 人 犯 敞 开 大 门 的 话 ， 我 将 亵 渎 自 己 最 神 圣 的 职 责 。","","False","DIA_PAL_205_Torwache_FirstWarn_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:87","Du bist des Diebstahls angeklagt. Solange darfst du nicht hinein!","你 被 控 偷 窃 。 只 要 这 是 真 的 ， 你 就 不 能 进 去 ！","","False","DIA_PAL_205_Torwache_FirstWarn_12_02","",""
