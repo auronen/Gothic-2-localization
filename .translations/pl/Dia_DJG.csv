@@ -703,7 +703,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:352","Du bist mir zu teuer.","Nie stać mnie na twoje usługi.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:353","Heul mir jetzt nicht die Ohren voll. Die Hälfte war abgemacht.","Przestań jęczeć. Umawialiśmy się, pół na pół.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:356","Ich fürchte, ich muß mich von dir trennen.","Obawiam się, że teraz musimy się rozstać.","","","DIA_Biff_GELDEINTREIBEN.DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","Obawiam się, że teraz musimy się rozstać.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","Obawiam się, że teraz musimy się rozstać.","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:363","Wie du willst. Dann muss ich mir eben meinen Anteil holen.","Skoro tak mówisz. Więc chyba muszę zabrać moją część.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:416","Ziemlich brenzlige Gegend hier. Geh du vor. Ich halte mich im Hintergrund.","Naprawdę rozrywkowa okolica. Idź przodem. Ja będę w pobliżu.","","","DIA_Biff_ICHBLEIBHIER_07_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:460","(Biff wieder mitnehmen)","(Ponownie zabierz Biffa ze sobą)","","","DIA_Biff_Stay_AwayFromOC.description","",""
