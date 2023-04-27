@@ -4161,7 +4161,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1495","Kein Problem. Sag mir, wann du los willst.","Nie ma sprawy. Daj znać, jak będziesz chciał ruszać.","","","DIA_Addon_Lares_RangerHelp_Forest_09_05","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1510","Okay, lass uns gehen.","Dobra, chodźmy.","","","DIA_Lares_GoNow.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1531","Dann wollen wir mal ... Folge mir.","A więc ruszajmy... Chodź za mną.","","","DIA_Lares_GoNow_09_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1545","Okay, lass uns gehen.","Dobra, chodźmy.","","","DIA_Lares_GoNow_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1545","Okay, lass uns gehen.","Dobra, chodźmy.","","False","DIA_Lares_GoNow_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1549","So lange mich hier keiner ablöst oder wir mehr über die Vermissten wissen, kann ich hier nicht weg.","Nie mogę się stąd ruszyć, dopóki ktoś mnie nie zastąpi lub nie zostanie rozwiązana sprawa ginących ludzi.","","","DIA_Addon_Lares_GoNow_09_03","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1557","Wohin?","Gdzie teraz?","","","DIA_Addon_Lares_GoNow_09_04","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1564","Zu Onars Hof.","Na farmę Onara.","","","DIA_Lares_GoNow.DIA_Lares_GoNow_Onar","Info_AddChoice",""
