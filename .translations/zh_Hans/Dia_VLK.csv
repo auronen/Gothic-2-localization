@@ -5063,7 +5063,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:246","Ich sollte dich der Miliz übergeben.","我 要 向 民 兵 检 举 你 。","","False","DIA_Rengaru_INKNAST.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:259","Ich sollte dich der Miliz übergeben.","我 要 向 民 兵 检 举 你 。","","False","DIA_Rengaru_INKNAST_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:260","Was willst du denn noch? Ich hab nichts mehr! Lass mich laufen, Mann!","你 还 想 要 什 么 ？ 我 什 么 都 没 有 剩 下 ！ 让 我 走 ， 老 兄 ！","","False","DIA_Rengaru_INKNAST_07_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:262","Warum sollte ich das tun?","","","False","DIA_Rengaru_INKNAST.DIA_Rengaru_INKNAST_keinKnast","Info_AddChoice",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:262","Warum sollte ich das tun?","我 为 什 么 要 那 么 做 ？","","False","DIA_Rengaru_INKNAST.DIA_Rengaru_INKNAST_keinKnast","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:263","Ich werde dafür sorgen das du in den Knast kommst.","","","False","DIA_Rengaru_INKNAST.DIA_Rengaru_INKNAST_Knast","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:264","Zieh Leine! Und lass dich hier nicht mehr sehen!","","","False","DIA_Rengaru_INKNAST.DIA_Rengaru_INKNAST_HauAb","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:269","Zieh Leine! Und lass dich hier nicht mehr blicken!","","","False","DIA_Rengaru_INKNAST_HauAb_15_00","",""
