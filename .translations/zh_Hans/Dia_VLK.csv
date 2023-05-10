@@ -5076,7 +5076,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:293","Ich könnte ein gutes Wort für dich einlegen. Mehr kann und werde ich dir dazu nicht sagen. Der Rest liegt an dir.","我 可 以 帮 你 说 好 话 。 但 是 我 不 能 、 也 不 会 说 太 多 。 剩 下 的 就 要 靠 你 了 。","","False","DIA_Rengaru_INKNAST_keinKnast_07_02","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:306","Na? Geht's dir gut?","真 的 ？ 工 作 顺 利 吗 ？","","False","DIA_Rengaru_LastInfoKap1.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:319","Na? Geht's dir gut?","真 的 ？ 工 作 顺 利 吗 ？","","False","DIA_Rengaru_LastInfoKap1_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:323","Spotte du nur. Du kriegst deine Rechnung noch, das schwör ich dir!","","","False","DIA_Rengaru_LastInfoKap1_07_01","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:323","Spotte du nur. Du kriegst deine Rechnung noch, das schwör ich dir!","说 吧 ， 嘲 弄 我 。 最 后 你 会 得 到 你 应 得 的 结 果 ， 我 发 誓 ！","","False","DIA_Rengaru_LastInfoKap1_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:327","Was willst du denn noch? Ich hab nichts mehr geklaut, ehrlich, Mann!","","","False","DIA_Rengaru_LastInfoKap1_07_02","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:340","(Diebeszeichen zeigen)","","","False","DIA_Rengaru_Zeichen.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_492_Rengaru.d:357","Hey, du bist auch dabei.","","","False","DIA_Rengaru_Zeichen_07_00","",""
