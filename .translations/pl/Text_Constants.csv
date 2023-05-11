@@ -475,7 +475,7 @@
 "Scripts/Content/Story/Text.d:662","Wer diese Rüstung trägt, gehört zu den Banditen","Kto nosi tę zbroję, należy do bandytów.","","False","PRINT_Addon_BDTArmor","",""
 "Scripts/Content/Story/Text.d:664","Wir sind drei Brüder aus einer Kaste.","Jesteśmy trzema braćmi z kasty.","","False","PRINT_Addon_KUMU_01","",""
 "Scripts/Content/Story/Text.d:665","Zusammmen sind wir stärker.","Razem jesteśmy silniejsi.","","False","PRINT_Addon_KUMU_02","",""
-"Scripts/Content/Story/Text.d:667","Warte noch. Wegen dem Kraut ...","Czekaj. Odnośnie ziela...","","False","PRINT_Addon_NadjaWait","",""
+"Scripts/Content/Story/Text.d:667","Warte noch. Wegen dem Kraut ...","Czekaj. Co do ziela...","","False","PRINT_Addon_NadjaWait","",""
 "Scripts/Content/Story/Text.d:672","Gold: ","Złoto: ","","False","NAME_Currency","",""
 "Scripts/Content/Story/Text.d:673","Du hast nicht genug Gold um den Gegenstand zu kaufen.","Brakuje ci złota na zakup tego przedmiotu.","","False","PRINT_Trade_Not_Enough_Gold","",""
 "Scripts/Content/Story/Text.d:679","Wert:","Wartość:","","False","NAME_Value","",""
