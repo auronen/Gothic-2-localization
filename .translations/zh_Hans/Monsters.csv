@@ -37,7 +37,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Dragon_Undead.d:8","Untoter Drache","亡 灵 龙","","False","Mst_Default_Dragon_Undead.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_FireGolem.d:8","Feuergolem","火 巨 人","","False","Mst_Default_FireGolem.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_FireWaran.d:8","Feuerwaran","火 蜥 蜴","","False","Mst_Default_FireWaran.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Giant_Bug.d:8","Feldräuber","野外捕食者","","False","Mst_Default_Giant_Bug.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Giant_Bug.d:8","Feldräuber","旷野袭击者","","False","Mst_Default_Giant_Bug.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Giant_Bug.d:103","Junger Feldräuber","幼 年 旷 野 袭 击 者","","False","YGiant_Bug.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Giant_Bug.d:140","Junger Feldräuber","幼 年 旷 野 袭 击 者","","False","YGiant_Bug_VinoRitual1.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Giant_Bug.d:177","Junger Feldräuber","幼 年 旷 野 袭 击 者","","False","YGiant_Bug_VinoRitual2.name","",""
