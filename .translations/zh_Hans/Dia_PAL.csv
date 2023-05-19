@@ -1226,7 +1226,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:175","Besorg mir eine leckere Wurst und einen frischen Laib Brot - und süßen Honig.","给 我 弄 点 美 味 的 香 肠 和 一 个 新 鲜 面 包 - 还 要 一 些 甜 蜂 蜜 。","","False","DIA_Gerold_Deal_12_06","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:176","Dazu eine Flasche Wein ... Ja, das sollte reichen. Das wirst du ja wohl hinkriegen. Also komm wieder, wenn du das Zeug hast.","同 时 还 要 一 瓶 葡 萄 酒 … … 是 的 ， 那 就 行 了 。 你 应 该 能 弄 到 这 些 。 那 么 ， 当 你 有 了 这 些 东 西 后 回 来 找 我 吧 。","","False","DIA_Gerold_Deal_12_07","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:191","Ich hab hier was für dich...","我 有 一 些 东 西 给 你 … …","","False","DIA_Gerold_Stuff.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:210","Ich hab hier was für dich. Das Essen, das du haben wolltest.","","","False","DIA_Gerold_Stuff_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:210","Ich hab hier was für dich. Das Essen, das du haben wolltest.","我 已 经 给 你 弄 到 了 一 些 东 西 。 你 想 要 的 食 物 。","","False","DIA_Gerold_Stuff_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:236","Gut, gib her das Zeug. Hast du die Nachricht?","","","False","DIA_Gerold_Stuff_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:237","Ja, hier. Denk daran, sie ist für Gorn.","","","False","DIA_Gerold_Stuff_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:238","Komm morgen wieder, dann hat er die Nachricht bekommen.","","","False","DIA_Gerold_Stuff_12_03","",""
