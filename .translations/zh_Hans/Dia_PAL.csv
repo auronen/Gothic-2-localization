@@ -1211,7 +1211,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:82","Das hier ist keine Taverne, wo man rein und rausspazieren kann, wie man will. Merk dir das.","这 不 是 什 么 你 想 进 就 进 ， 想 出 就 出 的 酒 馆 。 记 住 这 个 。","","False","DIA_Gerold_Jail_12_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:96","Kannst du nicht mal eine Ausnahme machen?","你 能 给 我 破 一 次 例 吗 ？","","False","DIA_Gerold_Ausnahme.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:111","Kannst du nicht mal eine Ausnahme machen?","你 能 给 我 破 一 次 例 吗 ？","","False","DIA_Gerold_Ausnahme_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:112","Nein.","不 。","","False","DIA_Gerold_Ausnahme_12_01","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:112","Nein.","不 .","","False","DIA_Gerold_Ausnahme_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:124","Und wenn ich dir Gold zahle?","那 么 如 果 我 付 你 钱 呢 ？","","False","DIA_Gerold_Gold.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:139","Und wenn ich dir Gold zahle?","那 么 如 果 我 付 你 钱 呢 ？","","False","DIA_Gerold_Gold_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:140","... hm ...","… … 嗯 … …","","False","DIA_Gerold_Gold_12_01","",""
