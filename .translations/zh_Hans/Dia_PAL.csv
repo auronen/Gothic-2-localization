@@ -1217,7 +1217,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:140","... hm ...","… … 嗯 … …","","False","DIA_Gerold_Gold_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:141","Nein.","不 。","","False","DIA_Gerold_Gold_12_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:153","Ich habe hier eine Notiz für einen Gefangenen...","我 这 里 有 一 个 字 条 是 给 一 个 犯 人 的 … …","","False","DIA_Gerold_Deal.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:169","Ich habe hier eine Notiz für einen Gefangenen. Kannst du sie weitergeben?","我 这 里 有 一 张 便 条 是 给 一 个 囚 犯 的 。 你 能 帮 我 交 给 他 吗 ？","","False","DIA_Gerold_Deal_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:169","Ich habe hier eine Notiz für einen Gefangenen. Kannst du sie weitergeben?","我 这 里 有 一 张 便 条 是 给 一 个 囚 犯 的 .你 能 帮 我 交 给 他 吗 ？","","False","DIA_Gerold_Deal_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:170","Hm ... prinzipiell spricht nichts dagegen. Für wen ist denn diese Notiz?","嗯 … … 原 则 上 来 讲 ， 我 不 觉 得 有 什 么 不 可 以 。 那 么 ， 这 封 信 是 捎 给 谁 的 呢 ？","","False","DIA_Gerold_Deal_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:171","Für Gorn.","","","False","DIA_Gerold_Deal_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_261_Gerold.d:172","Ein sehr wichtiger Gefangener. Ich glaube, Garond wäre nicht damit einverstanden. Aber wenn dir das wichtig ist, werden wir uns bestimmt einigen.","","","False","DIA_Gerold_Deal_12_03","",""
