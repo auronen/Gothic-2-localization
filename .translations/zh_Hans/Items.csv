@@ -2021,7 +2021,7 @@
 "Scripts/Content/Items/MissionItems_1.d:1439","Innos Statue","英 诺 斯 雕 像","","False","ItMi_EddasStatue.name","",""
 "Scripts/Content/Items/MissionItems_1.d:1450","","","","","ItMi_EddasStatue.text[0]","",""
 "Scripts/Content/Items/MissionItems_1.d:1451","","","","","ItMi_EddasStatue.text[1]","",""
-"Scripts/Content/Items/MissionItems_1.d:1452","Innos Herr der Gerechtigkeit ","伊 诺 斯 ， 正 义 之 王 ","","False","ItMi_EddasStatue.text[2]","",""
+"Scripts/Content/Items/MissionItems_1.d:1452","Innos Herr der Gerechtigkeit ","英 诺 斯 ， 正 义 之 王 ","","False","ItMi_EddasStatue.text[2]","",""
 "Scripts/Content/Items/MissionItems_1.d:1453","segne und behüte mich","祝 福 并 保 护 我 ，","","False","ItMi_EddasStatue.text[3]","",""
 "Scripts/Content/Items/MissionItems_1.d:1454","auf das mir kein Unheil widerfahre","让 我 不 受 伤 害 。","","False","ItMi_EddasStatue.text[4]","",""
 "Scripts/Content/Items/MissionItems_1.d:1464","Alter Messingschlüssel","旧 黄 铜 钥 匙","","False","ItKe_EVT_CRYPT_01.name","",""
