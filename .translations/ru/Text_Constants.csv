@@ -672,7 +672,7 @@
 "Scripts/Content/Story/Text.d:939","Elixier der Geschicklichkeit","Эликсир ловкости ","","","NAME_Dex_Permanent","",""
 "Scripts/Content/Story/Text.d:940","Elixier der Stärke","Эликсир силы ","","","NAME_Str_Permanent","",""
 "Scripts/Content/Story/Text.d:941","Trank der Geschwindigkeit","Зелье скорости ","","","NAME_Speed_Potion","",""
-"Scripts/Content/Story/Text.d:945","Steingolem","Steingolem","","","NAME_STONE_GOLEM","",""
+"Scripts/Content/Story/Text.d:945","Steingolem","Каменный голем","","False","NAME_STONE_GOLEM","",""
 "Scripts/Content/Story/Text.d:947","Schleichen","Красться ","","","NAME_TALENT_SNEAK","",""
 "Scripts/Content/Story/Text.d:948","Taschendiebstahl","Taschendiebstahl ","","","NAME_TALENT_PICKPOCKET","",""
 "Scripts/Content/Story/Text.d:949","Schlösser knacken","Schlцsser knacken ","","","NAME_TALENT_PICKLOCK","",""
