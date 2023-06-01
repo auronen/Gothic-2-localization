@@ -3338,7 +3338,7 @@
 "Scripts/Content/Items/IT_Addon_Keys.d:18","","","","","ITKE_PORTALTEMPELWALKTHROUGH_ADDON.text[4]","",""
 "Scripts/Content/Items/IT_Addon_Keys.d:36","","","","","ITKE_Greg_ADDON_MIS.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Keys.d:37","","","","","ITKE_Greg_ADDON_MIS.text[1]","",""
-"Scripts/Content/Items/IT_Addon_Keys.d:38","Der Schlüssel zur","The key to the monastery's","","","ITKE_Greg_ADDON_MIS.text[2]","",""
+"Scripts/Content/Items/IT_Addon_Keys.d:38","Der Schlüssel zur","The key to the","","False","ITKE_Greg_ADDON_MIS.text[2]","",""
 "Scripts/Content/Items/IT_Addon_Keys.d:39","Hütte von Kapitän","Captain's hut","","","ITKE_Greg_ADDON_MIS.text[3]","",""
 "Scripts/Content/Items/IT_Addon_Keys.d:40","Greg","Greg","","","ITKE_Greg_ADDON_MIS.text[4]","",""
 "Scripts/Content/Items/IT_Addon_Keys.d:57","Lou's Schlüssel","Lou's key","","","ITKE_Addon_Tavern_01.description","",""
