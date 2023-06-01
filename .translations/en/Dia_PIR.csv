@@ -1089,7 +1089,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:569","Ok. Ich werde sie dir bezahlen.","Okay. I'll pay for them.","","","DIA_Addon_Skip_Grog_geben_08_03","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:570","Hast du vielleicht irgendwas Interessanteres als Gold?","Haven't you got anything more interesting than gold?","","","DIA_Addon_Skip_Grog_geben_15_04","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:571","Mmh. Mal sehen. Ich habe hier so einen Ring.","Mmh. Let's see. I've got this ring here.","","","DIA_Addon_Skip_Grog_geben_08_05","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:572","Hab ich vor Jahren in einer stickigen Hafenkneipe beim Glückspiel gewonnen.","I won it gambling in a filthy dockside pub years ago.","","","DIA_Addon_Skip_Grog_geben_08_06","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:572","Hab ich vor Jahren in einer stickigen Hafenkneipe beim Glückspiel gewonnen.","I won it gambling in a filthy dockside tavern years ago.","","False","DIA_Addon_Skip_Grog_geben_08_06","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:573","Der Kerl sagte damals, er sei magisch. Keine Ahnung, ob das stimmt.","Back then, the guy told me it was magic. No idea whether that's true.","","","DIA_Addon_Skip_Grog_geben_08_07","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:574","Vielleicht willst du ihn statt dem Geld?","Maybe you want that instead of money?","","","DIA_Addon_Skip_Grog_geben_08_08","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:577","Gib mir das Geld.","Give me the money.","","","DIA_Addon_Skip_Grog.DIA_Addon_Skip_Grog_gold","Info_AddChoice",""
