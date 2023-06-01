@@ -565,7 +565,7 @@
 "Scripts/Content/Story/Text.d:799",". Kosten: ",". Coste:","","","PRINT_Kosten","",""
 "Scripts/Content/Story/Text.d:800"," LP"," PA","","","PRINT_LP","",""
 "Scripts/Content/Story/Text.d:803","Nicht genug Lernpunkte!","¡No tienes suficientes puntos de aprendizaje!","","","PRINT_NotEnoughLP","",""
-"Scripts/Content/Story/Text.d:804","Maximum dieses Lehrers liegt bei ","El máximo de este maestro es","","","PRINT_NoLearnOverPersonalMAX","",""
+"Scripts/Content/Story/Text.d:804","Maximum dieses Lehrers liegt bei ","El máximo de este maestro es ","","False","PRINT_NoLearnOverPersonalMAX","",""
 "Scripts/Content/Story/Text.d:807","Stärke + ","Fuerza +","","","PRINT_LearnSTR","",""
 "Scripts/Content/Story/Text.d:808","Geschicklichkeit + ","Destreza +","","","PRINT_LearnDEX","",""
 "Scripts/Content/Story/Text.d:809","Mana + ","maná +","","","PRINT_LearnMANA_MAX","",""
