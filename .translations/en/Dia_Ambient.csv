@@ -659,7 +659,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:41","Ins Hafenviertel.","To the harbor district.","","","DIA_CITYGUIDE.DIA_CITYGUIDE_HAFEN","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:44","Danke - das war alles, was ich wissen wollte!","Thanks - that was all I wanted to know!","","","DIA_CITYGUIDE.DIA_CITYGUIDE_BACK","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:52","Kannst du mir helfen, mich hier zurechtzufinden?","What can you tell me about this area?","","","DIA_CITYGUIDE.description","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:62","Kannst du mir helfen, mich hier zurechtzufinden?","What's new?","","","DIA_CITYGUIDE_15_00","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:62","Kannst du mir helfen, mich hier zurechtzufinden?","What can you tell me about this area?","","False","DIA_CITYGUIDE_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:101","Danke - das war alles, was ich wissen wollte!","Thanks - that was all I wanted to know!","","","DIA_CITYGUIDE_BACK_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:107","Wie komme ich in die Unterstadt?","How do I get to the lower part of town?","","","DIA_CITYGUIDE_UNTERSTADT_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:143","Wie komme ich ins obere Viertel?","How to I get to the upper quarter?","","","DIA_CITYGUIDE_OBERSTADT_15_00","",""
