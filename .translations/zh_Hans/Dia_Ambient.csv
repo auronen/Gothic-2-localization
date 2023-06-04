@@ -659,7 +659,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:41","Ins Hafenviertel.","去 海 港 地 区 。","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_HAFEN","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:44","Danke - das war alles, was ich wissen wollte!","谢 谢 - 我 要 知 道 的 就 这 么 多 了 ！","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_BACK","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:52","Kannst du mir helfen, mich hier zurechtzufinden?","关 于 这 个 地 区 的 事 你 能 告 诉 我 什 么 ？","","False","DIA_CITYGUIDE.description","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:62","Kannst du mir helfen, mich hier zurechtzufinden?","有 什 么 新 消 息 ？","","False","DIA_CITYGUIDE_15_00","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:62","Kannst du mir helfen, mich hier zurechtzufinden?","关 于 这 个 地 区 的 事 你 能 告 诉 我 什 么 ？","","False","DIA_CITYGUIDE_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:101","Danke - das war alles, was ich wissen wollte!","谢 谢 - 我 要 知 道 的 就 这 么 多 了 ！","","False","DIA_CITYGUIDE_BACK_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:107","Wie komme ich in die Unterstadt?","我 怎 么 去 城 镇 的 贫 民 区 ？","","False","DIA_CITYGUIDE_UNTERSTADT_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:143","Wie komme ich ins obere Viertel?","我 怎 么 去 富 人 区 ？","","False","DIA_CITYGUIDE_OBERSTADT_15_00","",""
