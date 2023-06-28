@@ -4161,7 +4161,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1495","Kein Problem. Sag mir, wann du los willst.","Pas de problème. Faites-moi savoir quand vous voulez partir.","","","DIA_Addon_Lares_RangerHelp_Forest_09_05","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1510","Okay, lass uns gehen.","Très bien, allons-y.","","","DIA_Lares_GoNow.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1531","Dann wollen wir mal ... Folge mir.","D'accord. Suivez-moi.","","","DIA_Lares_GoNow_09_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1545","Okay, lass uns gehen.","Okay, lass uns gehen.","","","DIA_Lares_GoNow_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1545","Okay, lass uns gehen.","Très bien, allons-y.","","False","DIA_Lares_GoNow_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1549","So lange mich hier keiner ablöst oder wir mehr über die Vermissten wissen, kann ich hier nicht weg.","Je ne peux pas partir d'ici tant que nous n'en savons pas plus sur les disparus ou tant que quelqu'un ne m'a pas relevé de mes fonctions.","","","DIA_Addon_Lares_GoNow_09_03","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1557","Wohin?","Où ?","","","DIA_Addon_Lares_GoNow_09_04","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:1564","Zu Onars Hof.","À la ferme d'Onar.","","","DIA_Lares_GoNow.DIA_Lares_GoNow_Onar","Info_AddChoice",""
