@@ -703,7 +703,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:352","Du bist mir zu teuer.","I can't afford you.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:353","Heul mir jetzt nicht die Ohren voll. Die Hälfte war abgemacht.","Stop whining at me. We agreed on half.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:356","Ich fürchte, ich muß mich von dir trennen.","We must part ways now, I'm afraid.","","","DIA_Biff_GELDEINTREIBEN.DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","Ich fürchte, ich muss mich von dir trennen.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","We must part ways now, I'm afraid.","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:363","Wie du willst. Dann muss ich mir eben meinen Anteil holen.","If you say so. Then I'll just have to take my share.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:416","Ziemlich brenzlige Gegend hier. Geh du vor. Ich halte mich im Hintergrund.","Really dangerous area here. You go in front. I'll keep in the background.","","False","DIA_Biff_ICHBLEIBHIER_07_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:460","(Biff wieder mitnehmen)","(Take Biff along again)","","","DIA_Biff_Stay_AwayFromOC.description","",""
