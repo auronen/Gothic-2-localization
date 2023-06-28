@@ -703,7 +703,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:352","Du bist mir zu teuer.","Vous me coûtez trop cher.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:353","Heul mir jetzt nicht die Ohren voll. Die Hälfte war abgemacht.","Arrêtez de vous plaindre. On s'était mis d'accord pour la moitié.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:356","Ich fürchte, ich muß mich von dir trennen.","Je crains que nous devions nous séparer maintenant.","","","DIA_Biff_GELDEINTREIBEN.DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","Ich fürchte, ich muss mich von dir trennen.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:362","Ich fürchte, ich muss mich von dir trennen.","Je crains que nous devions nous séparer maintenant.","","False","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:363","Wie du willst. Dann muss ich mir eben meinen Anteil holen.","Si vous le dites. Je dois juste récupérer ma part.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:416","Ziemlich brenzlige Gegend hier. Geh du vor. Ich halte mich im Hintergrund.","On est dans un endroit dangereux. Passez devant. Je surveille nos arrières.","","","DIA_Biff_ICHBLEIBHIER_07_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_713_Biff.d:460","(Biff wieder mitnehmen)","(Reprendre Biff avec vous)","","","DIA_Biff_Stay_AwayFromOC.description","",""
