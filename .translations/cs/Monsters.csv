@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/NPC/Monster/MST_Addon_Alligator.d:8","Alligator","Alligator","","","Mst_Default_Addon_Alligator.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_Alligator.d:8","Alligator","Aligátor","","False","Mst_Default_Addon_Alligator.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Blattcrawler.d:8","Fangheuschrecke","Kudlanka","","","Mst_Default_Blattcrawler.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Bloodhound.d:8","Bluthund","Krvelačný pes","","","Mst_Default_Bloodhound.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Giant_DesertRat.d:8","Wüstenratte","Pouštní krysa","","","Mst_Default_Giant_DesertRat.name","",""
@@ -90,5 +90,5 @@
 "Scripts/Content/Story/NPC/Monster/MST_Wolf.d:258","Junger Wolf","Mladý vlk","","","PEPES_YWolf3.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Wolf.d:292","Junger Wolf","Mladý vlk","","","PEPES_YWolf4.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Zombie.d:8","Zombie","Zombie","","","Mst_Default_Zombie.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Zombie.d:200","Raven's Knecht","Havranův přisluhovač","","","Zombie_Addon_Knecht.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Zombie.d:200","Raven's Knecht","Ravenův přisluhovač","","False","Zombie_Addon_Knecht.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Zombie.d:225","Erweckter Bloodwyn","Probuzený Bloodwyn","","","Zombie_Addon_Bloodwyn.name","",""
