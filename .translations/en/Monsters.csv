@@ -7,7 +7,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Addon_IceWolf.d:8","Eiswolf","Ice Wolf","","","Mst_Default_Icewolf.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Keiler.d:8","Keiler","Boar","","","Mst_Default_Keiler.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Mud.d:9","Mud","Mud","","","Mst_Default_Mud.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Addon_OrcBiter.d:8","Beisser","Chomper","","","Mst_Default_OrcBiter.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_OrcBiter.d:8","Beisser","Biter","","False","Mst_Default_OrcBiter.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Razor.d:8","Razor","Razor","","","Mst_Default_Razor.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Shadowbeast_Fire.d:9","Feuerteufel","Fire Devil","","","Mst_Default_Shadowbeast_Addon_Fire.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_StoneGuardian.d:8","Steinwächter","Stone Sentinel","","","Mst_Addon_Stoneguardian.name","",""
