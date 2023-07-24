@@ -928,7 +928,7 @@ func void DIA_Bosper_SellFur_Info()
 				AI_Output(self, other, "DIA_Bosper_SellFur_11_06"); //Was zur Hölle ist DAS für ein Fell?
 				AI_Output(other, self, "DIA_Bosper_SellFur_15_07"); //Das hab ich einem Troll über die Ohren gezogen.
 				AI_Output(self, other, "DIA_Bosper_SellFur_11_08"); //Das ... das ist ein halbes Vermögen wert ...
-				Bosper_TrollFurSold == TRUE;
+				Bosper_TrollFurSold = TRUE;
 			}
 			else // TRUE
 			{

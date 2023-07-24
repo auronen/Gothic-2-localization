@@ -162,7 +162,7 @@ func void DIA_Bullco_DailyCheck_Info()
 	};
 
 	Bullco_HitCounter = Bullco_HitCounter + 1;
-	Bullco_Leave_Day == B_GetDayPlus();
+	Bullco_Leave_Day = B_GetDayPlus();
 
 	AI_StopProcessInfos(self);
 	B_Attack(self, other, AR_NONE, 1);

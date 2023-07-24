@@ -257,7 +257,7 @@ func int DIA_Dar_Kameradenschwein_Condition()
 {
 	if (Dar_LostAgainstCipher == TRUE)
 	{
-		self.aivar[AIV_LastFightComment] == FALSE; // geht NUR bei ECHTER Important-Info!
+		self.aivar[AIV_LastFightComment] = FALSE; // geht NUR bei ECHTER Important-Info!
 		return TRUE;
 	};
 };

@@ -51,8 +51,8 @@ instance PC_L10(NPC_DEFAULT) // Mitte 2. Kapitel (Anfang der OW)
 
 	voice							= 15;
 	id								= 0;
-	exp								= (500 * ((slf.level + 1) / 2) * (slf.level + 1));
-	exp_next						= (500 * ((slf.level + 2) / 2) * (slf.level + 1));
+	exp								= (500 * ((level + 1) / 2) * (level + 1));
+	exp_next						= (500 * ((level + 2) / 2) * (level + 1));
 	lp								= 0;
 
 	// -------- attributes --------
@@ -97,8 +97,8 @@ instance PC_L20(NPC_DEFAULT) // Anfang 2. Kapitel - Ende der ADW
 
 	voice							= 15;
 	id								= 0;
-	exp								= (500 * ((slf.level + 1) / 2) * (slf.level + 1));
-	exp_next						= (500 * ((slf.level + 2) / 2) * (slf.level + 1));
+	exp								= (500 * ((level + 1) / 2) * (level + 1));
+	exp_next						= (500 * ((level + 2) / 2) * (level + 1));
 	lp								= 40; // für Lockpick, SteintafelIII
 
 	// -------- attributes --------
@@ -147,8 +147,8 @@ instance PC_L40(NPC_DEFAULT) // Anfang 4. Kapitel (Drachenjagd)
 
 	voice							= 15;
 	id								= 0;
-	exp								= (500 * ((slf.level + 1) / 2) * (slf.level + 1));
-	exp_next						= (500 * ((slf.level + 2) / 2) * (slf.level + 1));
+	exp								= (500 * ((level + 1) / 2) * (level + 1));
+	exp_next						= (500 * ((level + 2) / 2) * (level + 1));
 	lp								= 60; // für Lockpick, SteintafelIII, PermSTR
 
 	// -------- attributes --------
@@ -204,8 +204,8 @@ instance PC_L60(NPC_DEFAULT) // Anfang 6. Kapitel (Dracheninsel)
 
 	voice							= 15;
 	id								= 0;
-	exp								= (500 * ((slf.level + 1) / 2) * (slf.level + 1));
-	exp_next						= (500 * ((slf.level + 2) / 2) * (slf.level + 1));
+	exp								= (500 * ((level + 1) / 2) * (level + 1));
+	exp_next						= (500 * ((level + 2) / 2) * (level + 1));
 	lp								= 60; // 60; für Lockpick, SteintafelIII, PermSTR
 
 	// -------- attributes --------
