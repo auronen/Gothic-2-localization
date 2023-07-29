@@ -1586,7 +1586,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:508","Ihr Paladine werdet doch hoffentlich mit ihnen fertig, oder?","你 们 圣 骑 士 会 解 决 他 们 ， 对 吗 ？","","False","DIA_Vino_PERM45UND6_05_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:512","Wir werden bald diesen Hof aufgeben und zu euch Söldnern auf Onars Hof ziehen, fürchte ich.","恐 怕 用 不 了 多 久 ， 我 们 就 必 须 放 弃 农 场 ， 并 去 欧 纳 尔 的 农 场 加 入 你 们 这 些 雇 佣 兵 。","","False","DIA_Vino_PERM45UND6_05_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:518","Dummerweise hat die Miliz meine Schnapsbrennerei entdeckt. Hoffentlich erwischen sie mich nicht.","不 幸 的 是 ， 民 兵 发 现 了 我 的 蒸 馏 器 。 我 只 能 希 望 他 们 不 会 抓 到 我。","","False","DIA_Vino_PERM45UND6_05_04","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","我 必 须 走 了 ！","","False","DIA_Maleth_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","我 必 须 走 了 ！( 结 束 )","","False","DIA_Maleth_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:55","Hey, Fremder!","嘿 ， 陌 生 人 ！","","False","DIA_Maleth_Hallo_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:61","Ich hab gesehen, wie du aus den Bergen gekommen bist.","我 看 到 了 你 是 如 何 从 山 区 走 出 来 的 。","","False","DIA_Maleth_Hallo_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:64","Du kannst froh sein, hier nicht vor drei Wochen vorbeigekommen zu sein.","你 应 该 庆 幸 不 是 在 三 周 前 经 过 这 里 。","","False","DIA_Maleth_Hallo_08_02","",""
