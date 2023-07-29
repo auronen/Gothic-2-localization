@@ -1586,7 +1586,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:508","Ihr Paladine werdet doch hoffentlich mit ihnen fertig, oder?","Voi paladini li ucciderete, non è così?","","","DIA_Vino_PERM45UND6_05_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:512","Wir werden bald diesen Hof aufgeben und zu euch Söldnern auf Onars Hof ziehen, fürchte ich.","Temo che presto dovremo cedere la fattoria e unirci a voi mercenari alla fattoria di Onar.","","","DIA_Vino_PERM45UND6_05_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:518","Dummerweise hat die Miliz meine Schnapsbrennerei entdeckt. Hoffentlich erwischen sie mich nicht.","Purtroppo la guardia cittadina ha trovato la mia distilleria. Spero solo che non risalgano a me.","","","DIA_Vino_PERM45UND6_05_04","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","Devo andare!","","","DIA_Maleth_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","Devo andare! (FINE)","","False","DIA_Maleth_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:55","Hey, Fremder!","Ehi, straniero!","","","DIA_Maleth_Hallo_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:61","Ich hab gesehen, wie du aus den Bergen gekommen bist.","Ho visto come sei venuto fuori dalle montagne.","","","DIA_Maleth_Hallo_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:64","Du kannst froh sein, hier nicht vor drei Wochen vorbeigekommen zu sein.","Dovresti essere felice di non essere arrivato qui tre settimane fa.","","","DIA_Maleth_Hallo_08_02","",""
