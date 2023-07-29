@@ -674,7 +674,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:375","So früh schon unterwegs? Für gewöhnlich bin ich um diese Zeit immer alleine. Aber da du schon mal hier bist, kannst du direkt was lernen.","这 么 早 就 出 来 走 动 ？ 这 个 时 候 我 通 常 都 是 一 个 人 呆 着 。 不 过 既 然 你 已 经 来 了 ， 你 可 能 想 习 一 些 东 西 。","","False","DIA_Wulfgar_Bonus_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:376","Also pass auf. Manche Gegner kannst du austricksen, wenn du ihren Schlägen ausweichst und im richtigen Moment attackierst.","那 么 注 意 了 。 如 果 你 躲 开 他 们 的 攻 击 并 抓 住 正 确 的 时 机 进 攻 的 话 ， 你 可 以 骗 过 你 的 对 手 。","","False","DIA_Wulfgar_Bonus_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:377","Merk dir das für deinen nächsten Kampf!","在 你 的 下 一 次 战 斗 中 要 记 住 那 一 点 ！","","False","DIA_Wulfgar_Bonus_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","我 刚 要 走 。","","False","DIA_Boltan_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","我 刚 要 走 。( 结 束 )","","False","DIA_Boltan_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:44","Was willst du hier?","你 来 这 里 想 要 做 什 么 ？","","False","DIA_Boltan_Add_05_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:57","Ich will zu den Gefangenen...","我 想 见 囚 犯 。","","False","DIA_Boltan_ToConvicts.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:67","Ich will zu den Gefangenen...","我 想 见 囚 犯 。","","False","DIA_Boltan_Add_15_01","",""
