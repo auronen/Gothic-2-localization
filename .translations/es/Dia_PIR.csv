@@ -1539,7 +1539,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:301","Das hab ich mir schon gedacht. Armes Schwein. Ich hätte ihm doch helfen sollen.","Eso me temía. Pobre diablo. Le debería haber ayudado.","","","DIA_Addon_Owen_MalcomDead_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:304","Du bist echt mutig, weißt du das?","Eres muy valiente, ¿sabes?","","","DIA_Addon_Owen_MalcomDead_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:305","Ich hätte das mit dem Felsspalte nicht fertig gebracht.","Yo no hubiera sido capaz de bajar.","","","DIA_Addon_Owen_MalcomDead_13_03","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:11","Ich muss weiter.","Me tengo que ir.","","","DIA_Addon_Malcom_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:11","Ich muss weiter.","Me tengo que ir. (FIN)","","False","DIA_Addon_Malcom_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:21","Ich muss weiter.","Debo continuar.","","","DIA_Addon_Malcom_perm_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:25","Lass dich nicht von den Biestern fressen. Die Gegend hier ist sehr gefährlich.","No dejes que esas bestias te den caza. Es un lugar muy peligroso.","","","DIA_Addon_Malcom_perm_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:29","Hey! Wenn du zu unserem Lager gehst kannst du Henry von mir was ausrichten.","¡Eh! Cuando llegues a nuestro campamento, dale un mensaje a Henry.","","","DIA_Addon_Malcom_Add_04_03","",""
