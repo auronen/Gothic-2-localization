@@ -674,7 +674,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:375","So früh schon unterwegs? Für gewöhnlich bin ich um diese Zeit immer alleine. Aber da du schon mal hier bist, kannst du direkt was lernen.","¡Qué temprano vienes! A estas horas suelo estar solo, pero ya que estás aquí, si quieres te enseño algo.","","","DIA_Wulfgar_Bonus_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:376","Also pass auf. Manche Gegner kannst du austricksen, wenn du ihren Schlägen ausweichst und im richtigen Moment attackierst.","Préstame atención. A los rivales les puedes engañar si esquivas los golpes y atacas en el momento adecuado.","","","DIA_Wulfgar_Bonus_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:377","Merk dir das für deinen nächsten Kampf!","¡Acuérdate en tu próxima pelea!","","","DIA_Wulfgar_Bonus_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","Solo paseaba.","","","DIA_Boltan_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","Solo paseaba. (FIN)","","False","DIA_Boltan_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:44","Was willst du hier?","¿Qué quieres?","","","DIA_Boltan_Add_05_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:57","Ich will zu den Gefangenen...","Quiero ver a los presos.","","","DIA_Boltan_ToConvicts.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:67","Ich will zu den Gefangenen...","Quiero ver a los presos.","","","DIA_Boltan_Add_15_01","",""
