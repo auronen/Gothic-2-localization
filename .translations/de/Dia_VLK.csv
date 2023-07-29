@@ -601,7 +601,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_407_Hakon.d:538","Da bist du ja wieder!","Da bist du ja wieder!","","","DIA_Hakon_Add_12_22","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_407_Hakon.d:539","Harad hat endlich den verdammten Auftrag für die Paladine erledigt.","Harad hat endlich den verdammten Auftrag für die Paladine erledigt.","","","DIA_Hakon_Add_12_23","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_407_Hakon.d:540","Das heißt, ich habe jetzt neue Waffen im Angebot. Hast du Interesse?","Das heißt, ich habe jetzt neue Waffen im Angebot. Hast du Interesse?","","","DIA_Hakon_Add_12_24","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_408_Jora.d:11","Ich muß weiter!","Ich muß weiter!","","","DIA_Jora_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_408_Jora.d:11","Ich muß weiter!","Ich muß weiter! (ENDE)","","False","DIA_Jora_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_408_Jora.d:24","Hey! Was ist mit meinem Gold?","Hey! Was ist mit meinem Gold?","","","DIA_Jora_EXIT_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_408_Jora.d:54","Du bist ein Sträfling aus der Minenkolonie. Dir werde ich nichts verkaufen!","Du bist ein Sträfling aus der Minenkolonie. Dir werde ich nichts verkaufen!","","","DIA_Jora_Sperre_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_408_Jora.d:69","Zeig mir deine Ware","Zeig mir deine Ware","","","DIA_Jora_WAREZ.description","",""
