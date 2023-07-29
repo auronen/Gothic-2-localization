@@ -1586,7 +1586,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:508","Ihr Paladine werdet doch hoffentlich mit ihnen fertig, oder?","Ihr Paladine werdet doch hoffentlich mit ihnen fertig, oder?","","","DIA_Vino_PERM45UND6_05_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:512","Wir werden bald diesen Hof aufgeben und zu euch Söldnern auf Onars Hof ziehen, fürchte ich.","Wir werden bald diesen Hof aufgeben und zu euch Söldnern auf Onars Hof ziehen, fürchte ich.","","","DIA_Vino_PERM45UND6_05_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:518","Dummerweise hat die Miliz meine Schnapsbrennerei entdeckt. Hoffentlich erwischen sie mich nicht.","Dummerweise hat die Miliz meine Schnapsbrennerei entdeckt. Hoffentlich erwischen sie mich nicht.","","","DIA_Vino_PERM45UND6_05_04","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","Ich muss weiter!","","","DIA_Maleth_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","Ich muss weiter! (ENDE)","","False","DIA_Maleth_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:55","Hey, Fremder!","Hey, Fremder!","","","DIA_Maleth_Hallo_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:61","Ich hab gesehen, wie du aus den Bergen gekommen bist.","Ich hab gesehen, wie du aus den Bergen gekommen bist.","","","DIA_Maleth_Hallo_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:64","Du kannst froh sein, hier nicht vor drei Wochen vorbeigekommen zu sein.","Du kannst froh sein, hier nicht vor drei Wochen vorbeigekommen zu sein.","","","DIA_Maleth_Hallo_08_02","",""
