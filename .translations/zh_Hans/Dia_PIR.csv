@@ -1539,7 +1539,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:301","Das hab ich mir schon gedacht. Armes Schwein. Ich hätte ihm doch helfen sollen.","我 就 料 到 了 。 卑 鄙 的 野 兽 。 我 真 应 该 不 顾 一 切 去 帮 他 。","","False","DIA_Addon_Owen_MalcomDead_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:304","Du bist echt mutig, weißt du das?","你 真 的 很 勇 敢 ， 你 知 道 吗 ？","","False","DIA_Addon_Owen_MalcomDead_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:305","Ich hätte das mit dem Felsspalte nicht fertig gebracht.","我 不 敢 进 那 道 裂 缝 。","","False","DIA_Addon_Owen_MalcomDead_13_03","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:11","Ich muss weiter.","我 需 要 继 续 前 进 。","","False","DIA_Addon_Malcom_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:11","Ich muss weiter.","我 需 要 继 续 前 进 。( 结 束 )","","False","DIA_Addon_Malcom_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:21","Ich muss weiter.","我 需 要 继 续 前 进 。","","False","DIA_Addon_Malcom_perm_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:25","Lass dich nicht von den Biestern fressen. Die Gegend hier ist sehr gefährlich.","别 让 那 些 野 兽 把 你 吃 掉 了 。 这 是 个 非 常 危 险 的 地 方 。","","False","DIA_Addon_Malcom_perm_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:29","Hey! Wenn du zu unserem Lager gehst kannst du Henry von mir was ausrichten.","嘿 ！ 当 你 到 我 们 的 营 地 的 时 候 ， 给 亨 利 传 达 一 个 我 们 的 消 息 。","","False","DIA_Addon_Malcom_Add_04_03","",""
