@@ -4671,7 +4671,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_462_Thorben.d:811","Hier hast du dein Gold.","Hier hast du dein Gold.","","","DIA_Thorben_GrittaHatteGold_HereItIs_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_462_Thorben.d:813","Danke! Damit habe ich zumindest schon mal einen Teil von dem, was ich Lehmar schulde!","Danke! Damit habe ich zumindest schon mal einen Teil von dem, was ich Lehmar schulde!","","","DIA_Thorben_GrittaHatteGold_HereItIs_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_462_Thorben.d:814","Nicht zu fassen, dass sie sich an meinem Gold vergriffen hat!","Nicht zu fassen, dass sie sich an meinem Gold vergriffen hat!","","","DIA_Thorben_GrittaHatteGold_HereItIs_06_02","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_468_Canthar.d:47","Ich muß weiter!","Ich muß weiter!","","","DIA_Canthar_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_468_Canthar.d:47","Ich muß weiter!","Ich muß weiter! (ENDE)","","False","DIA_Canthar_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_468_Canthar.d:57","Ich muss weiter!","Ich muss weiter!","","","DIA_Canthar_EXIT_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_468_Canthar.d:58","Von mir aus.","Von mir aus.","","","DIA_Canthar_EXIT_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_468_Canthar.d:90","Es war sehr dumm von dir, mich anzugreifen!","Es war sehr dumm von dir, mich anzugreifen!","","","DIA_Canthar_PersonalCRIMES_09_00","",""
