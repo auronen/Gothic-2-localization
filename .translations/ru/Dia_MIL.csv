@@ -674,7 +674,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:375","So früh schon unterwegs? Für gewöhnlich bin ich um diese Zeit immer alleine. Aber da du schon mal hier bist, kannst du direkt was lernen.","Ранняя пташка? Я обычно один в это время дня. Но раз уж ты здесь, то можно потренироваться.","","","DIA_Wulfgar_Bonus_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:376","Also pass auf. Manche Gegner kannst du austricksen, wenn du ihren Schlägen ausweichst und im richtigen Moment attackierst.","Будь внимательным. Ты можешь обмануть некоторых противников, если уклонишься от удара, а затем атакуешь в правильный момент.","","","DIA_Wulfgar_Bonus_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:377","Merk dir das für deinen nächsten Kampf!","Помни об этом в своем следующем бою!","","","DIA_Wulfgar_Bonus_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","Мне нужно идти.","","","DIA_Boltan_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","Мне нужно идти. (КОНЕЦ)","","False","DIA_Boltan_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:44","Was willst du hier?","Что тебе нужно?","","","DIA_Boltan_Add_05_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:57","Ich will zu den Gefangenen...","Я хочу увидеть заключенных.","","","DIA_Boltan_ToConvicts.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:67","Ich will zu den Gefangenen...","Я хочу увидеть заключенных.","","","DIA_Boltan_Add_15_01","",""
