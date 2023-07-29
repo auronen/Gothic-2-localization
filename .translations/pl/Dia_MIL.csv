@@ -674,7 +674,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:375","So früh schon unterwegs? Für gewöhnlich bin ich um diese Zeit immer alleine. Aber da du schon mal hier bist, kannst du direkt was lernen.","Tak wcześnie na nogach. Z reguły o tej porze nikt mnie nie odwiedza. No, ale skoro już tu jesteś, to może warto cię czegoś nauczyć.","","","DIA_Wulfgar_Bonus_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:376","Also pass auf. Manche Gegner kannst du austricksen, wenn du ihren Schlägen ausweichst und im richtigen Moment attackierst.","Słuchaj więc uważnie. Możesz wyprowadzić swych przeciwników w pole, unikając ich ciosów i atakując w odpowiednim momencie.","","","DIA_Wulfgar_Bonus_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_312_Wulfgar.d:377","Merk dir das für deinen nächsten Kampf!","Pamiętaj o tym podczas kolejnej walki.","","","DIA_Wulfgar_Bonus_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","Właśnie wychodziłem.","","","DIA_Boltan_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:11","Ich wollte gerade wieder gehen.","Właśnie wychodziłem. (KONIEC)","","False","DIA_Boltan_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:44","Was willst du hier?","Czego?","","","DIA_Boltan_Add_05_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:57","Ich will zu den Gefangenen...","Chcę zobaczyć więźniów.","","","DIA_Boltan_ToConvicts.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:67","Ich will zu den Gefangenen...","Chcę zobaczyć więźniów.","","","DIA_Boltan_Add_15_01","",""
