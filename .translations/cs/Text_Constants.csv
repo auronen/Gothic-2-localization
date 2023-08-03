@@ -837,7 +837,7 @@
 "Scripts/Content/Story/Text.d:1205"," Rohes Fleisch gegeben"," Předat syrové maso","","","PRINT_GIVE_RAW_MEAT","",""
 "Scripts/Content/Story/Text.d:1206"," Gebratenes Fleisch gegeben"," Předat pečené maso","","","PRINT_GIVE_COOKED_MEAT","",""
 "Scripts/Content/Story/Text.d:1207"," Schinken gegeben"," Předat šunku","","","PRINT_GIVE_HAM","",""
-"Scripts/Content/Story/Text.d:1208"," mal Wurst gegeben"," Předat klobáss","","","PRINT_GIVE_SAUSAGE","",""
+"Scripts/Content/Story/Text.d:1208"," mal Wurst gegeben"," klobás předáno","","False","PRINT_GIVE_SAUSAGE","",""
 "Scripts/Content/Story/Text.d:1209","Insgesamt Fleisch gegeben: ","Celkem předáno masa: ","","","PRINT_GIVE_TOTAL_MEAT","",""
 "Scripts/Content/Story/Text.d:1211","Honig gegeben","Med předán","","False","PRINT_GIVE_HONEY","",""
 "Scripts/Content/Story/Text.d:1212","Brot gegeben","Chléb předán","","False","PRINT_GIVE_BREAD","",""
