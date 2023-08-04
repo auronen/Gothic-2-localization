@@ -785,7 +785,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:425","Wegen Angus und Hank...","Sobre Angus y Hank…","","","DIA_Addon_Morgan_FOUNDTHEM.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:439","Wegen Angus und Hank ...","Sobre Angus y Hank","","","DIA_Addon_Morgan_FOUNDTHEM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:443","Hör bloß auf mit DER Sache.","No me LOS recuerdes.","","","DIA_Addon_Morgan_FOUNDTHEM_07_01","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:444","Die beiden haben sich wahrscheinlich von Banditen umbringen lassen.","Probablemente los hayan matado los piratas.","","True","DIA_Addon_Morgan_FOUNDTHEM_07_02","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:444","Die beiden haben sich wahrscheinlich von Banditen umbringen lassen.","Probablemente los hayan matado los bandidos.","","False","DIA_Addon_Morgan_FOUNDTHEM_07_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:445","Und Angus hatte meinen Ring dabei.","Y Angus llevaba mi anillo.","","","DIA_Addon_Morgan_FOUNDTHEM_07_03","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:446","Na gut, eigentlich war es SEIN Ring. Er hat ihn beim Würfeln gewonnen.","Cierto es que era SU anillo, en parte. Me lo ganó jugando a los dados.","","","DIA_Addon_Morgan_FOUNDTHEM_07_04","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1352_Morgan.d:447","Aber ich hätte ihn mir wieder zurückgeholt und jetzt ist er WEG!","¡Pero lo hubiera recuperado y ahora lo HE PERDIDO!","","","DIA_Addon_Morgan_FOUNDTHEM_07_05","",""
