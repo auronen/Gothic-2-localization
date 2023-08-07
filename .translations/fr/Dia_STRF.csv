@@ -110,7 +110,7 @@
 "Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:71","Wer hat ausgerechnet dich zum Koch gemacht?","Qui vous a nommé cuisinier ?","","","DIA_STRF_1107_COOK_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:72","Das war Kommandant Garond, denn vor meiner Zeit als Gefangener war ich Koch im Wütenden Eber.","Le commandant Garond. Avant d'être prisonnier ici, j'étais le cuistot du Sanglier Enragé.","","","DIA_STRF_1107_COOK_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:73","Und warum haben sie dich eingebuchtet?","Et pourquoi vous a-t-on enfermé ?","","","DIA_STRF_1107_COOK_15_02","",""
-"Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:74","Es gab da ein Missverständnis zwischen einem Gast, einem Hackebeil und mir.","A cause d'une méprise entre un client, un hachoir à viande et moi.","","","DIA_STRF_1107_COOK_01_03","",""
+"Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:74","Es gab da ein Missverständnis zwischen einem Gast, einem Hackebeil und mir.","A cause d'une méprise entre un client, un couperet à viande et moi.","","False","DIA_STRF_1107_COOK_01_03","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:87","Gibt's was Neues? ","Quelque chose de nouveau ?","","","DIA_STRF_1107_PERM.description","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:100","Gibt's was Neues?","Du nouveau ?","","","DIA_STRF_1107_PERM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1107_Straefling.d:101","Wenn du Neuigkeiten erfahren willst, dann frag die Ritter. Ich bin nur ein gefangener Koch.","Si vous vous intéressez à ce qui se passe, allez voir les chevaliers. Moi, je ne suis qu'un cuistot. Et prisonnier en plus.","","","DIA_STRF_1107_PERM_01_01","",""
