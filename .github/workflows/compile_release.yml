@@ -1,0 +1,32 @@
+name: "compile"
+
+# Run only manually for now
+on:
+  workflow_dispatch
+
+jobs:
+  pre-release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      # ..
+      - name: "Checkout repo"
+        uses: actions/checkout@v3
+      - name: "Substituting Gothic 2 NotR Localizations..."
+        run: |
+          .scripts/release.sh
+      - name: Generate release tag
+        id: generate_release_tag
+        uses: amitsingh-007/next-release-tag@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tag_prefix: ''
+          tag_template: 'dd.mm.yyyy.i'
+      - name: "Release"
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "release/release/*.zip"
+          bodyFile: ".scripts/body.md"
+          tag: ${{ steps.generate_release_tag.outputs.next_release_tag }}
+          name: Release ${{ steps.generate_release_tag.outputs.next_release_tag }}
