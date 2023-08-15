@@ -79,5 +79,3 @@ done
 cd release/release
 
 zip -r "Gothic_2_NotR_Localized.zip" Data System
-
-ls -la
