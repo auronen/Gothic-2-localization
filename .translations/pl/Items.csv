@@ -534,7 +534,7 @@
 "Scripts/Content/Items/IT_Melee_Weapons.d:411","Degen","Szpada","","False","ItMw_1h_Vlk_Sword.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:432","","","","","ItMw_1h_Vlk_Sword.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:433","","","","","ItMw_1h_Vlk_Sword.text[1]","",""
-"Scripts/Content/Items/IT_Melee_Weapons.d:443","Kampfstab","Pika bojowa","","","ItMw_1h_Nov_Mace.name","",""
+"Scripts/Content/Items/IT_Melee_Weapons.d:443","Kampfstab","Kostur bojowy","","False","ItMw_1h_Nov_Mace.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:461","","","","","ItMw_1h_Nov_Mace.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:462","","","","","ItMw_1h_Nov_Mace.text[1]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:472","Holzfälleraxt","Topór drwala","","False","ItMw_2h_Bau_Axe.name","",""
