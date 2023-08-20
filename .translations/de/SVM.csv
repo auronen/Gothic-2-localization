@@ -940,7 +940,7 @@
 "Scripts/Content/Story/SVM.d:1468","Stirb, Mörder!","Stirb, Mörder!","","","SVM_7_KillMurderer","",""
 "Scripts/Content/Story/SVM.d:1469","So ein saublödes Vieh!","So ein saublödes Vieh!","","","SVM_7_StupidBeastKilled","",""
 "Scripts/Content/Story/SVM.d:1470","Versuch das nicht noch mal, Bürschchen!","Versuch das nicht noch mal, Bürschchen!","","","SVM_7_NeverHitMeAgain","",""
-"Scripts/Content/Story/SVM.d:1471","Lass dir das eine Lehre sein,","Lass dir das eine Lehre sein,","","","SVM_7_YouBetterShouldHaveListened","",""
+"Scripts/Content/Story/SVM.d:1471","Lass dir das eine Lehre sein,","Lass dir das eine Lehre sein.","","False","SVM_7_YouBetterShouldHaveListened","",""
 "Scripts/Content/Story/SVM.d:1472","Steh auf und mach, dass du hier rauskommst!","Steh auf und mach, dass du hier rauskommst!","","","SVM_7_GetUpAndBeGone","",""
 "Scripts/Content/Story/SVM.d:1473","Ich will dich nie wieder da drinnen sehen, klar?","Ich will dich nie wieder da drinnen sehen, klar?","","","SVM_7_NeverEnterRoomAgain","",""
 "Scripts/Content/Story/SVM.d:1474","Wenn hier einer Schläge verteilt, dann bin ich das, kapiert?","Wenn hier einer Schläge verteilt, dann bin ich das, kapiert?","","","SVM_7_ThereIsNoFightingHere","",""
