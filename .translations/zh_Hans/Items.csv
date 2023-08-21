@@ -886,7 +886,7 @@
 "Scripts/Content/Items/IT_Misc.d:641","","","","","ItMi_Nugget.text[2]","",""
 "Scripts/Content/Items/IT_Misc.d:642","","","","","ItMi_Nugget.text[3]","",""
 "Scripts/Content/Items/IT_Misc.d:643","","","","","ItMi_Nugget.text[4]","",""
-"Scripts/Content/Items/IT_Misc.d:651","Gold","金 子","","False","ItMi_Gold.name","",""
+"Scripts/Content/Items/IT_Misc.d:651","Gold","金 币","","False","ItMi_Gold.name","",""
 "Scripts/Content/Items/IT_Misc.d:662","","","","","ItMi_Gold.text[0]","",""
 "Scripts/Content/Items/IT_Misc.d:663","","","","","ItMi_Gold.text[1]","",""
 "Scripts/Content/Items/IT_Misc.d:664","","","","","ItMi_Gold.text[2]","",""
