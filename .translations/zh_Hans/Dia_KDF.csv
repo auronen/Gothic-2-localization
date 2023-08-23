@@ -1079,7 +1079,6 @@
 "Scripts/Content/Story/Dialoge/DIA_KDF_506_Neoras.d:844","Mmh. Sehr interessant. Ich muss unbedingt meine Forschungen daran fortsetzen.","嗯 。 非 常 有 趣 。 我 绝 对 要 继 续 我 的 研 究 。","","False","DIA_Neoras_USEDDRAGONEGGDRINK_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_506_Neoras.d:845","Kannst du mir noch mehr davon machen?","你 还 能 再 帮 我 做 一 些 吗 ？","","False","DIA_Neoras_USEDDRAGONEGGDRINK_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_506_Neoras.d:846","Besser ist, wir beide versuchen das Ganze in ein paar Wochen noch mal. Sonst wachsen dir möglicherweise noch Hörner.","最 好 我 们 把 这 个 东 西 再 测 试 几 周 。 否 则 的 话 ， 你 可 能 会 长 出 角 来 。","","False","DIA_Neoras_USEDDRAGONEGGDRINK_01_03","",""
-"Scripts/Content/Story/Dialoge/DIA_KDF_507_Talamon.d:32","NW_MONASTERY_SEALROOM_01","NW_MONASTERY_SEALROOM_01","","False","KDF_507_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_507_Talamon.d:57","Es ist dir nicht gestattet, weiter zu gehen. Kehr um!","你 不 能 再 往 前 走 了 。 回 去 ！","","False","DIA_KDF_507_Talamon_FirstWarn_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_507_Talamon.d:93","Innos wird seinen Zorn auf dich richten, wenn du nicht umkehrst!","如 果 你 不 回 去 的 话 ， 英 诺 斯 会 将 他 的 愤 怒 发 泄 到 你 身 上 ！","","False","DIA_KDF_507_Talamon_SecondWarn_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_507_Talamon.d:260","Es ist dir nicht gestattet, weiter zu gehen. Kehr um!","你 不 能 再 往 前 走 了 。 回 去 ！","","False","DIA_Talamon_KAP5_Stop_04_00","",""
