@@ -120,7 +120,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1625","Stärke steigern","Stärke steigern","","","DIA_CH_Strength.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1714","Geschicklichkeit steigern","Geschicklichkeit steigern","","","DIA_CH_Dex.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1810","MAGIE: Mana, Runen, Kreise","MAGIE: Mana, Runen, Kreise","","","DIA_CH_MAGIE.description","",""
-"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1841","ZURÜCK","ZURÜCK","","","DIA_CH_MAGIE_Stopper.description","",""
+"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1841","ZURÜCK","BACK","","False","DIA_CH_MAGIE_Stopper.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1867","Mana steigern","Mana steigern","","","DIA_CH_Mana.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1959","Die magischen Kreise","Die magischen Kreise","","","DIA_CH_KREISE.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:1977","Sechster Kreis","Sechster Kreis","","","DIA_CH_KREISE.CH_KREISE_6","Info_AddChoice",""
