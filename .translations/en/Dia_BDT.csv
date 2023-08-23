@@ -248,7 +248,6 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:21","Wir sprechen uns noch.","We'll talk again.","","","DIA_Addon_BDT_10018_Torwache_EXIT_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:25","Du kannst dir denken, was ich dir dann sagen werde ...","You already know what I'll tell you then...","","","DIA_Addon_BDT_10018_Torwache_EXIT_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:30","Verschwinde.","Beat it.","","","DIA_Addon_BDT_10018_Torwache_EXIT_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:41","BL_RAVEN_CHECK","BL_RAVEN_CHECK","","","BDT_10018_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:74","Hey, langsam! Du kommst nicht rein - also verschwinde!","Hey, slow down! You aren't getting in there - so beat it!","","","DIA_Addon_BDT_10018_Torwache_FirstWarn_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:75","Geh aus dem Weg - ich muss zu Raven.","Get out of my way - I have to see Raven.","","","DIA_Addon_BDT_10018_Torwache_FirstWarn_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:76","Niemand betritt diese Gemächer. Klare Anordnung von Raven persönlich.","No one enters these quarters. Direct orders from Raven himself.","","","DIA_Addon_BDT_10018_Torwache_FirstWarn_04_02","",""
