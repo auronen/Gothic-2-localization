@@ -11,7 +11,7 @@
 "Scripts/System/Menu/Menu_Log.d:109","Act Missions","Aktivní úkoly","","","MENU_ITEM_LIST_MISSIONS_ACT.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:129","Old Missions","Staré úkoly","","","MENU_ITEM_LIST_MISSIONS_FAILED.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:149","Old Missions","Staré úkoly","","","MENU_ITEM_LIST_MISSIONS_OLD.text[0]","",""
-"Scripts/System/Menu/Menu_Log.d:169","Log","Záznam","","","MENU_ITEM_LIST_LOG.text[0]","",""
+"Scripts/System/Menu/Menu_Log.d:169","Log","Deník","","False","MENU_ITEM_LIST_LOG.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:192","no content","žádný obsah","","","MENU_ITEM_CONTENT_VIEWER.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:211","Tag","Den:","","","MENU_ITEM_DAY_TITLE.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:220","Zeit:","Čas:","","","MENU_ITEM_TIME_TITLE.text[0]","",""
