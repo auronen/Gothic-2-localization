@@ -630,7 +630,6 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_212_Schiffswache.d:75","Auf das Schiff kommst du nicht. Das ist alles, was du wissen musst.","你 们 不 能 上 这 艘 船 的 。 这 就 是 你 们 要 知 道 的 。","","False","DIA_Pal_212_Schiffswache_WASMACHSTDU2_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_212_Schiffswache.d:79","Wir sind hier zur Wache eingeteilt. Kein Unbefugter darf das Schiff betreten. Auch du nicht, tut mir Leid.","我 们 是 这 里 的 守 卫 。 任 何 外 来 者 都 不 能 进 入 这 艘 船 。 你 们 也 不 例 外 ， 对 不 起 。","","False","DIA_Pal_212_Schiffswache_WASMACHSTDU2_08_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_212_Schiffswache.d:84","Hier meine Zeit verplempern. Ich wäre viel lieber bei unseren Brüdern im Minental.","浪 费 我 的 时 间 。 我 宁 愿 跟 我 的 兄 弟 们 呆 在 矿 藏 山 谷 。","","False","DIA_Pal_212_Schiffswache_WASMACHSTDU2_08_03","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:29","SHIP_DECK_09","SHIP_DECK_09","","False","Pal_213_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:54","Moment! Wo willst du hin?","等 一 下 ！ 你 觉 得 你 正 在 往 哪 里 去 ？","","False","DIA_Pal_213_Schiffswache_FirstWarn_01_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:55","Ich wollte ...","我 想 … …","","False","DIA_Pal_213_Schiffswache_FirstWarn_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:59","Tut mir Leid. Du kannst hier nicht vorbei.","对 不 起 。 你 不 能 从 这 里 通 过 。","","False","DIA_Pal_213_Schiffswache_FirstWarn_01_02","",""
