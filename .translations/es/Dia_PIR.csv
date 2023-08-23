@@ -562,7 +562,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:424","(lässig) Gib mir 'nen Doppelten. 'nen doppelten Hammer.","(con indiferencia) Dame un doble. Un martillo doble.","","","DIA_Addon_Samuel_Stronger_LousDoubleHammer_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:429","Mach dich nicht unglücklich Kleiner. Ich hoffe, der ist nicht für dich.","No hagas nada que puedas lamentar, chico. Espero que no lo pidas para ti.","","","DIA_Addon_Samuel_Stronger_LousDoubleHammer_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:433","(wild) Ja! Das weckt die müden Lebensgeister!","(entusiasmado) ¡Sí! ¡Es lo mejor para reponer fuerzas!","","","DIa_Addon_Samuel_Stronger_LousDoubleHammer_14_02","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:469","Was hast du sonst noch?","What else have you got?","","","DIA_Addon_Samuel_Trade.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:469","Was hast du sonst noch?","¿Qué más tienes?","","False","DIA_Addon_Samuel_Trade.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:484","Was hast du sonst noch?","¿Qué más tienes?","","","DIA_Addon_Samuel_Trade_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:485","Bei mir gibts's alles, was ein Pirat zum Überleben braucht!","Puedo conseguirte todo lo que un pirata necesita para sobrevivir.","","","DIA_Addon_Samuel_Trade_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1351_Samuel.d:498","Was gibt's neues im Lager?","¿Alguna novedad en el campamento?","","","DIA_Addon_Samuel_News.description","",""
