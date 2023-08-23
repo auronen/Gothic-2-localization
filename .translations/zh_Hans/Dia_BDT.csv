@@ -1562,7 +1562,6 @@
 "Scripts/Content/Story/Dialoge/DIA_BDT_1013_Bandit_L.d:476","Ich hab dir alles erzählt, was ich dir sagen kann.","我 已 经 把 所 有 能 告 诉 你 的 都 说 了 。","","False","DIA_1013_BANDIT_PERM_01_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1014_Bandit_L.d:49","Das ist der Kerl! Machen wir ihn fertig!","那 就 是 他 ！ 我 们 好 好 教 训 他 一 下 ！","","False","DIA_BDT_1014_BANDIT_KILLER_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1015_Bandit_L.d:47","Deine Visage kenn ich doch!","嘿 ， 我 以 前 不 是 见 过 你 的 画 像 吗 ？","","False","DIA_1015_BANDIT_AMBUSH_06_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:28","NW_TROLLAREA_PATH_46","NW_TROLLAREA_PATH_46","","False","BDT_1020_Wegelagerer_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:52","Hey du, bleib stehen.","嘿 ， 你 ， 停 下 ！","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:53","Was willst du?","你 想 要 什 么 ？","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:54","Wenn du nicht willst, dass ich dir die Fresse poliere, solltest du schleunigst ein paar Goldmünzen in meine Taschen wandern lassen.","如 果 你 不 想 让 我 打 烂 你 的 脸 ， 那 你 最 好 把 口 袋 里 的 金 币 送 些 给 我 - 马 上 ！","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_06_02","",""
