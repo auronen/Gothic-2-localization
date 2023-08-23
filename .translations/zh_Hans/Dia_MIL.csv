@@ -168,7 +168,6 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_309_Stadtwache.d:69","Hör Mal - du hast jetzt Zugang zur Stadt. Aber das heißt nicht, dass du hier machen kannst, was du willst.","听 着 - 你 现 在 可 以 进 入 这 座 城 市 。 但 那 不 是 说 你 可 以 在 这 里 为 所 欲 为 。","","False","DIA_Mil_309_Stadtwache_Hallo_06_06","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_309_Stadtwache.d:70","Wenn du dich nicht an die Regeln hältst, verlierst du hier alle Rechte!","如 果 你 不 遵 守 这 些 规 则 ， 你 就 将 失 去 在 这 里 的 所 有 权 力 ！","","False","DIA_Mil_309_Stadtwache_Hallo_06_07","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_309_Stadtwache.d:77","Weitergehen - na mach schon!","继 续 往 前 走 ！","","False","DIA_Mil_309_Stadtwache_Hallo_06_08","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_310_Stadtwache.d:29","NW_CITY_ENTRANCE_MAIN","NW_CITY_ENTRANCE_MAIN","","False","Mil_310_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_310_Stadtwache.d:76","HALT!","停 下 ！","","False","DIA_Mil_310_Stadtwache_FirstWarn_07_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_310_Stadtwache.d:81","(seufzt) Was denn?","（ 叹 息 ） 那 是 什 么 ？","","False","DIA_Mil_310_Stadtwache_FirstWarn_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_310_Stadtwache.d:82","Das weißt du ganz genau!","你 很 清 楚 是 什 么 ！","","False","DIA_Mil_310_Stadtwache_FirstWarn_07_02","",""
