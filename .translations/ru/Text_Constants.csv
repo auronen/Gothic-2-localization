@@ -126,7 +126,7 @@
 "Scripts/Content/Story/Text.d:164","Bandit","Бандит","","","TXT_GUILDS[9]","",""
 "Scripts/Content/Story/Text.d:165","Sträfling","Каторжник","","","TXT_GUILDS[10]","",""
 "Scripts/Content/Story/Text.d:166","Suchender","Ищущий","","","TXT_GUILDS[11]","",""
-"Scripts/Content/Story/Text.d:167","Landbewohner","Land Dweller","","","TXT_GUILDS[12]","",""
+"Scripts/Content/Story/Text.d:167","Landbewohner","Земляк","","False","TXT_GUILDS[12]","",""
 "Scripts/Content/Story/Text.d:168","Pirat","Пират","","","TXT_GUILDS[13]","",""
 "Scripts/Content/Story/Text.d:169","Wassermagier","Маг воды","","","TXT_GUILDS[14]","",""
 "Scripts/Content/Story/Text.d:170","D","D","","","TXT_GUILDS[15]","",""
