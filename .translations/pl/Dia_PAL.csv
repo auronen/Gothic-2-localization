@@ -517,7 +517,6 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:883","Ja, dass sie einen wie dich hier reingelassen haben, ist schon ewig nicht mehr vorgekommen","Tak, że wpuścili tutaj kogoś takiego jak ty. To absolutny ewenement.","","","DIA_Lothar_PERM_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:887","Das solltest du am besten wissen. Als Angehöriger der Stadtwache ist es deine Aufgabe, hier für Ruhe und Ordnung zu sorgen!","Chyba sam powinieneś to wiedzieć najlepiej. W końcu jako członek straży, zajmujesz się pilnowaniem porządku w tym mieście!","","","DIA_Lothar_PERM_01_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:891","Nein.","Nie.","","","DIA_Lothar_PERM_01_03","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:29","NW_CITY_CITYHALL_IN","NW_CITY_CITYHALL_IN","","","PAL_205_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:75","HALT!","STÓJ!","","","DIA_PAL_205_Torwache_FirstWarn_12_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:82","Ich würde meine höchste Pflicht verletzen, wenn ich einem Mörder Zutritt gewähre.","Sprzeniewierzyłbym się swoim zasadom, gdybym wpuścił mordercę.","","","DIA_PAL_205_Torwache_FirstWarn_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_205_Torwache.d:87","Du bist des Diebstahls angeklagt. Solange darfst du nicht hinein!","Jesteś oskarżony o kradzież. Dopóki nie oczyścisz się z zarzutów, nie wpuszczę cię do środka.","","","DIA_PAL_205_Torwache_FirstWarn_12_02","",""
