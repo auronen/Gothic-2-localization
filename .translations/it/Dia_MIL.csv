@@ -883,7 +883,6 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_324_Peck.d:318","Wieso?","Perché?","","","DIA_Peck_PERM_15_07","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_324_Peck.d:319","Kampflos hätten die Söldner doch nie zugeschaut, wie wir einen von ihnen an den Galgen bringen.","I mercenari non sarebbero rimasti a guardare mentre noi mandavamo alla forca un loro compagno.","","","DIA_Peck_PERM_12_08","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_324_Peck.d:320","Schlimmstenfalls hätten sie uns einfach angegriffen. Ich will mir gar nicht ausmalen, was dann passiert wäre.","Nel peggiore dei casi, ci avrebbero attaccato. Non voglio nemmeno immaginare cosa sarebbe successo a quel punto.","","","DIA_Peck_PERM_12_09","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:29","NW_CITY_MERCHANT_PATH_03","NW_CITY_MERCHANT_PATH_03","","","Mil_325_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:60","HALT!","ALT!","","","DIA_Mil_325_Miliz_FirstWarn_12_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:61","Das Warenlager darf nicht betreten werden.","Nessuno ha accesso al magazzino.","","","DIA_Mil_325_Miliz_FirstWarn_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:93","Hörst du schlecht? Einen Schritt weiter und ich hack dich in Stücke!","Sei sordo? Fai un altro passo avanti e ti farò a fettine!","","","DIA_Mil_325_Miliz_SecondWarn_12_00","",""
