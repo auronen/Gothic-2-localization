@@ -630,7 +630,6 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_212_Schiffswache.d:75","Auf das Schiff kommst du nicht. Das ist alles, was du wissen musst.","","","False","DIA_Pal_212_Schiffswache_WASMACHSTDU2_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_212_Schiffswache.d:79","Wir sind hier zur Wache eingeteilt. Kein Unbefugter darf das Schiff betreten. Auch du nicht, tut mir Leid.","","","False","DIA_Pal_212_Schiffswache_WASMACHSTDU2_08_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_212_Schiffswache.d:84","Hier meine Zeit verplempern. Ich wäre viel lieber bei unseren Brüdern im Minental.","","","False","DIA_Pal_212_Schiffswache_WASMACHSTDU2_08_03","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:29","SHIP_DECK_09","","","False","Pal_213_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:54","Moment! Wo willst du hin?","","","False","DIA_Pal_213_Schiffswache_FirstWarn_01_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:55","Ich wollte ...","","","False","DIA_Pal_213_Schiffswache_FirstWarn_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_213_Schiffswache.d:59","Tut mir Leid. Du kannst hier nicht vorbei.","","","False","DIA_Pal_213_Schiffswache_FirstWarn_01_02","",""
