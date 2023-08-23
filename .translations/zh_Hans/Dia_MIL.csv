@@ -883,7 +883,6 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_324_Peck.d:318","Wieso?","什 么 ？","","False","DIA_Peck_PERM_15_07","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_324_Peck.d:319","Kampflos hätten die Söldner doch nie zugeschaut, wie wir einen von ihnen an den Galgen bringen.","雇 佣 兵 绝 对 不 会 不 采 取 行 动 ， 就 那 么 眼 睁 睁 地 看 着 我 们 把 他 们 的 人 送 上 绞 架 。","","False","DIA_Peck_PERM_12_08","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_324_Peck.d:320","Schlimmstenfalls hätten sie uns einfach angegriffen. Ich will mir gar nicht ausmalen, was dann passiert wäre.","在 最 坏 的 情 况 下 ， 他 们 可 能 马 上 就 会 攻 击 我 们 。 我 甚 至 不 敢 想 象 那 时 候 会 是 什 么 样 子 。","","False","DIA_Peck_PERM_12_09","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:29","NW_CITY_MERCHANT_PATH_03","西北城市商业通道03","","False","Mil_325_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:60","HALT!","停 下 ！","","False","DIA_Mil_325_Miliz_FirstWarn_12_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:61","Das Warenlager darf nicht betreten werden.","没 人 可 以 进 入 储 藏 室 。","","False","DIA_Mil_325_Miliz_FirstWarn_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_325_Stadtwache.d:93","Hörst du schlecht? Einen Schritt weiter und ich hack dich in Stücke!","你 聋 了 吗 ？ 再 靠 近 一 步 ， 我 就 把 你 切 成 碎 片 ！","","False","DIA_Mil_325_Miliz_SecondWarn_12_00","",""
