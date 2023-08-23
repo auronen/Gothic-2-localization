@@ -248,7 +248,6 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:21","Wir sprechen uns noch.","我们要再谈谈。","","False","DIA_Addon_BDT_10018_Torwache_EXIT_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:25","Du kannst dir denken, was ich dir dann sagen werde ...","那你已经知道我会告诉你什么...","","False","DIA_Addon_BDT_10018_Torwache_EXIT_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:30","Verschwinde.","走开。","","False","DIA_Addon_BDT_10018_Torwache_EXIT_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:41","BL_RAVEN_CHECK","BL_RAVEN_CHECK","","False","BDT_10018_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:74","Hey, langsam! Du kommst nicht rein - also verschwinde!","嘿，慢点！你不能进那里——所以走开！","","False","DIA_Addon_BDT_10018_Torwache_FirstWarn_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:75","Geh aus dem Weg - ich muss zu Raven.","别挡我的路——我必须见瑞雯。","","False","DIA_Addon_BDT_10018_Torwache_FirstWarn_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10018_Torwache.d:76","Niemand betritt diese Gemächer. Klare Anordnung von Raven persönlich.","禁止任何人进入这些房间。瑞雯本人下达的直接命令。","","False","DIA_Addon_BDT_10018_Torwache_FirstWarn_04_02","",""
