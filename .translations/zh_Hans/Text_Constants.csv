@@ -483,7 +483,7 @@
 "Scripts/Content/Story/Text.d:682","Manakosten:","魔 法 消 耗 ：","","False","NAME_Manakosten","",""
 "Scripts/Content/Story/Text.d:683","Manakosten (min):","魔 法 消 耗 （ 最 少 ） ：","","False","NAME_MinManakosten","",""
 "Scripts/Content/Story/Text.d:684","Manakosten (max):","魔 法 消 耗 （ 最 大 ） ：","","False","NAME_ManakostenMax","",""
-"Scripts/Content/Story/Text.d:685","Mana pro Sec.","M魔 法 ／ 每 秒 。","","False","NAME_ManaPerSec","",""
+"Scripts/Content/Story/Text.d:685","Mana pro Sec.","魔 法 ／ 每 秒 。","","False","NAME_ManaPerSec","",""
 "Scripts/Content/Story/Text.d:686","Dauer (Minuten)","持 续 （ 分 钟 ）","","False","NAME_Duration","",""
 "Scripts/Content/Story/Text.d:687","Dauer (Sekunden)","持 续 （ 秒 ）","","False","NAME_Sec_Duration","",""
 "Scripts/Content/Story/Text.d:689","benötigtes Mana:","需 要 魔 法 ：","","False","NAME_Mana_needed","",""
