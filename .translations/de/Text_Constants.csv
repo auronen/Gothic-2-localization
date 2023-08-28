@@ -716,6 +716,7 @@
 "Scripts/Content/Story/Text.d:1003","...segne sie mit deinem Feuer und schenke ihnen Kraft...","...segne sie mit deinem Feuer und schenke ihnen Kraft...","","","Pray_Paladin2","",""
 "Scripts/Content/Story/Text.d:1004","...auf das sie in deinem Namen mutig kämpfen... ","...auf das sie in deinem Namen mutig kämpfen... ","","","Pray_Paladin3","",""
 "Scripts/Content/Story/Text.d:1005","...bis zum Sieg oder zum Tod, so wie es dein Wille ist.","...bis zum Sieg oder zum Tod, so wie es dein Wille ist.","","","Pray_Paladin4","",""
+"","Ende","Ende","","","_STR_MESSAGE_GAMEOVER","",""
 "Scripts/Content/Story/Text.d:1014","Was weißt du über das Attentat gegen Esteban?","Was weißt du über das Attentat gegen Esteban?","","","DIALOG_ADDON_ATTENTAT_DESCRIPTION","",""
 "Scripts/Content/Story/Text.d:1015","Ich will diese Verräter töten.","Ich will diese Verräter töten.","","","DIALOG_ADDON_ATTENTAT_PRO","",""
 "Scripts/Content/Story/Text.d:1016","Ich suche diese Typen, um gegen Esteban vorzugehen.","Ich suche diese Typen, um gegen Esteban vorzugehen.","","","DIALOG_ADDON_ATTENTAT_CONTRA","",""
