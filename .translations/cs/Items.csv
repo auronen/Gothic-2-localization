@@ -2599,7 +2599,7 @@
 "Scripts/Content/Items/MissionItems_4.d:288","","","","","ItPo_DragonEggDrinkNeoras_MIS.text[2]","",""
 "Scripts/Content/Items/MissionItems_4.d:289","Wirkung unbekannt","Účinky nejsou známy.","","","ItPo_DragonEggDrinkNeoras_MIS.text[3]","",""
 "Scripts/Content/Items/MissionItems_4.d:290","","","","","ItPo_DragonEggDrinkNeoras_MIS.text[4]","",""
-"Scripts/Content/Items/MissionItems_4.d:310","Kriegskarte der Orks","Orcish War Map","","","ItWr_Map_Orcelite_MIS.name","",""
+"Scripts/Content/Items/MissionItems_4.d:310","Kriegskarte der Orks","Válečná skřetí mapa","","False","ItWr_Map_Orcelite_MIS.name","",""
 "Scripts/Content/Items/MissionItems_4.d:324","","","","","ItWr_Map_Orcelite_MIS.text[0]","",""
 "Scripts/Content/Items/MissionItems_4.d:325","","","","","ItWr_Map_Orcelite_MIS.text[1]","",""
 "Scripts/Content/Items/MissionItems_4.d:326","","","","","ItWr_Map_Orcelite_MIS.text[2]","",""

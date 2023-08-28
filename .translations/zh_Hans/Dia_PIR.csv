@@ -824,7 +824,6 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:37","300 Goldstücke.","3 0 0 枚 金 币 。","","False","DIA_Addon_Henry_Gold300_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:41","200 Goldstücke.","2 0 0 枚 金 币 。","","False","DIA_Addon_Henry_Gold200_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:45","100 Goldstücke.","1 0 0 枚 金 币 。","","False","DIA_Addon_Henry_Gold100_04_00","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:95","ADW_PIRATECAMP_WAY_02","ADW_PIRATECAMP_WAY_02","","False","PIR_1354_Checkpoint","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:126","HALT!","停 下 ！","","False","DIA_Addon_Henry_Hello_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:127","Freund oder Feind?","朋 友 还 是 敌 人 ？","","False","DIA_Addon_Henry_Hello_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1354_Henry.d:130","Feind!","敌 人 ！","","False","DIA_Addon_Henry_Hello.DIA_Addon_Henry_Hello_Feind","Info_AddChoice",""

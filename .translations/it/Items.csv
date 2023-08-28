@@ -731,7 +731,7 @@
 "Scripts/Content/Items/IT_Melee_Weapons.d:2419","Barbarenstreitaxt","Ascia da guerra barbarica","","","ItMw_Barbarenstreitaxt.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:2437","","","","","ItMw_Barbarenstreitaxt.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:2438","","","","","ItMw_Barbarenstreitaxt.text[1]","",""
-"Scripts/Content/Items/IT_Melee_Weapons.d:2448","Sturmbringer","Stormbringer","","","ItMw_Sturmbringer.name","",""
+"Scripts/Content/Items/IT_Melee_Weapons.d:2448","Sturmbringer","Portatore di tempesta","","False","ItMw_Sturmbringer.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:2466","","","","","ItMw_Sturmbringer.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:2467","","","","","ItMw_Sturmbringer.text[1]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:2501","","","","","ItMw_1H_Special_03.text[0]","",""
