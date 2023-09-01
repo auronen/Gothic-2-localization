@@ -3,6 +3,9 @@ Localization of Gothic 2 Night of the Raven scripts. Scripts based on https://gi
 
 The goal is to provide consistent compiled scripts and output units (spoken dialogue) for Gothic, that share the same code base.
 
+# Contributing
+New translations and corrections of existing translations happen on my instance of [weblate](https://weblate.cokoliv.eu/projects/gothic-2-night-of-the-raven/). If you wish to help with corrections, translations or you want to translate Gothic 2 Night of the Raven into new language let me know by opening an issue, sending me a message on GitHub or, preferably, on our [GMC discord server](https://discord.gg/7zjNpVN8H6).
+
 # Languages
 
 ## :de: German
