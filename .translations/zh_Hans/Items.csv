@@ -2906,7 +2906,7 @@
 "Scripts/Content/Items/MissionItems_Addon.d:442","Ich stehe kurz davor in den Tempel hinein zu gelangen. Da kann ich mir Störungen dieser Art nicht leisten.","我 将 要 进 入 神 殿 。 那 样 的 话 ， 我 就 无 法 再 制 造 这 样 的 骚 乱 了 。","","False","RavensKidnapperMission_Addon_5","",""
 "Scripts/Content/Items/MissionItems_Addon.d:443","Und noch ein Problem:","还 有 一 个 问 题 ：","","False","RavensKidnapperMission_Addon_6","",""
 "Scripts/Content/Items/MissionItems_Addon.d:444","Auf kurz oder lang müssen wir einen Weg über die hohen Berge im Nordosten von Khorinis finden. Die Piraten machen die Überfahrten sicher nicht mehr lange mit, wenn wir sie nicht mehr dafür bezahlen.","迟 早 我 们 都 要 在 克 霍 里 尼 斯 东 北 的 山 顶 找 一 条 路 。 如 果 我 们 不 继 续 付 给 他 们 钱 的 话 ， 海 盗 们 不 会 再 继 续 运 送 。","","False","RavensKidnapperMission_Addon_7","",""
-"Scripts/Content/Items/MissionItems_Addon.d:445","     Raven","     瑞 雯","","False","RavensKidnapperMission_Addon_8","",""
+"Scripts/Content/Items/MissionItems_Addon.d:445","     Raven","     拉 恩","","False","RavensKidnapperMission_Addon_8","",""
 "Scripts/Content/Items/MissionItems_Addon.d:485","Vatras Empfehlungsschreiben","瓦 卓 斯 的 推 荐 信","","False","ItWr_Vatras_KDFEmpfehlung_Addon.name","",""
 "Scripts/Content/Items/MissionItems_Addon.d:499","","","","","ItWr_Vatras_KDFEmpfehlung_Addon.text[0]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:500","","","","","ItWr_Vatras_KDFEmpfehlung_Addon.text[1]","",""
