@@ -801,7 +801,7 @@
 "Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:822","Was ...? Hm ... (eindringlich) Ist das wirklich dein Ernst?","什 么 … … ？ 嗯 … … （ 坚 持 的 ） 你 真 是 认 真 的 吗 ？","","False","DIA_Parlan_KNOWSJUDGE_05_01","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:823","Ich bestehe darauf.","我 坚 持 。","","False","DIA_Parlan_KNOWSJUDGE_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:824","Du bist ein außergewöhnlicher Novize. Nun gut, wenn es dein Ernst ist, dann sprich mit Meister Pyrokar.","你 是 一 个 特 别 的 新 信 徒 。 好 吧 ， 如 果 你 是 认 真 的 的 话 ， 那 么 去 和 大 师 皮 罗 卡 谈 谈 。","","False","DIA_Parlan_KNOWSJUDGE_05_03","",""
-"Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:839","Ich will meine magische Kraft steigern.","兰 让 我 来 的 。 我 想 要 增 强 我 的 魔 法 能 力 。","","False","DIA_Parlan_TEACH_MANA.description","",""
+"Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:839","Ich will meine magische Kraft steigern.","我 想 要 增 强 我 的 魔 法 能 力 。","","False","DIA_Parlan_TEACH_MANA.description","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:856","Ich will meine magische Kraft steigern.","我 想 要 增 加 我 的 魔 法 能 力 。","","False","DIA_Parlan_TEACH_MANA_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:868","Deine magische Kraft ist gewachsen. Ich kann dir nun nicht mehr helfen, sie zu erhöhen.","你 的 魔 法 力 量 增 强 了 。 我 无 法 再 帮 助 你 继 续 提 高 了 。","","False","DIA_Parlan_TEACH_MANA_05_00","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_504_Parlan.d:869","Wenn du mehr lernen willst, dann wende dich an Pyrokar.","如 果 你 想 继 续 学 习 ， 去 请 求 皮 罗 卡 。","","False","DIA_Parlan_TEACH_MANA_05_01","",""
