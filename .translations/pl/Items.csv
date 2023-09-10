@@ -2576,7 +2576,7 @@
 "Scripts/Content/Items/MissionItems_4.d:164","","","","","ItRw_SengrathsArmbrust_MIS.text[1]","",""
 "Scripts/Content/Items/MissionItems_4.d:167","","","","","ItRw_SengrathsArmbrust_MIS.text[4]","",""
 "Scripts/Content/Items/MissionItems_4.d:175","Lurkerhaut","Skóra topielca","","","ItAt_TalbinsLurkerSkin.name","",""
-"Scripts/Content/Items/MissionItems_4.d:186","Im Innern ist der Name ´Talbin´ eingebrand","Na wewnętrznej stronie wygarbowano imię 'Talbin'.","","","ItAt_TalbinsLurkerSkin.text[0]","",""
+"Scripts/Content/Items/MissionItems_4.d:186","Im Innern ist der Name ´Talbin´ eingebrand","Na wewnętrznej stronie wygrawerowano imię 'Talbin'.","","False","ItAt_TalbinsLurkerSkin.text[0]","",""
 "Scripts/Content/Items/MissionItems_4.d:187","","","","","ItAt_TalbinsLurkerSkin.text[1]","",""
 "Scripts/Content/Items/MissionItems_4.d:188","","","","","ItAt_TalbinsLurkerSkin.text[2]","",""
 "Scripts/Content/Items/MissionItems_4.d:189","","","","","ItAt_TalbinsLurkerSkin.text[3]","",""
