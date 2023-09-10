@@ -1077,7 +1077,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:505","Rache hat noch keinen Piraten Reich gemacht.","没 有 海 盗 能 通 过 复 仇 发 财 。","","False","DIA_Addon_Skip_AngusHankMurder_08_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:506","Hauptsache ich hab meinen Grog wieder.","只 要 我 能 把 我 的 烈 酒 找 回 来 。","","False","DIA_Addon_Skip_AngusHankMurder_08_03","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:510","Der Mörder interessiert mich nicht! Was ist mit meinem Grog?!","我 不 在 乎 是 谁 谋 杀 了 他 们 。 我 的 烈 酒 怎 么 样 了 ？!","","False","DIA_Addon_Skip_AngusHankMurder_08_04","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:524","Wegen des Grogs...","这 是 你 的 ２ ０ 瓶 酒 。","","False","DIA_Addon_Skip_Grog.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:524","Wegen des Grogs...","关 于 烈 酒...","","False","DIA_Addon_Skip_Grog.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:537","Wegen des Grogs ...","关 于 烈 酒 … …","","False","DIA_Addon_Skip_Grog_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:543","Hier hast du deine 20 Flaschen","这 是 你 的 ２ ０ 瓶 酒","","False","DIA_Addon_Skip_Grog.DIA_Addon_Skip_Grog_geben","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1355_Skip.d:547","Dir fehlen 20 Flaschen, sagst du?","你 丢 了 2 0 瓶 ， 对 吗 ？","","False","DIA_Addon_Skip_Grog_15_01","",""
