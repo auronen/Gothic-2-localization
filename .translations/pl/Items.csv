@@ -103,7 +103,7 @@
 "Scripts/Content/Items/IT_AnimalTrophy.d:251","Es regeniert die magische Kraft.","która pozwala zregenerować manę.","","False","ItAt_CrawlerMandibles.text[2]","",""
 "Scripts/Content/Items/IT_AnimalTrophy.d:252","Verliert mit der Zeit seine Wirkung.","Efekt z czasem przemija.","","False","ItAt_CrawlerMandibles.text[3]","",""
 "Scripts/Content/Items/IT_AnimalTrophy.d:253","","","","","ItAt_CrawlerMandibles.text[4]","",""
-"Scripts/Content/Items/IT_AnimalTrophy.d:274","Flügel","Skrzydło","","False","ItAt_Wing.name","",""
+"Scripts/Content/Items/IT_AnimalTrophy.d:274","Flügel","Skrzydła","","False","ItAt_Wing.name","",""
 "Scripts/Content/Items/IT_AnimalTrophy.d:285","","","","","ItAt_Wing.text[0]","",""
 "Scripts/Content/Items/IT_AnimalTrophy.d:286","","","","","ItAt_Wing.text[1]","",""
 "Scripts/Content/Items/IT_AnimalTrophy.d:287","","","","","ItAt_Wing.text[2]","",""
