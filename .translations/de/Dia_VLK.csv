@@ -1802,7 +1802,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:322","Aber das hat seinen Preis.","Aber das hat seinen Preis.","","","DIA_Matteo_HelpMeNow_09_05","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:330","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","","","DIA_Matteo_HelpMeNow.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:345","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","","","DIA_Matteo_HelpMeNow_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:358","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","","","DIA_Matteo_LehrlingLater.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:358","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","","False","DIA_Matteo_LehrlingLater.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:372","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","","","DIA_Matteo_LehrlingLater_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:385","Was verlangst du für deine Hilfe?","Was verlangst du für deine Hilfe?","","","DIA_Matteo_PriceOfHelp.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:399","Was verlangst du für deine Hilfe?","Was verlangst du für deine Hilfe?","","","DIA_Matteo_PriceOfHelp_15_00","",""
