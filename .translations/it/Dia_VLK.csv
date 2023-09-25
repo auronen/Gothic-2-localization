@@ -1802,7 +1802,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:322","Aber das hat seinen Preis.","Ma ti costerà.","","","DIA_Matteo_HelpMeNow_09_05","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:330","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","Allora, puoi aiutarmi a raggiungere il quartiere alto?","","","DIA_Matteo_HelpMeNow.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:345","Also, kannst du mir jetzt helfen, ins obere Viertel zu kommen?","Allora, puoi aiutarmi a raggiungere il quartiere alto?","","","DIA_Matteo_HelpMeNow_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:358","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","Aiutami a diventare apprendista di uno dei maestri.","","","DIA_Matteo_LehrlingLater.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:358","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","Allora, puoi aiutarmi a raggiungere il quartiere alto?","","False","DIA_Matteo_LehrlingLater.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:372","Hilf mir, bei einem der Meister als Lehrling aufgenommen zu werden!","Allora, puoi aiutarmi a raggiungere il quartiere alto?","","","DIA_Matteo_LehrlingLater_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:385","Was verlangst du für deine Hilfe?","Cosa chiedi in cambio del tuo aiuto?","","","DIA_Matteo_PriceOfHelp.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_416_Matteo.d:399","Was verlangst du für deine Hilfe?","Cosa chiedi in cambio del tuo aiuto?","","","DIA_Matteo_PriceOfHelp_15_00","",""
