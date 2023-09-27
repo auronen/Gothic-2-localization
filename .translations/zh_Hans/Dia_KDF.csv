@@ -55,7 +55,7 @@
 "Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:393","Sie haben versagt. Es war ihnen wohl nicht bestimmt, die Prüfung zu bestehen.","他 们 已 经 失 败 了 。 我 相 信 他 们 注 定 无 法 通 过 测 试 。","","False","DIA_Pyrokar_SUCCESS_15_04","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:394","Nun, dann erklären wir, dass du diese Prüfung bestanden hast. Der Runenstein soll auch weiterhin dir gehören.","嗯 ， 那 么 我 们 宣 布 你 已 经 通 过 了 这 次 测 试 。 而 且 那 块 咒 语 石 将 归 你 所 有 。","","False","DIA_Pyrokar_SUCCESS_11_05","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:427","Du hast die Prüfung, vor die ich dich gestellt habe, bestanden.","你 已 经 通 过 了 我 给 你 指 定 的 测 试 。","","False","DIA_Pyrokar_Todo_11_00","",""
-"Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:428","Aber ...","但是....","","False","DIA_Pyrokar_Todo_11_01","",""
+"Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:428","Aber ...","但是...","","False","DIA_Pyrokar_Todo_11_01","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:432","... die Prüfung von Ulthar liegt noch vor dir.","… … 你 还 必 须 通 过 乌 尔 萨 的 测 试 。","","False","DIA_Pyrokar_Todo_11_02","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:437","... Serpentes' Prüfung hast du noch nicht beendet.","… 你 还 必 须 完 成 瑟 朋 帝 兹 的 测 试 。","","False","DIA_Pyrokar_Todo_11_03","",""
 "Scripts/Content/Story/Dialoge/DIA_KDF_500_Pyrokar.d:452","Werde ich jetzt in die Gilde der Magier aufgenommen?","我 现 在 能 加 入 魔 法 师 公 会 了 吗 ？","","False","DIA_Pyrokar_MAGICAN.description","",""
