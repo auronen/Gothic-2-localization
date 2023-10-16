@@ -6,7 +6,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:59","Dir macht doch bestimmt keiner was vor. So was erkenne ich sofort.","Od razu widać, że nie dasz się łatwo nabrać.","","","DIA_Addon_Greg_NW_Hallo_01_04","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:60","Sag mal, du willst dir doch bestimmt ein paar Goldstücke verdienen, nicht wahr?","Może chciałbyś dorobić sobie trochę na boku, co?","","","DIA_Addon_Greg_NW_Hallo_01_05","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:66","Ich muss weiter.","Muszę już iść.","","","DIA_Addon_Greg_NW_Hallo.DIA_Addon_Greg_NW_Hallo_weg","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:67","Lass das Gefasel. Sag mir, was du willst.","Skończ z tym bełkotem. Mów, czego chcesz.","","","DIA_Addon_Greg_NW_Hallo.DIA_Addon_Greg_NW_Hallo_schleim","Info_AddChoice",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:67","Lass das Gefasel. Sag mir, was du willst.","Skończ z tym bełkotem. Mów czego chcesz.","","False","DIA_Addon_Greg_NW_Hallo.DIA_Addon_Greg_NW_Hallo_schleim","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:68","Du siehst nicht aus wie jemand, der Goldstücke hat.","Nie wyglądasz na takiego, co ma złoto.","","","DIA_Addon_Greg_NW_Hallo.DIA_Addon_Greg_NW_Hallo_vorsicht","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:69","Versteckst du dich vor jemandem?","Ukrywasz się przed kimś?","","","DIA_Addon_Greg_NW_Hallo.DIA_Addon_Greg_NW_Hallo_hide","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1300_Greg_NW.d:70","Warum nicht?","Dlaczego nie!","","","DIA_Addon_Greg_NW_Hallo.DIA_Addon_Greg_NW_Hallo_ja","Info_AddChoice",""
