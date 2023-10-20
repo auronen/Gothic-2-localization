@@ -628,7 +628,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:699","Du darfst den Glauben niemals verlieren.","Ты не должен терять веры.","","","DIA_Babo_Kap3_KeepTheFaith_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:700","(ertappt) Nein, ... ich meine, das würde ich niemals tun. Ehrlich!","(застигнутый врасплох) Нет... Я хочу сказать, это больше не повторится. Клянусь!","","","DIA_Babo_Kap3_KeepTheFaith_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:701","Uns allen werden oft schwere Prüfungen auferlegt.","Мы все проходим через суровые испытания.","","","DIA_Babo_Kap3_KeepTheFaith_15_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:702","Ja, Meister. Ich werde immer daran denken. Danke.","Да, Мастер. Я буду всегда помнить это. Спасибо.","","","DIA_Babo_Kap3_KeepTheFaith_03_03","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:702","Ja, Meister. Ich werde immer daran denken. Danke.","Да, Мастер. Я буду всегда помнить это, спасибо.","","False","DIA_Babo_Kap3_KeepTheFaith_03_03","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:716","Das klingt aber nicht sehr glücklich.","Ты не выглядишь особенно веселым.","","","DIA_Babo_Kap3_Unhappy.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:731","Das klingt aber nicht sehr glücklich.","Ты не выглядишь особенно веселым.","","","DIA_Babo_Kap3_Unhappy_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_612_Babo.d:732","(ertappt) Na ja ... ich meine, eigentlich ist ja alles in Ordnung.","(застигнутый врасплох) Эээ... я хочу сказать, со мной все в порядке, правда.","","","DIA_Babo_Kap3_Unhappy_03_01","",""
