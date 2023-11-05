@@ -716,7 +716,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:280","Wo finde ich Constantino?","Wo finde ich Constantino?","","","DIA_Zuris_WHERE.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:294","Wo finde ich Constantino?","Wo finde ich Constantino?","","","DIA_Zuris_WHERE_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:295","Er hat seine Kammer im Tunnel bei Harads Schmiede. Sollte nicht schwierig zu finden sein.","Er hat seine Kammer im Tunnel bei Harads Schmiede. Sollte nicht schwierig zu finden sein.","","","DIA_Zuris_WHERE_14_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:307","Erzähl mir vom Kloster. ","Erzähl mir vom Kloster. ","","","DIA_Zuris_Kloster.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:307","Erzähl mir vom Kloster. ","Erzähl mir vom Kloster.","","False","DIA_Zuris_Kloster.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:320","Erzähl mir vom Kloster.","Erzähl mir vom Kloster.","","","DIA_Zuris_Kloster_14_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:321","Da sprichst du am Besten mit Meister Daron selbst. Er weiß besser darüber Bescheid als ich.","Da sprichst du am Besten mit Meister Daron selbst. Er weiß besser darüber Bescheid als ich.","","","DIA_Zuris_Kloster_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:333","Du verkaufst Minenanteile?","Du verkaufst Minenanteile?","","","DIA_Zuris_Minenanteil.description","",""
