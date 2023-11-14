@@ -2824,7 +2824,7 @@
 "Scripts/Content/Items/MissionItems_6.d:492","","","","","ItWr_ZugBruecke_MIS.text[3]","",""
 "Scripts/Content/Items/MissionItems_6.d:493","","","","","ItWr_ZugBruecke_MIS.text[4]","",""
 "Scripts/Content/Items/MissionItems_6.d:494","","","","","ItWr_ZugBruecke_MIS.text[5]","",""
-"Scripts/Content/Items/MissionItems_6.d:497","   Letzte Warnung!","   Ostatnie ostrzeżenie!","","False","ZugBruecke_1","",""
+"Scripts/Content/Items/MissionItems_6.d:497","   Letzte Warnung!","Ostatnie ostrzeżenie!","","False","ZugBruecke_1","",""
 "Scripts/Content/Items/MissionItems_6.d:498","Es ist mir völlig egal, ob ihr die Brücke von der anderen Seite überqueren könnt, oder nicht. Wenn es nach mir ginge, würdet ihr sowieso alle in der Hölle schmoren.","Nic mnie nie obchodzi, czy uda się wam przeleźć przez most z drugiej strony. Dla mnie możecie piec się w piekle.","","False","ZugBruecke_2","",""
 "Scripts/Content/Items/MissionItems_6.d:499","Ich werde die Brücke eingezogen lassen, solange ich mich in meiner Residenz befinde. Wenn ich nochmal jemanden dabei erwische, dass er mit Pfeil und Bogen auf die Schalter schießt um herüber zu kommen, dann werde ich den Schützen eigenhändig am nächten Baum aufhängen.","Tak długo, jak jestem w swoich włościach, most będzie podniesiony, a każdego mędrka, który będzie próbował ustrzelić z łuku przełącznik, żeby się tu dostać, osobiście wypatroszę i powieszę na najbliższym drzewie!","","False","ZugBruecke_3","",""
 "Scripts/Content/Items/MissionItems_6.d:500","                      Archol","                      Archol","","False","ZugBruecke_4","",""
