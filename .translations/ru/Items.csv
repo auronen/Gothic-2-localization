@@ -2824,7 +2824,7 @@
 "Scripts/Content/Items/MissionItems_6.d:492","","","","","ItWr_ZugBruecke_MIS.text[3]","",""
 "Scripts/Content/Items/MissionItems_6.d:493","","","","","ItWr_ZugBruecke_MIS.text[4]","",""
 "Scripts/Content/Items/MissionItems_6.d:494","","","","","ItWr_ZugBruecke_MIS.text[5]","",""
-"Scripts/Content/Items/MissionItems_6.d:497","   Letzte Warnung!"," Последнее предупреждение! ","","","ZugBruecke_1","",""
+"Scripts/Content/Items/MissionItems_6.d:497","   Letzte Warnung!","Последнее предупреждение!","","False","ZugBruecke_1","",""
 "Scripts/Content/Items/MissionItems_6.d:498","Es ist mir völlig egal, ob ihr die Brücke von der anderen Seite überqueren könnt, oder nicht. Wenn es nach mir ginge, würdet ihr sowieso alle in der Hölle schmoren.","Меня не интересует, сможете вы пересечь мост с другой стороны или нет. Если вам интересно мое мнение - вы все заслуживаете гореть в аду. ","","","ZugBruecke_2","",""
 "Scripts/Content/Items/MissionItems_6.d:499","Ich werde die Brücke eingezogen lassen, solange ich mich in meiner Residenz befinde. Wenn ich nochmal jemanden dabei erwische, dass er mit Pfeil und Bogen auf die Schalter schießt um herüber zu kommen, dann werde ich den Schützen eigenhändig am nächten Baum aufhängen.","Я собираюсь оставить мост поднятым до тех пор, пока я нахожусь здесь. И если я замечу, что кто-то пытается нажать переключатели при помощи лука и стрелы, я лично вздерну этого идиота на ближайшем дереве! ","","","ZugBruecke_3","",""
 "Scripts/Content/Items/MissionItems_6.d:500","                      Archol"," Архол ","","","ZugBruecke_4","",""
