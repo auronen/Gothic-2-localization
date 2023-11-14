@@ -237,7 +237,7 @@
 "Scripts/Content/Story/Text.d:315","Dragon Snapper","Dračí chňapavec","","","TXT_SPELLS[58]","",""
 "Scripts/Content/Story/Text.d:316","Vergessen","Zapomnění","","","TXT_SPELLS[59]","",""
 "Scripts/Content/Story/Text.d:319","Heiliges Geschoß","Boží zásah","","","TXT_SPELLS[60]","",""
-"Scripts/Content/Story/Text.d:322","TXT_SPL_DEATHBOLT","Střela smrti","","True","TXT_SPELLS[61]","",""
+"Scripts/Content/Story/Text.d:322","TXT_SPL_DEATHBOLT","Střela smrti","","False","TXT_SPELLS[61]","",""
 "Scripts/Content/Story/Text.d:323","TXT_SPL_DEATHBALL","Koule smrti","","False","TXT_SPELLS[62]","",""
 "Scripts/Content/Story/Text.d:324","TXT_SPL_CONCUSSIONBOLT","Úderná šipka","","False","TXT_SPELLS[63]","",""
 "Scripts/Content/Story/Text.d:325","TXT_SPL_RESERVED_64","TXT_SPL_RESERVED_64","","","TXT_SPELLS[64]","",""
