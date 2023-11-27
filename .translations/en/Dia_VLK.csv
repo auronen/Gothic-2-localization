@@ -3880,7 +3880,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_448_Joe.d:133","(Diebeszeichen zeigen)","(Show thieves' signal)","","","DIA_Joe_Sign.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_448_Joe.d:148","Ach, sieh an, wir haben gemeinsame Freunde. Dann will ich mich mal für meine Rettung erkenntlich zeigen.","Hey, what do you know - we have mutual friends. In that case, let me express my gratitude for being rescued.","","","DIA_Joe_Sign_10_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_448_Joe.d:149","Hier, nimm diese Dietriche - du kannst sie bestimmt gebrauchen.","Here, take these lock picks - I'm sure you'll find them useful.","","","DIA_Joe_Sign_10_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:10","(Ornament - Stück zurückverlangen)","(Ornament - Stück zurückverlangen)","","","DIA_Addon_Lares_Patch.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:10","(Ornament - Stück zurückverlangen)","(Ornament - request fragment back)","","False","DIA_Addon_Lares_Patch.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:77","Wir sehen uns später am Hafen.","I'll see you later, down at the harbor.","","","DIA_Addon_Lares_HaltsMaul_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:139","Ich werd verrückt, was machst du denn hier?","I must be crazy, what are you doing here?","","","DIA_Lares_HALLO_09_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_449_Lares.d:144","Bist du bis hierher GESCHWOMMEN?","Did you SWIM here?","","","DIA_Lares_HALLO_09_01","",""
