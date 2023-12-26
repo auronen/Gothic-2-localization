@@ -1693,7 +1693,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:143","Dich!","Ciebie!","","","DIA_1051_Wegelagerer_Question_Novice_Who_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:151","Das geht dich gar nichts an.","Nie twoja sprawa.","","","DIA_1051_Wegelagerer_Question_MyConcern_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:152","Was soll das? Willst du Ärger?","O co ci chodzi? Szukasz kłopotów?","","","DIA_1051_Wegelagerer_Question_MyConcern_07_01","",""
-"Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:155","Nein, schon gut. Kein Ärger.","Nie, nie przeszkadzajcie sobie. żaden kłopot.","","","DIA_1051_Wegelagerer_Question.DIA_1051_Wegelagerer_Question_MyConcern_No","Info_AddChoice",""
+"Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:155","Nein, schon gut. Kein Ärger.","Nie, nie przeszkadzajcie sobie. Żaden kłopot.","","False","DIA_1051_Wegelagerer_Question.DIA_1051_Wegelagerer_Question_MyConcern_No","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:156","Wenn es sein muss.","Skoro nalegasz.","","","DIA_1051_Wegelagerer_Question.DIA_1051_Wegelagerer_Question_MyConcern_Yes","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:161","Nein, schon gut. Kein Ärger.","Nie, nie przeszkadzajcie sobie. Żaden kłopot.","","","DIA_1051_Wegelagerer_Question_MyConcern_No_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1051_Wegelagerer.d:162","Kann verstehen, dass du die Hosen voll hast. Jetzt verzieh dich.","Rozumiem. Zapaćkałeś sobie portki ze strachu. Spadaj.","","","DIA_1051_Wegelagerer_Question_MyConcern_No_07_01","",""
