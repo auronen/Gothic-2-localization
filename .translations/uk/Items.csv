@@ -585,7 +585,7 @@
 "Scripts/Content/Items/IT_Melee_Weapons.d:914","Brutale Orkaxt","Брутальна сокира орків","","","ItMw_2H_OrcAxe_04.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:932","","","","","ItMw_2H_OrcAxe_04.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:933","","","","","ItMw_2H_OrcAxe_04.text[1]","",""
-"Scripts/Content/Items/IT_Melee_Weapons.d:943","Echsenschwert","Меч драконіана","","","ItMw_2H_OrcSword_01.name","",""
+"Scripts/Content/Items/IT_Melee_Weapons.d:943","Echsenschwert","Меч драконолюда","","False","ItMw_2H_OrcSword_01.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:961","","","","","ItMw_2H_OrcSword_01.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:962","","","","","ItMw_2H_OrcSword_01.text[1]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:972","Orkisches Kriegschwert","Військовий меч орків","","","ItMw_2H_OrcSword_02.name","",""
