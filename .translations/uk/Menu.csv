@@ -159,7 +159,7 @@
 "Scripts/System/Menu/Menu_Savegame.d:112","SPIEL LADEN","ЗАВАНТАЖИТИ ГРУ","","False","MENUITEM_LOAD_HEADLINE.text[0]","",""
 "Scripts/System/Menu/Menu_Savegame.d:123","SPIEL SPEICHERN","ЗБЕРЕГТИ ГРУ","","False","MENUITEM_SAVE_HEADLINE.text[0]","",""
 "Scripts/System/Menu/Menu_Savegame.d:151","Welt:","Світ:","","False","MENUITEM_LOADSAVE_LEVELNAME.text[0]","",""
-"Scripts/System/Menu/Menu_Savegame.d:177","gespeichert:","Збережено","","False","MENUITEM_LOADSAVE_DATETIME.text[0]","",""
+"Scripts/System/Menu/Menu_Savegame.d:177","gespeichert:","Збережено:","","False","MENUITEM_LOADSAVE_DATETIME.text[0]","",""
 "Scripts/System/Menu/Menu_Savegame.d:206","Spielzeit:","Час:","","False","MENUITEM_LOADSAVE_GAMETIME.text[0]","",""
 "Scripts/System/Menu/Menu_Savegame.d:293","Slot 1 - RETURN zum Speichern in diesem Slot.","Запис 1 - натисніть [Enter] і введість назву гри.","","False","MENUITEM_SAVE_SLOT1.text[1]","",""
 "Scripts/System/Menu/Menu_Savegame.d:310","Slot 2 - RETURN zum Speichern in diesem Slot.","Запис 2 - натисніть [Enter] і введість назву гри.","","False","MENUITEM_SAVE_SLOT2.text[1]","",""
