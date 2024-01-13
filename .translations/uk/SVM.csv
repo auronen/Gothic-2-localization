@@ -2093,7 +2093,7 @@
 "Scripts/Content/Story/SVM.d:2874","Das ist gut.","Це добре.","","","SVM_13_ABS_GOOD","",""
 "Scripts/Content/Story/SVM.d:2876","Einfach unsere Schafe zu schlachten!","Tak po prostu szlachtowaж nasze owce!","","True","SVM_13_SHEEPKILLER_CRIME","",""
 "Scripts/Content/Story/SVM.d:2877","Lass mich in Ruhe, du brutaler Mistkerl!","Zostaw mnie w spokoju, ty parszywa gnido!","","True","SVM_13_ATTACK_CRIME","",""
-"Scripts/Content/Story/SVM.d:2878","Lass mich in Ruhe, du mieser kleiner Dieb!","Zostaw mnie, Ти, малий, нікчемний, злодію!","","True","SVM_13_THEFT_CRIME","",""
+"Scripts/Content/Story/SVM.d:2878","Lass mich in Ruhe, du mieser kleiner Dieb!","Облиш мене, Ти, малий, нікчемний, злодію!","","False","SVM_13_THEFT_CRIME","",""
 "Scripts/Content/Story/SVM.d:2880","Du bist eine Schande für deinen Orden! Warte, bis Lord Hagen davon hört!","Jesteњ haсb№ dla swego zakonu! Czekaj tylko, aї dowie siк o tym Lord Hagen!","","True","SVM_13_PAL_CITY_CRIME","",""
 "Scripts/Content/Story/SVM.d:2881","Du bist eine Schande für die Stadtwache! Warte, bis Lord Andre davon hört!","Haсbisz dobre imiк straїy miejskiej! Lord Andre na pewno siк o tym dowie!","","True","SVM_13_MIL_CITY_CRIME","",""
 "Scripts/Content/Story/SVM.d:2882","Warte, bis Lord Andre davon hört.","Czekaj, aї Lord Andre siк o tym dowie!","","True","SVM_13_CITY_CRIME","",""
