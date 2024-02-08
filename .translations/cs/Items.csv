@@ -394,7 +394,7 @@
 "Scripts/Content/Items/IT_Food.d:271","","","","","ItFo_Stew.text[2]","",""
 "Scripts/Content/Items/IT_Food.d:272","","","","","ItFo_Stew.text[3]","",""
 "Scripts/Content/Items/IT_Food.d:273","","","","","ItFo_Stew.text[4]","",""
-"Scripts/Content/Items/IT_Food.d:284","Thekla's Eintopf","Theklin lektvar","","","ItFo_XPStew.name","",""
+"Scripts/Content/Items/IT_Food.d:284","Thekla's Eintopf","Theklin vývar","","False","ItFo_XPStew.name","",""
 "Scripts/Content/Items/IT_Food.d:298","","","","","ItFo_XPStew.text[0]","",""
 "Scripts/Content/Items/IT_Food.d:301","","","","","ItFo_XPStew.text[3]","",""
 "Scripts/Content/Items/IT_Food.d:302","","","","","ItFo_XPStew.text[4]","",""
