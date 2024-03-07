@@ -1503,7 +1503,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:218","Meinst du, ich kann dir trauen? Dass du mir das Geld ja nicht versäufst, hörst du?!","Říkáš, že ti mám věřit? Tak hlavně ty peníze nevyhoď za chlast, slyšíš?!","","","DIA_Hilda_Einkaufen_17_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:240","Hier ist deine Pfanne.","Tady je tvoje pánev.","","","DIA_Hilda_PfanneGeholt.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:255","Hier ist deine Pfanne.","Tady máš tu svoji pánev.","","","DIA_Hilda_PfanneGeholt_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:257","Gut. Dann wollen wir mal sehen, ob sie auch was taugt...","Fajn. To se podívejme, ještě se dá narazit na poctivce.","","","DIA_Hilda_PfanneGeholt_17_01","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:257","Gut. Dann wollen wir mal sehen, ob sie auch was taugt...","Fajn. Tak se podívejme, jestli za něco stojí...","","False","DIA_Hilda_PfanneGeholt_17_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:289","Du traust dich noch zurück? Was hast du mit meinem Geld gemacht, du Taugenichts?!","To si ještě dovolíš se sem vracet? Cos udělal s mými penězi, ty darmošlape?!","","","DIA_Hilda_PfanneTooLate_17_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:293","Du hast nun genug Zeit gehabt. Wo ist mein Geld für die Pfanne?","Měls na to dost času. Kde jsou peníze, co jsem ti dala na tu pánev?","","","DIA_Hilda_PfanneTooLate_17_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_951_Hilda.d:298","Es hat etwas länger gedauert. Hier hast du deine Pfanne!","Promiň, zapomněl jsem. Tady je tvoje pánev!","","","DIA_Hilda_PfanneTooLate_15_02","",""
