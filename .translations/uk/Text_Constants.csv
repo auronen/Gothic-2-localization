@@ -782,7 +782,7 @@
 "Scripts/Content/Story/Text.d:1100","Krautabak","Трав'яний тютюн","","","PRINT_KRAUT","",""
 "Scripts/Content/Story/Text.d:1106","Erfahrung + ","Досвід + ","","","PRINT_XPGained","",""
 "Scripts/Content/Story/Text.d:1107","Stufe gestiegen!","Підвищення рівня!","","","PRINT_LevelUp","",""
-"Scripts/Content/Story/Text.d:1108","Neuer Tagebucheintrag","Новий запис у щоденнику","","","PRINT_NewLogEntry","",""
+"Scripts/Content/Story/Text.d:1108","Neuer Tagebucheintrag","Новий запис у деннику","","False","PRINT_NewLogEntry","",""
 "Scripts/Content/Story/Text.d:1109","Zu weit entfernt","Занадто далеко","","","PRINT_TeleportTooFarAway","",""
 "Scripts/Content/Story/Text.d:1110","Biffs Anteil: ","Доля Біффа: ","","","PRINT_BiffsAnteil","",""
 "Scripts/Content/Story/Text.d:1111"," Gold"," золота","","","PRINT_BiffGold","",""
