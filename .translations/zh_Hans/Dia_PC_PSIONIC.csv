@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:55","Bist DU es? - Tatsächlich! Mann, bin ich froh, dich zu sehen!","是 你 吗 ？ - 真 是 ！ 伙 计 ， 见 到 你 我 真 高 兴 ！","","False","DIA_Lester_Hello_13_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:59","Kennen wir uns?","我认识你吗？","","False","DIA_Lester_Hello.DIA_Lester_Hello_YouKnowMe","Info_AddChoice",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:59","Kennen wir uns?","我 认 识 你 吗 ？","","False","DIA_Lester_Hello.DIA_Lester_Hello_YouKnowMe","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:60","Lester! Wie kommst du hierher?","莱 斯 特 ！ 你 怎 么 到 这 里 的 ？","","False","DIA_Lester_Hello.DIA_Lester_Hello_Lester","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:66","Lester! Wie kommst du hierher?","莱 斯 特 ！ 你 怎 么 到 这 里 的 ？","","False","DIA_Lester_Hello_Lester_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:67","Das war eine irre Flucht. Nachdem die Barriere explodierte, bin ich zunächst orientierungslos durch die Gegend gestreift.","那 真 是 一 次 疯 狂 的 逃 亡 。 在 屏 障 被 打 破 后 ， 我 迷 迷 糊 糊 地 在 那 个 地 方 转 了 很 久 。","","False","DIA_Lester_Hello_Lester_13_01","",""
