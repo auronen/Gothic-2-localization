@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:34","Alles im Lot?","一切都还好吗？","","False","DIA_Gorn_DI_Hallo.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:47","Alles im Lot?","一切都还好吗?","","False","DIA_Gorn_DI_Hallo_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:34","Alles im Lot?","一 切 都 是 船 的 形 状 ？","","False","DIA_Gorn_DI_Hallo.description","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:47","Alles im Lot?","一 切 都 是 船 的 形 状 ？","","False","DIA_Gorn_DI_Hallo_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:51","Bis jetzt noch. Denk daran, ich will was zu tun kriegen.","现 在 为 止 。 记 住 ， 我 想 见 到 一 些 行 动 。","","False","DIA_Gorn_DI_Hallo_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:55","Gibt es da oben noch mehr Orks? Schick sie zu mir. Ich bin gerade warm geworden.","那 里 有 很 多 的 兽 人 吗 ？ 把 他 们 交 给 我 。 我 刚 刚 热 身 完 。","","False","DIA_Gorn_DI_Hallo_12_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_DI.d:69","Ich brauche Training.","我 需 要 训 练 。","","False","DIA_Gorn_DI_Teach.description","",""
