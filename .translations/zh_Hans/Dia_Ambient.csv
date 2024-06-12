@@ -941,7 +941,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:48","(agressiv) KHROTOK JABARTH!!!","（ 挑 衅 的 ）KHROTOK JABARTH！ ！ ！","","False","DIA_Urshak_HALLO_18_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:49","Warte! Ich dich wieder erkennen. Du Freund Mensch mit weicher Stimme.","等 一 下 ！ 我 认 识 你 。 你 这 个 声 音 温 和 的 人 类 朋 友 。","","False","DIA_Urshak_HALLO_18_01","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:50","Freund töten bösen Dämon KRUSHAK.","朋 友 杀 死 邪 恶 魔 鬼 克 鲁 沙 克 。","","False","DIA_Urshak_HALLO_18_02","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:59","Was machst du hier?","安 加 ？ 你 在 这 里 做 什 么 ？","","False","DIA_Urshak_HALLO.DIA_Urshak_HALLO_freund","Info_AddChoice",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:59","Was machst du hier?","你 在 这 里 做 什 么 ？","","False","DIA_Urshak_HALLO.DIA_Urshak_HALLO_freund","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:60","Ein sprechender Ork?","一 个 会 讲 话 的 兽 人 ？","","False","DIA_Urshak_HALLO.DIA_Urshak_HALLO_wer","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:65","Ein sprechender Ork?","一 个 会 讲 话 的 兽 人 ？","","False","DIA_Urshak_HALLO_wer_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:66","Du vergessen Ur-Shak? Machen traurig mich.","你 忘 记 了 尤 尔 沙 克 ？ 那 让 我 悲 伤 。","","False","DIA_Urshak_HALLO_wer_18_01","",""
