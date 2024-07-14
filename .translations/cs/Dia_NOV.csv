@@ -239,7 +239,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:128","Bring mich zum Kloster.","Odveď mě do kláštera.","","","DIA_Ulf_Bringen.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:144","Bring mich zum Kloster.","Odveď mě do kláštera.","","","DIA_Ulf_Bringen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:145","Vergiss es. Weißt du, wie vielen Viechern ich auf dem Weg ausgewichen bin?","Na to zapomeň. Víš, kolika příšerám jsem se musel cestou sem vyhýbat?","","","DIA_Ulf_Bringen_03_01","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:146","Wenn ich an diese ganzen Blutfliegen, Wölfe und Goblins denke, dann bin ich froh, dass ich nicht mehr weg muss.","Když pomyslím na všechny ty vlky, skřety a další potvory, jsem rád, že už odsud nemusím.","","","DIA_Ulf_Bringen_03_02","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:146","Wenn ich an diese ganzen Blutfliegen, Wölfe und Goblins denke, dann bin ich froh, dass ich nicht mehr weg muss.","Když si vzpomenu na všechny ty krvavé mouchy, vlky a gobliny, jsem rád, že už odsud nemusím.","","False","DIA_Ulf_Bringen_03_02","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:147","Außerdem kannst du eh nicht ins Kloster.","Kromě toho se do kláštera stejně nedostaneš.","","","DIA_Ulf_Bringen_03_03","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:148","Warum nicht?","Proč ne?","","","DIA_Ulf_Bringen_15_04","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:149","Der Zugang ist nur den Magiern, Paladinen und Novizen erlaubt.","Vstup je povolen jen mágům, paladinům a novicům.","","","DIA_Ulf_Bringen_03_05","",""
