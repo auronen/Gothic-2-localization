@@ -309,7 +309,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:34","Wie steht's?","Jak se vede?","","","DIA_Bodo_Hallo.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:44","Wie steht's?","Jak se vede?","","","DIA_Bodo_Hallo_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:47","Die Miliz hat uns lange genug schikaniert. Jetzt, wo die Söldner auf unserer Seite sind, werden sie sich nicht mehr trauen, hier einfach so aufzukreuzen.","Domobrana nás vydírala dost dlouho. Teď, když jsou žoldnéři na naší straně, se tu už nedovolí víckrát objevit.","","","DIA_Bodo_Hallo_12_01","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:48","Der König glaubt wohl, er kann sich alles erlauben. Aber jetzt ist Schluss damit.","Král si myslí, že nám může všechno sebrat a odjet. Ale my už mu nic nedáme.","","","DIA_Bodo_Hallo_12_02","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:48","Der König glaubt wohl, er kann sich alles erlauben. Aber jetzt ist Schluss damit.","Král si myslí, že si může všechno dovolit. Ale s tím už je konec.","","False","DIA_Bodo_Hallo_12_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:54","Gut. Wenn du ein paar Milizen siehst, brat ihnen von mir auch eins über, ja?","Fajn. Když uvidíš někoho z domobrany, nandej mu to i za mě, jo?","","","DIA_Bodo_Hallo_12_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:60","Gut. Innos sei mit dir.","Dobrá. Innos s tebou.","","","DIA_Bodo_Hallo_12_04","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_903_Bodo.d:66","Truppen des Königs sind auf dem Hof nicht gerade willkommen.","Královi vojáci nejsou na téhle farmě vítáni.","","","DIA_Bodo_Hallo_12_05","",""
