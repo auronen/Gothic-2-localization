@@ -478,6 +478,7 @@
 "Scripts/Content/Story/Text.d:667","Warte noch. Wegen dem Kraut ...","Warte noch. Wegen dem Kraut ...","","","PRINT_Addon_NadjaWait","",""
 "Scripts/Content/Story/Text.d:672","Gold: ","Gold: ","","","NAME_Currency","",""
 "Scripts/Content/Story/Text.d:673","Du hast nicht genug Gold um den Gegenstand zu kaufen.","Du hast nicht genug Gold um den Gegenstand zu kaufen.","","","PRINT_Trade_Not_Enough_Gold","",""
+"","Ich habe keine Munition!","Ich habe keine Munition!","","","Print_NoAmmo","",""
 "Scripts/Content/Story/Text.d:679","Wert:","Wert:","","","NAME_Value","",""
 "Scripts/Content/Story/Text.d:681","Kreis:","Kreis:","","","NAME_Mag_Circle","",""
 "Scripts/Content/Story/Text.d:682","Manakosten:","Manakosten:","","","NAME_Manakosten","",""
