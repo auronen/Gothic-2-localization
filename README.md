@@ -17,7 +17,7 @@ German is the source language, made by Piranha Bytes. It is open to changes, in 
 [![Translation progress](http://weblate.cokoliv.eu/widgets/gothic-2-night-of-the-raven/en/svg-badge.svg)](http://weblate.cokoliv.eu/engage/gothic-2-night-of-the-raven/en/)  
 
 ## :czech_republic: Czech  
-[![Stav překladu](http://weblate.cokoliv.eu/widgets/gothic-2-night-of-the-raven/cs/svg-badge.svg)](http://weblate.cokoliv.eu/engage/gothic-2-night-of-the-raven/de/)  
+[![Stav překladu](http://weblate.cokoliv.eu/widgets/gothic-2-night-of-the-raven/cs/svg-badge.svg)](http://weblate.cokoliv.eu/engage/gothic-2-night-of-the-raven/cs/)  
 Original translation (Comgadu - 2008) and the fan made translation from [gothicz.net](https://www.gothicz.net/gothic-2-noc-havrana/cestina/) both serve as the basis for the new corrected translation. 
 
 ## :poland: Polish  
