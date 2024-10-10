@@ -522,7 +522,7 @@
 "Scripts/Content/Items/IT_Melee_Weapons.d:295","Nagelknüppel","Spiked Club","","","ItMw_Nagelknueppel.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:313","","","","","ItMw_Nagelknueppel.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:314","","","","","ItMw_Nagelknueppel.text[1]","",""
-"Scripts/Content/Items/IT_Melee_Weapons.d:324","Wolfsklinge","Wolf balde","","","ItMw_1H_Sword_L_03.name","",""
+"Scripts/Content/Items/IT_Melee_Weapons.d:324","Wolfsklinge","Wolf Blade","","False","ItMw_1H_Sword_L_03.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:342","","","","","ItMw_1H_Sword_L_03.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:343","","","","","ItMw_1H_Sword_L_03.text[1]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:353","Grobes Kurzschwert","Rough Short Sword","","","ItMw_ShortSword2.name","",""
