@@ -47,7 +47,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Gobbo_Green.d:8","Goblin","Trasgo","","","Mst_Default_Gobbo_Green.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Gobbo_Skeleton.d:8","Goblin Skelett","Esqueleto de trasgo","","","Mst_Default_Gobbo_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Gobbo_Skeleton.d:102","Beschworenes Skelett","Esqueleto convocado","","","Summoned_Gobbo_Skeleton.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Harpy.d:8","Harpie","ArpÃ­a","","","Mst_Default_Harpie.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Harpy.d:8","Harpie","Arpía","","False","Mst_Default_Harpie.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_IceGolem.d:8","Eisgolem","Gólem de hielo","","","Mst_Default_IceGolem.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Lurker.d:8","Lurker","Acechador","","","Mst_Default_Lurker.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Meatbug.d:8","Fleischwanze","Sabandija de carne","","","Mst_Default_Meatbug.name","",""
