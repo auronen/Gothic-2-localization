@@ -58,7 +58,7 @@
 "Scripts/System/Menu/Menu_Opt_Audio.d:100","Musik-Lautst.","音 乐 音 量","","False","MENUITEM_AUDIO_MUSICVOL.text[0]","",""
 "Scripts/System/Menu/Menu_Opt_Audio.d:101","Läutstärke der Hintergrundmusik.","背 景 音 乐 音 量","","False","MENUITEM_AUDIO_MUSICVOL.text[1]","",""
 "Scripts/System/Menu/Menu_Opt_Audio.d:136","Musik","音 乐 开/关","","False","MENUITEM_AUDIO_MUSIC.text[0]","",""
-"Scripts/System/Menu/Menu_Opt_Audio.d:137","Hintergrundmusik an- bzw. ausschalten.","切 换 背 景 音 乐 开|关 。","","False","MENUITEM_AUDIO_MUSIC.text[1]","",""
+"Scripts/System/Menu/Menu_Opt_Audio.d:137","Hintergrundmusik an- bzw. ausschalten.","切 换 背 景 音 乐 开／关 。","","False","MENUITEM_AUDIO_MUSIC.text[1]","",""
 "Scripts/System/Menu/Menu_Opt_Audio.d:179","Soundprovider","声 音 提 供 器","","False","MENUITEM_AUDIO_PROVIDER.text[0]","",""
 "Scripts/System/Menu/Menu_Opt_Audio.d:180","Eine Änderung wirkt sich erst beim Neustart aus!","你 需 要 重 新 启 动 让 改 变 生 效 。","","False","MENUITEM_AUDIO_PROVIDER.text[1]","",""
 "Scripts/System/Menu/Menu_Opt_Audio.d:212","Lautsprecher","扬 声 器","","False","MENUITEM_AUDIO_SPEEKER.text[0]","",""
