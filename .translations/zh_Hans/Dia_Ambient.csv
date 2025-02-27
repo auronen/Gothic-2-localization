@@ -834,7 +834,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:100","Was habt ihr denn verbrochen?","那 么 你 犯 了 什 么 罪 ？","","False","DIA_BDT_1031_Fluechtling_Tip1.DIA_BDT_1031_Fluechtling_Tip1_frei_verbrechen","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:105","Was habt ihr denn verbrochen?","那 么 你 犯 了 什 么 罪 ？","","False","DIA_BDT_1031_Fluechtling_Tip1_frei_verbrechen_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:106","Das geht dich nichts an.","那 不 关 你 的 事 。","","False","DIA_BDT_1031_Fluechtling_Tip1_frei_verbrechen_07_01","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:231","(ängstlich) Was willst du von mir?","（ 害 怕 ） 你 想 从 我 这 里 得 到 什 么 ？ 走 开 ！？","","False","DIA_BDT_1033_Fluechtling_Tip2_07_00","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:231","(ängstlich) Was willst du von mir?","（ 害 怕 ） 你 想 从 我 这 里 得 到 什 么 ？","","False","DIA_BDT_1033_Fluechtling_Tip2_07_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:237","Bleib locker. Ich will nur reden.","放 松 。 我 只 是 想 和 你 谈 谈 。","","False","DIA_BDT_1033_Fluechtling_Tip2.DIA_BDT_1033_Fluechtling_Tip2_frei","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:238","Der Richter hat mich geschickt um dich zurück zu bringen.","法 官 派 我 来 带 你 回 去 。","","False","DIA_BDT_1033_Fluechtling_Tip2.DIA_BDT_1033_Fluechtling_Tip2_Knast","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_BDT_10xx_Fluechtling.d:239","Wo ist euer Anführer Morgahard?","默 加 哈 德 - 你 的 首 领 在 哪 里 ？","","False","DIA_BDT_1033_Fluechtling_Tip2.DIA_BDT_1033_Fluechtling_Tip2_Morgahard","Info_AddChoice",""
