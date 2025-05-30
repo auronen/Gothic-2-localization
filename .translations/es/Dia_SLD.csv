@@ -192,7 +192,7 @@
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1048","Ich habe hier eine bessere Rüstung für dich. Das heißt, wenn du das nötige Kleingeld hast.","Aquí tengo una armadura mejor, para ti. Siempre que tengas los medios.","","","DIA_Lee_ArmorM_04_02","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1054","Torlof hat noch einen Auftrag von Onar, der schon seit einiger Zeit erledigt werden muss.","Torlof tiene un encargo de Onar que se tendría que haber hecho hace tiempo.","","","DIA_Lee_ArmorM_04_03","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1055","Kümmere dich zuerst darum - dann reden wir über eine bessere Rüstung!","Ocúpate de ello, ¡y luego hablaremos de la armadura!","","","DIA_Lee_ArmorM_04_04","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1071","Mittlere Söldnerrüstung kaufen. Schutz: Waffen 50, Pfeile 50. Kosten: 1000 Gold","Comprar armadura intermedia. Protección: armas 45, flechas 45. Precio: 1000.","","","DIA_Lee_BuyArmorM.description","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1071","Mittlere Söldnerrüstung kaufen. Schutz: Waffen 50, Pfeile 50. Kosten: 1000 Gold","Comprar armadura intermedia. Protección: armas 50, flechas 50. Precio: 1000.","","False","DIA_Lee_BuyArmorM.description","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1085","Gib mir die Rüstung.","Dame la armadura.","","","DIA_Lee_BuyArmorM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1089","Hier hast du sie. Eine gute Rüstung.","Toma. Una buena armadura.","","","DIA_Lee_BuyArmorM_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1098","Aber nicht geschenkt! Zuerst will ich das Gold sehen!","¡Pero no es gratis! ¡Antes quiero ver algo de oro!","","","DIA_Lee_BuyArmorM_04_02","",""
