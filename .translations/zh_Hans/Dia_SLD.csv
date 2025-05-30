@@ -192,7 +192,7 @@
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1048","Ich habe hier eine bessere Rüstung für dich. Das heißt, wenn du das nötige Kleingeld hast.","我 这 里 有 一 些 更 好 的 盔 甲 给 你 。 就 是 这 个 ， 如 果 你 有 必 要 的 资 金 的 话 。","","False","DIA_Lee_ArmorM_04_02","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1054","Torlof hat noch einen Auftrag von Onar, der schon seit einiger Zeit erledigt werden muss.","托 尔 洛 夫 接 到 了 欧 纳 尔 派 遣 的 任 务 ， 那 早 就 应 该 解 决 了 。","","False","DIA_Lee_ArmorM_04_03","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1055","Kümmere dich zuerst darum - dann reden wir über eine bessere Rüstung!","先 解 决 那 个 问 题 - 然 后 ， 我 们 再 讨 论 更 好 盔 甲 的 事 ！","","False","DIA_Lee_ArmorM_04_04","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1071","Mittlere Söldnerrüstung kaufen. Schutz: Waffen 50, Pfeile 50. Kosten: 1000 Gold","购 买 中 型 雇 佣 兵 盔 甲 。 防 护 ： 武 器 ４ ５ ， 箭 ４ ５ 。 花 费 ： １ ００ ０ 金 币","","False","DIA_Lee_BuyArmorM.description","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1071","Mittlere Söldnerrüstung kaufen. Schutz: Waffen 50, Pfeile 50. Kosten: 1000 Gold","购 买 中 型 雇 佣 兵 盔 甲 。 防 护 ： 武 器 ５０ ， 箭 ５０ 。 花 费 ： １ ００ ０ 金 币","","False","DIA_Lee_BuyArmorM.description","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1085","Gib mir die Rüstung.","给 我 那 个 盔 甲 。","","False","DIA_Lee_BuyArmorM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1089","Hier hast du sie. Eine gute Rüstung.","给 你 。 很 好 的 盔 甲 。","","False","DIA_Lee_BuyArmorM_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_800_Lee.d:1098","Aber nicht geschenkt! Zuerst will ich das Gold sehen!","但 它 不 是 礼 物 ！ 首 先 ， 我 想 看 到 一 些 金 子 ！","","False","DIA_Lee_BuyArmorM_04_02","",""
