@@ -3191,7 +3191,7 @@
 "Scripts/Content/Items/IT_Addon_Armor.d:100","","","","","ITAR_PIR_H_Addon.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Armor.d:111","Schwere Gardistenrüstung","Těžká strážní zbroj","","","ITAR_Thorus_Addon.name","",""
 "Scripts/Content/Items/IT_Addon_Armor.d:131","Rüstung von Raven's Garde","Zbroj Ravenových stráží","","False","ITAR_Thorus_Addon.description","",""
-"Scripts/Content/Items/IT_Addon_Armor.d:143","Ravens Rüstung","Ravenva zbroj","","False","ITAR_Raven_Addon.name","",""
+"Scripts/Content/Items/IT_Addon_Armor.d:143","Ravens Rüstung","Ravenova zbroj","","False","ITAR_Raven_Addon.name","",""
 "Scripts/Content/Items/IT_Addon_Armor.d:164","","","","","ITAR_Raven_Addon.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Armor.d:175","Erzbaronrüstung","Zbroj skřetího barona","","","ITAR_OreBaron_Addon.name","",""
 "Scripts/Content/Items/IT_Addon_Armor.d:196","","","","","ITAR_OreBaron_Addon.text[0]","",""
