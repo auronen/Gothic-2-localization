@@ -439,7 +439,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:70","Ich wollte mich hier mal umsehen...","Просто хотів оглянутись навколо...","","True","DIA_Maria_Umsehen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:71","Seit die ganzen Kerle auf dem Hof sind, hat man hier im Haus keine Ruhe mehr.","Відтоді, як тут з'явились всі ці чоловіки, в будинку не може бути ні хвилини спокою.","","False","DIA_Maria_Umsehen_17_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:72","Dauernd kommt einer reingestiefelt.","Вони всюди.","","False","DIA_Maria_Umsehen_17_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:84","Stören dich die Söldner?","Чи заважає присутність найманців?","","False","DIA_Maria_Soeldner.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:84","Stören dich die Söldner?","Найманці тебе турбують?","","False","DIA_Maria_Soeldner.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:97","Stören dich die Söldner?","Czy obecnoњж najemnikуw jest dla ciebie kіopotliwa?","","True","DIA_Maria_Soeldner_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:101","Na ja, ich will ja nichts gesagt haben, seit ihr hier seid, ist es sehr viel sicherer geworden.","Hm, zapomnij o tym, co przed chwil№ powiedziaіam. W koсcu chodzi przecieї o nasze bezpieczeсstwo.","","True","DIA_Maria_Soeldner_17_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:105","Na ja, seit die Söldner hier sind, ist der Hof viel sicherer geworden.","Przynajmniej dopуki tu s№, nie musimy siк obawiaж o wіasne їycie.","","True","DIA_Maria_Soeldner_17_02","",""
