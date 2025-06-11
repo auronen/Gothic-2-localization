@@ -2848,7 +2848,7 @@
 "Scripts/Content/Items/MissionItems_Addon.d:34","Entsende eines unserer Kinder vom 'Ring des Wassers', um es uns zurück zu bringen. Wenn es geht, schicke nicht Cavalorn.","Vyšli prosím některé z dítek 'kruhu vody', aby nám jej přineslo. Ale pokud možno tím nepověřuj Cavalorna.","","","SaturasFirstMessage_8","",""
 "Scripts/Content/Items/MissionItems_Addon.d:35","Ich habe ihn damit beauftragt, dir diesen Brief zu überbringen. Ich denke, damit hat er erst einmal genug getan.","Myslím, že větší úkol než doručení tohoto dopisu by byl nad jeho síly.","","","SaturasFirstMessage_9","",""
 "Scripts/Content/Items/MissionItems_Addon.d:36","Ich hoffe, dass wir das Richtige tun.","Doufám, že děláme správnou věc.","","","SaturasFirstMessage_10","",""
-"Scripts/Content/Items/MissionItems_Addon.d:37","Saturas","Milý Saturasi,","","","SaturasFirstMessage_11","",""
+"Scripts/Content/Items/MissionItems_Addon.d:37","Saturas","Saturas","","False","SaturasFirstMessage_11","",""
 "Scripts/Content/Items/MissionItems_Addon.d:100","Geöffnete Botschaft","Otevřená zpráva","","","ItWr_SaturasFirstMessage_Addon.name","",""
 "Scripts/Content/Items/MissionItems_Addon.d:114","","","","","ItWr_SaturasFirstMessage_Addon.text[0]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:115","","","","","ItWr_SaturasFirstMessage_Addon.text[1]","",""
