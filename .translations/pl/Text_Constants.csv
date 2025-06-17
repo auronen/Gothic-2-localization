@@ -866,3 +866,7 @@
 "Scripts/Content/Story/Text.d:1256","Die Hallen von Irdorath","Dwór Irdorath","","False","KapWechsel_6_Text","",""
 "","Ende","Koniec","","False","_STR_MESSAGE_GAMEOVER","",""
 "","Ich habe keine Munition!","Nie mam amunicji!","","False","Print_NoAmmo","",""
+"","Jharkendar","Jarkendar","","False","LEVELNAME_ADDONWORLD","",""
+"","Irdorath","Irdorath","","False","LEVELNAME_DRAGONISLAND","",""
+"","Khorinis","Khorinis","","False","LEVELNAME_NEWWORLD","",""
+"","Minental","Górnicza Dolina","","False","LEVELNAME_OLDWORLD","",""
