@@ -595,7 +595,7 @@
 "Scripts/Content/Story/Text.d:844","Lerne: Rune erschaffen","Learn: Create rune","","","PRINT_LearnRunes","",""
 "Scripts/Content/Story/Text.d:845","Lerne: Trank brauen","Learn: Brew potion","","","PRINT_LearnAlchemy","",""
 "Scripts/Content/Story/Text.d:846","Lerne: Auge Innos aufladen","Learn: Charge Eye of Innos","","","PRINT_LearnAlchemyInnosEye","",""
-"Scripts/Content/Story/Text.d:847","Lerne: Tiere ausschlachten","Learn: Take animaltrophy","","","PRINT_LearnTakeAnimalTrophy","",""
+"Scripts/Content/Story/Text.d:847","Lerne: Tiere ausschlachten","Learn: Take animal trophies","","False","PRINT_LearnTakeAnimalTrophy","",""
 "Scripts/Content/Story/Text.d:848","Lerne: Sprache der Erbauer","Learn: Language of the builders","","","PRINT_LearnForeignLanguage","",""
 "Scripts/Content/Story/Text.d:849","Dein Irrlicht hat gelernt","Your will-o'-the-wisp has learned","","","PRINT_LearnWispDetector","",""
 "Scripts/Content/Story/Text.d:850","Lerne: Geheime Teleport Rune bauen","Learn: Create secret teleport rune","","","PRINT_LearnPalTeleportSecret","",""
