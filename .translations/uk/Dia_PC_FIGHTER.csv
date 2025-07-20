@@ -32,7 +32,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_NW.d:79","Und dann?","А потім?","","","DIA_GornNW_Add_15_07","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_NW.d:80","Mal sehen... Vielleicht geh ich in die Minenkolonie zurück.","Біс його знає... Можливо, знову повернусь у Колонію.","","","DIA_GornNW_Add_12_08","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_NW.d:81","Jemand sollte ein Auge auf die Orks werfen - sonst stehen sie plötzlich ohne Warnung alle hier vor der Tür.","Хтось повинен стежити за орками. Ми ж не хочеио, щоб вони, без всяких попереджень, опинилися у нас на порозі?","","","DIA_GornNW_Add_12_09","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:46","Die Faulenzerei hat ein Ende - du bist frei!","Досить байдики бити - ти вільний!","","","DIA_GornOW_Hello_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:46","Die Faulenzerei hat ein Ende - du bist frei!","Досить байдики бити — ти вільний!","","False","DIA_GornOW_Hello_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:47","Wurde auch langsam Zeit, dass mich hier wer rausholt.","Давно пора, щоб хтось витягнув мене звідси.","","","DIA_GornOW_Hello_12_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:48","Mit dir hätte ich allerdings nicht gerechnet. Ist verdammt gut, dich zu sehen.","Але не очікував що це будеш ти. Я до біса радий тебе бачити.","","","DIA_GornOW_Hello_12_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:49","(grinst) Garond sagt, du würdest zu viel essen und er kann dich nicht mehr durchfüttern.","(посміхається) Гаронд каже, що ти забагато їси, і він не в змозі тебе прогодувати.","","","DIA_GornOW_Hello_15_03","",""
