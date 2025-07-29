@@ -319,7 +319,7 @@
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:122","Lou's Hammer versuchen...","Спробувати зробити'Молот Лу»...","","False","PC_Booze_Lou.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:167","Lou's Hammer mit doppelter Menge Rum.","Молот Лу з подвійним ромом","","","PC_Booze_Schlaf.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:212","Schnellen Hering mixen.","Зробити «Швидкий оселедець'","","False","PC_Booze_SchnellerHering.description","",""
-"Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:257","Das Auge Innos wieder aufladen.","Зарядити Око Інноса","","","PC_Charge_InnosEye.description","",""
+"Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:257","Das Auge Innos wieder aufladen.","Зарядити око Інноса","","False","PC_Charge_InnosEye.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:319","Manatränke brauen","Виготовити зілля мани","","","PC_Mana_Start.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:373","Mana Essenz (2 Feuernesseln, 1 Feldknöterich)","Есенція мани (2 вогняні кропиви і 1 польовий спориш)","","","PC_ItPo_Mana_01.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:414","Mana Extrakt (2 Feuerkraut, 1 Feldknöterich) ","Екстракт мани (2 вогняних трави і 1 польовий спориш) ","","","PC_ItPo_Mana_02.description","",""
