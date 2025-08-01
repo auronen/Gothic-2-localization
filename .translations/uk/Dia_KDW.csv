@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:22","Adanos mΟΕge dich schΟΦtzen.","Niech ci–Κ chroni Adanos.","","True","DIA_Addon_Saturas_ADW_EXIT_14_00","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:22","Adanos mΟΕge dich schΟΦtzen.","Хай Аданос оберігає тебе.","","False","DIA_Addon_Saturas_ADW_EXIT_14_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:99","Adanos sei Dank. Da bist du ja endlich. Wir dachten schon, du tauchst gar nicht mehr auf.","Dzi–Κki Adanosowi. Nareszcie jeste―ö. My―öleli―ömy, ―½e ju―½ si–Κ nie poka―½esz.","","True","DIA_Addon_Saturas_ADWStart_14_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:100","(irritiert) Was? Wieso seid ihr schon HIER?","Co? Skβ³•d si–Κ tu wzi–Κli―öcie?","","True","DIA_Addon_Saturas_ADWStart_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_KDW_14000_Saturas_ADW.d:101","Du bist durch das Portal gegangen und wir folgten dir. Es dauerte nicht lang, da sind wir hier angekommen.","Przeszed―•e―ö przez portal, a my za tobβ³•. Wkr―Étce potem przybyli―ömy tutaj.","","True","DIA_Addon_Saturas_ADWStart_14_02","",""
