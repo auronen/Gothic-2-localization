@@ -278,7 +278,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:566","Hier sind 200 Goldstücke. Gib mir ein Schaf.","Ось, 200 золотих. Дозволь мені одну вівцю.","","False","DIA_Onar_BuyLiesel.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:579","Hier sind 200 Goldstücke. Gib mir ein Schaf.","Ось, 200 золотих. Дозволь мені одну вівцю.","","False","DIA_Onar_BuyLiesel_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:583","Du kannst dir eins von der Weide holen.","Можеш взяти одну з пасовища.","","False","DIA_Onar_BuyLiesel_14_01","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:584","Irgendein Schaf wird dir schon folgen. Die meisten hören auf den Namen Liesel.","Якась з овець має піти за тобою. Майже всі вони відкликаються на «Лізель».","","False","DIA_Onar_BuyLiesel_14_02","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:584","Irgendein Schaf wird dir schon folgen. Die meisten hören auf den Namen Liesel.","Якась з овець має піти за тобою. Майже всі вони відкликаються на Лізель.","","False","DIA_Onar_BuyLiesel_14_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:592","Du hast ja nicht mal so viel Gold. Verschwende nicht meine kostbare Zeit!","У тебе навіть немає стільки золота. Не витрачай мій дорогоцінний час.","","False","DIA_Onar_BuyLiesel_14_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_902_Gunnar.d:36","Wie sieht's aus?","Як справи?","","False","DIA_Gunnar_Hallo.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_902_Gunnar.d:46","Wie sieht's aus?","Як справи?","","","DIA_Gunnar_Hallo_15_00","",""
