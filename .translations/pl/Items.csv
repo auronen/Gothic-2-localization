@@ -3055,7 +3055,7 @@
 "Scripts/Content/Items/MissionItems_Addon.d:1388","Ich hoffe, daß RHADEMES für alle Zeiten im Tempel verrottet!","Oby RADEMES przez całą wieczność gnił wewnątrz świątyni!","","","Addon_Stone_02_3","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1389","QUARHODRON Ygc slje asdkjhnead. KHARDIMON Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh. Fjewheege Egdgsmkd Esfjwedbwe asdkjhnead. Gkjsdhad Uhnd.","QUARHODRON Ygc slje asdkjhnead. KHARDIMON Weinfiwjf Ihwqpjrnn. Erfjkemvfj Hwoqmnyhan ckh. Fjewheege Egdgsmkd Esfjwedbwe asdkjhnead. Gkjsdhad Uhnd.","","","Addon_Stone_02_4","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1390","Revfnbrebuiwe ewohjfribwe wef. Sebnejbuwd Weinfiwjf Ihwqpjrnn.","Revfnbrebuiwe ewohjfribwe wef. Sebnejbuwd Weinfiwjf Ihwqpjrnn.","","","Addon_Stone_02_5","",""
-"Scripts/Content/Items/MissionItems_Addon.d:1391","Erfjkemvfj RHADEMES Fjewheege Egdgsmkd!","Erfjkemvfj RADEMES Fjewheege Egdgsmkd!","","","Addon_Stone_02_6","",""
+"Scripts/Content/Items/MissionItems_Addon.d:1391","Erfjkemvfj RHADEMES Fjewheege Egdgsmkd!","Erfjkemvfj RADEMES Fjewheege Egdgsmkd!","","False","Addon_Stone_02_6","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1430","Goldener Kompass","Złoty kompas","","","ItMI_Addon_Kompass_Mis.name","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1441","","","","","ItMI_Addon_Kompass_Mis.text[0]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1442","","","","","ItMI_Addon_Kompass_Mis.text[1]","",""
