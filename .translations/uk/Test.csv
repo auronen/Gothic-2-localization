@@ -164,7 +164,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:4142","Kampfsprüche","Бойові заклинання","","","DIA_CH_Misc_PalKampf.description","",""
 "Scripts/Content/AI/Test_Skripts/PC_ItemFeller.d:4","Mr. Item","Mr. Item","","","PC_Itemfeller.name","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:7","Gluck","Ґлюк","","","ItPo_Story.name","",""
-"Scripts/Content/AI/Test_Skripts/StoryHelper.d:21","Macht, daß es weitergeht bei Raven Video I","Увімкнути вступний ролик до аддону Ніч Ворона","","","ItPo_Story.description","",""
+"Scripts/Content/AI/Test_Skripts/StoryHelper.d:21","Macht, daß es weitergeht bei Raven Video I","Увімкнути вступний ролик доповнення Ніч Крука","","False","ItPo_Story.description","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:22","","","","","ItPo_Story.text[0]","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:23","","","","","ItPo_Story.text[1]","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:24","","","","","ItPo_Story.text[2]","",""
