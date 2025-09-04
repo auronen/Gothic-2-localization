@@ -548,7 +548,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:349","Das ist nicht dein Ernst, oder? Verschwinde!","Ти ж жартуєш, правда? Зникни!","","False","DIA_Godar_Hunting_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:354","Ein Tier hat mehr als nur Fleisch. Du kannst die Felle oder Krallen verkaufen. Das kann ein ganz schönes Sümmchen einbringen.","У тварини є не лише м’ясо. Можна продавати шкури чи кігті. Це може принести непоганий заробіток.","","False","DIA_Godar_Hunting_13_03","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:355","Ich kann es kaum erwarten, einen Drachen in die Finger zu bekommen.","Я вже не можу дочекатися, щоб упіймати якогось дракона.","","False","DIA_Godar_Hunting_13_04","",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:371","Zeig mir das Ausnehmen von Drachen.","Покажи мені, як потрошити драконів.","","True","DIA_Godar_Dragonstuff.description","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:371","Zeig mir das Ausnehmen von Drachen.","Покажи мені, як потрошити драконів.","","False","DIA_Godar_Dragonstuff.description","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:388","Zeig mir das Ausnehmen von Drachen.","Покажи мені, як потрошити драконів.","","False","DIA_Godar_Dragonstuff_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:390","Damit du die Kohle ganz allein scheffeln kannst, was?","Щоб ти міг сам заробляти гроші, так?","","False","DIA_Godar_Dragonstuff_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:392","Na gut, aber das kostet dich 1000 Goldmünzen.","Гаразд, але це коштуватиме тобі 1000 золотих монет.","","False","DIA_Godar_Dragonstuff_13_02","",""
