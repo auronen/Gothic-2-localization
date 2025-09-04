@@ -938,7 +938,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Preach_Vatras.d:99","Aber Adanos fürchtete sich vor dem Tag, an dem das Tier auf das Land zurückkehren würde.","Але Аданос боявся дня, коли звір повернеться на землю.","","False","DIA_Vatras_PREACH_05_18","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Preach_Vatras.d:104","Und so bat er Innos, jenen Teil seiner Macht in seinem Reiche zu belassen, auf dass er sie dem Menschen wiedergebe, falls das Tier zurückkehren sollte.","І тому він попросив Інноса залишити частину своєї влади в його королівстві, щоб він міг повернути її людям, якщо звір повернеться.","","False","DIA_Vatras_PREACH_05_19","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Preach_Vatras.d:109","Und Innos, in seiner Weisheit, tat es.","І Іннос, у своїй мудрості, зробив це.","","False","DIA_Vatras_PREACH_05_20","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:48","(agressiv) KHROTOK JABARTH!!!","(агресивно) КХРОТОК ЯБАРТХ!!!","","False","DIA_Urshak_HALLO_18_00","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:48","(agressiv) KHROTOK JABARTH!!!","(агресивно) КРОТОК ЯБАРТ!!!","","False","DIA_Urshak_HALLO_18_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:49","Warte! Ich dich wieder erkennen. Du Freund Mensch mit weicher Stimme.","Зачекай! Моя знати тебе. Ти друг людина з м'яким голосом.","","False","DIA_Urshak_HALLO_18_01","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:50","Freund töten bösen Dämon KRUSHAK.","Друг, що вбити злий демон КРУШАК.","","False","DIA_Urshak_HALLO_18_02","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Urshak.d:59","Was machst du hier?","Що ти тут робиш?","","False","DIA_Urshak_HALLO.DIA_Urshak_HALLO_freund","Info_AddChoice",""
