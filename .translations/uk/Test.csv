@@ -138,7 +138,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:2813","Armbrust","Арбалет","","","DIA_CH_Kampf_Armbrust.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:2908","Diebestalente","Злодійські вміння","","","DIA_CH_Dieb_Start.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:2939","ZURÜCK","НАЗАД","","","DIA_CH_Dieb_Stopper.description","",""
-"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:2965","Taschendiebstahl","Кишенькові крадіжки","","","DIA_CH_Dieb_Steal.description","",""
+"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:2965","Taschendiebstahl","Кишен. крадіжки","","False","DIA_CH_Dieb_Steal.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:2998","Schleichen","Підкрадання","","","DIA_CH_Dieb_Schleichen.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3031","Schlösser öffnen","Зламування замків","","","DIA_CH_Dieb_Picklock.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3064","Alle Diebestalente lernen","Вивчити усі злодійські навички","","","DIA_CH_Dieb_Alle.description","",""
