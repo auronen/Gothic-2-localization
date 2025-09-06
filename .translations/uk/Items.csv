@@ -1883,7 +1883,7 @@
 "Scripts/Content/Items/MissionItems_1.d:687","Alrik´s Schwert","Меч Альріка","","","ItMw_AlriksSword_Mis.name","",""
 "Scripts/Content/Items/MissionItems_1.d:708","","","","","ItMw_AlriksSword_Mis.text[0]","",""
 "Scripts/Content/Items/MissionItems_1.d:709","","","","","ItMw_AlriksSword_Mis.text[1]","",""
-"Scripts/Content/Items/MissionItems_1.d:732","Versiegelte Botschaft","Запечатане повідомлення","","","ItWr_VatrasMessage.name","",""
+"Scripts/Content/Items/MissionItems_1.d:732","Versiegelte Botschaft","Запечатане послання","","False","ItWr_VatrasMessage.name","",""
 "Scripts/Content/Items/MissionItems_1.d:746","","","","","ItWr_VatrasMessage.text[0]","",""
 "Scripts/Content/Items/MissionItems_1.d:747","","","","","ItWr_VatrasMessage.text[1]","",""
 "Scripts/Content/Items/MissionItems_1.d:748","Eine Botschaft von Vatras","Повідомлення від Ватраса","","","ItWr_VatrasMessage.text[2]","",""
