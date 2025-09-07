@@ -2057,7 +2057,7 @@
 "Scripts/Content/Items/MissionItems_1.d:1635","","","","","ItKe_Salandril.text[0]","",""
 "Scripts/Content/Items/MissionItems_1.d:1636","","","","","ItKe_Salandril.text[1]","",""
 "Scripts/Content/Items/MissionItems_1.d:1637","von Salandril dem Alchemisten","Це ключ від скрині,","","","ItKe_Salandril.text[2]","",""
-"Scripts/Content/Items/MissionItems_1.d:1638","","що належить Саландрилу","","","ItKe_Salandril.text[3]","",""
+"Scripts/Content/Items/MissionItems_1.d:1638","","що належить Саландрілу","","False","ItKe_Salandril.text[3]","",""
 "Scripts/Content/Items/MissionItems_1.d:1647","Truhen Schlüssel","Ключ від скрині","","","ItKe_PaladinTruhe.name","",""
 "Scripts/Content/Items/MissionItems_1.d:1658","","","","","ItKe_PaladinTruhe.text[0]","",""
 "Scripts/Content/Items/MissionItems_1.d:1659","","","","","ItKe_PaladinTruhe.text[1]","",""
