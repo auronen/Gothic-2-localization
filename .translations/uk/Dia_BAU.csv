@@ -1959,7 +1959,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:76","Okay, klingt gut. Gib mir die Spruchrollen.","Добре, звучить заманливо. Дай мені сувої з заклинаннями.","","False","DIA_Orlan_Wein.DIA_Orlan_Wein_Okay","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:77","Was sind das für Spruchrollen? ","Що це за сувої? ","","False","DIA_Orlan_Wein.DIA_Orlan_Wein_Was","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:82","Hey, gib mir einfach die 240 Goldmünzen.","Гей, просто давай мені 240 золотих монет.","","False","DIA_Orlan_Wein_Nie_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:83","Du willst kein Geschäft machen, was? -seufz- Na gut, hier ist das Gold.","Ти не хочеш укласти угоду, так? (зітхання) Ну добре, ось золото.","","False","DIA_Orlan_Wein_Nie_05_01","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:83","Du willst kein Geschäft machen, was? -seufz- Na gut, hier ist das Gold.","Ти не хочеш укласти угоду, так? (зітхає) Ну добре, ось золото.","","False","DIA_Orlan_Wein_Nie_05_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:100","Okay, klingt gut. Gib mir die Spruchrollen.","Добре, звучить заманливо. Дай мені сувої з заклинаннями.","","False","DIA_Orlan_Wein_Okay_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:101","Hier sind die Spruchrollen und das Gold.","Ось тут сувої з заклинаннями та золото.","","False","DIA_Orlan_Wein_Okay_05_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:114","Was sind das für Spruchrollen?","Що це за сувої?","","False","DIA_Orlan_Wein_Was_15_00","",""
