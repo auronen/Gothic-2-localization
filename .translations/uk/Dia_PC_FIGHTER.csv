@@ -45,7 +45,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:65","Alles klar.","Звісно.","","","DIA_GornOW_Hello_12_06","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:100","Pass auf - ich hab lange genug hier rumgelungert. Wird Zeit, dass ich mal was anderes sehe als dieses Tal.","Слухай, я занадто довго тут бовтався. Настав час побачити щось інше, крім цієї Долини.","","","DIA_GornOW_MetMilten_12_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:101","Wie bist du über den Pass gekommen?","Як ти пройшов через Перевал?","","","DIA_GornOW_MetMilten_12_01","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:102","Es gibt einen Weg durch die verlassene Mine.","Там є стежка через покинуту шахту.","","","DIA_GornOW_MetMilten_15_02","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:102","Es gibt einen Weg durch die verlassene Mine.","Там є стежка через занедбану копальню.","","False","DIA_GornOW_MetMilten_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:103","Gut. Ich warte noch auf einen günstigen Moment und dann haue ich ab.","Добре. Я дочекаюся зручного моменту, і піду звідси.","","","DIA_GornOW_MetMilten_12_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:107","Wo willst du dann hin?","А куди ти підеш?","","","DIA_GornOW_MetMilten_15_04","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Fighter_OW.d:108","Ich hab gehört, dass Lee noch lebt. Ich will mich ihm wieder anschließen.","Я чув, Лі ще живий. Я знову хочу приєднатися до нього.","","","DIA_GornOW_MetMilten_12_05","",""
