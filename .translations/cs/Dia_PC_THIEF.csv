@@ -123,7 +123,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:267","Gut. Ich habe im Minental einen Schatz versteckt, und du sollst ihn mir holen.","Takže. V Hornickém údolí jsem si schoval poklad, a ty mi ho přineseš.","","","DIA_DiegoNW_HelpYou_11_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:268","Ich bleibe derweil hier und bereite alles vor.","Já mezitím zůstanu tady a všechno připravím.","","","DIA_DiegoNW_HelpYou_11_06","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:288","Ich habe dein Gold gefunden!","Našel jsem tvoje zlato!","","","DIA_DiegoNW_HaveYourGold.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:304","Sehr schön. Jetzt kann Gerbrandt sich auf was gefasst machen.","Prefekt. Gerbrandt by se měl radši mít na pozoru.","","","DIA_DiegoNW_HaveYourGold_11_05","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:304","Sehr schön. Jetzt kann Gerbrandt sich auf was gefasst machen.","Výborně. A teď se může Gerbrandt těšit na něco zajímavého.","","False","DIA_DiegoNW_HaveYourGold_11_05","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:311","Ich habe dein Gold gefunden!","Našel jsem tvoje zlato!","","","DIA_DiegoNW_HaveYourGold_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:312","Gut. Zeig her.","Výborně. Ukaž.","","","DIA_DiegoNW_HaveYourGold_11_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_NW.d:322","Da ist doch nicht alles! Vertraust du mir nicht? Ich brauche den gesamten Betrag.","Ale to není všechno! Nevěříš mi? Potřebuju všechno.","","","DIA_DiegoNW_HaveYourGold_11_02","",""
