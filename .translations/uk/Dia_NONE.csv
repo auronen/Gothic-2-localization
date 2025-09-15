@@ -203,7 +203,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:154","Dann lass uns machen, dass wir hier wegkommen!","Тоді тікаймо звідси!","","False","DIA_Xardas_AWAY_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:155","Wenn wir fliehen, dann nur, um uns den Drachen später zu stellen.","Якщо ми втечемо, то тільки для того, щоб зустрітися з драконами пізніше.","","False","DIA_Xardas_AWAY_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:156","Mit der Hilfe der Soldaten und der Magier aus dieser Gegend können wir sie aufhalten, bevor sie sich ihre Armee vollständig formiert hat.","За допомогою воїнів і магів з цього краю ми можемо зупинити їх, перш ніж вони повністю сформують свою армію.","","False","DIA_Xardas_AWAY_14_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:157","Eine bessere Chance werden wir nicht bekommen.","Кращої нагоди ми не матимемо.","","True","DIA_Xardas_AWAY_14_03","",""
+"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:157","Eine bessere Chance werden wir nicht bekommen.","Кращої нагоди ми не матимемо.","","False","DIA_Xardas_AWAY_14_03","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:169","Was können wir tun?","Що ми можемо зробити?","","False","DIA_Xardas_TODO.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:182","Was können wir tun?","Що ми можемо зробити?","","False","DIA_Xardas_TODO_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:183","Diesmal schaffen wir es nicht alleine. Nur die Macht Innos' kann uns gegen die Drachen helfen.","Цього разу ми не впораємося самотужки. Тільки сила Інноса може допомогти нам у боротьбі з драконами.","","False","DIA_Xardas_TODO_14_01","",""
