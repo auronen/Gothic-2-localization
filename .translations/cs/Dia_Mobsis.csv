@@ -302,7 +302,7 @@
 "Scripts/Content/Story/Dialog_Mobsis/Bookstand_OldCamp.d:137","56 Fässer Wasser","56 sudů na vodu","","","Bookstand_Engor_01_S1_12","",""
 "Scripts/Content/Story/Dialog_Mobsis/Bookstand_OldCamp.d:138","1 Kiste Sumpf...- (was auch immer es war, es ist verdorben.)","1 bedna něčeho z bažin (ať to bylo co bylo, teď je to shnilé)","","","Bookstand_Engor_01_S1_13","",""
 "Scripts/Content/Story/Dialog_Mobsis/Bookstand_OldCamp.d:139","Engor","Engor","","","Bookstand_Engor_01_S1_14","",""
-"Scripts/Content/Story/Dialog_Mobsis/Goldhacken.d:159","Einfach mal hacken. ","Tak si trochu zakácíme.","","","PC_Goldhacken_Addon_Hour.description","",""
+"Scripts/Content/Story/Dialog_Mobsis/Goldhacken.d:159","Einfach mal hacken. ","Doluj zlato. ","","False","PC_Goldhacken_Addon_Hour.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Goldhacken.d:248","Trümmerschlag ansetzen.","Pořádně do toho prašti.","","","PC_Goldhacken_Addon_TSchlag.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Goldhacken.d:306","(Eigene Fähigkeit prüfen)","(ohodnoť si vlastní schopnosti)","","","PC_Goldhacken_Addon_Chance.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/MakeRune.d:57","Runen Kreis 1 erschaffen","Vytvořit runy 1. kruhu","","","PC_Circle_01.description","",""
