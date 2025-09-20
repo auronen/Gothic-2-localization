@@ -430,7 +430,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_908_Hodges.d:348","Was die vorhaben, weiß ich natürlich nicht genau, aber einige sind wirklich stinksauer.","Nevím, co maj za lubem, ale některý z nich jsou fakt vytočený.","","","DIA_Hodges_BennetAndSLD_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_908_Hodges.d:349","Kann ich verstehen.","To je pochopitelné.","","","DIA_Hodges_BennetAndSLD_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_908_Hodges.d:350","Wenn es nach denen geht, würden sie lieber heute als morgen die Stadt angreifen, um Bennet da raus zu holen.","Kdyby to bylo jen na nich, nejradši by hned vpadli do města a dostali Benneta ven.","","","DIA_Hodges_BennetAndSLD_03_03","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_908_Hodges.d:351","Sprich mal mit Lee, vielleicht kannst du ja was unternehmen.","Promluv si s Leem, třeba ti něco najde.","","","DIA_Hodges_BennetAndSLD_03_04","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_908_Hodges.d:351","Sprich mal mit Lee, vielleicht kannst du ja was unternehmen.","Promluv si s Leem, třeba s tím budete moct něco udělat.","","True","DIA_Hodges_BennetAndSLD_03_04","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:33","Wer bist du?","Kdo jsi?","","","DIA_Maria_Hallo.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:43","Wer bist du?","Kdo jsi?","","","DIA_Maria_Hallo_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_910_Maria.d:44","Ich bin Maria, die Frau von Onar.","Jsem Onarova žena, Maria.","","","DIA_Maria_Hallo_17_01","",""
