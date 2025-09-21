@@ -363,7 +363,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:940","Ich bin bereit für den Kampf gegen die Drachen.","Jsem připraven bojovat s draky.","","","DIA_Xardas_BEREIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:956","Ich bin bereit für den Kampf gegen die Drachen.","Jsem připraven bojovat s draky.","","","DIA_Xardas_BEREIT_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:957","Dann lass uns keine Zeit verlieren. Ich werde umgehend zum Sonnenkreis aufbrechen. Erledige deine Aufgaben. Wir treffen uns dann dort.","V tom případě už nemůžeme plýtvat časem. Okamžitě se vydám do slunečního kruhu. Splň, co musíš. Setkáme se tam.","","","DIA_Xardas_BEREIT_14_01","",""
-"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:975","Wird das Umkehrritual funktionieren?","Bude rituál zvratu fungovat?","","","DIA_Xardas_BINGESPANNT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:975","Wird das Umkehrritual funktionieren?","Bude rituál obrácení fungovat?","","True","DIA_Xardas_BINGESPANNT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:990","Wird das Umkehrritual funktionieren?","Bude obrácený rituál fungovat?","","","DIA_Xardas_BINGESPANNT_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:991","Ich bin mir nicht sicher. Kommt darauf an, was Vatras genau tun wird.","To nemůžu vědět najisto. Záleží to na tom, co přesně chce Vatras udělat.","","","DIA_Xardas_BINGESPANNT_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:1003","Pyrokar weigert sich, zum Ritual zu erscheinen.","Pyrokar se odmítá zúčastnit rituálu.","","","DIA_Xardas_PYROWILLNICHT.description","",""
