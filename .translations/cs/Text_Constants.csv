@@ -787,7 +787,7 @@
 "Scripts/Content/Story/Text.d:1111"," Gold"," zlato","","","PRINT_BiffGold","",""
 "Scripts/Content/Story/Text.d:1112","Du trägst jetzt das Erkennungszeichen des 'Rings des Wassers'","Nyní nosíš znamení 'kruhu vody'.","","","PRINT_Addon_SCIsWearingRangerRing","",""
 "Scripts/Content/Story/Text.d:1120","Die Fassung des Amuletts ist zerbrochen","Objímka amuletu je rozbitá.","","","TEXT_Innoseye_Setting_Broken","",""
-"Scripts/Content/Story/Text.d:1121","Die Fassung des Amuletts ist intakt","Objímka amuletu je nepoškozená.","","","TEXT_Innoseye_Setting_Repaired","",""
+"Scripts/Content/Story/Text.d:1121","Die Fassung des Amuletts ist intakt","Objímka amuletu je opravená.","","True","TEXT_Innoseye_Setting_Repaired","",""
 "Scripts/Content/Story/Text.d:1122","Der Edelstein ist matt und kraftlos","Drahokam je matný a nevyzařuje žádnou moc.","","","TEXT_Innoseye_Gem","",""
 "Scripts/Content/Story/Text.d:1127","(Es wäre ein Kinderspiel seinen Geldbeutel zu stehlen)","(Ukrást mu peněženku by mělo být lehké jak hračka.)","","","Pickpocket_20","",""
 "Scripts/Content/Story/Text.d:1128","(Es wäre einfach seinen Geldbeutel zu stehlen)","(Ukrást mu peněženku nebude nic těžkého.)","","","Pickpocket_40","",""
