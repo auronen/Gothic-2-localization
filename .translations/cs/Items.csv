@@ -2180,7 +2180,7 @@
 "Scripts/Content/Items/MissionItems_2.d:308","Lang lebe der König","Ať žije král!","","","Itwr_Silvestro_6","",""
 "Scripts/Content/Items/MissionItems_2.d:309","Silvestro","Silvestro","","","Itwr_Silvestro_7","",""
 "Scripts/Content/Items/MissionItems_2.d:337","Snapper Krallen","Chňapavčí drápy","","","ItAt_ClawLeader.name","",""
-"Scripts/Content/Items/MissionItems_2.d:347","Die Krallen des Rudelführers","Drápy vůdce stáda","","","ItAt_ClawLeader.description","",""
+"Scripts/Content/Items/MissionItems_2.d:347","Die Krallen des Rudelführers","Drápy vůdce smečky","","True","ItAt_ClawLeader.description","",""
 "Scripts/Content/Items/MissionItems_2.d:348","","","","","ItAt_ClawLeader.text[0]","",""
 "Scripts/Content/Items/MissionItems_2.d:349","","","","","ItAt_ClawLeader.text[1]","",""
 "Scripts/Content/Items/MissionItems_2.d:350","","","","","ItAt_ClawLeader.text[2]","",""
