@@ -880,7 +880,7 @@
 "Scripts/Content/Items/IT_Misc.d:606","Ein schmaler Beutel,","Malý vak,","","","ItMi_Pocket.text[2]","",""
 "Scripts/Content/Items/IT_Misc.d:607","wiegt nicht viel","nepříliš těžký.","","","ItMi_Pocket.text[3]","",""
 "Scripts/Content/Items/IT_Misc.d:608","","","","","ItMi_Pocket.text[4]","",""
-"Scripts/Content/Items/IT_Misc.d:625","Erzbrocken","Hrouda rudy","","","ItMi_Nugget.name","",""
+"Scripts/Content/Items/IT_Misc.d:625","Erzbrocken","Nuget magické rudy","","True","ItMi_Nugget.name","",""
 "Scripts/Content/Items/IT_Misc.d:639","","","","","ItMi_Nugget.text[0]","",""
 "Scripts/Content/Items/IT_Misc.d:640","","","","","ItMi_Nugget.text[1]","",""
 "Scripts/Content/Items/IT_Misc.d:641","","","","","ItMi_Nugget.text[2]","",""
