@@ -768,7 +768,7 @@
 "Scripts/Content/Story/Text.d:1081","50 Gold gefunden","Nalezl jsi 50 zlatých","","","PRINT_FoundGold50","",""
 "Scripts/Content/Story/Text.d:1082","100 Gold gefunden","Nalezl jsi 100 zlatých","","","PRINT_FoundGold100","",""
 "Scripts/Content/Story/Text.d:1083","Runenstein gefunden","Nalezl jsi runu","","","PRINT_FoundRuneBlank","",""
-"Scripts/Content/Story/Text.d:1084","Erzbrocken gefunden","Nalezl jsi hroudu rudy","","","PRINT_FoundOreNugget","",""
+"Scripts/Content/Story/Text.d:1084","Erzbrocken gefunden","Nalezl jsi nuget magické rudy","","True","PRINT_FoundOreNugget","",""
 "Scripts/Content/Story/Text.d:1085","Dietrich gefunden","Nalezl jsi paklíč","","","PRINT_FoundLockpick","",""
 "Scripts/Content/Story/Text.d:1086","Ein kleiner Schlüssel und ein paar Dietriche...","Nějaký klíček a několik paklíčů...","","","PRINT_HannasBeutel","",""
 "Scripts/Content/Story/Text.d:1087","Einige Kräuter gefunden","Nalezl jsi bylinu","","","PRINT_GotPlants","",""
