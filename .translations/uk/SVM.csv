@@ -2430,7 +2430,7 @@
 "Scripts/Content/Story/SVM.d:3290","Ich will diese Verräter töten.","Я вб'ю цих зрадників.","","False","SVM_15_ATTENTAT_ADDON_PRO","",""
 "Scripts/Content/Story/SVM.d:3291","Ich suche diese Typen, um gegen Esteban vorzugehen.","Я шукаю цих хлопців, щоб боротися проти Естебана.","","False","SVM_15_ATTENTAT_ADDON_CONTRA","",""
 "Scripts/Content/Story/SVM.d:3293","Du wirst in der Mine gebraucht.","Ти потрібен у копальні.","","False","SVM_15_MINE_ADDON_DESCRIPTION","",""
-"Scripts/Content/Story/SVM.d:3294","Ighoriat Thorul. Erscheine mir, Quarhodron, alter Führer der kriegerischen Kaste!","Ігоріат Торул. З'явися переді мною, Кварходрон, старий вождь касти воїнів!","","False","SVM_15_ADDON_SUMMONANCIENTGHOST","",""
+"Scripts/Content/Story/SVM.d:3294","Ighoriat Thorul. Erscheine mir, Quarhodron, alter Führer der kriegerischen Kaste!","Ігоріат Торул. З'явися переді мною, Кварходрон, прадавній вождь касти воїнів!","","False","SVM_15_ADDON_SUMMONANCIENTGHOST","",""
 "Scripts/Content/Story/SVM.d:3295","Mmh ... Das funktioniert hier nicht.","Мм... Тут це не працює.","","False","SVM_15_ADDON_ANCIENTGHOST_NOTNEAR","",""
 "Scripts/Content/Story/SVM.d:3296","Was muss ich über's Goldhacken wissen?","Що мені потрібно знати про видобуток золота?","","False","SVM_15_ADDON_GOLD_DESCRIPTION","",""
 "Scripts/Content/Story/SVM.d:3298","Aha. Francis' Heuerbuch. Der Mann scheint sich eine Menge Gold in die eigene Tasche zu wirtschaften.","Ага. Книга розрахунків Френсіса. Цей чоловік, здається, наживає собі чимало золота.","","False","SVM_15_Addon_ThisLittleBastard","",""
