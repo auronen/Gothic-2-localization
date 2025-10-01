@@ -3306,7 +3306,7 @@
 "Scripts/Content/Items/IT_Addon_Food.d:181","","","","","ItFo_Addon_SchlafHammer.text[3]","",""
 "Scripts/Content/Items/IT_Addon_Food.d:182","","","","","ItFo_Addon_SchlafHammer.text[4]","",""
 "Scripts/Content/Items/IT_Addon_Food.d:200","Schneller Hering","Rychlý herynek","","","ItFo_Addon_SchnellerHering.name","",""
-"Scripts/Content/Items/IT_Addon_Food.d:213","Sieht gefährlich aus!","Rychlý herynek","","False","ItFo_Addon_SchnellerHering.description","",""
+"Scripts/Content/Items/IT_Addon_Food.d:213","Sieht gefährlich aus!","Vypadá nebezpečně!","","False","ItFo_Addon_SchnellerHering.description","",""
 "Scripts/Content/Items/IT_Addon_Food.d:214","","Vypadá nebezpečně!","","False","ItFo_Addon_SchnellerHering.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Food.d:215","Wirkung unbekannt","Účinky nejsou známy.","","","ItFo_Addon_SchnellerHering.text[1]","",""
 "Scripts/Content/Items/IT_Addon_Food.d:216","Nebenwirkungen wahrscheinlich","Možné vedlejší účinky","","","ItFo_Addon_SchnellerHering.text[2]","",""
