@@ -150,7 +150,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3275","Heiltränke aller Art","Цілющі зілля всіх видів","","","DIA_CH_Misc_Health.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3351","Manatränke aller Art","Зілля мани всіх видів","","","DIA_CH_Misc_Mana.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3427","Spezielle Tränke","Спеціальні зілля","","","DIA_CH_Misc_Special.description","",""
-"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3505","Schmieden - Männergruppe","Кузня - місце чоловіків","","","DIA_CH_Misc_SmithStart.description","",""
+"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3505","Schmieden - Männergruppe","Кузня — місце чоловіків","","False","DIA_CH_Misc_SmithStart.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3535","ZURÜCK","НАЗАД","","","DIA_CH_Misc_SmithStopper.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3561","Die ersten 5  Waffen","Перші 5 видів зброї","","","DIA_CH_Misc_Smithniedrig.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3613","Die letzten 4 Waffen","Останні 4 зброї","","","DIA_CH_Misc_SmithHoch.description","",""
