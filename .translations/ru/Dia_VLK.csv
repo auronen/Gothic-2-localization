@@ -984,7 +984,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:195","Ich bin Kundschafter. Ich ziehe durch die Gegend. Aber die ganzen Snapper haben's mir nicht einfach gemacht.","Я разведчик. Моя работа - следить за врагом. Но все эти снепперы совсем не облегчают мне жизнь.","","","DIA_Jergan_Mine_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:196","Ist 'ne gute Zeit, um sich ein paar Trophäen an Land zu ziehen - vorrausgesetzt, man versteht was davon.","Хотя, сейчас самое время насобирать трофеев - если, конечно, ты знаешь, что делаешь.","","","DIA_Jergan_Mine_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:208","Kannst du mir das beibringen?","Ты можешь научить меня этому?","","False","DIA_Jergan_Claw.description","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:223","Kannst du mir das beibringen?","Ты можешь напучить меня этому?","","","DIA_Jergan_Claw_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:223","Kannst du mir das beibringen?","Ты можешь научить меня этому?","","False","DIA_Jergan_Claw_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:224","Ich kann dir zeigen, wie du den Biestern die Krallen rausziehst, wenn sie tot sind.","Я могу показать тебе, как отделять когти этих тварей.","","","DIA_Jergan_Claw_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:237","(Krallen ziehen lernen)","(Изучить удаление когтей)","","","DIA_Jergan_Teach.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4110_Jergan.d:252","Zeig mir, wie ich Krallen ziehe.","Покажи мне, как отделять когти.","","","DIA_Jergan_Teach_15_00","",""
