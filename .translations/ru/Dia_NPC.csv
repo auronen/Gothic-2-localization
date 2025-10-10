@@ -129,7 +129,7 @@
 "Scripts/Content/Story/NPC/KDW_1405_Addon_Merdarion_NW.d:4","Merdarion","Мердарион","","","KDW_1405_Addon_Merdarion_NW.name","",""
 "Scripts/Content/Story/NPC/MIL_303_Torwache.d:4","Tuerwache","Стражник у двери","","","Mil_303_Torwache.name","",""
 "Scripts/Content/Story/NPC/MIL_306_Tuerwache.d:4","Richterhaus Wache","Стражник судьи","","","Mil_306_Tuerwache.name","",""
-"Scripts/Content/Story/NPC/MIL_311_Andre.d:4","Andre","Андре","","","Mil_311_Andre.name","",""
+"Scripts/Content/Story/NPC/MIL_311_Andre.d:4","Andre","Андрэ","","False","Mil_311_Andre.name","",""
 "Scripts/Content/Story/NPC/MIL_312_Wulfgar.d:4","Wulfgar","Вульфгар","","","Mil_312_Wulfgar.name","",""
 "Scripts/Content/Story/NPC/MIL_313_Boltan.d:4","Boltan","Болтан","","","Mil_313_Boltan.name","",""
 "Scripts/Content/Story/NPC/MIL_314_Mortis.d:4","Mortis","Мортис","","","Mil_314_Mortis.name","",""
