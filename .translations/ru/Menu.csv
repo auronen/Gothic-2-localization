@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"Scripts/System/Menu/Menu_Defines.d:64","Taste ENTF zum Löschen und RETURN zum definieren","нажмите DEL, чтобы очистить слот или RETURN, чтобы переопределить","","False","CTRL_KEYDEF","",""
+"Scripts/System/Menu/Menu_Defines.d:64","Taste ENTF zum Löschen und RETURN zum definieren","нажмите DEL, чтобы очистить слот, или нажмите RETURN, чтобы переопределить слот","","False","CTRL_KEYDEF","",""
 "Scripts/System/Menu/Menu_Defines.d:65","Gewünschte Taste betätigen.","Пожалуйста, нажмите клавишу для этого действия.","","False","CTRL_KEYDEF_INFO","",""
 "Scripts/System/Menu/Menu_Defines.d:66","nein|ja","нет|да","","False","MENU_NO_YES","",""
 "Scripts/System/Menu/Menu_Defines.d:67","aus|an","откл|вкл","","False","MENU_OFF_ON","",""
