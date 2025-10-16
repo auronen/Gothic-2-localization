@@ -2,7 +2,7 @@
 "Scripts/System/Menu/Menu_Defines.d:64","Taste ENTF zum Löschen und RETURN zum definieren","[Del] anuluje wybór, [Enter] zatwierdza nowy","","False","CTRL_KEYDEF","",""
 "Scripts/System/Menu/Menu_Defines.d:65","Gewünschte Taste betätigen.","Wciśnij klawisz mający odpowiadać za daną czynność.","","False","CTRL_KEYDEF_INFO","",""
 "Scripts/System/Menu/Menu_Defines.d:66","nein|ja","Nie|Tak","","False","MENU_NO_YES","",""
-"Scripts/System/Menu/Menu_Defines.d:67","aus|an","off|on","","False","MENU_OFF_ON","",""
+"Scripts/System/Menu/Menu_Defines.d:67","aus|an","Nie|Tak","","False","MENU_OFF_ON","",""
 "Scripts/System/Menu/Menu_Defines.d:68","Zurück","Wróć","","False","MENU_BACK","",""
 "Scripts/System/Menu/Menu_Log.d:42","Aktuelle\nMissionen","Obecne\nzadania","","False","MENU_ITEM_SEL_MISSIONS_ACT.text[0]","",""
 "Scripts/System/Menu/Menu_Log.d:56","Erfüllte\nMissionen","Wykonane\nzadania","","False","MENU_ITEM_SEL_MISSIONS_OLD.text[0]","",""
