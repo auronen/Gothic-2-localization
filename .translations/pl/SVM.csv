@@ -1154,7 +1154,7 @@
 "Scripts/Content/Story/SVM.d:1733"," (zu sich selbst) Das nächste Mal werden wir ja sehen ...","Proszę... Zobaczymy następnym razem...","","","SVM_8_NextTimeYoureInForIt","",""
 "Scripts/Content/Story/SVM.d:1734"," (zu sich selbst) Oh Mann, mein Kopf ...","O rany, moja głowa...","","","SVM_8_OhMyHead","",""
 "Scripts/Content/Story/SVM.d:1736"," (gierig) Ah, ein Kampf!","Ach, walka...","","","SVM_8_TheresAFight","",""
-"Scripts/Content/Story/SVM.d:1737"," (bestürzt) Mein Gott, ein Kampf!","Na bogów, walka!","","","SVM_8_OhMyGodItsAFight","",""
+"Scripts/Content/Story/SVM.d:1737"," (bestürzt) Mein Gott, ein Kampf!","Na bogów, walka!","","False","SVM_8_OhMyGodItsAFight","",""
 "Scripts/Content/Story/SVM.d:1738"," (böse lachend) Dem hast du's gezeigt!","Dałeś mu niezły wycisk...","","","SVM_8_GoodVictory","",""
 "Scripts/Content/Story/SVM.d:1739"," (anerkennend) Nicht schlecht ...","Nieźle...","","","SVM_8_NotBad","",""
 "Scripts/Content/Story/SVM.d:1740"," (zu sich selbst) Mein Gott! Wie brutal ...","Bogowie! Jak brutalnie...","","","SVM_8_OhMyGodHesDown","",""
