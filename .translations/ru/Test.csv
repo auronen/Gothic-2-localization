@@ -156,7 +156,7 @@
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3613","Die letzten 4 Waffen","Die letzten 4 Waffen","","","DIA_CH_Misc_SmithHoch.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3727","Animaltrophys","Animaltrophys","","","DIA_CH_Misc_Animal_Start.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3757","ZURÜCK","ZURЬCK","","","DIA_CH_Misc_Animal_Stopper.description","",""
-"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3783","Zähne, Fell, Klauen, Herzen","Zдhne, Fell, Klauen, Herzen","","","DIA_CH_Misc_Animal_allg.description","",""
+"Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3783","Zähne, Fell, Klauen, Herzen","Zähne, Fell, Klauen, Herzen","","False","DIA_CH_Misc_Animal_allg.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3856","Flügel, Stachel, Zangen, Platten","Flьgel, Stachel, Zangen, Platten","","","DIA_CH_Misc_Animal_Speziell.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:3929","Blut, Schuppen, Hörner, Zunge","Blut, Schuppen, Hцrner, Zunge","","","DIA_CH_Misc_Animal_other.description","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:4014","Paladin Runen","Paladin Runen","","","DIA_CH_Misc_PaladinStart.description","",""
