@@ -12,7 +12,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Shadowbeast_Fire.d:9","Feuerteufel","Огненный дьявол","","","Mst_Default_Shadowbeast_Addon_Fire.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_StoneGuardian.d:8","Steinwächter","Каменный часовой","","","Mst_Addon_Stoneguardian.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_StonePuma.d:8","Panther","Пантера","","","Mst_Default_StonePuma.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Addon_SwampDrone.d:8","Sumpfgasdrone","Болотный дрон","","","Mst_Default_SwampDrone.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_SwampDrone.d:8","Sumpfgasdrone","Болотный трутень","","False","Mst_Default_SwampDrone.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_SwampGolem.d:8","Sumpfgolem","Болотный голем","","","Mst_Default_Addon_SwampGolem.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_SwampRat.d:8","Sumpfratte","Болотная крыса","","","Mst_Default_Swamprat.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_SwampZombie.d:8","Sumpfleiche","Утопленник","","False","Mst_Default_SwampZombie.name","",""
