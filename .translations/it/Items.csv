@@ -1318,7 +1318,7 @@
 "Scripts/Content/Items/IT_Ranged_Weapons.d:672","","","","","ItRw_Crossbow_H_02.text[0]","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:673","","","","","ItRw_Crossbow_H_02.text[1]","",""
 "Scripts/Content/Items/IT_Ranged_Weapons.d:676","","","","","ItRw_Crossbow_H_02.text[4]","",""
-"Scripts/Content/Items/IT_Ringe.d:65"," Flammenschutzring","Anello di protezione dal fuoco","","","ItRi_Prot_Fire_01.description","",""
+"Scripts/Content/Items/IT_Ringe.d:65"," Flammenschutzring","Anello di protezione dal fuoco","","True","ItRi_Prot_Fire_01.description","",""
 "Scripts/Content/Items/IT_Ringe.d:66","","","","","ItRi_Prot_Fire_01.text[0]","",""
 "Scripts/Content/Items/IT_Ringe.d:67","","","","","ItRi_Prot_Fire_01.text[1]","",""
 "Scripts/Content/Items/IT_Ringe.d:69","","","","","ItRi_Prot_Fire_01.text[3]","",""
