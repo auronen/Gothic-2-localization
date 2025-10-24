@@ -2016,7 +2016,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:381","Welche Rüstung kannst du mir anbieten?","Что за доспехи ты можешь предложить?","","","DIA_Orlan_RUESTUNG.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:400","Welche Rüstung kannst du mir anbieten?","Что за доспехи ты можешь предложить?","","","DIA_Orlan_RUESTUNG_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:401","Ich habe hier ein sehr schönes Stück, das dir sicher gefallen wird.","У меня есть очень хороший экземпляр, я уверен, это заинтересует тебя.","","","DIA_Orlan_RUESTUNG_05_01","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:406","Lederrüstung. Schutz: Waffen 25, Pfeile 20, Feuer 5 (250 Gold)","Кожаные доспехи. Защита: оружие 25, стрелы 20, огонь 5 (250 золота)","","","DIA_Orlan_RUESTUNG.DIA_Orlan_RUESTUNG_Buy","Info_AddChoice",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:406","Lederrüstung. Schutz: Waffen 25, Pfeile 20, Feuer 5 (250 Gold)","Кожаный доспех. Защита: оружие 25, стрелы 20, огонь 5 (250 золота)","","False","DIA_Orlan_RUESTUNG.DIA_Orlan_RUESTUNG_Buy","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:411","Ich möchte die Lederrüstung kaufen.","Я бы хотел купить кожаные доспехи.","","","DIA_Orlan_RUESTUNG_Buy_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:415","Eine gute Entscheidung.","Мудрый выбор.","","","DIA_Orlan_RUESTUNG_Buy_05_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_970_Orlan.d:424","Tut mir Leid. Erst wenn du das entsprechende Kleingeld hast, kommen wir ins Geschäft.","Извини. Заходи, когда у тебя появятся деньги.","","","DIA_Orlan_RUESTUNG_Buy_05_02","",""
