@@ -1128,7 +1128,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:134","Akil meinte, du hättet eine Mahlzeit für mich.","Akil dice che hai un pasto per me.","","","DIA_Kati_ESSEN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:135","Es sind schwere Zeiten für uns angebrochen, seit die Barriere nicht mehr da ist und das Land unsicher geworden ist.","Abbiamo attraversato tempi difficili dopo il crollo della Barriera, e la regione non è più sicura.","","","DIA_Kati_ESSEN_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:136","Hier hast du einen Laib Brot, etwas Fleisch und einen Schluck Wasser. Mehr kann ich leider nicht entbehren.","Eccoti una pagnotta, un po' di carne e dell'acqua. È tutto quello che posso darti, mi dispiace.","","","DIA_Kati_ESSEN_16_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Mi manda Beltram...","","","DIA_Kati_Baltram.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Mi manda Beltram...","","True","DIA_Kati_Baltram.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:167","Baltram schickt mich. Ich soll eine Lieferung für ihn abholen.","Mi ha mandato Baltram. Devo ritirare un carico per lui qui.","","","DIA_Kati_Baltram_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:168","Ja natürlich. Hier, ich habe schon alles zusammen gepackt.","Sì, certo. Tieni, ho già impacchettato tutto.","","","DIA_Kati_Baltram_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:183","Warum wehrt ihr euch nicht gegen Onars Unterdrückung?","Perché non vi difendete dalla tirannia di Onar?","","","DIA_Kati_BAUERNAUFSTAND.description","",""
