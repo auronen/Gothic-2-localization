@@ -1599,7 +1599,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:187","Vergiss es.","Vergiss es.","","","DIA_BDT_1020_Wegelagerer_FirstWarn_NoWeapon_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:188","Dann eben auf die harte Tour.","Dann eben auf die harte Tour.","","","DIA_BDT_1020_Wegelagerer_FirstWarn_NoWeapon_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:196","Hier hast du meine Waffe.","Hier hast du meine Waffe.","","","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:200"," Finger weg von der Waffe. Na warte!"," Finger weg von der Waffe. Na warte!","","","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01","",""
+"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:200"," Finger weg von der Waffe. Na warte!","Finger weg von der Waffe. Na warte!","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:231","Du willst es wirklich drauf ankommen lassen. Also wie sieht's aus?","Du willst es wirklich drauf ankommen lassen. Also wie sieht's aus?","","","DIA_BDT_1020_Wegelagerer_SecondWarn_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:236","Hier ist das Geld.","Hier ist das Geld.","","","DIA_BDT_1020_Wegelagerer_SecondWarn.DIA_BDT_1020_Wegelagerer_SecondWarn_GiveMoney","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:239","Du kriegst keinen Heller von mir.","Du kriegst keinen Heller von mir.","","","DIA_BDT_1020_Wegelagerer_SecondWarn.DIA_BDT_1020_Wegelagerer_SecondWarn_NoMoney","Info_AddChoice",""
