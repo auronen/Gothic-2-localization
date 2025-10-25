@@ -1128,7 +1128,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:134","Akil meinte, du hättet eine Mahlzeit für mich.","Akil me ha dicho que me vas a dar de comer.","","","DIA_Kati_ESSEN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:135","Es sind schwere Zeiten für uns angebrochen, seit die Barriere nicht mehr da ist und das Land unsicher geworden ist.","Desde que cayó la barrera lo hemos pasado muy mal y el país ya no es seguro.","","","DIA_Kati_ESSEN_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:136","Hier hast du einen Laib Brot, etwas Fleisch und einen Schluck Wasser. Mehr kann ich leider nicht entbehren.","Aquí tienes una barra de pan, algo de carne y un poco de agua. Me temo que no puedo ofrecerte nada más.","","","DIA_Kati_ESSEN_16_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Me manda Baltram...","","","DIA_Kati_Baltram.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Me manda Baltram...","","True","DIA_Kati_Baltram.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:167","Baltram schickt mich. Ich soll eine Lieferung für ihn abholen.","Me manda Baltram. Se supone que tengo que recoger un pedido para él.","","","DIA_Kati_Baltram_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:168","Ja natürlich. Hier, ich habe schon alles zusammen gepackt.","Sí, claro. Ten, ya lo he empaquetado.","","","DIA_Kati_Baltram_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:183","Warum wehrt ihr euch nicht gegen Onars Unterdrückung?","¿Por qué no os oponéis a la tiranía de Onar?","","","DIA_Kati_BAUERNAUFSTAND.description","",""
