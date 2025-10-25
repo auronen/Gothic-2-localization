@@ -1599,7 +1599,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:187","Vergiss es.","Zapomeň na to.","","","DIA_BDT_1020_Wegelagerer_FirstWarn_NoWeapon_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:188","Dann eben auf die harte Tour.","Dobrá, tak teda tvrdě.","","","DIA_BDT_1020_Wegelagerer_FirstWarn_NoWeapon_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:196","Hier hast du meine Waffe.","Tady, vezmi si mou zbraň.","","","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:200"," Finger weg von der Waffe. Na warte!"," Nech tu zbraň na pokoji. Jen počkej!","","","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01","",""
+"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:200"," Finger weg von der Waffe. Na warte!"," Nech tu zbraň na pokoji. Jen počkej!","","True","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:231","Du willst es wirklich drauf ankommen lassen. Also wie sieht's aus?","Vážně chceš ještě dostat šanci? Je to tvoje právo.","","","DIA_BDT_1020_Wegelagerer_SecondWarn_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:236","Hier ist das Geld.","Tady jsou peníze.","","","DIA_BDT_1020_Wegelagerer_SecondWarn.DIA_BDT_1020_Wegelagerer_SecondWarn_GiveMoney","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:239","Du kriegst keinen Heller von mir.","Nedám ti ani troník.","","","DIA_BDT_1020_Wegelagerer_SecondWarn.DIA_BDT_1020_Wegelagerer_SecondWarn_NoMoney","Info_AddChoice",""
