@@ -261,7 +261,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:437","Alles klar.","Хорошо.","","","DIA_Addon_Diego_ComeOn_11_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:455","Warte hier.","Подожди здесь!","","","DIA_Addon_ThiefOW_GoHome.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:468","Warte hier!","Подожди здесь!","","","DIA_Addon_Diego_WarteHier_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:472","Okay.","Ладно. ","","","DIA_Addon_Diego_GoHome_11_01","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:472","Okay.","Ладно.","","False","DIA_Addon_Diego_GoHome_11_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:479","Ich warte draussen am Turm.","Я подожду снаружи у башни.","","","DIA_Addon_Diego_GoHome_11_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:486","Ich warte in der Nähe der Mine.","Я подожду у шахты.","","","DIA_Addon_Diego_GoHome_11_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Thief_OW.d:493","Ich warte vor der Mine.","Я подожду перед шахтой.","","","DIA_Addon_Diego_GoHome_11_04","",""
