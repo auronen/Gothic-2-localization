@@ -855,7 +855,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:564","Für dich mach ich einen Freundschaftspreis. 12000 Goldstücke.","Для тебя особая цена. 12 000 золотых монет.","","","DIA_JAN_ArmorReady_10_03","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:565","Was? Nach allem, was ich für dich getan habe?","Что?! И это после всего, что я сделал для тебя?","","","DIA_JAN_ArmorReady_15_04","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:566","Komm mir nicht so. Irgend wovon muss ich ja auch leben. Also kauf sie, oder lass es bleiben.","Ну не надо так. Мне же тоже нужно зарабатывать на жизнь. Не хочешь, не бери.","","","DIA_JAN_ArmorReady_10_05","",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:587","Mittlere Drachenjägerrüstung: Schutz: Waffen 80, Pfeile 80. (12000 Gold)","Доспех охотника на драконов: Защита: оружие 80, стрелы 80. (12000 золота)","","False","DIA_Jan_DJG_ARMOR_M.description","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:587","Mittlere Drachenjägerrüstung: Schutz: Waffen 80, Pfeile 80. (12000 Gold)","Доспех охотника на драконов: Защита: оружие 80, стрелы 80. (12 000 золота)","","False","DIA_Jan_DJG_ARMOR_M.description","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:602","Ich will die Rüstung kaufen.","Я хочу купить эти доспехи.","","","DIA_Jan_DJG_ARMOR_M_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:606","Du wirst merken, sie ist jedes einzelne Goldstück wert.","Ты увидишь, они стоят своих денег.","","","DIA_Jan_DJG_ARMOR_M_10_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_714_Jan.d:616","Du hast nicht genug Gold.","У тебя недостаточно золота.","","","DIA_Jan_DJG_ARMOR_M_10_02","",""
