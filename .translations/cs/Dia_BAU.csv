@@ -1128,7 +1128,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:134","Akil meinte, du hättet eine Mahlzeit für mich.","Akil říkal, že pro mě budeš mít něco k jídlu.","","","DIA_Kati_ESSEN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:135","Es sind schwere Zeiten für uns angebrochen, seit die Barriere nicht mehr da ist und das Land unsicher geworden ist.","Od té doby, co bariéra vzala za své, už tu není bezpečno a my jsme zažili dost špatné časy.","","","DIA_Kati_ESSEN_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:136","Hier hast du einen Laib Brot, etwas Fleisch und einen Schluck Wasser. Mehr kann ich leider nicht entbehren.","Tady máš bochník chleba, trochu masa a nějakou vodu. Je mi líto, ale to je vše, co mohu postrádat.","","","DIA_Kati_ESSEN_16_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Posílá mě Baltram.","","","DIA_Kati_Baltram.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Posílá mě Baltram.","","True","DIA_Kati_Baltram.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:167","Baltram schickt mich. Ich soll eine Lieferung für ihn abholen.","Poslal mě Baltram. Mám pro něj vyzvednout nějaký balík.","","","DIA_Kati_Baltram_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:168","Ja natürlich. Hier, ich habe schon alles zusammen gepackt.","Ano, samozřejmě. Tady, už jsem to zabalil.","","","DIA_Kati_Baltram_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:183","Warum wehrt ihr euch nicht gegen Onars Unterdrückung?","Proč se sami nebráníte proti Onarově tyranii?","","","DIA_Kati_BAUERNAUFSTAND.description","",""
