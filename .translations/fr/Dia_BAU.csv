@@ -1128,7 +1128,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:134","Akil meinte, du hättet eine Mahlzeit für mich.","Akil m'a dit que vous auriez un repas pour moi.","","","DIA_Kati_ESSEN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:135","Es sind schwere Zeiten für uns angebrochen, seit die Barriere nicht mehr da ist und das Land unsicher geworden ist.","Les temps sont durs depuis que la Barrière est tombée et la région n'est plus sûre.","","","DIA_Kati_ESSEN_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:136","Hier hast du einen Laib Brot, etwas Fleisch und einen Schluck Wasser. Mehr kann ich leider nicht entbehren.","Voici un peu de pain, de la viande et de l'eau. C'est tout ce que je peux vous offrir.","","","DIA_Kati_ESSEN_16_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Je suis envoyé par Baltram...","","","DIA_Kati_Baltram.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Je suis envoyé par Baltram...","","True","DIA_Kati_Baltram.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:167","Baltram schickt mich. Ich soll eine Lieferung für ihn abholen.","Baltram m'envoie. Je dois récupérer une livraison pour lui.","","","DIA_Kati_Baltram_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:168","Ja natürlich. Hier, ich habe schon alles zusammen gepackt.","Oui, naturellement. Tenez, j'ai tout préparé.","","","DIA_Kati_Baltram_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:183","Warum wehrt ihr euch nicht gegen Onars Unterdrückung?","Pourquoi ne pas vous défendre contre la tyrannie d'Onar ?","","","DIA_Kati_BAUERNAUFSTAND.description","",""
