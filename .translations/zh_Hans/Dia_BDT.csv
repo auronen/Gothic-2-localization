@@ -1599,7 +1599,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:187","Vergiss es.","算 了 吧 。","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_NoWeapon_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:188","Dann eben auf die harte Tour.","好 吧 ， 这 就 是 痛 苦 的 方 式 。","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_NoWeapon_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:196","Hier hast du meine Waffe.","给 ， 拿 走 我 的 武 器 。","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:200"," Finger weg von der Waffe. Na warte!"," 别 碰 我 的 武 器 。 你 等 着 瞧 ！","","False","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01","",""
+"Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:200"," Finger weg von der Waffe. Na warte!"," 别 碰 我 的 武 器 。 你 等 着 瞧 ！","","True","DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:231","Du willst es wirklich drauf ankommen lassen. Also wie sieht's aus?","你 真 的 想 碰 碰 运 气 ？ 是 你 自 找 的 。","","False","DIA_BDT_1020_Wegelagerer_SecondWarn_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:236","Hier ist das Geld.","这 是 你 的 钱 。","","False","DIA_BDT_1020_Wegelagerer_SecondWarn.DIA_BDT_1020_Wegelagerer_SecondWarn_GiveMoney","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1020_Wegelagerer.d:239","Du kriegst keinen Heller von mir.","我 不 会 给 你 一 分 钱 。","","False","DIA_BDT_1020_Wegelagerer_SecondWarn.DIA_BDT_1020_Wegelagerer_SecondWarn_NoMoney","Info_AddChoice",""
