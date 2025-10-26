@@ -153,7 +153,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:104","Ich bleibe lieber allein.","Я предпочитаю действовать в одиночку.","","","DIA_CipherDJG_HELLOAGAIN_GoAlone_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:105","Wie du willst. Hab ich mich eben getäuscht!","Как знаешь. Значит, я ошибался в тебе!","","","DIA_CipherDJG_HELLOAGAIN_GoAlone_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:111","Warum nicht, Hilfe könnte ich brauchen.","Почему бы и нет. Помощь мне не помешает.","","","DIA_CipherDJG_HELLOAGAIN_GoTogether_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:112","Das ist gut. Dann komme ich endlich hier weg. Der Gestank ist ja unerträglich. Sag wenn's los geht!","Это хорошо. Тогда я, наконец, смогу выбраться отсюда. Эта вонь невыносима. Просто дай мне слово!","","","DIA_CipherDJG_HELLOAGAIN_GoTogether_07_01","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:112","Das ist gut. Dann komme ich endlich hier weg. Der Gestank ist ja unerträglich. Sag wenn's los geht!","Это хорошо. Тогда я, наконец, смогу выбраться отсюда. Эта вонь невыносима!","","False","DIA_CipherDJG_HELLOAGAIN_GoTogether_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:127","Ich hab's mir überlegt! Lass uns zusammen gehen!","Я передумал! Пойдем вместе!","","","DIA_CipherDJG_GOTOGETHERAGAIN.description","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:145","Ich hab's mir überlegt! Lass uns zusammen gehen!","Я передумал! Пойдем вместе!","","","DIA_CipherDJG_GOTOGETHERAGAIN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_703_Cipher.d:146","Sag, wenn's los geht!","Просто дай мне слово!","","","DIA_CipherDJG_GOTOGETHERAGAIN_07_01","",""
