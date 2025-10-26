@@ -3807,7 +3807,7 @@
 "Scripts/Content/Items/IT_Addon_Written.d:754","","","","","ItWr_Map_AddonWorld.text[2]","",""
 "Scripts/Content/Items/IT_Addon_Written.d:755","","","","","ItWr_Map_AddonWorld.text[3]","",""
 "Scripts/Content/Items/IT_Addon_Written.d:756","","","","","ItWr_Map_AddonWorld.text[4]","",""
-"Scripts/Content/Items/IT_Addon_WrittenRunemaker.d:7","Die Kreise des Wassers","Круги Воды","","","ITWR_Addon_Runemaking_KDW_CIRC1.name","",""
+"Scripts/Content/Items/IT_Addon_WrittenRunemaker.d:7","Die Kreise des Wassers","Круги воды","","False","ITWR_Addon_Runemaking_KDW_CIRC1.name","",""
 "Scripts/Content/Items/IT_Addon_WrittenRunemaker.d:20","Runenbuch der Wassermagier","Книга рун Магов Воды","","","ITWR_Addon_Runemaking_KDW_CIRC1.description","",""
 "Scripts/Content/Items/IT_Addon_WrittenRunemaker.d:21","","","","","ITWR_Addon_Runemaking_KDW_CIRC1.text[0]","",""
 "Scripts/Content/Items/IT_Addon_WrittenRunemaker.d:22","","","","","ITWR_Addon_Runemaking_KDW_CIRC1.text[1]","",""
