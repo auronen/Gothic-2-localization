@@ -2448,7 +2448,7 @@
 "Scripts/Content/Items/MissionItems_3.d:896","Der Beutel ist voller Münzen","Этот кошелек полон монет.","","","ItSe_Golemchest_Mis.text[2]","",""
 "Scripts/Content/Items/MissionItems_3.d:897","","","","","ItSe_Golemchest_Mis.text[3]","",""
 "Scripts/Content/Items/MissionItems_3.d:898","","","","","ItSe_Golemchest_Mis.text[4]","",""
-"Scripts/Content/Items/MissionItems_3.d:919","sehr alte Karte","Очень старая карта.","","","ItWr_ShatteredGolem_MIS.name","",""
+"Scripts/Content/Items/MissionItems_3.d:919","sehr alte Karte","Очень старая карта","","False","ItWr_ShatteredGolem_MIS.name","",""
 "Scripts/Content/Items/MissionItems_3.d:933","","","","","ItWr_ShatteredGolem_MIS.text[0]","",""
 "Scripts/Content/Items/MissionItems_3.d:934","","","","","ItWr_ShatteredGolem_MIS.text[1]","",""
 "Scripts/Content/Items/MissionItems_3.d:935","","","","","ItWr_ShatteredGolem_MIS.text[2]","",""
