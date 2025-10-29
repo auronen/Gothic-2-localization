@@ -555,7 +555,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:395","Das ist mir die Sache nicht wert.","Мне это не очень интересно.","","","DIA_Godar_Dragonstuff.DIA_Godar_Dragonstuff_nein","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:396","Das ist fair.","Это честно.","","","DIA_Godar_Dragonstuff.DIA_Godar_Dragonstuff_fair","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:401","Das ist fair.","Это честно.","","","DIA_Godar_Dragonstuff_fair_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:409","Ohne Geld ist es das nicht. Besorg dir erstmal die Kohle.","Без денег не очень. Сначала раздобудь золото.","","","DIA_Godar_Dragonstuff_fair_13_01","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:409","Ohne Geld ist es das nicht. Besorg dir erstmal die Kohle.","Без денег – нет уж. Сначала раздобудь золото.","","False","DIA_Godar_Dragonstuff_fair_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:417","Das ist mir die Sache nicht wert.","Мне это не очень интересно.","","","DIA_Godar_Dragonstuff_nein_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:418","Auch gut.","Как знаешь.","","","DIA_Godar_Dragonstuff_nein_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_711_Godar.d:432","Zeig mir, wie man jagt.","Научи меня охотиться.","","","DIA_Godar_Teach.description","",""
