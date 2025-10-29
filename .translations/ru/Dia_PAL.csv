@@ -992,7 +992,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:518","Irgendwelche Neuigkeiten?","Есть новости?","","","DIA_Oric_AnyNews.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:532","Irgendwelche Neuigkeiten?","Есть новости?","","","DIA_Oric_AnyNews_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:536","Na, was schon? Die Orks sind hier eingefallen.","Ты имеешь в виду, кроме того, что орки вторглись в замок?","","","DIA_Oric_AnyNews_11_01","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:540","Ja. Du bist unser Held. Alle Drachen auf einmal los zu werden ist schon eine beachtliche Leistung, würde ich sagen.","Да. Ты наш герой. Уничтожить всех драконов разом – это воистину подвиг. Я потрясен!","","","DIA_Oric_AnyNews_11_02","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:540","Ja. Du bist unser Held. Alle Drachen auf einmal los zu werden ist schon eine beachtliche Leistung, würde ich sagen.","Да. Ты наш герой. Уничтожить всех драконов разом – это воистину героический подвиг. Я потрясен!","","False","DIA_Oric_AnyNews_11_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:544","Hosh-Paks Tod scheint die Orks verunsichert zu haben.","Орки, похоже, выбиты из колеи смертью Хош-Пака.","","","DIA_Oric_AnyNews_11_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:548","Die Orks werden immer zahlreicher. Wenn das bloß gut geht.","Орков становится все больше и больше. Мне это не нравится.","","","DIA_Oric_AnyNews_11_04","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:562","Ich brauche mehr Informationen über die Drachen.","Мне нужна информация о драконах.","","","DIA_Oric_DragonPlettBericht.description","",""
