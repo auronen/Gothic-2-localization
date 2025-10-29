@@ -1128,7 +1128,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:134","Akil meinte, du hättet eine Mahlzeit für mich.","Акіл каже, що ти можеш нагодувати мене.","","False","DIA_Kati_ESSEN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:135","Es sind schwere Zeiten für uns angebrochen, seit die Barriere nicht mehr da ist und das Land unsicher geworden ist.","З того часу, як рухнув Бар'єр, для нас настали важкі часи. Жити в цій країні стало небезпечно.","","False","DIA_Kati_ESSEN_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:136","Hier hast du einen Laib Brot, etwas Fleisch und einen Schluck Wasser. Mehr kann ich leider nicht entbehren.","Ось тобі буханець хліба, трохи м’яса і пляшку води. На жаль, це все чим ми можемо поділитись.","","","DIA_Kati_ESSEN_16_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Мене прислав Бальтрам... ","","True","DIA_Kati_Baltram.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:152","Baltram schickt mich... ","Мене прислав Бальтрам…","","False","DIA_Kati_Baltram.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:167","Baltram schickt mich. Ich soll eine Lieferung für ihn abholen.","Мене прислав Бальтрам. Я маю забрати пакунок для нього.","","","DIA_Kati_Baltram_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:168","Ja natürlich. Hier, ich habe schon alles zusammen gepackt.","Так, звісно. Ось, я вже все спакувала.","","","DIA_Kati_Baltram_16_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_941_Kati.d:183","Warum wehrt ihr euch nicht gegen Onars Unterdrückung?","Чому ви не повстаєте проти тиранії Онара?","","","DIA_Kati_BAUERNAUFSTAND.description","",""
