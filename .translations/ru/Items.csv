@@ -1152,7 +1152,7 @@
 "Scripts/Content/Items/IT_Plants.d:453","","","","","ItPl_Mushroom_02.text[2]","",""
 "Scripts/Content/Items/IT_Plants.d:454","","","","","ItPl_Mushroom_02.text[3]","",""
 "Scripts/Content/Items/IT_Plants.d:455","","","","","ItPl_Mushroom_02.text[4]","",""
-"Scripts/Content/Items/IT_Plants.d:467","Blauflieder","Синяя бузина","","","ItPl_Blueplant.name","",""
+"Scripts/Content/Items/IT_Plants.d:467","Blauflieder","Серафис","","False","ItPl_Blueplant.name","",""
 "Scripts/Content/Items/IT_Plants.d:481","","","","","ItPl_Blueplant.text[0]","",""
 "Scripts/Content/Items/IT_Plants.d:484","","","","","ItPl_Blueplant.text[3]","",""
 "Scripts/Content/Items/IT_Plants.d:485","","","","","ItPl_Blueplant.text[4]","",""
