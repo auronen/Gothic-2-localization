@@ -502,7 +502,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:788","Er ist im Rathaus, am Ende des oberen Viertels.","Он в ратуше, в конце верхнего квартала.","","","DIA_Lothar_Hagen_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:789","Aber ohne triftigen Grund wirst du nicht vorgelassen werden.","Но тебя не примут там без веской на то причины.","","","DIA_Lothar_Hagen_01_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:801","Ich war bei Lord Hagen...","Я пришел увидеться с лордом Хагеном...","","","DIA_Lothar_OWRunning.description","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:815","Ich war bei Lord Hagen...","Я пришел увидеться с лордом Хагеном...","","","DIA_Lothar_Add_15_53","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:815","Ich war bei Lord Hagen...","Я поговорил с лордом Хагеном.","","False","DIA_Lothar_Add_15_53","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:816","Und? Du hast ihn doch nicht etwa mit deinen Drachengeschichten belästigt?","И? Ты не докучал ему своими россказнями о драконах, нет?","","","DIA_Lothar_Add_01_54","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:817","Doch...","Да, я говорил ему...","","","DIA_Lothar_Add_15_55","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_203_Lothar.d:818","Das darf doch nicht wahr sein...","Скажи мне, что это неправда...","","","DIA_Lothar_Add_01_56","",""
