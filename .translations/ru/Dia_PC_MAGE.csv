@@ -7,7 +7,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:63","Hast du ein paar Tränke übrig?","Есть несколько лишних зелий?","","","DIA_Milten_DI_TRADE.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:77","Hast du ein paar Tränke übrig?","Есть несколько лишних зелий?","","","DIA_Milten_DI_TRADE_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:88","Solange der Vorrat reicht.","Пока есть запас.","","","DIA_Milten_DI_TRADE_03_01","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:100","Welchen Rat kannst du mir geben?","Какой совет ты можешь дать мне?","","","DIA_Milten_DI_Rat.description","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:100","Welchen Rat kannst du mir geben?","Можешь дать мне какой-нибудь совет?","","False","DIA_Milten_DI_Rat.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:114","Welchen Rat kannst du mir geben?","Можешь дать мне какой-нибудь совет?","","","DIA_Milten_DI_Rat_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:115","Mmh. Es ehrt mich sehr, dass du gerade mich um Rat fragst. Mich beschäftigt schon die ganze Zeit nur eine Sache.","М-м-м. Это большая честь, что ты спрашиваешь у меня совета. Но у меня в голове все это время вертится только одно.","","","DIA_Milten_DI_Rat_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_DI.d:116","Hast du das Auge Innos' mitgebacht?","У тебя есть Глаз Инноса?","","","DIA_Milten_DI_Rat_03_02","",""
