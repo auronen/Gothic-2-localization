@@ -46,7 +46,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Gobbo_Black.d:8","schwarzer Goblin","Чорний гоблін","","False","Mst_Default_Gobbo_Black.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Gobbo_Green.d:8","Goblin","Гоблін","","False","Mst_Default_Gobbo_Green.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Gobbo_Skeleton.d:8","Goblin Skelett","Гоблін-скелет","","False","Mst_Default_Gobbo_Skeleton.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Gobbo_Skeleton.d:102","Beschworenes Skelett","Викликаний скелет","","False","Summoned_Gobbo_Skeleton.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Gobbo_Skeleton.d:102","Beschworenes Skelett","Викликаний гоблін-скелет","","False","Summoned_Gobbo_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Harpy.d:8","Harpie","Гарпія","","False","Mst_Default_Harpie.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_IceGolem.d:8","Eisgolem","Крижаний голем","","False","Mst_Default_IceGolem.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Lurker.d:8","Lurker","Луркер","","False","Mst_Default_Lurker.name","",""
