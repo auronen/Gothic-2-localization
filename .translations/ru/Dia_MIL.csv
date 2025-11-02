@@ -443,7 +443,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1026","Wegen der Diebesgilde...","Насчет гильдии воров...","","","DIA_Andre_DGRunning.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1039","Wegen der Diebesgilde...","Насчет гильдии воров...","","","DIA_Andre_DGRunning_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1043","Du kannst die Sache vergessen. Ich habe ein paar Männer runter in die Kanalisation geschickt.","Ты можешь забыть об этом деле. Я послал своих людей в канализацию.","","","DIA_Andre_DGRunning_08_01","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1044","Die Diebesgilde ist jetzt nur noch ein trauriges Kapitel in der Geschichte dieser Stadt.","Гильдия воров теперь не более чем перевернутая страница истории этого города.","","","DIA_Andre_DGRunning_08_02","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1044","Die Diebesgilde ist jetzt nur noch ein trauriges Kapitel in der Geschichte dieser Stadt.","Гильдия воров теперь – не более чем перевернутая страница истории этого города.","","False","DIA_Andre_DGRunning_08_02","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1060","Ja?","Да?","","","DIA_Andre_DGRunning_08_03","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1063","Ich bin an der Sache dran...","Я работаю над этим...","","","DIA_Andre_DGRunning.DIA_Andre_DGRunning_BACK","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_311_Andre.d:1069","Ich habe sie alle zur Strecke gebracht!","Я всех их ликвидировал!","","","DIA_Andre_DGRunning.DIA_Andre_DGRunning_Success","Info_AddChoice",""
