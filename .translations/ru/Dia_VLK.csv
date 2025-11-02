@@ -1721,7 +1721,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:49","Und wo genau willst du hin?","А куда именно ты направляешься?","","","DIA_Meldor_Hallo_07_02","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:61","Was gibt's denn hier Interessantes zu sehen?","Что здесь интересного?","","","DIA_Meldor_Interessantes.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:71","Was gibt's denn hier Interessantes zu sehen?","Что здесь интересного?","","","DIA_Meldor_Interessantes_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:72","Hier gibt's 'nen Puff und 'ne Kneipe. Der Wirt heißt Kardif. Wenn du Informationen willst, dann sprich mit ihm. Er ist der richtige Mann dafür.","Здесь есть бордель и кабак. Хозяина кабака зовут Кардиф. Если тебе нужна информация, я советую проговорить именно с ним.","","","DIA_Meldor_Interessantes_07_01","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:72","Hier gibt's 'nen Puff und 'ne Kneipe. Der Wirt heißt Kardif. Wenn du Informationen willst, dann sprich mit ihm. Er ist der richtige Mann dafür.","Здесь есть бордель и кабак. Хозяина кабака зовут Кардиф. Если тебе нужна информация, я советую поговорить именно с ним.","","False","DIA_Meldor_Interessantes_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:73","Brauchst du eigentlich Geld?","Тебе, кстати, не нужны деньги?","","","DIA_Meldor_Interessantes_07_02","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:88","Hast du was zu verschenken?","А ты даешь их?","","","DIA_Meldor_Lehmar.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_415_Meldor.d:101","Hast du was zu verschenken?","А ты даешь их?","","","DIA_Meldor_Lehmar_15_00","",""
