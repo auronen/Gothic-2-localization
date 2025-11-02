@@ -10,7 +10,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Addon_OrcBiter.d:8","Beisser","Кусач","","False","Mst_Default_OrcBiter.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Razor.d:8","Razor","Бритвозуб","","","Mst_Default_Razor.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Shadowbeast_Fire.d:9","Feuerteufel","Огненный дьявол","","","Mst_Default_Shadowbeast_Addon_Fire.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Addon_StoneGuardian.d:8","Steinwächter","Каменный часовой","","","Mst_Addon_Stoneguardian.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_StoneGuardian.d:8","Steinwächter","Каменный страж","","False","Mst_Addon_Stoneguardian.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_StonePuma.d:8","Panther","Пантера","","","Mst_Default_StonePuma.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_SwampDrone.d:8","Sumpfgasdrone","Болотный трутень","","False","Mst_Default_SwampDrone.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_SwampGolem.d:8","Sumpfgolem","Болотный голем","","","Mst_Default_Addon_SwampGolem.name","",""
