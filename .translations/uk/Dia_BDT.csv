@@ -1787,7 +1787,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:73","Tja ... Schätze, du kennst meinen Boss. Okay, ich lasse dich durch. Aber ich warne dich.","Ну... мабуть, ти дійсно знаєш мого боса. Добре, я пропущу тебе. Але я попереджаю.","","","DIA_1061_Wache_Hallo_Dexter_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:74","Kommst du irgendjemandem zu nahe, kommst du hier nicht mehr lebend raus!","Якщо підійдеш тут до кого-небудь надто близько, живим звідси ти не вийдеш!","","","DIA_1061_Wache_Hallo_Dexter_01_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:75","Also atme tief durch und lass die Waffen stecken. Dexter findest du im Haus.","Тож зроби глибокий вдих і опусти зброю. Декстера ти зможеш найти в вежі.","","","DIA_1061_Wache_Hallo_Dexter_01_03","",""
-"Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:85","Diego.","Дієго.","","","DIA_1061_Wache_Hallo_Diego_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:85","Diego.","Дієґо.","","False","DIA_1061_Wache_Hallo_Diego_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:86","Richtig!","Правильно!","","","DIA_1061_Wache_Hallo_Diego_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:87","Nein, war nur ein Scherz. Du hast keine Ahnung, wer mein Boss ist.","Ні, це був жарт. Ти уявлення не маєш, хто мій бос.","","","DIA_1061_Wache_Hallo_Diego_01_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BDT_1061_Wache.d:88","Dann gibt's auch keinen Grund mehr, warum ich dich nicht töten sollte.","Тому не бачу жодних причин залишати тебе живим.","","","DIA_1061_Wache_Hallo_Diego_01_03","",""
