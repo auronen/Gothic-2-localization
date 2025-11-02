@@ -99,7 +99,7 @@
 "Scripts/Content/Story/NPC/DJG_713_Biff_NW.d:8","Biff","Бифф","","","DJG_713_Biff_NW.name","",""
 "Scripts/Content/Story/NPC/DJG_714_Jan.d:4","Jan","Ян","","","DJG_714_Jan.name","",""
 "Scripts/Content/Story/NPC/DJG_715_Ferros.d:4","Feros","Ферос","","","DJG_715_Ferros.name","",""
-"Scripts/Content/Story/NPC/DMT_1299_OberDementor_DI.d:4","Schwarzmagier","Черный маг","","","DMT_1299_OberDementor_DI.name","",""
+"Scripts/Content/Story/NPC/DMT_1299_OberDementor_DI.d:4","Schwarzmagier","Темный маг","","False","DMT_1299_OberDementor_DI.name","",""
 "Scripts/Content/Story/NPC/DMT_DementorAmbient.d:916","Schlüsselmeister","Ключник","","","DragonIsle_Keymaster.name","",""
 "Scripts/Content/Story/NPC/EBR_109_Syra.d:4","Syra","Сира","","","Vlk_2001_Syra.name","",""
 "Scripts/Content/Story/NPC/KDF_500_Pyrokar.d:4","Pyrokar","Пирокар","","","KDF_500_Pyrokar.name","",""
