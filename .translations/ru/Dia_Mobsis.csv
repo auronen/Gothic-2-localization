@@ -339,7 +339,7 @@
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1034","Trank der Geschwindigkeit (1 Snapperkraut, 1 Feldknöterich)","Эликсир скорости (1 снеппер-трава и 1 луговой горец)","","False","PC_ItPo_Speed.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1079","Tabak mischen und Stengel drehen","Смешать табак или свернуть косяк","","","PC_Tabak_Start.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1135","Sumpfkraut verarbeiten (1 Stengel)","Обработать болотную траву (1 косяк)","","","PC_ItMi_Joint.description","",""
-"Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1175","Grünen Novizen herstellen (1 Stengel)","Изготовить 'Зеленого послушника' (1 косяк)","","","PC_ItMi_Addon_Joint_01.description","",""
+"Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1175","Grünen Novizen herstellen (1 Stengel)","Изготовить 'Зеленый послушник' (1 косяк)","","False","PC_ItMi_Addon_Joint_01.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1218","Tabak mischen...","Смешать табак с...","","False","PC_ItMi_Tabak.description","",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1241","...mit Honig","...медом.","","False","PC_ItMi_Tabak.PC_ItMi_Tabak_Honey","Info_AddChoice",""
 "Scripts/Content/Story/Dialog_Mobsis/Potion_Alchemy.d:1246","...mit Sumpfkraut","...болотной травой.","","False","PC_ItMi_Tabak.PC_ItMi_Tabak_Swampherb","Info_AddChoice",""
