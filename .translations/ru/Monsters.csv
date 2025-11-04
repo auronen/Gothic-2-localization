@@ -62,7 +62,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Sheep.d:173","Schaf","Овца","","","Follow_Sheep_AKIL.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:8","Skelett","Скелет","","","Mst_Default_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:120","Beschworenes Skelett","Призванный скелет","","False","Summoned_Skeleton.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:173","Niederes Skelett","Малый скелет","","","Lesser_Skeleton.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:173","Niederes Skelett","Слабый скелет","","False","Lesser_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:220","Krypta-Wächter","Страж склепа","","","Crypt_Skeleton_Room_01.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:246","Krypta-Wächter","Страж склепа","","","Crypt_Skeleton_Room_02.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Skeleton.d:272","Krypta-Wächter","Страж склепа","","","Crypt_Skeleton_Room_03.name","",""
