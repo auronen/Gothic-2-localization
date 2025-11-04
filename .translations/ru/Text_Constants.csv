@@ -4,7 +4,7 @@
 "Scripts/Content/Story/Text.d:7","Bett","Кровать","","","MOBNAME_BED","",""
 "Scripts/Content/Story/Text.d:8","Tür","Дверь","","","MOBNAME_DOOR","",""
 "Scripts/Content/Story/Text.d:15","Amboss","Наковальня","","","MOBNAME_ANVIL","",""
-"Scripts/Content/Story/Text.d:16","Wasser-Eimer","Ведро для воды","","","MOBNAME_BUCKET","",""
+"Scripts/Content/Story/Text.d:16","Wasser-Eimer","Ведро воды","","False","MOBNAME_BUCKET","",""
 "Scripts/Content/Story/Text.d:17","Schmiede-Feuer","Кузнечный горн","","","MOBNAME_FORGE","",""
 "Scripts/Content/Story/Text.d:18","Schleifstein","Точильный камень","","","MOBNAME_GRINDSTONE","",""
 "Scripts/Content/Story/Text.d:19","Winde","Ворот","","","MOBNAME_WHEEL","",""
