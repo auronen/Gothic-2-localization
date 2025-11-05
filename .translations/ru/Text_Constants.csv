@@ -14,7 +14,7 @@
 "Scripts/Content/Story/Text.d:24","Kessel","Котел","","","MOBNAME_CAULDRON","",""
 "Scripts/Content/Story/Text.d:27","Pfanne","Сковорода","","","MOBNAME_PAN","",""
 "Scripts/Content/Story/Text.d:29","Wasserpfeife","Кальян","","","MOBNAME_WATERPIPE","",""
-"Scripts/Content/Story/Text.d:30","Schalter","Выключатель","","","MOBNAME_SWITCH","",""
+"Scripts/Content/Story/Text.d:30","Schalter","Переключатель","","False","MOBNAME_SWITCH","",""
 "Scripts/Content/Story/Text.d:31","Erzklumpen","Кусок руды","","","MOBNAME_ORE","",""
 "Scripts/Content/Story/Text.d:34","Herd","Плита","","","MOBNAME_STOVE","",""
 "Scripts/Content/Story/Text.d:35","Innos Statue","Статуя Инноса","","","MOBNAME_INNOS","",""
