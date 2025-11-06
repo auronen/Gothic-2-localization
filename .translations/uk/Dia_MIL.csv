@@ -903,7 +903,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:44","Wer bist du?","Хто ти?","","","DIA_328_Miliz_Hi_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:45","Das geht dich nichts an? Ich bin hier der Chef, okay?","Це не твоє діло! Тут я головний, затямив?","","","DIA_328_Miliz_Hi_08_02","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:46","Der Chef? Von was? Von den Kisten?","Головний? Над чим? Над цими скринями?","","","DIA_328_Miliz_Hi_15_03","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:47","Hey, das Lagerhaus untersteht meiner Aufsicht, klar? Also verpiss dich, sonst schlage ich dir den Schädel ein.","Гей, цей склад під моїм наглядом, зрозумів? Тож іди в сраку, або скручу тобі шию.","","","DIA_328_Miliz_Hi_08_04","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:47","Hey, das Lagerhaus untersteht meiner Aufsicht, klar? Also verpiss dich, sonst schlage ich dir den Schädel ein.","Гей, цей склад під моїм наглядом, зрозумів? Тож забирайся, або скручу тобі шию.","","False","DIA_328_Miliz_Hi_08_04","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:77","Hey, du bist ja immer noch hier. Hatte ich nicht gesagt, du sollst dich verpissen?","Агов, ти ще тут!? Хіба я не казав тобі забиратися?","","False","DIA_328_Miliz_Kill_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_328_Miliz.d:78","Jetzt zeige ich dir, wer hier der Chef ist!","Зараз я тобі покажу, хто тут головний!","","","DIA_328_Miliz_Kill_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_332_Stadtwache.d:34","Wie steht's?","Що робиш?","","","DIA_Mil_332_Stadtwache_PERM.description","",""
