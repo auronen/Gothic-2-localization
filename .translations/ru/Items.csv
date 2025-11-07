@@ -2244,7 +2244,7 @@
 "Scripts/Content/Items/MissionItems_2.d:571","","","","","ItWr_Pfandbrief_MIS.text[5]","",""
 "Scripts/Content/Items/MissionItems_2.d:575","Zur Tilgung der ausstehenden Schulden  ","В качестве гарантии погашения долга ","","","Pfandbrief_1","",""
 "Scripts/Content/Items/MissionItems_2.d:576","wird ein Pfand ausgesetzt, der mit seinem Reinwert","принимается залог, стоимость которого ","","","Pfandbrief_2","",""
-"Scripts/Content/Items/MissionItems_2.d:577","der Höhe der Schulden entspricht.","равна сумме долга. ","","","Pfandbrief_3","",""
+"Scripts/Content/Items/MissionItems_2.d:577","der Höhe der Schulden entspricht.","равна сумме долга.","","False","Pfandbrief_3","",""
 "Scripts/Content/Items/MissionItems_2.d:578","Pfand: Verzierter Kelch aus Gold ","Залог: орнаментированный золотой кубок ","","False","Pfandbrief_4","",""
 "Scripts/Content/Items/MissionItems_2.d:579","aus der Sammlung der Blutkelche","из коллекции Кровавых кубков.","","False","Pfandbrief_5","",""
 "Scripts/Content/Items/MissionItems_2.d:581","gez.","подпись ","","","Pfandbrief_6","",""
