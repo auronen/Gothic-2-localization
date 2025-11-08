@@ -652,7 +652,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignAmbientInfos_VLK_8.d:157","Die Leute erzählen sich, die Drachen wären besiegt worden. Ob das stimmt?","Люди говорять, що дракони були переможені. Чи це правда?","","False","DIA_VLK_8_STANDARD_08_07","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:11","In die Unterstadt.","До Нижньої частини міста.","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_UNTERSTADT","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:16","Ins obere Viertel.","До Верхнього міста.","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_OBERSTADT","Info_AddChoice",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:21","Zum Adanos-Tempel","До Храму Аданоса","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_TEMPEL","Info_AddChoice",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:21","Zum Adanos-Tempel","До храму Аданоса","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_TEMPEL","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:26","Zum Marktplatz.","До Ринкової площі.","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_MARKT","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:31","Zum Galgenplatz","До Площі шибеників","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_GALGEN","Info_AddChoice",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_AssignCityGuide.d:36","Zur Kaserne.","До казарм.","","False","DIA_CITYGUIDE.DIA_CITYGUIDE_KASERNE","Info_AddChoice",""
