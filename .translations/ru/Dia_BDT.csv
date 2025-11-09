@@ -749,7 +749,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1080_Tom.d:207","Und sonst?","Что еще?","","","DIA_Addon_Tom_PERM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1080_Tom.d:211","Jetzt kann ich wieder ganz in Ruhe Lucias Schnaps trinken.","Теперь я могу спокойно пить варево Люсии.","","","DIA_Addon_Tom_PERM_11_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1080_Tom.d:217","Jetzt kann ich mich endlich wieder im Lager blicken lassen!","Теперь я, наконец, могу показаться в лагере!","","","DIA_Addon_Tom_PERM_11_02","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1080_Tom.d:221","Sonst? Sonst sitz ich hier rum und zähle Steine ...","А иначе бы я сидел тут и считал камни...","","","DIA_Addon_Tom_PERM_11_03","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1080_Tom.d:221","Sonst? Sonst sitz ich hier rum und zähle Steine ...","А иначе бы я не сидел тут и считал камни...","","False","DIA_Addon_Tom_PERM_11_03","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1081_Wache_01.d:70","Alles klar?","Все в порядке?","","","DIA_Addon_Wache_01_Hi.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1081_Wache_01.d:80","Alles klar?","Все в порядке?","","","DIA_Addon_Wache_01_Hi_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1081_Wache_01.d:81","Pack Esteban an und ich hau dich in Stücke.","Только коснись Эстебана, и я порублю тебя на кусочки.","","","DIA_Addon_Wache_01_Hi_04_01","",""
