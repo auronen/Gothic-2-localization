@@ -222,7 +222,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_601_Igaraz.d:674","(Es wäre einfach seinen Schlüssel zu stehlen)","(Украсть этот ключ будет легко)","","","DIA_Igaraz_PICKPOCKET.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_601_Igaraz.d:791","Hast du was interessantes für mich?","У тебя есть что-нибудь интересное для меня?","","","DIA_Igaranz_Perm.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_601_Igaraz.d:806","Hast du was Interessantes für mich?","У тебя есть что-нибудь интересное для меня?","","","DIA_Igaranz_Perm_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_601_Igaraz.d:807","Ähm ... nein.","Хмм... нет.","","False","DIA_Igaranz_Perm_13_01","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_601_Igaraz.d:807","Ähm ... nein.","Хм-м... нет.","","False","DIA_Igaranz_Perm_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:33","Was machst du hier?","Что ты делаешь здесь?","","","DIA_Ulf_Hallo.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:48","Was machst du hier?","Что ты делаешь здесь?","","","DIA_Ulf_Hallo_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_602_Ulf.d:52","Ich versuche, die Aufgaben, die das Kloster mir stellt, zu eurer Zufriedenheit zu erfüllen.","Если тебе интересно это знать, я выполняю задание монастыря.","","","DIA_Ulf_Hallo_03_01","",""
