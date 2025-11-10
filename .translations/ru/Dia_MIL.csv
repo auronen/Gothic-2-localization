@@ -688,7 +688,7 @@
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:158","Du bist doch der Kerl, der Canthar den Händler angezeigt hat.","Эй, ты тот парень, что написал жалобу на Кантара, торговца.","","","DIA_Boltan_Add_05_11","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:159","Es waren jede Menge Leute hier, die sich für ihn verbürgt haben. Angesehene Leute.","Много людей приходило, чтобы похлопотать за него. Уважаемых людей.","","","DIA_Boltan_Add_05_12","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:160","Die Sache war wohl ein Mißverständnis. Sowas kommt vor.","Должно быть, произошло какое-то недоразумение. Такое бывает.","","","DIA_Boltan_Add_05_13","",""
-"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:161","Pass in Zukunft besser auf, wen du in den Knast bringst.","В будущем тебе стоит быть тщательнее выбирать, кого ты хочешь упечь в тюрьму.","","","DIA_Boltan_Add_05_14","",""
+"Scripts/Content/Story/Dialoge/DIA_MIL_313_Boltan.d:161","Pass in Zukunft besser auf, wen du in den Knast bringst.","В будущем тебе стоит тщательнее выбирать, кого ты хочешь упечь в тюрьму.","","False","DIA_Boltan_Add_05_14","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_314_Mortis.d:48","Was willst du? Peck ist nicht da. Also kannst du hier auch nichts bekommen. Komm später wieder.","Что тебе нужно? Пека здесь нет. А без него ты ничего не получишь. Заходи позже.","","","DIA_Mortis_Hallo_13_00","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_314_Mortis.d:60","Wo ist Peck?","А где Пек?","","","DIA_Mortis_Waffe.description","",""
 "Scripts/Content/Story/Dialoge/DIA_MIL_314_Mortis.d:75","Wo ist Peck?","А где Пек?","","","DIA_Mortis_Waffe_15_00","",""
