@@ -676,7 +676,7 @@
 "Scripts/Content/Story/Text.d:947","Schleichen","Красться ","","","NAME_TALENT_SNEAK","",""
 "Scripts/Content/Story/Text.d:948","Taschendiebstahl","Карманник","","False","NAME_TALENT_PICKPOCKET","",""
 "Scripts/Content/Story/Text.d:949","Schlösser knacken","Schlцsser knacken ","","","NAME_TALENT_PICKLOCK","",""
-"Scripts/Content/Story/Text.d:955","Du hast geschlafen und bist ausgeruht!","Вы хорошо выспались и отдохнули!","","","PRINT_SleepOver","",""
+"Scripts/Content/Story/Text.d:955","Du hast geschlafen und bist ausgeruht!","Ты хорошо выспался и отдохнул!","","False","PRINT_SleepOver","",""
 "Scripts/Content/Story/Text.d:956","Alpträume verwehren dir Erholung!","Кошмары помешали вам отдохнуть!","","","PRINT_SleepOverObsessed","",""
 "Scripts/Content/Story/Text.d:957","Waffe hergestellt!","Оружие готово!","","","PRINT_SmithSuccess","",""
 "Scripts/Content/Story/Text.d:958","Rune hergestellt!","Руна создана!","","","PRINT_RuneSuccess","",""
