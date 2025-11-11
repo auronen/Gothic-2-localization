@@ -410,7 +410,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:114","Leider waren wir zu wenige, nachdem unser Flaggschiff versenkt worden ist, mussten wir uns zurückziehen.","К сожалению, нас осталось слишком мало, когда наш флагман затонул и нам пришлось отступить.","","","DIA_None_101_Mario_WhyNeedYou_07_05","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:126","Wieso bist du dann hier? ","А что ты делаешь здесь?","","","DIA_None_101_Mario_WhyHere.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:140","Wieso bist du dann hier?","А что ты делаешь здесь?","","","DIA_None_101_Mario_WhyHere_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:141","Die Flotte ist geschlagen und die Soldkassen sind leer.","Флоту пришлось бежать, и мы лишились жалования.","","","DIA_None_101_Mario_WhyHere_07_01","",""
+"Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:141","Die Flotte ist geschlagen und die Soldkassen sind leer.","Флоту пришлось бежать, и мы лишились жалованья.","","False","DIA_None_101_Mario_WhyHere_07_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:142","Nach meiner Entlassung bin ich dann hier in diesem Nest gestrandet und suche eine neue Heuer.","После моего списания на берег я застрял в этой дыре, и вот теперь ищу новое судно.","","","DIA_None_101_Mario_WhyHere_07_02","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:154","Was kannst du?","Что ты можешь делать?","","","DIA_None_101_Mario_Abilities.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_101_Mario.d:168","Was kannst du?","Что ты можешь делать?","","","DIA_None_101_Mario_Abilities_15_00","",""
