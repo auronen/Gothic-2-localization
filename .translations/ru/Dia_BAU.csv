@@ -725,7 +725,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:567","Irgendwas in der Zwischenzeit passiert?","Что-нибудь произошло интересного?","","","DIA_Sekob_PERM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:571","Verschwinde.","Проваливай.","","","DIA_Sekob_PERM_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:575","Nein. Nichts Besonderes.","Нет. Ничего особенного.","","","DIA_Sekob_PERM_01_02","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:580","Meine Frau ist verschwunden. Ich hab es erst gar nicht mitbekommen, und mit einem Mal war sie weg.","Моя жена исчезла. Сначала я не придал этому внимания, но она так и не вернулась.","","","DIA_Sekob_PERM_01_03","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:580","Meine Frau ist verschwunden. Ich hab es erst gar nicht mitbekommen, und mit einem Mal war sie weg.","Моя жена исчезла. Сначала я не придал этому значения, но она так и не вернулась.","","False","DIA_Sekob_PERM_01_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:581","Ich vermute, sie ist vor den Feldräubern in die Wälder geflohen.","Я подозреваю, что она убежала в лес, спасаясь от полевых хищников.","","","DIA_Sekob_PERM_01_04","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:582","Tu mir einen Gefallen, wenn du sie findest, bring sie heil und gesund wieder zu mir zurück.","Окажи мне услугу: если ты найдешь ее, приведи ее домой.","","","DIA_Sekob_PERM_01_05","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:590","Seit die schwarzen Kerle in meinem Haus waren nicht.","Ничего с тех пор, как эти негодяи в черном захватили мой дом.","","","DIA_Sekob_PERM_01_06","",""
