@@ -2780,7 +2780,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:363","Dann besorg sie dir! Kein Kampf ohne Einsatz!","Тогда найди их! Без ставок боя не будет!","","","DIA_Alrik_WannaFight_NoGold_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:370","Komm her!","Иди сюда!","","","DIA_Alrik_WannaFight_NOW_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:371","Dann lass mal sehen, was du kannst!","Посмотрим, на что ты способен!","","","DIA_Alrik_WannaFight_NOW_09_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:385","Moment ...","Эм… Подожди секундочку.","","False","DIA_Alrik_WannaFight_Moment_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:385","Moment ...","Эм... Подожди секундочку.","","False","DIA_Alrik_WannaFight_Moment_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:386","Lass dir Zeit ... ich fang schon mal an!","Как хочешь... а я начинаю сейчас!","","","DIA_Alrik_WannaFight_Moment_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:435","Mannomann! Du hast ja 'nen ganz schönen Schlag drauf.","Ох, парень! Ну и удары у тебя.","","","DIA_Alrik_AfterFight_09_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_438_Alrik.d:439","Hier sind deine 100 Goldstücke! Du hast sie dir verdient!","Вот твои 100 золотых! Ты заработал их!","","","DIA_Alrik_AfterFight_09_01","",""
