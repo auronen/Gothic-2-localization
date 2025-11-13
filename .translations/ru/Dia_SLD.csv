@@ -1856,7 +1856,7 @@
 "Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:560","Komm nie wieder auf die Idee, mich zu verarschen, klar?","Никогда больше не пытайся обмануть меня, понятно?","","","DIA_Raoul_GotTrollFurBack.description","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:575","Komm nie wieder auf die Idee, mich zu verarschen, klar?","Никогда больше не пытайся обмануть меня, понятно?","","","DIA_Raoul_GotTrollFurBack_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:576","Schon gut. Du weißt doch, wie die Sache hier läuft, oder? Also reg dich wieder ab.","Хорошо. Ты знаешь здешние законы. Так что успокойся.","","","DIA_Raoul_GotTrollFurBack_01_01","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:692","Wie wär's mit 'ner Schiffsreise hier raus?","Ты не отказался бы от океанского круиза?","","","DIA_Raoul_Ship.description","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:692","Wie wär's mit 'ner Schiffsreise hier raus?","Ты не отказался бы свалить отсюда на судне?","","False","DIA_Raoul_Ship.description","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:706","Wie wär's mit 'ner Schiffsreise hier raus?","Ты не отказался бы свалить отсюда на судне?","","False","DIA_Raoul_Ship_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:707","Was hast du vor? Willst du das Schiff der Paladine kapern? (lacht)","Что ты замышляешь? Ты хочешь захватить корабль паладинов? (смеется)","","","DIA_Raoul_Ship_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_822_Raoul.d:708","Und wenn es so wäre?","А что, если и так?","","","DIA_Raoul_Ship_15_02","",""
