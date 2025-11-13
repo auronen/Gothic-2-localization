@@ -2440,7 +2440,7 @@
 "Scripts/Content/Story/SVM.d:3313"," So ein Mistwetter!","Какая мерзкая погода!","","","SVM_16_Weather","",""
 "Scripts/Content/Story/SVM.d:3315"," Krieg' ich dich DOCH noch!","А я тебя достала!","","False","SVM_16_IGetYouStill","",""
 "Scripts/Content/Story/SVM.d:3316"," Jetzt bist du dran!","Сейчас ты сдохнешь!","","False","SVM_16_DieEnemy","",""
-"Scripts/Content/Story/SVM.d:3317"," Da ist schon wieder eins von diesen Drecksviechern!","Еще одна Грязная тварь!","","False","SVM_16_DieMonster","",""
+"Scripts/Content/Story/SVM.d:3317"," Da ist schon wieder eins von diesen Drecksviechern!","Еще одна грязная тварь!","","False","SVM_16_DieMonster","",""
 "Scripts/Content/Story/SVM.d:3318"," Na warte, du dreckiger Dieb!","Вор несчастный! Руки-то поотрываю!","","False","SVM_16_DirtyThief","",""
 "Scripts/Content/Story/SVM.d:3319"," Finger weg da!","Убери свои грязные лапы!","","False","SVM_16_HandsOff","",""
 "Scripts/Content/Story/SVM.d:3320"," Der Mistkerl schlachtet unsere Schafe!","Это изверг убивает наших овец!","","False","SVM_16_SheepKiller","",""
