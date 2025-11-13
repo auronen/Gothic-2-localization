@@ -457,7 +457,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:362","Ich habe die Liesel mitgebracht","Смотри, я привел Бетси.","","False","DIA_Opolos_LIESEL.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:376","Ich habe die Liesel mitgebracht. Kann ich sie dir überlassen?","Смотри, я привел Бетси. Могу я оставить ее с тобой?","","","DIA_Opolos_LIESEL_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:389","Ja, natürlich. Kein schönes Tier. Ich werde gut auf sie aufpassen.","Да, конечно. Какая красивая овечка. Я позабочусь о ней.","","","DIA_Opolos_LIESEL_12_01","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:394","Hm...irgendwie scheint sie mir abhanden gekommen zu sein. Ich komme später wieder.","Хм, куда же эт она подевалась. Я вернусь чуть позже.","","False","DIA_Opolos_Add_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:394","Hm...irgendwie scheint sie mir abhanden gekommen zu sein. Ich komme später wieder.","Хм, куда же это она подевалась? Я вернусь чуть позже.","","False","DIA_Opolos_Add_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:408","Wegen der Bibliothek...","Насчет библиотеки...","","False","DIA_Opolos_Biblothek.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:422","Wegen der Bibliothek...","Насчет библиотеки...","","","DIA_Opolos_Biblothek_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_605_Opolos.d:426","Das ist der verschlossene Raum links neben der Pforte.","Это запертая комната слева, рядом с воротами.","","","DIA_Opolos_Biblothek_12_01","",""
