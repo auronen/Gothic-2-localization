@@ -3130,7 +3130,7 @@
 "Scripts/Content/Items/MissionItems_Addon.d:1756","","","","","ItMi_TempelTorKey.text[0]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1757","","","","","ItMi_TempelTorKey.text[1]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1758","Der Schlüssel zum Tempel Adanos.","Ключ от храма Аданоса","","","ItMi_TempelTorKey.text[2]","",""
-"Scripts/Content/Items/MissionItems_Addon.d:1761","  Jhehedra Akhantar"," Яхедра Акантар ","","","TempelTorKey_1","",""
+"Scripts/Content/Items/MissionItems_Addon.d:1761","  Jhehedra Akhantar","  Джер-эдра Ахантар","","False","TempelTorKey_1","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1787","Bloodwyn's Kopf","Голова Бладвина","","","ItMi_Addon_Bloodwyn_Kopf.name","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1798","","","","","ItMi_Addon_Bloodwyn_Kopf.text[0]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:1799","","","","","ItMi_Addon_Bloodwyn_Kopf.text[1]","",""
