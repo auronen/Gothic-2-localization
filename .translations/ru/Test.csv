@@ -174,7 +174,7 @@
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:41","Storyhelper","Storyhelper","","","SH.name","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:113","Kapitel 1","Глава 1","","False","StoryHelper_INFO1.description","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:125","KAPITELANFANG","НАЧАЛО ГЛАВЫ","","False","StoryHelper_INFO1.StoryHelper_KAPITEL1ANFANG","Info_AddChoice",""
-"Scripts/Content/AI/Test_Skripts/StoryHelper.d:126","ADDON Ready for first Meeting with Saturas (forget Lares)","АДДОН: Готово к первой встрече с Сатурой (забудь о Ларесе)","","False","StoryHelper_INFO1.StoryHelper_SATURAS","Info_AddChoice",""
+"Scripts/Content/AI/Test_Skripts/StoryHelper.d:126","ADDON Ready for first Meeting with Saturas (forget Lares)","АДДОН: Готово к первой встрече с Сатурасом (забудь о Ларесе)","","False","StoryHelper_INFO1.StoryHelper_SATURAS","Info_AddChoice",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:127","ADDON Cavalorn bug ","ADDON Cavalorn bug ","","","StoryHelper_INFO1.StoryHelper_Cavalorn","Info_AddChoice",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:198","Kapitel 2","Kapitel 2","","","StoryHelper_INFO2.description","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:210","KAPITELANFANG","НАЧАЛО ГЛАВЫ","","False","StoryHelper_INFO2.StoryHelper_KAPITEL2ANFANG","Info_AddChoice",""
