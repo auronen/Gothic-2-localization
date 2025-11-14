@@ -76,7 +76,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:79","Wie sieht's aus?","Как дела?","","","DIA_Addon_Wache_02_Hi_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:80","Warte mal, kenne ich dich nicht irgendwo her?","Подожди-ка, а мы с тобой не знакомы?","","","DIA_Addon_Wache_02_Hi_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:82","Hmm ... nein. Das bist du nicht. Los, verpiss dich.","Хм-м... не-не, ты не похож... Проходи, не задерживайся!","","False","DIA_Addon_Wache_02_Hi_13_02","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:94","Was weißt du über das Attentat?","Что тебе известно о нападении?","","","DIA_Addon_Wache_02_Attentat.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:94","Was weißt du über das Attentat?","Что ты знаешь о нападении?","","False","DIA_Addon_Wache_02_Attentat.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:108","Was weißt du über das Attentat?","Что ты знаешь о нападении?","","","DIA_Addon_Wache_02_Attentat_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:109","Was ich darüber weiß? (lacht) Ich hab dem Kerl die Beine gebrochen.","Что я знаю о нем? (смеется) Я сломал этому парню ноги.","","","DIA_Addon_Wache_02_Attentat_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_10005_Wache_02.d:110","(droht) Und das werde ich auch mit jedem anderen machen, der sich mit Esteban anlegen will ...","(угрожающе) И я сделаю это с каждым, кто попробует напасть на Эстебана...","","","DIA_Addon_Wache_02_Attentat_13_02","",""
