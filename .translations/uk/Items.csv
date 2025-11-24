@@ -3616,7 +3616,7 @@
 "Scripts/Content/Items/IT_Addon_Weapons.d:182","","","","","ItMW_Addon_Stab03.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Weapons.d:183","","","","","ItMW_Addon_Stab03.text[1]","",""
 "Scripts/Content/Items/IT_Addon_Weapons.d:193","Ulthar's Stab","Посох Ультара","","","ItMW_Addon_Stab04.name","",""
-"Scripts/Content/Items/IT_Addon_Weapons.d:215","Ulthar verzauberte diesen Stab","Ультар наділив цей посох магічною силою","","","ItMW_Addon_Stab04.description","",""
+"Scripts/Content/Items/IT_Addon_Weapons.d:215","Ulthar verzauberte diesen Stab","Зачарований Ультаром посох","","False","ItMW_Addon_Stab04.description","",""
 "Scripts/Content/Items/IT_Addon_Weapons.d:216","","","","","ItMW_Addon_Stab04.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Weapons.d:217","","","","","ItMW_Addon_Stab04.text[1]","",""
 "Scripts/Content/Items/IT_Addon_Weapons.d:227","Taifun","Тайфун","","","ItMW_Addon_Stab05.name","",""
