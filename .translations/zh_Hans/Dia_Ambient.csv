@@ -996,7 +996,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:10","Er hatte den Schläfer besiegt, die Barriere zerstört...","他 击 败 了 沉 睡 者 ， 摧 毁 了 屏 障 … …","","False","INTRO_Xardas_Speech_14_02","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:11","...doch während alle anderen Gefangenen entkamen, blieb er in den Trümmern zurück...","… … 但 是 ， 当 所 有 其 它 囚 犯 逃 出 去 的 时 候 ， 他 留 在 碎 石 堆 之 中 … …","","False","INTRO_Xardas_Speech_14_03","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:12","Ich war es, der ihn gegen den Schläfer endsandte.","是 我 派 他 去 抵 抗 沉 睡 者 。","","False","INTRO_Xardas_Speech_14_04","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","现 在 是 我 把 他 从 那 里 带 回 来 。","","False","INTRO_Xardas_Speech_14_05","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","现 在 是 我 把 他 从 那 里 带 回 来 。","","True","INTRO_Xardas_Speech_14_05","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:14","Er ist schwach, und er hat vieles vergessen.","他 很 虚 弱 ， 并 且 忘 记 了 很 多 事 。","","False","INTRO_Xardas_Speech_14_06","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:15","Aber er ist am leben...","但 是 他 还 活 着 … …","","False","INTRO_Xardas_Speech_14_07","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:16","Er ist - zurück!","他 - 回 来 了 ！","","False","INTRO_Xardas_Speech_14_08","",""
