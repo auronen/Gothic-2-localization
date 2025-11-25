@@ -996,7 +996,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:10","Er hatte den Schläfer besiegt, die Barriere zerstört...","Derrotó al Durmiente, destruyó la barrera...","","","INTRO_Xardas_Speech_14_02","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:11","...doch während alle anderen Gefangenen entkamen, blieb er in den Trümmern zurück...","… pero, mientras los demás prisioneros huían, se quedó entre los escombros.","","","INTRO_Xardas_Speech_14_03","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:12","Ich war es, der ihn gegen den Schläfer endsandte.","Yo fui quien le envió a que se enfrentase al Durmiente.","","","INTRO_Xardas_Speech_14_04","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","Ahora soy yo quien le trae de vuelta.","","","INTRO_Xardas_Speech_14_05","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","Ahora soy yo quien le trae de vuelta.","","False","INTRO_Xardas_Speech_14_05","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:14","Er ist schwach, und er hat vieles vergessen.","Está débil y ha olvidado casi todo.","","","INTRO_Xardas_Speech_14_06","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:15","Aber er ist am leben...","Pero está vivo...","","","INTRO_Xardas_Speech_14_07","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:16","Er ist - zurück!","¡Ha vuelto!","","","INTRO_Xardas_Speech_14_08","",""
