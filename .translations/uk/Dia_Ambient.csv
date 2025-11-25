@@ -996,7 +996,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:10","Er hatte den Schläfer besiegt, die Barriere zerstört...","Він переміг Сплячого, знищив Бар'єр...","","False","INTRO_Xardas_Speech_14_02","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:11","...doch während alle anderen Gefangenen entkamen, blieb er in den Trümmern zurück...","...але поки іншим в'язням вдалося втекти, він залишився, похований під землею...","","False","INTRO_Xardas_Speech_14_03","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:12","Ich war es, der ihn gegen den Schläfer endsandte.","Це я послав його битися зі Сплячим.","","False","INTRO_Xardas_Speech_14_04","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","І я його поверну.","","False","INTRO_Xardas_Speech_14_05","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","І я його поверну.","","True","INTRO_Xardas_Speech_14_05","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:14","Er ist schwach, und er hat vieles vergessen.","Він слабкий і багато забув.","","False","INTRO_Xardas_Speech_14_06","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:15","Aber er ist am leben...","Але живий...","","False","INTRO_Xardas_Speech_14_07","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:16","Er ist - zurück!","Він повернувся!","","False","INTRO_Xardas_Speech_14_08","",""
