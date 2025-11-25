@@ -996,7 +996,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:10","Er hatte den Schläfer besiegt, die Barriere zerstört...","Porazil Spáče, zničil bariéru...","","","INTRO_Xardas_Speech_14_02","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:11","...doch während alle anderen Gefangenen entkamen, blieb er in den Trümmern zurück...","...ale zatímco ostatní vězni uprchli, on zůstal pod hromadou suti.","","","INTRO_Xardas_Speech_14_03","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:12","Ich war es, der ihn gegen den Schläfer endsandte.","Byl jsem to já, kdo jej vyslal proti Spáči.","","","INTRO_Xardas_Speech_14_04","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","A jsem to opět já, kdo jej přivádí zpět.","","","INTRO_Xardas_Speech_14_05","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:13","Ich bin es jetzt, der ihn von dort zurückholt.","A jsem to opět já, kdo jej přivádí zpět.","","False","INTRO_Xardas_Speech_14_05","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:14","Er ist schwach, und er hat vieles vergessen.","Je slabý a mnohé zapomněl.","","","INTRO_Xardas_Speech_14_06","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:15","Aber er ist am leben...","Ale je naživu...","","","INTRO_Xardas_Speech_14_07","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:16","Er ist - zurück!","Je zpátky!","","","INTRO_Xardas_Speech_14_08","",""
