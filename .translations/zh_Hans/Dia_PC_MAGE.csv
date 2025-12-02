@@ -180,7 +180,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:61","Schon wieder. Nach dem Fall der Barriere bin ich ins Kloster der Feuermagie gegangen.","又 来 了 。 屏 障 崩 溃 之 后 我 进 入 了 火 魔 法 师 修 道 院 。","","False","DIA_MiltenOW_Hello_YES_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:62","Aber als klar war, dass die Paladine herkommen wollten, erwies sich meine Erfahrung und Ortskenntnis als ziemlich nützlich.","但 是 很 显 然 ， 圣 骑 士 要 我 来 这 里 ， 我 的 经 验 和 对 这 个 地 方 的 了 解 程 度 都 十 分 有 用 。","","False","DIA_MiltenOW_Hello_YES_03_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:63","Also bin ich kurzerhand mit der heiligen Mission betraut worden, die magische Unterstützung für diese Expedition zu übernehmen.","所 以 ， 他 们 当 时 就 决 定 委 任 我 一 项 神 圣 的 使 命 ， 为 这 次 远 征 提 供 魔 法 支 持 。","","False","DIA_MiltenOW_Hello_YES_03_03","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:67","Klar, kenne ich die Jungs noch. ","当 然 我 记 得 那 些 孩 子 。 ","","False","DIA_MiltenOW_Hello.DIA_MiltenOW_Hello_Friends","Info_AddChoice",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:67","Klar, kenne ich die Jungs noch. ","当 然 我 记 得 那 些 孩 子 。 ","","True","DIA_MiltenOW_Hello.DIA_MiltenOW_Hello_Friends","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:68","Die Namen sagen mir gar nichts.","那 些 名 字 根 本 没 能 让 我 想 起 任 何 东 西 。","","False","DIA_MiltenOW_Hello.DIA_MiltenOW_Hello_Forget","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:73","Kennen wir uns?","我 应 该 认 识 他 们 吗 ？","","False","DIA_MiltenOW_Hello_NO_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:74","Du hast wohl eine Menge mitgemacht, was?","你 经 历 了 不 少 事 情 ， 是 吗 ？","","False","DIA_MiltenOW_Hello_NO_03_01","",""
