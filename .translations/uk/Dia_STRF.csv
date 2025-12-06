@@ -154,7 +154,7 @@
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:118","Klar. Ich werde dich nicht aufhalten.","Як хочеш. Я тебе не тримаю.","","","DIA_Kervo_HILFE_tschau_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:132","Die Lurker vor der Höhle sind weg.","Луркерів перед печерою більше нема.","","","DIA_Kervo_LurkerPlatt.description","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:151","Die Lurker vor der Höhle sind weg.","Луркерів перед печерою більше нема.","","","DIA_Kervo_LurkerPlatt_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:152","Großartig. Jetzt kann ich wenigstens wieder durchatmen.","Чудово. Тепер я принаймні можу спать спокійно.","","","DIA_Kervo_LurkerPlatt_13_01","",""
+"Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:152","Großartig. Jetzt kann ich wenigstens wieder durchatmen.","Чудово. Тепер я принаймні можу спати спокійно.","","False","DIA_Kervo_LurkerPlatt_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:156","Hier hast du das versprochene Ding.","А ось і те, що я тобі обіцяв.","","","DIA_Kervo_LurkerPlatt_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:182","Gehst du jetzt über den Pass?","Ти тепер підеш до Перевалу?","","","DIA_Kervo_VERGISSES.description","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:195","Gehst du jetzt über den Pass?","Ти тепер підеш до Перевалу?","","","DIA_Kervo_VERGISSES_15_00","",""
