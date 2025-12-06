@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Alligator.d:8","Alligator","Алігатор","","False","Mst_Default_Addon_Alligator.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Blattcrawler.d:8","Fangheuschrecke","Богомол","","False","Mst_Default_Blattcrawler.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Addon_Bloodhound.d:8","Bluthund","Кривавий Гончак","","False","Mst_Default_Bloodhound.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Addon_Bloodhound.d:8","Bluthund","Кривавий гончак","","False","Mst_Default_Bloodhound.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Giant_DesertRat.d:8","Wüstenratte","Пустельний щур","","False","Mst_Default_Giant_DesertRat.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_Gobbo_Warrior.d:8","Goblin - Krieger","Гоблін-воїн","","False","Mst_Default_Gobbo_Warrior.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Addon_IceWolf.d:8","Eiswolf","Крижаний вовк","","False","Mst_Default_Icewolf.name","",""
