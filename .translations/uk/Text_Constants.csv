@@ -804,7 +804,7 @@
 "Scripts/Content/Story/Text.d:1139","(Es wäre fast unmöglich ihren Geldbeutel zu stehlen)","(Вкрасти її гаманець практично неможливо)","","","Pickpocket_120_Female","",""
 "Scripts/Content/Story/Text.d:1159","Das hörte sich gut an","Це звучало добре","","","PRINT_PICKLOCK_SUCCESS","",""
 "Scripts/Content/Story/Text.d:1160","Das Schloß ist geknackt","Замок відкрито","","False","PRINT_PICKLOCK_UNLOCK","",""
-"Scripts/Content/Story/Text.d:1161","Mist.. wieder von vorne","Дідько...Тепер все заново","","","PRINT_PICKLOCK_FAILURE","",""
+"Scripts/Content/Story/Text.d:1161","Mist.. wieder von vorne","Дідько... Тепер все заново","","False","PRINT_PICKLOCK_FAILURE","",""
 "Scripts/Content/Story/Text.d:1162","Der Dietrich ist abgebrochen","Відмичка зламалася","","False","PRINT_PICKLOCK_BROKEN","",""
 "Scripts/Content/Story/Text.d:1165","Lebenspunkte zu wenig","Недостатньо здоров'я","","False","PRINT_HITPOINTS_MISSING","",""
 "Scripts/Content/Story/Text.d:1166","maximale Lebenspunkte zu wenig","Максимуму здоров'я замало","","False","PRINT_HITPOINTS_MAX_MISSING","",""
