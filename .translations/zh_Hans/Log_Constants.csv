@@ -322,6 +322,7 @@
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:274","Der Novize aus dem Keller hilft mir jetzt, die Kammern zu fegen.","从 地 窖 上 来 的 学 徒 现 在 会 帮 我 打 扫 房 间 。","","False","Topic_ParlanFegen_5","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:275","Der Novize vor der Kirche hilft mir, wenn ich ihm 50 Goldstücke gebe.","如 果 我 给 他 ５ ０ 枚 金 币 的 话 ， 教 堂 外 面 的 学 徒 就 会 帮 助 我 。","","False","Topic_ParlanFegen_6","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:276","Meister Parlan wünscht, das ich die vier Novizenkammern ausfege. Eine Aufgabe für die ich alleine bestimmt eine Ewigkeit brauche. ","大 师 帕 兰 想 要 我 打 扫 四 间 新 信 徒 的 房 间 。 那 要 花 上 几 百 年 。 ","","False","Topic_ParlanFegen_7","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:277","Der Novize vor der Kirche hilft mir jetzt, die Kammern zu fegen.","","","","Topic_ParlanFegen_8","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:278","Wurst verteilen.","羊 肉 香 肠 。","","False","Topic_GoraxEssen","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:279","Meister Gorax wünscht, das ich die Schafswürste aus der Vorratskammer gerecht unter allen Novizen aufteile. Außer mir sind noch dreizehn weitere Novizen im Kloster.","大 师 高 莱 克 斯 想 让 我 把 食 品 库 里 的 羊 肉 香 肠 平 均 分 给 新 信 徒 们 。 除 我 之 外 ， 修 道 院 里 还 有 十 三 个 学 徒 。","","False","Topic_GoraxEssen_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:281","Die Wein Lieferung.","葡 萄 酒 运 送 。","","False","Topic_GoraxWein","",""
