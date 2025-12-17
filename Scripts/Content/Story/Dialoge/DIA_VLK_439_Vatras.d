@@ -586,7 +586,7 @@ func void B_Vatras_INFLUENCE_REPEAT()
 	// RAUS wegen ADDON
 	// AI_Output(other, self, "DIA_Vatras_INFLUENCE_REPEAT_15_00"); // Und, gibst du mir jetzt deinen Segen?
 
-	// AI_Output(self, other, "DIA_Vatras_INFLUENCE_REPEAT_05_01"); // Gut, fassen wir mal zusammen:
+	AI_Output(self, other, "DIA_Vatras_INFLUENCE_REPEAT_05_01"); // Gut, fassen wir mal zusammen:
 
 	if (Vatras_Third == TRUE)
 	{

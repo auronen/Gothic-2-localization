@@ -110,11 +110,11 @@ func int DIA_Jack_Job_Condition()
 func void DIA_Jack_Job_Info()
 {
 	AI_Output(other, self, "DIA_Jack_Job_15_00"); //Was machst du hier?
-	// AI_Output(self, other, "DIA_Jack_Job_14_01"); // Damals, als junger Mann, bin ich noch zur See gefahren und habe so manchen großen Sturm miterlebt.
-	// AI_Output(self, other, "DIA_Jack_Job_14_02"); // Vor vielen Jahren hab ich mich dann hier nieder gelassen und war lange Zeit Leuchtturmwärter von Khorinis.
-	// AI_Output(self, other, "DIA_Jack_Job_14_03"); // Keine aufregende Sache. Wirklich nicht. Aber dieser alte Turm kam dem, was man ein Zuhause nennt, am Nächsten.
-	// AI_Output(self, other, "DIA_Jack_Job_14_04"); // Bin schon ziemlich lange nicht mehr oben gewesen.
-	// AI_Output(other, self, "DIA_Jack_Job_15_05"); // Warum nicht?
+	AI_Output(self, other, "DIA_Jack_Job_14_01"); //Damals, als junger Mann, bin ich noch zur See gefahren und habe so manchen großen Sturm miterlebt.
+	AI_Output(self, other, "DIA_Jack_Job_14_02"); //Vor vielen Jahren hab ich mich dann hier nieder gelassen und war lange Zeit Leuchtturmwärter von Khorinis.
+	AI_Output(self, other, "DIA_Jack_Job_14_03"); //Keine aufregende Sache. Wirklich nicht. Aber dieser alte Turm kam dem, was man ein Zuhause nennt, am Nächsten.
+	AI_Output(self, other, "DIA_Jack_Job_14_04"); //Bin schon ziemlich lange nicht mehr oben gewesen.
+	AI_Output(other, self, "DIA_Jack_Job_15_05"); //Warum nicht?
 	AI_Output(self, other, "DIA_Jack_Job_14_06"); //Seit diese Bengel in meinem Leuchtturm hausen, hab ich mich keine zwanzig Schritt mehr ran getraut. Ganz übles Pack.
 	AI_Output(self, other, "DIA_Jack_Job_14_07"); //Das sind Verbrecher aus dem Minental, musst du wissen.
 	AI_Output(self, other, "DIA_Jack_Job_14_08"); //Es gab diesen großen Knall jenseits der Berge und dann sind sie wie die Fliegen über das Land gekommen. Jetzt verkriechen sie sich überall. Auch in meinem Turm.

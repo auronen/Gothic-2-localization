@@ -138,8 +138,8 @@ func void DIA_Ignaz_Experiment_Info()
 	AI_Output(self, other, "DIA_Ignaz_Experiment_14_02"); //Bisher konnte ich nur feststellen, dass er funktioniert, wenn der Betroffene verärgert ist - also, wenn er gerade bestohlen oder niedergeschlagen wurde.
 	AI_Output(self, other, "DIA_Ignaz_Experiment_14_03"); //Auch wenn er eine solche Tat nur gesehen hat, wird er sie wieder vergessen.
 	AI_Output(other, self, "DIA_Ignaz_Experiment_15_04"); //Heißt das, ich soll irgendjemanden niederschlagen und dann verzaubern?
-	// AI_Output(other, self, "DIA_Ignaz_Add_15_00"); // Das macht dann wohl nur Sinn, wenn derjenige nach der Schlägerei WIRKLICH verärgert ist.
-	// AI_Output(other, self, "DIA_Ignaz_Add_15_01"); // (zu sich) Hier im Hafenviertel sind Schlägereien nichts Ungewöhnliches. Also müßte ich mir schon woanders ein Opfer suchen...
+	AI_Output(other, self, "DIA_Ignaz_Add_15_00"); // Das macht dann wohl nur Sinn, wenn derjenige nach der Schlägerei WIRKLICH verärgert ist.
+	AI_Output(other, self, "DIA_Ignaz_Add_15_01"); // (zu sich) Hier im Hafenviertel sind Schlägereien nichts Ungewöhnliches. Also müßte ich mir schon woanders ein Opfer suchen...
 	AI_Output(self, other, "DIA_Ignaz_Experiment_14_05"); //Ja, ich denke, du hast verstanden, worum es geht. Aber um jemanden zu verärgern, reicht es, wenn du ihn angreifst, du musst ihn nicht niederschlagen.
 	AI_Output(self, other, "DIA_Ignaz_Experiment_14_06"); //Bevorzugt dafür sind Leute, die alleine sind - wenn noch weitere Personen anwesend sind, kriegst du nur Probleme mit Lord Andre.
 	AI_Output(self, other, "DIA_Ignaz_Experiment_14_07"); //Und es macht wenig Sinn, den Zauber auf jemanden zu sprechen, der dich gerade angreift. Warte auf den richtigen Augenblick.
