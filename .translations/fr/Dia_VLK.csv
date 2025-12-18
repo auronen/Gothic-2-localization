@@ -2935,7 +2935,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:566","Das habe ich irgendwo aufgeschnappt...","J'ai entendu quelques rumeurs...","","","DIA_Vatras_INFLUENCE_SECOND_LIE_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:570","(ärgerlich) Weißt du wenigstens noch, wo du herkommst?","(agacé) Vous souvenez-vous au moins d'où vous venez ?","","","DIA_Vatras_INFLUENCE_SECOND_LIE_05_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:574","Aha. Und deshalb hast du dich auf den Weg gemacht. Wer bist du eigentlich?","Ah-ha ! Et c'est pour cette raison que vous avez accompli ce voyage. Mais qui êtes-vous vraiment ?","","","DIA_Vatras_INFLUENCE_SECOND_LIE_05_02","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:589","Gut, fassen wir mal zusammen:","","","","DIA_Vatras_INFLUENCE_REPEAT_05_01","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:589","Gut, fassen wir mal zusammen:","Bien. Résumons-nous...","","False","DIA_Vatras_INFLUENCE_REPEAT_05_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:593","Du bist ein ehemaliger Gefangener, ...","Vous êtes un ancien prisonnier...","","","DIA_Vatras_INFLUENCE_REPEAT_05_02","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:597","Du bist also ein Abenteurer aus dem Süden ...","Vous êtes un aventurier originaire du sud...","","","DIA_Vatras_INFLUENCE_REPEAT_05_03","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_439_Vatras.d:602","... der von Xardas, dem Dämonenbeschwörer, erzählt bekommen hat, ...","... à qui Xardas le nécromancien a dit que...","","","DIA_Vatras_INFLUENCE_REPEAT_05_04","",""
