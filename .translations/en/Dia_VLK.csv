@@ -849,7 +849,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:147","Hast du was Interessantes für mich?","Have you got anything interesting for me?","","","DIA_Engor_Ruestung_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:148","Ich kann dir eine bessere Rüstung besorgen, eine schwere Milizrüstung - wenn das für dich interessant ist.","I can get you better armor - heavy militia armor, if you're interested.","","","DIA_Engor_Ruestung_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:149","Kostet natürlich 'ne Menge. Also besorg dir das Gold, dann kriegst du die Rüstung.","It's not cheap, of course. So go get the gold, and I'll give you the armor.","","","DIA_Engor_Ruestung_13_02","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:162","Schwere Milizrüstung kaufen (Schutz: Waffen 70, Pfeile 70. Kosten: 2500 Gold)","Buy heavy milita armor (Protection: Weapons 60, Arrows 60. Price: 2500 gold)","","","DIA_Engor_RSkaufen.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:162","Schwere Milizrüstung kaufen (Schutz: Waffen 70, Pfeile 70. Kosten: 2500 Gold)","Buy heavy militia armor (Protection: Weapons 70, Arrows 70. Price: 2500 gold)","","False","DIA_Engor_RSkaufen.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:182","Gib mir die Rüstung.","Give me the armor.","","","DIA_Engor_RSkaufen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:183","Hier bitte, sie wird dich gut schützen, ist verflucht gute Arbeit.","Here you are, it'll protect you well - it's a damn good piece of work.","","","DIA_Engor_RSkaufen_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:189","Besorg dir erst das Gold.","Go get the gold first.","","","DIA_Engor_RSkaufen_13_02","",""
