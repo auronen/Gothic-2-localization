@@ -849,7 +849,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:147","Hast du was Interessantes für mich?","Máš pro mě něco zajímavého?","","","DIA_Engor_Ruestung_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:148","Ich kann dir eine bessere Rüstung besorgen, eine schwere Milizrüstung - wenn das für dich interessant ist.","Můžu ti sehnat lepší brnění - těžké brnění domobrany, pokud máš zájem.","","","DIA_Engor_Ruestung_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:149","Kostet natürlich 'ne Menge. Also besorg dir das Gold, dann kriegst du die Rüstung.","Samozřejmě to není levné. Tak sežeň zlato a já ti dám brnění.","","","DIA_Engor_Ruestung_13_02","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:162","Schwere Milizrüstung kaufen (Schutz: Waffen 70, Pfeile 70. Kosten: 2500 Gold)","Koupit těžkou zbroj domobrany (Ochrana: zbraně 60, šípy 60. Cena: 2500 zlatých)","","","DIA_Engor_RSkaufen.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:162","Schwere Milizrüstung kaufen (Schutz: Waffen 70, Pfeile 70. Kosten: 2500 Gold)","Koupit těžkou zbroj domobrany (Ochrana: zbraně 70, šípy 70. Cena: 2500 zlatých)","","False","DIA_Engor_RSkaufen.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:182","Gib mir die Rüstung.","Dej mi to brnění.","","","DIA_Engor_RSkaufen_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:183","Hier bitte, sie wird dich gut schützen, ist verflucht gute Arbeit.","Tady ho máš, dobře tě ochrání - je to zatraceně dobrá práce.","","","DIA_Engor_RSkaufen_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_4108_Engor.d:189","Besorg dir erst das Gold.","Nejdříve sežeň zlato.","","","DIA_Engor_RSkaufen_13_02","",""
