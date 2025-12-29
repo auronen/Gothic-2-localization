@@ -244,7 +244,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:409","Zahl mir meinen Sold aus!","Dej mi můj žold!","","","DIA_Onar_CollectGold.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:423","Zahl mir meinen Sold aus!","Dej mi můj žold!","","","DIA_Onar_CollectGold_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:427","Ich bezahle Söldner, keine Drachenjäger.","Platím žoldákům, ne drakobijcům.","","","DIA_Onar_CollectGold_14_01","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:431","Du kümmerst dich nicht um das, was dir aufgetragen wurde!","Nestarej se o to, co dostaneš za úkol!","","","DIA_Onar_CollectGold_14_02","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:431","Du kümmerst dich nicht um das, was dir aufgetragen wurde!","Neplníš úkoly, které ti byly zadány!","","False","DIA_Onar_CollectGold_14_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:432","Ich hab Torlof gefragt, wie du dich machst. Und er sagte, du brauchst ewig für deinen Auftrag.","Ptal jsem se Torlofa, jak ti to jde. A říkal, že ti trvá věčnost, než něco uděláš.","","","DIA_Onar_CollectGold_14_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:433","Für Faulpelze geb ich kein Geld aus.","Nebudu plýtvat penězi na darmošlapy.","","","DIA_Onar_CollectGold_14_04","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_900_Onar.d:434","Du wirst erstmal ein paar Wochen auf deinen Sold verzichten! Dann lernst du vielleicht was daraus.","Teď budeš několik týdnů makat bez nároku na žold! To tě možná naučí.","","","DIA_Onar_CollectGold_14_05","",""
