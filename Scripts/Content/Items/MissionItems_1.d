@@ -1114,7 +1114,7 @@ instance Holy_Hammer_MIS(C_Item)
 	text[2]						= "Schaden:                 ??";				count[2] = 0;
 	text[3]						= "benötigte Stärke:        ??";				count[3] = 0;
 	text[4]						= "Zweihandwaffe             ";					count[4] = 0;
-	text[5]						= "Wert:  nicht einschätzbar";					count[5] = value;
+	text[5]						= "Wert:  nicht einschätzbar";					count[5] = 0;
 };
 
 //****************************************************************************
