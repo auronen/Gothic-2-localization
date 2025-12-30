@@ -3799,7 +3799,7 @@
 "Scripts/Content/Items/IT_Addon_Written.d:654","Einen Brocken Erz und dreimal Zähne von Wölfen, Snappern oder ähnlichem Getier.","Шматок руди та три зуби вовка, снеппера або подібної тварини.","","False","AxtAnleitung_5","",""
 "Scripts/Content/Items/IT_Addon_Written.d:655","Erz und Zähne zusammen mit dem Eisen am Amboß zusammenhauen.","Руда й ікла збиваються в одне ціле на ковадлі.","","False","AxtAnleitung_6","",""
 "Scripts/Content/Items/IT_Addon_Written.d:656","Eine solche Axt läßt sich sehr leicht führen und macht ordentlich Schaden.","Така сокира дуже легка в користуванні та завдає значної шкоди.","","False","AxtAnleitung_7","",""
-"Scripts/Content/Items/IT_Addon_Written.d:690","'Quarhodron' Beschwören","Виклик «Кварходрона»","","False","ItWr_Addon_SUMMONANCIENTGHOST.name","",""
+"Scripts/Content/Items/IT_Addon_Written.d:690","'Quarhodron' Beschwören","Заклик «Кварходрона»","","False","ItWr_Addon_SUMMONANCIENTGHOST.name","",""
 "Scripts/Content/Items/IT_Addon_Written.d:704","Mit dieser Schriftrolle kann man Quarhodron beschwören.","Цим сувоєм можна викликати Кварходрона.","","False","ItWr_Addon_SUMMONANCIENTGHOST.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Written.d:738","Das vergessene Tal der Erbauer.","Забута долина зодчих.","","False","ItWr_Map_AddonWorld.name","",""
 "Scripts/Content/Items/IT_Addon_Written.d:752","","","","","ItWr_Map_AddonWorld.text[0]","",""
