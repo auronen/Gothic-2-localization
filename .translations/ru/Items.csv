@@ -588,7 +588,7 @@
 "Scripts/Content/Items/IT_Melee_Weapons.d:943","Echsenschwert","Круш Варрок","","False","ItMw_2H_OrcSword_01.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:961","","","","","ItMw_2H_OrcSword_01.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:962","","","","","ItMw_2H_OrcSword_01.text[1]","",""
-"Scripts/Content/Items/IT_Melee_Weapons.d:972","Orkisches Kriegschwert","Круш Моррок","","False","ItMw_2H_OrcSword_02.name","",""
+"Scripts/Content/Items/IT_Melee_Weapons.d:972","Orkisches Kriegschwert","Военный меч орков","","False","ItMw_2H_OrcSword_02.name","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:990","","","","","ItMw_2H_OrcSword_02.text[0]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:991","","","","","ItMw_2H_OrcSword_02.text[1]","",""
 "Scripts/Content/Items/IT_Melee_Weapons.d:1005","Kurzschwert","Короткий меч","","","ItMw_ShortSword3.name","",""
