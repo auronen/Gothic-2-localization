@@ -60,7 +60,7 @@
 "Scripts/Content/Story/NPC/BDT_1052_Wegelagerer.d:4","Landstreicher","Бродяга","","","BDT_1052_Wegelagerer.name","",""
 "Scripts/Content/Story/NPC/BDT_1060_Dexter.d:4","Dexter","Декстер","","","BDT_1060_Dexter.name","",""
 "Scripts/Content/Story/NPC/BDT_1064_Bandit_L.d:4","Wache","Стражник","","","BDT_1064_Bandit_L.name","",""
-"Scripts/Content/Story/NPC/BDT_1070_Addon_Paul.d:4","Paul","Поль","","","BDT_1070_Addon_Paul.name","",""
+"Scripts/Content/Story/NPC/BDT_1070_Addon_Paul.d:4","Paul","Пол","","False","BDT_1070_Addon_Paul.name","",""
 "Scripts/Content/Story/NPC/BDT_1071_Addon_Ramon.d:4","Ramon","Рамон","","","BDT_1071_Addon_Ramon.name","",""
 "Scripts/Content/Story/NPC/BDT_1072_Addon_Logan.d:4","Logan","Логан","","","BDT_1072_Addon_Logan.name","",""
 "Scripts/Content/Story/NPC/BDT_1073_Addon_Sancho.d:4","Sancho","Санчо","","","BDT_1073_Addon_Sancho.name","",""
