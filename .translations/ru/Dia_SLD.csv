@@ -1406,7 +1406,7 @@
 "Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:63","(grinst) Ich hab so meine Quellen.","(усмехается) У меня свои источники.","","","DIA_Dar_Hallo_Ja_03_03","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:69","Nein.","Нет.","","","DIA_Dar_Hallo_Nein_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:84","Machst du noch was anderes, außer zu rauchen?","Ты что-нибудь делаешь ещё, кроме как куришь?","","False","DIA_Dar_PERM.description","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:97","Machst du noch was anderes, außer zu rauchen?","Ты что-нибудь делаешь ещё, кроме как куришь?","","False","DIA_Dar_PERM_15_00","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:97","Machst du noch was anderes, außer zu rauchen?","Ты что-нибудь делаешь еще, кроме как куришь?","","False","DIA_Dar_PERM_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:102","(sarkastisch) Manchmal lasse ich mich auch von rachsüchtigen Sumpfkraut-Junkies zusammenschlagen.","(саркастически) Иногда я позволяю всяким мстительным болотным наркоманам задать мне взбучку...","","","DIA_Dar_PERM_03_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:107","Zurzeit nicht.","Сейчас нет.","","False","DIA_Dar_PERM_03_02","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_810_Dar.d:120","Ich will mich den Söldnern anschließen. Hast du was dagegen?","Я хочу присоединиться к наемникам. Ты не возражаешь?","","","DIA_Dar_WannaJoin.description","",""
