@@ -2128,7 +2128,7 @@
 "Scripts/Content/Items/MissionItems_2.d:106","","","","","ItWr_LetterForGorn_MIS.text[4]","",""
 "Scripts/Content/Items/MissionItems_2.d:107","","","","","ItWr_LetterForGorn_MIS.text[5]","",""
 "Scripts/Content/Items/MissionItems_2.d:114","Gorn!","Горн!","","False","LetterForGorn_1","",""
-"Scripts/Content/Items/MissionItems_2.d:116","Garond hat zugestimmt dich freizulassen - für 1000 Goldstücke. ","Гаронд согласился освободить тебя – за 1 000 золотых. ","","False","LetterForGorn_2","",""
+"Scripts/Content/Items/MissionItems_2.d:116","Garond hat zugestimmt dich freizulassen - für 1000 Goldstücke. ","Гаронд согласился освободить тебя – за 1 000 золотых. ","","False","LetterForGorn_2","",""
 "Scripts/Content/Items/MissionItems_2.d:117","Also, falls du noch irgendwo Gold versteckt hast - jetzt ist die Zeit, damit rauszurücken. ","Так что если у тебя есть где-то припрятанное золотишко, самое время сказать об этом. ","","","LetterForGorn_3","",""
 "Scripts/Content/Items/MissionItems_2.d:120","Milten ","Мильтен ","","False","LetterForGorn_4","",""
 "Scripts/Content/Items/MissionItems_2.d:150","Kerkerschlüssel","Ключ от темницы","","","ItKe_PrisonKey_MIS.name","",""
