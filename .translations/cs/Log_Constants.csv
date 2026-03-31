@@ -274,7 +274,7 @@
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:204","Wenn ich Baltram seine Lieferung bringe, zahlt er mir 50 Goldstücke.","Když Beltramovi doručím jeho zásilku, zaplatí mi 50 zlaťáků.","","","TOPIC_Baltram_2","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:206","Constantino's Ring.","Constantinův prsten","","","Topic_CassiaRing","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:207","Cassia will das ich ihr den Ring von Constantino bringe.","Cassia po mně chce, abych jí přinesl Constantinův prsten.","","","Topic_CassiaRing_1","",""
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:209","Die Blutkelche","Krvavý kalich","","","Topic_CassiaKelche","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:209","Die Blutkelche","Krvavé kalichy","","False","Topic_CassiaKelche","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:210","Cassia will, das ich ihr die sechs Blutkelche bringe. Sie sollen alle hier in der Stadt sein.","Cassia mě požádala, abych jí přinesl šest krvavých kalichů. Nejspíš je všechny najdu kdesi ve městě.","","","Topic_CassiaKelche_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:212","Ein Sextant","Přístroj","","","Topic_RamirezSextant","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:213","Ramirez will, das ich ihm ein Sextant bringe.","Ramirez mě požádal, abych mu přinesl sextant.","","","Topic_RamirezSextant_1","",""
