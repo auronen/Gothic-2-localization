@@ -363,7 +363,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:258","Welche Viecher?","Jaké potvory?","","","DIA_Addon_Greg_JoinPirates_ClearCanyon_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:259","Die Razor im Canyon kommen immer näher an's Lager.","Břitvy z kaňonu se stahujou čím dál blíž k našemu táboru.","","False","DIA_Addon_Greg_JoinPirates_ClearCanyon_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:260","Ich habe keine Lust, dass einer meiner Männer im Suff von den Biester gefressen wird.","Nebudu čekat, až někdo z mejch chlapů trochu přebere, připlete se těm potvorám do cesty a ty ho sežerou.","","","DIA_Addon_Greg_JoinPirates_ClearCanyon_01_02","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:275","Wegen der Sache mit dem Canyon...","K tomu kańonu...","","","DIA_Addon_Greg_AboutCanyon.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:275","Wegen der Sache mit dem Canyon...","K tomu kaňonu...","","False","DIA_Addon_Greg_AboutCanyon.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:288","Wegen der Sache mit dem Canyon ...","Co se týče toho kaňonu...","","","DIA_Addon_Greg_AboutCanyon_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:289","Ja, was ist damit?","No, co je s ním?","","","DIA_Addon_Greg_AboutCanyon_01_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1320_Greg.d:298","Wer kann mir dabei helfen?","Kdo mi s tím může pomoct?","","","DIA_Addon_Greg_AboutCanyon.DIA_Addon_Greg_AboutCanyon_Compadres","Info_AddChoice",""
