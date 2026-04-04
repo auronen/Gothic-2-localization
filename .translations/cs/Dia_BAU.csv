@@ -1773,7 +1773,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:585","Soll er sich hinter dem Feld eine Stelle mit seinen Viechern suchen.","Ať si najde místo pro svoje zvířata někde mezi poli.","","","DIA_Bengar_BALTHASARDARFAUFWEIDE_10_04","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:601","Bleib senkrecht.","Dávej na sebe pozor.","","","DIA_Bengar_PERMKAP1.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:615","Bleib senkrecht.","Dávej na sebe pozor.","","","DIA_Bengar_PERMKAP1_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:616","Du auch.","Ty tady.","","","DIA_Bengar_PERMKAP1_10_01","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:616","Du auch.","Ty taky.","","False","DIA_Bengar_PERMKAP1_10_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:664","Wie ist die Lage?","Jak se vede?","","","DIA_Bengar_ALLEIN.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:677","Wie ist die Lage?","Jak to vypadá?","","","DIA_Bengar_ALLEIN_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_960_Bengar.d:681","Malak ist verschwunden und hat alles und jeden mitgenommen, der für mich arbeiten wollte. Er sagte, er wollte in die Berge.","Malak zmizel a vzal s sebou všechno a každého, kdo pro mě pracoval. Říkal, že má namířeno do hor.","","","DIA_Bengar_ALLEIN_10_01","",""
