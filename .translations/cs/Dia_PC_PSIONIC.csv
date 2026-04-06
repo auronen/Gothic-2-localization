@@ -67,7 +67,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:300","Na, sag' ich doch. Du solltest eben ab und zu mal auf mich hören, mein Freund.","Jak jsem řekl. Občas bys mě mohl trochu poslouchat, příteli.","","","DIA_Addon_Lester_PASSAGEPLANTSSUCCESS_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:314","Was weißt du über die Gegend?","Co víš o tomhle místě?","","","DIA_Lester_Perm.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:329","Was weißt du über die Gegend?","Co víš o tomhle místě?","","","DIA_Lester_Perm_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:330","Wenn du den Weg weiter runtergehst, kommst du zu einem Bauernhof. Ein kurzes Stück dahinter fängt auch schon die Stadt an.","Když půjdeš tudy dolů, dojdeš na farmu. O kousek dál už začíná město.","","","DIA_Lester_Perm_13_01","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:330","Wenn du den Weg weiter runtergehst, kommst du zu einem Bauernhof. Ein kurzes Stück dahinter fängt auch schon die Stadt an.","Když bys pokračoval tamtou pěšinou dolů, došel bys k menší usedlosti. Kousek od ní se už rozléhá město.","","False","DIA_Lester_Perm_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:331","Sei aber vorsichtig, hier treiben sich nicht nur Wölfe und Ratten rum, sondern auch Goblins und Banditen!","Ale buď opatrný. Nepotulují se tam jen vlci a krysy, ale také goblini a banditi!","","","DIA_Lester_Perm_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:344","Bist du immer noch erschöpft?","Ještě pořád jsi unavený?","","","DIA_Lester_Sleep.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:358","Bist du immer noch erschöpft?","Ještě pořád jsi unavený?","","","DIA_Lester_Sleep_15_00","",""
