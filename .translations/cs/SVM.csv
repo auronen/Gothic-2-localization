@@ -263,7 +263,7 @@
 "Scripts/Content/Story/SVM.d:651"," Du bist eine Schande für die Stadtwache! Warte, bis Lord Andre davon hört!","Jsi ostudou městských stráží! Počkej, až se o tom dozví lord Andre!","","","SVM_3_MIL_CITY_CRIME","",""
 "Scripts/Content/Story/SVM.d:652"," Warte, bis Lord Andre davon hört.","Počkej, až se o tom dozví lord Andre.","","","SVM_3_CITY_CRIME","",""
 "Scripts/Content/Story/SVM.d:654"," Warte, bis Vater Parlan davon hört!","Počkej, až se o tom dozví otec Parlan!","","","SVM_3_MONA_CRIME","",""
-"Scripts/Content/Story/SVM.d:655"," Warte, bis Lee davon hört ...","Počkej, až se to donese Leeovi...","","","SVM_3_FARM_CRIME","",""
+"Scripts/Content/Story/SVM.d:655"," Warte, bis Lee davon hört ...","Počkej, až se to donese k Leemu...","","False","SVM_3_FARM_CRIME","",""
 "Scripts/Content/Story/SVM.d:656"," Warte, bis Kommandant Garond davon hört!","Počkej, až se o tom dozví velitel Garond!","","","SVM_3_OC_CRIME","",""
 "Scripts/Content/Story/SVM.d:658"," Okay, okay, du bist der Bessere von uns beiden! Was willst du?","Dobrá, dobrá, jsi lepší bojovník než já. Co chceš?","","","SVM_3_TOUGHGUY_ATTACKLOST","",""
 "Scripts/Content/Story/SVM.d:659"," (selbstgefällig) Ich nehme an, du hast mittlerweile begriffen, wer von uns beiden der Stärkere ist ... Was willst du?","(arogantně) Mám dojem, že už ti musí být jasné, kdo je tady ten silnější... Co chceš?","","","SVM_3_TOUGHGUY_ATTACKWON","",""
