@@ -905,7 +905,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_LastWarningVatras.d:17","Von nun an kannst du nicht mehr mit meiner Unterstützung zu rechnen.","Отныне ты не можешь рассчитывать на нашу помощь.","","False","DIA_Addon_Vatras_PissedOffPerm_Add_05_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_LastWarningVatras.d:18","Geh weg. Du bist jetzt ein Ausgestoßener für mich.","Убирайся. Для меня ты теперь пария.","","","DIA_Addon_Vatras_PissedOffPerm_Add_05_01","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Liesel.d:33","Hallo!","Привет!","","","DIA_Liesel_Hallo.description","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Liesel.d:43","Hallo ... (räuspert sich) ... Schaf.","Здравствуй... (неловко кашляет) овечка.","","False","DIA_Liesel_Hallo_15_00","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Liesel.d:43","Hallo ... (räuspert sich) ... Schaf.","Здравствуй... (прочищая горло) овечка.","","False","DIA_Liesel_Hallo_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Liesel.d:57","Komm mit!","Пойдем со мной!","","","DIA_Liesel_KommMit.description","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Liesel.d:72","Komm mit!","Пойдем со мной!","","","DIA_Liesel_KommMit_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Liesel.d:90","Warte hier!","Подожди здесь!","","","DIA_Liesel_WarteHier.description","",""
