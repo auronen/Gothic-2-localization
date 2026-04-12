@@ -1043,7 +1043,7 @@
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:71","Ich sehe aber keinen Sturm...","Но я не вижу шторма...","","","OUTRO_Schiff_15_09","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:72","NOCH nicht...","ПОКА нет...","","","OUTRO_Schiff_12_10","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:73","Entspann dich! Alles wird gut!","Расслабься! Все будет в порядке!","","","OUTRO_Schiff_15_11","",""
-"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:76","(erstaunt) ... Menschen?","(ошеломлен) ...люди?","","","DIA_Addon_AddonIntro_15_00","",""
+"Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:76","(erstaunt) ... Menschen?","(ошеломленно) Люди?","","False","DIA_Addon_AddonIntro_15_00","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:77","(abfällig) Menschen sind schwach.","(пренебрежительно) Люди слабы.","","","DIA_Addon_AddonIntro_14_01","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:78","(abfällig) Nur allzu leicht erliegen sie den Verlockungen des Bösen.","(пренебрежительно) Они слишком легко поддаются соблазнам зла.","","","DIA_Addon_AddonIntro_14_02","",""
 "Scripts/Content/Story/B_AssignAmbientInfos/B_Video.d:79","Dabei lassen sie sich mit Mächten ein, die sie nicht verstehen, geschweige denn kontrollieren können.","Таким образом они вовлекаются в дела, которые не могут понять и уж тем более не могут контролировать.","","","DIA_Addon_AddonIntro_14_03","",""
