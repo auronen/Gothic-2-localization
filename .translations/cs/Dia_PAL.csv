@@ -958,7 +958,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:324","Du willst uns doch helfen, oder nicht? Na, also.","Chceš nám přece pomoci, ne? V tom případě...","","","DIA_Oric_CanHelp_WhatYouMean_11_08","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:327","Hosh-Paks Zelt befindet abseits des Belagerungsrings südlich von hier auf einer Klippe.","Hosh-Pakův stan je za nepřátelskou linií, na ostrohu na jih odsud.","","","DIA_Oric_CanHelp_WhatYouMean_11_09","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:328","Von einem der Fenster dort kannst du es beinahe sehen.","Skoro ho můžeš vidět z okna.","","","DIA_Oric_CanHelp_WhatYouMean_11_10","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:343","Ich brauche noch Ausrüstung.","Budu potřebovat něco výbavy.","","","DIA_Oric_NeedStuff.description","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:343","Ich brauche noch Ausrüstung.","Budu potřebovat nějaké vybavení.","","False","DIA_Oric_NeedStuff.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:357","Ich brauche noch Ausrüstung.","Budu potřebovat pár věcí.","","","DIA_Oric_NeedStuff_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:358","Wir haben nicht mehr viel, was wir dir geben könnten.","Už toho nemáme moc, co bychom ti mohli dát.","","","DIA_Oric_NeedStuff_11_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_251_Oric.d:359","Also, ich kann dir folgendes anbieten.","No, ale mohu ti nabídnout toto.","","","DIA_Oric_NeedStuff_11_02","",""
