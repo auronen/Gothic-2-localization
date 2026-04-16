@@ -1658,7 +1658,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:456","Moment. Erst bezahlst du dafür.","Tak moment. Nejdřív za ni zaplať.","","","DIA_Maleth_GEHSTOCK_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:457","Aber... ich habe nicht viel.","Ale... Moc toho nemám.","","","DIA_Maleth_GEHSTOCK_08_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:458","Dann lass dir was anderes einfallen.","V tom případě na ni zapomeň.","","","DIA_Maleth_GEHSTOCK_15_04","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:459","Ok. Wie wär's damit? Ich habe gestern einige Banditen mit ein paar Goldsäcken vorbeilaufen sehen.","DObrá. A co tohle? Včera jsem tu viděl běžet nějaký bandity s několika měšci zlata.","","","DIA_Maleth_GEHSTOCK_08_05","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:459","Ok. Wie wär's damit? Ich habe gestern einige Banditen mit ein paar Goldsäcken vorbeilaufen sehen.","Dobrá. A co tohle? Včera jsem tu viděl běžet nějaký bandity s několika měšci zlata.","","False","DIA_Maleth_GEHSTOCK_08_05","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:460","Wenn ich dir verrate, wo die Kerle ihre Beute lagern, bekomme ich dann meinen Gehstock zurück?","Když ti řeknu, kam schovali svou kořist, vrátíš mi za to moji hůl?","","","DIA_Maleth_GEHSTOCK_08_06","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:465","Kein Interesse. Ich will dein Gold.","Promiň, ale to mě nezajímá. Chci zlato.","","","DIA_Maleth_GEHSTOCK.DIA_Maleth_GEHSTOCK_gold","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:466","In Ordnung.","Dobrá.","","","DIA_Maleth_GEHSTOCK.DIA_Maleth_GEHSTOCK_ok","Info_AddChoice",""
