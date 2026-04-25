@@ -2141,7 +2141,7 @@
 "Scripts/Content/Items/MissionItems_2.d:185","","","","","ItKe_OC_Store.text[0]","",""
 "Scripts/Content/Items/MissionItems_2.d:186","","","","","ItKe_OC_Store.text[1]","",""
 "Scripts/Content/Items/MissionItems_2.d:187","Der Schlüssel zum Lagerraum","Klíč od hradního","","","ItKe_OC_Store.text[2]","",""
-"Scripts/Content/Items/MissionItems_2.d:188","in der Burg","sklepení.","","","ItKe_OC_Store.text[3]","",""
+"Scripts/Content/Items/MissionItems_2.d:188","in der Burg","skladiště.","","False","ItKe_OC_Store.text[3]","",""
 "Scripts/Content/Items/MissionItems_2.d:189","","","","","ItKe_OC_Store.text[4]","",""
 "Scripts/Content/Items/MissionItems_2.d:198","Tür - Schlüssel","Klíč ode dveří","","","ITKE_ErzBaronFlur.name","",""
 "Scripts/Content/Items/MissionItems_2.d:208","Für die erste Tür","K prvním dveřím","","","ITKE_ErzBaronFlur.description","",""
