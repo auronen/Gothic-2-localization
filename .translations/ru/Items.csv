@@ -790,7 +790,7 @@
 "Scripts/Content/Items/IT_Misc.d:175","","","","","ItMi_Flask.text[2]","",""
 "Scripts/Content/Items/IT_Misc.d:176","","","","","ItMi_Flask.text[3]","",""
 "Scripts/Content/Items/IT_Misc.d:177","","","","","ItMi_Flask.text[4]","",""
-"Scripts/Content/Items/IT_Misc.d:185","Hammer","Молот","","","ItMi_Hammer.name","",""
+"Scripts/Content/Items/IT_Misc.d:185","Hammer","Молоток","","False","ItMi_Hammer.name","",""
 "Scripts/Content/Items/IT_Misc.d:196","","","","","ItMi_Hammer.text[0]","",""
 "Scripts/Content/Items/IT_Misc.d:197","","","","","ItMi_Hammer.text[1]","",""
 "Scripts/Content/Items/IT_Misc.d:198","","","","","ItMi_Hammer.text[2]","",""
