@@ -273,7 +273,7 @@
 "Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:47","Wie geht's dir?","Jak se máš?","","","DIA_Angar_DI_HALLO_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:51","Die Kopfschmerzen sind unerträglich geworden, seit wir hier auf der Insel sind.","Od tý doby, co jsme na ostrově, je ta bolest čím dál tím nesnesitelnější.","","","DIA_Angar_DI_HALLO_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:52","Verdammt noch mal. Das muss endlich aufhören.","Čert aby to spral. Už by to snad mohlo skončit.","","","DIA_Angar_DI_HALLO_04_02","",""
-"Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:56","Kümmere dich nicht um mich. Lass uns verschwinden.","Nedělej si se mnou starosti. Prostě odsud vypadni.","","","DIA_Angar_DI_HALLO_04_03","",""
+"Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:56","Kümmere dich nicht um mich. Lass uns verschwinden.","Nedělej si se mnou starosti. Pojďme odsud vypadnout.","","False","DIA_Angar_DI_HALLO_04_03","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:83","Du musst dich verdammt noch mal beeilen. Der nächste Angriff der Orks wird uns das Leben kosten.","Měli bysme sebou zatraceně mrsknout. Další skřetí útok nás bude stát život.","","","DIA_Angar_DI_ORKS_04_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:84","Ich tue, was ich kann.","Dělám, co můžu.","","","DIA_Angar_DI_ORKS_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DJG_705_Angar_DI.d:85","Das ist nicht genug.","To nestačí.","","","DIA_Angar_DI_ORKS_04_02","",""
