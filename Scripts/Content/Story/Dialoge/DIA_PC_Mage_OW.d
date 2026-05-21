@@ -64,7 +64,7 @@ func void DIA_MiltenOW_Hello_YES()
 	B_Milten_GornDiegoLester();
 
 	Info_ClearChoices(DIA_MiltenOW_Hello);
-	Info_AddChoice(DIA_MiltenOW_Hello, "Klar, kenne ich die Jungs noch. ", DIA_MiltenOW_Hello_Friends);
+	Info_AddChoice(DIA_MiltenOW_Hello, "Klar kenne ich die Jungs noch.", DIA_MiltenOW_Hello_Friends);
 	Info_AddChoice(DIA_MiltenOW_Hello, "Die Namen sagen mir gar nichts.", DIA_MiltenOW_Hello_Forget);
 };
 
