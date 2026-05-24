@@ -200,7 +200,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1209","Hier, ich habe sein Tagebuch. Dort steht alles drin.","给 ， 我 找 到 了 这 本 日 记 。 上 面 写 明 了 一 切 。","","False","DIA_Lord_Hagen_Cornelius_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1210","(erbost) Dieser kleine schleimige Verbrecher!","（ 狂 怒 ） 那 个 令 人 作 呕 的 、 卑 鄙 的 罪 犯 ！","","False","DIA_Lord_Hagen_Cornelius_04_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1211","Angesichts der neuen Beweise bleibt mir wohl nichts anderes übrig.","由 于 新 的 证 物 ， 我 没 有 其 它 可 说 的 了 。","","False","DIA_Lord_Hagen_Cornelius_04_04","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1212","Kraft meines vom König und der Kirche verliehenen Amtes verfüge ich, ...","按 照 以 国 王 和 教 会 赋 予 我 的 职 责 ， 我 宣 布 … …","","False","DIA_Lord_Hagen_Cornelius_04_05","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1212","Kraft meines vom König und der Kirche verliehenen Amtes verfüge ich, ...","按 照 以 国 王 和 教 会 赋 予 我 的 职 责 ， 我 宣 布 … …","","True","DIA_Lord_Hagen_Cornelius_04_05","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1213","... dass der Gefangene Bennet von allen Anschuldigungen entlastet und somit ein freier Mann ist.","… … 囚 犯 贝 尼 特 解 除 一 切 指 控 ， 并 因 此 成 为 一 个 自 由 人 。","","False","DIA_Lord_Hagen_Cornelius_04_06","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1218","Cornelius ist wegen Falschaussage unverzüglich in Gewahrsam zu nehmen.","考 内 留 斯 将 因 作 伪 证 立 即 执 行 监 禁 。","","False","DIA_Lord_Hagen_Cornelius_04_07","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_200_Hagen.d:1222","Das kannst du dir sparen, Cornelius ist tot.","不 用 麻 烦 你 了 。 考 内 留 斯 死 定 了 。","","False","DIA_Lord_Hagen_Cornelius_15_08","",""
