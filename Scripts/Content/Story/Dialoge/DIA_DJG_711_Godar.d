@@ -457,11 +457,7 @@ func void DIA_Godar_Teach_Info()
 
 		if (Npc_GetTalentSkill(other, NPC_TALENT_SNEAK) == FALSE)
 		{
-//#if zpe
-//			Info_AddChoice(DIA_Godar_Teach, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_SNEAK], B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), DIA_Godar_Teach_Thief_Sneak);
-//#else
-			Info_AddChoice(DIA_Godar_Teach, B_BuildLearnString(NAME_TALENT_SNEAK, B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), DIA_Godar_Teach_Thief_Sneak);
-//#endif
+			Info_AddChoice(DIA_Godar_Teach, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_SNEAK], B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), DIA_Godar_Teach_Thief_Sneak);
 		};
 
 		if (PLAYER_TALENT_TAKEANIMALTROPHY [TROPHY_Teeth] == FALSE)

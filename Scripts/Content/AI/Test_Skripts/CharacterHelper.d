@@ -2978,11 +2978,8 @@ func void DIA_CH_Dieb_Steal_Info()
 	Info_ClearChoices(DIA_CH_Dieb_Steal);
 	Info_AddChoice(DIA_CH_Dieb_Steal, DIALOG_BACK, DIA_CH_Dieb_Steal_BACK);
 
-//#if zpe
-//	Info_AddChoice(DIA_CH_Dieb_Steal, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_PICKPOCKET], B_GetLearnCostTalent(other, NPC_TALENT_PICKPOCKET, 1)), CH_Training_Thief_Pickpocket);
-//#else
-	Info_AddChoice(DIA_CH_Dieb_Steal, B_BuildLearnString(NAME_TALENT_PICKPOCKET, B_GetLearnCostTalent(other, NPC_TALENT_PICKPOCKET, 1)), CH_Training_Thief_Pickpocket);
-//#endif
+	Info_AddChoice(DIA_CH_Dieb_Steal, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_PICKPOCKET], B_GetLearnCostTalent(other, NPC_TALENT_PICKPOCKET, 1)), CH_Training_Thief_Pickpocket);
+
 };
 
 //*********************************************
@@ -3011,11 +3008,7 @@ func void DIA_CH_Dieb_Schleichen_Info()
 	Info_ClearChoices(DIA_CH_Dieb_Schleichen);
 	Info_AddChoice(DIA_CH_Dieb_Schleichen, DIALOG_BACK, DIA_CH_Dieb_Schleichen_BACK);
 
-//#if zpe
-//	Info_AddChoice(DIA_CH_Dieb_Schleichen, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_SNEAK], B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), CH_Training_Thief_Sneak);
-//#else
-	Info_AddChoice(DIA_CH_Dieb_Schleichen, B_BuildLearnString(NAME_TALENT_SNEAK, B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), CH_Training_Thief_Sneak);
-//#endif
+	Info_AddChoice(DIA_CH_Dieb_Schleichen, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_SNEAK], B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), CH_Training_Thief_Sneak);
 };
 
 //*********************************************
@@ -3044,11 +3037,7 @@ func void DIA_CH_Dieb_Picklock_Info()
 	Info_ClearChoices(DIA_CH_Dieb_Picklock);
 	Info_AddChoice(DIA_CH_Dieb_Picklock, DIALOG_BACK, DIA_CH_Dieb_Picklock_BACK);
 
-//#if zpe
-//	Info_AddChoice(DIA_CH_Dieb_Picklock, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_PICKLOCK], B_GetLearnCostTalent(other, NPC_TALENT_PICKLOCK, 1)), CH_Training_Thief_Picklock);
-//#else
-	Info_AddChoice(DIA_CH_Dieb_Picklock, B_BuildLearnString(NAME_TALENT_PICKLOCK, B_GetLearnCostTalent(other, NPC_TALENT_PICKLOCK, 1)), CH_Training_Thief_Picklock);
-//#endif
+	Info_AddChoice(DIA_CH_Dieb_Picklock, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_PICKLOCK], B_GetLearnCostTalent(other, NPC_TALENT_PICKLOCK, 1)), CH_Training_Thief_Picklock);
 };
 
 //*********************************************

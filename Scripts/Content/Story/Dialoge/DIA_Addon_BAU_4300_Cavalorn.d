@@ -1038,11 +1038,7 @@ func void DIA_Addon_Cavalorn_TEACH_Choices()
 
 	if (Npc_GetTalentSkill(other, NPC_TALENT_SNEAK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_Addon_Cavalorn_Teach, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_SNEAK], B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), DIA_Addon_Cavalorn_Teach_Sneak);
-//#else
-		Info_AddChoice(DIA_Addon_Cavalorn_Teach, B_BuildLearnString(NAME_TALENT_SNEAK, B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), DIA_Addon_Cavalorn_Teach_Sneak);
-//#endif
+		Info_AddChoice(DIA_Addon_Cavalorn_Teach, B_BuildLearnString(TXT_TALENTS[NPC_TALENT_SNEAK], B_GetLearnCostTalent(other, NPC_TALENT_SNEAK, 1)), DIA_Addon_Cavalorn_Teach_Sneak);
 	};
 
 	Info_AddChoice(DIA_Addon_Cavalorn_Teach, B_BuildLearnString(PRINT_LearnBow1, B_GetLearnCostTalent(other, NPC_TALENT_BOW, 1)), DIA_Addon_Cavalorn_Teach_Bow_1);

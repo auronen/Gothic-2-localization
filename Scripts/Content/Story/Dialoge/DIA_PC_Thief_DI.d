@@ -188,11 +188,7 @@ func void DIA_PC_Thief_DI_Training_Talente_Info()
 
 	if (Npc_GetTalentSkill(hero, NPC_TALENT_PICKLOCK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#else
-		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, NAME_TALENT_PICKLOCK, DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#endif
+		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
 	};
 
 	Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, B_BuildLearnString(PRINT_LearnDEX1, B_GetLearnCostAttribute(other, ATR_DEXTERITY)), DIA_PC_Thief_DI_Training_DEX_1);
@@ -217,11 +213,7 @@ func void DIA_PC_Thief_DI_Training_DEX_1()
 
 	if (Npc_GetTalentSkill(hero, NPC_TALENT_PICKLOCK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#else
-		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, NAME_TALENT_PICKLOCK, DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#endif
+		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
 	};
 
 	Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, B_BuildLearnString(PRINT_LearnDEX1, B_GetLearnCostAttribute(other, ATR_DEXTERITY)), DIA_PC_Thief_DI_Training_DEX_1);
@@ -246,11 +238,7 @@ func void DIA_PC_Thief_DI_Training_DEX_5()
 
 	if (Npc_GetTalentSkill(hero, NPC_TALENT_PICKLOCK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#else
-		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, NAME_TALENT_PICKLOCK, DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#endif
+		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
 	};
 
 	Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, B_BuildLearnString(PRINT_LearnDEX1, B_GetLearnCostAttribute(other, ATR_DEXTERITY)), DIA_PC_Thief_DI_Training_DEX_1);
@@ -275,11 +263,7 @@ func void DIA_PC_Thief_DI_Training_Combat_BOW_1()
 
 	if (Npc_GetTalentSkill(hero, NPC_TALENT_PICKLOCK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#else
-		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, NAME_TALENT_PICKLOCK, DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#endif
+		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
 	};
 
 	Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, B_BuildLearnString(PRINT_LearnDEX1, B_GetLearnCostAttribute(other, ATR_DEXTERITY)), DIA_PC_Thief_DI_Training_DEX_1);
@@ -301,11 +285,7 @@ func void DIA_PC_Thief_DI_Training_Combat_BOW_5()
 
 	if (Npc_GetTalentSkill(hero, NPC_TALENT_PICKLOCK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#else
-		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, NAME_TALENT_PICKLOCK, DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#endif
+		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
 	};
 
 	Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, B_BuildLearnString(PRINT_LearnDEX1, B_GetLearnCostAttribute(other, ATR_DEXTERITY)), DIA_PC_Thief_DI_Training_DEX_1);
@@ -327,11 +307,7 @@ func void DIA_PC_Thief_DI_Training_Talente_PICKLOCK()
 
 	if (Npc_GetTalentSkill(hero, NPC_TALENT_PICKLOCK) == FALSE)
 	{
-//#if zpe
-//		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#else
-		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, NAME_TALENT_PICKLOCK, DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
-//#endif
+		Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, TXT_TALENTS[NPC_TALENT_PICKLOCK], DIA_PC_Thief_DI_Training_Talente_PICKLOCK);
 	};
 
 	Info_AddChoice(DIA_PC_Thief_DI_Training_Talente, B_BuildLearnString(PRINT_LearnDEX1, B_GetLearnCostAttribute(other, ATR_DEXTERITY)), DIA_PC_Thief_DI_Training_DEX_1);
