@@ -500,7 +500,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:87","Innos sei mit dir - ich hab dich noch nie gesehen, bist du neu hier?","英 诺 斯 与 你 同 在 - 我 以 前 从 没 见 过 你 ， 你 是 新 来 这 里 的 ？","","False","DIA_Garwig_Hello_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:88","Ja, ich bin noch nicht lange dabei.","是 的 ， 我 刚 刚 加 入 。","","False","DIA_Garwig_Hello_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:89","Dann hoffe ich, du wirst dich schnell eingewöhnen. Wenn ich dir irgendwie helfen kann, lass es mich wissen.","那 样 的 话 ， 我 希 望 你 能 尽 快 在 这 里 安 定 下 来 。 如 果 我 能 在 任 何 方 面 帮 助 你 的 话 ， 请 告 诉 我 。","","False","DIA_Garwig_Hello_06_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","这 是 谁 的 房 间 ？ ","","False","DIA_Garwig_Room.description","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","这 是 谁 的 房 间 ？ ","","True","DIA_Garwig_Room.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:111","Was ist das hier für ein Raum?","这 是 谁 的 房 间 ？","","False","DIA_Garwig_Room_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:112","Hier werden die heilige Reliquien des Klosters aufbewahrt.","他 们 把 修 道 院 的 圣 物 保 存 在 这 里 。","","False","DIA_Garwig_Room_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:113","Welche Reliquien?","什 么 圣 物 ？","","False","DIA_Garwig_Room_15_02","",""
