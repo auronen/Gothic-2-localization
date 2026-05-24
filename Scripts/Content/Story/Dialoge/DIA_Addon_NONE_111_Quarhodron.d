@@ -240,11 +240,11 @@ func void B_Quarhodron_Fragen_Choices()
 
 			if (Quarhodrons_NextQuestion >= Quarhodron_AlleFragenGestellt)
 			{
-				Info_AddChoice(DIA_Addon_Quarhodron_Fragen, "Das kann ich gar nicht wissen.", DIA_Addon_Quarhodron_Fragen_NoPlan);
+				Info_AddChoice(DIA_Addon_Quarhodron_Fragen, format!<"B_Quarhodron_Fragen_Choices.DIA_Addon_Quarhodron_Fragen_NoPlan_1">("Das kann ich gar nicht wissen."), DIA_Addon_Quarhodron_Fragen_NoPlan);
 			}
 			else
 			{
-				Info_AddChoice(DIA_Addon_Quarhodron_Fragen, "Ich weiß es nicht.", DIA_Addon_Quarhodron_Fragen_NoPlan);
+				Info_AddChoice(DIA_Addon_Quarhodron_Fragen, format!<"B_Quarhodron_Fragen_Choices.DIA_Addon_Quarhodron_Fragen_NoPlan_2">("Ich weiß es nicht."), DIA_Addon_Quarhodron_Fragen_NoPlan);
 			};
 
 			Info_AddChoice(DIA_Addon_Quarhodron_Fragen, "Die Gelehrten.", DIA_Addon_Quarhodron_Fragen_gele);

@@ -224,7 +224,7 @@ func void DIA_Addon_Huno_Armor_Info()
 
 		BDT_Armor_H_Value = 2100;
 		Info_AddChoice(DIA_Addon_Huno_Armor, DIALOG_BACK, DIA_Addon_Huno_Armor_BACK);
-		Info_AddChoice(DIA_Addon_Huno_Armor, "Schwere Banditenrüstung kaufen (Schutz vor Waffen: 45, Pfeilen: 45, Kosten: 2100", DIA_Addon_Huno_Armor_BUY);
+		Info_AddChoice(DIA_Addon_Huno_Armor, format!<"DIA_Addon_Huno_Armor_Info.DIA_Addon_Huno_Armor_BUY_1">("Schwere Banditenrüstung kaufen (Schutz vor Waffen: 45, Pfeilen: 45, Kosten: 2100"), DIA_Addon_Huno_Armor_BUY);
 	}
 	else // CHEAP
 	{
@@ -233,7 +233,7 @@ func void DIA_Addon_Huno_Armor_Info()
 
 		BDT_Armor_H_Value = 1400;
 		Info_AddChoice(DIA_Addon_Huno_Armor, DIALOG_BACK, DIA_Addon_Huno_Armor_BACK);
-		Info_AddChoice(DIA_Addon_Huno_Armor, "Schwere Banditenrüstung kaufen (Schutz vor Waffen: 45, Pfeilen: 45, Kosten: 1400", DIA_Addon_Huno_Armor_BUY);
+		Info_AddChoice(DIA_Addon_Huno_Armor, format!<"DIA_Addon_Huno_Armor_Info.DIA_Addon_Huno_Armor_BUY_2">("Schwere Banditenrüstung kaufen (Schutz vor Waffen: 45, Pfeilen: 45, Kosten: 1400"), DIA_Addon_Huno_Armor_BUY);
 	};
 };
 

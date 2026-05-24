@@ -108,11 +108,11 @@ func void DIA_Angar_WIEKOMMSTDUHIERHER_Info()
 
 	if (SC_KnowsMadPsi == TRUE)
 	{
-		Info_AddChoice(DIA_Angar_WIEKOMMSTDUHIERHER, "Die Bruderschaft des Schläfers ist dem Bösen verfallen", DIA_Angar_WIEKOMMSTDUHIERHER_andere);
+		Info_AddChoice(DIA_Angar_WIEKOMMSTDUHIERHER, format!<"DIA_Angar_WIEKOMMSTDUHIERHER_Info.DIA_Angar_WIEKOMMSTDUHIERHER_andere_1">("Die Bruderschaft des Schläfers ist dem Bösen verfallen"), DIA_Angar_WIEKOMMSTDUHIERHER_andere);
 	}
 	else
 	{
-		Info_AddChoice(DIA_Angar_WIEKOMMSTDUHIERHER, "Was ist mit den anderen aus dem Sumpflager passiert?", DIA_Angar_WIEKOMMSTDUHIERHER_andere);
+		Info_AddChoice(DIA_Angar_WIEKOMMSTDUHIERHER, format!<"DIA_Angar_WIEKOMMSTDUHIERHER_Info.DIA_Angar_WIEKOMMSTDUHIERHER_andere_2">("Was ist mit den anderen aus dem Sumpflager passiert?"), DIA_Angar_WIEKOMMSTDUHIERHER_andere);
 	};
 
 	if (DJG_Angar_SentToStones == FALSE)

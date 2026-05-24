@@ -1151,11 +1151,11 @@ func void DIA_Pyrokar_GIVEINNOSEYE_Info()
 
 	if (hero.guild == GIL_KDF)
 	{
-		Info_AddChoice(DIA_Pyrokar_GIVEINNOSEYE, "Wer konnte so vermessen sein, Meister?", DIA_Pyrokar_GIVEINNOSEYE_wer);
+		Info_AddChoice(DIA_Pyrokar_GIVEINNOSEYE, format!<"DIA_Pyrokar_GIVEINNOSEYE_Info.DIA_Pyrokar_GIVEINNOSEYE_wer_1">("Wer konnte so vermessen sein, Meister?"), DIA_Pyrokar_GIVEINNOSEYE_wer);
 	}
 	else
 	{
-		Info_AddChoice(DIA_Pyrokar_GIVEINNOSEYE, "Wer hat das getan?", DIA_Pyrokar_GIVEINNOSEYE_wer);
+		Info_AddChoice(DIA_Pyrokar_GIVEINNOSEYE, format!<"DIA_Pyrokar_GIVEINNOSEYE_Info.DIA_Pyrokar_GIVEINNOSEYE_wer_2">("Wer hat das getan?"), DIA_Pyrokar_GIVEINNOSEYE_wer);
 	};
 };
 
