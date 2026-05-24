@@ -1,0 +1,32 @@
+# member variables to be considered for translation
+# example:
+#     - description : would consider all `description` assignments
+#                     in instance/prototype definition
+#     - name        : would consider all name assigments, so even `name[_]` asignments
+#                     for C_NPC and C_ITEM instances and prototypes
+gothic_dat:
+  member_variables:
+    - description
+    - name
+    - text
+  # symbols that should NOT be considered for translation
+  # works for instances too, if you specify an instance `My_Weapon` all its member would not be included
+  # works also for arrays, no need to specify `[]`, the name of the symbol is enough
+  symbol_blacklist:
+    - _STR_SOUND_PICKLOCK_*
+    - spellFXAniLetters
+    - spellFXInstanceNames
+    - MOB_SIT
+    - MOB_LIE
+    - MOB_CLIMB
+    - MOB_NOTINTERRUPTABLE
+    - TRADE_CURRENCY_INSTANCE
+    - NAME_SPL_Reserved_*
+    - RAKEPLACE_WP_*
+    - .*_CHECKPOINT$
+menu_dat:
+  member_variables:
+    - text
+  symbol_blacklist:
+    - MENU_ITEM_DAY
+    - MENU_ITEM_TIME
