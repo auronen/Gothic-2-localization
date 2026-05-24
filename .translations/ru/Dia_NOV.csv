@@ -500,7 +500,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:87","Innos sei mit dir - ich hab dich noch nie gesehen, bist du neu hier?","Да пребудет с тобой Иннос, я никогда не видел тебя раньше. Ты новенький здесь?","","","DIA_Garwig_Hello_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:88","Ja, ich bin noch nicht lange dabei.","Да, я только что стал послушником.","","","DIA_Garwig_Hello_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:89","Dann hoffe ich, du wirst dich schnell eingewöhnen. Wenn ich dir irgendwie helfen kann, lass es mich wissen.","Тогда я желаю тебе освоиться здесь побыстрее. Дай мне знать, если тебе понадобится помощь.","","","DIA_Garwig_Hello_06_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","Что это за комната?","","","DIA_Garwig_Room.description","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","Что это за комната?","","True","DIA_Garwig_Room.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:111","Was ist das hier für ein Raum?","Что это за комната?","","","DIA_Garwig_Room_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:112","Hier werden die heilige Reliquien des Klosters aufbewahrt.","Здесь хранятся священные реликвии монастыря.","","","DIA_Garwig_Room_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:113","Welche Reliquien?","Какие реликвии?","","","DIA_Garwig_Room_15_02","",""
