@@ -500,7 +500,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:87","Innos sei mit dir - ich hab dich noch nie gesehen, bist du neu hier?","Niech Innos będzie z tobą. Nie znam cię, jesteś tu nowy?","","","DIA_Garwig_Hello_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:88","Ja, ich bin noch nicht lange dabei.","Tak, dopiero się do was przyłączyłem.","","","DIA_Garwig_Hello_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:89","Dann hoffe ich, du wirst dich schnell eingewöhnen. Wenn ich dir irgendwie helfen kann, lass es mich wissen.","W takim wypadku mam nadzieję, że prędko się tutaj zadomowisz. Daj mi znać, jeśli będę mógł ci w czymś pomóc.","","","DIA_Garwig_Hello_06_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","Co to za pomieszczenie?","","","DIA_Garwig_Room.description","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","Co to za pomieszczenie?","","True","DIA_Garwig_Room.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:111","Was ist das hier für ein Raum?","Co to za pomieszczenie?","","","DIA_Garwig_Room_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:112","Hier werden die heilige Reliquien des Klosters aufbewahrt.","Tutaj przechowywane są klasztorne relikwie.","","","DIA_Garwig_Room_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:113","Welche Reliquien?","Jakie relikwie?","","","DIA_Garwig_Room_15_02","",""
