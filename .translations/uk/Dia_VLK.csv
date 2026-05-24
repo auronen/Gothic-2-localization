@@ -719,7 +719,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:280","Wo finde ich Constantino?","Де я можу знайти Костянтино?","","False","DIA_Zuris_WHERE.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:294","Wo finde ich Constantino?","Де я можу знайти Костянтино?","","False","DIA_Zuris_WHERE_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:295","Er hat seine Kammer im Tunnel bei Harads Schmiede. Sollte nicht schwierig zu finden sein.","Його дім в тунелі поруч з кузнею Гарада. Його буде неважко знайти.","","","DIA_Zuris_WHERE_14_01","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:307","Erzähl mir vom Kloster. ","Розкажи мені про монастир.","","False","DIA_Zuris_Kloster.description","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:307","Erzähl mir vom Kloster. ","Розкажи мені про монастир.","","True","DIA_Zuris_Kloster.description","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:320","Erzähl mir vom Kloster.","Розкажи мені про монастир.","","","DIA_Zuris_Kloster_14_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:321","Da sprichst du am Besten mit Meister Daron selbst. Er weiß besser darüber Bescheid als ich.","Тобі краще поговорити про це з майстром Дароном. Він знає про це більше, ніж я.","","","DIA_Zuris_Kloster_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_409_Zuris.d:333","Du verkaufst Minenanteile?","Ти торгуєш частками копалень?","","False","DIA_Zuris_Minenanteil.description","",""
