@@ -787,7 +787,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:254","Vielleicht kann ich dir helfen.","也 许 我 可 以 帮 你 。","","False","DIA_Till_BRONKOZURARBEIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:273","Vielleicht kann ich dir helfen.","也 许 我 可 以 帮 你 。","","False","DIA_Till_BRONKOZURARBEIT_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:274","Meinst du wirklich? Also pass auf, wenn du Bronko wieder dazu bringst, zu arbeiten, werde ich dir, sagen wir mal, 10 Goldmünzen bezahlen. Was sagst du?","你 是 认 真 的 吗 ？ 好 吧 ， 听 好 ， 如 果 你 能 让 布 隆 科 回 去 工 作 的 话 ， 我 愿 意 付 你 钱 ， 你 看10枚 金 币 ， 怎 么 样 ？","","False","DIA_Till_BRONKOZURARBEIT_03_01","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:280","Kein Problem. Ich will aber mehr Geld.","","","","DIA_Till_BRONKOZURARBEIT_Info.DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_mehr","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:280","Kein Problem. Ich will aber mehr Geld.","没 问 题 。 但 是 我 想 要 更 多 的 钱。","","","DIA_Till_BRONKOZURARBEIT_Info.DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_mehr","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:281","Na gut! Ich werde sehen was ich tun kann.","","","","DIA_Till_BRONKOZURARBEIT_Info.DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_ok","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:282","Ich denke drüber nach.","","","","DIA_Till_BRONKOZURARBEIT_Info.DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_nochnicht","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:287","Ich denke darüber nach.","我 要 考 虑 一 下 。","","False","DIA_Till_BRONKOZURARBEIT_nochnicht_15_00","",""
