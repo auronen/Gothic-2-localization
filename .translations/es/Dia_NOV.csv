@@ -500,7 +500,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:87","Innos sei mit dir - ich hab dich noch nie gesehen, bist du neu hier?","Que Innos sea contigo. No te había visto nunca, ¿eres nuevo?","","","DIA_Garwig_Hello_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:88","Ja, ich bin noch nicht lange dabei.","Sí, acabo de ingresar.","","","DIA_Garwig_Hello_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:89","Dann hoffe ich, du wirst dich schnell eingewöhnen. Wenn ich dir irgendwie helfen kann, lass es mich wissen.","En ese caso, espero que te adaptes rápido. Hazme saber si puedo ayudarte con algo.","","","DIA_Garwig_Hello_06_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","¿Qué habitación es ésta?","","","DIA_Garwig_Room.description","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","¿Qué habitación es ésta?","","True","DIA_Garwig_Room.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:111","Was ist das hier für ein Raum?","¿Que habitación es ésta?","","","DIA_Garwig_Room_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:112","Hier werden die heilige Reliquien des Klosters aufbewahrt.","Aquí es donde se guardan las sagradas reliquias del monasterio.","","","DIA_Garwig_Room_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:113","Welche Reliquien?","¿Qué reliquias?","","","DIA_Garwig_Room_15_02","",""
