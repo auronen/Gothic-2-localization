@@ -500,7 +500,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:87","Innos sei mit dir - ich hab dich noch nie gesehen, bist du neu hier?","Innos be with you - I've never seen you before, are you new around here?","","","DIA_Garwig_Hello_06_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:88","Ja, ich bin noch nicht lange dabei.","Yes, I only just joined.","","","DIA_Garwig_Hello_15_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:89","Dann hoffe ich, du wirst dich schnell eingewöhnen. Wenn ich dir irgendwie helfen kann, lass es mich wissen.","In that case, I hope you'll get settled here fast. Let me know if I can help you with anything.","","","DIA_Garwig_Hello_06_02","",""
-"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","What room is this?","","","DIA_Garwig_Room.description","",""
+"Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:101","Was ist das hier für ein Raum? ","What room is this?","","True","DIA_Garwig_Room.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:111","Was ist das hier für ein Raum?","What room is this?","","","DIA_Garwig_Room_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:112","Hier werden die heilige Reliquien des Klosters aufbewahrt.","This is where they keep the holy relics of the monastery.","","","DIA_Garwig_Room_06_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NOV_608_Garwig.d:113","Welche Reliquien?","What relics?","","","DIA_Garwig_Room_15_02","",""
