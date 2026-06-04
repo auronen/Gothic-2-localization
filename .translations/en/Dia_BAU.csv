@@ -2386,7 +2386,6 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:269","Klar.","Sure.","","","DIA_Sekob_Again.DIA_Sekob_Again_Ja","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:54","Ich bin kein Feldarbeiter?","I'm not a field hand.","","","DIA_Till_HALLO.DIA_Till_HALLO_keinervoneuch","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:58","Hast du hier das Sagen?","Are you in charge here?","","","DIA_Till_HALLO.DIA_Till_HALLO_selber","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:280","Kein Problem. Ich will aber mehr Geld.","No problem. But I want more money.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_mehr","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:281","Na gut! Ich werde sehen was ich tun kann.","All right. I'll see what I can do.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_ok","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:282","Ich denke drüber nach.","I'll think about it.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_nochnicht","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_934_Babera.d:77","Nein. Eigentlich will ich Söldner werden.","No. Actually, I want to become a mercenary.","","","DIA_Babera_WIESIEHTSAUS.DIA_Babera_WIESIEHTSAUS_Nein","Info_AddChoice",""

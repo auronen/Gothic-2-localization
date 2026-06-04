@@ -495,7 +495,6 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_NONE_115_Eremit.d:457","Buddlerhosen geben","Daj spodnie kopacza","","","DIA_Addon_Eremit_Klamotten.DIA_Addon_Eremit_Klamotten_Prisoner","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_NONE_115_Eremit.d:462","Robe der Suchenden geben","Daj szatę poszukiwacza","","","DIA_Addon_Eremit_Klamotten.DIA_Addon_Eremit_Klamotten_Dementor","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:91","Genug Zeit haben wir ja jetzt. Der Schläfer ist besiegt.","Mamy na to wystarczająco dużo czasu. Śniący został wygnany.","","","DIA_Xardas_Hello.DIA_Addon_Xardas_Hello_Dragons","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:92","Von welcher NEUEN Bedrohung sprichst du?","O jakim NOWYM zagrożeniu mówisz?","","","DIA_Xardas_Hello.DIA_Addon_Xardas_Hello_Man","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:744","Ich bin von Magiern in schwarzer Robe angegriffen worden.","Zaatakowali mnie magowie w czarnych szatach.","","","DIA_Xardas_DMTSINDDA.DIA_Xardas_DMTSINDDA_DMT","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:745","Ich habe den Beweis für Lord Hagen.","Wreszcie udało mi się zdobyć dowód dla Lorda Hagena.","","","DIA_Xardas_DMTSINDDA.DIA_Xardas_DMTSINDDA_Beweis","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:770","Was ist jetzt der nächste Schritt?","Co mam teraz robić?","","","DIA_Xardas_DMTSINDDA.DIA_Xardas_DMTSINDDA_DMT_WhatToDo","Info_AddChoice",""

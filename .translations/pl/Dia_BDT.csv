@@ -1848,8 +1848,6 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1079_Carlos.d:86","Ja. Warum?","Tak, o co chodzi?","","","DIA_Addon_Carlos_HI.DIA_Addon_Carlos_HI_Yes","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1082_Skinner.d:120","Esteban aus dem Weg schaffen","Chcę się pozbyć Estebana.","","","DIA_Addon_Skinner_Attentat.DIA_Addon_Skinner_ATTENTAT_ADDON_CONTRA","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1082_Skinner.d:121","Den Verräter zur Strecke bringen","Zabiję zdrajcę.","","","DIA_Addon_Skinner_Attentat.DIA_Addon_Skinner_ATTENTAT_ADDON_PRO","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1084_Senyan.d:123","Ich will erst die gute Nachricht hören.","Najpierw chcę usłyszeć te dobre.","","","DIA_Addon_BDT_1084_Senyan_Hi.DIA_Addon_BDT_1084_Senyan_Hi_good","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1084_Senyan.d:124","Sag mir zuerst die schlechte Nachricht.","Chcę najpierw usłyszeć złą wiadomość.","","","DIA_Addon_BDT_1084_Senyan_Hi.DIA_Addon_BDT_1084_Senyan_Hi_bad","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1084_Senyan.d:253","Mir bleibt wohl nichts anderes übrig...","Wygląda na to, że nie mam wyboru...","","","DIA_Addon_Senyan_Attentat.DIA_Addon_Senyan_Attentat_JA","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1084_Senyan.d:254","Vergiß es!","Nie ma mowy!","","","DIA_Addon_Senyan_Attentat.DIA_Addon_Senyan_Attentat_NO","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_BDT_1085_Bloodwyn.d:95","Und ich dachte ich hätte dich erwischt.","A już myślałem, że cię mam.","","","DIA_Addon_Bloodwyn_Wait.DIA_Addon_Bloodwyn_Wait_GOOD1","Info_AddChoice",""

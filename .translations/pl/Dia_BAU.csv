@@ -2386,7 +2386,6 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:269","Klar.","Jasne.","","","DIA_Sekob_Again.DIA_Sekob_Again_Ja","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:54","Ich bin kein Feldarbeiter?","Nie jestem pomocnikiem.","","","DIA_Till_HALLO.DIA_Till_HALLO_keinervoneuch","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:58","Hast du hier das Sagen?","Ty tu jesteś szefem?","","","DIA_Till_HALLO.DIA_Till_HALLO_selber","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:280","Kein Problem. Ich will aber mehr Geld.","Nie ma sprawy. Ale będziesz musiał zapłacić więcej.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_mehr","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:281","Na gut! Ich werde sehen was ich tun kann.","W porządku, zobaczę, co da się zrobić.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_ok","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:282","Ich denke drüber nach.","Muszę się zastanowić.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_nochnicht","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_934_Babera.d:77","Nein. Eigentlich will ich Söldner werden.","Nie. Tak naprawdę to chcę zostać najemnikiem.","","","DIA_Babera_WIESIEHTSAUS.DIA_Babera_WIESIEHTSAUS_Nein","Info_AddChoice",""

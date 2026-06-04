@@ -2386,7 +2386,6 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_930_Sekob.d:269","Klar.","Bien sûr.","","","DIA_Sekob_Again.DIA_Sekob_Again_Ja","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:54","Ich bin kein Feldarbeiter?","Je ne suis pas un ouvrier agricole.","","","DIA_Till_HALLO.DIA_Till_HALLO_keinervoneuch","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:58","Hast du hier das Sagen?","Etes-vous le responsable ici ?","","","DIA_Till_HALLO.DIA_Till_HALLO_selber","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:280","Kein Problem. Ich will aber mehr Geld.","Pas de problème. Mais je veux plus d'argent.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_mehr","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:281","Na gut! Ich werde sehen was ich tun kann.","Très bien. Je vais voir ce que je peux faire.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_ok","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_931_Till.d:282","Ich denke drüber nach.","Je vais y réfléchir.","","","DIA_Till_BRONKOZURARBEIT.DIA_Till_BRONKOZURARBEIT_nochnicht","Info_AddChoice",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_934_Babera.d:77","Nein. Eigentlich will ich Söldner werden.","Non. En fait, je veux devenir mercenaire.","","","DIA_Babera_WIESIEHTSAUS.DIA_Babera_WIESIEHTSAUS_Nein","Info_AddChoice",""
