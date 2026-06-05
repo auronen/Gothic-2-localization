@@ -1878,7 +1878,7 @@
 "Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:129","Ich suche Heilung.","Мне нужно лечение.","","","DIA_Constantino_Heilung_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:130","(barsch) Wieso, bist du verletzt?","(коротко) Зачем, ты ранен?","","","DIA_Constantino_Heilung_10_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:133","Eigentlich nicht.","Ну, в общем, да.","","False","DIA_Constantino_Heilung_Info.DIA_Constantino_Heilung.DIA_Constantino_Heilung_Nein","",""
-"Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:134","Ja. ","","","","DIA_Constantino_Heilung_Info.DIA_Constantino_Heilung.DIA_Constantino_Heilung_Ja","",""
+"Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:134","Ja. ","Да. ","","False","DIA_Constantino_Heilung_Info.DIA_Constantino_Heilung.DIA_Constantino_Heilung_Ja","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:139","Ja.","Да.","","","DIA_Constantino_Heilung_Ja_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:143","Dann geh zu Vatras, der wird dich bestimmt heilen. Und blute nicht meinen Boden voll!","Тогда иди к Ватрасу, он подлечит тебя. И перестань капать кровью на мой пол!","","","DIA_Constantino_Heilung_Ja_10_01","",""
 "Scripts/Content/Story/Dialoge/DIA_VLK_417_Constantino.d:147","Du hast nicht mal einen Kratzer und ich habe Wichtigeres zu tun, als mit dir zu plaudern.","У тебя всего лишь пустяковая царапина, а у меня есть дела поважнее, чем болтать с тобой.","","","DIA_Constantino_Heilung_Ja_10_02","",""
