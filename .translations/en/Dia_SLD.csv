@@ -1663,7 +1663,7 @@
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:132","Das wollen wir doch mal sehen!","We'll see about that!","","","DIA_Sentenza_Hello_OrElse_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:162","Da bist du ja wieder! Dann wollen wir mal sehen, was du diesmal bei dir hast!","Here you are again. Let's see what you have on you this time!","","","DIA_Sentenza_Vzwei_09_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:168","Nimm deine dreckigen Pfoten von mir!","Take your grubby paws off of me!","","False","DIA_Sentenza_Vzwei_Info.DIA_Sentenza_Vzwei.DIA_Sentenza_Vzwei_HandsOff","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:170","Wie du willst. Durchsuch mich ruhig!","","","","DIA_Sentenza_Vzwei_Info.DIA_Sentenza_Vzwei.DIA_Sentenza_Vzwei_SearchMe","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:170","Wie du willst. Durchsuch mich ruhig!","Suit yourself. Search me, then!","","False","DIA_Sentenza_Vzwei_Info.DIA_Sentenza_Vzwei.DIA_Sentenza_Vzwei_SearchMe","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:182","Nimm deine dreckigen Pfoten weg!","Take your grubby paws off of me!","","","DIA_Sentenza_Vzwei_HandsOff_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:183","(bedrohlich) So? Scheinbar ist diesmal bei dir ein bisschen mehr zu holen!","(menacing) So? Apparently you've got a bit more on you this time!","","","DIA_Sentenza_Vzwei_HandsOff_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:198","Ich bin gekommen, um mich euch anzuschließen!","I have come to join you!","","","DIA_Sentenza_WannaJoin.description","",""
