@@ -1663,7 +1663,7 @@
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:132","Das wollen wir doch mal sehen!","Przekonamy się!","","","DIA_Sentenza_Hello_OrElse_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:162","Da bist du ja wieder! Dann wollen wir mal sehen, was du diesmal bei dir hast!","To znowu ty. Sprawdźmy, co tam masz przy sobie!","","","DIA_Sentenza_Vzwei_09_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:168","Nimm deine dreckigen Pfoten von mir!","Zabieraj ode mnie swoje obleśne łapska!","","False","DIA_Sentenza_Vzwei_Info.DIA_Sentenza_Vzwei.DIA_Sentenza_Vzwei_HandsOff","",""
-"Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:170","Wie du willst. Durchsuch mich ruhig!","","","","DIA_Sentenza_Vzwei_Info.DIA_Sentenza_Vzwei.DIA_Sentenza_Vzwei_SearchMe","",""
+"Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:170","Wie du willst. Durchsuch mich ruhig!","Jak tam sobie chcesz, możesz mnie przeszukać.","","False","DIA_Sentenza_Vzwei_Info.DIA_Sentenza_Vzwei.DIA_Sentenza_Vzwei_SearchMe","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:182","Nimm deine dreckigen Pfoten weg!","Zabieraj ode mnie swoje obleśne łapska!","","","DIA_Sentenza_Vzwei_HandsOff_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:183","(bedrohlich) So? Scheinbar ist diesmal bei dir ein bisschen mehr zu holen!","Ach? Widzę, że tym razem masz coś przy sobie!","","","DIA_Sentenza_Vzwei_HandsOff_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_SLD_814_Sentenza.d:198","Ich bin gekommen, um mich euch anzuschließen!","Chcę się do was przyłączyć!","","","DIA_Sentenza_WannaJoin.description","",""
