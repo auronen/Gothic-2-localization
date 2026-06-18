@@ -1592,7 +1592,7 @@
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:508","Ihr Paladine werdet doch hoffentlich mit ihnen fertig, oder?","Ви, паладини, сподіваюся, впораєтеся з ними?","","False","DIA_Vino_PERM45UND6_05_02","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:512","Wir werden bald diesen Hof aufgeben und zu euch Söldnern auf Onars Hof ziehen, fürchte ich.","Я боюся, що незабаром ми покинемо цей двір і переїдемо до вас, найманців, у двір Онара.","","False","DIA_Vino_PERM45UND6_05_03","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_952_Vino.d:518","Dummerweise hat die Miliz meine Schnapsbrennerei entdeckt. Hoffentlich erwischen sie mich nicht.","На жаль, ополчення виявило мою винокурню. Сподіваюся, мене вони не спіймають.","","False","DIA_Vino_PERM45UND6_05_04","",""
-"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter!","Я повинен йти! (КІНЕЦЬ)","","False","DIA_Maleth_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:11","Ich muss weiter! (ENDE)","Я повинен йти! (КІНЕЦЬ)","","False","DIA_Maleth_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:55","Hey, Fremder!","Гей, незнайомцю!","","False","DIA_Maleth_Hallo_08_00","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:61","Ich hab gesehen, wie du aus den Bergen gekommen bist.","Я бачив, як ти спускався з гір.","","False","DIA_Maleth_Hallo_08_01","",""
 "Scripts/Content/Story/Dialoge/DIA_BAU_954_Maleth.d:64","Du kannst froh sein, hier nicht vor drei Wochen vorbeigekommen zu sein.","Ти можеш радіти, що не проходив тут три тижні тому.","","False","DIA_Maleth_Hallo_08_02","",""
