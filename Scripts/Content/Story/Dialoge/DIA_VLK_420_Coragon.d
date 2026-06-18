@@ -167,13 +167,13 @@ func int DIA_Addon_Coragon_MissingPeople_Condition()
 func void DIA_Addon_Coragon_MissingPeople_Info()
 {
 	AI_Output(other, self, "DIA_Addon_Coragon_MissingPeople_15_00"); //Erzähl mir etwas über die vermissten Bürger der Stadt.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_01"); //°Ich habe gehört, das es viele am Hafen unten erwischt haben soll. Was nicht verwunderlich ist bei der Gegend da unten.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_02"); //°Selbst Thorben der Tischler in der Unterstadt beklagt den Verlust seines Lehrlings.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_03"); //°Hakon, ein Händler vom Marktplatz erzählte eine besonders abenteurliche Geschichte.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_04"); //°Er meinte, da wäre so'n Typ, dem er sonst jeden Tag über den Weg gelaufen wäre, auf einmal wie vom Erdboden verschluckt. Er ist deswegen sogar bei der Miliz gewesen.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_05"); //°Die Bürger der Stadt sind darauf alle ziemlich in Panik geraten. Ich weiß nicht, was ich davon halten soll. Ich schätze, das ist alles Unsinn.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_06"); //°Khorinis ist eine rauhe Stadt und vor den Toren lauern eine Menge Gefahren.
-	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_07"); //°Wenn du nicht innerhalb der Stadtmauern bleibst, wirst du von Banditen überfallen oder von wilden Tieren gefressen. So einfach ist das.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_01"); //Ich habe gehört, das es viele am Hafen unten erwischt haben soll. Was nicht verwunderlich ist bei der Gegend da unten.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_02"); //Selbst Thorben der Tischler in der Unterstadt beklagt den Verlust seines Lehrlings.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_03"); //Hakon, ein Händler vom Marktplatz erzählte eine besonders abenteurliche Geschichte.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_04"); //Er meinte, da wäre so'n Typ, dem er sonst jeden Tag über den Weg gelaufen wäre, auf einmal wie vom Erdboden verschluckt. Er ist deswegen sogar bei der Miliz gewesen.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_05"); //Die Bürger der Stadt sind darauf alle ziemlich in Panik geraten. Ich weiß nicht, was ich davon halten soll. Ich schätze, das ist alles Unsinn.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_06"); //Khorinis ist eine rauhe Stadt und vor den Toren lauern eine Menge Gefahren.
+	AI_Output(self, other, "DIA_Addon_Coragon_MissingPeople_09_07"); //Wenn du nicht innerhalb der Stadtmauern bleibst, wirst du von Banditen überfallen oder von wilden Tieren gefressen. So einfach ist das.
 
 	Log_CreateTopic(TOPIC_Addon_WhoStolePeople, LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople, LOG_RUNNING);

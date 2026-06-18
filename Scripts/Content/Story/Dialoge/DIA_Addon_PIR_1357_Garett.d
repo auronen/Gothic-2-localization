@@ -349,7 +349,7 @@ func int DIA_Addon_Garett_Francis_Condition()
 
 func void DIA_Addon_Garett_Francis_Info()
 {
-	AI_Output(other, self, "DIA_Addon_Garett_Francis_15_00"); //°Was kannst du mir über Francis erzählen?
+	AI_Output(other, self, "DIA_Addon_Garett_Francis_15_00"); //Was kannst du mir über Francis erzählen?
 	AI_Output(self, other, "DIA_Addon_Garett_Francis_09_01"); //Greg hat ihm das Kommando übertragen, während er weg ist.
 	AI_Output(self, other, "DIA_Addon_Garett_Francis_09_02"); //Aber als Käpt'n ist Francis ein Versager!
 	AI_Output(self, other, "DIA_Addon_Garett_Francis_09_03"); //Er kriegt Morgan ja noch nicht mal dazu seinen Hintern aus dem Bett zu bewegen.
