@@ -30,8 +30,3 @@
 "Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:83","(bedrohlich) Schluss mit dem Gefasel! Ich werde dich vernichten.","","","False","DIA_Schwarzmagier_HELLO_meister_09_00","",""
 "Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:84","Dein Augenlicht wird schwinden und dein Geist wird in der Dunkelheit vergehen.","","","False","DIA_Schwarzmagier_HELLO_meister_09_01","",""
 "Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:88","(zu sich) Ohne das Seelenruf-Amulett hätte ich jetzt ein ernstes Problem.","","","False","DIA_Schwarzmagier_HELLO_meister_15_02","",""
-"Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:31","Bring mich zu deinem Meister.","","","False","DIA_Schwarzmagier_HELLO.DIA_Schwarzmagier_HELLO_meister","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:32","Wieviel von eurer Sorte muß ich denn noch töten?","","","False","DIA_Schwarzmagier_HELLO.DIA_Schwarzmagier_HELLO_dmt","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:33","Was verbirgt sich dort hinter dem großen Tor?","","","False","DIA_Schwarzmagier_HELLO.DIA_Schwarzmagier_HELLO_hinterTor","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:34","Wer ist dein Meister?","","","False","DIA_Schwarzmagier_HELLO.DIA_Schwarzmagier_HELLO_wer","Info_AddChoice",""
-"Scripts/Content/Story/Dialoge/DIA_DMT_1299_OberDementor_DI.d:38","Du warst einmal ein Anhänger des Schläfers.","","","False","DIA_Schwarzmagier_HELLO.DIA_Schwarzmagier_HELLO_schlaefer","Info_AddChoice",""
