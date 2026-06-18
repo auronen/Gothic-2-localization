@@ -1,4 +1,4 @@
-"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:6","MobsiBrief","MobsiBrief","","","MobsiBrief.name","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:28","StandardBrief","StandardBrief","","","MobsiBrief_1","",""
 "Scripts/Content/AI/Test_Skripts/CharacterHelper.d:29","Jetzt wird alles wieder gut","Jetzt wird alles wieder gut","","","MobsiBrief_2","",""
@@ -166,7 +166,6 @@
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:376","KAPITELANFANG","KAPITELANFANG","","","StoryHelper_INFO5_Info.StoryHelper_INFO5.StoryHelper_KAPITEL5ANFANG","Info_AddChoice",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:430","Kapitel 6","Kapitel 6","","","StoryHelper_INFO6.description","",""
 "Scripts/Content/AI/Test_Skripts/StoryHelper.d:442","KAPITELANFANG","KAPITELANFANG","","","StoryHelper_INFO6_Info.StoryHelper_INFO6.StoryHelper_KAPITEL6ANFANG","Info_AddChoice",""
-"Scripts/Content/AI/Test_Skripts/Testmodelle_Bendlin.d:177","Ich fürchte, ich muss mich von dir trennen.","Ich fürchte, ich muss mich von dir trennen.","","","DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00","",""
 "Scripts/Content/AI/Test_Skripts/Testmodelle_Bendlin.d:130","Okay, lass uns gehen.","Okay, lass uns gehen.","","","DIA_Lares_GoNow_15_00","",""
 "Scripts/Content/AI/Test_Skripts/Testmodelle_Bendlin.d:44","Aya","Aya","","","Aya_Testmodell.name","",""
 "Scripts/Content/AI/Test_Skripts/Testmodelle_Bendlin.d:117","Okay, lass uns gehen.","Okay, lass uns gehen.","","","DIA_Aya_KommMit.description","",""
