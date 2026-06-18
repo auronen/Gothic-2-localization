@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:55","Bist DU es? - Tatsächlich! Mann, bin ich froh, dich zu sehen!","Это правда ты?! Это правда ты... До чего я рад тебя видеть!","","False","DIA_Lester_Hello_13_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:59","Kennen wir uns?","Мы знакомы?","","False","DIA_Lester_Hello_Info.DIA_Lester_Hello.DIA_Lester_Hello_YouKnowMe","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:59","Kennen wir uns?","Я что, знаю тебя?","","False","DIA_Lester_Hello_Info.DIA_Lester_Hello.DIA_Lester_Hello_YouKnowMe","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:60","Lester! Wie kommst du hierher?","Лестер! Как ты оказался здесь?","","False","DIA_Lester_Hello_Info.DIA_Lester_Hello.DIA_Lester_Hello_Lester","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:66","Lester! Wie kommst du hierher?","Лестер! Как ты оказался здесь?","","","DIA_Lester_Hello_Lester_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:67","Das war eine irre Flucht. Nachdem die Barriere explodierte, bin ich zunächst orientierungslos durch die Gegend gestreift.","Это был безумный побег. После того как Барьер рухнул, я бродил некоторое время в полном смятении.","","False","DIA_Lester_Hello_Lester_13_01","",""
