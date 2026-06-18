@@ -175,7 +175,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_NW.d:813","Ich will meine magischen Kräfte steigern.","Я хочу повысить свои магические способности.","","","DIA_MiltenNW_Mana_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_NW.d:825","Deine magische Kraft ist groß. Zu groß, als dass ich dir jetzt noch helfen könnte, sie zu steigern.","Твоя магическая энергия велика. Слишком велика, чтобы я мог увеличить ее.","","","DIA_MiltenNW_Mana_03_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:43","Sieh an, wer zurückgekehrt ist! Unser Held aus der Barriere!","Посмотрите, кто вернулся! Наш герой из-за Барьера!","","","DIA_MiltenOW_Hello_03_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:46","Schön dich zu sehen, Milten.","Schön dich zu sehen, Milten.","","False","DIA_MiltenOW_Hello_Info.DIA_MiltenOW_Hello.DIA_MiltenOW_Hello_YES","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:46","Schön dich zu sehen, Milten.","Рад видеть тебя, Мильтен.","","False","DIA_MiltenOW_Hello_Info.DIA_MiltenOW_Hello.DIA_MiltenOW_Hello_YES","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:47","Kennen wir uns?","Мы знакомы?","","False","DIA_MiltenOW_Hello_Info.DIA_MiltenOW_Hello.DIA_MiltenOW_Hello_NO","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:53","Kannst du dich noch an Gorn, Diego und Lester erinnern?","Ты помнишь Горна, Диего и Лестера?","","","DIA_MiltenOW_Hello_NO_03_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Mage_OW.d:60","Schön, dich zu sehen, Milten. Bist du immer noch hier oder schon wieder?","Рад видеть тебя, Мильтен. Ты все еще здесь или здесь опять?","","False","DIA_MiltenOW_Hello_YES_15_00","",""
