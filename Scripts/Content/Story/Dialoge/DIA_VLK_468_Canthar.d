@@ -44,7 +44,7 @@ instance DIA_Canthar_EXIT(C_INFO)
 	condition		= DIA_Canthar_EXIT_Condition;
 	information		= DIA_Canthar_EXIT_Info;
 	permanent		= TRUE;
-	description		= "Ich muß weiter!";
+	description		= "Ich muß weiter! (ENDE)";
 };
 
 func int DIA_Canthar_EXIT_Condition()

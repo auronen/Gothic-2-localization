@@ -293,7 +293,7 @@ instance DIA_Addon_Scatty_teach(C_INFO)
 	condition		= DIA_Addon_Scatty_teach_Condition;
 	information		= DIA_Addon_Scatty_teach_Info;
 	permanent		= TRUE;
-	description		= "Goldhacken lernen (Kosten: 2 LP/10 Prozent)";
+	description		= "Goldhacken lernen (Kosten: 1 LP/10 Prozent)";
 };
 
 func int DIA_Addon_Scatty_teach_Condition()

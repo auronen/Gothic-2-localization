@@ -493,7 +493,7 @@ instance ItWr_ZugBruecke_MIS(C_Item)
 	text[5]						= "";											count[5] = 0;
 };
 
-const string ZugBruecke_1 = "   Letzte Warnung!";
+const string ZugBruecke_1 = "Letzte Warnung!";
 const string ZugBruecke_2 = "Es ist mir völlig egal, ob ihr die Brücke von der anderen Seite überqueren könnt, oder nicht. Wenn es nach mir ginge, würdet ihr sowieso alle in der Hölle schmoren.";
 const string ZugBruecke_3 = "Ich werde die Brücke eingezogen lassen, solange ich mich in meiner Residenz befinde. Wenn ich nochmal jemanden dabei erwische, dass er mit Pfeil und Bogen auf die Schalter schießt um herüber zu kommen, dann werde ich den Schützen eigenhändig am nächten Baum aufhängen.";
 const string ZugBruecke_4 = "                      Archol";

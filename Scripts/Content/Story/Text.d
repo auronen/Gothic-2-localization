@@ -754,8 +754,8 @@ const string TXT_INV_CAT [INV_CAT_MAX] = {
 
 	const string NAME_ADDON_PRAYIDOL_GIVENOTHING		= "Ich will beten und spende nichts.";
 	const string NAME_ADDON_PRAYIDOL_GIVEHITPOINT1		= "Ich will beten und spende 1 Lebensenergie.";
-	const string NAME_ADDON_PRAYIDOL_GIVEHITPOINT2		= "Ich will beten und spende 2 Lebensenergie.";
-	const string NAME_ADDON_PRAYIDOL_GIVEHITPOINT3		= "Ich will beten und spende 3 Lebensenergie.";
+	const string NAME_ADDON_PRAYIDOL_GIVEHITPOINT2		= "Ich will beten und spende 5 Lebensenergie.";
+	const string NAME_ADDON_PRAYIDOL_GIVEHITPOINT3		= "Ich will beten und spende 10 Lebensenergie.";
 	const string NAME_ADDON_PRAYIDOL_GIVEMANA			= "Ich will beten und spende 1 Mana.";
 
 // *************************************************************

@@ -62,7 +62,7 @@ instance ItRi_Prot_Fire_01(C_Item) // in einem von Halvors Fischen
 
 	value						= Value_Ri_ProtFire;
 
-	description					= " Flammenschutzring";
+	description					= "Flammenschutzring";
 	text[0]						= "";											count[0] = 0;
 	text[1]						= "";											count[1] = 0;
 	text[2]						= NAME_Prot_Fire;								count[2] = Ri_ProtFire;

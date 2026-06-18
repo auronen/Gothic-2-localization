@@ -8,7 +8,7 @@ instance DIA_Boltan_EXIT(C_INFO)
 	condition		= DIA_Boltan_EXIT_Condition;
 	information		= DIA_Boltan_EXIT_Info;
 	permanent		= TRUE;
-	description		= "Ich wollte gerade wieder gehen.";
+	description		= "Ich wollte gerade wieder gehen. (ENDE)";
 };
 
 func int DIA_Boltan_EXIT_Condition()

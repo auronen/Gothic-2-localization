@@ -498,7 +498,7 @@ func void DIA_Addon_Saturas_ScRanger_Info()
 			AI_Output(self, other, "DIA_Addon_Saturas_ScRanger_14_08"); //Der Aquamarinring, den du da trägst, gehört Lares. Das seh' ich doch.
 		};
 
-		AI_Output(self, other, "DIA_Addon_Saturas_ScRanger_14_09"); // Willst mich wohl verarschen, was? Ich habe auch nichts anderes erwartet.
+		AI_Output(self, other, "DIA_Addon_Saturas_ScRanger_14_09"); //Willst mich wohl verarschen, was? Ich habe auch nichts anderes erwartet.
 		AI_StopProcessInfos(self);
 	};
 };

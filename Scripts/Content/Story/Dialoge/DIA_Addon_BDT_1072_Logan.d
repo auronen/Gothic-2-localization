@@ -8,7 +8,7 @@ instance DIA_Addon_Logan_EXIT(C_INFO)
 	condition		= DIA_Addon_Logan_EXIT_Condition;
 	information		= DIA_Addon_Logan_EXIT_Info;
 	permanent		= TRUE;
-	description		= "Ich komme später wieder...";
+	description		= "Ich komme später wieder... (ENDE)";
 };
 
 func int DIA_Addon_Logan_EXIT_Condition()

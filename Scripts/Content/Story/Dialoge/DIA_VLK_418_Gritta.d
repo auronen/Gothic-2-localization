@@ -119,7 +119,7 @@ func void DIA_Gritta_WantsMoney_Info()
 	AI_Output(self, other, "DIA_Gritta_WantsMoney_16_03"); //Ich sage dir, damals als mein Mann noch lebte, hätte er sich das nicht getraut. Oh, mein armer Mann ...
 
 	Info_ClearChoices(DIA_Gritta_WantsMoney);
-	Info_AddChoice(DIA_Gritta_WantsMoney, "Schluss jetzt, wo ist das Geld?", DIA_Gritta_WantsMoney_WhereMoney);
+	Info_AddChoice(DIA_Gritta_WantsMoney, "Schluss jetzt, wo ist das Gold?", DIA_Gritta_WantsMoney_WhereMoney);
 	Info_AddChoice(DIA_Gritta_WantsMoney, "Weiter...", DIA_Gritta_WantsMoney_Continue01);
 };
 
@@ -130,7 +130,7 @@ func void DIA_Gritta_WantsMoney_Continue01()
 	AI_Output(self, other, "DIA_Gritta_WantsMoney_Continue01_16_02"); //...das feine Essen und kultivierte Unterhaltungen. Damals war alles besser. Da hat sich niemand getraut mit so lächerlichen Forderungen das Herz einer armen Witwe ...
 
 	Info_ClearChoices(DIA_Gritta_WantsMoney);
-	Info_AddChoice(DIA_Gritta_WantsMoney, "Schluss jetzt, wo ist das Geld?", DIA_Gritta_WantsMoney_WhereMoney);
+	Info_AddChoice(DIA_Gritta_WantsMoney, "Schluss jetzt, wo ist das Gold?", DIA_Gritta_WantsMoney_WhereMoney);
 	Info_AddChoice(DIA_Gritta_WantsMoney, "Weiter...", DIA_Gritta_WantsMoney_Continue02);
 };
 
@@ -141,7 +141,7 @@ func void DIA_Gritta_WantsMoney_Continue02()
 	AI_Output(self, other, "DIA_Gritta_WantsMoney_Continue02_16_02"); //... von seinen langen Reisen brachte er immer ein Geschenk für mich mit, kostbare Stoffe vom Festland, erlesene Gewürze aus den südlichen Ländern ...
 
 	Info_ClearChoices(DIA_Gritta_WantsMoney);
-	Info_AddChoice(DIA_Gritta_WantsMoney, "Schluss jetzt, wo ist das Geld?", DIA_Gritta_WantsMoney_WhereMoney);
+	Info_AddChoice(DIA_Gritta_WantsMoney, "Schluss jetzt, wo ist das Gold?", DIA_Gritta_WantsMoney_WhereMoney);
 	Info_AddChoice(DIA_Gritta_WantsMoney, "Weiter...", DIA_Gritta_WantsMoney_Continue03);
 };
 

@@ -1244,7 +1244,7 @@ const string BanditLetter_11 = " dreissig Goldstücke. ";
 const string BanditLetter_12 = "Nochmal dreissig bekommt derjenige, ";
 const string BanditLetter_13 = " der den Mann tötet. ";
 const string BanditLetter_14 = "Bringt seinen Kopf zur alten Mine, beim Großbauer.";
-const string BanditLetter_15 = ".....D.";
+const string BanditLetter_15 = "...D.";
 func void UseBanditLetter()
 {
 	var int nDocID;

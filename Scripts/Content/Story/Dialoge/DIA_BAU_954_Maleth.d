@@ -8,7 +8,7 @@ instance DIA_Maleth_EXIT(C_INFO)
 	condition		= DIA_Maleth_EXIT_Condition;
 	information		= DIA_Maleth_EXIT_Info;
 	permanent		= TRUE;
-	description		= "Ich muss weiter!";
+	description		= "Ich muss weiter! (ENDE)";
 };
 
 func int DIA_Maleth_EXIT_Condition()

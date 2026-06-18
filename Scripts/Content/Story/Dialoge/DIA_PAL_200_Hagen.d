@@ -1209,7 +1209,7 @@ func void DIA_Lord_Hagen_Cornelius_Info()
 	AI_Output(other, self, "DIA_Lord_Hagen_Cornelius_15_02"); //Hier, ich habe sein Tagebuch. Dort steht alles drin.
 	AI_Output(self, other, "DIA_Lord_Hagen_Cornelius_04_03"); //(erbost) Dieser kleine schleimige Verbrecher!
 	AI_Output(self, other, "DIA_Lord_Hagen_Cornelius_04_04"); //Angesichts der neuen Beweise bleibt mir wohl nichts anderes übrig.
-	AI_Output(self, other, "DIA_Lord_Hagen_Cornelius_04_05"); //Kraft meines vom König und der Kirche verliehenen Amtes verfüge ich, ....
+	AI_Output(self, other, "DIA_Lord_Hagen_Cornelius_04_05"); //Kraft meines vom König und der Kirche verliehenen Amtes verfüge ich, ...
 	AI_Output(self, other, "DIA_Lord_Hagen_Cornelius_04_06"); //... dass der Gefangene Bennet von allen Anschuldigungen entlastet und somit ein freier Mann ist.
 
 	B_StartOtherRoutine(Bennet, "START");

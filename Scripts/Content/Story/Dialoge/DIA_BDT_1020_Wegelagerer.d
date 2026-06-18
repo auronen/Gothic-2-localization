@@ -197,7 +197,7 @@ func void DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon()
 
 	AI_DrawWeapon(other);
 
-	AI_Output(self, other, "DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01"); // Finger weg von der Waffe. Na warte!
+	AI_Output(self, other, "DIA_BDT_1020_Wegelagerer_FirstWarn_GiveWeapon_06_01"); //Finger weg von der Waffe. Na warte!
 	AI_StopProcessInfos(self);
 	B_Attack(self, other, AR_GuardStopsIntruder, 1);
 };

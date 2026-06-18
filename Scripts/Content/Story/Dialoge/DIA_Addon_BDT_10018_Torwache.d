@@ -8,7 +8,7 @@ instance DIA_Addon_BDT_10018_Torwache_EXIT(C_INFO)
 	condition		= DIA_Addon_BDT_10018_Torwache_EXIT_Condition;
 	information		= DIA_Addon_BDT_10018_Torwache_EXIT_Info;
 	permanent		= TRUE;
-	description		= "Wir sprechen uns noch.";
+	description		= "Wir sprechen uns noch. (ENDE)";
 };
 
 func int DIA_Addon_BDT_10018_Torwache_EXIT_Condition()
