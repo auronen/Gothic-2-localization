@@ -1,4 +1,4 @@
-"﻿""location""","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/System/Menu/Menu_Defines.d:64","Taste ENTF zum Löschen und RETURN zum definieren","pulsa la tecla SUPR para vaciar el espacio y INTRO para definir","","False","CTRL_KEYDEF","",""
 "Scripts/System/Menu/Menu_Defines.d:65","Gewünschte Taste betätigen.","Pulsa la tecla deseada para esta acción.","","False","CTRL_KEYDEF_INFO","",""
 "Scripts/System/Menu/Menu_Defines.d:66","nein|ja","no|sí","","False","MENU_NO_YES","",""

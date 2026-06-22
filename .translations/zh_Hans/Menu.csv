@@ -1,4 +1,4 @@
-"﻿""location""","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "Scripts/System/Menu/Menu_Defines.d:64","Taste ENTF zum Löschen und RETURN zum definieren","按 Ｄ Ｅ Ｌ 键 清 空 栏 位 ， 按 Ｅ ｎ ｔ ｅ ｒ 进 行 设 定","","False","CTRL_KEYDEF","",""
 "Scripts/System/Menu/Menu_Defines.d:65","Gewünschte Taste betätigen.","请 按 此 动 作 所 需 的 按 键 。","","False","CTRL_KEYDEF_INFO","",""
 "Scripts/System/Menu/Menu_Defines.d:66","nein|ja","否|是","","False","MENU_NO_YES","",""
