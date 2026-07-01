@@ -370,7 +370,7 @@
 "Scripts/Content/Story/SVM.d:778","Scheißwetter!","Zatracená slota!","","","SVM_4_Weather","",""
 "Scripts/Content/Story/SVM.d:780","DU schon wieder!","Už zase TY!","","","SVM_4_IGetYouStill","",""
 "Scripts/Content/Story/SVM.d:781","Ich mach dich fertig!","Rozsekám tě na kousky!","","","SVM_4_DieEnemy","",""
-"Scripts/Content/Story/SVM.d:782","Schon wieder eins von diesen Biestern!","Další z těch věcí!","","","SVM_4_DieMonster","",""
+"Scripts/Content/Story/SVM.d:782","Schon wieder eins von diesen Biestern!","Už zase jedna z těch potvor!","","False","SVM_4_DieMonster","",""
 "Scripts/Content/Story/SVM.d:783","Du mieser kleiner Dieb!","Ty mizernej zloději!","","","SVM_4_DirtyThief","",""
 "Scripts/Content/Story/SVM.d:784","Nimm deine Finger weg da!","Dej ty svý špinavý pracky pryč!","","","SVM_4_HandsOff","",""
 "Scripts/Content/Story/SVM.d:785","Hey! Lass unsere Schafe in Ruhe!","Hej! Nech naše ovce na pokoji!","","","SVM_4_SheepKiller","",""
