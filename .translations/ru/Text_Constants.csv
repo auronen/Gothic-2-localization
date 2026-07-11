@@ -19,7 +19,7 @@
 "Scripts/Content/Story/Text.d:34","Herd","Плита","","","MOBNAME_STOVE","",""
 "Scripts/Content/Story/Text.d:35","Innos Statue","Статуя Инноса","","","MOBNAME_INNOS","",""
 "Scripts/Content/Story/Text.d:36","Runentisch","Рунный стол","","","MOBNAME_RUNEMAKER","",""
-"Scripts/Content/Story/Text.d:37","Baumsäge","Пила","","","MOBNAME_SAW","",""
+"Scripts/Content/Story/Text.d:37","Baumsäge","Бревно","","False","MOBNAME_SAW","",""
 "Scripts/Content/Story/Text.d:38","Sessel","Кресло","","","MOBNAME_ARMCHAIR","",""
 "Scripts/Content/Story/Text.d:39","Lampe","Лампа","","","MOBNAME_LIBRARYLEVER","",""
 "Scripts/Content/Story/Text.d:41","Bibliothek","Библиотека","","","MOBNAME_BIBLIOTHEK","",""
