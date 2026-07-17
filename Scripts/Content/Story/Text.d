@@ -319,9 +319,9 @@ const string TXT_SPELLS[MAX_SPELL] =
 	"Heiliges Geschoß",																			// 60 SPL_MasterOfDisaster
 
 	// ???
-	"TXT_SPL_DEATHBOLT",																		// 61 SPL_Deathbolt
-	"TXT_SPL_DEATHBALL",																		// 62 SPL_Deathball
-	"TXT_SPL_CONCUSSIONBOLT",																	// 63 SPL_ConcussionBolt
+	"Deathbolt",																				// 61 SPL_Deathbolt
+	"Deathball",																				// 62 SPL_Deathball
+	"Concussionbolt",																			// 63 SPL_ConcussionBolt
 	"TXT_SPL_RESERVED_64",																		// 64 SPL_Reserved_64
 	"TXT_SPL_RESERVED_65",																		// 65 SPL_Reserved_65
 	"TXT_SPL_RESERVED_66",																		// 66 SPL_Reserved_66
