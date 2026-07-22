@@ -2977,7 +2977,7 @@
 "Scripts/Content/Items/MissionItems_Addon.d:856","","","","","ItWr_Vatras2Saturas_FindRaven_opened.text[1]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:857","Vatras Schreiben für Saturas","Открытое письмо от Ватраса","","False","ItWr_Vatras2Saturas_FindRaven_opened.text[2]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:865","Erzamulett","Рудный амулет","","","ItAm_Addon_WispDetector.name","",""
-"Scripts/Content/Items/MissionItems_Addon.d:882","Erzamulett des suchenden Irrlichts","Рудный амулет блуждающего огонька.","","False","ItAm_Addon_WispDetector.description","",""
+"Scripts/Content/Items/MissionItems_Addon.d:882","Erzamulett des suchenden Irrlichts","Рудный амулет блуждающего огонька","","False","ItAm_Addon_WispDetector.description","",""
 "Scripts/Content/Items/MissionItems_Addon.d:883","","","","","ItAm_Addon_WispDetector.text[0]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:884","","","","","ItAm_Addon_WispDetector.text[1]","",""
 "Scripts/Content/Items/MissionItems_Addon.d:885","","","","","ItAm_Addon_WispDetector.text[2]","",""
