@@ -854,7 +854,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:827","Dann bring mir die 1000 Goldstücke.","Тогда принеси мне 1 000 золотых монет.","","","DIA_Garond_Pay_10_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:841","Was hast du jetzt vor?","Что ты планируешь делать дальше?","","","DIA_Garond_Perm2.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:855","Was hast du jetzt vor?","Что ты планируешь делать дальше?","","","DIA_Garond_Perm2_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:856","Ich habe alles versucht. Meine Hoffnung ruht jetzt auf dir - und darauf, dass Lord Hagen mir Unterstützung schickt.","Я уже все перепробовал. Ты моя единственная надежда, что лорд Хаген пришлет мне подкрепление.","","","DIA_Garond_Perm2_10_01","",""
+"Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:856","Ich habe alles versucht. Meine Hoffnung ruht jetzt auf dir - und darauf, dass Lord Hagen mir Unterstützung schickt.","Я уже все перепробовал. Ты моя единственная надежда... и что лорд Хаген пришлет мне подкрепление.","","False","DIA_Garond_Perm2_10_01","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:857","Wir werden weiterhin ausharren und zu Innos beten, auf dass er uns in diesen dunklen Stunden nicht mutlos werden lässt.","Но мы не падем духом и будем молиться Инносу, чтобы он не оставил нас без своей поддержки в этот мрачный час.","","","DIA_Garond_Perm2_10_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:904","Was gibt's Neues?","Что нового?","","","DIA_Garond_WASGIBTSNEUES.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PAL_250_Garond.d:917","Was gibt's Neues?","Что нового?","","","DIA_Garond_WASGIBTSNEUES_15_00","",""
