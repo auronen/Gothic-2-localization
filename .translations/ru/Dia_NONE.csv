@@ -333,7 +333,7 @@
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:780","Geh jetzt, bevor es zu spät ist. Der Feind wird ebenfalls versuchen, sich dessen zu bemächtigen.","Иди, пока еще не слишком поздно. Враг также попытается наложить на него свои лапы.","","","DIA_Xardas_DMTSINDDA_DMT_WhatToDo_14_04","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:793","Das Auge Innos' ist zerstört.","Глаз Инноса был уничтожен.","","","DIA_Xardas_INNOSEYEBROKEN.description","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:808","Das Auge Innos' ist zerstört.","Глаз Инноса был уничтожен.","","","DIA_Xardas_INNOSEYEBROKEN_15_00","",""
-"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:809","Was redest du da? Zerstört!","Что ты говоришь? Уничтожен!","","","DIA_Xardas_INNOSEYEBROKEN_14_01","",""
+"Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:809","Was redest du da? Zerstört!","Что ты говоришь? Уничтожен?","","False","DIA_Xardas_INNOSEYEBROKEN_14_01","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:810","Ich habe es oben in den nördlichen Wäldern gefunden und es leider nur noch in Einzelteilen bergen können.","Я нашел его в северных лесах. К сожалению, мне удалось найти только фрагменты.","","","DIA_Xardas_INNOSEYEBROKEN_15_02","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:811","Damit ist die einzige Möglichkeit, den Drachen die Stirn zu bieten, dahin. Wir haben versagt.","Это был наш единственный шанс противостоять этим драконам. И мы провалили его!","","","DIA_Xardas_INNOSEYEBROKEN_14_03","",""
 "Scripts/Content/Story/Dialoge/DIA_NONE_100_Xardas.d:817","Was nun?","И что теперь?","","False","DIA_Xardas_INNOSEYEBROKEN_Info.DIA_Xardas_INNOSEYEBROKEN.DIA_Xardas_INNOSEYEBROKEN_wasnun","",""
