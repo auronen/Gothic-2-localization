@@ -3801,7 +3801,7 @@
 "Scripts/Content/Items/IT_Addon_Written.d:656","Eine solche Axt läßt sich sehr leicht führen und macht ordentlich Schaden.","Такой топор очень легок и наносит значительный урон.","","False","AxtAnleitung_7","",""
 "Scripts/Content/Items/IT_Addon_Written.d:690","'Quarhodron' Beschwören","Вызов Куарходрона","","False","ItWr_Addon_SUMMONANCIENTGHOST.name","",""
 "Scripts/Content/Items/IT_Addon_Written.d:704","Mit dieser Schriftrolle kann man Quarhodron beschwören.","С помощью этого свитка можно вызвать Куарходрона.","","","ItWr_Addon_SUMMONANCIENTGHOST.text[0]","",""
-"Scripts/Content/Items/IT_Addon_Written.d:738","Das vergessene Tal der Erbauer.","Карта долины зодчих.","","False","ItWr_Map_AddonWorld.name","",""
+"Scripts/Content/Items/IT_Addon_Written.d:738","Das vergessene Tal der Erbauer.","Карта долины зодчих","","False","ItWr_Map_AddonWorld.name","",""
 "Scripts/Content/Items/IT_Addon_Written.d:752","","","","","ItWr_Map_AddonWorld.text[0]","",""
 "Scripts/Content/Items/IT_Addon_Written.d:753","","","","","ItWr_Map_AddonWorld.text[1]","",""
 "Scripts/Content/Items/IT_Addon_Written.d:754","","","","","ItWr_Map_AddonWorld.text[2]","",""
