@@ -2295,7 +2295,7 @@
 "Scripts/Content/Items/MissionItems_2.d:790","","","","","ItWr_GilbertLetter.text[5]","",""
 "Scripts/Content/Items/MissionItems_2.d:793","Mir reicht's. Ich habe mich hier lange genug versteckt. Und wenn ich das richtig mitgekriegt habe, ist die Barriere nun endlich gefallen.  ","С меня хватит. Я устал прятаться здесь. Если слухи верны, Барьер наконец пал.  ","","False","GilbertLetter_1","",""
 "Scripts/Content/Items/MissionItems_2.d:794","Es wird wohl kaum noch jemand nach mir suchen. Ich hab die Schnauze voll von dieser Höhle und dem ganzen Tal. Wird Zeit das ich nach Hause komme.","Вряд ли кто-то будет искать меня сейчас. Меня уже достала эта пещера и вся эта проклятая долина. Пришло время возвращаться домой.","","False","GilbertLetter_2","",""
-"Scripts/Content/Items/MissionItems_2.d:795","Gilbert","Гильберт ","","","GilbertLetter_3","",""
+"Scripts/Content/Items/MissionItems_2.d:795","Gilbert","Гилберт","","False","GilbertLetter_3","",""
 "Scripts/Content/Items/MissionItems_2.d:839","","","","","ItRi_Tengron.text[0]","",""
 "Scripts/Content/Items/MissionItems_2.d:840","","","","","ItRi_Tengron.text[1]","",""
 "Scripts/Content/Items/MissionItems_2.d:842","","","","","ItRi_Tengron.text[3]","",""
