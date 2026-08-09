@@ -99,7 +99,7 @@
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:583","Wo ist Xardas?","Где Ксардас?","","","DIA_Lester_XARDASWEG.description","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:596","Wo ist Xardas?","Где Ксардас?","","","DIA_Lester_XARDASWEG_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:597","Er ist fort und hat in seinem Turm diese Dämonenwesen zurück gelassen.","Он ушел, а его башню заняли эти демонические создания.","","","DIA_Lester_XARDASWEG_13_01","",""
-"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:598","Ich glaube, er will nicht, dass jemand während seiner Abwesenheit in seinem Turm herum schnüffelt.","Я думаю, он просто не хочет, чтобы кто-нибудь шарил в башне в его отсутствие.","","","DIA_Lester_XARDASWEG_13_02","",""
+"Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:598","Ich glaube, er will nicht, dass jemand während seiner Abwesenheit in seinem Turm herum schnüffelt.","Я думаю, Ксардас просто не хочет, чтобы кто-нибудь шарил в его башне в его отсутствие.","","False","DIA_Lester_XARDASWEG_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:599","Wo ist er hin?","Куда он отправился?","","","DIA_Lester_XARDASWEG_15_03","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:600","Das hat er nicht gesagt. Er bat mich nur darum, dir diesen Brief von ihm zu geben.","Ксардас не сказал. Он только попросил передать тебе это письмо.","","False","DIA_Lester_XARDASWEG_13_04","",""
 "Scripts/Content/Story/Dialoge/DIA_PC_Psionic.d:605","Ich habe ihn gelesen. Tut mir Leid. Ich war neugierig.","Я прочел его. Извини. Мне просто было любопытно.","","","DIA_Lester_XARDASWEG_13_05","",""
