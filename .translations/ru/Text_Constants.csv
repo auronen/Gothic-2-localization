@@ -23,7 +23,7 @@
 "Scripts/Content/Story/Text.d:38","Sessel","Кресло","","","MOBNAME_ARMCHAIR","",""
 "Scripts/Content/Story/Text.d:39","Lampe","Лампа","","","MOBNAME_LIBRARYLEVER","",""
 "Scripts/Content/Story/Text.d:41","Bibliothek","Библиотека","","","MOBNAME_BIBLIOTHEK","",""
-"Scripts/Content/Story/Text.d:42","Vorratskammer","Кладовка","","","MOBNAME_VORRATSKAMMER","",""
+"Scripts/Content/Story/Text.d:42","Vorratskammer","Кладовая","","False","MOBNAME_VORRATSKAMMER","",""
 "Scripts/Content/Story/Text.d:43","Schatzkammer","Сокровищница","","","MOBNAME_SCHATZKAMMER","",""
 "Scripts/Content/Story/Text.d:44","Igaraz Truhe","Сундук Игараца","","","MOBNAME_IGARAZ","",""
 "Scripts/Content/Story/Text.d:45","Almanach","Альманах","","","MOBNAME_ALMANACH","",""
