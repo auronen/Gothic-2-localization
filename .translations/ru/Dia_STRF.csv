@@ -148,7 +148,7 @@
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:98","Was würde ich von dir bekommen, wenn ich die Biester töte?","Что ты мне дашь, если я убью этих тварей?","","","DIA_Kervo_HILFE_Problem_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:99","Mmh. Nun ja. Es würde schon reichen, wenn die Lurker vor der Höhle verschwinden würden.","М-м-м... Ну... Я был бы не прочь, чтобы эти луркеры, которые бродят перед пещерой, исчезли.","","False","DIA_Kervo_HILFE_Problem_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:103","Ich habe einen Runenrohling gefunden. Du als Magier kannst ihn doch sicher gebrauchen.","Я нашел чистый рунный камень. Ты ведь маг. Уверен, у тебя получится найти ему применение.","","False","DIA_Kervo_HILFE_Problem_13_02","",""
-"Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:107","Ich habe einen Brocken Erz gefunden.","Я нашел кусок руды.","","","DIA_Kervo_HILFE_Problem_13_03","",""
+"Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:107","Ich habe einen Brocken Erz gefunden.","Я... я нашел кусок руды.","","False","DIA_Kervo_HILFE_Problem_13_03","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:110","Den würde ich dir dafür geben.","Я отдам тебе его.","","","DIA_Kervo_HILFE_Problem_13_04","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:117","Ich geh dann mal.","Ладно. Я ухожу.","","","DIA_Kervo_HILFE_tschau_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_STRF_1116_Kervo.d:118","Klar. Ich werde dich nicht aufhalten.","Как знаешь. Я тебя удерживать не буду.","","","DIA_Kervo_HILFE_tschau_13_01","",""
