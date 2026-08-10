@@ -56,7 +56,7 @@
 "Scripts/Content/Story/NPC/Monster/MST_Molerat.d:8","Molerat","Кротокрыс","","False","Mst_Default_Molerat.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Scavenger.d:8","Scavenger","Падальщик","","","Mst_Default_Scavenger.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Shadowbeast.d:8","Schattenläufer","Мракорис","","","Mst_Default_Shadowbeast.name","",""
-"Scripts/Content/Story/NPC/Monster/MST_Shadowbeast_Skeleton.d:8","Schattenläuferskelett","Скелет мракориса","","","Mst_Default_Shadowbeast_Skeleton.name","",""
+"Scripts/Content/Story/NPC/Monster/MST_Shadowbeast_Skeleton.d:8","Schattenläuferskelett","Мракорис-нежить","","False","Mst_Default_Shadowbeast_Skeleton.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Sheep.d:8","Schaf","Овца","","","Mst_Default_Sheep.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Sheep.d:142","Liesel","Бетси","","","Follow_Sheep.name","",""
 "Scripts/Content/Story/NPC/Monster/MST_Sheep.d:173","Schaf","Овца","","","Follow_Sheep_AKIL.name","",""
