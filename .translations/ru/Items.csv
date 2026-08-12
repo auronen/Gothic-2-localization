@@ -772,7 +772,7 @@
 "Scripts/Content/Items/IT_Misc.d:108","","","","","ItMi_Stomper.text[2]","",""
 "Scripts/Content/Items/IT_Misc.d:109","","","","","ItMi_Stomper.text[3]","",""
 "Scripts/Content/Items/IT_Misc.d:110","","","","","ItMi_Stomper.text[4]","",""
-"Scripts/Content/Items/IT_Misc.d:118","Runenstein","Руна","","","ItMi_RuneBlank.name","",""
+"Scripts/Content/Items/IT_Misc.d:118","Runenstein","Рунный камень","","False","ItMi_RuneBlank.name","",""
 "Scripts/Content/Items/IT_Misc.d:129","","","","","ItMi_RuneBlank.text[0]","",""
 "Scripts/Content/Items/IT_Misc.d:130","","","","","ItMi_RuneBlank.text[1]","",""
 "Scripts/Content/Items/IT_Misc.d:131","","","","","ItMi_RuneBlank.text[2]","",""
