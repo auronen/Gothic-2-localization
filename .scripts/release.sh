@@ -26,6 +26,7 @@ get_encoding() {
         # utf8
         "zh_hant" | "zh_Hant") echo "utf8" ;;
         "zh_hans" | "zh_Hans") echo "utf8" ;;
+        "ko") echo "utf8" ;;
         "cy") echo "utf8" ;;
 
         # Default case if no match is found
