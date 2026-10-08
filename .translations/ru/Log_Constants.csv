@@ -460,7 +460,7 @@
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:461","Engor hat das Fleisch bekommen. Er wird dafür sorgen, das es unter den Männern verteilt wird.","Энгор получил свое мясо. Он разделит его между защитниками замка. ","","","TOPIC_BringMeat_3","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:463","Gold für Brutus.","Золото для Брутуса","","","TopicBrutusKasse","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:464","Brutus Partner Den ist mit 200 Gold und einigem Schmuck durchgebrannt. Wenn ich ihm 200 Goldstücke bringe, wird er mir dabei helfen, stärker zu werden.","Партнер Брутуса Ден скрылся с 200 золотыми монетами и кое-какими драгоценностями. Если я верну ему 200 золотых монет, он поможет мне стать сильнее. ","","","TopicBrutusKasse_1","",""
-"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:465","Den wollte versuchen den Pass zu überqueren.","Ден попробовал перейти мне дорогу. ","","","TopicBrutusKasse_2","",""
+"Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:465","Den wollte versuchen den Pass zu überqueren.","Ден попробовал сбежать через Проход.","","False","TopicBrutusKasse_2","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:467","Tengron's Ring","Кольцо Тенгрона","","","Topic_TengronRing","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:468","Tengron hat mir einen Ring gegeben, den ich Udar in der Burg übergeben soll. ","Тенгрон дал мне кольцо, которое я должен передать Удару в замке. ","","","Topic_TengronRing_1","",""
 "Scripts/Content/Story/Log_Entries/LOG_Constants_Mattes.d:470","Schlechte Nachricht.","Плохие новости","","","Topic_OricBruder","",""
