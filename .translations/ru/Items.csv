@@ -1622,7 +1622,7 @@
 "Scripts/Content/Items/IT_Scrolls.d:1478","","","","","ItSc_TrfDragonSnapper.text[2]","",""
 "Scripts/Content/Items/IT_Scrolls.d:1479","","","","","ItSc_TrfDragonSnapper.text[3]","",""
 "Scripts/Content/Items/IT_Scrolls.d:1480","","","","","ItSc_TrfDragonSnapper.text[4]","",""
-"Scripts/Content/Items/IT_Secrets.d:7","Kugeliger Fisch","Рыба-шар","","","ItSe_ErzFisch.name","",""
+"Scripts/Content/Items/IT_Secrets.d:7","Kugeliger Fisch","Шарообразная рыба","","False","ItSe_ErzFisch.name","",""
 "Scripts/Content/Items/IT_Secrets.d:21","","","","","ItSe_ErzFisch.text[0]","",""
 "Scripts/Content/Items/IT_Secrets.d:22","","","","","ItSe_ErzFisch.text[1]","",""
 "Scripts/Content/Items/IT_Secrets.d:23","Irgendwas ist in diesem Fisch versteckt","В этой рыбе что-то спрятано.","","","ItSe_ErzFisch.text[2]","",""
