@@ -111,7 +111,7 @@
 "Scripts/Content/Story/Text.d:137","Ring der Lebenskraft","Кольцо жизненной силы","","","NAME_ADDON_CASSIASBELOHNUNGSRING","",""
 "Scripts/Content/Story/Text.d:139","zum Tempelportal","К порталу храма","","","MOBNAME_ADDON_TELEPORT_01","",""
 "Scripts/Content/Story/Text.d:140","zum Banditenlager","В лагерь бандитов","","","MOBNAME_ADDON_TELEPORT_02","",""
-"Scripts/Content/Story/Text.d:141","zum Sumpf","В болота","","","MOBNAME_ADDON_TELEPORT_03","",""
+"Scripts/Content/Story/Text.d:141","zum Sumpf","На болота","","False","MOBNAME_ADDON_TELEPORT_03","",""
 "Scripts/Content/Story/Text.d:142","zum Tal","В долину","","","MOBNAME_ADDON_TELEPORT_04","",""
 "Scripts/Content/Story/Text.d:143","zum Canyon","В каньон","","","MOBNAME_ADDON_TELEPORT_05","",""
 "Scripts/Content/Story/Text.d:155","Gildenlos","Нет гильдии","","","TXT_GUILDS[0]","",""
