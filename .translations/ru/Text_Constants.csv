@@ -6,7 +6,7 @@
 "Scripts/Content/Story/Text.d:15","Amboss","Наковальня","","","MOBNAME_ANVIL","",""
 "Scripts/Content/Story/Text.d:16","Wasser-Eimer","Ведро воды","","False","MOBNAME_BUCKET","",""
 "Scripts/Content/Story/Text.d:17","Schmiede-Feuer","Кузнечный горн","","","MOBNAME_FORGE","",""
-"Scripts/Content/Story/Text.d:18","Schleifstein","Точильный камень","","","MOBNAME_GRINDSTONE","",""
+"Scripts/Content/Story/Text.d:18","Schleifstein","Точило","","False","MOBNAME_GRINDSTONE","",""
 "Scripts/Content/Story/Text.d:19","Winde","Ворот","","","MOBNAME_WHEEL","",""
 "Scripts/Content/Story/Text.d:20","Alchemietisch","Стол алхимика","","","MOBNAME_LAB","",""
 "Scripts/Content/Story/Text.d:21","Buchständer","Книжная стойка","","False","MOBNAME_BOOKSTAND","",""
