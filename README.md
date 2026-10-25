@@ -47,5 +47,8 @@ Original translation done by CD Projekt.
 Translation authors:  
   - Wollnir
 
+## :kr: Korean
+[![Translation progress](http://weblate.cokoliv.eu/widgets/gothic-2-night-of-the-raven/ko/svg-badge.svg)](http://weblate.cokoliv.eu/engage/gothic-2-night-of-the-raven/ko/)
+
 ## :wales: Cymraeg (Welsh) 
 [![Translation progress](http://weblate.cokoliv.eu/widgets/gothic-2-night-of-the-raven/cy/svg-badge.svg)](http://weblate.cokoliv.eu/engage/gothic-2-night-of-the-raven/cy/)  
