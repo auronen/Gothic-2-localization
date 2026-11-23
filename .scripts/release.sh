@@ -52,6 +52,16 @@ get_encoding() {
     esac
 }
 
+# sikp non cp-encoded languages
+should_skip_lang() {
+    local enc
+    enc=$(get_encoding "$1")
+    case "$enc" in
+        cp*) return 1 ;;
+        *)   return 0 ;;
+    esac
+}
+
 VER=$(date +'%d.%m.%Y')
 
 echo "Substituting Gothic 2 NotR Localizations..."
@@ -59,7 +69,18 @@ echo "Substituting Gothic 2 NotR Localizations..."
 mkdir -p release/{langs,release}
 cp -R .release/* release/release
 
-run_dacode subs -i cp1252 -c "Scripts" -t ".translations" -p -e -d "release/langs"
+# Only substitute languages with cp-based encodings (utf8 blocked)
+SUBS_LANGS=()
+for dir in .translations/*/; do
+    lang=$(basename "$dir")
+    if should_skip_lang "$lang"; then
+        echo "Substitution blocked for language $lang (not cp-based)"
+    else
+        SUBS_LANGS+=("$lang")
+    fi
+done
+
+run_dacode subs -i cp1252 -c "Scripts" -t ".translations" -p -e -d "release/langs" -l "${SUBS_LANGS[@]}"
 
 echo "Compiling Gothic 2 NotR Localizations..."
 
@@ -68,8 +89,12 @@ echo "Compiling Gothic 2 NotR Localizations..."
 for dir in release/langs/*; do
     if [ -d "$dir" ]; then
         LANG=$(basename "$dir")
-        if [ "$LANG" = "cy" ]; then
+        if [ "$LANG" = "cy" ] || [ "$LANG" = "ko" ] || [ "$LANG" = "pt_br" ]; then
             echo "Skipping Gothic 2 NotR: Language $LANG (hardcoded skip)"
+            continue
+        fi
+        if should_skip_lang "$LANG"; then
+            echo "Skipping Gothic 2 NotR: Language $LANG (encoding $(get_encoding "$LANG") is not cp-based, blocked)"
             continue
         fi
         ENC=$(get_encoding "$LANG")
@@ -82,8 +107,12 @@ done
 for dir in release/langs/*; do
     if [ -d "$dir" ]; then
         LANG=$(basename "$dir")
-        if [ "$LANG" = "cy" ]; then
+        if [ "$LANG" = "cy" ] || [ "$LANG" = "ko" ] || [ "$LANG" = "pt_br" ]; then
             echo "Skipping mod files for language $LANG (hardcoded skip)"
+            continue
+        fi
+        if should_skip_lang "$LANG"; then
+            echo "Skipping mod files for language $LANG (encoding $(get_encoding "$LANG") is not cp-based, blocked)"
             continue
         fi
 
@@ -95,7 +124,7 @@ for dir in release/langs/*; do
         ENC=$(get_encoding "$LANG")
         echo "Packing mod files for language $LANG"
 
-        .scripts/vdfs -b "$dir" -c "Gothic 2 NotR localization project ($LANG)" -d release/release/Data/modvdf/G2A_$LANG.mod .scripts/g2a.yml
+        .scripts/vdfs -b "$dir" -c "Gothic 2 NotR localization project ($LANG)" -o release/release/Data/modvdf/G2A_$LANG.mod .scripts/g2a.yml
 
         cp .scripts/GothicLocalized.ini release/release/System/GothicLocalized_$LANG.ini
         sed -i "s/{lang}/$LANG/g; s/{ver}/$VER/g; s/{enc}/$ENC/g" release/release/System/GothicLocalized_$LANG.ini
