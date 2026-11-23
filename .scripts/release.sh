@@ -48,7 +48,7 @@ get_encoding() {
         "cy") echo "utf8" ;;
 
         # Default case if no match is found
-        *) echo "Unknown encoding" ;;
+        *) echo "utf8" ;;
     esac
 }
 
