@@ -1,13 +1,13 @@
 // **************************
-// AIVAR-Kennungen für Humans
+// AIVAR-Kennungen fï¿½r Humans
 // **************************
 
 // ------ NEWS und MEMORY Aivars ------
 // - NUR Augenzeugen
-// - NUR persönliches News-Gedächtnis, geregelt über die folgenden Aivars
-// - schwere Tat überschreibt leichte Tat
-// - KEINE automatische News-Verbreitung, AIV-Check bei aNSCs in Dialogen = Ersatz für News-Verbreitung
-// - News-Vergabe über Dialog-Module
+// - NUR persï¿½nliches News-Gedï¿½chtnis, geregelt ï¿½ber die folgenden Aivars
+// - schwere Tat ï¿½berschreibt leichte Tat
+// - KEINE automatische News-Verbreitung, AIV-Check bei aNSCs in Dialogen = Ersatz fï¿½r News-Verbreitung
+// - News-Vergabe ï¿½ber Dialog-Module
 
 	const int AIV_LastFightAgainstPlayer				= 0;
 	const int FIGHT_NONE								= 0;
@@ -18,7 +18,7 @@
 	const int AIV_NpcSawPlayerCommit					= 1;
 	const int CRIME_NONE								= 0;
 	const int CRIME_SHEEPKILLER							= 1;
-	const int CRIME_ATTACK								= 2;									// Kampf self-SC --> feinere Analys in DIA-Modul über AIV_LastFightAgainstPlayer
+	const int CRIME_ATTACK								= 2;									// Kampf self-SC --> feinere Analys in DIA-Modul ï¿½ber AIV_LastFightAgainstPlayer
 	const int CRIME_THEFT								= 3;
 	const int CRIME_MURDER								= 4;
 
@@ -28,7 +28,7 @@
 	const int AIV_NpcStartedTalk						= 3;									// wenn der NSC mit Important Info den SC anquatscht
 
 // ------ ZS_Talk ------------------------------
-	const int AIV_INVINCIBLE							= 4;									// ist TRUE für beide Teilnehmer eines Dialogs
+	const int AIV_INVINCIBLE							= 4;									// ist TRUE fï¿½r beide Teilnehmer eines Dialogs
 	const int AIV_TalkedToPlayer						= 5;
 
 // ------ Pickpocket ---------------------------
@@ -44,43 +44,43 @@
 	const int AR_LeftPortalRoom							= 1;									// Spieler hat (unbefugten) Portalraum verlassen
 	const int AR_ClearRoom								= 2;									// Spieler ist unbefugt in meinem Raum
 	const int AR_GuardCalledToRoom						= 3;
-	const int AR_MonsterVsHuman							= 4;									// Monster kämpft gegen Human - ich helfe Human
-	const int AR_MonsterMurderedHuman					= 5;									// Monster hat Human getötet
-	const int AR_SheepKiller							= 6;									// Schaf wurde angegriffen oder getötet (von Mensch oder Monster)
+	const int AR_MonsterVsHuman							= 4;									// Monster kï¿½mpft gegen Human - ich helfe Human
+	const int AR_MonsterMurderedHuman					= 5;									// Monster hat Human getï¿½tet
+	const int AR_SheepKiller							= 6;									// Schaf wurde angegriffen oder getï¿½tet (von Mensch oder Monster)
 	const int AR_Theft									= 7;									// Spieler hat Item geklaut
 	const int AR_UseMob									= 8;									// Spieler hat an Mob mit Besitzflag rumgefummelt (kann JEDES Mob sein)
 	const int AR_GuardCalledToThief						= 9;
-	const int AR_ReactToWeapon							= 10;									// Täter hat trotz zweimaliger Warnung Waffe nicht weggesteckt ODER ich fliehe direkt
-	const int AR_ReactToDamage							= 11;									// Täter hat mich verletzt
-	const int AR_GuardStopsFight						= 12;									// Wache beendet Kampf, greift Täter an
-	const int AR_GuardCalledToKill						= 13;									// Wache durch WARN zum Mit-Töten gerufen
+	const int AR_ReactToWeapon							= 10;									// Tï¿½ter hat trotz zweimaliger Warnung Waffe nicht weggesteckt ODER ich fliehe direkt
+	const int AR_ReactToDamage							= 11;									// Tï¿½ter hat mich verletzt
+	const int AR_GuardStopsFight						= 12;									// Wache beendet Kampf, greift Tï¿½ter an
+	const int AR_GuardCalledToKill						= 13;									// Wache durch WARN zum Mit-Tï¿½ten gerufen
 	const int AR_GuildEnemy								= 14;									// Gilden-Feind = Mensch oder Monster
 	const int AR_HumanMurderedHuman						= 15;									// other hat gemordet
 	const int AR_MonsterCloseToGate						= 16;									// GateGuards halten nicht-feindliches Monster auf
 	const int AR_GuardStopsIntruder						= 17;									// GateGuards attackieren Eindringling
-	const int AR_SuddenEnemyInferno						= 18;									// EnemyOverride Blockierung für mich selbst und alle NPCs im Umkreis aufheben.
-	const int AR_KILL									= 19;									// Spieler aus Dialog heraus töten (SC hat keine Chance)
+	const int AR_SuddenEnemyInferno						= 18;									// EnemyOverride Blockierung fï¿½r mich selbst und alle NPCs im Umkreis aufheben.
+	const int AR_KILL									= 19;									// Spieler aus Dialog heraus tï¿½ten (SC hat keine Chance)
 
 // ------ ZS_RansackBody ------------------------
-	const int AIV_RANSACKED								= 10;									// damit nur EIN NSC einen Body plündert
+	const int AIV_RANSACKED								= 10;									// damit nur EIN NSC einen Body plï¿½ndert
 
 // ------ ZS_Dead -------------------------------
-	const int AIV_DeathInvGiven							= 11;									// Für Mensch und Monster!
+	const int AIV_DeathInvGiven							= 11;									// Fï¿½r Mensch und Monster!
 
 // ------ TA_GuardPassage -----------------------
-	const int AIV_Guardpassage_Status					= 12;									// Enthält den Status einer Durchgangswache
-	const int GP_NONE									= 0;									// ...Anfang; SC noch nicht in der Nähe
+	const int AIV_Guardpassage_Status					= 12;									// Enthï¿½lt den Status einer Durchgangswache
+	const int GP_NONE									= 0;									// ...Anfang; SC noch nicht in der Nï¿½he
 	const int GP_FirstWarnGiven							= 1;									// ...nach der ersten Warnung an den SC
 	const int GP_SecondWarnGiven						= 2;									// ...nach der zweiten Warnung an den SC
-	const int AIV_LastDistToWP							= 13;									// enthält die letzte ermittelte Distanz zum Referenz-Waypoint (Checkpoint) (wird beim SPIELER gesetzt!)
+	const int AIV_LastDistToWP							= 13;									// enthï¿½lt die letzte ermittelte Distanz zum Referenz-Waypoint (Checkpoint) (wird beim SPIELER gesetzt!)
 	const int AIV_PASSGATE								= 14;									// TRUE = Spieler kann durch, FALSE = Spieler wird aufgehalten
 
 // ------ XP-Vergabe ----------------------------
-	const int AIV_PARTYMEMBER							= 15;									// für XP-Vergabe, AUCH für Monster
-	const int AIV_VictoryXPGiven						= 16;									// wenn NSC schonmal besiegt, gibts keine XP mehr für den Spieler (z.B. bei unconscious Humans)
+	const int AIV_PARTYMEMBER							= 15;									// fï¿½r XP-Vergabe, AUCH fï¿½r Monster
+	const int AIV_VictoryXPGiven						= 16;									// wenn NSC schonmal besiegt, gibts keine XP mehr fï¿½r den Spieler (z.B. bei unconscious Humans)
 
 // ------ Geschlecht ----------------------------
-	const int AIV_Gender								= 17;									// wird zusammen mit Visual über B_SetVisual gesetzt
+	const int AIV_Gender								= 17;									// wird zusammen mit Visual ï¿½ber B_SetVisual gesetzt
 	const int MALE										= 0;
 	const int FEMALE									= 1;
 
@@ -91,7 +91,7 @@
 	const int FOOD_Bacon								= 2;
 	const int FOOD_Bread								= 3;
 
-// ------ TA Hilfsvariable ----------------------- // notwendig da lokale Hilfsvariablen anscheinend nicht immer neu initialisiert werden bitte nur für TAs verwenden!
+// ------ TA Hilfsvariable ----------------------- // notwendig da lokale Hilfsvariablen anscheinend nicht immer neu initialisiert werden bitte nur fï¿½r TAs verwenden!
 	const int AIV_TAPOSITION							= 19;
 	const int ISINPOS									= 0;
 	const int NOTINPOS									= 1;
@@ -119,7 +119,7 @@
 	const int AIV_ToughGuyNewsOverride					= 25;
 
 // ***************************
-// AIVAR-Kennungen für Monster
+// AIVAR-Kennungen fï¿½r Monster
 // ***************************
 
 	const int AIV_MM_ThreatenBeforeAttack				= 26;
@@ -127,9 +127,9 @@
 	const int FOLLOWTIME_SHORT							= 5;
 	const int FOLLOWTIME_MEDIUM							= 10;
 	const int FOLLOWTIME_LONG							= 20;
-	const int AIV_MM_FollowInWater						= 28;									// AUCH für HUMANS! - folgt einem der NSC auch in Wasser?
+	const int AIV_MM_FollowInWater						= 28;									// AUCH fï¿½r HUMANS! - folgt einem der NSC auch in Wasser?
 // ----------------------------------------------
-	const int AIV_MM_PRIORITY							= 29;									// ist meine Priorität gerade FRESSEN oder KÄMPFEN (immer fressen, es sei denn ich werde getroffen)
+	const int AIV_MM_PRIORITY							= 29;									// ist meine Prioritï¿½t gerade FRESSEN oder Kï¿½MPFEN (immer fressen, es sei denn ich werde getroffen)
 	const int PRIO_EAT									= 0;
 	const int PRIO_ATTACK								= 1;
 // ----------------------------------------------
@@ -233,7 +233,7 @@
 	const int AF_AFTER									= 2;
 	const int AF_AFTER_PLUS_DAMAGE						= 3;
 
-// ------ zusätzlich zur CRIME merken -----------
+// ------ zusï¿½tzlich zur CRIME merken -----------
 	const int AIV_CrimeAbsolutionLevel					= 46;
 
 // ------ ZS_Attack ----------------------------
@@ -265,7 +265,7 @@
 	const int AIV_IGNORE_Sheepkiller					= 56;
 
 // ------ ToughGuy IGNORIERT Attack-Crime ------
-	const int AIV_ToughGuy								= 57;									// Jubelt beim Kampf, hat keine News bei Attack (kann über AIV_LastFightAgainstPlayer reagieren)
+	const int AIV_ToughGuy								= 57;									// Jubelt beim Kampf, hat keine News bei Attack (kann ï¿½ber AIV_LastFightAgainstPlayer reagieren)
 
 // ------ News Override (petzen aber nicht labern) ------
 	const int AIV_NewsOverride							= 58;
@@ -277,7 +277,7 @@
 // ------ B_AssessEnemy ------
 	const int AIV_EnemyOverride							= 61;
 
-// ------ für beschworene Monster ------
+// ------ fï¿½r beschworene Monster ------
 	const int AIV_SummonTime							= 62;
 
 // ------ ZS_Attack ------
@@ -294,7 +294,7 @@
 	const int AIV_KilledByPlayer						= 67;
 
 // ------ diverse ZS -------
-	const int AIV_StateTime								= 68;									// um mit zwei StateTime-Triggern arbeiten zu können.
+	const int AIV_StateTime								= 68;									// um mit zwei StateTime-Triggern arbeiten zu kï¿½nnen.
 
 // -------------------------
 	const int AIV_Dist									= 69;
@@ -302,9 +302,9 @@
 	const int AIV_IgnoresFakeGuild						= 70;
 
 	const int AIV_NoFightParker							= 71;									// wird von NSCs weder angegriffen, noch greift er selber welche an. (Archetyp: Gefangener)
-	const int AIV_NPCIsRanger							= 72;									// Der Typ gehört zum 'Ring des Wassers'
-	const int AIV_IgnoresArmor							= 73;									// Keine Reaktion oder Konsequenzen auf die Rüstung des SC
-	const int AIV_StoryBandit							= 74;									// Banditen, mit denen gekämpft werden darf
+	const int AIV_NPCIsRanger							= 72;									// Der Typ gehï¿½rt zum 'Ring des Wassers'
+	const int AIV_IgnoresArmor							= 73;									// Keine Reaktion oder Konsequenzen auf die Rï¿½stung des SC
+	const int AIV_StoryBandit							= 74;									// Banditen, mit denen gekï¿½mpft werden darf
 	const int AIV_StoryBandit_Esteban					= 75;									// Estebans Dreigestirn
 
 // ------ ZS_Whirlwind --------
@@ -334,7 +334,7 @@
 	const int AIV_SpellLevel							= 88;
 
 // ***************************************************
-// Globalvariablen für Petzen/Absolution/News - System
+// Globalvariablen fï¿½r Petzen/Absolution/News - System
 // ***************************************************
 
 	var int ABSOLUTIONLEVEL_OldCamp;
@@ -408,7 +408,7 @@
 	const int MONSTER_SUMMON_TIME						= 60;
 
 /********************************************************************
-** Konstanten für Distanzen **
+** Konstanten fï¿½r Distanzen **
 ** der Menschen - AI **
 ********************************************************************/
 // --------------------------------------------
@@ -418,12 +418,12 @@
 // ---------------------------------------------
 	const int PERC_DIST_INTERMEDIAT						= 1000;									// Mittlere Passive Wahrnehmung
 	const int PERC_DIST_DIALOG							= 500;									// Dialogreichweite
-	const int PERC_DIST_HEIGHT							= 1000;									// ab welchem Höhenunterschied wird Wn ignoriert
-	const int PERC_DIST_INDOOR_HEIGHT					= 250;									// dasselbe für Indoor (zum Ignorieren von anderen Stockwerken wenn ganzes Haus (Höhlensystem) EIN Portalraum ist)
+	const int PERC_DIST_HEIGHT							= 1000;									// ab welchem Hï¿½henunterschied wird Wn ignoriert
+	const int PERC_DIST_INDOOR_HEIGHT					= 250;									// dasselbe fï¿½r Indoor (zum Ignorieren von anderen Stockwerken wenn ganzes Haus (Hï¿½hlensystem) EIN Portalraum ist)
 // ---------------------------------------------
 	const int FIGHT_DIST_MELEE							= 600;									// Bis zu welcher Entfernung Bedrohung durch SC-Waffe
-	const int FIGHT_DIST_RANGED_INNER					= 900;									// Ab welcher Entfernung NK wählen, wenn NSC im FK ist
-	const int FIGHT_DIST_RANGED_OUTER					= 1000;									// Ab welcher Entfernung FK wählen, wenn NSC im NK ist oder Waffe zum ersten Mal gezogen wird
+	const int FIGHT_DIST_RANGED_INNER					= 900;									// Ab welcher Entfernung NK wï¿½hlen, wenn NSC im FK ist
+	const int FIGHT_DIST_RANGED_OUTER					= 1000;									// Ab welcher Entfernung FK wï¿½hlen, wenn NSC im NK ist oder Waffe zum ersten Mal gezogen wird
 	const int FIGHT_DIST_CANCEL							= 3500;									// Bis wann hinterherschiessen, ab welcher Distanz Kampf abbrechen ODER Flucht abbrechen
 // ---------------------------------------------
 	const int WATCHFIGHT_DIST_MIN						= 300;
@@ -432,23 +432,23 @@
 	const int ZivilAnquatschDist						= 400;									// Distanz, ab der dich ein NSC zivil anspricht (Maximum ist PERC_DIST_ACTIVE_MAX --> B_AssessPlayer)
 
 // ---------------------------------------------
-	const float RANGED_CHANCE_MINDIST					= 1500;									// Unterhalb dieser Distanz steigt die Trefferchance linear bis 100% an. (Default sind 10m)
-	const float RANGED_CHANCE_MAXDIST					= 4500;									// Ab RANGED_CHANCE_MINDIST bis RANGED_CHANCE_MAXDIST sinkt die Trefferchance bis auf 0% ab (default sind 100m)
+	const float RANGED_CHANCE_MINDIST					= 1500.0;								// Unterhalb dieser Distanz steigt die Trefferchance linear bis 100% an. (Default sind 10m)
+	const float RANGED_CHANCE_MAXDIST					= 4500.0;								// Ab RANGED_CHANCE_MINDIST bis RANGED_CHANCE_MAXDIST sinkt die Trefferchance bis auf 0% ab (default sind 100m)
 
 /********************************************************************
 ** Zeit - Konstanten *
 ********************************************************************/
-	const int NPC_ANGRY_TIME							= 120;									// MUSS SO HEISSEN, ist vom Programm ausgelagert - Spielsekunden, die die Temp_Att aufrechterhalten wird, bevor sie wieder auf Perm_Att gesetzt wird (gilt für alle At, nicht nur für angry)
+	const int NPC_ANGRY_TIME							= 120;									// MUSS SO HEISSEN, ist vom Programm ausgelagert - Spielsekunden, die die Temp_Att aufrechterhalten wird, bevor sie wieder auf Perm_Att gesetzt wird (gilt fï¿½r alle At, nicht nur fï¿½r angry)
 // -------------------------------------------
-	const int HAI_TIME_UNCONSCIOUS						= 20;									// MUSS SO HEISSEN, ist vom Programm ausgelagert (Default = 20) - Zeit in Sekunden, die der SC und NSCs bewußtlos bleiben
+	const int HAI_TIME_UNCONSCIOUS						= 20;									// MUSS SO HEISSEN, ist vom Programm ausgelagert (Default = 20) - Zeit in Sekunden, die der SC und NSCs bewuï¿½tlos bleiben
 // -------------------------------------------
 	const int NPC_TIME_FOLLOW							= 10;									// Zeit, die sich das Opfer des NSCs maximal in BS_RUN befinden darf, um noch weiter verfolgt zu werden
 
 /********************************************************************
 ** Mindestschaden **
 ********************************************************************/
-	const int NPC_MINIMAL_DAMAGE						= 5;									// MUSS SO HEISSEN, ist vom Programm ausgelagert - Untere Genze des Mindestschadens für Menschen (*** und Monster ??? ***)
-	const int NPC_MINIMAL_PERCENT						= 10;									// MUSS SO HEISSEN, ist vom Programm ausgelagert - Mindestschaden wird ermittelt durch X% vom normalen Gesamtschaden (NACH Abzug der Rüstung), wobei NPC_MINIMAL_DAMAGE genommen wird, falls Mindestschaden NACH %-Berechnung kleiner als NPC_MINIMAL_DAMAGE!
+	const int NPC_MINIMAL_DAMAGE						= 5;									// MUSS SO HEISSEN, ist vom Programm ausgelagert - Untere Genze des Mindestschadens fï¿½r Menschen (*** und Monster ??? ***)
+	const int NPC_MINIMAL_PERCENT						= 10;									// MUSS SO HEISSEN, ist vom Programm ausgelagert - Mindestschaden wird ermittelt durch X% vom normalen Gesamtschaden (NACH Abzug der Rï¿½stung), wobei NPC_MINIMAL_DAMAGE genommen wird, falls Mindestschaden NACH %-Berechnung kleiner als NPC_MINIMAL_DAMAGE!
 
 /********************************************************************
 ** Fight AI - Constanten *
@@ -490,8 +490,8 @@
 
 	const int FAI_Alligator								= 43;									// Alligator Addon
 	const int FAI_Gargoyle								= 44;									// Steinpuma
-	const int FAI_Bear									= 45;									// Bär
-	const int FAI_Stoneguardian							= 46;									// Steinwächter
+	const int FAI_Bear									= 45;									// Bï¿½r
+	const int FAI_Stoneguardian							= 46;									// Steinwï¿½chter
 
 /********************************************************************
 ** Allgemeine Konstanten **
@@ -530,7 +530,7 @@
 //		Produktions-Mobsis
 //****************************************************
 
-// werden benötigt um eine Unterscheidung der Mobsi beim PC_Hero Dialog vorzunehmen.
+// werden benï¿½tigt um eine Unterscheidung der Mobsi beim PC_Hero Dialog vorzunehmen.
 
 	const int MOBSI_NONE								= 0;
 	const int MOBSI_SmithWeapon							= 1;
@@ -544,10 +544,10 @@
 	var int PLAYER_MOBSI_PRODUCTION;
 
 // *****************************
-// Konstanten für B_SetNpcVisual
+// Konstanten fï¿½r B_SetNpcVisual
 // *****************************
 
-// ------ Nacktmesh-Texturen für Männer und Frauen (je 4) ------
+// ------ Nacktmesh-Texturen fï¿½r Mï¿½nner und Frauen (je 4) ------
 	const int BodyTex_P									= 0;									// Pale
 	const int BodyTex_N									= 1;									// Normal
 	const int BodyTex_L									= 2;									// Latino
@@ -555,18 +555,18 @@
 	const int BodyTexBabe_P								= 4;									// Pale Babe
 	const int BodyTexBabe_N								= 5;									// Normal Babe
 	const int BodyTexBabe_L								= 6;									// Latino Babe
-	const int BodyTexBabe_B								= 7;									// Black Babe // Frauen werden auch mit den "Männer"-Konstanten angegeben, dann vom Script +4 addiert, d.h. diese Konstanten werden nicht gebraucht
+	const int BodyTexBabe_B								= 7;									// Black Babe // Frauen werden auch mit den "Mï¿½nner"-Konstanten angegeben, dann vom Script +4 addiert, d.h. diese Konstanten werden nicht gebraucht
 	const int BodyTex_Player							= 8;
 
 // ---------ADD ON----------------------
-	const int BodyTex_T									= 10;									// tätowierte psionikerhaut
+	const int BodyTex_T									= 10;									// tï¿½towierte psionikerhaut
 	const int BodyTexBabe_F								= 11;									// Fellkragen Babe
 	const int BodyTexBabe_S								= 12;									// das kleine Schwarze
 
-// ------ Keine Rüstung ------
+// ------ Keine Rï¿½stung ------
 	const int NO_ARMOR									= - 1;
 
-// ------- Gesichter für Männer ------
+// ------- Gesichter fï¿½r Mï¿½nner ------
 	const int Face_N_Gomez								= 0;
 	const int Face_N_Scar								= 1;
 	const int Face_N_Raven								= 2;
@@ -713,7 +713,7 @@
 	const int Face_B_Normal_Orik						= 135;
 	const int Face_B_Normal_Kharim						= 136;
 
-// ------ Gesichter für Frauen ------
+// ------ Gesichter fï¿½r Frauen ------
 
 	const int FaceBabe_N_BlackHair						= 137;
 	const int FaceBabe_N_Blondie						= 138;

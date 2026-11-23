@@ -13,14 +13,14 @@ const string FONT_Book = "FONT_10_BOOK.TGA";
 const string FONT_BookHeadline = "FONT_20_BOOK.TGA";
 
 // ****************************
-// Spellkosten für ALLE SCrolls
+// Spellkosten fï¿½r ALLE SCrolls
 // ****************************
 const int SPL_Cost_Scroll = 5;
 
-// MH: 19.11.01 Gildennamen geändert --> Änderungen in Text.d (Character-Screen Gildenbezeichnungen) und Species.d (Gildenanhängige Bewegungswerte wie z.B Kletterhöhe)
-// MH: 19.11.01 Talente hinzugefügt
-// MH: 15.12.01 Neue Spells hinzugefügt
-// MH: 15.12.01 Neue Player Talente hinzugefügt
+// MH: 19.11.01 Gildennamen geï¿½ndert --> ï¿½nderungen in Text.d (Character-Screen Gildenbezeichnungen) und Species.d (Gildenanhï¿½ngige Bewegungswerte wie z.B Kletterhï¿½he)
+// MH: 19.11.01 Talente hinzugefï¿½gt
+// MH: 15.12.01 Neue Spells hinzugefï¿½gt
+// MH: 15.12.01 Neue Player Talente hinzugefï¿½gt
 
 //
 //	NPC ATTRIBUTES
@@ -31,7 +31,7 @@ const int ATR_HITPOINTS_MAX = 1; // Max. Lebenspunkte
 const int ATR_MANA = 2; // Mana Mana
 const int ATR_MANA_MAX = 3; // Mana Max
 
-const int ATR_STRENGTH = 4; // Stärke
+const int ATR_STRENGTH = 4; // Stï¿½rke
 const int ATR_DEXTERITY = 5; // Geschick
 const int ATR_REGENERATEHP = 6; // Regenerierung von HP alle x sekunden
 const int ATR_REGENERATEMANA = 7; // Regenerierung von Mana alle x sekunden
@@ -41,7 +41,7 @@ const int ATR_INDEX_MAX = 8;
 //
 //	NPC FLAGS
 //
-const int NPC_FLAG_FRIEND = 1 << 0; // wird nicht benutzt (wird über aivar geregelt)
+const int NPC_FLAG_FRIEND = 1 << 0; // wird nicht benutzt (wird ï¿½ber aivar geregelt)
 const int NPC_FLAG_IMMORTAL = 1 << 1; // Unverwundbar
 const int NPC_FLAG_GHOST = 1 << 2; // Halb-Transparenter NPC (Gothic.ini [INTERNAL] 'GhostAlpha')
 
@@ -85,7 +85,7 @@ const int INV_MISC = 8;
 const int INV_CAT_MAX = 9;
 
 //
-//	INVENTORY CAPACITIES // --- werden vom Programm ignoriert - INV ist unendlich groß! ---
+//	INVENTORY CAPACITIES // --- werden vom Programm ignoriert - INV ist unendlich groï¿½! ---
 //
 const int INV_MAX_WEAPONS = 6;
 const int INV_MAX_ARMORS = 2;
@@ -249,7 +249,7 @@ const int PERC_NPCCOMMAND = 26;
 const int PERC_ASSESSMAGIC = 27;
 const int PERC_ASSESSSTOPMAGIC = 28;
 const int PERC_ASSESSCASTER = 29; // wird beim 1. investierten Manapunkt gesendet
-const int PERC_ASSESSSURPRISE = 30; // wird beim Zurückverwandeln gesendet
+const int PERC_ASSESSSURPRISE = 30; // wird beim Zurï¿½ckverwandeln gesendet
 const int PERC_ASSESSENTERROOM = 31;
 const int PERC_ASSESSUSEMOB = 32;
 
@@ -276,7 +276,7 @@ const int INF_UNKNOWN = 2;
 //
 //	MISSION STATUS
 //
-const int LOG_RUNNING = 1; // Mission läuft gerade
+const int LOG_RUNNING = 1; // Mission lï¿½uft gerade
 const int LOG_SUCCESS = 2; // Mission erfolgreich beendet
 const int LOG_FAILED = 3; // Mission wurde abgebrochen
 const int LOG_OBSOLETE = 4; // Mission ist hinfaellig
@@ -297,22 +297,22 @@ const int GIL_NONE = 0; // (keine)
 const int GIL_HUMAN = 1; // Special Guild -> To set Constants for ALL Human Guilds --> wird verwendet in Species.d
 const int GIL_PAL = 1; // Paladin
 const int GIL_MIL = 2; // Miliz
-const int GIL_VLK = 3; // Bürger
+const int GIL_VLK = 3; // Bï¿½rger
 const int GIL_KDF = 4; // Magier
 const int GIL_NOV = 5; // Magier Novize
-const int GIL_DJG = 6; // Drachenjäger
-const int GIL_SLD = 7; // Söldner
+const int GIL_DJG = 6; // Drachenjï¿½ger
+const int GIL_SLD = 7; // Sï¿½ldner
 const int GIL_BAU = 8; // Bauer
 const int GIL_BDT = 9; // Bandit
-const int GIL_STRF = 10; // Prisoner, Sträfling
+const int GIL_STRF = 10; // Prisoner, Strï¿½fling
 const int GIL_DMT = 11; // Dementoren
-const int GIL_OUT = 12; // Outlander (z.B. kleine Bauernhöfe)
+const int GIL_OUT = 12; // Outlander (z.B. kleine Bauernhï¿½fe)
 
 const int GIL_PIR = 13; // Pirat
 const int GIL_KDW = 14; // KDW
 const int GIL_EMPTY_D = 15; // NICHT VERWENDEN!
 // -----------------------------------------------
-const int GIL_PUBLIC = 15; // für öffentliche Portalräume
+const int GIL_PUBLIC = 15; // fï¿½r ï¿½ffentliche Portalrï¿½ume
 // -----------------------------------------------
 
 const int GIL_SEPERATOR_HUM = 16;
@@ -402,7 +402,7 @@ class C_GILVALUES
 	var int FIGHT_RANGE_2HS [GIL_MAX];
 	var int FIGHT_RANGE_2HA [GIL_MAX];
 	var int FALLDOWN_HEIGHT [GIL_MAX]; // Wie tief Fallen ohne Schaden ?
-	var int FALLDOWN_DAMAGE [GIL_MAX]; // Schaden für jeden weiteren angefangenen Meter.
+	var int FALLDOWN_DAMAGE [GIL_MAX]; // Schaden fï¿½r jeden weiteren angefangenen Meter.
 	var int BLOOD_DISABLED [GIL_MAX]; // DEFAULT = 0; Blut ganz ausschalten (z.B. bei Sekletten) ?
 	var int BLOOD_MAX_DISTANCE [GIL_MAX]; // DEFAULT = 1000; Wie weit spritzt das Blut (in cm) ?
 	var int BLOOD_AMOUNT [GIL_MAX]; // DEFAULT = 10; Wie viel Blut ?
@@ -462,13 +462,13 @@ const int SPELL_BAD = 2;
 //	Spells: Steuerungs-Konstanten
 //
 
-const int SPL_DONTINVEST = 0; // Es können keine weiteren Manapunkte investiert werden. Erst durch CTRL loslassen geht der Spell ab
-const int SPL_RECEIVEINVEST = 1; // Wirkung durchgeführt, es können weitere Invest kommen, zB.bei Heal nach jedem Pöppel
+const int SPL_DONTINVEST = 0; // Es kï¿½nnen keine weiteren Manapunkte investiert werden. Erst durch CTRL loslassen geht der Spell ab
+const int SPL_RECEIVEINVEST = 1; // Wirkung durchgefï¿½hrt, es kï¿½nnen weitere Invest kommen, zB.bei Heal nach jedem Pï¿½ppel
 const int SPL_SENDCAST = 2; // Starte den Zauber-Effekt (wie CTRL loslassen), automatischer Abbruch
 const int SPL_SENDSTOP = 3; // Beende Zauber ohne Effekt
-const int SPL_NEXTLEVEL = 4; // setze den Spruch auf den nächsten Level
+const int SPL_NEXTLEVEL = 4; // setze den Spruch auf den nï¿½chsten Level
 const int SPL_STATUS_CANINVEST_NO_MANADEC = 8;
-const int SPL_FORCEINVEST = 1 << 16; // zieht auf jeden Fall einen Manapunkt ab, egal ob timePerMana abgelaufen ist, oder nicht (sinnvoll für Investierzauber, die zumindest einen Manapunkt abziehen sollen, obwohl timePerMana noch nicht abgelaufen ist.
+const int SPL_FORCEINVEST = 1 << 16; // zieht auf jeden Fall einen Manapunkt ab, egal ob timePerMana abgelaufen ist, oder nicht (sinnvoll fï¿½r Investierzauber, die zumindest einen Manapunkt abziehen sollen, obwohl timePerMana noch nicht abgelaufen ist.
 
 ////////////////////////////////////////////////////////////////////////////////
 //
@@ -780,7 +780,7 @@ const string spellFxInstanceNames[MAX_SPELL] =
 
 ////////////////////////////////////////////////////////////////////////////////
 //
-//	Spells: Animationskürzel (Array)
+//	Spells: Animationskï¿½rzel (Array)
 //
 
 const string spellFxAniLetters[MAX_SPELL] =
@@ -944,9 +944,9 @@ const int NPC_TALENT_MAGE = 7;
 const int NPC_TALENT_SNEAK = 8;
 const int NPC_TALENT_REGENERATE = 9; // ??? was ist davon drin?
 const int NPC_TALENT_FIREMASTER = 10; // ??? was ist davon drin?
-const int NPC_TALENT_ACROBAT = 11; // --> Anis ändern!
+const int NPC_TALENT_ACROBAT = 11; // --> Anis ï¿½ndern!
 
-// NEW Talents // werden komplett auf Scriptebene umgesetzt - Programm braucht sie nur für Ausgabe im Characterscreen
+// NEW Talents // werden komplett auf Scriptebene umgesetzt - Programm braucht sie nur fï¿½r Ausgabe im Characterscreen
 const int NPC_TALENT_PICKPOCKET = 12;
 const int NPC_TALENT_SMITH = 13;
 const int NPC_TALENT_RUNES = 14;
@@ -965,7 +965,7 @@ const int NPC_TALENT_MAX = 22; // ehem. 12
 // Runen-Talente
 // *************
 
-var int PLAYER_TALENT_RUNES[MAX_SPELL]; // Die SPL_ Konstanten werden hierfür als Kennung verwendet
+var int PLAYER_TALENT_RUNES[MAX_SPELL]; // Die SPL_ Konstanten werden hierfï¿½r als Kennung verwendet
 
 // *************
 // ForeignLanguage-TalentStufen
@@ -1091,7 +1091,7 @@ const string TEXT_FONT_Inventory = "Font_old_10_white.tga";
 // wenn kein wav da ist (msec/character)
 // ****************************************
 
-const float VIEW_TIME_PER_CHAR = 550;
+const float VIEW_TIME_PER_CHAR = 550.0;
 
 // ****************************************
 //	LevelZen-Abfrage im B_Kapitelwechsel
@@ -1103,7 +1103,7 @@ const int DRAGONISLAND_ZEN = 3;
 const int ADDONWORLD_ZEN = 4;
 
 // ****************************************
-//	Kamera für Inventory-Items
+//	Kamera fï¿½r Inventory-Items
 // ****************************************
 
 const int INVCAM_ENTF_RING_STANDARD = 400;

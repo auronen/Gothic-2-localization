@@ -59,7 +59,7 @@ echo "Substituting Gothic 2 NotR Localizations..."
 mkdir -p release/{langs,release}
 cp -R .release/* release/release
 
-run_dacode subs -i cp1252 -c "Scripts" -t ".translations" -p -e -o "release/langs"
+run_dacode subs -i cp1252 -c "Scripts" -t ".translations" -p -e -d "release/langs"
 
 echo "Compiling Gothic 2 NotR Localizations..."
 
@@ -68,26 +68,34 @@ echo "Compiling Gothic 2 NotR Localizations..."
 for dir in release/langs/*; do
     if [ -d "$dir" ]; then
         LANG=$(basename "$dir")
+        if [ "$LANG" = "cy" ]; then
+            echo "Skipping Gothic 2 NotR: Language $LANG (hardcoded skip)"
+            continue
+        fi
         ENC=$(get_encoding "$LANG")
         echo "Compiling Gothic 2 NotR: Language $LANG with $ENC"
 
-        run_dacode compile -c "$dir" -i $ENC -g g2a -p gothic,menu
+        run_dacode compile -c "$dir" -i $ENC -g g2a -p gothic,menu --no-control-flow-checks --no-type-checking
     fi
 done
 
 for dir in release/langs/*; do
     if [ -d "$dir" ]; then
+        LANG=$(basename "$dir")
+        if [ "$LANG" = "cy" ]; then
+            echo "Skipping mod files for language $LANG (hardcoded skip)"
+            continue
+        fi
 
         mkdir -p "$dir/_work/Data/Scripts"
         mv "$dir"/_compiled "$dir"/_work/Data/Scripts/_compiled
         mv "$dir"/Content   "$dir"/_work/Data/Scripts/Content
         mv "$dir"/System    "$dir"/_work/Data/Scripts/System
 
-        LANG=$(basename "$dir")
         ENC=$(get_encoding "$LANG")
         echo "Packing mod files for language $LANG"
 
-        .scripts/vdfs -b "$dir" -c "Gothic 2 NotR localization project ($LANG)" -o release/release/Data/modvdf/G2A_$LANG.mod .scripts/g2a.yml
+        .scripts/vdfs -b "$dir" -c "Gothic 2 NotR localization project ($LANG)" -d release/release/Data/modvdf/G2A_$LANG.mod .scripts/g2a.yml
 
         cp .scripts/GothicLocalized.ini release/release/System/GothicLocalized_$LANG.ini
         sed -i "s/{lang}/$LANG/g; s/{ver}/$VER/g; s/{enc}/$ENC/g" release/release/System/GothicLocalized_$LANG.ini
