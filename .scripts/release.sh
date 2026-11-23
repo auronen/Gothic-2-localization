@@ -1,4 +1,23 @@
 #!/usr/bin/env bash
+set -euo pipefail
+
+# Run dacode and fail the script if it hits a fatal error
+# (dacode exits 0 even when it hits errors, because some of them are okay;
+# and I am lazy... so the output must be checked;
+# only CSV errors are fatal - other [ERROR]s are passable)
+run_dacode() {
+    local out rc=0
+    out=$(.scripts/dacode "$@" 2>&1) || rc=$?
+    printf '%s\n' "$out"
+    if [ "$rc" -ne 0 ]; then
+        echo "::error::dacode failed with exit code $rc" >&2
+        exit "$rc"
+    fi
+    if printf '%s\n' "$out" | grep -q '^[[:space:]]*\[ERROR\] CSV'; then
+        echo "::error::dacode reported CSV errors, aborting" >&2
+        exit 1
+    fi
+}
 
 # function for correct encodings
 get_encoding() {
@@ -40,7 +59,7 @@ echo "Substituting Gothic 2 NotR Localizations..."
 mkdir -p release/{langs,release}
 cp -R .release/* release/release
 
-.scripts/dacode subs -i cp1252 -c "Scripts" -t ".translations" -p -e -o "release/langs"
+run_dacode subs -i cp1252 -c "Scripts" -t ".translations" -p -e -o "release/langs"
 
 echo "Compiling Gothic 2 NotR Localizations..."
 
@@ -52,7 +71,7 @@ for dir in release/langs/*; do
         ENC=$(get_encoding "$LANG")
         echo "Compiling Gothic 2 NotR: Language $LANG with $ENC"
 
-        .scripts/dacode compile -c "$dir" -i $ENC -g g2a -p gothic,menu
+        run_dacode compile -c "$dir" -i $ENC -g g2a -p gothic,menu
     fi
 done
 
